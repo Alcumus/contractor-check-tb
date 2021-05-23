@@ -1,5 +1,5 @@
 {
-  "__": "HTHriD5r8sAxjk",
+  "__": "UXCgXdegIWNB63",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -169,7 +169,7 @@
   },
   "$valid": true,
   "__warn": false,
-  "client": "mAlQ6JUvniLqBk",
+  "client": "rsihYJKKDVyaYN",
   "gitHub": {
     "aV8boSk1D6q6YG": {
       "publishDocs": true,
@@ -177,7 +177,7 @@
     }
   },
   "locked": false,
-  "_client": "mAlQ6JUvniLqBk",
+  "_client": "rsihYJKKDVyaYN",
   "demands": [],
   "graphQL": {
     "6g4mciY7jkfOUo": {
@@ -189,7 +189,7 @@
     }
   },
   "$invalid": false,
-  "_created": 1621432261000,
+  "_created": 1621461152000,
   "_deleted": 0,
   "database": "companyP",
   "maxWidth": 1000,
@@ -224,23 +224,14 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1621792114775,
-      "user": "3e424bc3-fb9a-47a1-93a1-056351146687",
-      "locked": true,
-      "_selectId": "65HXaVjN5R8h1p",
-      "parentVersion": "Bx_OD0XlxHBKQx"
-    },
-    {
-      "id": "zk0gwNadHUfzTE",
-      "name": "provincemove",
-      "time": 1621792140146,
-      "user": "3e424bc3-fb9a-47a1-93a1-056351146687",
+      "time": 1621798466595,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "VDhIRnE2zSEuxb",
-      "parentVersion": "GmG8PN_c_6Ta_E"
+      "_selectId": "mU1kWf1zuflHHB",
+      "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1621788540000,
+  "_modified": 1621794866000,
   "components": "",
   "isLockedBy": null,
   "navigation": [],
@@ -294,6 +285,24 @@
                   "maxWidth": "",
                   "question": "",
                   "_selectId": "EwKg0PNptp3x9I",
+                  "condition": "",
+                  "inputLabel": "",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "fToPIYyylGM46y",
+                  "name": "description",
+                  "type": "text",
+                  "hints": {
+                    "rich_text": true
+                  },
+                  "maxWidth": "",
+                  "question": "<p>Enter a description of your business that will be shown on the master list profile.</p>\n",
+                  "_selectId": "HJQerx3AeorCBr",
                   "condition": "",
                   "inputLabel": "",
                   "defaultValue": "",
@@ -1087,16 +1096,16 @@
   "tabsSelected": "#009fda",
   "__warnReasons": [],
   "documentColor": "#333",
-  "_activeVersion": "VwJdCMhH9pQP38",
-  "_parentVersion": "zk0gwNadHUfzTE",
+  "_activeVersion": "zk0gwNadHUfzTE",
+  "_parentVersion": "GmG8PN_c_6Ta_E",
   "currentVersion": {
-    "live": "provincemove",
-    "testing": "provincemove",
-    "development": "provincemove"
+    "live": "Preferred Language",
+    "testing": "Preferred Language",
+    "development": "Preferred Language"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
   "defaultActivity": "x_5KNezQjHRN0v",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
