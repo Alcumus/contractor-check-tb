@@ -1,5 +1,5 @@
 {
-  "__": "wTT_YrqI4q_XpI",
+  "__": "Dl66Rzpm5wueg-",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -224,14 +224,14 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1621742363407,
+      "time": 1621787711733,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "6yaEAwD6UAjuUJ",
+      "_selectId": "CCC8PfrBsRz251",
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1621738763000,
+  "_modified": 1621784112000,
   "components": "",
   "isLockedBy": null,
   "navigation": [],
@@ -459,6 +459,70 @@
                   "questionSpaceBefore": ""
                 },
                 {
+                  "id": "GCD1AZZQ8IMFWq",
+                  "name": "",
+                  "type": "stop",
+                  "hints": {},
+                  "question": "",
+                  "stopWhat": [],
+                  "_selectId": "NCeINXuHl3-gP3",
+                  "condition": ""
+                },
+                {
+                  "id": "pQt6Vd4QWL9s9A",
+                  "name": "",
+                  "type": "title",
+                  "color": "#ffffff",
+                  "hints": {},
+                  "title": "Your Business",
+                  "question": "",
+                  "_selectId": "ajxMd_ndyiShEP",
+                  "condition": "",
+                  "questionHeight": "",
+                  "backgroundColor": "#294a76",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "Tz0iMdfdSnWuUJ",
+                  "name": "country",
+                  "type": "choice",
+                  "hints": {
+                    "choose_multiple": true
+                  },
+                  "choices": [
+                    {
+                      "label": "Canada",
+                      "value": "Canada"
+                    },
+                    {
+                      "label": "US",
+                      "value": "US"
+                    }
+                  ],
+                  "question": "<p>Indicate the countries that your business operates in</p>\n",
+                  "_selectId": "aXJhFvB6zxOZqe",
+                  "condition": "",
+                  "inputLabel": "Operating Countries",
+                  "uniqueChoice": "",
+                  "choiceOptions": {
+                    "US": {
+                      "icon": "",
+                      "colour": ""
+                    },
+                    "Canada": {
+                      "icon": "",
+                      "colour": ""
+                    }
+                  },
+                  "defaultChoices": [],
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
                   "id": "myc7yWzS5RFQOa",
                   "name": "province",
                   "type": "choice",
@@ -519,10 +583,10 @@
                       "value": "Yukon"
                     }
                   ],
-                  "question": "",
+                  "question": "<p>Indicate the provinces that your business operates in</p>\n",
                   "_selectId": "BLoHExmoe4ZBon",
                   "condition": "country = Canada",
-                  "inputLabel": "",
+                  "inputLabel": "Operating Provinces",
                   "uniqueChoice": "",
                   "choiceOptions": {
                     "": {
@@ -566,70 +630,6 @@
                       "colour": ""
                     },
                     "Newfoundland and Labrador": {
-                      "icon": "",
-                      "colour": ""
-                    }
-                  },
-                  "defaultChoices": [],
-                  "questionHeight": "",
-                  "questionLeftPad": "",
-                  "questionRightPad": "",
-                  "questionSpaceBefore": ""
-                },
-                {
-                  "id": "GCD1AZZQ8IMFWq",
-                  "name": "",
-                  "type": "stop",
-                  "hints": {},
-                  "question": "",
-                  "stopWhat": [],
-                  "_selectId": "NCeINXuHl3-gP3",
-                  "condition": ""
-                },
-                {
-                  "id": "pQt6Vd4QWL9s9A",
-                  "name": "",
-                  "type": "title",
-                  "color": "#ffffff",
-                  "hints": {},
-                  "title": "Your Business",
-                  "question": "",
-                  "_selectId": "ajxMd_ndyiShEP",
-                  "condition": "",
-                  "questionHeight": "",
-                  "backgroundColor": "#294a76",
-                  "questionLeftPad": "",
-                  "questionRightPad": "",
-                  "questionSpaceBefore": ""
-                },
-                {
-                  "id": "Tz0iMdfdSnWuUJ",
-                  "name": "country",
-                  "type": "choice",
-                  "hints": {
-                    "choose_multiple": true
-                  },
-                  "choices": [
-                    {
-                      "label": "Canada",
-                      "value": "Canada"
-                    },
-                    {
-                      "label": "US",
-                      "value": "US"
-                    }
-                  ],
-                  "question": "<p>Indicate the countries that your business operates in</p>\n",
-                  "_selectId": "aXJhFvB6zxOZqe",
-                  "condition": "",
-                  "inputLabel": "Operating Countries",
-                  "uniqueChoice": "",
-                  "choiceOptions": {
-                    "US": {
-                      "icon": "",
-                      "colour": ""
-                    },
-                    "Canada": {
                       "icon": "",
                       "colour": ""
                     }
