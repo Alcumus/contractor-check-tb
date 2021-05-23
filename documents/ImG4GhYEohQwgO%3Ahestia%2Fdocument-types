@@ -1,5 +1,5 @@
 {
-  "__": "5vQBJuQTorITMr",
+  "__": "x_bvD58MwAgRtr",
   "_id": "ImG4GhYEohQwgO:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -169,7 +169,7 @@
   },
   "$valid": true,
   "__warn": false,
-  "client": "rsihYJKKDVyaYN",
+  "client": "mAlQ6JUvniLqBk",
   "gitHub": {
     "aV8boSk1D6q6YG": {
       "publishDocs": true,
@@ -177,7 +177,7 @@
     }
   },
   "locked": false,
-  "_client": "rsihYJKKDVyaYN",
+  "_client": "mAlQ6JUvniLqBk",
   "demands": [],
   "graphQL": {
     "6g4mciY7jkfOUo": {
@@ -185,7 +185,7 @@
     }
   },
   "$invalid": false,
-  "_created": 1621461152000,
+  "_created": 1621432261000,
   "_deleted": 0,
   "database": "clientA",
   "maxWidth": 1000,
@@ -220,14 +220,14 @@
     {
       "id": "YAsc-hxBglasCu",
       "name": "1.0",
-      "time": 1621742413910,
-      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "time": 1621789401314,
+      "user": "3e424bc3-fb9a-47a1-93a1-056351146687",
       "locked": false,
-      "_selectId": "m5RQijvt5ytCcG",
+      "_selectId": "8JkxOhWAKa8mKb",
       "parentVersion": "tzg4n_Tc9y7XG7"
     }
   ],
-  "_modified": 1621738814000,
+  "_modified": 1621785801000,
   "components": "",
   "isLockedBy": null,
   "navigation": [],
@@ -467,7 +467,7 @@
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+  "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
   "defaultActivity": "hF5Rhx8eIzgMD-",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
