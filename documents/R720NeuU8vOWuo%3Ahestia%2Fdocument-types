@@ -1,0 +1,1184 @@
+{
+  "__": "e9sTolgu7caAyZ",
+  "_id": "R720NeuU8vOWuo:hestia/document-types",
+  "__ok": true,
+  "icon": "",
+  "name": "Assessor Questionnaire",
+  "tags": [],
+  "_type": "document",
+  "table": "assessorQuestionnaire",
+  "theme": {
+    "other": {
+      "opacity": {
+        "AlcOpacity_001": "10%",
+        "AlcOpacity_002": "25%",
+        "AlcOpacity_003": "50%",
+        "AlcOpacity_004": "75%"
+      },
+      "palette": {
+        "gold": "gold",
+        "type": "light",
+        "bronze": "#853",
+        "silver": "silver",
+        "primary": {
+          "main": "#1da7e0",
+          "contrastText": "#fff"
+        },
+        "AlcSys_001": "#FFFFFF",
+        "AlcSys_002": "#F7F8F9",
+        "AlcSys_003": "#F4F5F6",
+        "AlcSys_004": "#EBEBED",
+        "AlcSys_005": "#CCCCCC",
+        "AlcSys_006": "rgba(125, 125, 125, 1)",
+        "AlcSys_007": "#263836",
+        "AlcSys_008": "#000000",
+        "AlcBrand_001": "#1da7e0",
+        "AlcBrand_002": "#0081AF",
+        "AlcBrand_003": "#294A76",
+        "AlcBrand_004": "#0099B3",
+        "AlcBrand_005": "#604696",
+        "AlcBrand_006": "#D26A37",
+        "AlcBrand_007": "#679861",
+        "AlcBrand_008": "#EBBA00",
+        "AlcBrand_009": "#8C1D82",
+        "AlcBrand_010": "#DC840A",
+        "AlcSys_006_10": "rgba(125, 125, 125, .1)",
+        "AlcSys_006_25": "rgba(125, 125, 125, .25)",
+        "AlcSys_006_50": "rgba(125, 125, 125, .50)",
+        "AlcSys_006_75": "rgba(125, 125, 125, .75)",
+        "AlcSys_Grad001": "linear-gradient(55deg, #F7F8F9 100%, #F4F5F6 100%)",
+        "AlcSys_Grad002": "linear-gradient(55deg, #1da7e0 100%, #604696 100%)",
+        "AlcSysState_prog": "rgba(235, 186, 0, 1)",
+        "AlcSysState_risk": "rgba(233, 75, 75, 1)",
+        "AlcSysState_green": "rgba(63, 195, 128, 1)",
+        "AlcSysState_issue": "rgba(233, 165, 75, 1)",
+        "AlcSysState_prog_10": "rgba(235, 186, 0, .1)",
+        "AlcSysState_prog_25": "rgba(235, 186, 0,.251)",
+        "AlcSysState_prog_50": "rgba(235, 186, 0,.5)",
+        "AlcSysState_prog_75": "rgba(235, 186, 0, .75)",
+        "AlcSysState_risk_10": "rgba(233, 75, 75, .1)",
+        "AlcSysState_risk_25": "rgba(233, 75, 75, .25)",
+        "AlcSysState_risk_50": "rgba(233, 75, 75, .50)",
+        "AlcSysState_risk_75": "rgba(233, 75, 75, .75)",
+        "AlcSysState_green_10": "rgba(63, 195, 128, 0.1)",
+        "AlcSysState_green_25": "rgba(63, 195, 128, 0.25)",
+        "AlcSysState_green_50": "rgba(63, 195, 128, 0.5)",
+        "AlcSysState_green_75": "rgba(63, 195, 128, 0.75)",
+        "AlcSysState_issue_10": "rgba(233, 165, 75, .1)",
+        "AlcSysState_issue_25": "rgba(233, 165, 75, .25)",
+        "AlcSysState_issue_50": "rgba(233, 165, 75, .50)",
+        "AlcSysState_issue_75": "rgba(233, 165, 75, .75)"
+      },
+      "document": {
+        "form": {
+          "fontSize": 16,
+          "fontFamily": "Roboto, sans-serif"
+        },
+        "child": {
+          "fontSize": 16,
+          "fontFamily": "Roboto, sans-serif"
+        },
+        "fontSize": 16,
+        "fontFamily": "Roboto, sans-serif"
+      },
+      "typography": {
+        "h1": {
+          "fontSize": "2.8em",
+          "fontFamily": "Montserrat, sans-serif",
+          "fontWeight": 700
+        },
+        "h2": {
+          "fontSize": "2.3em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 400
+        },
+        "h3": {
+          "fontSize": "2em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 400
+        },
+        "h4": {
+          "fontSize": "1.667em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 500
+        },
+        "h5": {
+          "fontSize": "1.333em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 500
+        },
+        "h6": {
+          "fontSize": "1.167em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 400
+        },
+        "body1": {
+          "fontSize": "1.167em",
+          "fontFamily": "Roboto"
+        },
+        "body2": {
+          "fontSize": "1em",
+          "fontFamily": "Roboto"
+        },
+        "body3": {
+          "fontSize": "0.9em",
+          "fontFamily": "Roboto"
+        },
+        "body4": {
+          "fontSize": "14px",
+          "fontFamily": "Roboto"
+        },
+        "overline": {
+          "fontSize": "0.917em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 500,
+          "textTransform": "uppercase"
+        },
+        "Action1_Medium": {
+          "fontSize": "1.167em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 500
+        },
+        "Action2_Medium": {
+          "fontSize": "1em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 500
+        },
+        "Action1_Regular": {
+          "fontSize": "1.167em",
+          "fontFamily": "Montserrat"
+        },
+        "Action2_Regular": {
+          "fontSize": "1em",
+          "fontFamily": "Montserrat"
+        },
+        "Action1_SemiBold": {
+          "fontSize": "1.167em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 600
+        },
+        "Action2_SemiBold": {
+          "fontSize": "1em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 600
+        }
+      }
+    },
+    "theme": "Standard",
+    "permanentTheme": ""
+  },
+  "$valid": true,
+  "__warn": false,
+  "client": "rsihYJKKDVyaYN",
+  "gitHub": {
+    "aV8boSk1D6q6YG": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    }
+  },
+  "locked": false,
+  "_client": "rsihYJKKDVyaYN",
+  "demands": [],
+  "graphQL": {
+    "6g4mciY7jkfOUo": {
+      "read": true,
+      "write": true,
+      "exposeAPI": true,
+      "readDemands": [],
+      "writeDemands": []
+    }
+  },
+  "$invalid": false,
+  "_created": 1621454010000,
+  "_deleted": 0,
+  "database": "contractorcheck",
+  "maxWidth": 1000,
+  "versions": [
+    {
+      "id": "sTNP-VH3hEzwdP",
+      "name": "1.0",
+      "time": 1621742273853,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": false,
+      "_selectId": "hg8nAhdt_jF26f",
+      "parentVersion": ""
+    }
+  ],
+  "_modified": 1621738674000,
+  "components": "verification,navigation",
+  "isLockedBy": null,
+  "navigation": [],
+  "_behaviours": {
+    "_state": "",
+    "instances": {
+      "form": [
+        {
+          "id": "T_UckRyYF2bjL-",
+          "name": "Assessor Data",
+          "sections": [
+            {
+              "name": "Main",
+              "_expanded": true,
+              "_selectId": "cCRMrAfevv4_R9",
+              "questions": [
+                {
+                  "id": "RBjqwsO8d5Ptqb",
+                  "name": "assessingUser",
+                  "type": "lookup",
+                  "hints": {
+                    "hidden": true
+                  },
+                  "lines": 1,
+                  "groups": [],
+                  "question": "",
+                  "_selectId": "gDpTGcDaCEbHuB",
+                  "condition": "",
+                  "popupView": "M8JWtHWOohsCFK",
+                  "inputLabel": "",
+                  "lookupType": "Hfqzb-gWFBvgaC:hestia/document-types",
+                  "sortFields": [
+                    "name"
+                  ],
+                  "displayView": "M8JWtHWOohsCFK",
+                  "iconOffsetX": "",
+                  "iconOffsetY": "",
+                  "linesMobile": 1,
+                  "defaultValue": "",
+                  "dialogHeader": "Help",
+                  "searchFields": [
+                    "name",
+                    "email"
+                  ],
+                  "popupQuestion": "",
+                  "addButtonLabel": "",
+                  "lookupTypeName": "Employees",
+                  "popupView_name": "Name",
+                  "questionHeight": "",
+                  "requiredFields": [
+                    "name"
+                  ],
+                  "questionLeftPad": "",
+                  "displayView_name": "Name",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "9l8BWxR7B40DjS",
+                  "name": "qualityControlUser",
+                  "type": "lookup",
+                  "hints": {
+                    "hidden": true
+                  },
+                  "lines": 1,
+                  "groups": [],
+                  "question": "",
+                  "_selectId": "8XBTKmUjRXGAqe",
+                  "condition": "",
+                  "popupView": "M8JWtHWOohsCFK",
+                  "inputLabel": "",
+                  "lookupType": "Hfqzb-gWFBvgaC:hestia/document-types",
+                  "sortFields": [
+                    "name"
+                  ],
+                  "displayView": "M8JWtHWOohsCFK",
+                  "iconOffsetX": "",
+                  "iconOffsetY": "",
+                  "linesMobile": 1,
+                  "defaultValue": "",
+                  "dialogHeader": "Help",
+                  "searchFields": [
+                    "name",
+                    "email"
+                  ],
+                  "popupQuestion": "",
+                  "addButtonLabel": "",
+                  "lookupTypeName": "Employees",
+                  "popupView_name": "Name",
+                  "questionHeight": "",
+                  "requiredFields": [
+                    "name"
+                  ],
+                  "questionLeftPad": "",
+                  "displayView_name": "Name",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "9suQrdsQPTQVP2",
+                  "name": "profile",
+                  "type": "lookup",
+                  "hints": {
+                    "hidden": true
+                  },
+                  "lines": 1,
+                  "groups": [],
+                  "question": "",
+                  "_selectId": "jRoQehaaAxKuP2",
+                  "condition": "",
+                  "popupView": "",
+                  "inputLabel": "",
+                  "lookupType": "WdoYmj-FOBFYri:hestia/document-types",
+                  "sortFields": [],
+                  "displayView": "",
+                  "iconOffsetX": "",
+                  "iconOffsetY": "",
+                  "linesMobile": 1,
+                  "defaultValue": "",
+                  "dialogHeader": "Help",
+                  "searchFields": [],
+                  "popupQuestion": "",
+                  "addButtonLabel": "",
+                  "lookupTypeName": "Company Profile",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "i-RJxivimeY2ul",
+                  "name": "submittedDate",
+                  "type": "date",
+                  "hints": {
+                    "hidden": true
+                  },
+                  "question": "",
+                  "_selectId": "bUO52_2Riy4LdY",
+                  "condition": "",
+                  "inputLabel": "",
+                  "iconOffsetX": "",
+                  "iconOffsetY": "",
+                  "localFormat": "",
+                  "dialogHeader": "Help",
+                  "useMaterialUI": "",
+                  "preventNullify": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "CL2czJZ8yExmHk",
+                  "name": "acceptedDate",
+                  "type": "date",
+                  "hints": {
+                    "hidden": true
+                  },
+                  "question": "",
+                  "_selectId": "VAczdCpqFSrZq2",
+                  "condition": "",
+                  "inputLabel": "",
+                  "iconOffsetX": "",
+                  "iconOffsetY": "",
+                  "localFormat": "",
+                  "dialogHeader": "Help",
+                  "useMaterialUI": "",
+                  "preventNullify": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                }
+              ]
+            }
+          ],
+          "_selectId": "gbFZpojkUvHfXV",
+          "condition": "",
+          "description": "",
+          "duplicateNames": {
+            "assessmentType": true
+          }
+        },
+        {
+          "id": "0JWxAMgsVWjGW_",
+          "name": "Navigation Assessor",
+          "sections": [
+            {
+              "id": "1621690537492-F9ga31i03a6K6s",
+              "_id": "1621690537492-F9ga31i03a6K6s:hestia/form-sections",
+              "name": "...",
+              "_expanded": true,
+              "_selectId": "ntiNPOB3YOxMHR",
+              "condition": "",
+              "questions": [
+                {
+                  "id": "Kk0tQA6DOWaqQ8",
+                  "name": "",
+                  "type": "disableActions",
+                  "hints": {},
+                  "question": "",
+                  "_selectId": "-a7NF2VNhzIKfu",
+                  "condition": ""
+                },
+                {
+                  "id": "QVag4D_G8I3-7Z",
+                  "name": "",
+                  "side": "bottom",
+                  "type": "navigation",
+                  "color": "",
+                  "hints": {},
+                  "width": "",
+                  "leftSlot": {
+                    "id": "ayIJ40AFnKhdl-",
+                    "name": "",
+                    "type": "embedAction",
+                    "hints": {},
+                    "action": "xu1pdevRePcm86",
+                    "variant": "outlined",
+                    "question": "",
+                    "_selectId": "hwY4xQzg9Yeu8O",
+                    "condition": "",
+                    "_actionName": "Reject",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  },
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "JjqarKa1ZuXH10",
+                  "condition": "",
+                  "permanent": "",
+                  "rightSlot": {
+                    "id": "aWlr4g1AWQc979",
+                    "name": "",
+                    "type": "embedAction",
+                    "hints": {},
+                    "action": "Bd-SAKEYEYm9XH",
+                    "variant": "contained",
+                    "question": "",
+                    "_selectId": "edVxBO8DkogAmo",
+                    "condition": "",
+                    "_actionName": "Accept",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  },
+                  "background": "",
+                  "middleSlot": {
+                    "id": "wCfetRM8uizOZn",
+                    "name": "",
+                    "type": "embedAction",
+                    "hints": {},
+                    "action": "6ZJIoruKfYvMvx",
+                    "variant": "outlined",
+                    "question": "",
+                    "_selectId": "Ec_FhPkNEJub3G",
+                    "condition": "",
+                    "_actionName": "Save",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  }
+                }
+              ],
+              "description": ""
+            }
+          ],
+          "_selectId": "yUU7HvMiqHmHtJ",
+          "condition": "",
+          "description": "",
+          "duplicateNames": {}
+        },
+        {
+          "id": "iL7Y7MIfx_PdEh",
+          "name": "Navigation QC",
+          "sections": [
+            {
+              "id": "1621690997599-wX2jJz6dtY2vwq",
+              "_id": "1621690997599-wX2jJz6dtY2vwq:hestia/form-sections",
+              "name": "...",
+              "_expanded": true,
+              "_selectId": "7q25IQyxOtByUY",
+              "condition": "",
+              "questions": [
+                {
+                  "id": "XyofoafQjoLGC1",
+                  "name": "",
+                  "type": "disableActions",
+                  "hints": {},
+                  "question": "",
+                  "_selectId": "2wFMH8nQ7A7OJh",
+                  "condition": ""
+                },
+                {
+                  "id": "C8U6kL9N4MPPdw",
+                  "name": "",
+                  "side": "bottom",
+                  "type": "navigation",
+                  "color": "",
+                  "hints": {},
+                  "width": "",
+                  "leftSlot": {
+                    "id": "uEA60-Ohahc3Mq",
+                    "name": "",
+                    "type": "embedAction",
+                    "hints": {},
+                    "action": "UiWYng6RsgB6k4",
+                    "variant": "contained",
+                    "question": "",
+                    "_selectId": "5IzDKfaCunq-36",
+                    "condition": "",
+                    "_actionName": "RejectQC",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  },
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "hyAlOaIvA-viNX",
+                  "condition": "mode(userType,\"qc\")",
+                  "permanent": "",
+                  "rightSlot": {
+                    "id": "vwCrnzkd3YzjfL",
+                    "name": "",
+                    "type": "embedAction",
+                    "hints": {},
+                    "action": "yoibNzDTY3lNJB",
+                    "variant": "outlined",
+                    "question": "",
+                    "_selectId": "yHVtZEDqKcbsd7",
+                    "condition": "",
+                    "_actionName": "AcceptQC",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  },
+                  "background": "",
+                  "middleSlot": {
+                    "id": "apzR0l0x2KPn9h",
+                    "name": "",
+                    "type": "embedAction",
+                    "hints": {},
+                    "action": "wFiAsbIwK9iwLR",
+                    "variant": "outlined",
+                    "question": "",
+                    "_selectId": "b2BugSaJyArW4o",
+                    "condition": "",
+                    "_actionName": "SaveQC",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  }
+                }
+              ],
+              "description": ""
+            }
+          ],
+          "_selectId": "5ya3koAqxx2HU2",
+          "condition": "",
+          "description": "",
+          "duplicateNames": {}
+        },
+        {
+          "id": "Z2qfcK_DREYEil",
+          "name": "Spacer",
+          "sections": [
+            {
+              "id": "1621691656237-42mEI41W_UGoIJ",
+              "_id": "1621691656237-42mEI41W_UGoIJ:hestia/form-sections",
+              "name": "...",
+              "_expanded": true,
+              "_selectId": "0nfKJxA-Id6KHE",
+              "condition": "",
+              "questions": [
+                {
+                  "id": "5vYAPEFk8w_GDo",
+                  "name": "",
+                  "type": "information",
+                  "hints": {},
+                  "question": "<p></p>\n<p></p>\n<p></p>\n<p></p>\n<p></p>\n<p></p>\n<p>&nbsp;</p>\n",
+                  "_selectId": "NT4OkAKd-e3nI2",
+                  "condition": "",
+                  "questionHeight": "20em",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                }
+              ],
+              "description": ""
+            }
+          ],
+          "_selectId": "BxKk2dOtGV1eS-",
+          "condition": "",
+          "description": "",
+          "duplicateNames": {}
+        },
+        {
+          "id": "khydm5NOHNXIGn",
+          "name": "Rejected",
+          "sections": [
+            {
+              "id": "1621724312281-tcIVmIyK0eYl4_",
+              "_id": "1621724312281-tcIVmIyK0eYl4_:hestia/form-sections",
+              "name": "...",
+              "_expanded": true,
+              "_selectId": "LWPLjLPvsQQnJk",
+              "condition": "",
+              "questions": [
+                {
+                  "id": "xDv0JPWeucELUV",
+                  "name": "",
+                  "type": "information",
+                  "hints": {},
+                  "question": "<p>The assessment has been rejected, awaiting an update from the contractor.</p>\n",
+                  "_selectId": "IDSmxblaKTYM_l",
+                  "condition": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                }
+              ],
+              "description": ""
+            }
+          ],
+          "_selectId": "OtoOZrHTzV8ocl",
+          "condition": "",
+          "description": "",
+          "duplicateNames": {}
+        },
+        {
+          "id": "eqIHquWp9gmRLZ",
+          "name": "QC Review",
+          "sections": [
+            {
+              "id": "1621732074112-ggbU5HHrXPl1FG",
+              "_id": "1621732074112-ggbU5HHrXPl1FG:hestia/form-sections",
+              "name": "...",
+              "_expanded": true,
+              "_selectId": "19aBbeCqMFRdse",
+              "condition": "",
+              "questions": [
+                {
+                  "id": "t4QeDqY6W69glE",
+                  "form": "allForms",
+                  "name": "",
+                  "type": "useForm",
+                  "hints": {},
+                  "question": "",
+                  "_selectId": "VP_sg5LKVtPe3w",
+                  "condition": "mode(userType,\"qc\")",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "j88x3dc2lYfVxm",
+                  "name": "",
+                  "type": "information",
+                  "hints": {},
+                  "question": "<p>The form must be reviewed by a Quality Controller</p>\n",
+                  "_selectId": "9Bma6qQtiL7J0x",
+                  "condition": "notMode(userType,\"qc\")",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                }
+              ],
+              "description": ""
+            }
+          ],
+          "_selectId": "-55GYwAqWts5E0",
+          "condition": "",
+          "description": "",
+          "duplicateNames": {}
+        },
+        {
+          "id": "qgnlIeXvRk_GKY",
+          "name": "Approved",
+          "sections": [
+            {
+              "id": "1621733109561-jMSLQPcNsRIoQG",
+              "_id": "1621733109561-jMSLQPcNsRIoQG:hestia/form-sections",
+              "name": "...",
+              "_expanded": true,
+              "_selectId": "06MbksBwL4eO0r",
+              "condition": "",
+              "questions": [
+                {
+                  "id": "HneCMhdN9g_rBD",
+                  "name": "",
+                  "type": "information",
+                  "hints": {},
+                  "question": "<p><span style=\"color: #006183;font-size: 24px;\"><strong>The questionnaire has been approved and added to the master list</strong></span></p>\n",
+                  "_selectId": "H0cLzH42WWZ6NN",
+                  "condition": "",
+                  "questionHeight": "10em",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                }
+              ],
+              "description": ""
+            }
+          ],
+          "_selectId": "VzJ3PHB1kRh_Rq",
+          "condition": "",
+          "description": "",
+          "duplicateNames": {}
+        }
+      ],
+      "updater": [
+        {
+          "id": "cJIq9GgpRwgxF8",
+          "name": "Update The Contractor When Rejected",
+          "inStates": [
+            "Rejected"
+          ],
+          "mergeAll": true,
+          "_selectId": "Dg9dHac1egpE65",
+          "properties": [],
+          "specificId": "",
+          "targetType": "fYmpCXoXNbRtVg:hestia/document-types",
+          "updateState": "Rejected",
+          "targetTypeName": "Contractor Questionnaire",
+          "createMergeRecord": "",
+          "updateTargetDocumentState": true
+        },
+        {
+          "id": "kJAKnuSUFpFN_0",
+          "name": "Create Master List Entry On Accept By QC",
+          "inStates": [
+            "Master List"
+          ],
+          "mergeAll": true,
+          "_selectId": "9Psk-ACKnzs1UA",
+          "properties": [],
+          "specificId": "",
+          "targetType": "WwdiDwh2djKCCh:hestia/document-types",
+          "targetTypeName": "Master List Questionnaire",
+          "createMergeRecord": "",
+          "updateTargetDocumentState": ""
+        },
+        {
+          "id": "WDMBctURpiDYYr",
+          "name": "Tell the Contractor That They Are Accepted",
+          "inStates": [
+            "Master List"
+          ],
+          "mergeAll": "",
+          "_selectId": "fPonWRjIDi3uOU",
+          "properties": [],
+          "specificId": "",
+          "targetType": "fYmpCXoXNbRtVg:hestia/document-types",
+          "updateState": "Accepted",
+          "targetTypeName": "Contractor Questionnaire",
+          "createMergeRecord": "",
+          "updateTargetDocumentState": true
+        }
+      ],
+      "derivation": [
+        {
+          "id": "gUuvfApH2Jvcei",
+          "name": "Derive from standard questions",
+          "_selectId": "82QmT78Z574PIq",
+          "derivedFrom": "PMW2x8gydP1Gq7:hestia/document-types",
+          "description": "",
+          "textOverride": {},
+          "typeOverride": {},
+          "stateOverride": {},
+          "derivedFromName": "Base Qs"
+        }
+      ],
+      "formAction": [
+        {
+          "id": "i1sf_6rgwCYP0J",
+          "name": "Main",
+          "forms": [
+            {
+              "id": "BOPWDIpMPXNnMi",
+              "form": "sLQ1EhO5G5VfxQ",
+              "readOnly": false,
+              "_selectId": "3dqtlsjlWe44z5"
+            },
+            {
+              "id": "UrG4O37EoAyFOF",
+              "form": "T_UckRyYF2bjL-",
+              "readOnly": "",
+              "_selectId": "_QdSzRA3Rxe5RO"
+            },
+            {
+              "id": "2LFMDKr7YKhUDF",
+              "form": "allForms",
+              "readOnly": true,
+              "_selectId": "NgGRSLkRcJMC9Y"
+            }
+          ],
+          "inline": true,
+          "actions": [
+            {
+              "id": "VLQ4SgYYxxhvUx",
+              "blur": "",
+              "icon": "",
+              "color": "#fff",
+              "modal": {
+                "enabled": false
+              },
+              "goBack": "",
+              "caption": "Assess",
+              "command": "setData",
+              "toState": "Assessing",
+              "variant": "text",
+              "_selectId": "vDvCETnlbNpPYM",
+              "condition": "",
+              "endOfLine": "",
+              "navigateTo": "",
+              "properties": [
+                {
+                  "field": "assessingUser",
+                  "value": "{$currentUser.Employees._id}"
+                }
+              ],
+              "changeState": true,
+              "backgroundColor": "#03a9f4",
+              "visibleCondition": "",
+              "notificationToast": ""
+            }
+          ],
+          "storeIn": "",
+          "_selectId": "6QgdLFzQAjZVQq",
+          "editDemands": [],
+          "inputStates": [
+            "New"
+          ],
+          "visibleDemands": []
+        },
+        {
+          "id": "y6Z8dpyRm8d8jy",
+          "name": "Assessing",
+          "forms": [
+            {
+              "id": "-KD-zryl7qclWt",
+              "form": "0JWxAMgsVWjGW_",
+              "readOnly": false,
+              "_selectId": "R13uk_hEaCC3RK"
+            },
+            {
+              "id": "Grq66t264bvIdv",
+              "form": "allForms",
+              "readOnly": false,
+              "_selectId": "lmi_b45iYB1WgU"
+            },
+            {
+              "id": "WQwq_jliWX7_Ky",
+              "form": "Z2qfcK_DREYEil",
+              "readOnly": false,
+              "_selectId": "EtXUyKQlT0G4db"
+            }
+          ],
+          "inline": true,
+          "actions": [
+            {
+              "id": "Bd-SAKEYEYm9XH",
+              "blur": "",
+              "icon": "",
+              "color": "#1da7e0",
+              "modal": {
+                "title": "Submit To Master List",
+                "cancel": "Cancel",
+                "enabled": true,
+                "message": "Are you sure you want to submit the questionnaire response to the master list?",
+                "cancelColor": "",
+                "toggleOrder": "",
+                "confirmColor": "#f5f5f5",
+                "confirmation": "Ok",
+                "cancelBackgroundColor": "",
+                "confirmBackgroundColor": "#0081af"
+              },
+              "goBack": "",
+              "caption": "Accept",
+              "command": "setData",
+              "toState": "Quality Control",
+              "variant": "text",
+              "_selectId": "Tz1HKfqngFTU5n",
+              "condition": "allMax",
+              "endOfLine": "",
+              "navigateTo": "",
+              "properties": [],
+              "changeState": true,
+              "backgroundColor": "#f5f5f5",
+              "visibleCondition": "",
+              "notificationToast": ""
+            },
+            {
+              "id": "xu1pdevRePcm86",
+              "blur": "",
+              "icon": "",
+              "color": "#fff",
+              "modal": {
+                "title": "Reject Questionnaire?",
+                "cancel": "Cancel",
+                "enabled": true,
+                "message": "Are you sure you want to reject the questionnaire and return it to the contractor?",
+                "cancelColor": "",
+                "toggleOrder": "",
+                "confirmColor": "",
+                "confirmation": "Ok",
+                "cancelBackgroundColor": "",
+                "confirmBackgroundColor": ""
+              },
+              "goBack": "",
+              "caption": "Reject",
+              "command": "setData",
+              "toState": "Rejected",
+              "variant": "text",
+              "_selectId": "1g1C0p7hhRS8BE",
+              "condition": "someRejected",
+              "endOfLine": "",
+              "navigateTo": "",
+              "properties": [],
+              "changeState": true,
+              "backgroundColor": "#f50057",
+              "visibleCondition": "",
+              "notificationToast": ""
+            },
+            {
+              "id": "6ZJIoruKfYvMvx",
+              "blur": "",
+              "icon": "",
+              "color": "#fff",
+              "modal": {
+                "enabled": false
+              },
+              "goBack": "",
+              "caption": "Save",
+              "command": "setData",
+              "toState": "Assessing",
+              "variant": "text",
+              "_selectId": "Oa1EVXUFP3oEG8",
+              "condition": "",
+              "endOfLine": "",
+              "navigateTo": "",
+              "properties": [],
+              "changeState": true,
+              "backgroundColor": "#03a9f4",
+              "visibleCondition": "",
+              "notificationToast": ""
+            }
+          ],
+          "storeIn": "",
+          "_selectId": "sgDXZrWt12OTxE",
+          "editDemands": [],
+          "inputStates": [
+            "Assessing"
+          ],
+          "visibleDemands": []
+        },
+        {
+          "id": "uoxBbCsdR1Myad",
+          "name": "Quality Control",
+          "forms": [
+            {
+              "id": "HoTarewMXgaxl_",
+              "form": "iL7Y7MIfx_PdEh",
+              "readOnly": false,
+              "_selectId": "5ch5Je4XCSroKN"
+            },
+            {
+              "id": "MnuiE8LWUH-0Fm",
+              "form": "eqIHquWp9gmRLZ",
+              "readOnly": false,
+              "_selectId": "SvEexAgjSnWk2j"
+            },
+            {
+              "id": "SJw1z6IRBhPPn_",
+              "form": "Z2qfcK_DREYEil",
+              "readOnly": false,
+              "_selectId": "TNdzNiWwEjl0n5"
+            }
+          ],
+          "inline": true,
+          "actions": [
+            {
+              "id": "yoibNzDTY3lNJB",
+              "blur": "",
+              "icon": "",
+              "color": "#fff",
+              "modal": {
+                "title": "Send to Master List?",
+                "cancel": "Cancel",
+                "enabled": true,
+                "message": "Are you sure you want to send the questionnaire response to the master list?",
+                "cancelColor": "",
+                "toggleOrder": "",
+                "confirmColor": "",
+                "confirmation": "Ok",
+                "cancelBackgroundColor": "",
+                "confirmBackgroundColor": ""
+              },
+              "goBack": "",
+              "caption": "Accept",
+              "command": "setData",
+              "toState": "Master List",
+              "variant": "text",
+              "_selectId": "k7pUDKLW435z8b",
+              "condition": "allMax",
+              "endOfLine": "",
+              "navigateTo": "",
+              "properties": [],
+              "changeState": true,
+              "backgroundColor": "#03a9f4",
+              "visibleCondition": "",
+              "notificationToast": ""
+            },
+            {
+              "id": "UiWYng6RsgB6k4",
+              "blur": "",
+              "icon": "",
+              "color": "#f50057",
+              "modal": {
+                "title": "Reject Response?",
+                "cancel": "Cancel",
+                "enabled": true,
+                "message": "This response was previously approved by an assessor.  Do you want to override their decision and return the questionnaire to the contractor?",
+                "cancelColor": "",
+                "toggleOrder": "",
+                "confirmColor": "",
+                "confirmation": "Ok",
+                "cancelBackgroundColor": "",
+                "confirmBackgroundColor": ""
+              },
+              "goBack": "",
+              "caption": "Reject",
+              "command": "setData",
+              "toState": "Rejected",
+              "variant": "text",
+              "_selectId": "LSWP7lPOaTrSNz",
+              "condition": "someRejected",
+              "endOfLine": "",
+              "navigateTo": "",
+              "properties": [],
+              "changeState": true,
+              "backgroundColor": "#f5f5f5",
+              "visibleCondition": "",
+              "notificationToast": ""
+            },
+            {
+              "id": "wFiAsbIwK9iwLR",
+              "blur": "",
+              "icon": "",
+              "color": "#fff",
+              "modal": {
+                "enabled": false
+              },
+              "goBack": "",
+              "caption": "Save",
+              "command": "setData",
+              "toState": "Quality Control",
+              "variant": "text",
+              "_selectId": "1LQK4NSAGQtanJ",
+              "condition": "",
+              "endOfLine": "",
+              "navigateTo": "",
+              "properties": [],
+              "changeState": true,
+              "backgroundColor": "#03a9f4",
+              "visibleCondition": "",
+              "notificationToast": ""
+            }
+          ],
+          "storeIn": "",
+          "_selectId": "FtxBJCz_1iLRyi",
+          "editDemands": [],
+          "inputStates": [
+            "Quality Control"
+          ],
+          "visibleDemands": []
+        },
+        {
+          "id": "bNIKUt73-H_cKI",
+          "name": "Master List",
+          "forms": [
+            {
+              "id": "m-3xuzYOtIxovs",
+              "form": "qgnlIeXvRk_GKY",
+              "readOnly": false,
+              "_selectId": "-TsagHuIpBUlpL"
+            },
+            {
+              "id": "mRdyfUZzkfSSN5",
+              "form": "allForms",
+              "readOnly": true,
+              "_selectId": "9kz93t-6Sn8lbs"
+            }
+          ],
+          "inline": true,
+          "actions": [],
+          "storeIn": "",
+          "_selectId": "RW6oqMybrdz2fM",
+          "editDemands": [],
+          "inputStates": [
+            "Master List"
+          ],
+          "visibleDemands": []
+        },
+        {
+          "id": "cd-cXqcynC2Fi6",
+          "name": "Rejected",
+          "forms": [
+            {
+              "id": "W9lnsbJ6yTxWV8",
+              "form": "khydm5NOHNXIGn",
+              "readOnly": false,
+              "_selectId": "Hgq-WBYv7MgfsF"
+            }
+          ],
+          "inline": true,
+          "actions": [],
+          "storeIn": "",
+          "_selectId": "UABUpGzd1X4dpk",
+          "editDemands": [],
+          "inputStates": [
+            "Rejected"
+          ],
+          "visibleDemands": []
+        }
+      ],
+      "auditDataUpdater": [
+        {
+          "id": "HqmqsQVR27vEF_",
+          "__init": true,
+          "inStates": [
+            "Rejected",
+            "Master List"
+          ],
+          "_selectId": "s8wb4AaYJKdRKv"
+        }
+      ]
+    }
+  },
+  "createOnNew": false,
+  "description": "",
+  "displayName": "Assessor Questionnaire",
+  "__originalId": "R720NeuU8vOWuo:hestia/document-types",
+  "defaultState": "New",
+  "sidebarColor": "#333",
+  "tabsSelected": "#009fda",
+  "__warnReasons": [],
+  "documentColor": "#333",
+  "_activeVersion": "vlDXNbqvv_2SA_",
+  "_parentVersion": "sTNP-VH3hEzwdP",
+  "currentVersion": {
+    "live": "1.0",
+    "testing": "1.0",
+    "development": "1.0"
+  },
+  "tabsBackground": "#f4f4f4",
+  "tabsForeground": "#555",
+  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+  "defaultActivity": "i1sf_6rgwCYP0J",
+  "devices-allowed": "",
+  "sideBarMinWidth": 150,
+  "documentBackdrop": "#f4f4f4",
+  "sidebarBackground": "#fff",
+  "documentBackground": "#f4f4f4",
+  "devices-allowed-html": "",
+  "isLockedByCurrentUser": false
+}
