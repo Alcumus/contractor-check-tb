@@ -1,5 +1,5 @@
 {
-  "__": "UXCgXdegIWNB63",
+  "__": "rQqjfqP5crqF35",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -224,14 +224,14 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1621798466595,
+      "time": 1621814398773,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "mU1kWf1zuflHHB",
+      "_selectId": "hDhNOmOKDQGfOQ",
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1621794866000,
+  "_modified": 1621810799000,
   "components": "",
   "isLockedBy": null,
   "navigation": [],
@@ -958,6 +958,39 @@
                   "defaultValue": "",
                   "questionHeight": "",
                   "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "E8mm48V7uhrNqp",
+                  "name": "clientApproved",
+                  "type": "lookup",
+                  "hints": {
+                    "hidden": true
+                  },
+                  "lines": 1,
+                  "groups": [],
+                  "question": "",
+                  "_selectId": "pv3jdrPcIG07aG",
+                  "condition": "",
+                  "popupView": "QTCSKcWsDulGIR",
+                  "inputLabel": "",
+                  "lookupType": "ImG4GhYEohQwgO:hestia/document-types",
+                  "sortFields": [],
+                  "displayView": "QTCSKcWsDulGIR",
+                  "linesMobile": 1,
+                  "defaultValue": "",
+                  "searchFields": [],
+                  "popupQuestion": "",
+                  "addButtonLabel": "",
+                  "lookupTypeName": "Client Accounts",
+                  "popupView_name": "Name",
+                  "questionHeight": "",
+                  "requiredFields": [
+                    "clientName"
+                  ],
+                  "questionLeftPad": "",
+                  "displayView_name": "Name",
                   "questionRightPad": "",
                   "questionSpaceBefore": ""
                 }
