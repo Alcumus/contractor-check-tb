@@ -1,5 +1,5 @@
 {
-  "__": "6Iey7vXF3STR8-",
+  "__": "AdrVNIFppMy3xR",
   "_id": "PMW2x8gydP1Gq7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -194,14 +194,14 @@
     {
       "id": "tV6rqmkixtZSUh",
       "name": "1",
-      "time": 1621850654681,
+      "time": 1621850727643,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "KBtxDFkEbE7BHc",
+      "_selectId": "Y20AETMJotWWbH",
       "parentVersion": ""
     }
   ],
-  "_modified": 1621847055000,
+  "_modified": 1621847128000,
   "components": "verification,localisation",
   "isLockedBy": null,
   "navigation": [],
@@ -14804,7 +14804,7 @@
                   },
                   "helpText": "Please upload a completed form to the portal.",
                   "maxWidth": "",
-                  "question": "<p>Please complete Schindler Contractor Pre-Qualification form. Hello</p>\n",
+                  "question": "<p>Please complete Schindler Contractor Pre-Qualification form.</p>\n",
                   "_selectId": "XyfqY4FHedv-69",
                   "condition": "",
                   "inputLabel": " ",
@@ -14888,10 +14888,19 @@
                     "multi_line": true
                   },
                   "helpText": "The Certificate of Insurance must list every coverage and limit as indicated on the insurance requirements. On or before the expiry date of the coverage indicated on the certificate, please provide ContractorCheck with a revised Certificate of Insurance. It will be reviewed and made viewable for the Client to access. If you have previously uploaded a valid and approved Certificate, please indicate that it has already been submitted.",
+                  "maxWidth": "",
                   "question": "Schindler Elevator has requested that you upload a Certificate of Insurance. You will find attached, in the link below, the insurance requirements to be submitted to your insurance representative. Please upload for our review. Keeping a current Certificate of Insurance on your ContractorCheck account is required by the client.",
                   "_selectId": "fTb5OJmwkY7xuH",
                   "condition": "",
-                  "inputLabel": " "
+                  "inputLabel": " ",
+                  "iconOffsetX": "",
+                  "iconOffsetY": "",
+                  "defaultValue": "",
+                  "dialogHeader": "Help",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
                 },
                 {
                   "id": "a1S3m000006rT4wFile",
