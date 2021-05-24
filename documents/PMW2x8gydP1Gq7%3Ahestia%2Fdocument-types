@@ -1,5 +1,5 @@
 {
-  "__": "aLUQgrHOEGZcAY",
+  "__": "bcTXIznU9sXhJQ",
   "_id": "PMW2x8gydP1Gq7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -194,15 +194,15 @@
     {
       "id": "tV6rqmkixtZSUh",
       "name": "1",
-      "time": 1621742268306,
+      "time": 1621832984015,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "T0JQ6XFkymilhJ",
+      "_selectId": "F0ccwSMB4QV1CV",
       "parentVersion": ""
     }
   ],
-  "_modified": 1621738669000,
-  "components": "verification",
+  "_modified": 1621829384000,
+  "components": "verification,localisation",
   "isLockedBy": null,
   "navigation": [],
   "_behaviours": {
@@ -256,70 +256,6 @@
                   "defaultValue": "",
                   "dialogHeader": "Help",
                   "questionHeight": "",
-                  "questionLeftPad": "",
-                  "questionRightPad": "",
-                  "questionSpaceBefore": ""
-                },
-                {
-                  "id": "LHQM0l_ZAMsgE6",
-                  "name": "profile",
-                  "type": "lookup",
-                  "hints": {
-                    "hidden": true
-                  },
-                  "lines": 1,
-                  "groups": [],
-                  "question": "",
-                  "_selectId": "cMe3J0UQZVU_mM",
-                  "condition": "",
-                  "popupView": "CjmVDQ0kzL7GKT",
-                  "inputLabel": "",
-                  "lookupType": "WdoYmj-FOBFYri:hestia/document-types",
-                  "sortFields": [],
-                  "displayView": "CjmVDQ0kzL7GKT",
-                  "iconOffsetX": "",
-                  "iconOffsetY": "",
-                  "linesMobile": 1,
-                  "defaultValue": "",
-                  "dialogHeader": "Help",
-                  "searchFields": [],
-                  "popupQuestion": "",
-                  "addButtonLabel": "",
-                  "lookupTypeName": "Company Profile",
-                  "popupView_name": "Company Profile",
-                  "questionHeight": "",
-                  "requiredFields": [
-                    "companyName",
-                    "country",
-                    "province",
-                    "workActivities.workActivity",
-                    "companySize",
-                    "clients.clientName"
-                  ],
-                  "questionLeftPad": "",
-                  "displayView_name": "Company Profile",
-                  "questionRightPad": "",
-                  "questionSpaceBefore": ""
-                },
-                {
-                  "id": "P1utSWh56A3WRu",
-                  "name": "linkedProfile",
-                  "type": "linkDocument",
-                  "hints": {},
-                  "openType": "",
-                  "question": "",
-                  "_selectId": "iSOmIfs19PMUeU",
-                  "condition": "",
-                  "buttonIcon": {},
-                  "iconOffsetX": "",
-                  "iconOffsetY": "",
-                  "dialogHeader": "Help",
-                  "buttonCaption": "",
-                  "referenceType": "WdoYmj-FOBFYri:hestia/document-types",
-                  "createTypeName": "Company Profile",
-                  "documentToLink": "{profile}",
-                  "questionHeight": "",
-                  "createIfMissing": "",
                   "questionLeftPad": "",
                   "questionRightPad": "",
                   "questionSpaceBefore": ""
@@ -17274,6 +17210,13 @@
           "actions": [],
           "_selectId": "Zt36y_LwxEsOHh",
           "inputStates": []
+        }
+      ],
+      "localization": [
+        {
+          "id": "Y8vM6NzaVvBU5K",
+          "__init": true,
+          "_selectId": "Az7c9XqQjLGQs5"
         }
       ],
       "contractorCheck": [
