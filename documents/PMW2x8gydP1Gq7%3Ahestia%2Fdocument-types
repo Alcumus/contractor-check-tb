@@ -1,5 +1,5 @@
 {
-  "__": "bcTXIznU9sXhJQ",
+  "__": "Lu5buM4B6m0PoA",
   "_id": "PMW2x8gydP1Gq7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -194,14 +194,14 @@
     {
       "id": "tV6rqmkixtZSUh",
       "name": "1",
-      "time": 1621832984015,
+      "time": 1621833069886,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "F0ccwSMB4QV1CV",
+      "_selectId": "3F7_FaO6j04jc9",
       "parentVersion": ""
     }
   ],
-  "_modified": 1621829384000,
+  "_modified": 1621829470000,
   "components": "verification,localisation",
   "isLockedBy": null,
   "navigation": [],
@@ -217,6 +217,7 @@
               "name": "Main",
               "_expanded": true,
               "_selectId": "feQ_tjEXdi9CCv",
+              "condition": "",
               "questions": [
                 {
                   "id": "BzCcYvkMwEIvKq",
@@ -259,8 +260,32 @@
                   "questionLeftPad": "",
                   "questionRightPad": "",
                   "questionSpaceBefore": ""
+                },
+                {
+                  "id": "4uT4GNfa4rSLQD",
+                  "name": "linkedProfile",
+                  "type": "linkDocument",
+                  "hints": {},
+                  "openType": "",
+                  "question": "",
+                  "_selectId": "q-5whmxb8DSZTg",
+                  "condition": "",
+                  "buttonIcon": {},
+                  "iconOffsetX": "",
+                  "iconOffsetY": "",
+                  "dialogHeader": "Help",
+                  "buttonCaption": "",
+                  "referenceType": "WdoYmj-FOBFYri:hestia/document-types",
+                  "createTypeName": "Company Profile",
+                  "documentToLink": "{profile}",
+                  "questionHeight": "",
+                  "createIfMissing": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
                 }
-              ]
+              ],
+              "description": ""
             }
           ],
           "_selectId": "QVt12gx8VxxNLE",
