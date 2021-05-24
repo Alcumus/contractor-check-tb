@@ -1,5 +1,5 @@
 {
-  "__": "o26NU4k0NQ0ZBl",
+  "__": "6Iey7vXF3STR8-",
   "_id": "PMW2x8gydP1Gq7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -194,14 +194,14 @@
     {
       "id": "tV6rqmkixtZSUh",
       "name": "1",
-      "time": 1621840956611,
+      "time": 1621850654681,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "Xjuj0UBmWauS6n",
+      "_selectId": "KBtxDFkEbE7BHc",
       "parentVersion": ""
     }
   ],
-  "_modified": 1621837357000,
+  "_modified": 1621847055000,
   "components": "verification,localisation",
   "isLockedBy": null,
   "navigation": [],
@@ -14791,6 +14791,7 @@
             {
               "id": "Main",
               "name": "Questions",
+              "_expanded": true,
               "_selectId": "TE0QHc7nvnTHhC",
               "questions": [
                 {
@@ -14802,9 +14803,19 @@
                     "multi_line": true
                   },
                   "helpText": "Please upload a completed form to the portal.",
-                  "question": "Please complete Schindler Contractor Pre-Qualification form.",
+                  "maxWidth": "",
+                  "question": "<p>Please complete Schindler Contractor Pre-Qualification form. Hello</p>\n",
+                  "_selectId": "XyfqY4FHedv-69",
                   "condition": "",
-                  "inputLabel": " "
+                  "inputLabel": " ",
+                  "iconOffsetX": "",
+                  "iconOffsetY": "",
+                  "defaultValue": "",
+                  "dialogHeader": "Help",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
                 },
                 {
                   "id": "a1S3m000006rWr2File",
@@ -14812,6 +14823,7 @@
                   "type": "file",
                   "hints": {},
                   "question": "<small>Evidence</small>",
+                  "_selectId": "afUxD8SZXg8Wzd",
                   "condition": "",
                   "extensions": [
                     "docx",
@@ -14839,6 +14851,7 @@
                   },
                   "helpText": "Please upload a completed form to the portal.",
                   "question": "Please review and acknowledge the Code of Conduct (CoC) Vendor Policy for Schindler Elevator Corporation. A link to the COC form can be accessed here: <a target=\"_blank\" href=\"https://www.schindler.com/us/internet/en/about-us/suppliers.html#button\">https://www.schindler.com/us/internet/en/about-us/suppliers.html#button</a>",
+                  "_selectId": "_iJJWsIn4MTeJH",
                   "condition": "",
                   "inputLabel": " "
                 },
@@ -14848,6 +14861,7 @@
                   "type": "file",
                   "hints": {},
                   "question": "<small>Evidence</small>",
+                  "_selectId": "DvilDBd3cENUpE",
                   "condition": "",
                   "extensions": [
                     "docx",
@@ -14875,6 +14889,7 @@
                   },
                   "helpText": "The Certificate of Insurance must list every coverage and limit as indicated on the insurance requirements. On or before the expiry date of the coverage indicated on the certificate, please provide ContractorCheck with a revised Certificate of Insurance. It will be reviewed and made viewable for the Client to access. If you have previously uploaded a valid and approved Certificate, please indicate that it has already been submitted.",
                   "question": "Schindler Elevator has requested that you upload a Certificate of Insurance. You will find attached, in the link below, the insurance requirements to be submitted to your insurance representative. Please upload for our review. Keeping a current Certificate of Insurance on your ContractorCheck account is required by the client.",
+                  "_selectId": "fTb5OJmwkY7xuH",
                   "condition": "",
                   "inputLabel": " "
                 },
@@ -14884,6 +14899,7 @@
                   "type": "file",
                   "hints": {},
                   "question": "<small>Evidence</small>",
+                  "_selectId": "d6xYTBkrQtjN2G",
                   "condition": "",
                   "extensions": [
                     "docx",
@@ -14911,6 +14927,7 @@
                   },
                   "helpText": "If you have a branch office or an employee with a home office in another province, and would like the Client to know that you are eligible to work in that/those province(s), then submit additional Clearances for the other provinces. All Clearances must be kept current on your account. Otherwise, your account status changes on the expiry of any document.",
                   "question": "Schindler Elevator has requested that you provide us with a Clearance Certificate/Letter from Workers' Compensation in the provinces where your Head Office location, your branches, employee home offices, if they differ. On or before the provincial expiry date, ensure we are provided with a renewed Clearance every 45, 60 or 90 days depending on the province. Please list these provinces in your answer and confirm by uploading the Clearances for each province listed.",
+                  "_selectId": "sZEAGxSW0bsWzK",
                   "condition": "",
                   "inputLabel": " "
                 },
@@ -14920,6 +14937,7 @@
                   "type": "file",
                   "hints": {},
                   "question": "<small>Evidence</small>",
+                  "_selectId": "HBwjHmexssWFvl",
                   "condition": "",
                   "extensions": [
                     "docx",
@@ -14957,6 +14975,7 @@
                   ],
                   "helpText": "Please respond with \"Yes\" or \"No\" to the subcontractor safety rules",
                   "question": "Please review Schindler Elevator's health safety policy and acknowledge your company has read and understood the document.",
+                  "_selectId": "D6f_eMJTQdHSZY",
                   "condition": "",
                   "inputLabel": " ",
                   "borderWidth": 2,
@@ -14999,6 +15018,7 @@
                   ],
                   "helpText": "Please respond with a \"Yes\" or \"No\"",
                   "question": "Please acknowledge Schindler Elevator's subcontractor safety absolutes.",
+                  "_selectId": "Ab6W_IG-ql9GYF",
                   "condition": "",
                   "inputLabel": " ",
                   "borderWidth": 2,
@@ -15041,6 +15061,7 @@
                   ],
                   "helpText": "Please respond with a \"Yes\" or \"No\"",
                   "question": "Please read and acknowledge your company has read and understood Schindler Elevator Corporation PO Terms and Conditions.",
+                  "_selectId": "ofH3hKkp564qOU",
                   "condition": "",
                   "inputLabel": " ",
                   "borderWidth": 2,
@@ -15083,6 +15104,7 @@
                   ],
                   "helpText": "Please respond with a \"Yes\" or \"No\"",
                   "question": "Please review and acknowledge the No Go Rules for Schindler Elevator Corporation.",
+                  "_selectId": "HbzfmTrq2_UMDM",
                   "condition": "",
                   "inputLabel": " ",
                   "borderWidth": 2,
@@ -15108,7 +15130,9 @@
               ]
             }
           ],
-          "_selectId": "8jex6KnD1BSxIX"
+          "_selectId": "8jex6KnD1BSxIX",
+          "condition": "",
+          "duplicateNames": {}
         },
         {
           "id": "shoppersDrugMartLossPrevention",
