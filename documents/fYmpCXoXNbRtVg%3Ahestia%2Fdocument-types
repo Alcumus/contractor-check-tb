@@ -1,5 +1,5 @@
 {
-  "__": "GyGbnEP2539k-h",
+  "__": "M2me0f0AEfkLGx",
   "_id": "fYmpCXoXNbRtVg:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -197,14 +197,14 @@
     {
       "id": "D57acZ-uIHF-Tx",
       "name": "1.0",
-      "time": 1621742244449,
+      "time": 1621847436130,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "gfLt-7WI-QZDZm",
+      "_selectId": "JkuLMXB0Z_I4Lu",
       "parentVersion": ""
     }
   ],
-  "_modified": 1621738644000,
+  "_modified": 1621843836000,
   "components": "verification,helptext,navigation,formprogress",
   "isLockedBy": null,
   "navigation": [],
@@ -581,6 +581,24 @@
               "field": "submittedDate",
               "value": "{$now}",
               "defaultValue": ""
+            },
+            {
+              "id": "973I0UL11heLmR",
+              "field": "emailHeader",
+              "value": [
+                "",
+                "-"
+              ],
+              "defaultValue": ""
+            },
+            {
+              "id": "-SE76IpRP8g1Df",
+              "field": "emailFooter",
+              "value": [
+                "",
+                "-"
+              ],
+              "defaultValue": ""
             }
           ],
           "specificId": "",
@@ -876,6 +894,7 @@
   "tabsSelected": "#009fda",
   "__warnReasons": [],
   "documentColor": "#333",
+  "linkedProfile": "undefined",
   "_activeVersion": "VQ5hArydJHv-rN",
   "_parentVersion": "D57acZ-uIHF-Tx",
   "currentVersion": {
