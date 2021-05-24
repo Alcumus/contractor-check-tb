@@ -1,5 +1,5 @@
 {
-  "__": "-bgK7BViTKgW5R",
+  "__": "IDOZICL7pxmnmB",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -224,15 +224,15 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1621840917492,
+      "time": 1621841947095,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "KbjwLpnHa86qCw",
+      "_selectId": "M4JPOCCcvYSC6v",
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1621837318000,
-  "components": "",
+  "_modified": 1621838347000,
+  "components": "navigation",
   "isLockedBy": null,
   "navigation": [],
   "_behaviours": {
@@ -993,6 +993,46 @@
                   "displayView_name": "Name",
                   "questionRightPad": "",
                   "questionSpaceBefore": ""
+                },
+                {
+                  "id": "X0stRxDnbxpZAj",
+                  "name": "",
+                  "type": "disableActions",
+                  "hints": {},
+                  "question": "",
+                  "_selectId": "TMEvq_4hqFhC78",
+                  "condition": ""
+                },
+                {
+                  "id": "u9jYVg-O6GBB_L",
+                  "name": "",
+                  "side": "bottom",
+                  "type": "navigation",
+                  "color": "",
+                  "hints": {},
+                  "width": "",
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "lLhffib9g6GWw_",
+                  "condition": "",
+                  "permanent": "",
+                  "background": "",
+                  "middleSlot": {
+                    "id": "jde7yLfz6j0moc",
+                    "name": "",
+                    "type": "embedAction",
+                    "hints": {},
+                    "action": "h-eeMOsIUUj8N3",
+                    "variant": "outlined",
+                    "question": "",
+                    "_selectId": "49dtkJdcZnX_kV",
+                    "condition": "",
+                    "_actionName": "Save",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  }
                 }
               ],
               "description": ""
