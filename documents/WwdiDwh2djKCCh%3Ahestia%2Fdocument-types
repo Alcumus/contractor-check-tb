@@ -1,5 +1,5 @@
 {
-  "__": "oqWx3drrBHbaPJ",
+  "__": "acVkIIhcPkwQmO",
   "_id": "WwdiDwh2djKCCh:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -197,14 +197,14 @@
     {
       "id": "pmgndWqtbw5UAv",
       "name": "1.0",
-      "time": 1621840945316,
+      "time": 1621853509902,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "Q_QS_AzggqDTDZ",
+      "_selectId": "Cxxe4hgGkEoS6V",
       "parentVersion": ""
     }
   ],
-  "_modified": 1621837345000,
+  "_modified": 1621849910000,
   "components": "",
   "isLockedBy": null,
   "navigation": [],
@@ -214,16 +214,69 @@
       "form": [
         {
           "id": "7kWIZz7TuCPngS",
-          "name": "Main",
+          "name": "Master List Questionnaire View",
           "sections": [
             {
               "name": "Main",
               "_expanded": true,
-              "questions": []
+              "_selectId": "yf8f5lJGes-ae-",
+              "questions": [
+                {
+                  "id": "3B13xpZ0xO1J5A",
+                  "form": "allForms",
+                  "name": "",
+                  "type": "useForm",
+                  "hints": {},
+                  "question": "",
+                  "_selectId": "faSStX3GrzygnK",
+                  "condition": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                }
+              ]
             }
           ],
           "_selectId": "-BiW_BjyML1Eui",
-          "description": ""
+          "condition": "notMode(view,details)",
+          "description": "",
+          "duplicateNames": {}
+        },
+        {
+          "id": "oWEnsHcUBYebA_",
+          "name": "Master List Details View",
+          "sections": [
+            {
+              "id": "1621853477364-FoI6ODmOmMkZPB",
+              "_id": "1621853477364-FoI6ODmOmMkZPB:hestia/form-sections",
+              "name": "...",
+              "_expanded": true,
+              "_selectId": "RJmdn1zK7Kqfrw",
+              "condition": "",
+              "questions": [
+                {
+                  "id": "x_UvQ1L_MC_DFz",
+                  "form": "jPYoSzTjedkaCv",
+                  "name": "",
+                  "type": "useForm",
+                  "hints": {},
+                  "question": "",
+                  "_selectId": "8wYSYqzfnUkm6r",
+                  "condition": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                }
+              ],
+              "description": ""
+            }
+          ],
+          "_selectId": "NxRlfoaKWGg_gV",
+          "condition": "mode(view,details)",
+          "description": "",
+          "duplicateNames": {}
         }
       ],
       "derivation": [
@@ -253,14 +306,14 @@
             {
               "id": "RpLmu7N0iOv4tT",
               "form": "7kWIZz7TuCPngS",
-              "readOnly": "",
+              "readOnly": true,
               "_selectId": "wqyFeYzxRh9YWz"
             },
             {
-              "id": "1iEWOHHr99nJRW",
-              "form": "allForms",
-              "readOnly": true,
-              "_selectId": "4t7LVsvRIzTDRa"
+              "id": "uwp5m3ExmwR6PK",
+              "form": "oWEnsHcUBYebA_",
+              "readOnly": false,
+              "_selectId": "_LQKAWnod1T9dF"
             }
           ],
           "inline": true,
