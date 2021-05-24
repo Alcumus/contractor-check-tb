@@ -1,5 +1,5 @@
 {
-  "__": "KpB38Ki38hLBQP",
+  "__": "oRpWy9vegyC1c4",
   "_id": "R720NeuU8vOWuo:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -197,14 +197,14 @@
     {
       "id": "sTNP-VH3hEzwdP",
       "name": "1.0",
-      "time": 1621840949369,
+      "time": 1621844147889,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "r6yGE6un3GLBR-",
+      "_selectId": "EaQp6jtuh4LjiZ",
       "parentVersion": ""
     }
   ],
-  "_modified": 1621837349000,
+  "_modified": 1621840548000,
   "components": "verification,navigation",
   "isLockedBy": null,
   "navigation": [],
@@ -1141,6 +1141,34 @@
           "visibleDemands": []
         }
       ],
+      "confirmation": [
+        {
+          "id": "siO75j4l-rqver",
+          "html": "",
+          "name": "Rejected Email",
+          "email": "<p>We were unable to approve your answers and the {assessmentType} questionnaire has been returned to you to provide more details.  You will find notes in the questionnaire to guide you.</p>\n<p></p>\n<p>{_actionsEmail}</p>\n<p></p>\n<p></p>\n",
+          "title": "",
+          "message": "",
+          "subject": "<p>Your Contractor Check \"{assessmentType}\" submission requires more information</p>\n",
+          "toTimes": 1000,
+          "inStates": [
+            "Rejected"
+          ],
+          "_selectId": "-1ie5rgF4AzYbu",
+          "emailHtml": "",
+          "fromTimes": 1,
+          "recipients": [
+            {
+              "id": "Uk0zwMHPCC99sP",
+              "email": "{profile.email}"
+            }
+          ],
+          "titleColor": "#1da7e0",
+          "closeButton": "Ok",
+          "disablePopupMessage": true,
+          "doNotSendToCurrentUser": true
+        }
+      ],
       "auditDataUpdater": [
         {
           "id": "HqmqsQVR27vEF_",
@@ -1150,6 +1178,25 @@
             "Master List"
           ],
           "_selectId": "s8wb4AaYJKdRKv"
+        }
+      ],
+      "push-notification": [
+        {
+          "id": "hn-CPNMB20Cg3v",
+          "name": "New \"Confirmation\"",
+          "title": "<p>Congratulations your \"{assessmentType}\" questionnaire was approved!</p>\n",
+          "message": "<p>Well done</p>\n",
+          "toTimes": 200,
+          "inStates": "",
+          "_selectId": "X7EwvYTQGeqeqk",
+          "fromTimes": 1,
+          "recipients": [
+            {
+              "id": "mavrPJnVy5QyVt",
+              "userId": "{profile.email}"
+            }
+          ],
+          "doNotSendToCurrentUser": true
         }
       ]
     }
