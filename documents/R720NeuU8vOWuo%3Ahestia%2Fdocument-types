@@ -1,5 +1,5 @@
 {
-  "__": "rxHEC7VfWkWR61",
+  "__": "mEWUDHElYF2lbB",
   "_id": "R720NeuU8vOWuo:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -197,14 +197,14 @@
     {
       "id": "sTNP-VH3hEzwdP",
       "name": "1.0",
-      "time": 1621847014757,
+      "time": 1621847375190,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "Ey8L3Je02e4w20",
+      "_selectId": "azbXWGJfx6Sb_S",
       "parentVersion": ""
     }
   ],
-  "_modified": 1621843415000,
+  "_modified": 1621843775000,
   "components": "verification,navigation",
   "isLockedBy": null,
   "navigation": [],
@@ -736,6 +736,35 @@
               "_selectId": "udHc3lyATGZAmF",
               "condition": "",
               "questions": [
+                {
+                  "id": "ErGjEVY7bBlLNu",
+                  "name": "",
+                  "type": "title",
+                  "color": "",
+                  "hints": {},
+                  "title": "Rejection Email",
+                  "question": "",
+                  "_selectId": "VBmOi17wVpNG_x",
+                  "condition": "",
+                  "questionHeight": "",
+                  "backgroundColor": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": "10em"
+                },
+                {
+                  "id": "f2k9AWyEQG8NL5",
+                  "name": "",
+                  "type": "information",
+                  "hints": {},
+                  "question": "<p></p>\n<p><span style=\"color: #006183;\">If you reject a questionnaire then an email will be sent to the contractor.  Below you can add custom header and footer text that will go along with the email.</span></p>\n",
+                  "_selectId": "vyGLrxMREIiRLO",
+                  "condition": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
                 {
                   "id": "fQ52G7805WMnUm",
                   "name": "emailHeader",
