@@ -1,5 +1,5 @@
 {
-  "__": "acVkIIhcPkwQmO",
+  "__": "7sgh3NEuHxC44e",
   "_id": "WwdiDwh2djKCCh:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -197,14 +197,14 @@
     {
       "id": "pmgndWqtbw5UAv",
       "name": "1.0",
-      "time": 1621853509902,
+      "time": 1621978735794,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "Cxxe4hgGkEoS6V",
+      "_selectId": "wvmqXKaGJx3WgO",
       "parentVersion": ""
     }
   ],
-  "_modified": 1621849910000,
+  "_modified": 1621975136000,
   "components": "",
   "isLockedBy": null,
   "navigation": [],
@@ -277,6 +277,77 @@
           "condition": "mode(view,details)",
           "description": "",
           "duplicateNames": {}
+        },
+        {
+          "id": "6VZW_QLXuexCmX",
+          "name": "Expired",
+          "sections": [
+            {
+              "id": "1621958644940-nEnJDQWDCoeSD1",
+              "_id": "1621958644940-nEnJDQWDCoeSD1:hestia/form-sections",
+              "name": "...",
+              "_expanded": true,
+              "_selectId": "MyYcwdsVb2DuKs",
+              "condition": "",
+              "questions": [
+                {
+                  "id": "5P_H8c9VG38dJP",
+                  "name": "",
+                  "type": "title",
+                  "color": "#f5f5f5",
+                  "hints": {},
+                  "title": "One or more documents have expired and are awaiting update",
+                  "question": "",
+                  "_selectId": "qRYJ7OUDpV1AJF",
+                  "condition": "",
+                  "questionHeight": "",
+                  "backgroundColor": "#d26a37",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                }
+              ],
+              "description": ""
+            }
+          ],
+          "_selectId": "a5w9WylQQhnaOS",
+          "condition": "",
+          "description": "",
+          "duplicateNames": {}
+        }
+      ],
+      "updater": [
+        {
+          "id": "sJlmzVvPeeEsLy",
+          "name": "Tell The Contractor Documents Have Expired",
+          "inStates": [
+            "Expired"
+          ],
+          "mergeAll": false,
+          "_selectId": "sTvlYx_2g5gZHc",
+          "properties": [],
+          "specificId": "",
+          "targetType": "fYmpCXoXNbRtVg:hestia/document-types",
+          "updateState": "Expired",
+          "targetTypeName": "Contractor Questionnaire",
+          "createMergeRecord": "",
+          "updateTargetDocumentState": true
+        }
+      ],
+      "schedule": [
+        {
+          "id": "gOpXurBsKws1hv",
+          "mode": "On an interval",
+          "name": "Schedule for checking for expired files",
+          "unit": "days",
+          "__init": true,
+          "amount": 1,
+          "inStates": [
+            "New"
+          ],
+          "_selectId": "buAX2rhPIN0_tb",
+          "scheduled": false,
+          "scheduleExpression": ""
         }
       ],
       "derivation": [
@@ -290,6 +361,18 @@
           "typeOverride": {},
           "stateOverride": {},
           "derivedFromName": "Base Qs"
+        }
+      ],
+      "fileExpiry": [
+        {
+          "id": "UrIsAp49q9lG37",
+          "name": "Scan for out of date files",
+          "__init": true,
+          "toState": "Expired",
+          "inStates": [
+            "New"
+          ],
+          "_selectId": "sn6T_I-8MkO1av"
         }
       ],
       "formAction": [
@@ -323,6 +406,45 @@
           "editDemands": [],
           "inputStates": [
             "New"
+          ],
+          "visibleDemands": []
+        },
+        {
+          "id": "BZTipHu6MRF13I",
+          "name": "Files expired",
+          "forms": [
+            {
+              "id": "66dmlsujus3FJP",
+              "form": "6VZW_QLXuexCmX",
+              "readOnly": false,
+              "_selectId": "s49BGIegC-hqDy"
+            },
+            {
+              "id": "AY63SMJtEM2ma7",
+              "form": "sLQ1EhO5G5VfxQ",
+              "readOnly": false,
+              "_selectId": "FTWFAN1AAHLSIS"
+            },
+            {
+              "id": "Qcv5z6mZVOGFEW",
+              "form": "7kWIZz7TuCPngS",
+              "readOnly": true,
+              "_selectId": "VvoyHu9_jHML0S"
+            },
+            {
+              "id": "PhKYu_fp99T3M2",
+              "form": "oWEnsHcUBYebA_",
+              "readOnly": false,
+              "_selectId": "VuB4oFeksV8kpw"
+            }
+          ],
+          "inline": true,
+          "actions": [],
+          "storeIn": "",
+          "_selectId": "OCD2mhRrglxrXp",
+          "editDemands": [],
+          "inputStates": [
+            "Expired"
           ],
           "visibleDemands": []
         }
