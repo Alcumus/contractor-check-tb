@@ -1,5 +1,5 @@
 {
-  "__": "7sgh3NEuHxC44e",
+  "__": "eDxlazRaP2sO2X",
   "_id": "WwdiDwh2djKCCh:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -197,14 +197,14 @@
     {
       "id": "pmgndWqtbw5UAv",
       "name": "1.0",
-      "time": 1621978735794,
+      "time": 1621978996255,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "wvmqXKaGJx3WgO",
+      "_selectId": "LnxKWrMO4Rtr_Z",
       "parentVersion": ""
     }
   ],
-  "_modified": 1621975136000,
+  "_modified": 1621975396000,
   "components": "",
   "isLockedBy": null,
   "navigation": [],
@@ -339,7 +339,7 @@
           "id": "gOpXurBsKws1hv",
           "mode": "On an interval",
           "name": "Schedule for checking for expired files",
-          "unit": "days",
+          "unit": "minutes",
           "__init": true,
           "amount": 1,
           "inStates": [
