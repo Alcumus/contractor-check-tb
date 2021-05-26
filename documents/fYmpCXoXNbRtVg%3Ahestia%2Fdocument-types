@@ -1,5 +1,5 @@
 {
-  "__": "T1rG_5y8rpuv5b",
+  "__": "FGDzM5Aq9U7URn",
   "_id": "fYmpCXoXNbRtVg:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -197,14 +197,14 @@
     {
       "id": "D57acZ-uIHF-Tx",
       "name": "1.0",
-      "time": 1622059046202,
+      "time": 1622063160027,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "iDGgj_ewZjTwpH",
+      "_selectId": "XV6sr-J_FNEt61",
       "parentVersion": ""
     }
   ],
-  "_modified": 1622055446000,
+  "_modified": 1622059560000,
   "components": "verification,helptext,navigation,formprogress",
   "isLockedBy": null,
   "navigation": [],
@@ -661,10 +661,11 @@
         {
           "id": "BexGtWNiWA3N3l",
           "name": "Create Assessor Record On Submitted",
+          "onEnter": "",
           "inStates": [
             "Submitted"
           ],
-          "mergeAll": true,
+          "mergeAll": false,
           "_selectId": "kunhVvnj0NYno0",
           "properties": [
             {
@@ -695,9 +696,53 @@
           "specificId": "",
           "targetType": "R720NeuU8vOWuo:hestia/document-types",
           "updateState": "New",
+          "recordChanges": "",
           "targetTypeName": "Assessor Questionnaire",
           "createMergeRecord": "",
           "updateTargetDocumentState": true
+        },
+        {
+          "id": "cO1d3x8xWj_mTH",
+          "name": "Audit Submission",
+          "onEnter": "",
+          "inStates": [
+            "Submitted"
+          ],
+          "mergeAll": true,
+          "_selectId": "qCG48HJ1pOmEd8",
+          "properties": [
+            {
+              "id": "P3Z3dZ8NOaw7Ma",
+              "field": "activity",
+              "value": "Submitted response",
+              "defaultValue": ""
+            },
+            {
+              "id": "eKKMqox-hsnRxH",
+              "field": "employee",
+              "value": "{$currentUser.Employees._id}",
+              "defaultValue": ""
+            },
+            {
+              "id": "pUL2QiK0uLU5am",
+              "field": "profile",
+              "value": "{profile}",
+              "defaultValue": ""
+            },
+            {
+              "id": "INAqEBu-E1DqFi",
+              "field": "time",
+              "value": "{$now}",
+              "defaultValue": ""
+            }
+          ],
+          "specificId": "",
+          "targetType": "j0P98w9sl6QXZo:hestia/document-types",
+          "recordChanges": "details",
+          "targetTypeName": "Audit Trail",
+          "createMergeRecord": true,
+          "uniqueMergeRecords": true,
+          "updateTargetDocumentState": ""
         }
       ],
       "derivation": [
