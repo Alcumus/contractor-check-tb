@@ -1,5 +1,5 @@
 {
-  "__": "obcLSox29dTOkK",
+  "__": "EgXm0aVaRCXUo3",
   "_id": "fYmpCXoXNbRtVg:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -197,14 +197,14 @@
     {
       "id": "D57acZ-uIHF-Tx",
       "name": "1.0",
-      "time": 1622064381293,
+      "time": 1622064413202,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "qzpQ9GAVZry0_r",
+      "_selectId": "Jr9obs0x_Cj38u",
       "parentVersion": ""
     }
   ],
-  "_modified": 1622060781000,
+  "_modified": 1622060813000,
   "components": "verification,helptext,navigation,formprogress",
   "isLockedBy": null,
   "navigation": [],
@@ -811,16 +811,13 @@
           "inStates": [
             "Rejected"
           ],
-          "mergeAll": false,
+          "mergeAll": true,
           "_selectId": "8pnUeA91Qp7N7r",
           "properties": [
             {
               "id": "P3Z3dZ8NOaw7Ma",
               "field": "activity",
-              "value": [
-                "Accredited",
-                "Rejected"
-              ],
+              "value": "Rejected",
               "defaultValue": ""
             },
             {
