@@ -1,5 +1,5 @@
 {
-  "__": "pRr4OLS4CVLXa7",
+  "__": "DgT6UZ3QS1E6GG",
   "_id": "fYmpCXoXNbRtVg:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -197,14 +197,14 @@
     {
       "id": "D57acZ-uIHF-Tx",
       "name": "1.0",
-      "time": 1622014642772,
+      "time": 1622014720727,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "JSg2AYtK8u-1sl",
+      "_selectId": "reOX7Y_rTluR5H",
       "parentVersion": ""
     }
   ],
-  "_modified": 1622011043000,
+  "_modified": 1622011121000,
   "components": "verification,helptext,navigation,formprogress",
   "isLockedBy": null,
   "navigation": [],
@@ -618,7 +618,7 @@
       ],
       "styled": [
         {
-          "css": ".progressbar > div {\n    height: initial !important;\n    margin: 0 !important;\n    line-height: 1.7;\n}\n\n.title {\n    border-radius: 4px;\n    padding-bottom: 16px;\n}",
+          "css": ".progressbar > div {\n    height: initial !important;\n    margin: 0 !important;\n    line-height: 1.7;\n}\n\n.title {\n    border-radius: 4px;\n}\n\n.aweForm {\n    margin-bottom: 8px;\n}",
           "_init": true,
           "_selectId": "6EMy8mLv9RKokA"
         }
