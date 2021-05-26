@@ -1,5 +1,5 @@
 {
-  "__": "JcqJWI2dpNUcHw",
+  "__": "IrWZHuX1LnkU8M",
   "_id": "fYmpCXoXNbRtVg:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -197,14 +197,14 @@
     {
       "id": "D57acZ-uIHF-Tx",
       "name": "1.0",
-      "time": 1621978718703,
+      "time": 1622014590259,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "Yje3xvOgXJEVRg",
+      "_selectId": "i89Ph80s0FdEGG",
       "parentVersion": ""
     }
   ],
-  "_modified": 1621975118000,
+  "_modified": 1622010990000,
   "components": "verification,helptext,navigation,formprogress",
   "isLockedBy": null,
   "navigation": [],
@@ -594,10 +594,10 @@
                   "id": "NyAuYboZAzm-Wg",
                   "name": "",
                   "type": "title",
-                  "color": "",
+                  "color": "#ffffff",
                   "hints": {},
                   "title": "One Or More Documents Have Expired",
-                  "question": "",
+                  "question": "<p>You should upload the updated documents to reinstate your approved status</p>\n",
                   "_selectId": "jNfTBlxaXJ-JaB",
                   "condition": "",
                   "questionHeight": "",
