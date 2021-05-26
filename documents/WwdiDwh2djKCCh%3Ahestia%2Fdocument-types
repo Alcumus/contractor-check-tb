@@ -1,5 +1,5 @@
 {
-  "__": "1M4GcnpfyfafHn",
+  "__": "KSQCX2Yb1wpU6G",
   "_id": "WwdiDwh2djKCCh:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -197,14 +197,14 @@
     {
       "id": "pmgndWqtbw5UAv",
       "name": "1.0",
-      "time": 1621986390875,
+      "time": 1622017043290,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "qTyaYjRLOhP4pu",
+      "_selectId": "Cv7fuihjKUGIKR",
       "parentVersion": ""
     }
   ],
-  "_modified": 1621982791000,
+  "_modified": 1622013443000,
   "components": "",
   "isLockedBy": null,
   "navigation": [],
@@ -320,6 +320,7 @@
         {
           "id": "sJlmzVvPeeEsLy",
           "name": "Tell The Contractor Documents Have Expired",
+          "onEnter": true,
           "inStates": [
             "Expired"
           ],
