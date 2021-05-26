@@ -1,5 +1,5 @@
 {
-  "__": "yrcA53JVs5nIHk",
+  "__": "lCDpXENaLDoMTb",
   "_id": "fYmpCXoXNbRtVg:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -197,14 +197,14 @@
     {
       "id": "D57acZ-uIHF-Tx",
       "name": "1.0",
-      "time": 1622015635978,
+      "time": 1622015655206,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "585vl8uTxn1UMt",
+      "_selectId": "ULvk6fnXcarL24",
       "parentVersion": ""
     }
   ],
-  "_modified": 1622012036000,
+  "_modified": 1622012055000,
   "components": "verification,helptext,navigation,formprogress",
   "isLockedBy": null,
   "navigation": [],
@@ -340,11 +340,12 @@
                     "name": "",
                     "type": "embedAction",
                     "hints": {},
-                    "action": "",
+                    "action": "BJ6XoI4tXvH_5y",
                     "variant": "outlined",
                     "question": "",
                     "_selectId": "khCBEIPuEVT_0W",
                     "condition": "",
+                    "_actionName": "Acknowledge",
                     "questionHeight": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
