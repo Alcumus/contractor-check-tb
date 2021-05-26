@@ -1,5 +1,5 @@
 {
-  "__": "_dlsF87fgm350V",
+  "__": "M2M9ZiTIfMKCKD",
   "_id": "fYmpCXoXNbRtVg:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -197,14 +197,14 @@
     {
       "id": "D57acZ-uIHF-Tx",
       "name": "1.0",
-      "time": 1622014968904,
+      "time": 1622015010079,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "zEPLw1_gBPvVQE",
+      "_selectId": "UqpG4LomEhWFIo",
       "parentVersion": ""
     }
   ],
-  "_modified": 1622011369000,
+  "_modified": 1622011411000,
   "components": "verification,helptext,navigation,formprogress",
   "isLockedBy": null,
   "navigation": [],
@@ -596,7 +596,7 @@
                   "type": "title",
                   "color": "#ffffff",
                   "hints": {},
-                  "title": "Documents Expiry",
+                  "title": "Document Expiry",
                   "question": "<p>One or more of the documents uploaded have expired.  You should upload the updated documents to reinstate your approved status</p>\n",
                   "_selectId": "jNfTBlxaXJ-JaB",
                   "condition": "",
