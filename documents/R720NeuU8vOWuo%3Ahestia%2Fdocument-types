@@ -1,5 +1,5 @@
 {
-  "__": "nZLaFBPusP2Nx1",
+  "__": "U4pbJLjFZOnAyW",
   "_id": "R720NeuU8vOWuo:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -197,14 +197,14 @@
     {
       "id": "sTNP-VH3hEzwdP",
       "name": "1.0",
-      "time": 1621863515775,
+      "time": 1622064610499,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "avv6ObtnUYOMlL",
+      "_selectId": "Diy_7Zyc5jBzzT",
       "parentVersion": ""
     }
   ],
-  "_modified": 1621859916000,
+  "_modified": 1622061010000,
   "components": "verification,navigation,richtext",
   "isLockedBy": null,
   "navigation": [],
@@ -877,6 +877,110 @@
           "targetTypeName": "Contractor Questionnaire",
           "createMergeRecord": "",
           "updateTargetDocumentState": true
+        },
+        {
+          "id": "ZhbzXcIBj7ZnE4",
+          "name": "Audit Assessing",
+          "onEnter": "",
+          "inStates": [
+            "Assessing"
+          ],
+          "mergeAll": true,
+          "_selectId": "OdFNUq9cvgD19F",
+          "properties": [
+            {
+              "id": "P3Z3dZ8NOaw7Ma",
+              "field": "activity",
+              "value": "Assessing",
+              "defaultValue": ""
+            },
+            {
+              "id": "eKKMqox-hsnRxH",
+              "field": "employee",
+              "value": "{$currentUser.Employees._id}",
+              "defaultValue": ""
+            },
+            {
+              "id": "pUL2QiK0uLU5am",
+              "field": "profile",
+              "value": "{profile}",
+              "defaultValue": ""
+            },
+            {
+              "id": "INAqEBu-E1DqFi",
+              "field": "time",
+              "value": "{$now}",
+              "defaultValue": ""
+            },
+            {
+              "id": "jyxJO50CDUUAZs",
+              "field": "assessment",
+              "value": "{_uniqueId}:contractorcheck/contractorAnswers",
+              "defaultValue": ""
+            }
+          ],
+          "specificId": false,
+          "targetType": "",
+          "updateState": "",
+          "recordChanges": "details",
+          "$behaviourType": "updater",
+          "targetTypeName": "Audit Trail",
+          "updateRecordId": "",
+          "createMergeRecord": true,
+          "uniqueMergeRecords": true,
+          "updateTargetDocumentState": false
+        },
+        {
+          "id": "KaAhQE8R8CcYNK",
+          "name": "Audit Quality Control",
+          "onEnter": "",
+          "inStates": [
+            "Quality Control"
+          ],
+          "mergeAll": true,
+          "_selectId": "NBzVJ2MA7zX8HO",
+          "properties": [
+            {
+              "id": "P3Z3dZ8NOaw7Ma",
+              "field": "activity",
+              "value": "Quality Control",
+              "defaultValue": ""
+            },
+            {
+              "id": "eKKMqox-hsnRxH",
+              "field": "employee",
+              "value": "{$currentUser.Employees._id}",
+              "defaultValue": ""
+            },
+            {
+              "id": "pUL2QiK0uLU5am",
+              "field": "profile",
+              "value": "{profile}",
+              "defaultValue": ""
+            },
+            {
+              "id": "INAqEBu-E1DqFi",
+              "field": "time",
+              "value": "{$now}",
+              "defaultValue": ""
+            },
+            {
+              "id": "jyxJO50CDUUAZs",
+              "field": "assessment",
+              "value": "{_uniqueId}:contractorcheck/contractorAnswers",
+              "defaultValue": ""
+            }
+          ],
+          "specificId": false,
+          "targetType": "",
+          "updateState": "",
+          "recordChanges": "details",
+          "$behaviourType": "updater",
+          "targetTypeName": "Audit Trail",
+          "updateRecordId": "",
+          "createMergeRecord": true,
+          "uniqueMergeRecords": true,
+          "updateTargetDocumentState": false
         }
       ],
       "derivation": [
