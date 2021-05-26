@@ -1,12 +1,10 @@
 {
-  "__": "KSQCX2Yb1wpU6G",
-  "_id": "WwdiDwh2djKCCh:hestia/document-types",
-  "__ok": true,
+  "__": "6v-9tXqmXZqMFE",
+  "_id": "j0P98w9sl6QXZo:hestia/document-types",
   "icon": "",
-  "name": "Master List Questionnaire",
+  "name": "Audit Trail",
   "tags": [],
-  "_type": "document",
-  "table": "masterListQuestionnaire",
+  "table": "audit",
   "theme": {
     "other": {
       "opacity": {
@@ -164,72 +162,189 @@
         }
       }
     },
-    "theme": "Standard",
+    "theme": "Alcumus",
     "permanentTheme": ""
   },
   "$valid": true,
-  "__warn": false,
-  "client": "rsihYJKKDVyaYN",
   "gitHub": {
     "aV8boSk1D6q6YG": {
       "publishDocs": "",
       "gitHubPublish": true
     }
   },
-  "locked": false,
   "_client": "rsihYJKKDVyaYN",
   "demands": [],
   "graphQL": {
     "6g4mciY7jkfOUo": {
-      "read": true,
-      "write": true,
-      "exposeAPI": true,
-      "readDemands": [],
-      "writeDemands": []
+      "exposeAPI": ""
     }
   },
   "$invalid": false,
-  "_created": 1621454620000,
+  "_created": 1622055209000,
   "_deleted": 0,
-  "database": "contractorCheck",
+  "database": "contractorcheck",
   "maxWidth": 1000,
   "versions": [
     {
-      "id": "pmgndWqtbw5UAv",
+      "id": "PlkNsC6NXRUcX4",
       "name": "1.0",
-      "time": 1622017043290,
+      "time": 1622059998287,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "Cv7fuihjKUGIKR",
+      "_selectId": "B_RFTPhwAahve3",
       "parentVersion": ""
     }
   ],
-  "_modified": 1622013443000,
+  "_modified": 1622056398000,
   "components": "",
-  "isLockedBy": null,
   "navigation": [],
   "_behaviours": {
     "_state": "",
     "instances": {
       "form": [
         {
-          "id": "7kWIZz7TuCPngS",
-          "name": "Master List Questionnaire View",
+          "id": "Vrzu5HX6ofz_s1",
+          "name": "Main",
           "sections": [
             {
               "name": "Main",
               "_expanded": true,
-              "_selectId": "yf8f5lJGes-ae-",
+              "_selectId": "xAImG9uatWqEYw",
               "questions": [
                 {
-                  "id": "3B13xpZ0xO1J5A",
-                  "form": "allForms",
-                  "name": "",
-                  "type": "useForm",
+                  "id": "H3brZBkC_eLiT9",
+                  "name": "profile",
+                  "type": "lookup",
+                  "hints": {},
+                  "lines": 1,
+                  "groups": [],
+                  "question": "",
+                  "_selectId": "rGJEq7rGOdop8r",
+                  "condition": "",
+                  "popupView": "CjmVDQ0kzL7GKT",
+                  "inputLabel": "",
+                  "lookupType": "WdoYmj-FOBFYri:hestia/document-types",
+                  "sortFields": [],
+                  "displayView": "CjmVDQ0kzL7GKT",
+                  "linesMobile": 1,
+                  "defaultValue": "",
+                  "searchFields": [],
+                  "popupQuestion": "",
+                  "addButtonLabel": "",
+                  "lookupTypeName": "Company Profile",
+                  "popupView_name": "Company Profile",
+                  "questionHeight": "",
+                  "requiredFields": [
+                    "companyName",
+                    "country",
+                    "province",
+                    "workActivities.workActivity",
+                    "companySize",
+                    "clients.clientName"
+                  ],
+                  "questionLeftPad": "",
+                  "displayView_name": "Company Profile",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "5q-nxH8-hQTyu8",
+                  "name": "assessment",
+                  "type": "lookup",
+                  "hints": {
+                    "hidden": true
+                  },
+                  "lines": 1,
+                  "groups": [],
+                  "question": "",
+                  "_selectId": "DZNitbbDUrANZI",
+                  "condition": "",
+                  "popupView": "",
+                  "inputLabel": "",
+                  "lookupType": "fYmpCXoXNbRtVg:hestia/document-types",
+                  "sortFields": [],
+                  "displayView": "",
+                  "linesMobile": 1,
+                  "defaultValue": "",
+                  "searchFields": [],
+                  "popupQuestion": "",
+                  "addButtonLabel": "",
+                  "lookupTypeName": "Contractor Questionnaire",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "YHcp1QfvvKAxwT",
+                  "name": "employee",
+                  "type": "lookup",
+                  "hints": {},
+                  "lines": 1,
+                  "groups": [],
+                  "question": "",
+                  "_selectId": "qymgdq-oOo58bx",
+                  "condition": "",
+                  "popupView": "",
+                  "inputLabel": "",
+                  "lookupType": "Hfqzb-gWFBvgaC:hestia/document-types",
+                  "sortFields": [],
+                  "displayView": "",
+                  "linesMobile": 1,
+                  "defaultValue": "",
+                  "searchFields": [],
+                  "popupQuestion": "",
+                  "addButtonLabel": "",
+                  "lookupTypeName": "Employees",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "ga29PJDfmbA8oX",
+                  "name": "time",
+                  "type": "date",
                   "hints": {},
                   "question": "",
-                  "_selectId": "faSStX3GrzygnK",
+                  "_selectId": "VgzYd44E6I3mTE",
                   "condition": "",
+                  "inputLabel": "",
+                  "localFormat": "",
+                  "useMaterialUI": "",
+                  "preventNullify": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "Azh4C1fb28PN4f",
+                  "name": "activity",
+                  "type": "text",
+                  "hints": {},
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "bhxfkh1ekXVSV9",
+                  "condition": "",
+                  "inputLabel": "",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "IRJg5tsQfF3MKq",
+                  "name": "details",
+                  "type": "text",
+                  "hints": {},
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "dI7QKtr5cGDe56",
+                  "condition": "",
+                  "inputLabel": "",
+                  "defaultValue": "",
                   "questionHeight": "",
                   "questionLeftPad": "",
                   "questionRightPad": "",
@@ -238,231 +353,41 @@
               ]
             }
           ],
-          "_selectId": "-BiW_BjyML1Eui",
-          "condition": "notMode(view,details)",
-          "description": "",
-          "duplicateNames": {}
-        },
-        {
-          "id": "oWEnsHcUBYebA_",
-          "name": "Master List Details View",
-          "sections": [
-            {
-              "id": "1621853477364-FoI6ODmOmMkZPB",
-              "_id": "1621853477364-FoI6ODmOmMkZPB:hestia/form-sections",
-              "name": "...",
-              "_expanded": true,
-              "_selectId": "RJmdn1zK7Kqfrw",
-              "condition": "",
-              "questions": [
-                {
-                  "id": "x_UvQ1L_MC_DFz",
-                  "form": "jPYoSzTjedkaCv",
-                  "name": "",
-                  "type": "useForm",
-                  "hints": {},
-                  "question": "",
-                  "_selectId": "8wYSYqzfnUkm6r",
-                  "condition": "",
-                  "questionHeight": "",
-                  "questionLeftPad": "",
-                  "questionRightPad": "",
-                  "questionSpaceBefore": ""
-                }
-              ],
-              "description": ""
-            }
-          ],
-          "_selectId": "NxRlfoaKWGg_gV",
-          "condition": "mode(view,details)",
-          "description": "",
-          "duplicateNames": {}
-        },
-        {
-          "id": "6VZW_QLXuexCmX",
-          "name": "Expired",
-          "sections": [
-            {
-              "id": "1621958644940-nEnJDQWDCoeSD1",
-              "_id": "1621958644940-nEnJDQWDCoeSD1:hestia/form-sections",
-              "name": "...",
-              "_expanded": true,
-              "_selectId": "MyYcwdsVb2DuKs",
-              "condition": "",
-              "questions": [
-                {
-                  "id": "5P_H8c9VG38dJP",
-                  "name": "",
-                  "type": "title",
-                  "color": "#f5f5f5",
-                  "hints": {},
-                  "title": "One or more documents have expired and are awaiting update",
-                  "question": "",
-                  "_selectId": "qRYJ7OUDpV1AJF",
-                  "condition": "",
-                  "questionHeight": "",
-                  "backgroundColor": "#d26a37",
-                  "questionLeftPad": "",
-                  "questionRightPad": "",
-                  "questionSpaceBefore": ""
-                }
-              ],
-              "description": ""
-            }
-          ],
-          "_selectId": "a5w9WylQQhnaOS",
+          "_selectId": "IRdCGmyx37MrEW",
           "condition": "",
           "description": "",
           "duplicateNames": {}
         }
       ],
-      "updater": [
-        {
-          "id": "sJlmzVvPeeEsLy",
-          "name": "Tell The Contractor Documents Have Expired",
-          "onEnter": true,
-          "inStates": [
-            "Expired"
-          ],
-          "mergeAll": false,
-          "_selectId": "sTvlYx_2g5gZHc",
-          "properties": [],
-          "specificId": "",
-          "targetType": "fYmpCXoXNbRtVg:hestia/document-types",
-          "updateState": "Expired",
-          "targetTypeName": "Contractor Questionnaire",
-          "createMergeRecord": "",
-          "updateTargetDocumentState": true
-        }
-      ],
-      "schedule": [
-        {
-          "id": "gOpXurBsKws1hv",
-          "mode": "On an interval",
-          "name": "Schedule for checking for expired files",
-          "unit": "minutes",
-          "__init": true,
-          "amount": 1,
-          "inStates": [
-            "New"
-          ],
-          "_selectId": "buAX2rhPIN0_tb",
-          "scheduled": false,
-          "scheduleExpression": ""
-        }
-      ],
-      "derivation": [
-        {
-          "id": "8tOI-u2EGtdDmY",
-          "name": "New Derivation",
-          "_selectId": "Fq7Gow-V2kVHwD",
-          "derivedFrom": "PMW2x8gydP1Gq7:hestia/document-types",
-          "description": "",
-          "textOverride": {},
-          "typeOverride": {},
-          "stateOverride": {},
-          "derivedFromName": "Base Qs"
-        }
-      ],
-      "fileExpiry": [
-        {
-          "id": "UrIsAp49q9lG37",
-          "name": "Scan for out of date files",
-          "__init": true,
-          "toState": "Expired",
-          "inStates": [
-            "New"
-          ],
-          "_selectId": "sn6T_I-8MkO1av"
-        }
-      ],
       "formAction": [
         {
-          "id": "6NjIL2Z7jEbrem",
+          "id": "Vj7pWcB7wLiQHo",
           "name": "Main",
           "forms": [
             {
-              "id": "9Io6sUwGynR2PP",
-              "form": "sLQ1EhO5G5VfxQ",
-              "readOnly": false,
-              "_selectId": "hV6O6fBzLHOe9X"
-            },
-            {
-              "id": "RpLmu7N0iOv4tT",
-              "form": "7kWIZz7TuCPngS",
-              "readOnly": true,
-              "_selectId": "wqyFeYzxRh9YWz"
-            },
-            {
-              "id": "uwp5m3ExmwR6PK",
-              "form": "oWEnsHcUBYebA_",
-              "readOnly": false,
-              "_selectId": "_LQKAWnod1T9dF"
+              "id": "PuaW0QTQOqEwOR",
+              "form": "Vrzu5HX6ofz_s1"
             }
           ],
           "inline": true,
           "actions": [],
-          "storeIn": "",
-          "_selectId": "NbssDgIHh6HiPe",
-          "editDemands": [],
+          "_selectId": "bACQqZcDgQ5gdg",
           "inputStates": [
             "New"
-          ],
-          "visibleDemands": []
-        },
-        {
-          "id": "BZTipHu6MRF13I",
-          "name": "Files expired",
-          "forms": [
-            {
-              "id": "66dmlsujus3FJP",
-              "form": "6VZW_QLXuexCmX",
-              "readOnly": false,
-              "_selectId": "s49BGIegC-hqDy"
-            },
-            {
-              "id": "AY63SMJtEM2ma7",
-              "form": "sLQ1EhO5G5VfxQ",
-              "readOnly": false,
-              "_selectId": "FTWFAN1AAHLSIS"
-            },
-            {
-              "id": "Qcv5z6mZVOGFEW",
-              "form": "7kWIZz7TuCPngS",
-              "readOnly": true,
-              "_selectId": "VvoyHu9_jHML0S"
-            },
-            {
-              "id": "PhKYu_fp99T3M2",
-              "form": "oWEnsHcUBYebA_",
-              "readOnly": false,
-              "_selectId": "VuB4oFeksV8kpw"
-            }
-          ],
-          "inline": true,
-          "actions": [],
-          "storeIn": "",
-          "_selectId": "OCD2mhRrglxrXp",
-          "editDemands": [],
-          "inputStates": [
-            "Expired"
-          ],
-          "visibleDemands": []
+          ]
         }
       ]
     }
   },
   "createOnNew": false,
   "description": "",
-  "displayName": "Master List",
-  "__originalId": "WwdiDwh2djKCCh:hestia/document-types",
+  "displayName": "Audit Trail",
   "defaultState": "New",
   "sidebarColor": "#333",
   "tabsSelected": "#009fda",
-  "__warnReasons": [],
   "documentColor": "#333",
-  "_activeVersion": "g0kqLgJQJ13MRT",
-  "_parentVersion": "pmgndWqtbw5UAv",
+  "_activeVersion": "J4030GZ1fyK-SV",
+  "_parentVersion": "PlkNsC6NXRUcX4",
   "currentVersion": {
     "live": "1.0",
     "testing": "1.0",
@@ -471,12 +396,11 @@
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
   "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-  "defaultActivity": "6NjIL2Z7jEbrem",
+  "defaultActivity": "Vj7pWcB7wLiQHo",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
   "documentBackdrop": "#f4f4f4",
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
-  "devices-allowed-html": "",
-  "isLockedByCurrentUser": false
+  "devices-allowed-html": ""
 }
