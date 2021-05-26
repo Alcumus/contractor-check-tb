@@ -1,5 +1,5 @@
 {
-  "__": "TSyftdRGv7Nifu",
+  "__": "_dlsF87fgm350V",
   "_id": "fYmpCXoXNbRtVg:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -197,14 +197,14 @@
     {
       "id": "D57acZ-uIHF-Tx",
       "name": "1.0",
-      "time": 1622014746060,
+      "time": 1622014968904,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "On5CWjUBSvZXNl",
+      "_selectId": "zEPLw1_gBPvVQE",
       "parentVersion": ""
     }
   ],
-  "_modified": 1622011146000,
+  "_modified": 1622011369000,
   "components": "verification,helptext,navigation,formprogress",
   "isLockedBy": null,
   "navigation": [],
@@ -596,8 +596,8 @@
                   "type": "title",
                   "color": "#ffffff",
                   "hints": {},
-                  "title": "One Or More Documents Have Expired",
-                  "question": "<p>You should upload the updated documents to reinstate your approved status</p>\n",
+                  "title": "Documents Expiry",
+                  "question": "<p>One or more of the documents uploaded have expired.  You should upload the updated documents to reinstate your approved status</p>\n",
                   "_selectId": "jNfTBlxaXJ-JaB",
                   "condition": "",
                   "questionHeight": "",
@@ -618,7 +618,7 @@
       ],
       "styled": [
         {
-          "css": ".progressbar > div {\n    height: initial !important;\n    margin: 0 !important;\n    line-height: 1.7;\n}\n\n.title {\n    border-radius: 4px;\n}\n\n.aweForm {\n    padding-bottom: 8px;\n}",
+          "css": ".progressbar > div {\n    height: initial !important;\n    margin: 0 !important;\n    line-height: 1.7;\n}\n\n.title {\n    border-radius: 4px;\n    padding-bottom: 20px;\n}\n\n",
           "_init": true,
           "_selectId": "6EMy8mLv9RKokA"
         }
