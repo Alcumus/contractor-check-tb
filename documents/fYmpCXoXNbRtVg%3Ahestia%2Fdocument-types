@@ -1,5 +1,5 @@
 {
-  "__": "flXjKRksG8r4Fs",
+  "__": "rrizyDbqE4F5Bw",
   "_id": "fYmpCXoXNbRtVg:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -197,14 +197,14 @@
     {
       "id": "D57acZ-uIHF-Tx",
       "name": "1.0",
-      "time": 1622125116898,
+      "time": 1622138734939,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "-8M_WVQWwJ0s9r",
+      "_selectId": "CnBLrsfpw9Nbhn",
       "parentVersion": ""
     }
   ],
-  "_modified": 1622121517000,
+  "_modified": 1622135135000,
   "components": "verification,helptext,navigation,formprogress",
   "isLockedBy": null,
   "navigation": [],
@@ -648,6 +648,35 @@
           "condition": "",
           "description": "",
           "duplicateNames": {}
+        },
+        {
+          "id": "mupnc0cVXhPFY7",
+          "name": "Blank Navigation",
+          "sections": [
+            {
+              "id": "1622138704675-vxbqxrFooAB8_J",
+              "_id": "1622138704675-vxbqxrFooAB8_J:hestia/form-sections",
+              "name": "...",
+              "_expanded": true,
+              "_selectId": "d15AVOrU2d38fW",
+              "condition": "",
+              "questions": [
+                {
+                  "id": "JaJIzl5KzlRA0W",
+                  "name": "",
+                  "type": "disableActions",
+                  "hints": {},
+                  "question": "",
+                  "_selectId": "7jqswhpCrpcJAT",
+                  "condition": ""
+                }
+              ],
+              "description": ""
+            }
+          ],
+          "_selectId": "WIn7Egp28MH7Zd",
+          "condition": "",
+          "description": ""
         }
       ],
       "styled": [
@@ -1205,6 +1234,12 @@
               "form": "allForms",
               "readOnly": true,
               "_selectId": "CEdV9GySTOs9V5"
+            },
+            {
+              "id": "lAdPiNY70Yxry5",
+              "form": "mupnc0cVXhPFY7",
+              "readOnly": false,
+              "_selectId": "H8I3WtdEzadnYS"
             }
           ],
           "inline": true,
