@@ -1,5 +1,5 @@
 {
-  "__": "XiF6RQ_oG1k1et",
+  "__": "rrizyDbqE4F5Bw",
   "_id": "fYmpCXoXNbRtVg:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -197,14 +197,14 @@
     {
       "id": "D57acZ-uIHF-Tx",
       "name": "1.0",
-      "time": 1622079057040,
+      "time": 1622138734939,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "xaXPDOvrAuTE2c",
+      "_selectId": "CnBLrsfpw9Nbhn",
       "parentVersion": ""
     }
   ],
-  "_modified": 1622075457000,
+  "_modified": 1622135135000,
   "components": "verification,helptext,navigation,formprogress",
   "isLockedBy": null,
   "navigation": [],
@@ -648,6 +648,35 @@
           "condition": "",
           "description": "",
           "duplicateNames": {}
+        },
+        {
+          "id": "mupnc0cVXhPFY7",
+          "name": "Blank Navigation",
+          "sections": [
+            {
+              "id": "1622138704675-vxbqxrFooAB8_J",
+              "_id": "1622138704675-vxbqxrFooAB8_J:hestia/form-sections",
+              "name": "...",
+              "_expanded": true,
+              "_selectId": "d15AVOrU2d38fW",
+              "condition": "",
+              "questions": [
+                {
+                  "id": "JaJIzl5KzlRA0W",
+                  "name": "",
+                  "type": "disableActions",
+                  "hints": {},
+                  "question": "",
+                  "_selectId": "7jqswhpCrpcJAT",
+                  "condition": ""
+                }
+              ],
+              "description": ""
+            }
+          ],
+          "_selectId": "WIn7Egp28MH7Zd",
+          "condition": "",
+          "description": ""
         }
       ],
       "styled": [
@@ -1140,7 +1169,7 @@
               "goBack": "",
               "caption": "Acknowledge Rejection",
               "command": "setData",
-              "toState": "New",
+              "toState": "Editing",
               "variant": "text",
               "_selectId": "932tp_tHinjorW",
               "condition": "",
@@ -1205,6 +1234,12 @@
               "form": "allForms",
               "readOnly": true,
               "_selectId": "CEdV9GySTOs9V5"
+            },
+            {
+              "id": "lAdPiNY70Yxry5",
+              "form": "mupnc0cVXhPFY7",
+              "readOnly": false,
+              "_selectId": "H8I3WtdEzadnYS"
             }
           ],
           "inline": true,
@@ -1340,6 +1375,108 @@
           "inputStates": [
             "Expired"
           ],
+          "visibleDemands": []
+        },
+        {
+          "id": "A7QmNgD6Ihwc6H",
+          "name": "Editing",
+          "forms": [
+            {
+              "id": "3cScZueTVGUx7b",
+              "form": "n4DwjSOd_bZOe3",
+              "readOnly": false,
+              "_selectId": "u99U9KdoE5gA3-"
+            },
+            {
+              "id": "TpcDVhGhu6vjnd",
+              "form": "UDg-0ZEp6pPueI",
+              "readOnly": false,
+              "_selectId": "yNFjuTLbFneMZt"
+            },
+            {
+              "id": "gkM55hpNhHw-pc",
+              "form": "sLQ1EhO5G5VfxQ",
+              "readOnly": false,
+              "_selectId": "vWVHzqqkmJZcWm"
+            },
+            {
+              "id": "MbmFhOP38OtuEs",
+              "form": "allForms",
+              "readOnly": false,
+              "_selectId": "OYwrHOoK3E0-oB"
+            },
+            {
+              "id": "_PXauTaVvDpMqe",
+              "form": "9VVB1LDyiRGI-p",
+              "readOnly": false,
+              "_selectId": "UuRSehQ7-J6j-9"
+            }
+          ],
+          "inline": true,
+          "actions": [
+            {
+              "id": "0gqxuu5--yYGAl",
+              "blur": "",
+              "icon": "",
+              "color": "#fff",
+              "modal": {
+                "enabled": false
+              },
+              "goBack": "",
+              "caption": "Save",
+              "command": "setData",
+              "toState": "Editing",
+              "variant": "text",
+              "_selectId": "hfTxfPv8pLeVkp",
+              "condition": "",
+              "endOfLine": "",
+              "navigateTo": "",
+              "properties": [],
+              "changeState": true,
+              "backgroundColor": "#03a9f4",
+              "visibleCondition": "",
+              "notificationToast": ""
+            },
+            {
+              "id": "4rGdwjaa96EPBg",
+              "blur": "",
+              "icon": "",
+              "color": "#1da7e0",
+              "modal": {
+                "title": "Submit Form",
+                "cancel": "Cancel",
+                "enabled": true,
+                "message": "Do you want to submit your response?  You will not be able to edit the form once it is submitted.",
+                "cancelColor": "#f50057",
+                "toggleOrder": "",
+                "confirmColor": "#f5f5f5",
+                "confirmation": "Ok",
+                "cancelBackgroundColor": "",
+                "confirmBackgroundColor": "#1da7e0"
+              },
+              "goBack": "",
+              "caption": "Submit",
+              "command": "setData",
+              "toState": "Submitted",
+              "variant": "text",
+              "_selectId": "4sCNVZJk2JvnbV",
+              "condition": "requiredData",
+              "endOfLine": "",
+              "navigateTo": "",
+              "properties": [],
+              "changeState": true,
+              "backgroundColor": "#ffffff",
+              "visibleCondition": "",
+              "notificationToast": ""
+            }
+          ],
+          "storeIn": "",
+          "_selectId": "x_NxtVDypfkTCm",
+          "editDemands": [],
+          "inputStates": [
+            "Editing"
+          ],
+          "$behaviourType": "formAction",
           "visibleDemands": []
         }
       ],
