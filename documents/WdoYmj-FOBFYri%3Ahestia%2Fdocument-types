@@ -1,5 +1,5 @@
 {
-  "__": "OrCTXo09uwJJLO",
+  "__": "cCTwXxCLBZuYFQ",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -224,14 +224,14 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1622143605638,
+      "time": 1622144131360,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "bHQmfDUWxGo6Or",
+      "_selectId": "kqi727RKYIp8tc",
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1622140005000,
+  "_modified": 1622140531000,
   "components": "navigation",
   "isLockedBy": null,
   "navigation": [],
@@ -855,25 +855,25 @@
                   "question": "",
                   "_selectId": "5qu5TL1ekVAv49",
                   "condition": "",
-                  "popupView": "QTCSKcWsDulGIR",
+                  "popupView": "tO-6DxodJdqI_0",
                   "inputLabel": "Anchored Clients",
-                  "lookupType": "ImG4GhYEohQwgO:hestia/document-types",
+                  "lookupType": "WdoYmj-FOBFYri:hestia/document-types",
                   "sortFields": [
-                    "clientName"
+                    "companyName"
                   ],
-                  "displayView": "QTCSKcWsDulGIR",
+                  "displayView": "tO-6DxodJdqI_0",
                   "linesMobile": 1,
                   "defaultValue": "",
                   "searchFields": [
-                    "clientName"
+                    "companyName"
                   ],
                   "popupQuestion": "What clients do you want to work with?",
                   "addButtonLabel": "",
-                  "lookupTypeName": "Client Accounts",
+                  "lookupTypeName": "Company Profile",
                   "popupView_name": "Name",
                   "questionHeight": "",
                   "requiredFields": [
-                    "clientName"
+                    "companyName"
                   ],
                   "questionLeftPad": "",
                   "displayView_name": "Name",
@@ -1058,7 +1058,7 @@
                   "id": "A8gqn7wfU7R_Rt",
                   "name": "clients",
                   "type": "relatedField",
-                  "field": "clientName",
+                  "field": "companyName",
                   "hints": {
                     "hidden": true
                   },
@@ -1066,25 +1066,9 @@
                   "question": "",
                   "_selectId": "8NPQKzQa_x_8m9",
                   "condition": "",
-                  "relatedType": "ImG4GhYEohQwgO:hestia/document-types",
+                  "relatedType": "WdoYmj-FOBFYri:hestia/document-types",
                   "questionHeight": "",
                   "questionLeftPad": "",
-                  "relatedQuestion": {
-                    "id": "Frg5dhB7nj2H_W",
-                    "name": "clientName",
-                    "type": "text",
-                    "hints": {},
-                    "maxWidth": "",
-                    "question": "",
-                    "_selectId": "NXLTLyhYykjw5j",
-                    "condition": "",
-                    "inputLabel": "",
-                    "defaultValue": "",
-                    "questionHeight": "",
-                    "questionLeftPad": "",
-                    "questionRightPad": "",
-                    "questionSpaceBefore": ""
-                  },
                   "questionRightPad": "",
                   "questionSpaceBefore": ""
                 },
@@ -1136,21 +1120,21 @@
                   "question": "",
                   "_selectId": "pv3jdrPcIG07aG",
                   "condition": "",
-                  "popupView": "QTCSKcWsDulGIR",
+                  "popupView": "tO-6DxodJdqI_0",
                   "inputLabel": "",
-                  "lookupType": "ImG4GhYEohQwgO:hestia/document-types",
+                  "lookupType": "WdoYmj-FOBFYri:hestia/document-types",
                   "sortFields": [],
-                  "displayView": "QTCSKcWsDulGIR",
+                  "displayView": "tO-6DxodJdqI_0",
                   "linesMobile": 1,
                   "defaultValue": "",
                   "searchFields": [],
                   "popupQuestion": "",
                   "addButtonLabel": "",
-                  "lookupTypeName": "Client Accounts",
+                  "lookupTypeName": "Company Profile",
                   "popupView_name": "Name",
                   "questionHeight": "",
                   "requiredFields": [
-                    "clientName"
+                    "companyName"
                   ],
                   "questionLeftPad": "",
                   "displayView_name": "Name",
@@ -1353,6 +1337,21 @@
             }
           ],
           "_selectId": "USKfK62HjlH5HZ",
+          "availableActions": []
+        },
+        {
+          "id": "tO-6DxodJdqI_0",
+          "name": "Name",
+          "fields": [
+            {
+              "id": "sXmaBQ380NDeqN",
+              "field": "companyName",
+              "separator": " ",
+              "transform": "none",
+              "defaultValue": ""
+            }
+          ],
+          "_selectId": "GkwqrXDc_mjz9M",
           "availableActions": []
         }
       ]
