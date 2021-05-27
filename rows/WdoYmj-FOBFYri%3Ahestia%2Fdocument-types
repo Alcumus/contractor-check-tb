@@ -1,6 +1,6 @@
 [
   {
-    "__": "IQhRkzP_boTviQ",
+    "__": "lTeKH4Dex7LAIK",
     "ZIP": "999",
     "_id": "1621266694681:companyP/companyP",
     "City": "Racoon City",
@@ -22,21 +22,27 @@
       "clientsLookup": {
         "rows": [
           {
-            "_id": "Cp6ZiAd1Be9igc:clientA/clientA",
+            "_id": "8-DZ0dQ-ny8sF0:companyP/companyP",
             "_settings": {
-              "_id": "ImG4GhYEohQwgO:hestia/document-types"
+              "_id": "WdoYmj-FOBFYri:hestia/document-types"
             }
           },
           {
-            "_id": "oY83v8SiXAaN5n:clientA/clientA",
+            "_id": "8c5KGaMb3gHxgE:companyP/companyP",
             "_settings": {
-              "_id": "ImG4GhYEohQwgO:hestia/document-types"
+              "_id": "WdoYmj-FOBFYri:hestia/document-types"
             }
           },
           {
-            "_id": "1VVEoFubNr5Z9U:clientA/clientA",
+            "_id": "k7edZG8PkJSqaj:companyP/companyP",
             "_settings": {
-              "_id": "ImG4GhYEohQwgO:hestia/document-types"
+              "_id": "WdoYmj-FOBFYri:hestia/document-types"
+            }
+          },
+          {
+            "_id": "k5iFGd-sL7NCcV:companyP/companyP",
+            "_settings": {
+              "_id": "WdoYmj-FOBFYri:hestia/document-types"
             }
           }
         ]
@@ -96,7 +102,8 @@
     "clients": [
       "Agellan Capital Partners Inc",
       "Enwave Energy Corporation (Client)",
-      "First Capital - REIT"
+      "First Capital - REIT",
+      "Schindler Elevator Corporation (Client)"
     ],
     "country": [
       "Canada",
@@ -114,7 +121,7 @@
       "Alberta",
       "British Columbia"
     ],
-    "_modified": 1621858288000,
+    "_modified": 1622140607000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
@@ -134,9 +141,10 @@
       "Commercial Diving"
     ],
     "clientsLookup": [
-      "Cp6ZiAd1Be9igc:clientA/clientA",
-      "oY83v8SiXAaN5n:clientA/clientA",
-      "1VVEoFubNr5Z9U:clientA/clientA"
+      "8-DZ0dQ-ny8sF0:companyP/companyP",
+      "8c5KGaMb3gHxgE:companyP/companyP",
+      "k7edZG8PkJSqaj:companyP/companyP",
+      "k5iFGd-sL7NCcV:companyP/companyP"
     ],
     "doYouContract": "yes",
     "classification": "Maintenance",
@@ -149,7 +157,7 @@
     "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1621266733117,
     "headOfficeCountry": "USA",
-    "numberOfEmployees": "",
+    "numberOfEmployees": "0",
     "preferredLanguage": "",
     "doYouUseContractors": "no",
     "workActivitiesLookup": [
@@ -242,7 +250,7 @@
     ]
   },
   {
-    "__": "fsHsTgAtY5q2a4",
+    "__": "wfff4u22vTeVEw",
     "ZIP": "",
     "_id": "1621327241644:companyP/companyP",
     "City": "Toronto",
@@ -260,21 +268,39 @@
       "clientsLookup": {
         "rows": [
           {
-            "_id": "HDTuiRXl7x4xZa:clientA/clientA",
+            "_id": "8-DZ0dQ-ny8sF0:companyP/companyP",
             "_settings": {
-              "_id": "ImG4GhYEohQwgO:hestia/document-types"
+              "_id": "WdoYmj-FOBFYri:hestia/document-types"
             }
           },
           {
-            "_id": "uuXBXVLGS9H3Pu:clientA/clientA",
+            "_id": "aDQEUTeZ5XXY8n:companyP/companyP",
             "_settings": {
-              "_id": "ImG4GhYEohQwgO:hestia/document-types"
+              "_id": "WdoYmj-FOBFYri:hestia/document-types"
             }
           },
           {
-            "_id": "sdJ8ejzGBxYPr_:clientA/clientA",
+            "_id": "trzCa9I4sMgRmV:companyP/companyP",
             "_settings": {
-              "_id": "ImG4GhYEohQwgO:hestia/document-types"
+              "_id": "WdoYmj-FOBFYri:hestia/document-types"
+            }
+          },
+          {
+            "_id": "iawY_HehQF-ZBu:companyP/companyP",
+            "_settings": {
+              "_id": "WdoYmj-FOBFYri:hestia/document-types"
+            }
+          },
+          {
+            "_id": "k7edZG8PkJSqaj:companyP/companyP",
+            "_settings": {
+              "_id": "WdoYmj-FOBFYri:hestia/document-types"
+            }
+          },
+          {
+            "_id": "LPFyKe_7BTUWJ-:companyP/companyP",
+            "_settings": {
+              "_id": "WdoYmj-FOBFYri:hestia/document-types"
             }
           }
         ]
@@ -298,9 +324,15 @@
     "_client": "rsihYJKKDVyaYN",
     "address": "",
     "clients": [
-      "Bouygues Energies & Services",
-      "Schindler Elevator Corporation (Client)",
-      "RiskCheck Inc. (Client)"
+      null,
+      null,
+      null,
+      "Agellan Capital Partners Inc",
+      "Branksome Hall",
+      "Calgary Co-Operative Association Limited",
+      "EPIC Investment Services (Client)",
+      "First Capital - REIT",
+      "Ivanhoe Cambridge Inc."
     ],
     "country": [
       "Canada"
@@ -316,7 +348,7 @@
       "Saskatchewan",
       "Ontario"
     ],
-    "_modified": 1621846910000,
+    "_modified": 1622140050000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
@@ -338,7 +370,13 @@
     "clientsLookup": [
       "HDTuiRXl7x4xZa:clientA/clientA",
       "uuXBXVLGS9H3Pu:clientA/clientA",
-      "sdJ8ejzGBxYPr_:clientA/clientA"
+      "sdJ8ejzGBxYPr_:clientA/clientA",
+      "8-DZ0dQ-ny8sF0:companyP/companyP",
+      "aDQEUTeZ5XXY8n:companyP/companyP",
+      "trzCa9I4sMgRmV:companyP/companyP",
+      "iawY_HehQF-ZBu:companyP/companyP",
+      "k7edZG8PkJSqaj:companyP/companyP",
+      "LPFyKe_7BTUWJ-:companyP/companyP"
     ],
     "doYouContract": "yes",
     "classification": "Construction",
@@ -353,7 +391,7 @@
     "doYouUseContractors": "no"
   },
   {
-    "__": "T0kCnrFc41oNvL",
+    "__": "sENeOvkSUqA6yE",
     "ZIP": "",
     "_id": "1621330978348:companyP/companyP",
     "City": "",
@@ -361,33 +399,45 @@
       "clientsLookup": {
         "rows": [
           {
-            "_id": "Cp6ZiAd1Be9igc:clientA/clientA",
+            "_id": "8-DZ0dQ-ny8sF0:companyP/companyP",
             "_settings": {
-              "_id": "ImG4GhYEohQwgO:hestia/document-types"
+              "_id": "WdoYmj-FOBFYri:hestia/document-types"
             }
           },
           {
-            "_id": "zEZrIhcf8-Dljo:clientA/clientA",
+            "_id": "Mx20OTel7MWV4d:companyP/companyP",
             "_settings": {
-              "_id": "ImG4GhYEohQwgO:hestia/document-types"
+              "_id": "WdoYmj-FOBFYri:hestia/document-types"
             }
           },
           {
-            "_id": "sAPyI76I6oKOJ0:clientA/clientA",
+            "_id": "0pVu0Ed45F96oN:companyP/companyP",
             "_settings": {
-              "_id": "ImG4GhYEohQwgO:hestia/document-types"
+              "_id": "WdoYmj-FOBFYri:hestia/document-types"
             }
           },
           {
-            "_id": "uuXBXVLGS9H3Pu:clientA/clientA",
+            "_id": "lcdBsxkACkPCHQ:companyP/companyP",
             "_settings": {
-              "_id": "ImG4GhYEohQwgO:hestia/document-types"
+              "_id": "WdoYmj-FOBFYri:hestia/document-types"
             }
           },
           {
-            "_id": "1VVEoFubNr5Z9U:clientA/clientA",
+            "_id": "aDQEUTeZ5XXY8n:companyP/companyP",
             "_settings": {
-              "_id": "ImG4GhYEohQwgO:hestia/document-types"
+              "_id": "WdoYmj-FOBFYri:hestia/document-types"
+            }
+          },
+          {
+            "_id": "XjjpwWQXoFlddC:companyP/companyP",
+            "_settings": {
+              "_id": "WdoYmj-FOBFYri:hestia/document-types"
+            }
+          },
+          {
+            "_id": "U039vw8bd3vmHh:companyP/companyP",
+            "_settings": {
+              "_id": "WdoYmj-FOBFYri:hestia/document-types"
             }
           }
         ]
@@ -424,10 +474,12 @@
     "address": "The Office",
     "clients": [
       "Agellan Capital Partners Inc",
-      "Calgary Co-Operative Association Limited",
-      "Cadillac Fairview Corporation Limited",
-      "Schindler Elevator Corporation (Client)",
-      "First Capital - REIT"
+      "Bimbo Canada (Canada Bread)",
+      "Bird Construction (Client)",
+      "Bouygues Energies & Services",
+      "Branksome Hall",
+      "Dream Unlimited Corp",
+      "Loblaw Group of Companies"
     ],
     "country": [
       "US"
@@ -442,7 +494,7 @@
       "Nunavut",
       "Newfoundland and Labrador"
     ],
-    "_modified": 1621861303000,
+    "_modified": 1622140674000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
@@ -466,11 +518,13 @@
       "Wind, Fire, Water Disaster Cleanup and Restoration"
     ],
     "clientsLookup": [
-      "Cp6ZiAd1Be9igc:clientA/clientA",
-      "zEZrIhcf8-Dljo:clientA/clientA",
-      "sAPyI76I6oKOJ0:clientA/clientA",
-      "uuXBXVLGS9H3Pu:clientA/clientA",
-      "1VVEoFubNr5Z9U:clientA/clientA"
+      "8-DZ0dQ-ny8sF0:companyP/companyP",
+      "Mx20OTel7MWV4d:companyP/companyP",
+      "0pVu0Ed45F96oN:companyP/companyP",
+      "lcdBsxkACkPCHQ:companyP/companyP",
+      "aDQEUTeZ5XXY8n:companyP/companyP",
+      "XjjpwWQXoFlddC:companyP/companyP",
+      "U039vw8bd3vmHh:companyP/companyP"
     ],
     "doYouContract": "yes",
     "classification": "Maintenance",
@@ -487,7 +541,7 @@
     "doYouUseContractors": "no"
   },
   {
-    "__": "HKW-WBRkduZDX7",
+    "__": "4vS0XRku6ycVJN",
     "ZIP": "",
     "_id": "1621430770419:companyP/companyP",
     "City": "",
@@ -505,33 +559,51 @@
       "clientsLookup": {
         "rows": [
           {
-            "_id": "UReha1X_GKP2q_:clientA/clientA",
+            "_id": "8-DZ0dQ-ny8sF0:companyP/companyP",
             "_settings": {
-              "_id": "ImG4GhYEohQwgO:hestia/document-types"
+              "_id": "WdoYmj-FOBFYri:hestia/document-types"
             }
           },
           {
-            "_id": "Cp6ZiAd1Be9igc:clientA/clientA",
+            "_id": "o9F45eoXN7sntB:companyP/companyP",
             "_settings": {
-              "_id": "ImG4GhYEohQwgO:hestia/document-types"
+              "_id": "WdoYmj-FOBFYri:hestia/document-types"
             }
           },
           {
-            "_id": "EozCwS7ACVj2Jw:clientA/clientA",
+            "_id": "2Jb4IVFL3hrjMQ:companyP/companyP",
             "_settings": {
-              "_id": "ImG4GhYEohQwgO:hestia/document-types"
+              "_id": "WdoYmj-FOBFYri:hestia/document-types"
             }
           },
           {
-            "_id": "kA3HjK-C79sSsr:clientA/clientA",
+            "_id": "lcdBsxkACkPCHQ:companyP/companyP",
             "_settings": {
-              "_id": "ImG4GhYEohQwgO:hestia/document-types"
+              "_id": "WdoYmj-FOBFYri:hestia/document-types"
             }
           },
           {
-            "_id": "1U7C5aUY8IeEcn:clientA/clientA",
+            "_id": "hEg9ziyMZRbQVl:companyP/companyP",
             "_settings": {
-              "_id": "ImG4GhYEohQwgO:hestia/document-types"
+              "_id": "WdoYmj-FOBFYri:hestia/document-types"
+            }
+          },
+          {
+            "_id": "-wousIdvBUDgIc:companyP/companyP",
+            "_settings": {
+              "_id": "WdoYmj-FOBFYri:hestia/document-types"
+            }
+          },
+          {
+            "_id": "YdKkWf7FpjkwsV:companyP/companyP",
+            "_settings": {
+              "_id": "WdoYmj-FOBFYri:hestia/document-types"
+            }
+          },
+          {
+            "_id": "U039vw8bd3vmHh:companyP/companyP",
+            "_settings": {
+              "_id": "WdoYmj-FOBFYri:hestia/document-types"
             }
           }
         ]
@@ -561,10 +633,18 @@
     "_client": "rsihYJKKDVyaYN",
     "address": "",
     "clients": [
+      null,
+      null,
+      null,
+      null,
       "Agellan Capital Partners Inc",
-      "Branksome Hall",
-      "Bimbo Canada (Canada Bread)",
-      "Bird Construction (Client)"
+      "Cadillac Fairview Corporation Limited",
+      "BURNCO Rock Products Ltd - Client",
+      "Bouygues Energies & Services",
+      "Cineplex Inc. (Client)",
+      "Choice Properties - Industrial & Office",
+      "Longo Brothers Fruit Markets Inc.",
+      "Loblaw Group of Companies"
     ],
     "country": [
       "US"
@@ -575,7 +655,7 @@
     "_created": 1621461173000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "_modified": 1621809022000,
+    "_modified": 1622140071000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
@@ -596,7 +676,15 @@
       "Cp6ZiAd1Be9igc:clientA/clientA",
       "EozCwS7ACVj2Jw:clientA/clientA",
       "kA3HjK-C79sSsr:clientA/clientA",
-      "1U7C5aUY8IeEcn:clientA/clientA"
+      "1U7C5aUY8IeEcn:clientA/clientA",
+      "8-DZ0dQ-ny8sF0:companyP/companyP",
+      "o9F45eoXN7sntB:companyP/companyP",
+      "2Jb4IVFL3hrjMQ:companyP/companyP",
+      "lcdBsxkACkPCHQ:companyP/companyP",
+      "hEg9ziyMZRbQVl:companyP/companyP",
+      "-wousIdvBUDgIc:companyP/companyP",
+      "YdKkWf7FpjkwsV:companyP/companyP",
+      "U039vw8bd3vmHh:companyP/companyP"
     ],
     "doYouContract": "yes",
     "classification": "Construction",
