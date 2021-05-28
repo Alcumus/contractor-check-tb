@@ -1,5 +1,5 @@
 {
-  "__": "GY664Ebga7at9m",
+  "__": "7HtB1XGU4_zE3x",
   "_id": "rsihYJKKDVyaYN:hestia/project",
   "name": "Project",
   "$valid": true,
@@ -7,7 +7,7 @@
   "$invalid": false,
   "_created": 1621327545000,
   "_deleted": 0,
-  "_modified": 1621738643000,
+  "_modified": 1622183813000,
   "components": "graph-ql",
   "_behaviours": {
     "instances": {
@@ -16,13 +16,25 @@
           "id": "aV8boSk1D6q6YG",
           "name": "Contractor Check",
           "__init": true,
-          "branch": "dev",
+          "branch": "mike",
           "publish": true,
           "_selectId": "kXt05PM8SXjVtT",
           "Repository": "Alcumus/contractor-check-tb",
           "publishThemes": true,
           "publishTopics": true,
           "publishProject": true
+        },
+        {
+          "id": "1J8739KZBOtzVQ",
+          "name": "Main Branch",
+          "__init": true,
+          "branch": "main",
+          "publish": "",
+          "_selectId": "ljaT4Mdk06ow3_",
+          "Repository": "Alcumus/contractor-check-tb",
+          "publishThemes": "",
+          "publishTopics": "",
+          "publishProject": ""
         }
       ],
       "graphQLApi": [
@@ -40,7 +52,7 @@
   },
   "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
   "_original": {
-    "__": "GY664Ebga7at9m",
+    "__": "7HtB1XGU4_zE3x",
     "_id": "rsihYJKKDVyaYN:hestia/project",
     "name": "Project",
     "$valid": true,
@@ -48,7 +60,7 @@
     "$invalid": false,
     "_created": 1621327545000,
     "_deleted": 0,
-    "_modified": 1621738643000,
+    "_modified": 1622183813000,
     "components": "graph-ql",
     "_behaviours": {
       "_state": "",
@@ -58,13 +70,25 @@
             "id": "aV8boSk1D6q6YG",
             "name": "Contractor Check",
             "__init": true,
-            "branch": "dev",
+            "branch": "mike",
             "publish": true,
             "_selectId": "kXt05PM8SXjVtT",
             "Repository": "Alcumus/contractor-check-tb",
             "publishThemes": true,
             "publishTopics": true,
             "publishProject": true
+          },
+          {
+            "id": "1J8739KZBOtzVQ",
+            "name": "Main Branch",
+            "__init": true,
+            "branch": "main",
+            "publish": "",
+            "_selectId": "ljaT4Mdk06ow3_",
+            "Repository": "Alcumus/contractor-check-tb",
+            "publishThemes": "",
+            "publishTopics": "",
+            "publishProject": ""
           }
         ],
         "graphQLApi": [
