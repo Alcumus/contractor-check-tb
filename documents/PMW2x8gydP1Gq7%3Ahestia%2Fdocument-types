@@ -1,5 +1,5 @@
 {
-  "__": "iVqBrWTmOxB-IT",
+  "__": "6U9ZxOJeo9MbMw",
   "_id": "PMW2x8gydP1Gq7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -171,6 +171,10 @@
   "__warn": false,
   "client": "rsihYJKKDVyaYN",
   "gitHub": {
+    "1J8739KZBOtzVQ": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
     "aV8boSk1D6q6YG": {
       "publishDocs": "",
       "gitHubPublish": true
@@ -194,14 +198,14 @@
     {
       "id": "tV6rqmkixtZSUh",
       "name": "1",
-      "time": 1622145508116,
+      "time": 1622209378564,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "vDiFo5VeS0Bdfg",
+      "_selectId": "GUUQwdLuWiJBri",
       "parentVersion": ""
     }
   ],
-  "_modified": 1622141909000,
+  "_modified": 1622205780000,
   "components": "verification,localisation",
   "isLockedBy": null,
   "navigation": [],
@@ -7078,7 +7082,9 @@
             {
               "id": "Main",
               "name": "Questions",
+              "_expanded": true,
               "_selectId": "Z0bbWAHMkhBT9c",
+              "condition": "",
               "questions": [
                 {
                   "id": "a1S1N000005WjmNText",
@@ -7089,9 +7095,19 @@
                     "multi_line": true
                   },
                   "helpText": "If you have a branch office or an employee with a home office in another province, and would like the Client to know that you are eligible to work in that/those province(s), then submit additional Clearances for the other provinces. All Clearances must be kept current on your account. Otherwise, your account status changes on the expiry of any document.",
+                  "maxWidth": "",
                   "question": "Agellan Capital Partners Inc has requested that you provide us with a Clearance Certificate/Letter from Workers' Compensation in the provinces where your Head Office location, your branches, employee home offices, if they differ. On or before the provincial expiry date, ensure we are provided with a renewed Clearance every 45, 60 or 90 days depending on the province. Please list these provinces in your answer and confirm by uploading the Clearances for each province listed. Click the following link to download your WCB/CSST: <a target=\"_blank\" href=\"https://contractorcheck.force.com/contractorportal/s/files\">https://contractorcheck.force.com/contractorportal/s/files</a>",
+                  "_selectId": "lR1ZeIUoHB1NBi",
                   "condition": "",
-                  "inputLabel": " "
+                  "inputLabel": " ",
+                  "iconOffsetX": "",
+                  "iconOffsetY": "",
+                  "defaultValue": "",
+                  "dialogHeader": "Help",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
                 },
                 {
                   "id": "a1S1N000005WjmNFile",
@@ -7099,6 +7115,7 @@
                   "type": "file",
                   "hints": {},
                   "question": "<small>Evidence</small>",
+                  "_selectId": "C1OCdxowR5rfpb",
                   "condition": "",
                   "extensions": [
                     "docx",
@@ -7126,6 +7143,7 @@
                   },
                   "helpText": "The Certificate of Insurance must list every coverage and limit as indicated on the insurance requirements. On or before the expiry date of the coverage indicated on the certificate, please provide ContractorCheck with a revised Certificate of Insurance. It will be reviewed and made viewable for the Client to access. If you have previously uploaded a valid and approved Certificate, please indicate that it has already been submitted.",
                   "question": "Agellan Capital Partners Inc has requested that you upload a Certificate of Insurance. You will find attached, in the link below, the insurance requirements to be submitted to your insurance representative. Please upload for our review. Keeping a current Certificate of Insurance on your ContractorCheck account is required by the client.",
+                  "_selectId": "QeL4BteAsaE2d1",
                   "condition": "",
                   "inputLabel": " "
                 },
@@ -7135,6 +7153,7 @@
                   "type": "file",
                   "hints": {},
                   "question": "<small>Evidence</small>",
+                  "_selectId": "B0702rT-toxhZK",
                   "condition": "",
                   "extensions": [
                     "docx",
@@ -7152,10 +7171,13 @@
                   "minimumFiles": 0,
                   "questionSpaceBefore": -1
                 }
-              ]
+              ],
+              "description": ""
             }
           ],
-          "_selectId": "nx-eUsEjOtGuoi"
+          "_selectId": "nx-eUsEjOtGuoi",
+          "condition": "",
+          "duplicateNames": {}
         },
         {
           "id": "bimboCanadaCanadaBread",
