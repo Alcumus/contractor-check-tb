@@ -1,5 +1,5 @@
 {
-  "__": "W1797_h7y_hkpZ",
+  "__": "983aUfcw8uTYs0",
   "_id": "R720NeuU8vOWuo:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -171,6 +171,10 @@
   "__warn": false,
   "client": "rsihYJKKDVyaYN",
   "gitHub": {
+    "1J8739KZBOtzVQ": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
     "aV8boSk1D6q6YG": {
       "publishDocs": "",
       "gitHubPublish": true
@@ -197,14 +201,14 @@
     {
       "id": "sTNP-VH3hEzwdP",
       "name": "1.0",
-      "time": 1622065505844,
+      "time": 1622205142593,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "pyBp1KwGuuDJy5",
+      "_selectId": "SzCH0WGs5rx0v2",
       "parentVersion": ""
     }
   ],
-  "_modified": 1622061906000,
+  "_modified": 1622201542000,
   "components": "verification,navigation,richtext",
   "isLockedBy": null,
   "navigation": [],
@@ -563,6 +567,22 @@
                     "questionLeftPad": "",
                     "questionRightPad": "",
                     "questionSpaceBefore": ""
+                  },
+                  "leftMiddleSlot": {
+                    "id": "UVbs0ef8pYotG3",
+                    "name": "",
+                    "type": "embedAction",
+                    "hints": {},
+                    "action": "0n0s4jlWwM9ywl",
+                    "variant": "outlined",
+                    "question": "",
+                    "_selectId": "jSTZmQJTq4JphH",
+                    "condition": "",
+                    "_actionName": "Back To Assessor",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
                   }
                 }
               ],
@@ -825,6 +845,96 @@
             }
           ],
           "_selectId": "J1ptYPhD_pd8p2",
+          "condition": "",
+          "description": "",
+          "duplicateNames": {}
+        },
+        {
+          "id": "wnfSuaf77SKHeI",
+          "name": "Assessor Reject",
+          "sections": [
+            {
+              "id": "1622204619612-k-uI6g5kyT7wUL",
+              "_id": "1622204619612-k-uI6g5kyT7wUL:hestia/form-sections",
+              "name": "...",
+              "_expanded": true,
+              "_selectId": "5aV6m8SUvcmbN9",
+              "condition": "",
+              "questions": [
+                {
+                  "id": "KTO0_auRS3OOPh",
+                  "name": "",
+                  "type": "title",
+                  "color": "",
+                  "hints": {},
+                  "title": "Your assessment has been rejected by Quality Control",
+                  "question": "",
+                  "_selectId": "H5tEC1aTQSI-F-",
+                  "condition": "",
+                  "questionHeight": "",
+                  "backgroundColor": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "LMfFr0AgAdzOI8",
+                  "name": "",
+                  "type": "information",
+                  "hints": {},
+                  "question": "<p>Quality Control have indicated that there are actions you should take on your assessment, the action points will be detailed in the questionnaire next to the relevant questions.</p>\n",
+                  "_selectId": "HE1yjBv9YQJKpX",
+                  "condition": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "xYqs7Z1BftUGtb",
+                  "name": "",
+                  "side": "bottom",
+                  "type": "navigation",
+                  "color": "",
+                  "hints": {},
+                  "width": "",
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "HN4Q3NcyewuObn",
+                  "condition": "",
+                  "permanent": "",
+                  "background": "",
+                  "middleSlot": {
+                    "id": "-BugS8sC0HOnLj",
+                    "name": "",
+                    "type": "embedAction",
+                    "hints": {},
+                    "action": "r-fxpbGVfYdoZn",
+                    "variant": "outlined",
+                    "question": "",
+                    "_selectId": "7zuPLkp04oBPhe",
+                    "condition": "",
+                    "_actionName": "Acknowledge",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  }
+                },
+                {
+                  "id": "c9FnTXVkhjkkt_",
+                  "name": "",
+                  "type": "disableActions",
+                  "hints": {},
+                  "question": "",
+                  "_selectId": "z772AFyON28N8F",
+                  "condition": ""
+                }
+              ],
+              "description": ""
+            }
+          ],
+          "_selectId": "j9dYQUCzWBLT-u",
           "condition": "",
           "description": "",
           "duplicateNames": {}
@@ -1297,6 +1407,38 @@
               "backgroundColor": "#03a9f4",
               "visibleCondition": "",
               "notificationToast": ""
+            },
+            {
+              "id": "0n0s4jlWwM9ywl",
+              "blur": "",
+              "icon": "",
+              "color": "#fff",
+              "modal": {
+                "title": "Return to Assessor",
+                "cancel": "Cancel",
+                "enabled": true,
+                "message": "Are you sure you want to reject the assessment and return it to the assessor?",
+                "cancelColor": "",
+                "toggleOrder": "",
+                "confirmColor": "",
+                "confirmation": "Yes",
+                "cancelBackgroundColor": "",
+                "confirmBackgroundColor": ""
+              },
+              "goBack": "",
+              "caption": "Back To Assessor",
+              "command": "setData",
+              "toState": "Assessor Reject",
+              "variant": "text",
+              "_selectId": "qKltzKf8xrumfC",
+              "condition": "",
+              "endOfLine": "",
+              "navigateTo": "",
+              "properties": [],
+              "changeState": true,
+              "backgroundColor": "#f50057",
+              "visibleCondition": "",
+              "notificationToast": ""
             }
           ],
           "storeIn": "",
@@ -1352,6 +1494,51 @@
           "editDemands": [],
           "inputStates": [
             "Rejected"
+          ],
+          "visibleDemands": []
+        },
+        {
+          "id": "o5kW-RtWKYGgCV",
+          "name": "Assessor Reject",
+          "forms": [
+            {
+              "id": "5gb7kWJ58NfSUc",
+              "form": "wnfSuaf77SKHeI",
+              "readOnly": false,
+              "_selectId": "0W8KdVpGWsps1-"
+            }
+          ],
+          "inline": true,
+          "actions": [
+            {
+              "id": "r-fxpbGVfYdoZn",
+              "blur": "",
+              "icon": "",
+              "color": "#fff",
+              "modal": {
+                "enabled": false
+              },
+              "goBack": "",
+              "caption": "Acknowledge",
+              "command": "setData",
+              "toState": "Assessing",
+              "variant": "text",
+              "_selectId": "KJVRh58lEz7GeC",
+              "condition": "",
+              "endOfLine": "",
+              "navigateTo": "",
+              "properties": [],
+              "changeState": true,
+              "backgroundColor": "#03a9f4",
+              "visibleCondition": "",
+              "notificationToast": ""
+            }
+          ],
+          "storeIn": "",
+          "_selectId": "EviVHsn_L0j_SP",
+          "editDemands": [],
+          "inputStates": [
+            "Assessor Reject"
           ],
           "visibleDemands": []
         }
@@ -1443,7 +1630,7 @@
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
   "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-  "defaultActivity": "i1sf_6rgwCYP0J",
+  "defaultActivity": null,
   "devices-allowed": "",
   "sideBarMinWidth": 150,
   "documentBackdrop": "#f4f4f4",
