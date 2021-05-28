@@ -1,5 +1,5 @@
 {
-  "__": "UJ8S_ENahkso76",
+  "__": "o6Rzs06AyDhUoK",
   "_id": "fYmpCXoXNbRtVg:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -171,6 +171,10 @@
   "__warn": false,
   "client": "rsihYJKKDVyaYN",
   "gitHub": {
+    "1J8739KZBOtzVQ": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
     "aV8boSk1D6q6YG": {
       "publishDocs": "",
       "gitHubPublish": true
@@ -197,14 +201,14 @@
     {
       "id": "D57acZ-uIHF-Tx",
       "name": "1.0",
-      "time": 1622145518936,
+      "time": 1622209384973,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "BEJq8tZsW7v11u",
+      "_selectId": "jyYa6OPXwje39_",
       "parentVersion": ""
     }
   ],
-  "_modified": 1622141920000,
+  "_modified": 1622205785000,
   "components": "verification,helptext,navigation,formprogress",
   "isLockedBy": null,
   "navigation": [],
