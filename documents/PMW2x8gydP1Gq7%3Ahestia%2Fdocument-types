@@ -1,5 +1,5 @@
 {
-  "__": "6U9ZxOJeo9MbMw",
+  "__": "qyEO00kitrJsX6",
   "_id": "PMW2x8gydP1Gq7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -169,7 +169,7 @@
   },
   "$valid": true,
   "__warn": false,
-  "client": "rsihYJKKDVyaYN",
+  "client": "@WORK",
   "gitHub": {
     "1J8739KZBOtzVQ": {
       "publishDocs": "",
@@ -178,10 +178,14 @@
     "aV8boSk1D6q6YG": {
       "publishDocs": "",
       "gitHubPublish": true
+    },
+    "hVWU8Lx-bizSIx": {
+      "publishDocs": "",
+      "gitHubPublish": true
     }
   },
   "locked": false,
-  "_client": "rsihYJKKDVyaYN",
+  "_client": "@WORK",
   "demands": [],
   "graphQL": {
     "6g4mciY7jkfOUo": {
@@ -190,7 +194,7 @@
   },
   "profile": "undefined",
   "$invalid": false,
-  "_created": 1621450876000,
+  "_created": 1621508921000,
   "_deleted": 0,
   "database": "test",
   "maxWidth": 1000,
@@ -205,7 +209,7 @@
       "parentVersion": ""
     }
   ],
-  "_modified": 1622205780000,
+  "_modified": 1623421860000,
   "components": "verification,localisation",
   "isLockedBy": null,
   "navigation": [],
@@ -319,16 +323,53 @@
                     "multi_line": true
                   },
                   "helpText": "Emergency procedures should be in writing and according to provincial legislation (including hazard identification, responsibilities, emergency contacts, means of communication, necessary equipment, training, drills, etc.). If this policy is in your health and safety program manual please reference the section and page only. *Please upload the manual only once to the question asking for the manual.",
+                  "maxWidth": "",
                   "question": "Please provide a copy or explain your company emergency procedures (or emergency preparedness and response plan)",
                   "_selectId": "cMIdRDdUg1DmFa",
                   "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.companySize\", \"Small Business\")",
-                  "inputLabel": " "
+                  "inputLabel": " ",
+                  "iconOffsetX": "",
+                  "iconOffsetY": "",
+                  "defaultValue": "",
+                  "dialogHeader": "Help",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "mHAh8pcLatyhEe",
+                  "name": "gezTest",
+                  "type": "text",
+                  "hints": {
+                    "placeholder": true
+                  },
+                  "maxWidth": "",
+                  "question": "<p>This is question text <a href=\"http://www.alcumus.com\" target=\"_blank\">Link Elswhere</a>&nbsp;</p>\n",
+                  "_selectId": "9TwxbqgnoYQ8fr",
+                  "condition": "",
+                  "inputLabel": "This input label",
+                  "iconOffsetX": "",
+                  "iconOffsetY": "",
+                  "defaultValue": "",
+                  "dialogHeader": "Help",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "inputPlaceholder": "Input text here",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
                 },
                 {
                   "id": "a1S3m000008DkPgFile",
+                  "icon": "",
                   "name": "emergencyPreparednessPlanningSmBusEvidence",
                   "type": "file",
+                  "color": "",
                   "hints": {},
+                  "modal": {
+                    "enabled": false
+                  },
+                  "variant": "text",
                   "question": "<small>Evidence</small>",
                   "_selectId": "KO4S0ckXgjDVFL",
                   "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.companySize\", \"Small Business\")",
@@ -343,9 +384,23 @@
                     "xlsx"
                   ],
                   "inputLabel": "Evidence",
+                  "iconOffsetX": "",
+                  "iconOffsetY": "",
                   "maximumSize": 10000000,
+                  "dialogHeader": "Help",
                   "maximumFiles": 10,
                   "minimumFiles": 0,
+                  "buttonCaption": "",
+                  "disableDelete": "",
+                  "uploadCaption": "Uploading & Virus Scanning:",
+                  "disablePreview": "",
+                  "offlineCapable": "",
+                  "questionHeight": "",
+                  "backgroundColor": "",
+                  "disableDownload": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "_autoCheckOptions": [],
                   "questionSpaceBefore": -1
                 },
                 {
@@ -6514,7 +6569,8 @@
             }
           ],
           "_selectId": "hXk8-HxlN-Gewr",
-          "condition": ""
+          "condition": "",
+          "duplicateNames": {}
         },
         {
           "id": "allForms",
@@ -17353,6 +17409,13 @@
           "condition": "",
           "description": "",
           "duplicateNames": {}
+        },
+        {
+          "id": "0UUBK6zMVmsfHV",
+          "name": "New Form",
+          "sections": [],
+          "_selectId": "5_mZsqiINpMoxx",
+          "description": ""
         }
       ],
       "styled": [
@@ -31325,7 +31388,7 @@
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+  "_lastModifiedBy": "64467393-61e5-45fe-a026-45aed6419337",
   "defaultActivity": "xSkC0pR6hZ1H2U",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
