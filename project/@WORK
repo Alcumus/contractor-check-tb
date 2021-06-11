@@ -1,0 +1,132 @@
+{
+  "__": "QW09u8YRYsO1Qo",
+  "_id": "@WORK:hestia/project",
+  "name": "Project",
+  "$valid": true,
+  "_client": "@WORK",
+  "$invalid": false,
+  "_created": 1621422692000,
+  "_deleted": 0,
+  "_modified": 1623410629000,
+  "components": "graph-ql",
+  "_behaviours": {
+    "instances": {
+      "gitSync": [
+        {
+          "id": "aV8boSk1D6q6YG",
+          "name": "Contractor Check",
+          "__init": true,
+          "branch": "mike",
+          "publish": true,
+          "_selectId": "kXt05PM8SXjVtT",
+          "Repository": "Alcumus/contractor-check-tb",
+          "publishThemes": true,
+          "publishTopics": true,
+          "publishProject": true
+        },
+        {
+          "id": "1J8739KZBOtzVQ",
+          "name": "Main Branch",
+          "__init": true,
+          "branch": "main",
+          "publish": "",
+          "_selectId": "ljaT4Mdk06ow3_",
+          "Repository": "Alcumus/contractor-check-tb",
+          "publishThemes": "",
+          "publishTopics": "",
+          "publishProject": ""
+        },
+        {
+          "id": "hVWU8Lx-bizSIx",
+          "name": "Push to QA",
+          "__init": true,
+          "branch": "qa",
+          "publish": true,
+          "_selectId": "cAKu-Z8PSxjbXa",
+          "Repository": "Alcumus/contractor-check-tb",
+          "publishThemes": true,
+          "publishTopics": true,
+          "publishProject": true
+        }
+      ],
+      "graphQLApi": [
+        {
+          "id": "6g4mciY7jkfOUo",
+          "name": "ccgraphql",
+          "__init": true,
+          "basePath": "/ccgraphql",
+          "_selectId": "yci2Re31GMIyfu",
+          "subscriptionPort": 4001
+        }
+      ]
+    },
+    "_state": ""
+  },
+  "_lastModifiedBy": "7360895b-2e38-4601-baf6-16af027bf7ae",
+  "_original": {
+    "__": "QW09u8YRYsO1Qo",
+    "_id": "@WORK:hestia/project",
+    "name": "Project",
+    "$valid": true,
+    "_client": "@WORK",
+    "$invalid": false,
+    "_created": 1621422692000,
+    "_deleted": 0,
+    "_modified": 1623410629000,
+    "components": "graph-ql",
+    "_behaviours": {
+      "_state": "",
+      "instances": {
+        "gitSync": [
+          {
+            "id": "aV8boSk1D6q6YG",
+            "name": "Contractor Check",
+            "__init": true,
+            "branch": "mike",
+            "publish": true,
+            "_selectId": "kXt05PM8SXjVtT",
+            "Repository": "Alcumus/contractor-check-tb",
+            "publishThemes": true,
+            "publishTopics": true,
+            "publishProject": true
+          },
+          {
+            "id": "1J8739KZBOtzVQ",
+            "name": "Main Branch",
+            "__init": true,
+            "branch": "main",
+            "publish": "",
+            "_selectId": "ljaT4Mdk06ow3_",
+            "Repository": "Alcumus/contractor-check-tb",
+            "publishThemes": "",
+            "publishTopics": "",
+            "publishProject": ""
+          },
+          {
+            "id": "hVWU8Lx-bizSIx",
+            "name": "Push to QA",
+            "__init": true,
+            "branch": "qa",
+            "publish": true,
+            "_selectId": "cAKu-Z8PSxjbXa",
+            "Repository": "Alcumus/contractor-check-tb",
+            "publishThemes": true,
+            "publishTopics": true,
+            "publishProject": true
+          }
+        ],
+        "graphQLApi": [
+          {
+            "id": "6g4mciY7jkfOUo",
+            "name": "ccgraphql",
+            "__init": true,
+            "basePath": "/ccgraphql",
+            "_selectId": "yci2Re31GMIyfu",
+            "subscriptionPort": 4001
+          }
+        ]
+      }
+    },
+    "_lastModifiedBy": "7360895b-2e38-4601-baf6-16af027bf7ae"
+  }
+}
