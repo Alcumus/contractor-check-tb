@@ -1,5 +1,5 @@
 {
-  "__": "qyEO00kitrJsX6",
+  "__": "NfY8rn-OUfCTFS",
   "_id": "PMW2x8gydP1Gq7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -202,14 +202,14 @@
     {
       "id": "tV6rqmkixtZSUh",
       "name": "1",
-      "time": 1622209378564,
-      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "time": 1623421894516,
+      "user": "64467393-61e5-45fe-a026-45aed6419337",
       "locked": false,
-      "_selectId": "GUUQwdLuWiJBri",
+      "_selectId": "IQjuzFmGegYUqs",
       "parentVersion": ""
     }
   ],
-  "_modified": 1623421860000,
+  "_modified": 1623422295000,
   "components": "verification,localisation",
   "isLockedBy": null,
   "navigation": [],
@@ -334,28 +334,6 @@
                   "dialogHeader": "Help",
                   "questionHeight": "",
                   "questionLeftPad": "",
-                  "questionRightPad": "",
-                  "questionSpaceBefore": ""
-                },
-                {
-                  "id": "mHAh8pcLatyhEe",
-                  "name": "gezTest",
-                  "type": "text",
-                  "hints": {
-                    "placeholder": true
-                  },
-                  "maxWidth": "",
-                  "question": "<p>This is question text <a href=\"http://www.alcumus.com\" target=\"_blank\">Link Elswhere</a>&nbsp;</p>\n",
-                  "_selectId": "9TwxbqgnoYQ8fr",
-                  "condition": "",
-                  "inputLabel": "This input label",
-                  "iconOffsetX": "",
-                  "iconOffsetY": "",
-                  "defaultValue": "",
-                  "dialogHeader": "Help",
-                  "questionHeight": "",
-                  "questionLeftPad": "",
-                  "inputPlaceholder": "Input text here",
                   "questionRightPad": "",
                   "questionSpaceBefore": ""
                 },
