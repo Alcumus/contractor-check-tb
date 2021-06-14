@@ -1,5 +1,5 @@
 {
-  "__": "eTr2-m3ZzsadN1",
+  "__": "IE9jddAFUDxhQr",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -237,14 +237,14 @@
     {
       "id": "zk0gwNadHUfzTE",
       "name": "AD2",
-      "time": 1623681061672,
+      "time": 1623681578238,
       "user": "8fa3969a-8f88-46fd-b3bf-6dcb7df5f2b9",
       "locked": false,
-      "_selectId": "DfFjsZw1tikRzQ",
+      "_selectId": "cTWszIIuJKh8eF",
       "parentVersion": "GmG8PN_c_6Ta_E"
     }
   ],
-  "_modified": 1623681063000,
+  "_modified": 1623681580000,
   "components": "navigation",
   "isLockedBy": null,
   "navigation": [],
@@ -642,8 +642,8 @@
                       "value": "Canada"
                     },
                     {
-                      "label": "United States",
-                      "value": "United States"
+                      "label": "US",
+                      "value": "US"
                     }
                   ],
                   "question": "<p>Indicate the countries that your business operates in</p>\n",
