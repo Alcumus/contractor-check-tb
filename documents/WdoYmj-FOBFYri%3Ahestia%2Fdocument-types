@@ -1,5 +1,5 @@
 {
-  "__": "LiZpoOCqqP1oxZ",
+  "__": "sjerPQ6byDNg9Z",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -169,7 +169,7 @@
   },
   "$valid": true,
   "__warn": false,
-  "client": "mAlQ6JUvniLqBk",
+  "client": "@WORK",
   "gitHub": {
     "1J8739KZBOtzVQ": {
       "publishDocs": "",
@@ -181,7 +181,7 @@
     }
   },
   "locked": false,
-  "_client": "mAlQ6JUvniLqBk",
+  "_client": "@WORK",
   "demands": [],
   "graphQL": {
     "6g4mciY7jkfOUo": {
@@ -193,7 +193,7 @@
     }
   },
   "$invalid": false,
-  "_created": 1622205077000,
+  "_created": 1621422682000,
   "_deleted": 0,
   "database": "companyP",
   "maxWidth": 1000,
@@ -237,14 +237,14 @@
     {
       "id": "zk0gwNadHUfzTE",
       "name": "AD2",
-      "time": 1623330815124,
-      "user": "3e424bc3-fb9a-47a1-93a1-056351146687",
+      "time": 1623680924592,
+      "user": "8fa3969a-8f88-46fd-b3bf-6dcb7df5f2b9",
       "locked": false,
-      "_selectId": "hpbbRiJNWD7-ZP",
+      "_selectId": "HbdAho_p1xKGb_",
       "parentVersion": "GmG8PN_c_6Ta_E"
     }
   ],
-  "_modified": 1623327222000,
+  "_modified": 1623680926000,
   "components": "navigation",
   "isLockedBy": null,
   "navigation": [],
@@ -642,8 +642,8 @@
                       "value": "Canada"
                     },
                     {
-                      "label": "US",
-                      "value": "US"
+                      "label": "United States",
+                      "value": "United States"
                     }
                   ],
                   "question": "<p>Indicate the countries that your business operates in</p>\n",
@@ -657,6 +657,10 @@
                       "colour": ""
                     },
                     "Canada": {
+                      "icon": "",
+                      "colour": ""
+                    },
+                    "United States": {
                       "icon": "",
                       "colour": ""
                     }
@@ -1400,7 +1404,7 @@
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+  "_lastModifiedBy": "8fa3969a-8f88-46fd-b3bf-6dcb7df5f2b9",
   "defaultActivity": "x_5KNezQjHRN0v",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
