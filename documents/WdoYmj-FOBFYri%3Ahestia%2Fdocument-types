@@ -1,5 +1,5 @@
 {
-  "__": "IE9jddAFUDxhQr",
+  "__": "VFvykay3Pfll3S",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -178,6 +178,10 @@
     "aV8boSk1D6q6YG": {
       "publishDocs": true,
       "gitHubPublish": true
+    },
+    "hVWU8Lx-bizSIx": {
+      "publishDocs": "",
+      "gitHubPublish": true
     }
   },
   "locked": false,
@@ -228,23 +232,14 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1623330806226,
-      "user": "3e424bc3-fb9a-47a1-93a1-056351146687",
-      "locked": true,
-      "_selectId": "BuMNUIPiHLPQJ-",
-      "parentVersion": "Bx_OD0XlxHBKQx"
-    },
-    {
-      "id": "zk0gwNadHUfzTE",
-      "name": "AD2",
-      "time": 1623681578238,
-      "user": "8fa3969a-8f88-46fd-b3bf-6dcb7df5f2b9",
+      "time": 1623760802245,
+      "user": "64467393-61e5-45fe-a026-45aed6419337",
       "locked": false,
-      "_selectId": "cTWszIIuJKh8eF",
-      "parentVersion": "GmG8PN_c_6Ta_E"
+      "_selectId": "1_LcVs27LayafV",
+      "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1623681580000,
+  "_modified": 1623760804000,
   "components": "navigation",
   "isLockedBy": null,
   "navigation": [],
@@ -642,8 +637,8 @@
                       "value": "Canada"
                     },
                     {
-                      "label": "US",
-                      "value": "US"
+                      "label": "United States",
+                      "value": "United States"
                     }
                   ],
                   "question": "<p>Indicate the countries that your business operates in</p>\n",
@@ -1395,16 +1390,16 @@
   "tabsSelected": "#009fda",
   "__warnReasons": [],
   "documentColor": "#333",
-  "_activeVersion": "GsyccdpcWiNOwb",
-  "_parentVersion": "zk0gwNadHUfzTE",
+  "_activeVersion": "zk0gwNadHUfzTE",
+  "_parentVersion": "GmG8PN_c_6Ta_E",
   "currentVersion": {
-    "live": "AD2",
-    "testing": "AD2",
-    "development": "AD2"
+    "live": "Preferred Language",
+    "testing": "Preferred Language",
+    "development": "Preferred Language"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "8fa3969a-8f88-46fd-b3bf-6dcb7df5f2b9",
+  "_lastModifiedBy": "64467393-61e5-45fe-a026-45aed6419337",
   "defaultActivity": "x_5KNezQjHRN0v",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
