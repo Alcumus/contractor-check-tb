@@ -1,5 +1,5 @@
 {
-  "__": "DVaXA8fHxAQKGe",
+  "__": "IaOBXG9mrH59gH",
   "_id": "R720NeuU8vOWuo:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -169,7 +169,7 @@
   },
   "$valid": true,
   "__warn": false,
-  "client": "rsihYJKKDVyaYN",
+  "client": "@WORK",
   "gitHub": {
     "1J8739KZBOtzVQ": {
       "publishDocs": "",
@@ -178,10 +178,14 @@
     "aV8boSk1D6q6YG": {
       "publishDocs": "",
       "gitHubPublish": true
+    },
+    "hVWU8Lx-bizSIx": {
+      "publishDocs": "",
+      "gitHubPublish": true
     }
   },
   "locked": false,
-  "_client": "rsihYJKKDVyaYN",
+  "_client": "@WORK",
   "demands": [],
   "graphQL": {
     "6g4mciY7jkfOUo": {
@@ -193,7 +197,7 @@
     }
   },
   "$invalid": false,
-  "_created": 1621454010000,
+  "_created": 1621508919000,
   "_deleted": 0,
   "database": "contractorcheck",
   "maxWidth": 1000,
@@ -201,14 +205,14 @@
     {
       "id": "sTNP-VH3hEzwdP",
       "name": "1.0",
-      "time": 1622209366645,
-      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "time": 1623759402589,
+      "user": "64467393-61e5-45fe-a026-45aed6419337",
       "locked": false,
-      "_selectId": "-wDRHrF32PXNR0",
+      "_selectId": "WS5vWN0bglWtHe",
       "parentVersion": ""
     }
   ],
-  "_modified": 1622205767000,
+  "_modified": 1623759404000,
   "components": "verification,navigation,richtext",
   "isLockedBy": null,
   "navigation": [],
@@ -1347,7 +1351,12 @@
               "condition": "allMax",
               "endOfLine": "",
               "navigateTo": "",
-              "properties": [],
+              "properties": [
+                {
+                  "field": "acceptedDate",
+                  "value": "{$now}"
+                }
+              ],
               "changeState": true,
               "backgroundColor": "#03a9f4",
               "visibleCondition": "",
@@ -1629,7 +1638,7 @@
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+  "_lastModifiedBy": "64467393-61e5-45fe-a026-45aed6419337",
   "defaultActivity": null,
   "devices-allowed": "",
   "sideBarMinWidth": 150,
