@@ -1,5 +1,5 @@
 {
-  "__": "muW1XUaK3FRV_G",
+  "__": "-KfNfiDkiV28Di",
   "_id": "fYmpCXoXNbRtVg:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -201,14 +201,14 @@
     {
       "id": "D57acZ-uIHF-Tx",
       "name": "1.0",
-      "time": 1623758088222,
-      "user": "8fa3969a-8f88-46fd-b3bf-6dcb7df5f2b9",
+      "time": 1623760107275,
+      "user": "64467393-61e5-45fe-a026-45aed6419337",
       "locked": false,
-      "_selectId": "WlT_4HaU9g3Zvq",
+      "_selectId": "EXwJ0JsTPH3NRI",
       "parentVersion": ""
     }
   ],
-  "_modified": 1623758090000,
+  "_modified": 1623760109000,
   "components": "verification,helptext,navigation,formprogress",
   "isLockedBy": null,
   "navigation": [],
@@ -556,7 +556,7 @@
                   "name": "",
                   "type": "information",
                   "hints": {},
-                  "question": "<p><span style=\"color: rgb(0,97,131);font-size: 24px;\"><strong>Master List Entry - Read Only</strong></span></p>\n<p></p>\n",
+                  "question": "<p><span style=\"color: rgb(0,97,131);font-size: 24px;\"><strong>Health and Safety Accreditation Complete {qcAcceptedDate} - Read Only </strong></span></p>\n<p></p>\n",
                   "_selectId": "3ScKVhFYDIxio6",
                   "condition": "",
                   "questionHeight": "10em",
@@ -1522,7 +1522,7 @@
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "8fa3969a-8f88-46fd-b3bf-6dcb7df5f2b9",
+  "_lastModifiedBy": "64467393-61e5-45fe-a026-45aed6419337",
   "defaultActivity": null,
   "devices-allowed": "",
   "sideBarMinWidth": 150,
