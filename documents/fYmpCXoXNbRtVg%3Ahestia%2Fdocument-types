@@ -1,5 +1,5 @@
 {
-  "__": "Dt-uwaevGDArqv",
+  "__": "fLZ4PgUan5nS5S",
   "_id": "fYmpCXoXNbRtVg:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -205,14 +205,14 @@
     {
       "id": "D57acZ-uIHF-Tx",
       "name": "1.0",
-      "time": 1623760152656,
+      "time": 1623760196108,
       "user": "64467393-61e5-45fe-a026-45aed6419337",
       "locked": false,
-      "_selectId": "LembovCoVxRZs1",
+      "_selectId": "VN_dkbhYrknQ4P",
       "parentVersion": ""
     }
   ],
-  "_modified": 1623760155000,
+  "_modified": 1623760198000,
   "components": "verification,helptext,navigation,formprogress",
   "isLockedBy": null,
   "navigation": [],
@@ -560,7 +560,7 @@
                   "name": "",
                   "type": "information",
                   "hints": {},
-                  "question": "<p><span style=\"color: rgb(0,97,131);font-size: 24px;\"><strong>Health and Safety Accreditation Complete {qcAcceptedDate:date = medium} - Read Only </strong></span></p>\n<p></p>\n",
+                  "question": "<p><span style=\"color: rgb(0,97,131);font-size: 24px;\"><strong>Health and Safety Accreditation Complete {qcAcceptedDate} - Read Only </strong></span></p>\n<p></p>\n",
                   "_selectId": "3ScKVhFYDIxio6",
                   "condition": "",
                   "questionHeight": "10em",
