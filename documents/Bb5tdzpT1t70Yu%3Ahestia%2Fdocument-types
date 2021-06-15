@@ -1,5 +1,5 @@
 {
-  "__": "OepAsL9Htv6gV5",
+  "__": "cyIrFgCBuIZ2Uo",
   "_id": "Bb5tdzpT1t70Yu:hestia/document-types",
   "icon": "",
   "name": "bob2",
@@ -190,13 +190,14 @@
     {
       "id": "IuAMFblD-hU1zd",
       "name": "1",
-      "time": 1623767321914,
+      "time": 1623767952360,
       "user": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
       "locked": false,
-      "_selectId": "ze_rUSuroDOGjN"
+      "_selectId": "WmY_HCZziKxSYR",
+      "parentVersion": ""
     }
   ],
-  "_modified": 1623763723000,
+  "_modified": 1623764352000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -244,15 +245,44 @@
           "forms": [
             {
               "id": "QgcSEsDs_muhcf",
-              "form": "52nafBBPq3Pk9A"
+              "form": "52nafBBPq3Pk9A",
+              "readOnly": "",
+              "_selectId": "R4WMkf21I2Ux3S"
             }
           ],
           "inline": true,
-          "actions": [],
+          "actions": [
+            {
+              "id": "b7uGgd6sfpy2hS",
+              "blur": "",
+              "icon": "",
+              "color": "#fff",
+              "modal": {
+                "enabled": false
+              },
+              "goBack": "",
+              "caption": "Submit",
+              "command": "setData",
+              "toState": "New",
+              "variant": "text",
+              "_selectId": "ofcBNzJt421Zav",
+              "condition": "",
+              "endOfLine": "",
+              "navigateTo": "",
+              "properties": [],
+              "changeState": true,
+              "backgroundColor": "#03a9f4",
+              "visibleCondition": "",
+              "notificationToast": ""
+            }
+          ],
+          "storeIn": "",
           "_selectId": "S4nbHKYXdobK9X",
+          "editDemands": [],
           "inputStates": [
             "New"
-          ]
+          ],
+          "visibleDemands": []
         }
       ]
     }
