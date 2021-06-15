@@ -1,5 +1,5 @@
 {
-  "__": "IaOBXG9mrH59gH",
+  "__": "R5Y7hNrq4A9mK6",
   "_id": "R720NeuU8vOWuo:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -205,14 +205,14 @@
     {
       "id": "sTNP-VH3hEzwdP",
       "name": "1.0",
-      "time": 1623759402589,
+      "time": 1623759820880,
       "user": "64467393-61e5-45fe-a026-45aed6419337",
       "locked": false,
-      "_selectId": "WS5vWN0bglWtHe",
+      "_selectId": "SqEGblmOptRCCD",
       "parentVersion": ""
     }
   ],
-  "_modified": 1623759404000,
+  "_modified": 1623759823000,
   "components": "verification,navigation,richtext",
   "isLockedBy": null,
   "navigation": [],
@@ -979,15 +979,24 @@
         {
           "id": "WDMBctURpiDYYr",
           "name": "Tell the Contractor That They Are Accepted",
+          "onEnter": "",
           "inStates": [
             "Master List"
           ],
           "mergeAll": "",
           "_selectId": "fPonWRjIDi3uOU",
-          "properties": [],
+          "properties": [
+            {
+              "id": "vXzSpUbVWxpUr4",
+              "field": "qcAcceptedDate",
+              "value": "{acceptedDate}",
+              "defaultValue": ""
+            }
+          ],
           "specificId": "",
           "targetType": "fYmpCXoXNbRtVg:hestia/document-types",
           "updateState": "Accepted",
+          "recordChanges": "",
           "targetTypeName": "Contractor Questionnaire",
           "createMergeRecord": "",
           "updateTargetDocumentState": true
