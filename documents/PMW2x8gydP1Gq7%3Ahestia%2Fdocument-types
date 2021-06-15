@@ -1,5 +1,5 @@
 {
-  "__": "NfY8rn-OUfCTFS",
+  "__": "BhrTEqynq317u2",
   "_id": "PMW2x8gydP1Gq7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -202,14 +202,14 @@
     {
       "id": "tV6rqmkixtZSUh",
       "name": "1",
-      "time": 1623421894516,
+      "time": 1623422298711,
       "user": "64467393-61e5-45fe-a026-45aed6419337",
       "locked": false,
-      "_selectId": "IQjuzFmGegYUqs",
+      "_selectId": "wlNSSL2HHFDWnR",
       "parentVersion": ""
     }
   ],
-  "_modified": 1623422295000,
+  "_modified": 1623759762000,
   "components": "verification,localisation",
   "isLockedBy": null,
   "navigation": [],
@@ -10265,7 +10265,9 @@
             {
               "id": "Main",
               "name": "Questions",
+              "_expanded": true,
               "_selectId": "wLzxZ28cJtCmRu",
+              "condition": "",
               "questions": [
                 {
                   "id": "a1S1N000005Wjn0Text",
@@ -10277,6 +10279,7 @@
                   },
                   "helpText": "If you have a branch office or an employee with a home office in another province, and would like the Client to know that you are eligible to work in that/those province(s), then submit additional Clearances for the other provinces. All Clearances must be kept current on your account. Otherwise, your account status changes on the expiry of any document.",
                   "question": "Enwave has requested that you provide us with a Clearance Certificate/Letter from Workers' Compensation in the provinces where your Head Office location, your branches, employee home offices, if they differ. On or before the provincial expiry date, ensure we are provided with a renewed Clearance every 45, 60 or 90 days depending on the province. Please list these provinces in your answer and confirm by uploading the Clearances for each province listed. Click the following link to download your WCB/CSST: <a target=\"_blank\" href=\"https://contractorcheck.force.com/contractorportal/s/files\">https://contractorcheck.force.com/contractorportal/s/files</a>",
+                  "_selectId": "_567Hs8IoJBwqn",
                   "condition": "",
                   "inputLabel": " "
                 },
@@ -10286,6 +10289,7 @@
                   "type": "file",
                   "hints": {},
                   "question": "<small>Evidence</small>",
+                  "_selectId": "HDKR_hFreAKDBU",
                   "condition": "",
                   "extensions": [
                     "docx",
@@ -10313,6 +10317,7 @@
                   },
                   "helpText": "The Certificate of Insurance must list every coverage and limit as indicated on the insurance requirements. On or before the expiry date of the coverage indicated on the certificate, please provide ContractorCheck with a revised Certificate of Insurance. It will be reviewed and made viewable for the Client to access. If you have previously uploaded a valid and approved Certificate, please indicate that it has already been submitted.",
                   "question": "Enwave has requested that you upload a Certificate of Insurance. You will find attached, in the link below, the insurance requirements to be submitted to your insurance representative. Please upload for our review. Keeping a current Certificate of Insurance on your ContractorCheck account is required by the client.",
+                  "_selectId": "PWCkjgBbyoGI9A",
                   "condition": "",
                   "inputLabel": " "
                 },
@@ -10322,6 +10327,7 @@
                   "type": "file",
                   "hints": {},
                   "question": "<small>Evidence</small>",
+                  "_selectId": "yu9sxCWKUh1xx8",
                   "condition": "",
                   "extensions": [
                     "docx",
@@ -10349,6 +10355,7 @@
                   },
                   "helpText": "Please provide a copy of your ECA letter if your work consists of waste removal.",
                   "question": "Do you have an Environmental Compliance Approval (ECA)?",
+                  "_selectId": "jsZXzDbxTZ1iO2",
                   "condition": "",
                   "inputLabel": " "
                 },
@@ -10358,6 +10365,7 @@
                   "type": "file",
                   "hints": {},
                   "question": "<small>Evidence</small>",
+                  "_selectId": "3APepZwEpzWrKU",
                   "condition": "",
                   "extensions": [
                     "docx",
@@ -10385,6 +10393,7 @@
                   },
                   "helpText": "The emergency contact list should have at least two contacts who can be reached for follow up (e.g. in the event of an injury on site, etc.). This list must be updated and provided every year.",
                   "question": "Please provide a company emergency contact list for any follow ups that may be required.",
+                  "_selectId": "5MMU4IbxAGW_4J",
                   "condition": "",
                   "inputLabel": " "
                 },
@@ -10394,6 +10403,7 @@
                   "type": "file",
                   "hints": {},
                   "question": "<small>Evidence</small>",
+                  "_selectId": "M0BD0yV8P3xUNy",
                   "condition": "",
                   "extensions": [
                     "docx",
@@ -10421,6 +10431,7 @@
                   },
                   "helpText": "A recent copy of your Workplace Injury Summary Report is required.",
                   "question": "Please provide a recent copy of your Workplace Injury Summary Report (WISR).",
+                  "_selectId": "5xwsxScXZcWxtT",
                   "condition": "valueEquals(\"profile.province\", \"Ontario\" )",
                   "inputLabel": " "
                 },
@@ -10430,6 +10441,7 @@
                   "type": "file",
                   "hints": {},
                   "question": "<small>Evidence</small>",
+                  "_selectId": "LeYQy-wMqxuUlT",
                   "condition": "valueEquals(\"profile.province\", \"Ontario\" )",
                   "extensions": [
                     "docx",
@@ -10447,10 +10459,12 @@
                   "minimumFiles": 0,
                   "questionSpaceBefore": -1
                 }
-              ]
+              ],
+              "description": ""
             }
           ],
-          "_selectId": "zNwByZ_GBYeZFL"
+          "_selectId": "zNwByZ_GBYeZFL",
+          "condition": ""
         },
         {
           "id": "epicInvestmentServicesClient",
@@ -17390,10 +17404,44 @@
         },
         {
           "id": "0UUBK6zMVmsfHV",
-          "name": "New Form",
-          "sections": [],
+          "name": "Admin Data",
+          "sections": [
+            {
+              "id": "1623759700238-MjC_jn9nfyskn8",
+              "_id": "1623759700238-MjC_jn9nfyskn8:hestia/form-sections",
+              "name": "Admin Data",
+              "_expanded": true,
+              "_selectId": "4dcpySDlv3vQZh",
+              "condition": "",
+              "questions": [
+                {
+                  "id": "VshXxOwhXbD2si",
+                  "name": "qcAcceptedDate",
+                  "type": "date",
+                  "hints": {},
+                  "question": "",
+                  "_selectId": "RArHsDnVeoO7UK",
+                  "condition": "",
+                  "inputLabel": "",
+                  "iconOffsetX": "",
+                  "iconOffsetY": "",
+                  "localFormat": "",
+                  "dialogHeader": "Help",
+                  "useMaterialUI": "",
+                  "preventNullify": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                }
+              ],
+              "description": ""
+            }
+          ],
           "_selectId": "5_mZsqiINpMoxx",
-          "description": ""
+          "condition": "",
+          "description": "",
+          "duplicateNames": {}
         }
       ],
       "styled": [
