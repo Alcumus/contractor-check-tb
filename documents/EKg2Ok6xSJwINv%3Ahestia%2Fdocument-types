@@ -1,5 +1,5 @@
 {
-  "__": "tXdJ-CKbBnnLsX",
+  "__": "ooBNlvr-kQ61G8",
   "_id": "EKg2Ok6xSJwINv:hestia/document-types",
   "icon": "",
   "name": "bob",
@@ -192,13 +192,14 @@
     {
       "id": "mDLv5iX6mabV4e",
       "name": "1",
-      "time": 1623764856966,
+      "time": 1623765428036,
       "user": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
       "locked": false,
-      "_selectId": "J-oCJvt3yINlxd"
+      "_selectId": "3-3DBxcDGI1rYQ",
+      "parentVersion": ""
     }
   ],
-  "_modified": 1623761257000,
+  "_modified": 1623761828000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -217,7 +218,7 @@
               "questions": [
                 {
                   "id": "a-tFX2wZgJn4qz",
-                  "name": "Name",
+                  "name": "name",
                   "type": "text",
                   "hints": {},
                   "maxWidth": "",
@@ -271,9 +272,9 @@
   "_activeVersion": "yf0i6jV0r0wM4J",
   "_parentVersion": "mDLv5iX6mabV4e",
   "currentVersion": {
-    "live": "",
-    "testing": "",
-    "development": ""
+    "live": "1",
+    "testing": "1",
+    "development": "1"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
