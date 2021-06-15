@@ -1,5 +1,5 @@
 {
-  "__": "Ccdzw9h1Si3iXG",
+  "__": "VFvykay3Pfll3S",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -169,7 +169,7 @@
   },
   "$valid": true,
   "__warn": false,
-  "client": "rsihYJKKDVyaYN",
+  "client": "@WORK",
   "gitHub": {
     "1J8739KZBOtzVQ": {
       "publishDocs": "",
@@ -178,10 +178,14 @@
     "aV8boSk1D6q6YG": {
       "publishDocs": true,
       "gitHubPublish": true
+    },
+    "hVWU8Lx-bizSIx": {
+      "publishDocs": "",
+      "gitHubPublish": true
     }
   },
   "locked": false,
-  "_client": "rsihYJKKDVyaYN",
+  "_client": "@WORK",
   "demands": [],
   "graphQL": {
     "6g4mciY7jkfOUo": {
@@ -193,7 +197,7 @@
     }
   },
   "$invalid": false,
-  "_created": 1621461152000,
+  "_created": 1621422682000,
   "_deleted": 0,
   "database": "companyP",
   "maxWidth": 1000,
@@ -228,14 +232,14 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1622209390963,
-      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "time": 1623760802245,
+      "user": "64467393-61e5-45fe-a026-45aed6419337",
       "locked": false,
-      "_selectId": "HNWETHBzC5I-nn",
+      "_selectId": "1_LcVs27LayafV",
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1622205791000,
+  "_modified": 1623760804000,
   "components": "navigation",
   "isLockedBy": null,
   "navigation": [],
@@ -633,8 +637,8 @@
                       "value": "Canada"
                     },
                     {
-                      "label": "US",
-                      "value": "US"
+                      "label": "United States",
+                      "value": "United States"
                     }
                   ],
                   "question": "<p>Indicate the countries that your business operates in</p>\n",
@@ -648,6 +652,10 @@
                       "colour": ""
                     },
                     "Canada": {
+                      "icon": "",
+                      "colour": ""
+                    },
+                    "United States": {
                       "icon": "",
                       "colour": ""
                     }
@@ -1391,7 +1399,7 @@
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+  "_lastModifiedBy": "64467393-61e5-45fe-a026-45aed6419337",
   "defaultActivity": "x_5KNezQjHRN0v",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
