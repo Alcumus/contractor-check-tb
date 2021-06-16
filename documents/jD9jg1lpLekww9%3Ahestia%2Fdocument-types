@@ -1,5 +1,5 @@
 {
-  "__": "61hYHHnNoUGtBp",
+  "__": "m73Fi5JB-MnjvG",
   "_id": "jD9jg1lpLekww9:hestia/document-types",
   "icon": "",
   "name": "SalesForceAccounts",
@@ -198,13 +198,14 @@
     {
       "id": "2yfOBIKlh8W31B",
       "name": "1",
-      "time": 1623841364763,
+      "time": 1623841473688,
       "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
       "locked": false,
-      "_selectId": "5JGvSj_FD0gE_i"
+      "_selectId": "mvron-DNelOp04",
+      "parentVersion": ""
     }
   ],
-  "_modified": 1623841365000,
+  "_modified": 1623841474000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -254,16 +255,45 @@
           "forms": [
             {
               "id": "C--HGSXilpPOzP",
-              "form": "HHcsoBf3LJk4Pr"
+              "form": "HHcsoBf3LJk4Pr",
+              "readOnly": "",
+              "_selectId": "3UK-VCMZMWOBrE"
             }
           ],
           "action": "",
           "inline": true,
-          "actions": [],
+          "actions": [
+            {
+              "id": "NAL22j7DVNn0mA",
+              "blur": "",
+              "icon": "",
+              "color": "#fff",
+              "modal": {
+                "enabled": false
+              },
+              "goBack": "",
+              "caption": "Save",
+              "command": "setData",
+              "toState": "New",
+              "variant": "text",
+              "_selectId": "nNrG_Nnw-jEzSg",
+              "condition": "",
+              "endOfLine": "",
+              "navigateTo": "",
+              "properties": [],
+              "changeState": true,
+              "backgroundColor": "#03a9f4",
+              "visibleCondition": "",
+              "notificationToast": ""
+            }
+          ],
+          "storeIn": "",
           "_selectId": "nvvo_lwuk7OIUe",
+          "editDemands": [],
           "inputStates": [
             "New"
           ],
+          "visibleDemands": [],
           "backgroundColor": "#03a9f4"
         }
       ]
@@ -279,9 +309,9 @@
   "_activeVersion": "9VBJkCvhNTZ9Og",
   "_parentVersion": "2yfOBIKlh8W31B",
   "currentVersion": {
-    "live": "",
-    "testing": "",
-    "development": ""
+    "live": "1",
+    "testing": "1",
+    "development": "1"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
