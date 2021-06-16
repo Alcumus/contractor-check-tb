@@ -1,5 +1,5 @@
 {
-  "__": "ib_qB21yRK3aq_",
+  "__": "pMoE4Vv1Wdsoul",
   "_id": "PMW2x8gydP1Gq7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -190,14 +190,11 @@
       "exposeAPI": true,
       "readDemands": [],
       "writeDemands": []
-    },
-    "T2nfZg0x_mHGRo": {
-      "exposeWebhooks": true
     }
   },
   "profile": "undefined",
   "$invalid": false,
-  "_created": 1623764801000,
+  "_created": 1621508921000,
   "_deleted": 0,
   "database": "test",
   "maxWidth": 1000,
@@ -205,20 +202,14 @@
     {
       "id": "tV6rqmkixtZSUh",
       "name": "1",
-      "time": 1623831324723,
-      "user": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
+      "time": 1622209378564,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "ePaiVhOS3nZfmy",
+      "_selectId": "GUUQwdLuWiJBri",
       "parentVersion": ""
     }
   ],
-  "webhooks": {
-    "T2nfZg0x_mHGRo": {
-      "postDemands": [],
-      "exposeWebhooks": true
-    }
-  },
-  "_modified": 1623827726000,
+  "_modified": 1623847649000,
   "components": "verification,localisation",
   "isLockedBy": null,
   "navigation": [],
@@ -336,6 +327,25 @@
                   "_selectId": "cMIdRDdUg1DmFa",
                   "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.companySize\", \"Small Business\")",
                   "inputLabel": " "
+                },
+                {
+                  "id": "GMrG89jx3ZWQCU",
+                  "name": "userGuideTextQuestion",
+                  "type": "text",
+                  "hints": {},
+                  "maxWidth": "",
+                  "question": "<p>This question was created as part of creating the user guide and will be deleted later.</p>\n",
+                  "_selectId": "AMIIN9ZjGgYKY_",
+                  "condition": "",
+                  "inputLabel": "",
+                  "iconOffsetX": "",
+                  "iconOffsetY": "",
+                  "defaultValue": "",
+                  "dialogHeader": "Help",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
                 },
                 {
                   "id": "a1S3m000008DkPgFile",
@@ -6527,7 +6537,8 @@
             }
           ],
           "_selectId": "hXk8-HxlN-Gewr",
-          "condition": ""
+          "condition": "",
+          "duplicateNames": {}
         },
         {
           "id": "allForms",
@@ -31338,7 +31349,7 @@
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
+  "_lastModifiedBy": "8fa3969a-8f88-46fd-b3bf-6dcb7df5f2b9",
   "defaultActivity": "xSkC0pR6hZ1H2U",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
