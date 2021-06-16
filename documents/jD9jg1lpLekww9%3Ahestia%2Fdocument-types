@@ -1,5 +1,5 @@
 {
-  "__": "-Vl0FuIZJ5zZaJ",
+  "__": "l0dzlTzksCaYcB",
   "_id": "jD9jg1lpLekww9:hestia/document-types",
   "icon": "",
   "name": "SalesForceAccounts",
@@ -184,9 +184,11 @@
   "demands": [],
   "graphQL": {
     "6g4mciY7jkfOUo": {
-      "read": "",
-      "write": "",
-      "exposeAPI": true
+      "read": true,
+      "write": true,
+      "exposeAPI": true,
+      "readDemands": [],
+      "writeDemands": []
     }
   },
   "$invalid": false,
@@ -198,14 +200,14 @@
     {
       "id": "2yfOBIKlh8W31B",
       "name": "1",
-      "time": 1623845999487,
-      "user": "087af269-7b85-44fc-be62-94b7b6613ad8",
+      "time": 1623846984807,
+      "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
       "locked": false,
-      "_selectId": "jfx0vVDC-Q1ZQt",
+      "_selectId": "qzajKNBKHRB5es",
       "parentVersion": ""
     }
   ],
-  "_modified": 1623845999000,
+  "_modified": 1623846985000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -229,6 +231,22 @@
                   "maxWidth": "",
                   "question": "",
                   "_selectId": "L6O88JYy5pCl1v",
+                  "condition": "",
+                  "inputLabel": "",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "S5Ou2Y5jl5kiZ-",
+                  "name": "sfid",
+                  "type": "text",
+                  "hints": {},
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "zqxEm4YL8fp6l6",
                   "condition": "",
                   "inputLabel": "",
                   "defaultValue": "",
@@ -315,7 +333,7 @@
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "087af269-7b85-44fc-be62-94b7b6613ad8",
+  "_lastModifiedBy": "7360895b-2e38-4601-baf6-16af027bf7ae",
   "defaultActivity": "UmSH7vPTuW2IU4",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
