@@ -1,12 +1,11 @@
 {
-  "__": "LcGxw23Q71jZpK",
-  "_id": "ImG4GhYEohQwgO:hestia/document-types",
+  "__": "SI2fwdu_s2kgAO",
+  "_id": "De0TeFNWVkSP-9:hestia/app-types",
   "__ok": true,
   "icon": "",
-  "name": "Client Accounts",
-  "tags": [],
-  "_type": "document",
-  "table": "clientA",
+  "name": "Assessor App",
+  "_type": "application",
+  "table": "Assessor App-XmPd4SyJLaisI9",
   "theme": {
     "other": {
       "opacity": {
@@ -170,185 +169,96 @@
   "$valid": true,
   "__warn": false,
   "client": "@WORK",
-  "gitHub": {
-    "1J8739KZBOtzVQ": {
-      "publishDocs": "",
-      "gitHubPublish": true
-    },
-    "aV8boSk1D6q6YG": {
-      "publishDocs": true,
-      "gitHubPublish": true
-    }
-  },
   "locked": false,
   "_client": "@WORK",
   "demands": [],
-  "graphQL": {
-    "6g4mciY7jkfOUo": {
-      "read": true,
-      "write": true,
-      "exposeAPI": true,
-      "readDemands": [],
-      "writeDemands": []
-    },
-    "T2nfZg0x_mHGRo": {
-      "exposeWebhooks": true
-    }
-  },
   "$invalid": false,
-  "_created": 1623764802000,
+  "_created": 1621422681000,
   "_deleted": 0,
-  "database": "clientA",
+  "database": "applications",
   "maxWidth": 1000,
+  "uniqueId": "XmPd4SyJLaisI9",
   "versions": [
     {
-      "id": "ql7_Y82fUllqyC",
-      "name": "Client Accounts",
-      "time": 1621257594861,
-      "user": "15b779b1-e135-4313-b0b7-6dac1755adb8",
-      "locked": true,
-      "_selectId": "9CGPPtdgQF8Mfz",
-      "parentVersion": ""
-    },
-    {
-      "id": "iaoYbgiaCWu3nW",
+      "id": "EVQxXcR_t5Dw3S",
       "name": "CCPOC",
-      "time": 1621333682902,
+      "time": 1621333684825,
       "user": "15b779b1-e135-4313-b0b7-6dac1755adb8",
       "locked": true,
-      "_selectId": "qwfE0isJG1P7Ku",
-      "parentVersion": "ql7_Y82fUllqyC"
+      "_selectId": "ROtYluYWU0XYFf"
     },
     {
-      "id": "tzg4n_Tc9y7XG7",
+      "id": "naiUilS3gb7Man",
       "name": "Post Import",
-      "time": 1621422740279,
+      "time": 1621422741209,
       "user": "64467393-61e5-45fe-a026-45aed6419337",
       "locked": true,
-      "_selectId": "1kOpyG5a43d3Mk",
-      "parentVersion": "iaoYbgiaCWu3nW"
+      "_selectId": "Vj0tZWpZuqjEhi"
     },
     {
-      "id": "YAsc-hxBglasCu",
-      "name": "1.0",
-      "time": 1623831291625,
-      "user": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
+      "id": "7YcgXOPIP0ueZk",
+      "name": "Tasks",
+      "time": 1623852216298,
+      "user": "8fa3969a-8f88-46fd-b3bf-6dcb7df5f2b9",
       "locked": false,
-      "_selectId": "WQC3hpGLlXFFCH",
-      "parentVersion": "tzg4n_Tc9y7XG7"
+      "_selectId": "ZDI9vm8hN8UiIa",
+      "parentVersion": "naiUilS3gb7Man"
     }
   ],
-  "webhooks": {
-    "T2nfZg0x_mHGRo": {
-      "postDemands": [],
-      "exposeWebhooks": true
-    }
-  },
-  "_modified": 1623827692000,
+  "_modified": 1623852221000,
   "components": "",
   "isLockedBy": null,
   "navigation": [],
+  "showOnMenu": false,
   "_behaviours": {
     "_state": "",
     "instances": {
       "form": [
         {
-          "id": "YQv96GRetktzFo",
+          "id": "VZqklH9m1BCmQm",
           "name": "Main",
           "sections": [
             {
               "name": "Main",
               "_expanded": true,
-              "_selectId": "RQb0s2o6Z7zNWf",
+              "_selectId": "ICNB-vFCPguLeI",
               "condition": "",
               "questions": [
                 {
-                  "id": "Frg5dhB7nj2H_W",
-                  "name": "clientName",
-                  "type": "text",
+                  "id": "aZENtsUQqcvH2j",
+                  "name": "",
+                  "type": "information",
                   "hints": {},
-                  "maxWidth": "",
-                  "question": "",
-                  "_selectId": "NXLTLyhYykjw5j",
+                  "question": "<p>All Tasks</p>\n",
+                  "_selectId": "rB5oybWReGB3oV",
                   "condition": "",
-                  "inputLabel": "",
-                  "defaultValue": "",
                   "questionHeight": "",
                   "questionLeftPad": "",
                   "questionRightPad": "",
                   "questionSpaceBefore": ""
                 },
                 {
-                  "id": "icL7VW_1tpCoS_",
-                  "icon": "",
-                  "name": "",
-                  "type": "excelImport",
-                  "color": "#ffffff",
-                  "hints": {},
-                  "width": "",
-                  "fields": {
-                    "_id": {
-                      "mapping": ""
-                    },
-                    "$state": {
-                      "mapping": ""
-                    },
-                    "$creator": {
-                      "mapping": ""
-                    },
-                    "_created": {
-                      "mapping": ""
-                    },
-                    "_modified": {
-                      "mapping": ""
-                    },
-                    "clientName": {
-                      "mapping": "{Client}"
-                    }
-                  },
-                  "height": "",
-                  "variant": "contained",
-                  "idColumn": "",
-                  "question": "",
-                  "_selectId": "5YsRMYS_h9ei_t",
-                  "condition": "",
-                  "importType": "ImG4GhYEohQwgO:hestia/document-types",
-                  "sourceSheet": "Sheet1",
-                  "buttonCaption": "Import",
-                  "createUniqueId": true,
-                  "importTypeName": "Client Accounts",
-                  "backgroundColor": "#1da7e0",
-                  "backgroundImage": "",
-                  "additionalFields": [],
-                  "exampleExcelFile": {
-                    "Sheet1": [
-                      "Client"
-                    ]
-                  },
-                  "backgroundPosition": ""
-                },
-                {
-                  "id": "1aiKbt1T1F-m9H",
-                  "name": "clientList",
+                  "id": "xQ547djAxLjJkB",
+                  "name": "allTasksList",
                   "rows": 5,
                   "type": "documentList",
                   "hints": {},
                   "where": {},
-                  "listType": "ImG4GhYEohQwgO:hestia/document-types",
+                  "listType": "hestia-tasks",
                   "question": "",
-                  "_selectId": "DH1EuM0oKl5Smf",
+                  "_selectId": "QuUCKE9qbUrZ7E",
                   "condition": "",
                   "filterText": "",
                   "navigation": [],
-                  "displayView": "41Mqy1R4SiIF1I",
+                  "displayView": "action",
                   "sortColumns": [],
-                  "listTypeName": "Client Accounts",
+                  "listTypeName": "Tasks",
                   "displayFields": [],
                   "filterColumns": [],
                   "useDataSource": "",
                   "questionHeight": "",
                   "questionLeftPad": "",
-                  "displayView_name": "Client List",
+                  "displayView_name": "Action",
                   "questionRightPad": "",
                   "questionSpaceBefore": ""
                 }
@@ -356,141 +266,63 @@
               "description": ""
             }
           ],
-          "_selectId": "Yak5N025bSj8F8",
+          "_selectId": "LzIMxR7zZXVRh1",
           "condition": "",
           "description": "",
           "duplicateNames": {}
         }
       ],
-      "card2_0": [
-        {
-          "id": "41Mqy1R4SiIF1I",
-          "name": "Client List",
-          "bands": [
-            {
-              "id": "1YdkN1ILT7FQFB",
-              "text": "<p>{clientName}</p>\n",
-              "type": "richtext",
-              "width": "",
-              "height": "",
-              "_selectId": "fkRsdvA6_cXjZT",
-              "topMargin": "",
-              "leftMargin": "",
-              "rightMargin": "",
-              "bottomMargin": "",
-              "enableEllipsis": "",
-              "standardTextColor": ""
-            }
-          ],
-          "__init": true,
-          "useBox": "",
-          "variant": "elevation",
-          "_selectId": "ZD96JntqGLdTvE",
-          "elevation": 1,
-          "topMargin": "",
-          "leftMargin": "",
-          "topPadding": "",
-          "leftPadding": "",
-          "rightMargin": "",
-          "bottomMargin": "",
-          "rightPadding": "",
-          "bottomPadding": "",
-          "requiredFields": [],
-          "clickToNavigate": ""
-        }
-      ],
       "formAction": [
         {
-          "id": "hF5Rhx8eIzgMD-",
+          "id": "6ZR8qxBBp1vmdN",
           "name": "Main",
           "forms": [
             {
-              "id": "Cc-9P7oPgFvolW",
-              "form": "YQv96GRetktzFo",
-              "readOnly": "",
-              "_selectId": "LXAnHbnvm0MzU8"
+              "id": "Y56BvLKHghhHDH",
+              "form": "VZqklH9m1BCmQm"
             }
           ],
           "inline": true,
-          "actions": [
-            {
-              "id": "SG-yKn67U5f_JE",
-              "blur": "",
-              "icon": "",
-              "color": "#fff",
-              "modal": {
-                "enabled": false
-              },
-              "goBack": "",
-              "caption": "Save",
-              "command": "setData",
-              "toState": "Saved",
-              "variant": "text",
-              "_selectId": "59loB0zMkWfkM9",
-              "condition": "",
-              "endOfLine": "",
-              "navigateTo": "",
-              "properties": [],
-              "changeState": true,
-              "backgroundColor": "#03a9f4",
-              "visibleCondition": "",
-              "notificationToast": ""
-            }
-          ],
-          "storeIn": "",
-          "_selectId": "gDXq12lWr-cY1n",
-          "editDemands": [],
+          "actions": [],
+          "$readOnly": false,
+          "_selectId": "y3d8aUb5jX7vE3",
           "inputStates": [
-            "New"
-          ],
-          "visibleDemands": []
-        }
-      ],
-      "viewAsText": [
-        {
-          "id": "QTCSKcWsDulGIR",
-          "name": "Name",
-          "fields": [
-            {
-              "id": "Sw3LzEbPHooM7N",
-              "field": "clientName",
-              "separator": " ",
-              "transform": "none",
-              "defaultValue": ""
-            }
-          ],
-          "_selectId": "oX9yl6AWCGB5fc",
-          "availableActions": []
+            "default"
+          ]
         }
       ]
     }
   },
-  "_components": {},
-  "createOnNew": false,
+  "createOnNew": true,
   "description": "",
-  "displayName": "Client Accounts",
-  "__originalId": "ImG4GhYEohQwgO:hestia/document-types",
-  "defaultState": "New",
+  "displayName": "",
+  "specificUrl": false,
+  "__originalId": "De0TeFNWVkSP-9:hestia/app-types",
+  "defaultState": "default",
   "sidebarColor": "#333",
   "tabsSelected": "#009fda",
   "__warnReasons": [],
   "documentColor": "#333",
-  "_activeVersion": "yDkAUUYkv3srRO",
-  "_parentVersion": "YAsc-hxBglasCu",
+  "_activeVersion": "pOdPQkiA5R_LyX",
+  "_parentVersion": "7YcgXOPIP0ueZk",
   "currentVersion": {
-    "live": "1.0",
-    "testing": "1.0",
-    "development": "1.0"
+    "live": "Tasks",
+    "testing": "Tasks",
+    "development": "Tasks"
   },
-  "tabsBackground": "#f4f4f4",
+  "showOnLauncher": false,
+  "tabsBackground": "#fafafa",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
-  "defaultActivity": "hF5Rhx8eIzgMD-",
+  "_lastModifiedBy": "8fa3969a-8f88-46fd-b3bf-6dcb7df5f2b9",
+  "defaultActivity": "6ZR8qxBBp1vmdN",
   "devices-allowed": "",
+  "launcherCaption": "",
   "sideBarMinWidth": 150,
-  "documentBackdrop": "#f4f4f4",
+  "documentBackdrop": "#fafafa",
   "sidebarBackground": "#fff",
-  "documentBackground": "#f4f4f4",
+  "documentBackground": "#fff",
+  "launcherBackground": "#009fda",
+  "launcherForeground": "#ffffff",
   "devices-allowed-html": "",
   "isLockedByCurrentUser": false
 }
