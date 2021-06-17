@@ -1,5 +1,5 @@
 {
-  "__": "n-7RtHI7Fy2G-K",
+  "__": "litsNtO2RtZ3_i",
   "_id": "hgpnsM-GkqdlQD:hestia/document-types",
   "icon": "",
   "name": "WebhookIncoming",
@@ -184,7 +184,11 @@
   "demands": [],
   "graphQL": {
     "6g4mciY7jkfOUo": {
-      "exposeAPI": ""
+      "read": true,
+      "write": true,
+      "exposeAPI": true,
+      "readDemands": [],
+      "writeDemands": []
     }
   },
   "$invalid": false,
@@ -196,13 +200,20 @@
     {
       "id": "AqPOdaCv2OU_DB",
       "name": "1",
-      "time": 1623913484704,
+      "time": 1623913511043,
       "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
       "locked": false,
-      "_selectId": "jiD3vVXusGpB0-"
+      "_selectId": "u-sVA791g5rFUs",
+      "parentVersion": ""
     }
   ],
-  "_modified": 1623913484000,
+  "webhooks": {
+    "HxewVLNY2C3G82": {
+      "postDemands": [],
+      "exposeWebhooks": true
+    }
+  },
+  "_modified": 1623913511000,
   "components": "",
   "navigation": [],
   "_behaviours": {
