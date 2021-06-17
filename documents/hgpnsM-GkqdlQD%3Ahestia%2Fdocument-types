@@ -1,5 +1,5 @@
 {
-  "__": "9TjOBiCTCmNqaI",
+  "__": "Si_8bmEcXQl-yN",
   "_id": "hgpnsM-GkqdlQD:hestia/document-types",
   "icon": "",
   "name": "WebhookIncoming",
@@ -200,10 +200,10 @@
     {
       "id": "AqPOdaCv2OU_DB",
       "name": "1",
-      "time": 1623928976652,
+      "time": 1623929577526,
       "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
       "locked": false,
-      "_selectId": "Qh8So5LdG5ac4g",
+      "_selectId": "F_SbP-45OHczwV",
       "parentVersion": ""
     }
   ],
@@ -213,7 +213,7 @@
       "exposeWebhooks": true
     }
   },
-  "_modified": 1623928977000,
+  "_modified": 1623929577000,
   "components": "JSON",
   "navigation": [],
   "_behaviours": {
@@ -230,29 +230,13 @@
               "_selectId": "-uinYPhx54jjFC",
               "questions": [
                 {
-                  "id": "Dw2nX3E3s1NX0P",
-                  "name": "comment",
+                  "id": "JiB6AiaEkk4NwG",
+                  "name": "Name",
                   "type": "text",
                   "hints": {},
                   "maxWidth": "",
                   "question": "",
-                  "_selectId": "Nf8GNRTF4jQCq9",
-                  "condition": "",
-                  "inputLabel": "",
-                  "defaultValue": "",
-                  "questionHeight": "",
-                  "questionLeftPad": "",
-                  "questionRightPad": "",
-                  "questionSpaceBefore": ""
-                },
-                {
-                  "id": "K7oO4KduKAwvKD",
-                  "name": "soapenvEnvelope",
-                  "type": "JSON",
-                  "hints": {},
-                  "maxWidth": "",
-                  "question": "",
-                  "_selectId": "-LiXwHPN4kAMBo",
+                  "_selectId": "TKlRI72K2q_bJs",
                   "condition": "",
                   "inputLabel": "",
                   "defaultValue": "",
