@@ -1,5 +1,5 @@
 {
-  "__": "pMoE4Vv1Wdsoul",
+  "__": "iwFuF4JfDsSgIx",
   "_id": "PMW2x8gydP1Gq7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -202,14 +202,14 @@
     {
       "id": "tV6rqmkixtZSUh",
       "name": "1",
-      "time": 1622209378564,
-      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "time": 1623918461090,
+      "user": "8fa3969a-8f88-46fd-b3bf-6dcb7df5f2b9",
       "locked": false,
-      "_selectId": "GUUQwdLuWiJBri",
+      "_selectId": "QNm0HSUbYDjrFF",
       "parentVersion": ""
     }
   ],
-  "_modified": 1623847649000,
+  "_modified": 1623918465000,
   "components": "verification,localisation",
   "isLockedBy": null,
   "navigation": [],
@@ -315,6 +315,25 @@
               "condition": "",
               "questions": [
                 {
+                  "id": "w5qLWgL24fn4hf",
+                  "name": "userGuideTextQuestion",
+                  "type": "text",
+                  "hints": {},
+                  "maxWidth": "",
+                  "question": "<p>This question was created as part of creating the user guide and will be deleted later.</p>\n",
+                  "_selectId": "a-0DVHqSfPOAXC",
+                  "condition": "",
+                  "inputLabel": "",
+                  "iconOffsetX": "",
+                  "iconOffsetY": "",
+                  "defaultValue": "",
+                  "dialogHeader": "Help",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
                   "id": "a1S3m000008DkPgText",
                   "name": "emergencyPreparednessPlanningSmBus",
                   "type": "text",
@@ -327,25 +346,6 @@
                   "_selectId": "cMIdRDdUg1DmFa",
                   "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.companySize\", \"Small Business\")",
                   "inputLabel": " "
-                },
-                {
-                  "id": "GMrG89jx3ZWQCU",
-                  "name": "userGuideTextQuestion",
-                  "type": "text",
-                  "hints": {},
-                  "maxWidth": "",
-                  "question": "<p>This question was created as part of creating the user guide and will be deleted later.</p>\n",
-                  "_selectId": "AMIIN9ZjGgYKY_",
-                  "condition": "",
-                  "inputLabel": "",
-                  "iconOffsetX": "",
-                  "iconOffsetY": "",
-                  "defaultValue": "",
-                  "dialogHeader": "Help",
-                  "questionHeight": "",
-                  "questionLeftPad": "",
-                  "questionRightPad": "",
-                  "questionSpaceBefore": ""
                 },
                 {
                   "id": "a1S3m000008DkPgFile",
