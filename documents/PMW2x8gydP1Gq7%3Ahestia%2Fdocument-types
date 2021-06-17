@@ -1,5 +1,5 @@
 {
-  "__": "iwFuF4JfDsSgIx",
+  "__": "lfZDneZAuoFVtq",
   "_id": "PMW2x8gydP1Gq7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -209,7 +209,7 @@
       "parentVersion": ""
     }
   ],
-  "_modified": 1623918465000,
+  "_modified": 1623918534000,
   "components": "verification,localisation",
   "isLockedBy": null,
   "navigation": [],
@@ -314,25 +314,6 @@
               "_selectId": "chP1aYV3pSgin4",
               "condition": "",
               "questions": [
-                {
-                  "id": "w5qLWgL24fn4hf",
-                  "name": "userGuideTextQuestion",
-                  "type": "text",
-                  "hints": {},
-                  "maxWidth": "",
-                  "question": "<p>This question was created as part of creating the user guide and will be deleted later.</p>\n",
-                  "_selectId": "a-0DVHqSfPOAXC",
-                  "condition": "",
-                  "inputLabel": "",
-                  "iconOffsetX": "",
-                  "iconOffsetY": "",
-                  "defaultValue": "",
-                  "dialogHeader": "Help",
-                  "questionHeight": "",
-                  "questionLeftPad": "",
-                  "questionRightPad": "",
-                  "questionSpaceBefore": ""
-                },
                 {
                   "id": "a1S3m000008DkPgText",
                   "name": "emergencyPreparednessPlanningSmBus",
