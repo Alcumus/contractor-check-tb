@@ -1,5 +1,5 @@
 {
-  "__": "lfZDneZAuoFVtq",
+  "__": "H-bpDyz4IsRLr-",
   "_id": "PMW2x8gydP1Gq7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -202,14 +202,14 @@
     {
       "id": "tV6rqmkixtZSUh",
       "name": "1",
-      "time": 1623918461090,
+      "time": 1623918535703,
       "user": "8fa3969a-8f88-46fd-b3bf-6dcb7df5f2b9",
       "locked": false,
-      "_selectId": "QNm0HSUbYDjrFF",
+      "_selectId": "piRsl-PeqjyIVC",
       "parentVersion": ""
     }
   ],
-  "_modified": 1623918534000,
+  "_modified": 1623918719000,
   "components": "verification,localisation",
   "isLockedBy": null,
   "navigation": [],
@@ -327,6 +327,25 @@
                   "_selectId": "cMIdRDdUg1DmFa",
                   "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.companySize\", \"Small Business\")",
                   "inputLabel": " "
+                },
+                {
+                  "id": "h7iPJdbNUZ5fky",
+                  "name": "userGuideTextQuestion",
+                  "type": "text",
+                  "hints": {},
+                  "maxWidth": "",
+                  "question": "<p>This question was created as part of creating the user guide and will be deleted later.</p>\n",
+                  "_selectId": "3KchFYDXILcfFV",
+                  "condition": "",
+                  "inputLabel": "",
+                  "iconOffsetX": "",
+                  "iconOffsetY": "",
+                  "defaultValue": "",
+                  "dialogHeader": "Help",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
                 },
                 {
                   "id": "a1S3m000008DkPgFile",
