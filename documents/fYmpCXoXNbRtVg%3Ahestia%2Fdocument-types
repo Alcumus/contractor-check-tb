@@ -1,5 +1,5 @@
 {
-  "__": "vNCUgA0woQn_-c",
+  "__": "JvZ1qxCD3msGRI",
   "_id": "fYmpCXoXNbRtVg:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -201,14 +201,14 @@
     {
       "id": "D57acZ-uIHF-Tx",
       "name": "1.0",
-      "time": 1624021522986,
+      "time": 1624021654037,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "q6CCV_H5cBEjAf",
+      "_selectId": "EJn_Ea4zlBKqdJ",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624017923000,
+  "_modified": 1624018054000,
   "components": "verification,helptext,navigation,formprogress",
   "isLockedBy": null,
   "navigation": [],
@@ -944,6 +944,15 @@
         {
           "id": "ZUbMPbIyQSu4Vu",
           "name": "Tell The Profile I'm Assessed",
+          "query": {
+            "$and": [
+              {
+                "assessmentType": {
+                  "$eq": "general"
+                }
+              }
+            ]
+          },
           "onEnter": "",
           "inStates": [
             "Accepted"
@@ -951,13 +960,15 @@
           "mergeAll": "",
           "_selectId": "Mv_4BJNUNwdjmm",
           "properties": [],
-          "specificId": "",
+          "specificId": true,
           "targetType": "WdoYmj-FOBFYri:hestia/document-types",
           "updateState": "Approved",
           "updateClient": "",
           "recordChanges": "",
           "targetTypeName": "Company Profile",
-          "createMergeRecord": "",
+          "updateRecordId": "{linkedProfile}",
+          "createMergeRecord": false,
+          "uniqueMergeRecords": false,
           "updateTargetDocumentState": true
         }
       ],
