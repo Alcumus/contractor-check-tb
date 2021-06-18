@@ -1,5 +1,5 @@
 {
-  "__": "VFvykay3Pfll3S",
+  "__": "NybPcq11mqi3eI",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -169,7 +169,7 @@
   },
   "$valid": true,
   "__warn": false,
-  "client": "@WORK",
+  "client": "rsihYJKKDVyaYN",
   "gitHub": {
     "1J8739KZBOtzVQ": {
       "publishDocs": "",
@@ -178,14 +178,10 @@
     "aV8boSk1D6q6YG": {
       "publishDocs": true,
       "gitHubPublish": true
-    },
-    "hVWU8Lx-bizSIx": {
-      "publishDocs": "",
-      "gitHubPublish": true
     }
   },
   "locked": false,
-  "_client": "@WORK",
+  "_client": "rsihYJKKDVyaYN",
   "demands": [],
   "graphQL": {
     "6g4mciY7jkfOUo": {
@@ -197,7 +193,7 @@
     }
   },
   "$invalid": false,
-  "_created": 1621422682000,
+  "_created": 1621461152000,
   "_deleted": 0,
   "database": "companyP",
   "maxWidth": 1000,
@@ -232,14 +228,14 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1623760802245,
-      "user": "64467393-61e5-45fe-a026-45aed6419337",
+      "time": 1623995859212,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "1_LcVs27LayafV",
+      "_selectId": "cENq2BRo4YDKPG",
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1623760804000,
+  "_modified": 1623992259000,
   "components": "navigation",
   "isLockedBy": null,
   "navigation": [],
@@ -637,8 +633,8 @@
                       "value": "Canada"
                     },
                     {
-                      "label": "United States",
-                      "value": "United States"
+                      "label": "US",
+                      "value": "US"
                     }
                   ],
                   "question": "<p>Indicate the countries that your business operates in</p>\n",
@@ -652,10 +648,6 @@
                       "colour": ""
                     },
                     "Canada": {
-                      "icon": "",
-                      "colour": ""
-                    },
-                    "United States": {
                       "icon": "",
                       "colour": ""
                     }
@@ -1257,6 +1249,43 @@
           "_selectId": "8bxlAvIOfisovH"
         }
       ],
+      "updater": [
+        {
+          "id": "Qi6ubuhBLjlkcx",
+          "name": "Create Contact",
+          "onEnter": "",
+          "inStates": [
+            "New",
+            "Saved"
+          ],
+          "mergeAll": "",
+          "_selectId": "N9hFwo43VxJlL9",
+          "properties": [
+            {
+              "id": "Ypw1vAvdvNI_FL",
+              "field": "email",
+              "value": "{email}",
+              "defaultValue": ""
+            },
+            {
+              "id": "KAqaa2Q4nxK4u9",
+              "field": "primary",
+              "value": "yes",
+              "defaultValue": ""
+            }
+          ],
+          "specificId": true,
+          "targetType": "0pBBN3JGvJXvK6:hestia/document-types",
+          "updateClient": false,
+          "recordChanges": "",
+          "targetTypeName": "Contact",
+          "updateRecordId": "{resolveId(_id)}:contractorcheck/contact",
+          "updateToClient": "rsihYJKKDVyaYN",
+          "createMergeRecord": false,
+          "uniqueMergeRecords": false,
+          "updateTargetDocumentState": ""
+        }
+      ],
       "formAction": [
         {
           "id": "x_5KNezQjHRN0v",
@@ -1382,7 +1411,7 @@
   },
   "_components": {},
   "createOnNew": false,
-  "description": "",
+  "description": "<p></p>\n",
   "displayName": "companyProfile",
   "__originalId": "WdoYmj-FOBFYri:hestia/document-types",
   "defaultState": "New",
@@ -1399,11 +1428,12 @@
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "64467393-61e5-45fe-a026-45aed6419337",
+  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
   "defaultActivity": "x_5KNezQjHRN0v",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
   "documentBackdrop": "#f4f4f4",
+  "_updatersExpanded": true,
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
   "devices-allowed-html": "",
