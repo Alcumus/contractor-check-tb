@@ -1,5 +1,5 @@
 {
-  "__": "Si_8bmEcXQl-yN",
+  "__": "GYriYQnaGVlVkC",
   "_id": "hgpnsM-GkqdlQD:hestia/document-types",
   "icon": "",
   "name": "WebhookIncoming",
@@ -200,10 +200,10 @@
     {
       "id": "AqPOdaCv2OU_DB",
       "name": "1",
-      "time": 1623929577526,
+      "time": 1624011224442,
       "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
       "locked": false,
-      "_selectId": "F_SbP-45OHczwV",
+      "_selectId": "r-tpGRrxUVkKjj",
       "parentVersion": ""
     }
   ],
@@ -213,7 +213,7 @@
       "exposeWebhooks": true
     }
   },
-  "_modified": 1623929577000,
+  "_modified": 1624011224000,
   "components": "JSON",
   "navigation": [],
   "_behaviours": {
@@ -292,6 +292,22 @@
                   "questionLeftPad": "",
                   "questionRightPad": "",
                   "questionSpaceBefore": ""
+                },
+                {
+                  "id": "wEWNiM9q0UtkON",
+                  "name": "Id",
+                  "type": "text",
+                  "hints": {},
+                  "maxWidth": "",
+                  "question": "<p>Salesforce Record ID</p>\n",
+                  "_selectId": "_lMmeykd3PzQcq",
+                  "condition": "",
+                  "inputLabel": "",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
                 }
               ]
             }
@@ -300,6 +316,45 @@
           "condition": "",
           "description": "",
           "duplicateNames": {}
+        }
+      ],
+      "updater": [
+        {
+          "id": "Hi1P6enwdT4BTQ",
+          "name": "Create or update DemoCompanyRecord",
+          "onEnter": "",
+          "inStates": "",
+          "mergeAll": false,
+          "_selectId": "9TtAC3TiD0OUxn",
+          "properties": [
+            {
+              "id": "PFcxeIC6pNU4bC",
+              "field": "",
+              "value": ""
+            },
+            {
+              "id": "kcEFZNLJJ2j7-1",
+              "field": "desc",
+              "value": "{Description}",
+              "defaultValue": ""
+            },
+            {
+              "id": "embjQtKLiGIFZU",
+              "field": "name",
+              "value": "{Name}",
+              "defaultValue": ""
+            }
+          ],
+          "specificId": true,
+          "targetType": "_PwCnwt36kDYFu:hestia/document-types",
+          "updateState": "Updated",
+          "updateClient": false,
+          "recordChanges": "description",
+          "targetTypeName": "DemoCompanyRecord",
+          "updateRecordId": "{resolveId(_id)}:demo/company",
+          "createMergeRecord": false,
+          "uniqueMergeRecords": false,
+          "updateTargetDocumentState": true
         }
       ],
       "formAction": [
