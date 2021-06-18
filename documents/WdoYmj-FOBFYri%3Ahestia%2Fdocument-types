@@ -1,5 +1,5 @@
 {
-  "__": "rM_E-A2mLOIDaZ",
+  "__": "Gd8ff8LmwjVe4j",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -228,14 +228,14 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1624020799572,
+      "time": 1624021397374,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "eMGLX-vNkqyiEF",
+      "_selectId": "mb9yCVZK5RPxUj",
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1624017199000,
+  "_modified": 1624017797000,
   "components": "navigation",
   "isLockedBy": null,
   "navigation": [],
@@ -1178,6 +1178,22 @@
                   "_selectId": "lLhffib9g6GWw_",
                   "condition": "",
                   "permanent": "",
+                  "rightSlot": {
+                    "id": "gdD0dLHODQrJ6s",
+                    "name": "",
+                    "type": "embedAction",
+                    "hints": {},
+                    "action": "bl4vej3CtWXo4X",
+                    "variant": "outlined",
+                    "question": "",
+                    "_selectId": "wT0HGvmxjKNfPC",
+                    "condition": "",
+                    "_actionName": "Update",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  },
                   "background": "",
                   "middleSlot": {
                     "id": "jde7yLfz6j0moc",
@@ -1242,6 +1258,40 @@
           "duplicateNames": {}
         }
       ],
+      "chase": [
+        {
+          "id": "Dee2r-Lb5_9MQZ",
+          "name": "Manage Assessment",
+          "events": [],
+          "tracks": [
+            {
+              "id": "msTTT8c9WnoZjr",
+              "name": "Main",
+              "items": [
+                {
+                  "id": "oNPf9wmBHl9ORG",
+                  "from": "previous",
+                  "type": "delay",
+                  "units": "minutes",
+                  "amount": 0.1,
+                  "_selectId": "E32sIGQthqxbaK"
+                },
+                {
+                  "id": "mLzIXxuvUsmIyT",
+                  "type": "switchState",
+                  "toState": "Assessed",
+                  "_selectId": "SWjtxxQUOuoBSL"
+                }
+              ],
+              "states": [
+                "Approved"
+              ]
+            }
+          ],
+          "_selectId": "Pk7hnMy4kDPHUy",
+          "masterQuery": {}
+        }
+      ],
       "styled": [
         {
           "css": ".title {\n    border-radius: 8px;\n    margin: 4px;\n    \n}\n\n.title [class*=h1-] {\n    font-size: 20px !important;\n}",
@@ -1300,7 +1350,8 @@
           "onEnter": "",
           "inStates": [
             "New",
-            "Saved"
+            "Saved",
+            "Approved"
           ],
           "mergeAll": true,
           "_selectId": "EpcP3VL3bVD7zn",
@@ -1366,6 +1417,71 @@
           "inputStates": [
             "New",
             "Saved"
+          ],
+          "visibleDemands": []
+        },
+        {
+          "id": "FPrVUGkb9dKHqZ",
+          "name": "Assessed",
+          "forms": [
+            {
+              "id": "uc2TDSSSoyIaaY",
+              "form": "QBK3L2kW3hNl0_",
+              "readOnly": false,
+              "_selectId": "MdrFeR_iKzRAyT"
+            },
+            {
+              "id": "-hiJu5HIpOhSpv",
+              "form": "YcQ_phx_ZRx4_Q",
+              "readOnly": false,
+              "_selectId": "r24DFxgESlbZpH"
+            }
+          ],
+          "inline": true,
+          "actions": [
+            {
+              "id": "bl4vej3CtWXo4X",
+              "blur": "",
+              "icon": "",
+              "color": "#fff",
+              "modal": {
+                "enabled": false
+              },
+              "goBack": "",
+              "caption": "Update",
+              "command": "setData",
+              "toState": "Assessed",
+              "variant": "text",
+              "_selectId": "zEl9co8VyovenH",
+              "condition": "",
+              "endOfLine": "",
+              "navigateTo": "",
+              "properties": [],
+              "changeState": true,
+              "backgroundColor": "#03a9f4",
+              "visibleCondition": "",
+              "notificationToast": ""
+            }
+          ],
+          "storeIn": "",
+          "_selectId": "Otv9eVDy6A7vnP",
+          "editDemands": [],
+          "inputStates": [
+            "Assessed"
+          ],
+          "visibleDemands": []
+        },
+        {
+          "id": "VrbTPiTVbB6Vej",
+          "name": "Approved",
+          "forms": [],
+          "inline": true,
+          "actions": [],
+          "storeIn": "",
+          "_selectId": "NrNu48LSHHVP1r",
+          "editDemands": [],
+          "inputStates": [
+            "Approved"
           ],
           "visibleDemands": []
         }
