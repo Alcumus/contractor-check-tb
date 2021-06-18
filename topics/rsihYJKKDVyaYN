@@ -1,0 +1,144 @@
+[
+  {
+    "__": "n0LksOdsv8uCMl",
+    "_id": "f1VY-4kn7grsyL:hestia/topics",
+    "name": "Organisation",
+    "$valid": true,
+    "client": "rsihYJKKDVyaYN",
+    "_client": "rsihYJKKDVyaYN",
+    "$creator": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "$invalid": false,
+    "_created": 1621432265000,
+    "_deleted": 0,
+    "concerns": [
+      {
+        "id": "VZeDuW7Ayc_ap-",
+        "name": "Team",
+        "table": "Teams/Teams",
+        "fields": [],
+        "recursive": "",
+        "detailView": "xxB17KvHhJckJx",
+        "sortFields": [],
+        "defaultType": "DB_f1fuVIK7FWT:hestia/document-types",
+        "defaultView": "xxB17KvHhJckJx",
+        "searchFields": [],
+        "detailView_name": "Teams",
+        "defaultView_name": "Teams"
+      },
+      {
+        "id": "yu2GLkfdsSkmar",
+        "name": "Employees",
+        "table": "employees/employees",
+        "fields": [],
+        "recursive": "",
+        "detailView": "vl8RGsIEBjaQWo",
+        "sortFields": [],
+        "defaultType": "Hfqzb-gWFBvgaC:hestia/document-types",
+        "defaultView": "M8JWtHWOohsCFK",
+        "searchFields": [],
+        "detailView_name": "Employee Card",
+        "defaultView_name": "Name"
+      }
+    ],
+    "_modified": 1621466989000,
+    "__modified": 1621551095166,
+    "_behaviours": {
+      "_state": "",
+      "instances": {}
+    },
+    "__originalId": "f1VY-4kn7grsyL:hestia/topics",
+    "relationships": {
+      "types": {
+        "DB_f1fuVIK7FWT:hestia/document-types": {
+          "field": "_id",
+          "mapsTo": "",
+          "contextMapping": [],
+          "relatedMapping": [],
+          "additionalDemandsPath": ""
+        },
+        "Hfqzb-gWFBvgaC:hestia/document-types": {
+          "field": "email",
+          "mapsTo": "",
+          "contextMapping": [],
+          "relatedMapping": [
+            "emailAddress"
+          ],
+          "additionalDemandsPath": ""
+        }
+      }
+    }
+  },
+  {
+    "__": "drRmyH9PQEphtF",
+    "_id": "ECoksiaw9KgkFx:hestia/topics",
+    "name": "External Parties",
+    "_client": "rsihYJKKDVyaYN",
+    "_created": 1623993628000,
+    "_deleted": 0,
+    "concerns": [
+      {
+        "id": "DLCZnA8vo-oAX3",
+        "name": "Company",
+        "table": "companyP/companyP",
+        "fields": [],
+        "recursive": "",
+        "detailView": "tO-6DxodJdqI_0",
+        "sortFields": [
+          "companyName"
+        ],
+        "defaultType": "WdoYmj-FOBFYri:hestia/document-types",
+        "defaultView": "tO-6DxodJdqI_0",
+        "searchFields": [
+          "companyName",
+          "address",
+          "country",
+          "description"
+        ],
+        "detailView_name": "Name",
+        "defaultView_name": "Name"
+      },
+      {
+        "id": "xPgK2GoZCRPLJK",
+        "name": "Contact",
+        "table": "contractorcheck/contact",
+        "fields": [],
+        "recursive": "",
+        "detailView": "n87_OprT5853EI",
+        "sortFields": [
+          "familyName",
+          "givenName"
+        ],
+        "defaultType": "0pBBN3JGvJXvK6:hestia/document-types",
+        "defaultView": "n87_OprT5853EI",
+        "searchFields": [
+          "email",
+          "familyName",
+          "givenName"
+        ],
+        "detailView_name": "Email",
+        "defaultView_name": "Email"
+      }
+    ],
+    "_modified": 1623993740000,
+    "relationships": {
+      "types": {
+        "0pBBN3JGvJXvK6:hestia/document-types": {
+          "field": "email",
+          "mapsTo": "",
+          "contextMapping": [],
+          "relatedMapping": [
+            "emailAddress"
+          ],
+          "additionalDemandsPath": "fundamental"
+        },
+        "WdoYmj-FOBFYri:hestia/document-types": {
+          "field": "_id",
+          "mapsTo": "",
+          "contextMapping": [],
+          "relatedMapping": [],
+          "additionalDemandsPath": ""
+        }
+      }
+    }
+  }
+]
