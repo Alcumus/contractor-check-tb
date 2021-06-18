@@ -1,5 +1,5 @@
 {
-  "__": "PxJAwU8_qG2w3m",
+  "__": "NVZmKRXmdhEUzE",
   "_id": "0pBBN3JGvJXvK6:hestia/document-types",
   "icon": "",
   "name": "Contact",
@@ -192,13 +192,14 @@
     {
       "id": "UXlXJ3hYoZG3bS",
       "name": "1.0",
-      "time": 1623997426938,
+      "time": 1623997432124,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "gBvUFXtsk0rDR1"
+      "_selectId": "tdKL7HX04UEZSH",
+      "parentVersion": ""
     }
   ],
-  "_modified": 1623993827000,
+  "_modified": 1623993832000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -362,9 +363,9 @@
   "_activeVersion": "iIKtVL2XxyM3qJ",
   "_parentVersion": "UXlXJ3hYoZG3bS",
   "currentVersion": {
-    "live": "",
-    "testing": "",
-    "development": ""
+    "live": "1.0",
+    "testing": "1.0",
+    "development": "1.0"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
