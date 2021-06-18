@@ -1,5 +1,5 @@
 {
-  "__": "GYriYQnaGVlVkC",
+  "__": "xZcNGXp0HIten7",
   "_id": "hgpnsM-GkqdlQD:hestia/document-types",
   "icon": "",
   "name": "WebhookIncoming",
@@ -200,10 +200,10 @@
     {
       "id": "AqPOdaCv2OU_DB",
       "name": "1",
-      "time": 1624011224442,
+      "time": 1624011337200,
       "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
       "locked": false,
-      "_selectId": "r-tpGRrxUVkKjj",
+      "_selectId": "SOwuKEV9ZTFhKA",
       "parentVersion": ""
     }
   ],
@@ -213,7 +213,7 @@
       "exposeWebhooks": true
     }
   },
-  "_modified": 1624011224000,
+  "_modified": 1624011337000,
   "components": "JSON",
   "navigation": [],
   "_behaviours": {
@@ -343,6 +343,12 @@
               "field": "name",
               "value": "{Name}",
               "defaultValue": ""
+            },
+            {
+              "id": "Av1_kNpsAX39OP",
+              "field": "salesforce_id",
+              "value": "{Id}",
+              "defaultValue": ""
             }
           ],
           "specificId": true,
@@ -351,7 +357,7 @@
           "updateClient": false,
           "recordChanges": "description",
           "targetTypeName": "DemoCompanyRecord",
-          "updateRecordId": "{resolveId(_id)}:demo/company",
+          "updateRecordId": "{Id}:demo/company",
           "createMergeRecord": false,
           "uniqueMergeRecords": false,
           "updateTargetDocumentState": true
@@ -416,9 +422,9 @@
   "_activeVersion": "eAcKOUo6mi_wK0",
   "_parentVersion": "AqPOdaCv2OU_DB",
   "currentVersion": {
-    "live": "",
-    "testing": "",
-    "development": ""
+    "live": "1",
+    "testing": "1",
+    "development": "1"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
