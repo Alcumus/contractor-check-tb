@@ -1,5 +1,5 @@
 {
-  "__": "ACqTB2xPTFXhfQ",
+  "__": "rM_E-A2mLOIDaZ",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -228,14 +228,14 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1623996397194,
+      "time": 1624020799572,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "1r5u7l4aUxtw5n",
+      "_selectId": "eMGLX-vNkqyiEF",
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1623992797000,
+  "_modified": 1624017199000,
   "components": "navigation",
   "isLockedBy": null,
   "navigation": [],
@@ -1293,6 +1293,27 @@
           "createMergeRecord": false,
           "uniqueMergeRecords": false,
           "updateTargetDocumentState": ""
+        },
+        {
+          "id": "-kkm4OhThVfEB2",
+          "name": "Update Master List",
+          "onEnter": "",
+          "inStates": [
+            "New",
+            "Saved"
+          ],
+          "mergeAll": true,
+          "_selectId": "EpcP3VL3bVD7zn",
+          "properties": [],
+          "specificId": "",
+          "targetType": "UJns4BZ0dhGyw5:hestia/document-types",
+          "updateState": "Stored",
+          "updateClient": true,
+          "recordChanges": "",
+          "targetTypeName": "Master List Company Profile",
+          "updateToClient": "rsihYJKKDVyaYN",
+          "createMergeRecord": "",
+          "updateTargetDocumentState": true
         }
       ],
       "formAction": [
