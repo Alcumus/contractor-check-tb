@@ -1,5 +1,5 @@
 {
-  "__": "e3NkBAIKL7sC52",
+  "__": "NKUnikGCshRm_x",
   "_id": "_PwCnwt36kDYFu:hestia/document-types",
   "icon": "",
   "name": "DemoCompanyRecord",
@@ -196,10 +196,11 @@
     {
       "id": "7KiZdDrgmYmC58",
       "name": "1",
-      "time": 1624010981004,
+      "time": 1624011314927,
       "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
       "locked": false,
-      "_selectId": "j3YxovseHDZroh"
+      "_selectId": "CQn7R1iY6mfyxE",
+      "parentVersion": ""
     }
   ],
   "webhooks": {
@@ -207,7 +208,7 @@
       "exposeWebhooks": ""
     }
   },
-  "_modified": 1624010982000,
+  "_modified": 1624011315000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -254,6 +255,22 @@
                   "questionLeftPad": "",
                   "questionRightPad": "",
                   "questionSpaceBefore": ""
+                },
+                {
+                  "id": "WUt4q1i-jHoXVB",
+                  "name": "salesforce_id",
+                  "type": "text",
+                  "hints": {},
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "UWnZHZo3w282fh",
+                  "condition": "",
+                  "inputLabel": "",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
                 }
               ]
             }
@@ -271,15 +288,67 @@
           "forms": [
             {
               "id": "F4kXBjZj4lBfgu",
-              "form": "uYsGYKVV3cu5qL"
+              "form": "uYsGYKVV3cu5qL",
+              "readOnly": "",
+              "_selectId": "inlc7rVFEYOx6_"
             }
           ],
           "inline": true,
-          "actions": [],
+          "actions": [
+            {
+              "id": "ftz7vbj_kRfmh4",
+              "blur": "",
+              "icon": "",
+              "color": "#fff",
+              "modal": {
+                "enabled": false
+              },
+              "goBack": "",
+              "caption": "Submit",
+              "command": "setData",
+              "toState": "New",
+              "variant": "text",
+              "_selectId": "bcUcteegLSpXRa",
+              "condition": "",
+              "endOfLine": "",
+              "navigateTo": "",
+              "properties": [],
+              "changeState": true,
+              "backgroundColor": "#03a9f4",
+              "visibleCondition": "",
+              "notificationToast": ""
+            },
+            {
+              "id": "WeE1xCXwiXY1E2",
+              "blur": "",
+              "icon": "",
+              "color": "#fff",
+              "modal": {
+                "enabled": false
+              },
+              "goBack": "",
+              "caption": "Updated",
+              "command": "setData",
+              "toState": "Updated",
+              "variant": "text",
+              "_selectId": "oiHvOe4vXMx9Zj",
+              "condition": "",
+              "endOfLine": "",
+              "navigateTo": "",
+              "properties": [],
+              "changeState": true,
+              "backgroundColor": "#03a9f4",
+              "visibleCondition": "",
+              "notificationToast": ""
+            }
+          ],
+          "storeIn": "",
           "_selectId": "C_CiwaWcWUtngC",
+          "editDemands": [],
           "inputStates": [
             "New"
-          ]
+          ],
+          "visibleDemands": []
         }
       ]
     }
