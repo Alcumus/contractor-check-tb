@@ -1,5 +1,5 @@
 {
-  "__": "LGJgWj0Y23IwMy",
+  "__": "EqyXPlSzpb0EF9",
   "_id": "hgpnsM-GkqdlQD:hestia/document-types",
   "icon": "",
   "name": "WebhookIncoming",
@@ -200,10 +200,10 @@
     {
       "id": "AqPOdaCv2OU_DB",
       "name": "1",
-      "time": 1624012008855,
+      "time": 1624012903228,
       "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
       "locked": false,
-      "_selectId": "tp4wipi8yM69Oo",
+      "_selectId": "YBxjfSMSxYlyHS",
       "parentVersion": ""
     }
   ],
@@ -213,7 +213,7 @@
       "exposeWebhooks": true
     }
   },
-  "_modified": 1624012009000,
+  "_modified": 1624012903000,
   "components": "JSON",
   "navigation": [],
   "_behaviours": {
@@ -323,7 +323,9 @@
           "id": "Hi1P6enwdT4BTQ",
           "name": "Create or update DemoCompanyRecord",
           "onEnter": "",
-          "inStates": "",
+          "inStates": [
+            "New"
+          ],
           "mergeAll": false,
           "_selectId": "9TtAC3TiD0OUxn",
           "properties": [
@@ -352,7 +354,7 @@
           "updateClient": false,
           "recordChanges": "description",
           "targetTypeName": "DemoCompanyRecord",
-          "updateRecordId": "{Id}:demo/company",
+          "updateRecordId": "{Id}",
           "createMergeRecord": false,
           "uniqueMergeRecords": false,
           "updateTargetDocumentState": true
