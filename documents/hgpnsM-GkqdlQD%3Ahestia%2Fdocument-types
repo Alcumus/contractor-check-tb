@@ -1,5 +1,5 @@
 {
-  "__": "xZcNGXp0HIten7",
+  "__": "kaPGYGGXNN5K41",
   "_id": "hgpnsM-GkqdlQD:hestia/document-types",
   "icon": "",
   "name": "WebhookIncoming",
@@ -200,10 +200,10 @@
     {
       "id": "AqPOdaCv2OU_DB",
       "name": "1",
-      "time": 1624011337200,
+      "time": 1624011449263,
       "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
       "locked": false,
-      "_selectId": "SOwuKEV9ZTFhKA",
+      "_selectId": "yl9qjf92m4NtsT",
       "parentVersion": ""
     }
   ],
@@ -213,7 +213,7 @@
       "exposeWebhooks": true
     }
   },
-  "_modified": 1624011337000,
+  "_modified": 1624011449000,
   "components": "JSON",
   "navigation": [],
   "_behaviours": {
@@ -357,7 +357,7 @@
           "updateClient": false,
           "recordChanges": "description",
           "targetTypeName": "DemoCompanyRecord",
-          "updateRecordId": "{Id}:demo/company",
+          "updateRecordId": "{{Id}:demo/company}",
           "createMergeRecord": false,
           "uniqueMergeRecords": false,
           "updateTargetDocumentState": true
