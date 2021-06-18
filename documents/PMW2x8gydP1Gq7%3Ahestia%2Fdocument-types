@@ -1,5 +1,5 @@
 {
-  "__": "8liK1g7P8NJk7m",
+  "__": "q_4_l2sQNo4YVP",
   "_id": "PMW2x8gydP1Gq7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -209,7 +209,7 @@
       "parentVersion": ""
     }
   ],
-  "_modified": 1624009715000,
+  "_modified": 1624009837000,
   "components": "verification,localisation",
   "isLockedBy": null,
   "navigation": [],
@@ -338,10 +338,10 @@
                   "question": "<p>Need Help</p>\n",
                   "_selectId": "VYMIb6OcAmXaOe",
                   "condition": "",
-                  "modalType": "large",
+                  "modalType": "small",
                   "inputLabel": " ",
-                  "iconOffsetX": "2",
-                  "iconOffsetY": "27",
+                  "iconOffsetX": "",
+                  "iconOffsetY": "",
                   "defaultValue": "",
                   "dialogHeader": "This head text can be changed",
                   "questionHeight": "",
