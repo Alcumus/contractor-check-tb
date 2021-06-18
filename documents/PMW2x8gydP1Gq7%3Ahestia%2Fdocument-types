@@ -1,5 +1,5 @@
 {
-  "__": "Y4uN0rt_r27Z1W",
+  "__": "8liK1g7P8NJk7m",
   "_id": "PMW2x8gydP1Gq7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -202,14 +202,14 @@
     {
       "id": "tV6rqmkixtZSUh",
       "name": "1",
-      "time": 1624009417259,
+      "time": 1624009710279,
       "user": "8fa3969a-8f88-46fd-b3bf-6dcb7df5f2b9",
       "locked": false,
-      "_selectId": "HY6fSmFv14oZEk",
+      "_selectId": "EcsJ2yUFjXHtQv",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624009423000,
+  "_modified": 1624009715000,
   "components": "verification,localisation",
   "isLockedBy": null,
   "navigation": [],
@@ -338,10 +338,10 @@
                   "question": "<p>Need Help</p>\n",
                   "_selectId": "VYMIb6OcAmXaOe",
                   "condition": "",
-                  "modalType": "small",
+                  "modalType": "large",
                   "inputLabel": " ",
-                  "iconOffsetX": "",
-                  "iconOffsetY": "",
+                  "iconOffsetX": "2",
+                  "iconOffsetY": "27",
                   "defaultValue": "",
                   "dialogHeader": "This head text can be changed",
                   "questionHeight": "",
