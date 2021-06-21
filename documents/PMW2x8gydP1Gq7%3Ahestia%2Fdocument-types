@@ -1,5 +1,5 @@
 {
-  "__": "DiQGXTsENNGa3y",
+  "__": "arddcqp35nJErR",
   "_id": "PMW2x8gydP1Gq7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -202,14 +202,14 @@
     {
       "id": "tV6rqmkixtZSUh",
       "name": "1",
-      "time": 1624304014627,
+      "time": 1624304599196,
       "user": "7dd7cacc-c5ec-4552-bcbf-24159026bb2a",
       "locked": false,
-      "_selectId": "e-bSTuLX_5IdHb",
+      "_selectId": "ZTEeFcmkpeiilp",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624304587000,
+  "_modified": 1624304647000,
   "components": "verification,localisation",
   "isLockedBy": null,
   "navigation": [],
@@ -7314,7 +7314,7 @@
                   "hints": {},
                   "question": "<p>How long do you agree to the Terms &amp; Conditions for?</p>\n",
                   "_selectId": "LTRDe-XzPZNqfq",
-                  "condition": "",
+                  "condition": "valueNotEquals(\"AgellanTC\", \"Yes\")",
                   "inputLabel": "",
                   "iconOffsetX": "",
                   "iconOffsetY": "",
