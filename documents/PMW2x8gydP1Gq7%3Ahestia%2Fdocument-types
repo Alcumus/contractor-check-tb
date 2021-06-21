@@ -1,5 +1,5 @@
 {
-  "__": "zUnWHVQACfo3bg",
+  "__": "CZhJupju-NB5Hr",
   "_id": "PMW2x8gydP1Gq7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -202,14 +202,14 @@
     {
       "id": "tV6rqmkixtZSUh",
       "name": "1",
-      "time": 1624302315942,
+      "time": 1624303087590,
       "user": "7dd7cacc-c5ec-4552-bcbf-24159026bb2a",
       "locked": false,
-      "_selectId": "ZPlmXVMzDK2Dns",
+      "_selectId": "EyKOF0rMYxaUFa",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624303019000,
+  "_modified": 1624303272000,
   "components": "verification,localisation",
   "isLockedBy": null,
   "navigation": [],
@@ -7277,7 +7277,7 @@
                   "maxWidth": "",
                   "question": "<p>Please describe how you will mitigate the risk of not accepting the Terms &amp; Conditions.</p>\n",
                   "_selectId": "WEZA99SkU72ax8",
-                  "condition": "valueNotEquals(AlleganTC, \"Yes\")",
+                  "condition": "valueNotEquals(\"AlleganTC\", \"Yes\")",
                   "inputLabel": "",
                   "iconOffsetX": "",
                   "iconOffsetY": "",
