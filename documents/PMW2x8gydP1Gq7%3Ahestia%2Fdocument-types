@@ -1,5 +1,5 @@
 {
-  "__": "CENSc2x2eo1LBr",
+  "__": "y_6QXCQEnIpfSf",
   "_id": "PMW2x8gydP1Gq7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -202,14 +202,14 @@
     {
       "id": "tV6rqmkixtZSUh",
       "name": "1",
-      "time": 1624279558801,
+      "time": 1624279761367,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "2HumWVyGpAntfC",
+      "_selectId": "binmAxb0UxPIpt",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624275959000,
+  "_modified": 1624276162000,
   "components": "verification,localisation",
   "isLockedBy": null,
   "navigation": [],
@@ -309,7 +309,7 @@
                   "buttonCaption": "",
                   "referenceType": "UJns4BZ0dhGyw5:hestia/document-types",
                   "createTypeName": "Master List Company Profile",
-                  "documentToLink": "{profile}",
+                  "documentToLink": "{resolveId(profile)}:contractorcheck/masterCompanyProfile",
                   "questionHeight": "",
                   "createIfMissing": false,
                   "questionLeftPad": "",
@@ -31363,5 +31363,5 @@
   "documentBackground": "#f4f4f4",
   "devices-allowed-html": "",
   "isLockedByCurrentUser": false,
-  "linkedMasterListProfile": "undefined"
+  "linkedMasterListProfile": "{resolveId(profile)}:contractorcheck/masterCompanyProfile"
 }
