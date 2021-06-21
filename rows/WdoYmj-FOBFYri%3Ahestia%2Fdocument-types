@@ -263,7 +263,7 @@
     ]
   },
   {
-    "__": "wY94SVz_CkJ9-p",
+    "__": "MdS76XL2gNvz1v",
     "ZIP": "",
     "_id": "1621327241644:companyP/companyP",
     "City": "Toronto",
@@ -349,15 +349,7 @@
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
         "pivotalDate": 1624022448308,
-        "documentCreated": 1624022448308,
-        "t-msTTT8c9WnoZjr": {
-          "id": "O2H0jAsa3TXrxT",
-          "start": 1624022448336,
-          "commence": 1624022448336,
-          "oNPf9wmBHl9ORG": {
-            "commence": 1624022448336
-          }
-        }
+        "documentCreated": 1624022448308
       }
     },
     "_client": "rsihYJKKDVyaYN",
@@ -385,10 +377,10 @@
       "Saskatchewan",
       "Ontario"
     ],
-    "_modified": 1624018848000,
+    "_modified": 1624271672000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
-      "$state": "Approved"
+      "$state": "Assessed"
     },
     "__sourceId": "1621327241644-general:contractorcheck/contractorAnswers",
     "_components": {},
@@ -429,14 +421,14 @@
       "ulG_R7NkaQh6dD:workA/workA"
     ],
     "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-    "_stateChangedAt": 1621327285151,
+    "_stateChangedAt": 1624275288512,
     "headOfficeCountry": "Canada",
     "numberOfEmployees": 59,
     "preferredLanguage": "English",
     "doYouUseContractors": "no"
   },
   {
-    "__": "JZ4mMpjmANv4PR",
+    "__": "cXEHL4jNFa76EK",
     "ZIP": "",
     "_id": "1621330978348:companyP/companyP",
     "City": "",
@@ -518,15 +510,7 @@
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
         "pivotalDate": 1624022185512,
-        "documentCreated": 1624022185512,
-        "t-msTTT8c9WnoZjr": {
-          "id": "PKjbGxX_8dlZFs",
-          "start": 1624022422717,
-          "commence": 1624022422717,
-          "oNPf9wmBHl9ORG": {
-            "commence": 1624022422717
-          }
-        }
+        "documentCreated": 1624022185512
       }
     },
     "_client": "rsihYJKKDVyaYN",
@@ -553,10 +537,10 @@
       "Nunavut",
       "Newfoundland and Labrador"
     ],
-    "_modified": 1624018793000,
+    "_modified": 1624267527000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
-      "$state": "Approved"
+      "$state": "Assessed"
     },
     "__sourceId": "1621330978348-general:contractorcheck/contractorAnswers",
     "_components": {},
@@ -601,7 +585,7 @@
       "KSoRD4ak6jh6RI:workA/workA"
     ],
     "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-    "_stateChangedAt": 1624022422669,
+    "_stateChangedAt": 1624275200505,
     "headOfficeCountry": "",
     "numberOfEmployees": 155,
     "preferredLanguage": "French",
