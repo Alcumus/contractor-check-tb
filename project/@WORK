@@ -1,0 +1,218 @@
+{
+  "__": "ur0jAAbnm3x27w",
+  "_id": "@WORK:hestia/project",
+  "name": "Project",
+  "$valid": true,
+  "_client": "@WORK",
+  "$invalid": false,
+  "_created": 1621422692000,
+  "_deleted": 0,
+  "_modified": 1624270150000,
+  "components": "graph-ql",
+  "_behaviours": {
+    "instances": {
+      "gitSync": [
+        {
+          "id": "aV8boSk1D6q6YG",
+          "name": "Contractor Check",
+          "__init": true,
+          "branch": "mike",
+          "publish": true,
+          "_selectId": "kXt05PM8SXjVtT",
+          "Repository": "Alcumus/contractor-check-tb",
+          "publishThemes": true,
+          "publishTopics": true,
+          "publishProject": true
+        },
+        {
+          "id": "1J8739KZBOtzVQ",
+          "name": "Main Branch",
+          "__init": true,
+          "branch": "main",
+          "publish": "",
+          "_selectId": "ljaT4Mdk06ow3_",
+          "Repository": "Alcumus/contractor-check-tb",
+          "publishThemes": "",
+          "publishTopics": "",
+          "publishProject": ""
+        },
+        {
+          "id": "hVWU8Lx-bizSIx",
+          "name": "Push to QA",
+          "__init": true,
+          "branch": "qa",
+          "publish": true,
+          "_selectId": "cAKu-Z8PSxjbXa",
+          "Repository": "Alcumus/contractor-check-tb",
+          "publishThemes": true,
+          "publishTopics": true,
+          "publishProject": true
+        },
+        {
+          "id": "5ML2zX610pfw3l",
+          "name": "Backup to dave-local branch",
+          "__init": true,
+          "branch": "dave-local",
+          "publish": true,
+          "_selectId": "CTLIfd1qCvTE5K",
+          "Repository": "Alcumus/contractor-check-tb",
+          "publishThemes": true,
+          "publishTopics": true,
+          "publishProject": true
+        }
+      ],
+      "graphQLApi": [
+        {
+          "id": "6g4mciY7jkfOUo",
+          "name": "ccgraphql",
+          "__init": true,
+          "basePath": "/ccgraphql",
+          "_selectId": "yci2Re31GMIyfu",
+          "subscriptionPort": 4001
+        }
+      ],
+      "webhookAPI": [
+        {
+          "id": "HxewVLNY2C3G82",
+          "__init": true,
+          "basePath": "",
+          "_selectId": "6GgOvIKQWNPjFC",
+          "exposeWebhooks": true
+        }
+      ],
+      "sharedSettings": [
+        {
+          "id": "LCPYXJuzIMtqy8",
+          "__init": true,
+          "_selectId": "RLJgex-RQitT44"
+        }
+      ],
+      "salesforceQuery": [
+        {
+          "id": "SyA_2ST33EVExD",
+          "name": "Salesforce import",
+          "query": "SELECT id,name,Contract_End_Date__c  from Account where RecordTypeId='0121N000001hPwVQAU' and demo_contractor__c=false and  contract_end_date__c > 2021-06-13",
+          "__init": true,
+          "endpoint": "https://test.salesforce.com",
+          "password": "Bananas1!IS0sJRS2ZsY7xx0yqJuctxqCt",
+          "username": "mark.gabb@alcumus.com.cctest1",
+          "_selectId": "TeDa6jfd9p8R0s",
+          "description": "Doesnt matter",
+          "documentType": "jD9jg1lpLekww9:hestia/document-types",
+          "documentTypeName": "SalesForceAccounts"
+        }
+      ]
+    },
+    "_state": ""
+  },
+  "_lastModifiedBy": "7360895b-2e38-4601-baf6-16af027bf7ae",
+  "_original": {
+    "__": "ur0jAAbnm3x27w",
+    "_id": "@WORK:hestia/project",
+    "name": "Project",
+    "$valid": true,
+    "_client": "@WORK",
+    "$invalid": false,
+    "_created": 1621422692000,
+    "_deleted": 0,
+    "_modified": 1624270150000,
+    "components": "graph-ql",
+    "_behaviours": {
+      "_state": "",
+      "instances": {
+        "gitSync": [
+          {
+            "id": "aV8boSk1D6q6YG",
+            "name": "Contractor Check",
+            "__init": true,
+            "branch": "mike",
+            "publish": true,
+            "_selectId": "kXt05PM8SXjVtT",
+            "Repository": "Alcumus/contractor-check-tb",
+            "publishThemes": true,
+            "publishTopics": true,
+            "publishProject": true
+          },
+          {
+            "id": "1J8739KZBOtzVQ",
+            "name": "Main Branch",
+            "__init": true,
+            "branch": "main",
+            "publish": "",
+            "_selectId": "ljaT4Mdk06ow3_",
+            "Repository": "Alcumus/contractor-check-tb",
+            "publishThemes": "",
+            "publishTopics": "",
+            "publishProject": ""
+          },
+          {
+            "id": "hVWU8Lx-bizSIx",
+            "name": "Push to QA",
+            "__init": true,
+            "branch": "qa",
+            "publish": true,
+            "_selectId": "cAKu-Z8PSxjbXa",
+            "Repository": "Alcumus/contractor-check-tb",
+            "publishThemes": true,
+            "publishTopics": true,
+            "publishProject": true
+          },
+          {
+            "id": "5ML2zX610pfw3l",
+            "name": "Backup to dave-local branch",
+            "__init": true,
+            "branch": "dave-local",
+            "publish": true,
+            "_selectId": "CTLIfd1qCvTE5K",
+            "Repository": "Alcumus/contractor-check-tb",
+            "publishThemes": true,
+            "publishTopics": true,
+            "publishProject": true
+          }
+        ],
+        "graphQLApi": [
+          {
+            "id": "6g4mciY7jkfOUo",
+            "name": "ccgraphql",
+            "__init": true,
+            "basePath": "/ccgraphql",
+            "_selectId": "yci2Re31GMIyfu",
+            "subscriptionPort": 4001
+          }
+        ],
+        "webhookAPI": [
+          {
+            "id": "HxewVLNY2C3G82",
+            "__init": true,
+            "basePath": "",
+            "_selectId": "6GgOvIKQWNPjFC",
+            "exposeWebhooks": true
+          }
+        ],
+        "sharedSettings": [
+          {
+            "id": "LCPYXJuzIMtqy8",
+            "__init": true,
+            "_selectId": "RLJgex-RQitT44"
+          }
+        ],
+        "salesforceQuery": [
+          {
+            "id": "SyA_2ST33EVExD",
+            "name": "Salesforce import",
+            "query": "SELECT id,name,Contract_End_Date__c  from Account where RecordTypeId='0121N000001hPwVQAU' and demo_contractor__c=false and  contract_end_date__c > 2021-06-13",
+            "__init": true,
+            "endpoint": "https://test.salesforce.com",
+            "password": "Bananas1!IS0sJRS2ZsY7xx0yqJuctxqCt",
+            "username": "mark.gabb@alcumus.com.cctest1",
+            "_selectId": "TeDa6jfd9p8R0s",
+            "description": "Doesnt matter",
+            "documentType": "jD9jg1lpLekww9:hestia/document-types",
+            "documentTypeName": "SalesForceAccounts"
+          }
+        ]
+      }
+    },
+    "_lastModifiedBy": "7360895b-2e38-4601-baf6-16af027bf7ae"
+  }
+}
