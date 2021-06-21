@@ -1,5 +1,5 @@
 {
-  "__": "KQsEx4B8j2fXQK",
+  "__": "pfe0R9hu3BntOF",
   "_id": "PMW2x8gydP1Gq7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -209,7 +209,7 @@
       "parentVersion": ""
     }
   ],
-  "_modified": 1624010477000,
+  "_modified": 1624302016000,
   "components": "verification,localisation",
   "isLockedBy": null,
   "navigation": [],
@@ -7082,7 +7082,7 @@
         },
         {
           "id": "agellanCapitalPartnersInc",
-          "name": "Agellan Capital Partners Inc",
+          "name": "Agellan Capital Partners",
           "sections": [
             {
               "id": "Main",
@@ -7116,9 +7116,15 @@
                 },
                 {
                   "id": "a1S1N000005WjmNFile",
+                  "icon": "",
                   "name": "agellanCapitalPartnersIncWcbEvidence",
                   "type": "file",
+                  "color": "",
                   "hints": {},
+                  "modal": {
+                    "enabled": false
+                  },
+                  "variant": "text",
                   "question": "<small>Evidence</small>",
                   "_selectId": "C1OCdxowR5rfpb",
                   "condition": "",
@@ -7133,9 +7139,23 @@
                     "xlsx"
                   ],
                   "inputLabel": "Evidence",
+                  "iconOffsetX": "",
+                  "iconOffsetY": "",
                   "maximumSize": 10000000,
+                  "dialogHeader": "Help",
                   "maximumFiles": 10,
                   "minimumFiles": 0,
+                  "buttonCaption": "",
+                  "disableDelete": "",
+                  "uploadCaption": "Uploading & Virus Scanning:",
+                  "disablePreview": "",
+                  "offlineCapable": "",
+                  "questionHeight": "",
+                  "backgroundColor": "",
+                  "disableDownload": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "_autoCheckOptions": [],
                   "questionSpaceBefore": -1
                 },
                 {
@@ -7154,9 +7174,15 @@
                 },
                 {
                   "id": "a1S1N000005WjmPFile",
+                  "icon": "",
                   "name": "agellanCapitalPartnersIncInsuranceEvidence",
                   "type": "file",
+                  "color": "",
                   "hints": {},
+                  "modal": {
+                    "enabled": false
+                  },
+                  "variant": "text",
                   "question": "<small>Evidence</small>",
                   "_selectId": "B0702rT-toxhZK",
                   "condition": "",
@@ -7171,10 +7197,54 @@
                     "xlsx"
                   ],
                   "inputLabel": "Evidence",
+                  "iconOffsetX": "",
+                  "iconOffsetY": "",
                   "maximumSize": 10000000,
+                  "dialogHeader": "Help",
                   "maximumFiles": 10,
                   "minimumFiles": 0,
+                  "buttonCaption": "",
+                  "disableDelete": "",
+                  "uploadCaption": "Uploading & Virus Scanning:",
+                  "disablePreview": "",
+                  "offlineCapable": "",
+                  "questionHeight": "",
+                  "backgroundColor": "",
+                  "disableDownload": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "_autoCheckOptions": [],
                   "questionSpaceBefore": -1
+                },
+                {
+                  "id": "Fayogh6vIGBozE",
+                  "name": "AgellanTC",
+                  "type": "boolean",
+                  "hints": {},
+                  "choices": [
+                    {
+                      "label": "Yes",
+                      "value": "yes"
+                    },
+                    {
+                      "label": "No",
+                      "value": "no"
+                    }
+                  ],
+                  "question": "<p>Do you agree to Agellan's Terms and Condition?</p>\n",
+                  "_selectId": "qOLcR7WVFzlQ2F",
+                  "condition": "",
+                  "iconOffsetX": "",
+                  "iconOffsetY": "",
+                  "allowNullify": "",
+                  "dialogHeader": "Help",
+                  "questionHeight": "",
+                  "trueInputLabel": "",
+                  "falseInputLabel": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": "",
+                  "selectedDefaultValue": "-1"
                 }
               ],
               "description": ""
@@ -23156,9 +23226,27 @@
       "auditPerQuestionBehaviour": [
         {
           "id": "d5DXnVTfeyQggt",
+          "icon": "MdAddAPhoto",
           "__init": true,
           "_selectId": "9FuSIszUF6x78V",
+          "actionType": "",
+          "requireMode": "all",
+          "viewableType": "",
+          "defaultSections": "Financial Management=70,Business Professional Standing=40,Environmental Management=10,Quality Management=23,People=31,Health And Safety=15,Risk Management=60",
+          "defaultScoreOptions": "",
+          "defaultAssessmentScore": "",
+          "ignoreForQuestionTypes": "",
           "alcumusVerificationOptions": {
+            "Fayogh6vIGBozE": {
+              "viewTypes": "",
+              "isAuditable": true,
+              "actionsTypes": "",
+              "isYesNowDisplay": true,
+              "questionScoreSteps": "1",
+              "questionScoreOffset": "0",
+              "questionValidScores": "",
+              "questionMaximumScore": null
+            },
             "a1S1N000005WjLxFile": {
               "viewTypes": "",
               "isAuditable": false,
@@ -31299,7 +31387,8 @@
               "questionValidScores": "0,1",
               "questionMaximumScore": null
             }
-          }
+          },
+          "defaultSupplierStateOnSubmit": "Verified"
         }
       ],
       "helpTextPerQuestionBehaviour": [
@@ -31330,7 +31419,7 @@
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "8fa3969a-8f88-46fd-b3bf-6dcb7df5f2b9",
+  "_lastModifiedBy": "7dd7cacc-c5ec-4552-bcbf-24159026bb2a",
   "defaultActivity": "xSkC0pR6hZ1H2U",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
