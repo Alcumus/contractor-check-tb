@@ -1,5 +1,5 @@
 {
-  "__": "0HcyRBrVbUWkAs",
+  "__": "IBmzQZnXjjPcEu",
   "_id": "PMW2x8gydP1Gq7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -202,14 +202,14 @@
     {
       "id": "tV6rqmkixtZSUh",
       "name": "1",
-      "time": 1624294732853,
+      "time": 1624295029348,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "ItQg0f2Ac402b_",
+      "_selectId": "NMikdo1dZQAgZ9",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624291133000,
+  "_modified": 1624291430000,
   "components": "verification,localisation,hint-text",
   "isLockedBy": null,
   "navigation": [],
@@ -342,6 +342,7 @@
                   "id": "a1S3m000008DkPgCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.companySize\", \"Small Business\")",
                   "elevation": 0
                 },
                 {
@@ -396,6 +397,7 @@
                   "id": "a1S3m000008CkMOCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.companySize\", \"Large Business\")",
                   "elevation": 0
                 },
                 {
@@ -450,6 +452,7 @@
                   "id": "a1S3m000006rbu4Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.companySize\", \"Large Business\")",
                   "elevation": 0
                 },
                 {
@@ -504,6 +507,7 @@
                   "id": "a1S3m000008jxUOCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.companySize\", \"Small Business\")",
                   "elevation": 0
                 },
                 {
@@ -558,6 +562,7 @@
                   "id": "a1S3m000008jxUJCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.companySize\", \"Large Business\")",
                   "elevation": 0
                 },
                 {
@@ -612,6 +617,7 @@
                   "id": "a1S3m000008jxU9Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.companySize\", \"Small Business\")",
                   "elevation": 0
                 },
                 {
@@ -666,6 +672,7 @@
                   "id": "a1S3m000008jxUECard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.companySize\", \"Large Business\")",
                   "elevation": 0
                 },
                 {
@@ -720,6 +727,7 @@
                   "id": "a1S3m000008jxVCCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.companySize\", \"Sole Proprietor\")",
                   "elevation": 0
                 },
                 {
@@ -774,6 +782,7 @@
                   "id": "a1S3m000008jxV2Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.companySize\", \"Large Business\")",
                   "elevation": 0
                 },
                 {
@@ -828,6 +837,7 @@
                   "id": "a1S3m000008jxV7Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.companySize\", \"Small Business\")",
                   "elevation": 0
                 },
                 {
@@ -882,6 +892,7 @@
                   "id": "a1S3m000008jxUsCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.companySize\", \"Large Business\")",
                   "elevation": 0
                 },
                 {
@@ -936,6 +947,7 @@
                   "id": "a1S3m000008jxVMCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.companySize\", \"Large Business\")",
                   "elevation": 0
                 },
                 {
@@ -990,6 +1002,7 @@
                   "id": "a1S3m000008jxVHCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.companySize\", \"Small Business\")",
                   "elevation": 0
                 },
                 {
@@ -1044,6 +1057,7 @@
                   "id": "a1S3m000008jxUxCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.companySize\", \"Small Business\")",
                   "elevation": 0
                 },
                 {
@@ -1098,6 +1112,7 @@
                   "id": "a1S3m000008k4JqCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.province\", \"Quebec\" )",
                   "elevation": 0
                 },
                 {
@@ -1152,6 +1167,7 @@
                   "id": "a1S1N000005WjLxCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.companySize\", \"Small Business\")",
                   "elevation": 0
                 },
                 {
@@ -1206,6 +1222,7 @@
                   "id": "a1S1N000005WjLyCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.companySize\", \"Large Business\")",
                   "elevation": 0
                 },
                 {
@@ -1260,6 +1277,7 @@
                   "id": "a1S1N000005WjM0Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.companySize\", \"Small Business\")",
                   "elevation": 0
                 },
                 {
@@ -1314,6 +1332,7 @@
                   "id": "a1S1N000005WjM1Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.companySize\", \"Sole Proprietor\")",
                   "elevation": 0
                 },
                 {
@@ -1368,6 +1387,7 @@
                   "id": "a1S1N000005WjM2Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.companySize\", \"Small Business\")",
                   "elevation": 0
                 },
                 {
@@ -1422,6 +1442,7 @@
                   "id": "a1S1N000005WjM3Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.companySize\", \"Small Business\")",
                   "elevation": 0
                 },
                 {
@@ -1476,6 +1497,7 @@
                   "id": "a1S1N000005WjM4Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.companySize\", \"Small Business\")",
                   "elevation": 0
                 },
                 {
@@ -1530,6 +1552,7 @@
                   "id": "a1S1N000005WjM5Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.companySize\", \"Small Business\")",
                   "elevation": 0
                 },
                 {
@@ -1584,6 +1607,7 @@
                   "id": "a1S1N000005WjM6Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.province\", \"Ontario\" )",
                   "elevation": 0
                 },
                 {
@@ -1638,6 +1662,7 @@
                   "id": "a1S1N000005WjM7Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.companySize\", \"Large Business\")",
                   "elevation": 0
                 },
                 {
@@ -1692,6 +1717,7 @@
                   "id": "a1S1N000005WjM8Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.companySize\", \"Large Business\")",
                   "elevation": 0
                 },
                 {
@@ -1746,6 +1772,7 @@
                   "id": "a1S1N000005WjM9Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.companySize\", \"Large Business\")",
                   "elevation": 0
                 },
                 {
@@ -1800,6 +1827,7 @@
                   "id": "a1S1N000005WjMACard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.companySize\", \"Large Business\")",
                   "elevation": 0
                 },
                 {
@@ -1854,6 +1882,7 @@
                   "id": "a1S1N000005WjMBCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\")",
                   "elevation": 0
                 },
                 {
@@ -1908,6 +1937,7 @@
                   "id": "a1S1N000005WjMECard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.companySize\", \"Large Business\")",
                   "elevation": 0
                 },
                 {
@@ -1962,6 +1992,7 @@
                   "id": "a1S1N000005WjMGCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.companySize\", \"Large Business\")",
                   "elevation": 0
                 },
                 {
@@ -2016,6 +2047,7 @@
                   "id": "a1S1N000005WjMHCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -2070,6 +2102,7 @@
                   "id": "a1S1N000008BzzNCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.companySize\", \"Small Business\")",
                   "elevation": 0
                 },
                 {
@@ -2124,6 +2157,7 @@
                   "id": "a1S3m000008CpJJCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Commercial Diving\" )",
                   "elevation": 0
                 },
                 {
@@ -2178,6 +2212,7 @@
                   "id": "a1S3m000008CpJiCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Commercial Diving\" )",
                   "elevation": 0
                 },
                 {
@@ -2232,6 +2267,7 @@
                   "id": "a1S3m000008CpJnCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Commercial Diving\" )",
                   "elevation": 0
                 },
                 {
@@ -2286,6 +2322,7 @@
                   "id": "a1S3m000008CpIVCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Commercial Diving\" )",
                   "elevation": 0
                 },
                 {
@@ -2340,6 +2377,7 @@
                   "id": "a1S3m000008CpJOCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.workActivity\", \"Commercial Diving\" )",
                   "elevation": 0
                 },
                 {
@@ -2394,6 +2432,7 @@
                   "id": "a1S3m000008CpJdCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Commercial Diving\" )",
                   "elevation": 0
                 },
                 {
@@ -2448,6 +2487,7 @@
                   "id": "a1S3m000008CpJsCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.workActivity\", \"Commercial Diving\" )",
                   "elevation": 0
                 },
                 {
@@ -2502,6 +2542,7 @@
                   "id": "a1S3m000008jxkUCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.workActivity\", \"Architect\" )",
                   "elevation": 0
                 },
                 {
@@ -2556,6 +2597,7 @@
                   "id": "a1S3m000008jxkFCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.workActivity\", \"Air Conditioning\",\"Refrigeration Systems - Installation, Commissioning, Maintenance\" )",
                   "elevation": 0
                 },
                 {
@@ -2610,6 +2652,7 @@
                   "id": "a1S3m000008jxkKCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.workActivity\", \"Architect\" )",
                   "elevation": 0
                 },
                 {
@@ -2664,6 +2707,7 @@
                   "id": "a1S3m000008jxlSCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.workActivity\", \"Crane & Hoist - Repair, Maintenance, Inspection\" )",
                   "elevation": 0
                 },
                 {
@@ -2718,6 +2762,7 @@
                   "id": "a1S3m000006rheqCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.workActivity\", \"Structural Steel - fabrication, installation\" )",
                   "elevation": 0
                 },
                 {
@@ -2772,6 +2817,7 @@
                   "id": "a1S3m000008DiUsCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Crane & Hoist - Repair, Maintenance, Inspection\" )",
                   "elevation": 0
                 },
                 {
@@ -2826,6 +2872,7 @@
                   "id": "a1S3m000008Dj7dCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.workActivity\", \"Chemical Shipping and Handling\" )",
                   "elevation": 0
                 },
                 {
@@ -2880,6 +2927,7 @@
                   "id": "a1S3m000008jxlTCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.workActivity\", \"Commercial Diving\" )",
                   "elevation": 0
                 },
                 {
@@ -2934,6 +2982,7 @@
                   "id": "a1S3m000008jxlXCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.workActivity\", \"Commercial Diving\" )",
                   "elevation": 0
                 },
                 {
@@ -2988,6 +3037,7 @@
                   "id": "a1S3m000008jxlcCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.workActivity\", \"Commercial Diving\" )",
                   "elevation": 0
                 },
                 {
@@ -3042,6 +3092,7 @@
                   "id": "a1S3m000008Dq2CCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.workActivity\", \"Commercial Diving\" )",
                   "elevation": 0
                 },
                 {
@@ -3096,6 +3147,7 @@
                   "id": "a1S3m000008DxsDCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Deep (Underground) Utility Installation\",\"Drains, Sewers and Mains - Cleaning, Inspection\",\"Excavation & Trenching\",\"Stormwater System Management\",\"Tank Cleaning/Fuel Polishing\",\"Utility Locates\",\"Vacuum Truck Operation\",\"Water Treatment/Tanks\" )",
                   "elevation": 0
                 },
                 {
@@ -3150,6 +3202,7 @@
                   "id": "a1S3m000006rbqHCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.workActivity\", \"Civil Engineer\",\"Electrical Engineer\",\"Mechanical Engineer\",\"Structural Engineer\" )",
                   "elevation": 0
                 },
                 {
@@ -3204,6 +3257,7 @@
                   "id": "a1S3m000006rbqICard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.workActivity\", \"Civil Engineer\",\"Electrical Engineer\",\"Mechanical Engineer\",\"Structural Engineer\" )",
                   "elevation": 0
                 },
                 {
@@ -3258,6 +3312,7 @@
                   "id": "a1S3m000008jyeQCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.workActivity\", \"Roofing (Industrial)\" )",
                   "elevation": 0
                 },
                 {
@@ -3312,6 +3367,7 @@
                   "id": "a1S3m000008jyeKCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.workActivity\", \"Pressure Systems and Boilers - Installation, Maintenance\" )",
                   "elevation": 0
                 },
                 {
@@ -3366,6 +3422,7 @@
                   "id": "a1S3m000008jydvCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.workActivity\", \"Locksmith\" )",
                   "elevation": 0
                 },
                 {
@@ -3420,6 +3477,7 @@
                   "id": "a1S3m000008jyetCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.workActivity\", \"Structural Steel - fabrication, installation\" )",
                   "elevation": 0
                 },
                 {
@@ -3474,6 +3532,7 @@
                   "id": "a1S3m000008jye0Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.workActivity\", \"Locksmith\" )",
                   "elevation": 0
                 },
                 {
@@ -3528,6 +3587,7 @@
                   "id": "a1S3m000008jye1Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.workActivity\", \"Substation - Installation, Service, Maintenance, Repairs\" )",
                   "elevation": 0
                 },
                 {
@@ -3582,6 +3642,7 @@
                   "id": "a1S3m000008jye2Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.workActivity\", \"Pressure Vessel and Boiler Inspector\" )",
                   "elevation": 0
                 },
                 {
@@ -3636,6 +3697,7 @@
                   "id": "a1S3m000008jye5Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.workActivity\", \"Mobile Equipment - Repair, Maintenance, Inspection\" )",
                   "elevation": 0
                 },
                 {
@@ -3690,6 +3752,7 @@
                   "id": "a1S3m000008jyeZCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.workActivity\", \"Air Quality\",\"Architectural Design Services\",\"Building Envelope Consultants/Testers\",\"Building Surveyor\",\"Computer Consulting Services\",\"Environmental Consulting\",\"Occupational Health & Safety Consulting\",\"Waste Management Consulting\" )",
                   "elevation": 0
                 },
                 {
@@ -3744,6 +3807,7 @@
                   "id": "a1S3m000008jyeoCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.workActivity\", \"Armoured Car Services\",\"Private Investigator\",\"Security and Protective Services\" )",
                   "elevation": 0
                 },
                 {
@@ -3798,6 +3862,7 @@
                   "id": "a1S3m000008jyepCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.workActivity\", \"Steamfitter\" )",
                   "elevation": 0
                 },
                 {
@@ -3852,6 +3917,7 @@
                   "id": "a1S3m000008jyeFCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.workActivity\", \"Powerline - Construction, Maintenance, Repair\" )",
                   "elevation": 0
                 },
                 {
@@ -3906,6 +3972,7 @@
                   "id": "a1S3m000008jyeeCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.workActivity\", \"Security Alarm Systems\" )",
                   "elevation": 0
                 },
                 {
@@ -3960,6 +4027,7 @@
                   "id": "a1S3m000008jyeACard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.workActivity\", \"Plumbing\",\"Plumbing - Pipe Lining\" )",
                   "elevation": 0
                 },
                 {
@@ -4014,6 +4082,7 @@
                   "id": "a1S3m000008jyePCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.workActivity\", \"Civil Engineer\",\"Electrical Engineer\",\"Mechanical Engineer\",\"Structural Engineer\" )",
                   "elevation": 0
                 },
                 {
@@ -4068,6 +4137,7 @@
                   "id": "a1S3m000008jyeUCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.workActivity\", \"Civil Engineer\",\"Electrical Engineer\",\"Mechanical Engineer\",\"Structural Engineer\" )",
                   "elevation": 0
                 },
                 {
@@ -4122,6 +4192,7 @@
                   "id": "a1S3m000008jyejCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.workActivity\", \"Armoured Car Services\",\"Private Investigator\",\"Security and Protective Services\" )",
                   "elevation": 0
                 },
                 {
@@ -4176,6 +4247,7 @@
                   "id": "a1S3m000008jyeyCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.workActivity\", \"Air Conditioning\",\"Aluminum Siding, Gutter, Eaves Troughs - Supply, Installation, Maintenance\",\"Arborist/Tree Services\",\"Asbestos Removal (Class I/High Risk)\",\"Asbestos Removal (Class II, III & IV / Moderate - Low Risk)\",\"Asbestos Removal (Type 1 & 2/Low-Moderate Risk)\",\"Asbestos Removal (Type 3/High Risk)\",\"Asbestos Surveying\",\"Building Automation\",\"Building Envelope Consultants/Testers\",\"CCTV - Installation, Maintenance\",\"Carpentry\",\"Christmas Decorations -Design, Installation\",\"Commercial and Industrial Caulking - Application, Repair\",\"Commercial/Industrial Fans - Installation, Maintenance\",\"Composite Metal Panel - Installation, Maintenance\",\"Concrete Demolition - Cutting,Coring,Sanding,Hammering\",\"Concrete Work\",\"Cooling Tower Maintenance\",\"Crane & Hoist - Repair, Maintenance, Inspection\",\"Crane Operation\",\"Drywall, Ceilings and Partitions\",\"Electric Solar Panel Installation\",\"Electrical Work - Installation, Maintenance(below 600V)\",\"Elevator/Escalator - Installation, Maintenance\",\"Emergency Lighting\",\"Fire Alarm - Installation, Maintenance\",\"Fire Protection Equipment - Supply, Maintenance, Testing\",\"Fire Sprinkler Systems - Installation, Maintenance\",\"Fire Stop Application\",\"Fuel Systems - Installation, Maintenance, Testing\",\"Gas Fitter\",\"General Building Repairs (Non-Trade)\",\"General, Principal, Main Contractor\",\"Generator - Installation, Commissioning, Maintenance\",\"Glazing\",\"Graffiti Removal\",\"Heating\",\"Industrial Doors and Roller Shutters\",\"Instrumentation - Supply, Installation, Maintenance, Testing, Calibration\",\"Insulation Installation\",\"Kitchen Exhaust Ventilation Cleaning\",\"Leak Sealing, Detection, Repair\",\"Lighting Maintenance (non-trade)\",\"Lightning Protection\",\"Manufacturing Equipment - Supplier, Service, Repair\",\"Marine Construction\",\"Masonry\",\"Metal Decking, Cladding - Supply, Installation\",\"Metal Works\",\"Metal/Marble/Granite/Tile and Grout Restoration\",\"Mill work\",\"Millwright\",\"Mobile Equipment - Repair, Maintenance, Inspection\",\"Noise and Vibration Testing\",\"Non-structural Demolition\",\"Occupational Health & Safety Consulting\",\"P.A. Systems - Installation, Maintenance\",\"Painting and Decorating\",\"Plumbing\",\"Pressure Systems and Boilers - Installation, Maintenance\",\"Pressure Vessel and Boiler Inspector\",\"Promotional Events\",\"Refrigeration Systems - Installation, Commissioning, Maintenance\",\"Roof Anchor - Installation, Maintenance\",\"Roof and Safety Anchor Inspections\",\"Roofing (Industrial)\",\"Roofing (Residential)\",\"Satellite Dish - Installation, Maintenance\",\"Scaffolding Erection\",\"Screen Installation\",\"Security Alarm Systems\",\"Security Folding Grille - Installation, Maintenance\",\"Siding, Eaves Troughs, Soffit and Fascia - Installation, Repair\",\"Signs and Displays - Installation, Application\",\"Skylights Installation\",\"Spray Insulation\",\"Steamfitter\",\"Steeplejack\",\"Street Lighting\",\"Structural Demolition\",\"Structural Engineer\",\"Structural Steel - fabrication, installation\",\"Swing Stage Rental - Installation, Maintenance\",\"Telecommunications\",\"Testing, Adjusting and Balancing for HVAC systems\",\"Theatre Screens - Installation\",\"Ventilation & Ductwork - Installation, Maintenance\",\"Waterproofing\",\"Welding\",\"Wildlife Control\",\"Wind, Fire, Water Disaster Cleanup and Restoration\",\"Window Cleaning from Heights\",\"Window and Door Installation\" )",
                   "elevation": 0
                 },
                 {
@@ -4230,6 +4302,7 @@
                   "id": "a1S3m000008jyf3Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.workActivity\", \"Security Alarm Systems\" )",
                   "elevation": 0
                 },
                 {
@@ -4284,6 +4357,7 @@
                   "id": "a1S3m000008jyf4Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.workActivity\", \"Backflow Prevention Devices - Testing, Repair\" )",
                   "elevation": 0
                 },
                 {
@@ -4338,6 +4412,7 @@
                   "id": "a1S3m000008jyekCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.workActivity\", \"Chemical Shipping and Handling\" )",
                   "elevation": 0
                 },
                 {
@@ -4392,6 +4467,7 @@
                   "id": "a1S3m000008jydqCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.workActivity\", \"Land Surveyor\" )",
                   "elevation": 0
                 },
                 {
@@ -4446,6 +4522,7 @@
                   "id": "a1S3m000008jydbCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.workActivity\", \"Gas Fitter\" )",
                   "elevation": 0
                 },
                 {
@@ -4500,6 +4577,7 @@
                   "id": "a1S3m000008jydMCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.workActivity\", \"Electrical Heating Systems - Installation, Maintenance\",\"Electrical Work - Installation, Maintenance(below 600V)\",\"High Voltage Electrical Work (above 600V)\",\"Substation - Installation, Service, Maintenance, Repairs\",\"Transformer and Vault Inspections\" )",
                   "elevation": 0
                 },
                 {
@@ -4554,6 +4632,7 @@
                   "id": "a1S3m000008jydRCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.workActivity\", \"Elevator/Escalator - Installation, Maintenance\" )",
                   "elevation": 0
                 },
                 {
@@ -4608,6 +4687,7 @@
                   "id": "a1S3m000008jydHCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.workActivity\", \"Electrical Work - Installation, Maintenance(below 600V)\",\"High Voltage Electrical Work (above 600V)\",\"Substation - Installation, Service, Maintenance, Repairs\",\"Transformer and Vault Inspections\" )",
                   "elevation": 0
                 },
                 {
@@ -4662,6 +4742,7 @@
                   "id": "a1S3m000008jydWCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.workActivity\", \"Fire Sprinkler Systems - Installation, Maintenance\" )",
                   "elevation": 0
                 },
                 {
@@ -4716,6 +4797,7 @@
                   "id": "a1S3m000008jydSCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.workActivity\", \"Heating\",\"Radiant heating systems - Installation, Maintenance\" )",
                   "elevation": 0
                 },
                 {
@@ -4770,6 +4852,7 @@
                   "id": "a1S1N000005WjR8Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Pest Control\",\"Vermin Control\" )",
                   "elevation": 0
                 },
                 {
@@ -4824,6 +4907,7 @@
                   "id": "a1S1N000005WjRBCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.workActivity\", \"Air Conditioning\",\"Aluminum Siding, Gutter, Eaves Troughs - Supply, Installation, Maintenance\",\"Arborist/Tree Services\",\"Asbestos Removal (Type 1 & 2/Low-Moderate Risk)\",\"Asbestos Removal (Type 3/High Risk)\",\"Asbestos Surveying\",\"Building Automation\",\"Building Envelope Consultants/Testers\",\"CCTV - Installation, Maintenance\",\"Carpentry\",\"Christmas Decorations -Design, Installation\",\"Commercial and Industrial Caulking - Application, Repair\",\"Commercial/Industrial Fans - Installation, Maintenance\",\"Composite Metal Panel - Installation, Maintenance\",\"Concrete Demolition - Cutting,Coring,Sanding,Hammering\",\"Concrete Work\",\"Cooling Tower Maintenance\",\"Crane & Hoist - Repair, Maintenance, Inspection\",\"Crane Operation\",\"Drywall, Ceilings and Partitions\",\"Electric Solar Panel Installation\",\"Electrical Work - Installation, Maintenance(below 600V)\",\"Elevator/Escalator - Installation, Maintenance\",\"Emergency Lighting\",\"Fire Alarm - Installation, Maintenance\",\"Fire Protection Equipment - Supply, Maintenance, Testing\",\"Fire Sprinkler Systems - Installation, Maintenance\",\"Fire Stop Application\",\"Fuel Systems - Installation, Maintenance, Testing\",\"Gas Fitter\",\"General Building Repairs (Non-Trade)\",\"General, Principal, Main Contractor\",\"Generator - Installation, Commissioning, Maintenance\",\"Glazing\",\"Graffiti Removal\",\"Heating\",\"Industrial Doors and Roller Shutters\",\"Instrumentation - Supply, Installation, Maintenance, Testing, Calibration\",\"Insulation Installation\",\"Kitchen Exhaust Ventilation Cleaning\",\"Leak Sealing, Detection, Repair\",\"Lighting Maintenance (non-trade)\",\"Lightning Protection\",\"Manufacturing Equipment - Supplier, Service, Repair\",\"Marine Construction\",\"Masonry\",\"Mechanical Insulation\",\"Metal Decking, Cladding - Supply, Installation\",\"Metal Works\",\"Metal/Marble/Granite/Tile and Grout Restoration\",\"Mill work\",\"Millwright\",\"Mobile Equipment - Repair, Maintenance, Inspection\",\"Noise and Vibration Testing\",\"Non Destructive Testing (NDT) Services\",\"Non-structural Demolition\",\"Occupational Health & Safety Consulting\",\"P.A. Systems - Installation, Maintenance\",\"Painting and Decorating\",\"Plumbing\",\"Pressure Systems and Boilers - Installation, Maintenance\",\"Pressure Vessel and Boiler Inspector\",\"Promotional Events\",\"Refrigeration Systems - Installation, Commissioning, Maintenance\",\"Roof Anchor - Installation, Maintenance\",\"Roof and Safety Anchor Inspections\",\"Roofing (Industrial)\",\"Roofing (Residential)\",\"Satellite Dish - Installation, Maintenance\",\"Scaffolding Erection\",\"Screen Installation\",\"Security Alarm Systems\",\"Security Folding Grille - Installation, Maintenance\",\"Siding, Eaves Troughs, Soffit and Fascia - Installation, Repair\",\"Signs and Displays - Installation, Application\",\"Skylights Installation\",\"Spray Insulation\",\"Steamfitter\",\"Steeplejack\",\"Street Lighting\",\"Structural Demolition\",\"Structural Engineer\",\"Structural Steel - fabrication, installation\",\"Swing Stage Rental - Installation, Maintenance\",\"Telecommunications\",\"Testing, Adjusting and Balancing for HVAC systems\",\"Theatre Screens - Installation\",\"Ventilation & Ductwork - Installation, Maintenance\",\"Waterproofing\",\"Welding\",\"Wildlife Control\",\"Wind, Fire, Water Disaster Cleanup and Restoration\",\"Window Cleaning from Heights\",\"Window and Door Installation\" )",
                   "elevation": 0
                 },
                 {
@@ -4878,6 +4962,7 @@
                   "id": "a1S1N000005WjRDCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Access Solutions - Roadways, Bridges, Rig Mats\",\"Air Conditioning\",\"Composite Metal Panel - Installation, Maintenance\",\"Crane Operation\",\"Elevator/Escalator - Installation, Maintenance\",\"GeoStabilization\",\"Marine Construction\",\"Metal Decking, Cladding - Supply, Installation\",\"Overhead & Underground Communication Systems - Installation, Maintenance\",\"Roofing (Industrial)\",\"Roofing (Residential)\",\"Structural Steel - fabrication, installation\" )",
                   "elevation": 0
                 },
                 {
@@ -4932,6 +5017,7 @@
                   "id": "a1S1N000005WjRGCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Access Solutions - Roadways, Bridges, Rig Mats\",\"Arborist/Tree Services\",\"Deep (Underground) Utility Installation\",\"Parking Lot Marking\",\"Paving\",\"Road Resurfacing/Road Marking\",\"Signs and Displays - Installation, Application\",\"Street Lighting\",\"Traffic Control\",\"Window Cleaning from Heights\" )",
                   "elevation": 0
                 },
                 {
@@ -4986,6 +5072,7 @@
                   "id": "a1S1N000005WjRHCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Access Solutions - Roadways, Bridges, Rig Mats\",\"Arborist/Tree Services\",\"Commercial Fencing - Installation, Maintenance, Repair\",\"Concrete Demolition - Cutting,Coring,Sanding,Hammering\",\"Decks and Fences\",\"Deep (Underground) Utility Installation\",\"Excavation & Trenching\",\"Fuel Systems - Installation, Maintenance, Testing\",\"Irrigation\",\"Landscaping\",\"Lawn Structures - Design, Installation\",\"Piling - Driving, Screwing\",\"Street Lighting\",\"Structural Demolition\" )",
                   "elevation": 0
                 },
                 {
@@ -5040,6 +5127,7 @@
                   "id": "a1S1N000005WjRICard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.workActivity\", \"Fire Sprinkler Systems - Installation, Maintenance\" )",
                   "elevation": 0
                 },
                 {
@@ -5094,6 +5182,7 @@
                   "id": "a1S1N000005WjRJCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Janitor & Caretaker Services\",\"Odour Control Services\",\"Pest Control\",\"Portable Sanitary Services - Supply, Service\",\"Pressure Systems and Boilers - Installation, Maintenance\",\"Security and Protective Services\",\"Steeplejack\",\"Vermin Control\",\"Washroom Hygiene Service\",\"Waste Management - General Waste and Recycles\",\"Waste Management - Hazardous, Industrial, Medical\",\"Wildlife Control\" )",
                   "elevation": 0
                 },
                 {
@@ -5148,6 +5237,7 @@
                   "id": "a1S1N000005WjRKCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Asbestos Removal (Class I/High Risk)\",\"Asbestos Removal (Class II, III & IV / Moderate - Low Risk)\",\"Asbestos Removal (Type 1 & 2/Low-Moderate Risk)\",\"Asbestos Removal (Type 3/High Risk)\",\"Chemical Shipping and Handling\",\"Food Service Equipment - Installation, Maintenance\",\"Fuel Supplier\",\"Fuel Systems - Installation, Maintenance, Testing\",\"Generator - Installation, Commissioning, Maintenance\",\"Manufacturing Equipment - Supplier, Service, Repair\",\"Motor Repair and Replacement\",\"Swimming Pool Treatment & Maintenance\" )",
                   "elevation": 0
                 },
                 {
@@ -5202,6 +5292,7 @@
                   "id": "a1S1N000005WjRLCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Concrete Demolition - Cutting,Coring,Sanding,Hammering\",\"Concrete Work\",\"Non-structural Demolition\",\"Structural Demolition\" )",
                   "elevation": 0
                 },
                 {
@@ -5256,6 +5347,7 @@
                   "id": "a1S1N000005WjRNCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Fall Protection Equipment - Design, Installation\" )",
                   "elevation": 0
                 },
                 {
@@ -5310,6 +5402,7 @@
                   "id": "a1S1N000005WjROCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Locksmith\" ) AND valueEquals(\"profile.province\", \"Alberta\",\"British Columbia\",\"Quebec\" )",
                   "elevation": 0
                 },
                 {
@@ -5364,6 +5457,7 @@
                   "id": "a1S1N000005WjRPCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Waste and Recycling Equipment - Installation and Maintenance\" )",
                   "elevation": 0
                 },
                 {
@@ -5418,6 +5512,7 @@
                   "id": "a1S1N000005WjRSCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Crane Operation\" )",
                   "elevation": 0
                 },
                 {
@@ -5472,6 +5567,7 @@
                   "id": "a1S1N000005WjRUCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Crane Operation\" )",
                   "elevation": 0
                 },
                 {
@@ -5526,6 +5622,7 @@
                   "id": "a1S1N000005WjRYCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Audio and Visual Systems - Installation, Maintenance\",\"Basement Renovations\",\"Cabinet Installations\",\"Kitchen and Bathroom Renovation\",\"Non-structural Demolition\",\"Structural Demolition\" )",
                   "elevation": 0
                 },
                 {
@@ -5580,6 +5677,7 @@
                   "id": "a1S1N000005WjPgCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Ability to Subcontract\",\"Construction Management\",\"Facilities Management\",\"General, Principal, Main Contractor\",\"Project Management\" )",
                   "elevation": 0
                 },
                 {
@@ -5634,6 +5732,7 @@
                   "id": "a1S1N000005WjPhCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Ability to Subcontract\",\"Construction Management\",\"Facilities Management\",\"General, Principal, Main Contractor\",\"Project Management\" )",
                   "elevation": 0
                 },
                 {
@@ -5694,6 +5793,7 @@
                   "id": "a1S1N000005WjPjCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Construction Management\",\"Facilities Management\",\"General, Principal, Main Contractor\",\"Project Management\" )",
                   "elevation": 0
                 },
                 {
@@ -5748,6 +5848,7 @@
                   "id": "a1S1N000005WjPkCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.workActivity\", \"Plumbing\",\"Plumbing - Pipe Lining\" )",
                   "elevation": 0
                 },
                 {
@@ -5802,6 +5903,7 @@
                   "id": "a1S1N000005WjPnCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"High Voltage Electrical Work (above 600V)\",\"Substation - Installation, Service, Maintenance, Repairs\",\"Transformer and Vault Inspections\" )",
                   "elevation": 0
                 },
                 {
@@ -5856,6 +5958,7 @@
                   "id": "a1S1N000005WjPsCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Armoured Car Services\",\"Security and Protective Services\" )",
                   "elevation": 0
                 },
                 {
@@ -5910,6 +6013,7 @@
                   "id": "a1S1N000005WjPtCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.workActivity\", \"Armoured Car Services\",\"Private Investigator\",\"Security and Protective Services\" )",
                   "elevation": 0
                 },
                 {
@@ -5964,6 +6068,7 @@
                   "id": "a1S1N000005WjPuCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.workActivity\", \"Armoured Car Services\",\"Private Investigator\",\"Security and Protective Services\" )",
                   "elevation": 0
                 },
                 {
@@ -6018,6 +6123,7 @@
                   "id": "a1S1N000005WjRrCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Crane Operation\" )",
                   "elevation": 0
                 },
                 {
@@ -6072,6 +6178,7 @@
                   "id": "a1S1N000005WjRsCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Crane Operation\" )",
                   "elevation": 0
                 },
                 {
@@ -6126,6 +6233,7 @@
                   "id": "a1S1N000005WjQ1Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.workActivity\", \"Gas Fitter\" )",
                   "elevation": 0
                 },
                 {
@@ -6180,6 +6288,7 @@
                   "id": "a1S1N000005WjQ3Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.workActivity\", \"Electrical Heating Systems - Installation, Maintenance\",\"Electrical Work - Installation, Maintenance(below 600V)\",\"High Voltage Electrical Work (above 600V)\",\"Substation - Installation, Service, Maintenance, Repairs\",\"Transformer and Vault Inspections\" )",
                   "elevation": 0
                 },
                 {
@@ -6234,6 +6343,7 @@
                   "id": "a1S1N000005WjQ4Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.workActivity\", \"Electrical Work - Installation, Maintenance(below 600V)\",\"High Voltage Electrical Work (above 600V)\",\"Substation - Installation, Service, Maintenance, Repairs\",\"Transformer and Vault Inspections\" )",
                   "elevation": 0
                 },
                 {
@@ -6288,6 +6398,7 @@
                   "id": "a1S1N000005WjQ5Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Facilities Management\" )",
                   "elevation": 0
                 },
                 {
@@ -6342,6 +6453,7 @@
                   "id": "a1S1N000005WjQ7Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Arborist/Tree Services\",\"Landscaping\" )",
                   "elevation": 0
                 },
                 {
@@ -6396,6 +6508,7 @@
                   "id": "a1S1N000005WjQBCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Asbestos Removal (Class I/High Risk)\",\"Asbestos Removal (Class II, III & IV / Moderate - Low Risk)\",\"Asbestos Removal (Type 1 & 2/Low-Moderate Risk)\",\"Asbestos Removal (Type 3/High Risk)\" )",
                   "elevation": 0
                 },
                 {
@@ -6450,6 +6563,7 @@
                   "id": "a1S1N000005WjQCCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Asbestos Abatement Supervision\",\"Asbestos Removal (Type 1 & 2/Low-Moderate Risk)\",\"Asbestos Removal (Type 3/High Risk)\" ) AND valueEquals(\"profile.province\", \"Ontario\" )",
                   "elevation": 0
                 },
                 {
@@ -6504,6 +6618,7 @@
                   "id": "a1S1N000005WjQDCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Asbestos Removal (Class I/High Risk)\",\"Asbestos Removal (Class II, III & IV / Moderate - Low Risk)\",\"Asbestos Removal (Type 1 & 2/Low-Moderate Risk)\",\"Asbestos Removal (Type 3/High Risk)\" )",
                   "elevation": 0
                 },
                 {
@@ -6558,6 +6673,7 @@
                   "id": "a1S1N000005WjQHCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Air Quality\",\"Asbestos Removal (Class I/High Risk)\",\"Asbestos Removal (Class II, III & IV / Moderate - Low Risk)\",\"Asbestos Removal (Type 1 & 2/Low-Moderate Risk)\",\"Asbestos Removal (Type 3/High Risk)\",\"Asbestos Surveying\",\"Chimney cleaning\",\"Deep (Underground) Utility Installation\",\"Hazardous Materials Removal\",\"Hazardous Spill Containment and Cleanup(fuel, oils, chemicals)\",\"Industrial Flooring (epoxy, specialty coating)\",\"Odour Control Services\",\"Pest Control\",\"Spray Insulation\",\"Vermin Control\",\"Wind, Fire, Water Disaster Cleanup and Restoration\" )",
                   "elevation": 0
                 },
                 {
@@ -6612,6 +6728,7 @@
                   "id": "a1S1N000005WjQJCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Asbestos Removal (Class I/High Risk)\",\"Asbestos Removal (Class II, III & IV / Moderate - Low Risk)\",\"Asbestos Removal (Type 1 & 2/Low-Moderate Risk)\",\"Asbestos Removal (Type 3/High Risk)\" )",
                   "elevation": 0
                 },
                 {
@@ -6666,6 +6783,7 @@
                   "id": "a1S1N000005WjQLCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Security Alarm Systems\" ) AND valueEquals(\"profile.province\", \"British Columbia\" )",
                   "elevation": 0
                 },
                 {
@@ -6720,6 +6838,7 @@
                   "id": "a1S1N000005WjSECard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.workActivity\", \"Crane & Hoist - Repair, Maintenance, Inspection\" )",
                   "elevation": 0
                 },
                 {
@@ -6774,6 +6893,7 @@
                   "id": "a1S1N000005WjQQCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Scaffolding Erection\" )",
                   "elevation": 0
                 },
                 {
@@ -6828,6 +6948,7 @@
                   "id": "a1S1N000005WjQTCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Deep (Underground) Utility Installation\",\"Erosion and Sediment Control\",\"Excavation & Trenching\",\"Fuel Systems - Installation, Maintenance, Testing\",\"GeoStabilization\",\"Hydrovac Operation\",\"Network Cabling and Servers - Installation, Maintenance\",\"Overhead & Underground Communication Systems - Installation, Maintenance\",\"Pipe Fusion\",\"Powerline - Construction, Maintenance, Repair\",\"Sanitary/Storm/Sewer Stations - Construction, Maintenance\",\"Telecommunications\",\"Underground Cable Fault Locating\",\"Utility Locates\",\"Water Management - Dewatering, Diversion, Bypass\",\"Water and sewer main - Installation, Replacement\" )",
                   "elevation": 0
                 },
                 {
@@ -6882,6 +7003,7 @@
                   "id": "a1S1N000005WjQbCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Chemical Shipping and Handling\",\"Delivery Services - Couriers, Groceries, Restaurants\",\"Fuel Supplier\",\"Movers and Haulage\",\"Shuttle Services\" )",
                   "elevation": 0
                 },
                 {
@@ -6936,6 +7058,7 @@
                   "id": "a1S1N000005WjQeCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Noise and Vibration Testing\" )",
                   "elevation": 0
                 },
                 {
@@ -6990,6 +7113,7 @@
                   "id": "a1S1N000005WjQgCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Wind, Fire, Water Disaster Cleanup and Restoration\" )",
                   "elevation": 0
                 },
                 {
@@ -7044,6 +7168,7 @@
                   "id": "a1S1N000005WjQhCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Ventilation & Ductwork - Installation, Maintenance\" )",
                   "elevation": 0
                 },
                 {
@@ -7098,6 +7223,7 @@
                   "id": "a1S1N000005WjSWCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.workActivity\", \"Land Surveyor\" )",
                   "elevation": 0
                 },
                 {
@@ -7152,6 +7278,7 @@
                   "id": "a1S1N000005WjQmCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Arborist/Tree Services\" )",
                   "elevation": 0
                 },
                 {
@@ -7206,6 +7333,7 @@
                   "id": "a1S1N000005WjQnCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.workActivity\", \"Architect\" )",
                   "elevation": 0
                 },
                 {
@@ -7260,6 +7388,7 @@
                   "id": "a1S1N000005WjQoCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.workActivity\", \"Architect\" )",
                   "elevation": 0
                 },
                 {
@@ -7314,6 +7443,7 @@
                   "id": "a1S1N000005WjQpCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Hazardous Materials Removal\" )",
                   "elevation": 0
                 },
                 {
@@ -7368,6 +7498,7 @@
                   "id": "a1S1N000005WjSZCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.workActivity\", \"Locksmith\" )",
                   "elevation": 0
                 },
                 {
@@ -7422,6 +7553,7 @@
                   "id": "a1S1N000005WjSaCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Air Conditioning\",\"Air filtration systems -- Installation, Maintenance\",\"Asbestos Removal (Class I/High Risk)\",\"Asbestos Removal (Class II, III & IV / Moderate - Low Risk)\",\"Asbestos Removal (Type 1 & 2/Low-Moderate Risk)\",\"Asbestos Removal (Type 3/High Risk)\",\"Building Automation\",\"Building Operations Services\",\"Commercial/Industrial Fans - Installation, Maintenance\",\"Compressor - Installation, Commissioning, Maintenance\",\"Cooling Tower Maintenance\",\"Crane & Hoist - Repair, Maintenance, Inspection\",\"Duct and HVAC Cleaning\",\"Electrical Heating Systems - Installation, Maintenance\",\"Electrical Work - Installation, Maintenance(below 600V)\",\"Elevator/Escalator - Installation, Maintenance\",\"Elevator/Escalator Consulting\",\"Emergency Lighting\",\"Fire Alarm - Installation, Maintenance\",\"Food Service Equipment - Installation, Maintenance\",\"Fuel Systems - Installation, Maintenance, Testing\",\"Gas Fitter\",\"Generator - Installation, Commissioning, Maintenance\",\"Heating\",\"High Voltage Electrical Work (above 600V)\",\"Indoor humidification - Installation, Maintenance\",\"Industrial Cleaning - Plant, Equipment, Systems\",\"Industrial Doors and Roller Shutters\",\"Instrumentation - Supply, Installation, Maintenance, Testing, Calibration\",\"Kitchen Exhaust Ventilation Cleaning\",\"Lighting Maintenance (non-trade)\",\"Manufacturing Equipment - Supplier, Service, Repair\",\"Marine Construction\",\"Millwright\",\"Mobile Equipment - Repair, Maintenance, Inspection\",\"Motor Repair and Replacement\",\"Noise and Vibration Testing\",\"Pipe Fusion\",\"Plumbing\",\"Pressure Systems and Boilers - Installation, Maintenance\",\"Pressure Vessel and Boiler Inspector\",\"Pumps - Installation, Commissioning, Maintenance\",\"Refrigeration Systems - Installation, Commissioning, Maintenance\",\"Robotics & Automation - Design, Installation, Maintenance\",\"Steamfitter\",\"Street Lighting\",\"Substation - Installation, Service, Maintenance, Repairs\",\"Substation Battery - Testing, Maintenance\",\"Testing, Adjusting and Balancing for HVAC systems\",\"Transformer and Vault Inspections\",\"Underground Cable Fault Locating\",\"Waste and Recycling Equipment - Installation and Maintenance\" )",
                   "elevation": 0
                 },
                 {
@@ -7476,6 +7608,7 @@
                   "id": "a1S1N000005WjQrCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Asbestos Removal (Class I/High Risk)\",\"Asbestos Removal (Class II, III & IV / Moderate - Low Risk)\",\"Asbestos Removal (Type 1 & 2/Low-Moderate Risk)\",\"Asbestos Removal (Type 3/High Risk)\",\"Hazardous Materials Removal\",\"Hazardous Spill Containment and Cleanup(fuel, oils, chemicals)\" )",
                   "elevation": 0
                 },
                 {
@@ -7530,6 +7663,7 @@
                   "id": "a1S1N000005WjQsCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.workActivity\", \"Roofing (Industrial)\" )",
                   "elevation": 0
                 },
                 {
@@ -7584,6 +7718,7 @@
                   "id": "a1S1N000005WjQtCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Ionization Radiation Consulting\" )",
                   "elevation": 0
                 },
                 {
@@ -7638,6 +7773,7 @@
                   "id": "a1S1N000005WjQwCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Fire Protection Equipment - Supply, Maintenance, Testing\",\"Fire Suppression Systems - Installation, Inspection, Maintenance\" )",
                   "elevation": 0
                 },
                 {
@@ -7692,6 +7828,7 @@
                   "id": "a1S1N000005WjQxCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Fire Alarm - Installation, Maintenance\" )",
                   "elevation": 0
                 },
                 {
@@ -7746,6 +7883,7 @@
                   "id": "a1S1N000005WjQyCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Fireworks Displays\" )",
                   "elevation": 0
                 },
                 {
@@ -7800,6 +7938,7 @@
                   "id": "a1S1N000005WjSdCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Electric Solar Panel Installation\" )",
                   "elevation": 0
                 },
                 {
@@ -7854,6 +7993,7 @@
                   "id": "a1S1N000005WjR2Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.workActivity\", \"Air Conditioning\",\"Refrigeration Systems - Installation, Commissioning, Maintenance\" )",
                   "elevation": 0
                 },
                 {
@@ -7908,6 +8048,7 @@
                   "id": "a1S1N000005WjR3Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.workActivity\", \"Heating\",\"Radiant heating systems - Installation, Maintenance\" )",
                   "elevation": 0
                 },
                 {
@@ -7962,6 +8103,7 @@
                   "id": "a1S1N000005WjR4Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Ability to Subcontract\",\"Construction Management\",\"Facilities Management\",\"General, Principal, Main Contractor\",\"Project Management\" )",
                   "elevation": 0
                 },
                 {
@@ -8016,6 +8158,7 @@
                   "id": "a1S1N000005WjR7Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Pest Control\",\"Vermin Control\" )",
                   "elevation": 0
                 },
                 {
@@ -8070,6 +8213,7 @@
                   "id": "a1S1N000005WjPXCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Generator - Installation, Commissioning, Maintenance\" )",
                   "elevation": 0
                 },
                 {
@@ -8124,6 +8268,7 @@
                   "id": "a1S1N000005WjPbCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Window Cleaning from Heights\" )",
                   "elevation": 0
                 },
                 {
@@ -8178,6 +8323,7 @@
                   "id": "a1S1N000005WjPfCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Window Cleaning from Heights\" )",
                   "elevation": 0
                 },
                 {
@@ -8232,6 +8378,7 @@
                   "id": "a1S1N000005WjSlCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Asbestos Abatement Supervision\",\"Asbestos Removal (Class I/High Risk)\",\"Asbestos Removal (Class II, III & IV / Moderate - Low Risk)\",\"Asbestos Removal (Type 1 & 2/Low-Moderate Risk)\",\"Asbestos Removal (Type 3/High Risk)\",\"Asbestos Surveying\",\"Commercial Appliances - Installation, Maintenance\",\"Commercial and Industrial Caulking - Application, Repair\",\"Commercial/Industrial Fans - Installation, Maintenance\",\"Concrete Work\",\"Cooling Tower Maintenance\",\"Deep (Underground) Utility Installation\",\"Dock Leveller\",\"Drains, Sewers and Mains - Cleaning, Inspection\",\"Electrical Work - Installation, Maintenance(below 600V)\",\"Elevator/Escalator - Installation, Maintenance\",\"Elevator/Escalator Consulting\",\"Excavation & Trenching\",\"Fire Sprinkler Systems - Installation, Maintenance\",\"Fire Stop Application\",\"Fuel Systems - Installation, Maintenance, Testing\",\"Gas Fitter\",\"High Voltage Electrical Work (above 600V)\",\"Industrial Cleaning - Plant, Equipment, Systems\",\"Instrumentation - Supply, Installation, Maintenance, Testing, Calibration\",\"Kitchen Exhaust Ventilation Cleaning\",\"Leak Sealing, Detection, Repair\",\"Manufacturing Equipment - Supplier, Service, Repair\",\"Marine Construction\",\"Masonry\",\"Millwright\",\"Mobile Equipment - Repair, Maintenance, Inspection\",\"Motor Repair and Replacement\",\"Noise and Vibration Testing\",\"Non Destructive Testing (NDT) Services\",\"Overhead & Underground Communication Systems - Installation, Maintenance\",\"Pest Control\",\"Pipe Fusion\",\"Plumbing\",\"Plumbing - Pipe Lining\",\"Powerline - Construction, Maintenance, Repair\",\"Pressure Systems and Boilers - Installation, Maintenance\",\"Pressure Vessel and Boiler Inspector\",\"Pumps - Installation, Commissioning, Maintenance\",\"Refrigeration Systems - Installation, Commissioning, Maintenance\",\"Sanitary/Storm/Sewer Stations - Construction, Maintenance\",\"Soil Sampling/Drilling\",\"Spray Insulation\",\"Steamfitter\",\"Stormwater System Management\",\"Structural Engineer\",\"Substation - Installation, Service, Maintenance, Repairs\",\"Tank Cleaning/Fuel Polishing\",\"Transformer and Vault Inspections\",\"Ventilation & Ductwork - Installation, Maintenance\",\"Vermin Control\",\"Waste Management - Hazardous, Industrial, Medical\",\"Waste and Recycling Equipment - Installation and Maintenance\",\"Water Management - Dewatering, Diversion, Bypass\",\"Water Treatment/Tanks\",\"Water and sewer main - Installation, Replacement\",\"Waterproofing\",\"Welding\",\"Wildlife Control\",\"Wind, Fire, Water Disaster Cleanup and Restoration\" ) AND valueEquals(\"profile.companySize\", \"Large Business\")",
                   "elevation": 0
                 },
                 {
@@ -8286,6 +8433,7 @@
                   "id": "a1S3m000008knOXCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\") AND valueEquals(\"profile.workActivity\", \"Commercial Diving\" ) AND valueEquals(\"profile.province\", \"United States\" )",
                   "elevation": 0
                 },
                 {
@@ -8340,6 +8488,7 @@
                   "id": "a1S3m000006rd8KCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Drains, Sewers and Mains - Cleaning, Inspection\",\"Flush Truck Operation\" )",
                   "elevation": 0
                 },
                 {
@@ -8394,6 +8543,7 @@
                   "id": "a1S3m000006rZ8NCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"High Voltage Electrical Work (above 600V)\",\"Substation - Installation, Service, Maintenance, Repairs\",\"Transformer and Vault Inspections\" )",
                   "elevation": 0
                 },
                 {
@@ -8448,6 +8598,7 @@
                   "id": "a1S3m000006rd6RCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Security Alarm Systems\" ) AND valueEquals(\"profile.province\", \"British Columbia\",\"Quebec\" )",
                   "elevation": 0
                 },
                 {
@@ -8502,6 +8653,7 @@
                   "id": "a1S3m000006rdMBCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Cooling Tower Maintenance\" )",
                   "elevation": 0
                 },
                 {
@@ -8556,6 +8708,7 @@
                   "id": "a1S3m000006rcPNCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.workActivity\", \"Substation - Installation, Service, Maintenance, Repairs\" )",
                   "elevation": 0
                 },
                 {
@@ -8610,6 +8763,7 @@
                   "id": "a1S3m000006rcPSCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.workActivity\", \"Powerline - Construction, Maintenance, Repair\" )",
                   "elevation": 0
                 },
                 {
@@ -8664,6 +8818,7 @@
                   "id": "a1S3m000006rcPcCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Arborist/Tree Services\" )",
                   "elevation": 0
                 },
                 {
@@ -8718,6 +8873,7 @@
                   "id": "a1S3m000006rdKMCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.workActivity\", \"Steamfitter\" )",
                   "elevation": 0
                 },
                 {
@@ -8772,6 +8928,7 @@
                   "id": "a1S3m000006rdKOCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.workActivity\", \"Pressure Vessel and Boiler Inspector\" )",
                   "elevation": 0
                 },
                 {
@@ -8826,6 +8983,7 @@
                   "id": "a1S3m000006rdKRCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.workActivity\", \"Backflow Prevention Devices - Testing, Repair\" )",
                   "elevation": 0
                 },
                 {
@@ -8880,6 +9038,7 @@
                   "id": "a1S3m000006rdKLCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.workActivity\", \"Mobile Equipment - Repair, Maintenance, Inspection\" )",
                   "elevation": 0
                 },
                 {
@@ -8934,6 +9093,7 @@
                   "id": "a1S3m000006rdKJCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.workActivity\", \"Elevator/Escalator - Installation, Maintenance\" )",
                   "elevation": 0
                 },
                 {
@@ -8988,6 +9148,7 @@
                   "id": "a1S3m000006rdKKCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Elevator/Escalator - Interior Refurbishment/Maintenance (non-trade)\" )",
                   "elevation": 0
                 },
                 {
@@ -9042,6 +9203,7 @@
                   "id": "a1S3m000006rTx5Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.workActivity\", \"Access Solutions - Roadways, Bridges, Rig Mats\",\"Concrete Pumping and Pouring\",\"Crane Operation\",\"Excavation & Trenching\",\"GeoStabilization\",\"Grubbing, deforestation, Vegetation Removal\",\"Overhead & Underground Communication Systems - Installation, Maintenance\",\"Paving\",\"Piling - Driving, Screwing\",\"Road Resurfacing/Road Marking\",\"Sanitary/Storm/Sewer Stations - Construction, Maintenance\",\"Water and sewer main - Installation, Replacement\" )",
                   "elevation": 0
                 },
                 {
@@ -9096,6 +9258,7 @@
                   "id": "a1S3m000006rdPFCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.workActivity\", \"Pressure Systems and Boilers - Installation, Maintenance\" )",
                   "elevation": 0
                 },
                 {
@@ -9166,7 +9329,7 @@
               "condition": "",
               "questions": [
                 {
-                  "id": "Je9-oe9MugPaq3",
+                  "id": "bE034XVQb419i9",
                   "form": "general",
                   "type": "useForm",
                   "hints": {},
@@ -9175,7 +9338,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"general\")"
                 },
                 {
-                  "id": "FD_3ceeLlN18nQ",
+                  "id": "ZSoHxI5tgW77u2",
                   "form": "agellanCapitalPartnersInc",
                   "type": "useForm",
                   "hints": {},
@@ -9184,7 +9347,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Agellan Capital Partners Inc\")"
                 },
                 {
-                  "id": "ozYCr-b3q5sEro",
+                  "id": "kEwiFBLKbnP-EH",
                   "form": "bimboCanadaCanadaBread",
                   "type": "useForm",
                   "hints": {},
@@ -9193,7 +9356,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Bimbo Canada (Canada Bread)\")"
                 },
                 {
-                  "id": "u0uYpbq9nmDDCv",
+                  "id": "QOmLMkzBSL5zNp",
                   "form": "birdConstructionClient",
                   "type": "useForm",
                   "hints": {},
@@ -9202,7 +9365,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Bird Construction (Client)\")"
                 },
                 {
-                  "id": "93Qr6FMeexpMqQ",
+                  "id": "wb5X_4PJFzU-NG",
                   "form": "bouyguesEnergiesServices",
                   "type": "useForm",
                   "hints": {},
@@ -9211,7 +9374,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Bouygues Energies & Services\")"
                 },
                 {
-                  "id": "-xcI1wNT6nTtIq",
+                  "id": "Eq5f5rTbYSPp75",
                   "form": "branksomeHall",
                   "type": "useForm",
                   "hints": {},
@@ -9220,7 +9383,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Branksome Hall\")"
                 },
                 {
-                  "id": "jSj4We9_UJwhEx",
+                  "id": "87clvaq2ySEh6D",
                   "form": "burncoRockProductsLtdClient",
                   "type": "useForm",
                   "hints": {},
@@ -9229,7 +9392,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"BURNCO Rock Products Ltd - Client\")"
                 },
                 {
-                  "id": "ef5kKIdQyZwyX0",
+                  "id": "ktC06uwqRMpswa",
                   "form": "cadillacFairviewCorporationLimited",
                   "type": "useForm",
                   "hints": {},
@@ -9238,7 +9401,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Cadillac Fairview Corporation Limited\")"
                 },
                 {
-                  "id": "imZPqk5sQLr8ko",
+                  "id": "bo847LoCGNc2Yf",
                   "form": "calgaryCoOperativeAssociationLimited",
                   "type": "useForm",
                   "hints": {},
@@ -9247,7 +9410,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Calgary Co-Operative Association Limited\")"
                 },
                 {
-                  "id": "zNGc8-g2_InG96",
+                  "id": "xu3PjWfRN8hfLO",
                   "form": "canadaGeneralDocuments",
                   "type": "useForm",
                   "hints": {},
@@ -9256,7 +9419,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Canada General Documents\")"
                 },
                 {
-                  "id": "Xsm8-Zj0qILZxC",
+                  "id": "jT65cN75omNur5",
                   "form": "cbreAlbertaClient",
                   "type": "useForm",
                   "hints": {},
@@ -9265,7 +9428,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"CBRE (Alberta) Client\")"
                 },
                 {
-                  "id": "XPfukki4JUqONe",
+                  "id": "LU6bknbSOcNTZ_",
                   "form": "cbreLimitedClient",
                   "type": "useForm",
                   "hints": {},
@@ -9274,7 +9437,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"CBRE Limited (Client)\")"
                 },
                 {
-                  "id": "BRTkVlkbIDqQ-w",
+                  "id": "HTdDnRcXfA7Dll",
                   "form": "choicePropertiesIndustrialOffice",
                   "type": "useForm",
                   "hints": {},
@@ -9283,7 +9446,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Choice Properties - Industrial & Office\")"
                 },
                 {
-                  "id": "OhnytaZkThdG8d",
+                  "id": "0tVl6M2Jl_u5cy",
                   "form": "choicePropertiesReit",
                   "type": "useForm",
                   "hints": {},
@@ -9292,7 +9455,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Choice Properties REIT\")"
                 },
                 {
-                  "id": "SQ6_CETY3oxkzz",
+                  "id": "CNjsk-TarInDri",
                   "form": "cineplexIncClient",
                   "type": "useForm",
                   "hints": {},
@@ -9301,7 +9464,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Cineplex Inc. (Client)\")"
                 },
                 {
-                  "id": "fg-zLf2tkMQdU0",
+                  "id": "4o-TlRDVySU4Dh",
                   "form": "conseilScolaireViamonde",
                   "type": "useForm",
                   "hints": {},
@@ -9310,7 +9473,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Conseil Scolaire Viamonde\")"
                 },
                 {
-                  "id": "AuJaDxeofxZHjA",
+                  "id": "OegMl_VoPSVx7I",
                   "form": "crownPropertyManagementInc",
                   "type": "useForm",
                   "hints": {},
@@ -9319,7 +9482,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Crown Property Management Inc.\")"
                 },
                 {
-                  "id": "iSQXJK3AYlI-PZ",
+                  "id": "tIvTy3L08C-U7D",
                   "form": "cushmanWakefield20VicManagementIncClient",
                   "type": "useForm",
                   "hints": {},
@@ -9328,7 +9491,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Cushman & Wakefield (20 VIC Management Inc) (Client)\")"
                 },
                 {
-                  "id": "9HOVjhIQvJeY-P",
+                  "id": "_o15t4zxif8voH",
                   "form": "dreamUnlimitedCorp",
                   "type": "useForm",
                   "hints": {},
@@ -9337,7 +9500,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Dream Unlimited Corp\")"
                 },
                 {
-                  "id": "5A977MFAVNMN27",
+                  "id": "fEMjTKdbDsxR1I",
                   "form": "enwaveEnergyCorporationClient",
                   "type": "useForm",
                   "hints": {},
@@ -9346,7 +9509,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Enwave Energy Corporation (Client)\")"
                 },
                 {
-                  "id": "L4-4rizfOBZumS",
+                  "id": "dLl9Ynrngc5lY1",
                   "form": "epicInvestmentServicesClient",
                   "type": "useForm",
                   "hints": {},
@@ -9355,7 +9518,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"EPIC Investment Services (Client)\")"
                 },
                 {
-                  "id": "VLcaSJjf2iOsHB",
+                  "id": "YpxBiAK466y6bH",
                   "form": "firstCapitalReit",
                   "type": "useForm",
                   "hints": {},
@@ -9364,7 +9527,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"First Capital - REIT\")"
                 },
                 {
-                  "id": "ZMpZrg8n5UR0hx",
+                  "id": "5Kj_SuvpwZ6wBO",
                   "form": "firstGulfClient",
                   "type": "useForm",
                   "hints": {},
@@ -9373,7 +9536,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"First Gulf (Client)\")"
                 },
                 {
-                  "id": "sCOTvcQH6DC_aL",
+                  "id": "C34qCs1p2xBzMX",
                   "form": "giveandGoPreparedFoodsCorp",
                   "type": "useForm",
                   "hints": {},
@@ -9382,7 +9545,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Give and Go Prepared Foods Corp\")"
                 },
                 {
-                  "id": "vUdc6JB6Vk0rkj",
+                  "id": "PRDGk7fJVQN6bz",
                   "form": "holtRenfrewClient",
                   "type": "useForm",
                   "hints": {},
@@ -9391,7 +9554,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Holt Renfrew (Client)\")"
                 },
                 {
-                  "id": "mlgAmFk-WTJ6fJ",
+                  "id": "_dxpFPlxOJ3nox",
                   "form": "ivanhoeCambridgeInc",
                   "type": "useForm",
                   "hints": {},
@@ -9400,7 +9563,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Ivanhoe Cambridge Inc.\")"
                 },
                 {
-                  "id": "WacsFKIj88IZ3S",
+                  "id": "iGoKPHLGcGZysi",
                   "form": "kLineGroup",
                   "type": "useForm",
                   "hints": {},
@@ -9409,7 +9572,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"K-Line Group\")"
                 },
                 {
-                  "id": "ZQriRdDENVQawJ",
+                  "id": "9dL1V3_nlguGVc",
                   "form": "labbeLeechInteriorsLtdClient",
                   "type": "useForm",
                   "hints": {},
@@ -9418,7 +9581,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Labbe - Leech Interiors Ltd (Client)\")"
                 },
                 {
-                  "id": "EHhPsY5c5KPwe5",
+                  "id": "HjV2vtzKgFz2u8",
                   "form": "loblawGroupofCompanies",
                   "type": "useForm",
                   "hints": {},
@@ -9427,7 +9590,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Loblaw Group of Companies\")"
                 },
                 {
-                  "id": "CU1zjS-5PQMou1",
+                  "id": "_sE1U_6QGBqSbT",
                   "form": "longoBrothersFruitMarketsInc",
                   "type": "useForm",
                   "hints": {},
@@ -9436,7 +9599,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Longo Brothers Fruit Markets Inc.\")"
                 },
                 {
-                  "id": "7kQkd58huBURRa",
+                  "id": "jd0SlAg2BHmksK",
                   "form": "mapleLeafFoodsIncClient",
                   "type": "useForm",
                   "hints": {},
@@ -9445,7 +9608,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Maple Leaf Foods Inc. (Client)\")"
                 },
                 {
-                  "id": "bOmcGiO-MLidjc",
+                  "id": "BHfasBKSTF3mw9",
                   "form": "mapleLeafPropertyManagementMlpmClient",
                   "type": "useForm",
                   "hints": {},
@@ -9454,7 +9617,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Maple Leaf Property Management (MLPM) (Client)\")"
                 },
                 {
-                  "id": "fdZP4BEKP9qGOb",
+                  "id": "JjFO1Am3H-oJ2v",
                   "form": "mapleLeafSportsandEntertainmentPartnershipsMlse",
                   "type": "useForm",
                   "hints": {},
@@ -9463,7 +9626,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Maple Leaf Sports and Entertainment Partnerships (MLSE)\")"
                 },
                 {
-                  "id": "0m9xSxrq12-rsZ",
+                  "id": "O1av1cljp68sDg",
                   "form": "menkesPropertyManagementServicesLtdHooppProperties",
                   "type": "useForm",
                   "hints": {},
@@ -9472,7 +9635,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Menkes Property Management Services Ltd (HOOPP Properties)\")"
                 },
                 {
-                  "id": "Af4lAs91oy1DC4",
+                  "id": "LPtSoy35OqjSmT",
                   "form": "menResPropertyManagementInc",
                   "type": "useForm",
                   "hints": {},
@@ -9481,7 +9644,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"MenRes Property Management Inc.\")"
                 },
                 {
-                  "id": "0oTieiNbvCwLtP",
+                  "id": "TTEuUBWi0YlLBo",
                   "form": "metroOntarioInc",
                   "type": "useForm",
                   "hints": {},
@@ -9490,7 +9653,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Metro Ontario Inc.\")"
                 },
                 {
-                  "id": "YXQnclMm2pEaLE",
+                  "id": "HeWIpn7mP4msw_",
                   "form": "metroQuebecInc",
                   "type": "useForm",
                   "hints": {},
@@ -9499,7 +9662,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Metro Quebec Inc.\")"
                 },
                 {
-                  "id": "IS-GRGlE452E7e",
+                  "id": "sEczqzP7YbvCL_",
                   "form": "ontarioCleanWaterAgency",
                   "type": "useForm",
                   "hints": {},
@@ -9508,7 +9671,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Ontario Clean Water Agency\")"
                 },
                 {
-                  "id": "FqivU_vPv7ho6M",
+                  "id": "Njr8rtRLg1recE",
                   "form": "oxfordPropertiesGroupClient",
                   "type": "useForm",
                   "hints": {},
@@ -9517,7 +9680,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Oxford Properties Group (Client)\")"
                 },
                 {
-                  "id": "-Y--X_4UHBYns-",
+                  "id": "HwihCH6HNulfrz",
                   "form": "planGroupIncClient",
                   "type": "useForm",
                   "hints": {},
@@ -9526,7 +9689,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Plan Group Inc. (Client)\")"
                 },
                 {
-                  "id": "x1hpwUyEoFj33e",
+                  "id": "WgJRtLiSZRlnho",
                   "form": "portofHalifax",
                   "type": "useForm",
                   "hints": {},
@@ -9535,7 +9698,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Port of Halifax\")"
                 },
                 {
-                  "id": "VQpRala3-JUOAS",
+                  "id": "Mfzalx8U20R0wY",
                   "form": "providenceHealthcare",
                   "type": "useForm",
                   "hints": {},
@@ -9544,7 +9707,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Providence Healthcare\")"
                 },
                 {
-                  "id": "daB8JOoCgvTcAQ",
+                  "id": "NWb1aQ2cCSsau2",
                   "form": "purduePharmaCanada",
                   "type": "useForm",
                   "hints": {},
@@ -9553,7 +9716,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Purdue Pharma Canada\")"
                 },
                 {
-                  "id": "R48dDlZhgayFlG",
+                  "id": "VL7RiUo0V6g_8e",
                   "form": "riskCheckIncClient",
                   "type": "useForm",
                   "hints": {},
@@ -9562,7 +9725,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"RiskCheck Inc. (Client)\")"
                 },
                 {
-                  "id": "5qtw6sS2rV58I1",
+                  "id": "_1WsdCgiC-3M_6",
                   "form": "rogersIndustrial",
                   "type": "useForm",
                   "hints": {},
@@ -9571,7 +9734,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Rogers Industrial\")"
                 },
                 {
-                  "id": "GLAXPVxVGF445p",
+                  "id": "c39WLUX-tTM5Yc",
                   "form": "schindlerElevatorCorporationClient",
                   "type": "useForm",
                   "hints": {},
@@ -9580,7 +9743,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Schindler Elevator Corporation (Client)\")"
                 },
                 {
-                  "id": "OqmDO_g1RU5GRj",
+                  "id": "rnrDfxVRLQUeCL",
                   "form": "shoppersDrugMartLossPrevention",
                   "type": "useForm",
                   "hints": {},
@@ -9589,7 +9752,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Shoppers Drug Mart Loss Prevention\")"
                 },
                 {
-                  "id": "QFJ1h6VuWFlaeh",
+                  "id": "2Zede8TEVseumC",
                   "form": "stMichaelsHospital",
                   "type": "useForm",
                   "hints": {},
@@ -9598,7 +9761,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"St. Michael's Hospital\")"
                 },
                 {
-                  "id": "eYZr8vMFSzJjJG",
+                  "id": "bSVku5KbKyYPsK",
                   "form": "strathmoreLandscapeContractorsClient",
                   "type": "useForm",
                   "hints": {},
@@ -9607,7 +9770,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Strathmore Landscape Contractors (Client)\")"
                 },
                 {
-                  "id": "qbhF7om4FkYYU6",
+                  "id": "K9zFUB3zgnRsaD",
                   "form": "sunLifeUs",
                   "type": "useForm",
                   "hints": {},
@@ -9616,7 +9779,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Sun Life (US)\")"
                 },
                 {
-                  "id": "7s-yXfxG7X95hg",
+                  "id": "jkU3VGKhmtwFNG",
                   "form": "sunLifeCanada",
                   "type": "useForm",
                   "hints": {},
@@ -9625,7 +9788,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Sun Life Canada\")"
                 },
                 {
-                  "id": "t4MXiGM5akrGhe",
+                  "id": "tSnKRmoJuT_GUh",
                   "form": "theBadmintonAndRacquetClubofToronto",
                   "type": "useForm",
                   "hints": {},
@@ -9634,7 +9797,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"The Badminton And Racquet Club of Toronto\")"
                 },
                 {
-                  "id": "vf5tGxqcFZK6Hv",
+                  "id": "Kf7FRxd5N-r6sM",
                   "form": "thyssenkruppElevatorCanadaLimitedClient",
                   "type": "useForm",
                   "hints": {},
@@ -9643,7 +9806,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Thyssenkrupp Elevator (Canada) Limited (Client)\")"
                 },
                 {
-                  "id": "X9YalgRXqml_qI",
+                  "id": "hFG9Jc5bD8Khft",
                   "form": "tjConstructionManagementLtdClient",
                   "type": "useForm",
                   "hints": {},
@@ -9652,7 +9815,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"TJ Construction Management Ltd. (Client)\")"
                 },
                 {
-                  "id": "GppIHjdW9tHe8_",
+                  "id": "xvpwvlOCm49e0u",
                   "form": "trinityCollegeSchool",
                   "type": "useForm",
                   "hints": {},
@@ -9661,7 +9824,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Trinity College School\")"
                 },
                 {
-                  "id": "gaoXszE2PPkHNr",
+                  "id": "bOu6pKMsYGMVqW",
                   "form": "triovestRealtyAdvisorsInc",
                   "type": "useForm",
                   "hints": {},
@@ -9670,7 +9833,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Triovest Realty Advisors Inc.\")"
                 },
                 {
-                  "id": "cMMay6Q80CT0rU",
+                  "id": "m2at0jfLm-tI0w",
                   "form": "usGeneralDocuments",
                   "type": "useForm",
                   "hints": {},
@@ -9679,7 +9842,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"US General Documents\")"
                 },
                 {
-                  "id": "xwAusH_BnVAI1h",
+                  "id": "JPna6DO0E1nc2o",
                   "form": "ustestclient",
                   "type": "useForm",
                   "hints": {},
@@ -9688,7 +9851,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"US TEST CLIENT\")"
                 },
                 {
-                  "id": "DBtj8aqJFuQ7Gf",
+                  "id": "9PzPT1vo8Ya4y-",
                   "form": "vancouverFraserPortAuthority",
                   "type": "useForm",
                   "hints": {},
@@ -9697,7 +9860,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Vancouver Fraser Port Authority\")"
                 },
                 {
-                  "id": "9sysqQy2W8dBNh",
+                  "id": "wrQ2ZNgn9Xedqx",
                   "form": "wittingtonPropertiesLimited",
                   "type": "useForm",
                   "hints": {},
@@ -9728,6 +9891,7 @@
                   "id": "a1S1N000005WjmNCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -9782,6 +9946,7 @@
                   "id": "a1S1N000005WjmPCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -9853,6 +10018,7 @@
                   "id": "a1S3m000008E3yUCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -9907,6 +10073,7 @@
                   "id": "a1S3m000008E3yeCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -9961,6 +10128,7 @@
                   "id": "a1S3m000008E4kaCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -10029,6 +10197,7 @@
                   "id": "a1S3m000008kSXiCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\")",
                   "elevation": 0
                 },
                 {
@@ -10083,6 +10252,7 @@
                   "id": "a1S3m000008kSXdCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\")",
                   "elevation": 0
                 },
                 {
@@ -10137,6 +10307,7 @@
                   "id": "a1S3m000008kSXnCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\")",
                   "elevation": 0
                 },
                 {
@@ -10191,6 +10362,7 @@
                   "id": "a1S3m000008kSXoCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\")",
                   "elevation": 0
                 },
                 {
@@ -10274,6 +10446,7 @@
                   "id": "a1S3m000008kXWgCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\")",
                   "elevation": 0
                 },
                 {
@@ -10328,6 +10501,7 @@
                   "id": "a1S3m000008kXWhCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\")",
                   "elevation": 0
                 },
                 {
@@ -10396,6 +10570,7 @@
                   "id": "a1S3m000008LedXCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\")",
                   "elevation": 0
                 },
                 {
@@ -10450,6 +10625,7 @@
                   "id": "a1S3m000008k7AcCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\")",
                   "elevation": 0
                 },
                 {
@@ -10520,6 +10696,7 @@
                   "id": "a1S1N000005Wjo8Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -10574,6 +10751,7 @@
                   "id": "a1S1N000005Wjn2Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -10644,6 +10822,7 @@
                   "id": "a1S3m000008khUTCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\")",
                   "elevation": 0
                 },
                 {
@@ -10698,6 +10877,7 @@
                   "id": "a1S3m000008khUZCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\")",
                   "elevation": 0
                 },
                 {
@@ -10752,6 +10932,7 @@
                   "id": "a1S3m000008ktbgCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\")",
                   "elevation": 0
                 },
                 {
@@ -10820,6 +11001,7 @@
                   "id": "a1S1N000005WjnoCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -10874,6 +11056,7 @@
                   "id": "a1S1N000005WjnpCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -10928,6 +11111,7 @@
                   "id": "a1S1N000005Wjo1Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.province\", \"Ontario\" )",
                   "elevation": 0
                 },
                 {
@@ -10988,6 +11172,7 @@
                   "id": "a1S1N000005Wjo3Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.province\", \"Ontario\" )",
                   "elevation": 0
                 },
                 {
@@ -11048,6 +11233,7 @@
                   "id": "a1S1N000005WjoGCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.province\", \"Ontario\" )",
                   "elevation": 0
                 },
                 {
@@ -11108,6 +11294,7 @@
                   "id": "a1S1N000005WjnXCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.province\", \"Ontario\" )",
                   "elevation": 0
                 },
                 {
@@ -11162,6 +11349,7 @@
                   "id": "a1S1N000005WjnmCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -11230,6 +11418,7 @@
                   "id": "a1S3m000008zZ6UCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\")",
                   "elevation": 0
                 },
                 {
@@ -11284,6 +11473,7 @@
                   "id": "a1S3m000008zZ6PCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\")",
                   "elevation": 0
                 },
                 {
@@ -11338,6 +11528,7 @@
                   "id": "a1S3m000008zZ6VCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\")",
                   "elevation": 0
                 },
                 {
@@ -11406,6 +11597,7 @@
                   "id": "a1S3m000008kpKbCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.province\", \"Manitoba\" )",
                   "elevation": 0
                 },
                 {
@@ -11460,6 +11652,7 @@
                   "id": "a1S3m000008kpKvCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.province\", \"Northwest Territories\" )",
                   "elevation": 0
                 },
                 {
@@ -11514,6 +11707,7 @@
                   "id": "a1S3m000008kpKgCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.province\", \"New Brunswick\" )",
                   "elevation": 0
                 },
                 {
@@ -11568,6 +11762,7 @@
                   "id": "a1S3m000008kpKhCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.province\", \"Saskatchewan\" )",
                   "elevation": 0
                 },
                 {
@@ -11622,6 +11817,7 @@
                   "id": "a1S3m000008kpKiCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.province\", \"Yukon\" )",
                   "elevation": 0
                 },
                 {
@@ -11676,6 +11872,7 @@
                   "id": "a1S3m000008kpL5Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.province\", \"Nunavut\" )",
                   "elevation": 0
                 },
                 {
@@ -11730,6 +11927,7 @@
                   "id": "a1S3m000008kpL6Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.province\", \"Quebec\" )",
                   "elevation": 0
                 },
                 {
@@ -11784,6 +11982,7 @@
                   "id": "a1S3m000008kpKWCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.province\", \"Alberta\" )",
                   "elevation": 0
                 },
                 {
@@ -11838,6 +12037,7 @@
                   "id": "a1S3m000008kpKXCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.province\", \"British Columbia\" )",
                   "elevation": 0
                 },
                 {
@@ -11892,6 +12092,7 @@
                   "id": "a1S3m000008kpL0Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.province\", \"Nova Scotia\" )",
                   "elevation": 0
                 },
                 {
@@ -11946,6 +12147,7 @@
                   "id": "a1S3m000008kpLACard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.province\", \"Ontario\" )",
                   "elevation": 0
                 },
                 {
@@ -12000,6 +12202,7 @@
                   "id": "a1S3m000008kpLFCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.province\", \"Prince Edward Island\" )",
                   "elevation": 0
                 },
                 {
@@ -12054,6 +12257,7 @@
                   "id": "a1S3m000008kpKqCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\") AND valueEquals(\"profile.province\", \"Newfoundland and Labrador\" )",
                   "elevation": 0
                 },
                 {
@@ -12122,6 +12326,7 @@
                   "id": "a1S3m000008NYi1Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -12205,6 +12410,7 @@
                   "id": "a1S1N000005WjmqCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -12259,6 +12465,7 @@
                   "id": "a1S1N000005WjmQCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.province\", \"Alberta\" )",
                   "elevation": 0
                 },
                 {
@@ -12327,6 +12534,7 @@
                   "id": "a1S3m000008NYi6Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -12387,6 +12595,7 @@
                   "id": "a1S1N000005WjmfCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -12441,6 +12650,7 @@
                   "id": "a1S1N000005WjmOCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -12509,6 +12719,7 @@
                   "id": "a1S3m000009DJxpCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -12563,6 +12774,7 @@
                   "id": "a1S3m000009DJm4Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -12617,6 +12829,7 @@
                   "id": "a1S3m000009DJy9Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -12685,6 +12898,7 @@
                   "id": "a1S3m000006s3lxCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -12739,6 +12953,7 @@
                   "id": "a1S1N000005WjmeCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -12793,6 +13008,7 @@
                   "id": "a1S1N000005Wjo0Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -12847,6 +13063,7 @@
                   "id": "a1S1N000005Wjo2Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -12901,6 +13118,7 @@
                   "id": "a1S1N000005WjnUCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -12955,6 +13173,7 @@
                   "id": "a1S1N000005WjnZCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.province\", \"Ontario\" )",
                   "elevation": 0
                 },
                 {
@@ -13009,6 +13228,7 @@
                   "id": "a1S1N000005WjnjCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -13077,6 +13297,7 @@
                   "id": "a1S1N000005WjoFCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -13131,6 +13352,7 @@
                   "id": "a1S1N000005WjoHCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -13185,6 +13407,7 @@
                   "id": "a1S1N000005WjnQCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -13239,6 +13462,7 @@
                   "id": "a1S1N000005WjnYCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -13293,6 +13517,7 @@
                   "id": "a1S1N000005WjnbCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -13367,6 +13592,7 @@
                   "id": "a1S3m000008l51sCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\")",
                   "elevation": 0
                 },
                 {
@@ -13421,6 +13647,7 @@
                   "id": "a1S3m000008l51nCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\")",
                   "elevation": 0
                 },
                 {
@@ -13489,6 +13716,7 @@
                   "id": "a1S1N000005WjmoCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -13543,6 +13771,7 @@
                   "id": "a1S1N000005WjmzCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -13611,6 +13840,7 @@
                   "id": "a1S3m000008NYiBCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -13694,6 +13924,7 @@
                   "id": "a1S1N000005WjmVCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -13748,6 +13979,7 @@
                   "id": "a1S1N000005WjmrCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -13816,6 +14048,7 @@
                   "id": "a1S3m000008lIAxCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\")",
                   "elevation": 0
                 },
                 {
@@ -13870,6 +14103,7 @@
                   "id": "a1S3m000008NYiGCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -13930,6 +14164,7 @@
                   "id": "a1S1N000005WjoECard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -13984,6 +14219,7 @@
                   "id": "a1S1N000005WjnVCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -14044,6 +14280,7 @@
                   "id": "a1S1N000005WjniCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -14104,6 +14341,7 @@
                   "id": "a1S1N000005WjmSCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -14158,6 +14396,7 @@
                   "id": "a1S1N000005WjnnCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -14226,6 +14465,7 @@
                   "id": "a1S1N000005Wjn0Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -14280,6 +14520,7 @@
                   "id": "a1S1N000005Wjn3Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -14334,6 +14575,7 @@
                   "id": "a1S1N000005WjnICard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -14388,6 +14630,7 @@
                   "id": "a1S1N000005WjnKCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -14442,6 +14685,7 @@
                   "id": "a1S1N000005WjnNCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.province\", \"Ontario\" )",
                   "elevation": 0
                 },
                 {
@@ -14510,6 +14754,7 @@
                   "id": "a1S1N000005WjnPCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -14564,6 +14809,7 @@
                   "id": "a1S1N000005WjnRCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -14632,6 +14878,7 @@
                   "id": "a1S1N000005WjmgCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -14686,6 +14933,7 @@
                   "id": "a1S1N000005WjmhCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -14769,6 +15017,7 @@
                   "id": "a1S1N000005WjmmCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -14823,6 +15072,7 @@
                   "id": "a1S1N000005WjmvCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -14877,6 +15127,7 @@
                   "id": "a1S1N000005WjmTCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -14945,6 +15196,7 @@
                   "id": "a1S1N000005WjmlCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -14999,6 +15251,7 @@
                   "id": "a1S1N000005WjmuCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -15067,6 +15320,7 @@
                   "id": "a1S3m000008LjXzCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.province\", \"Ontario\" )",
                   "elevation": 0
                 },
                 {
@@ -15121,6 +15375,7 @@
                   "id": "a1S3m000008LjWrCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.province\", \"Ontario\" )",
                   "elevation": 0
                 },
                 {
@@ -15175,6 +15430,7 @@
                   "id": "a1S3m000008LjXLCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.province\", \"Ontario\" )",
                   "elevation": 0
                 },
                 {
@@ -15229,6 +15485,7 @@
                   "id": "a1S3m000008LjWmCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.province\", \"Ontario\" )",
                   "elevation": 0
                 },
                 {
@@ -15297,6 +15554,7 @@
                   "id": "a1S1N000005WjnSCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -15351,6 +15609,7 @@
                   "id": "a1S1N000005WjnTCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -15405,6 +15664,7 @@
                   "id": "a1S1N000005WjnWCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -15459,6 +15719,7 @@
                   "id": "a1S3m000008LiZKCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -15513,6 +15774,7 @@
                   "id": "a1S3m000008LiZPCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -15567,6 +15829,7 @@
                   "id": "a1S3m000008LiZFCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -15621,6 +15884,7 @@
                   "id": "a1S3m000008LiZ5Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -15675,6 +15939,7 @@
                   "id": "a1S3m000008LiZACard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -15729,6 +15994,7 @@
                   "id": "a1S3m000008LiZUCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -15797,6 +16063,7 @@
                   "id": "a1S3m000008NYiLCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -15857,6 +16124,7 @@
                   "id": "a1S1N000005WjnaCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -15911,6 +16179,7 @@
                   "id": "a1S1N000005WjncCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -15965,6 +16234,7 @@
                   "id": "a1S1N000005WjndCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -16019,6 +16289,7 @@
                   "id": "a1S1N000005WjneCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -16087,6 +16358,7 @@
                   "id": "a1S3m000008kHr2Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\")",
                   "elevation": 0
                 },
                 {
@@ -16141,6 +16413,7 @@
                   "id": "a1S3m000008kHr7Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\")",
                   "elevation": 0
                 },
                 {
@@ -16195,6 +16468,7 @@
                   "id": "a1S3m000008kHqiCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\")",
                   "elevation": 0
                 },
                 {
@@ -16249,6 +16523,7 @@
                   "id": "a1S3m000008kHqjCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\")",
                   "elevation": 0
                 },
                 {
@@ -16303,6 +16578,7 @@
                   "id": "a1S3m000008kHqkCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\")",
                   "elevation": 0
                 },
                 {
@@ -16357,6 +16633,7 @@
                   "id": "a1S3m000008kHqnCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\")",
                   "elevation": 0
                 },
                 {
@@ -16440,6 +16717,7 @@
                   "id": "a1S3m000008kfIiCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\")",
                   "elevation": 0
                 },
                 {
@@ -16494,6 +16772,7 @@
                   "id": "a1S3m000008kGyhCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\")",
                   "elevation": 0
                 },
                 {
@@ -16562,6 +16841,7 @@
                   "id": "a1S1N000008BmkICard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -16616,6 +16896,7 @@
                   "id": "a1S1N000008BmlPCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -16684,6 +16965,7 @@
                   "id": "a1S3m000008NYiaCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -16744,6 +17026,7 @@
                   "id": "a1S1N000005WjnqCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -16798,6 +17081,7 @@
                   "id": "a1S1N000005WjnrCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -16852,6 +17136,7 @@
                   "id": "a1S1N000005WjnsCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -16906,6 +17191,7 @@
                   "id": "a1S1N000005WjntCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -16960,6 +17246,7 @@
                   "id": "a1S1N000005WjnuCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -17014,6 +17301,7 @@
                   "id": "a1S1N000005WjnfCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -17068,6 +17356,7 @@
                   "id": "a1S1N000005WjngCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -17122,6 +17411,7 @@
                   "id": "a1S1N000005WjnhCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -17176,6 +17466,7 @@
                   "id": "a1S1N000005WjnkCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -17230,6 +17521,7 @@
                   "id": "a1S1N000005WjnlCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -17284,6 +17576,7 @@
                   "id": "a1S1N000008C1prCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.province\", \"Ontario\" )",
                   "elevation": 0
                 },
                 {
@@ -17352,6 +17645,7 @@
                   "id": "a1S3m000008NYifCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -17435,6 +17729,7 @@
                   "id": "a1S1N000005WjmYCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -17489,6 +17784,7 @@
                   "id": "a1S1N000005Wjn1Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -17557,6 +17853,7 @@
                   "id": "a1S1N000005WjnvCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -17611,6 +17908,7 @@
                   "id": "a1S1N000005WjnwCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -17665,6 +17963,7 @@
                   "id": "a1S1N000005WjnxCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -17719,6 +18018,7 @@
                   "id": "a1S1N000005WjnyCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -17773,6 +18073,7 @@
                   "id": "a1S1N000005WjnzCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -17827,6 +18128,7 @@
                   "id": "a1S1N000005Wjo7Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -17895,6 +18197,7 @@
                   "id": "a1S3m000008NYikCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -17955,6 +18258,7 @@
                   "id": "a1S1N000005WjmWCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -18009,6 +18313,7 @@
                   "id": "a1S1N000005WjmxCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -18063,6 +18368,7 @@
                   "id": "a1S1N000005WjmyCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -18131,6 +18437,7 @@
                   "id": "a1S3m000006rqlQCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -18185,6 +18492,7 @@
                   "id": "a1S3m000006rqlLCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -18253,6 +18561,7 @@
                   "id": "a1S1N000005Wjo6Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -18307,6 +18616,7 @@
                   "id": "a1S1N000005WjmLCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -18375,6 +18685,7 @@
                   "id": "a1S3m000006sJTrCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -18429,6 +18740,7 @@
                   "id": "a1S3m000006sJTwCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -18483,6 +18795,7 @@
                   "id": "a1S3m000008jw5LCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -18551,6 +18864,7 @@
                   "id": "a1S3m000008NYiMCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -18634,6 +18948,7 @@
                   "id": "a1S1N000005WjoKCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -18694,6 +19009,7 @@
                   "id": "a1S1N000005WjoMCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -18748,6 +19064,7 @@
                   "id": "a1S1N000005WjoOCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -18802,6 +19119,7 @@
                   "id": "a1S1N000005WjnECard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -18856,6 +19174,7 @@
                   "id": "a1S1N000005WjnJCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -18910,6 +19229,7 @@
                   "id": "a1S1N000005WjmJCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -18978,6 +19298,7 @@
                   "id": "a1S1N000005Wjo9Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.province\", \"Quebec\" )",
                   "elevation": 0
                 },
                 {
@@ -19032,6 +19353,7 @@
                   "id": "a1S1N000005WjoBCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.province\", \"Quebec\" )",
                   "elevation": 0
                 },
                 {
@@ -19092,6 +19414,7 @@
                   "id": "a1S1N000005WjoCCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.province\", \"Quebec\" )",
                   "elevation": 0
                 },
                 {
@@ -19152,6 +19475,7 @@
                   "id": "a1S1N000005WjoDCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.province\", \"Quebec\" )",
                   "elevation": 0
                 },
                 {
@@ -19206,6 +19530,7 @@
                   "id": "a1S1N000005WjoICard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.province\", \"Quebec\" )",
                   "elevation": 0
                 },
                 {
@@ -19274,6 +19599,7 @@
                   "id": "a1S3m000008DzcnCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -19328,6 +19654,7 @@
                   "id": "a1S3m000006rZh4Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.province\", \"Ontario\" )",
                   "elevation": 0
                 },
                 {
@@ -19382,6 +19709,7 @@
                   "id": "a1S3m000006rffDCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -19450,6 +19778,7 @@
                   "id": "a1S3m000008LrbUCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -19533,6 +19862,7 @@
                   "id": "a1S1N000005WjmcCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -19587,6 +19917,7 @@
                   "id": "a1S1N000005WjoACard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -19641,6 +19972,7 @@
                   "id": "a1S1N000005Wjn9Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -19701,6 +20033,7 @@
                   "id": "a1S1N000005WjmKCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -19775,6 +20108,7 @@
                   "id": "a1S3m000006rZgaCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -19829,6 +20163,7 @@
                   "id": "a1S3m000006rZgbCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -19883,6 +20218,7 @@
                   "id": "a1S3m000006rZgfCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -19937,6 +20273,7 @@
                   "id": "a1S3m000008E9IhCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -20005,6 +20342,7 @@
                   "id": "a1S3m000008l8pNCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\")",
                   "elevation": 0
                 },
                 {
@@ -20059,6 +20397,7 @@
                   "id": "a1S3m000008l8phCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\")",
                   "elevation": 0
                 },
                 {
@@ -20113,6 +20452,7 @@
                   "id": "a1S3m000008lA0RCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"Canada\")",
                   "elevation": 0
                 },
                 {
@@ -20181,6 +20521,7 @@
                   "id": "a1S1N000008BmAqCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -20235,6 +20576,7 @@
                   "id": "a1S1N000008BmAvCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -20303,6 +20645,7 @@
                   "id": "a1S3m000008NYipCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -20386,6 +20729,7 @@
                   "id": "a1S1N000008CdXjCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -20440,6 +20784,7 @@
                   "id": "a1S1N000008CdXyCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -20494,6 +20839,7 @@
                   "id": "a1S1N000008CdXtCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -20562,6 +20908,7 @@
                   "id": "a1S1N000005WjoJCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -20616,6 +20963,7 @@
                   "id": "a1S1N000005WjoLCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -20684,6 +21032,7 @@
                   "id": "a1S3m000008LldqCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.province\", \"Alberta\",\"British Columbia\",\"Manitoba\",\"New Brunswick\",\"Newfoundland and Labrador\",\"Northwest Territories\",\"Nova Scotia\",\"Nunavut\",\"Ontario\",\"Prince Edward Island\",\"Quebec\",\"Saskatchewan\",\"Yukon\" )",
                   "elevation": 0
                 },
                 {
@@ -20738,6 +21087,7 @@
                   "id": "a1S3m000008Lle0Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.province\", \"Alberta\",\"British Columbia\",\"Manitoba\",\"New Brunswick\",\"Newfoundland and Labrador\",\"Northwest Territories\",\"Nova Scotia\",\"Nunavut\",\"Ontario\",\"Prince Edward Island\",\"Quebec\",\"Saskatchewan\",\"Yukon\" )",
                   "elevation": 0
                 },
                 {
@@ -20807,6 +21157,7 @@
                   "id": "a1S3m000006rWr2Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -20861,6 +21212,7 @@
                   "id": "a1S3m000008jqc9Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -20915,6 +21267,7 @@
                   "id": "a1S3m000006rT4wCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -20969,6 +21322,7 @@
                   "id": "a1S3m000006rT56Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -21023,6 +21377,7 @@
                   "id": "a1S3m000006rTuzCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -21083,6 +21438,7 @@
                   "id": "a1S3m000006rTuuCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -21143,6 +21499,7 @@
                   "id": "a1S3m000006rTufCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -21203,6 +21560,7 @@
                   "id": "a1S3m000006rTvACard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -21279,6 +21637,7 @@
                   "id": "a1S3m000008jr75Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -21339,6 +21698,7 @@
                   "id": "a1S3m000008jr70Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -21393,6 +21753,7 @@
                   "id": "a1S3m000008kb18Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -21453,6 +21814,7 @@
                   "id": "a1S3m000008kb13Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -21513,6 +21875,7 @@
                   "id": "a1S3m000008jxScCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -21581,6 +21944,7 @@
                   "id": "a1S1N000005WjmpCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -21635,6 +21999,7 @@
                   "id": "a1S1N000005WjnLCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -21703,6 +22068,7 @@
                   "id": "a1S3m000008jpusCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -21757,6 +22123,7 @@
                   "id": "a1S3m000008jpunCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -21825,6 +22192,7 @@
                   "id": "a1S3m000008kC1OCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\")",
                   "elevation": 0
                 },
                 {
@@ -21879,6 +22247,7 @@
                   "id": "a1S3m000008kC19Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\")",
                   "elevation": 0
                 },
                 {
@@ -21933,6 +22302,7 @@
                   "id": "a1S3m000008kC1sCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\")",
                   "elevation": 0
                 },
                 {
@@ -22016,6 +22386,7 @@
                   "id": "a1S3m000008kC1dCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\")",
                   "elevation": 0
                 },
                 {
@@ -22099,6 +22470,7 @@
                   "id": "a1S3m000008k88KCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -22159,6 +22531,7 @@
                   "id": "a1S3m000008k885Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\")",
                   "elevation": 0
                 },
                 {
@@ -22213,6 +22586,7 @@
                   "id": "a1S3m000008k88ACard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\")",
                   "elevation": 0
                 },
                 {
@@ -22267,6 +22641,7 @@
                   "id": "a1S3m000008k88FCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\")",
                   "elevation": 0
                 },
                 {
@@ -22321,6 +22696,7 @@
                   "id": "a1S3m000008k88PCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\")",
                   "elevation": 0
                 },
                 {
@@ -22389,6 +22765,7 @@
                   "id": "a1S1N000005WjmnCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -22443,6 +22820,7 @@
                   "id": "a1S1N000005WjnACard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -22511,6 +22889,7 @@
                   "id": "a1S3m000008NaDbCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.province\", \"Ontario\" )",
                   "elevation": 0
                 },
                 {
@@ -22565,6 +22944,7 @@
                   "id": "a1S3m000008NaDWCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.province\", \"Ontario\" )",
                   "elevation": 0
                 },
                 {
@@ -22633,6 +23013,7 @@
                   "id": "a1S1N000005WjmaCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -22687,6 +23068,7 @@
                   "id": "a1S1N000005Wjo5Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -22755,6 +23137,7 @@
                   "id": "a1S3m000008NjESCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -22809,6 +23192,7 @@
                   "id": "a1S3m000008NjEcCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -22863,6 +23247,7 @@
                   "id": "a1S3m000008NjEmCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -22917,6 +23302,7 @@
                   "id": "a1S3m000008NjENCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -22971,6 +23357,7 @@
                   "id": "a1S3m000008NjE8Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -23025,6 +23412,7 @@
                   "id": "a1S3m000008Nj7vCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -23079,6 +23467,7 @@
                   "id": "a1S3m000008Nj8FCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -23147,6 +23536,7 @@
                   "id": "a1S1N000008CMiPCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -23201,6 +23591,7 @@
                   "id": "a1S1N000008CMiUCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -23269,6 +23660,7 @@
                   "id": "a1S3m000008NYiCCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -23352,6 +23744,7 @@
                   "id": "a1S1N000008LAlzCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.province\", \"British Columbia\" )",
                   "elevation": 0
                 },
                 {
@@ -23406,6 +23799,7 @@
                   "id": "a1S1N000005WjmwCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -23460,6 +23854,7 @@
                   "id": "a1S1N000005Wjn7Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -23520,6 +23915,7 @@
                   "id": "a1S1N000005WjmRCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -23580,6 +23976,7 @@
                   "id": "a1S1N000008Bp6KCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.province\", \"Manitoba\",\"New Brunswick\",\"Newfoundland and Labrador\",\"Northwest Territories\",\"Nova Scotia\",\"Nunavut\",\"Ontario\",\"Prince Edward Island\",\"Quebec\",\"Saskatchewan\",\"Yukon\" )",
                   "elevation": 0
                 },
                 {
@@ -23634,6 +24031,7 @@
                   "id": "a1S1N000008LAkhCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.province\", \"Alberta\",\"Saskatchewan\" )",
                   "elevation": 0
                 },
                 {
@@ -23702,6 +24100,7 @@
                   "id": "a1S3m000008kCU7Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\")",
                   "elevation": 0
                 },
                 {
@@ -23770,6 +24169,7 @@
                   "id": "a1S3m000008kBisCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.country\", \"United States\")",
                   "elevation": 0
                 },
                 {
@@ -23830,6 +24230,7 @@
                   "id": "a1S3m000008NYivCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -23913,6 +24314,7 @@
                   "id": "a1S1N000008BmBACard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -23967,6 +24369,7 @@
                   "id": "a1S1N000008BmBFCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -24021,6 +24424,7 @@
                   "id": "a1S1N000008BmB5Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -24075,6 +24479,7 @@
                   "id": "a1S1N000008BmB0Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
@@ -24143,6 +24548,7 @@
                   "id": "a1S1N000005Wjn6Card",
                   "type": "card",
                   "hints": {},
+                  "condition": "valueEquals(\"profile.province\", \"Ontario\" )",
                   "elevation": 0
                 },
                 {
@@ -24197,6 +24603,7 @@
                   "id": "a1S1N000005WjnOCard",
                   "type": "card",
                   "hints": {},
+                  "condition": "",
                   "elevation": 0
                 },
                 {
