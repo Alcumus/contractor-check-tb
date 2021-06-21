@@ -1,5 +1,5 @@
 {
-  "__": "pfe0R9hu3BntOF",
+  "__": "wTGTZEtKQuQffh",
   "_id": "PMW2x8gydP1Gq7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -202,14 +202,14 @@
     {
       "id": "tV6rqmkixtZSUh",
       "name": "1",
-      "time": 1624010472930,
-      "user": "8fa3969a-8f88-46fd-b3bf-6dcb7df5f2b9",
+      "time": 1624302105152,
+      "user": "7dd7cacc-c5ec-4552-bcbf-24159026bb2a",
       "locked": false,
-      "_selectId": "BXedBUbzIJ8HrN",
+      "_selectId": "-wyriOIDHDumi7",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624302016000,
+  "_modified": 1624302309000,
   "components": "verification,localisation",
   "isLockedBy": null,
   "navigation": [],
@@ -7082,7 +7082,7 @@
         },
         {
           "id": "agellanCapitalPartnersInc",
-          "name": "Agellan Capital Partners",
+          "name": "Agellan Capital Partner",
           "sections": [
             {
               "id": "Main",
@@ -7220,7 +7220,10 @@
                   "id": "Fayogh6vIGBozE",
                   "name": "AgellanTC",
                   "type": "boolean",
-                  "hints": {},
+                  "hints": {
+                    "required": true,
+                    "round_button": true
+                  },
                   "choices": [
                     {
                       "label": "Yes",
@@ -7231,7 +7234,8 @@
                       "value": "no"
                     }
                   ],
-                  "question": "<p>Do you agree to Agellan's Terms and Condition?</p>\n",
+                  "helpText": "<p>Click Yes only after you have read and accepted the Terms &amp; Conditions</p>\n",
+                  "question": "<p>Do you agree to Agellan's Terms and Conditions?</p>\n",
                   "_selectId": "qOLcR7WVFzlQ2F",
                   "condition": "",
                   "iconOffsetX": "",
@@ -7239,8 +7243,8 @@
                   "allowNullify": "",
                   "dialogHeader": "Help",
                   "questionHeight": "",
-                  "trueInputLabel": "",
-                  "falseInputLabel": "",
+                  "trueInputLabel": "<p>Yes</p>\n",
+                  "falseInputLabel": "<p>No</p>\n",
                   "questionLeftPad": "",
                   "questionRightPad": "",
                   "questionSpaceBefore": "",
