@@ -1,5 +1,5 @@
 {
-  "__": "b6TVlhhlDhJ2y8",
+  "__": "CHrNOoo0LFUigV",
   "_id": "PMW2x8gydP1Gq7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -209,7 +209,7 @@
       "parentVersion": ""
     }
   ],
-  "_modified": 1624303327000,
+  "_modified": 1624303996000,
   "components": "verification,localisation",
   "isLockedBy": null,
   "navigation": [],
@@ -7277,7 +7277,7 @@
                   "maxWidth": "",
                   "question": "<p>Please describe how you will mitigate the risk of not accepting the Terms &amp; Conditions.</p>\n",
                   "_selectId": "WEZA99SkU72ax8",
-                  "condition": "valueNotEquals(\"AlleganTC\", \"Yes\")",
+                  "condition": "valueNotEquals(\"AgellanTC\", \"Yes\")",
                   "inputLabel": "",
                   "iconOffsetX": "",
                   "iconOffsetY": "",
