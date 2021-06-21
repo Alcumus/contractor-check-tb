@@ -1,5 +1,5 @@
 {
-  "__": "IBmzQZnXjjPcEu",
+  "__": "2mUIdACa2kGhLC",
   "_id": "PMW2x8gydP1Gq7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -202,14 +202,14 @@
     {
       "id": "tV6rqmkixtZSUh",
       "name": "1",
-      "time": 1624295029348,
+      "time": 1624295213152,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "NMikdo1dZQAgZ9",
+      "_selectId": "f9lqcL_V1Gwh8v",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624291430000,
+  "_modified": 1624291614000,
   "components": "verification,localisation,hint-text",
   "isLockedBy": null,
   "navigation": [],
@@ -24696,7 +24696,7 @@
       ],
       "styled": [
         {
-          "css": ".type-text .aweQuestionText:not(:empty), .type-choice .aweQuestionText:not(:empty) {\n    border-top: 2px solid #008fda80;\n    padding-top: 6px;\n    margin-top: 2px;\n    margin-right: 22px;\n}\n\nsmall {\n    padding-top: 9px;\n    display: inline-block;\n    text-transform: uppercase;\n    font-size: 12px;\n}",
+          "css": "\nsmall {\n    padding-top: 9px;\n    display: inline-block;\n    text-transform: uppercase;\n    font-size: 12px;\n}",
           "_init": true,
           "_selectId": "NLY2NocxuOJULv"
         }
