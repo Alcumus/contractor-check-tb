@@ -1,0 +1,26 @@
+{
+  "__": "sAqa2GnwG5J6KK",
+  "_id": "rsihYJKKDVyaYN:hestia/topicsettings",
+  "$valid": true,
+  "_client": "rsihYJKKDVyaYN",
+  "$creator": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+  "$invalid": false,
+  "_deleted": 0,
+  "__modified": 1623997617500,
+  "notificationType": "",
+  "_created": 1623993628000,
+  "_modified": 1623994017000,
+  "_original": {
+    "__": "sAqa2GnwG5J6KK",
+    "_id": "rsihYJKKDVyaYN:hestia/topicsettings",
+    "$valid": true,
+    "_client": "rsihYJKKDVyaYN",
+    "$creator": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "$invalid": false,
+    "_deleted": 0,
+    "__modified": 1623997617500,
+    "notificationType": "",
+    "_created": 1623993628000,
+    "_modified": 1623994017000
+  }
+}

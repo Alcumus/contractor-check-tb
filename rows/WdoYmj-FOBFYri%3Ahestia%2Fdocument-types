@@ -1,6 +1,6 @@
 [
   {
-    "__": "lTeKH4Dex7LAIK",
+    "__": "Xo04bEtEKPFrar",
     "ZIP": "999",
     "_id": "1621266694681:companyP/companyP",
     "City": "Racoon City",
@@ -121,7 +121,7 @@
       "Alberta",
       "British Columbia"
     ],
-    "_modified": 1622140607000,
+    "_modified": 1623992626000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
@@ -132,6 +132,14 @@
     "companySize": "Sole Proprietor",
     "description": "An expert in everything construction",
     "__originalId": "1621266694681:companyP/companyP",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      }
+    },
     "contractorId": "1621266694681",
     "profileState": "Saved",
     "workActivity": [
@@ -166,7 +174,7 @@
     ]
   },
   {
-    "__": "TI8WZijO_zLcB_",
+    "__": "BVCkiKmfG0Ni9A",
     "ZIP": "32323",
     "_id": "1621268379734:companyP/companyP",
     "City": "Toronto",
@@ -202,7 +210,7 @@
       "Prince Edward Island",
       "Quebec"
     ],
-    "_modified": 1621848707000,
+    "_modified": 1623992264000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
@@ -213,6 +221,11 @@
     "companySize": "Small Business",
     "description": "Just your run of the saw mill tree surgeon",
     "__originalId": "1621268379734:companyP/companyP",
+    "_updaterInfo": {
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      }
+    },
     "contractorId": "1621268379734",
     "profileState": "Saved",
     "workActivity": [
@@ -250,7 +263,7 @@
     ]
   },
   {
-    "__": "wfff4u22vTeVEw",
+    "__": "wY94SVz_CkJ9-p",
     "ZIP": "",
     "_id": "1621327241644:companyP/companyP",
     "City": "Toronto",
@@ -302,6 +315,12 @@
             "_settings": {
               "_id": "WdoYmj-FOBFYri:hestia/document-types"
             }
+          },
+          {
+            "_id": "5Qs5Ptp-z8jP5G:companyP/companyP",
+            "_settings": {
+              "_id": "WdoYmj-FOBFYri:hestia/document-types"
+            }
           }
         ]
       },
@@ -309,6 +328,12 @@
         "rows": [
           {
             "_id": "98453gUyyYYtgR:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          },
+          {
+            "_id": "ulG_R7NkaQh6dD:workA/workA",
             "_settings": {
               "_id": "rH6EL6EJjx3vGG:hestia/document-types"
             }
@@ -321,18 +346,30 @@
     "$valid": true,
     "SHARED": {},
     "client": "rsihYJKKDVyaYN",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624022448308,
+        "documentCreated": 1624022448308,
+        "t-msTTT8c9WnoZjr": {
+          "id": "O2H0jAsa3TXrxT",
+          "start": 1624022448336,
+          "commence": 1624022448336,
+          "oNPf9wmBHl9ORG": {
+            "commence": 1624022448336
+          }
+        }
+      }
+    },
     "_client": "rsihYJKKDVyaYN",
     "address": "",
     "clients": [
-      null,
-      null,
-      null,
       "Agellan Capital Partners Inc",
       "Branksome Hall",
       "Calgary Co-Operative Association Limited",
       "EPIC Investment Services (Client)",
       "First Capital - REIT",
-      "Ivanhoe Cambridge Inc."
+      "Ivanhoe Cambridge Inc.",
+      "K-Line Group"
     ],
     "country": [
       "Canada"
@@ -348,12 +385,12 @@
       "Saskatchewan",
       "Ontario"
     ],
-    "_modified": 1622140050000,
+    "_modified": 1624018848000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
-      "$state": "Saved"
+      "$state": "Approved"
     },
-    "__sourceId": "jkRuOdTNjERiWh:applications/Contractor Check-JChJ76vPTnXeyQ",
+    "__sourceId": "1621327241644-general:contractorcheck/contractorAnswers",
     "_components": {},
     "companyName": "Windward Teams",
     "companySize": "Small Business",
@@ -362,36 +399,44 @@
       "98453gUyyYYtgR:workA/workA": {}
     },
     "__originalId": "1621327241644:companyP/companyP",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Approved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      }
+    },
     "contractorId": "1621327241644",
     "profileState": "Saved",
     "workActivity": [
-      "Air Conditioning"
+      "Air Conditioning",
+      "Steamfitter"
     ],
     "clientsLookup": [
-      "HDTuiRXl7x4xZa:clientA/clientA",
-      "uuXBXVLGS9H3Pu:clientA/clientA",
-      "sdJ8ejzGBxYPr_:clientA/clientA",
       "8-DZ0dQ-ny8sF0:companyP/companyP",
       "aDQEUTeZ5XXY8n:companyP/companyP",
       "trzCa9I4sMgRmV:companyP/companyP",
       "iawY_HehQF-ZBu:companyP/companyP",
       "k7edZG8PkJSqaj:companyP/companyP",
-      "LPFyKe_7BTUWJ-:companyP/companyP"
+      "LPFyKe_7BTUWJ-:companyP/companyP",
+      "5Qs5Ptp-z8jP5G:companyP/companyP"
     ],
     "doYouContract": "yes",
     "classification": "Construction",
     "workActivities": [
-      "98453gUyyYYtgR:workA/workA"
+      "98453gUyyYYtgR:workA/workA",
+      "ulG_R7NkaQh6dD:workA/workA"
     ],
     "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1621327285151,
     "headOfficeCountry": "Canada",
     "numberOfEmployees": 59,
-    "preferredLanguage": "",
+    "preferredLanguage": "English",
     "doYouUseContractors": "no"
   },
   {
-    "__": "sENeOvkSUqA6yE",
+    "__": "JZ4mMpjmANv4PR",
     "ZIP": "",
     "_id": "1621330978348:companyP/companyP",
     "City": "",
@@ -470,6 +515,20 @@
     "$valid": true,
     "SHARED": {},
     "client": "rsihYJKKDVyaYN",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624022185512,
+        "documentCreated": 1624022185512,
+        "t-msTTT8c9WnoZjr": {
+          "id": "PKjbGxX_8dlZFs",
+          "start": 1624022422717,
+          "commence": 1624022422717,
+          "oNPf9wmBHl9ORG": {
+            "commence": 1624022422717
+          }
+        }
+      }
+    },
     "_client": "rsihYJKKDVyaYN",
     "address": "The Office",
     "clients": [
@@ -494,12 +553,12 @@
       "Nunavut",
       "Newfoundland and Labrador"
     ],
-    "_modified": 1622140674000,
+    "_modified": 1624018793000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
-      "$state": "Saved"
+      "$state": "Approved"
     },
-    "__sourceId": "32Dk-6QR723HOu:applications/Contractor Check-JChJ76vPTnXeyQ",
+    "__sourceId": "1621330978348-general:contractorcheck/contractorAnswers",
     "_components": {},
     "companyName": "Site Design Contractors",
     "companySize": "Small Business",
@@ -510,6 +569,14 @@
       }
     },
     "__originalId": "1621330978348:companyP/companyP",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Approved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      }
+    },
     "contractorId": "1621330978348",
     "profileState": "Saved",
     "workActivity": [
@@ -534,14 +601,14 @@
       "KSoRD4ak6jh6RI:workA/workA"
     ],
     "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-    "_stateChangedAt": 1621331113649,
+    "_stateChangedAt": 1624022422669,
     "headOfficeCountry": "",
     "numberOfEmployees": 155,
     "preferredLanguage": "French",
     "doYouUseContractors": "no"
   },
   {
-    "__": "4vS0XRku6ycVJN",
+    "__": "IslkfadqZ1fs4D",
     "ZIP": "",
     "_id": "1621430770419:companyP/companyP",
     "City": "",
@@ -630,6 +697,12 @@
     "$valid": true,
     "SHARED": {},
     "client": "rsihYJKKDVyaYN",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624021722496,
+        "documentCreated": 1624021722496
+      }
+    },
     "_client": "rsihYJKKDVyaYN",
     "address": "",
     "clients": [
@@ -655,17 +728,25 @@
     "_created": 1621461173000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "_modified": 1622140071000,
+    "_modified": 1624018573000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
-      "$state": "Saved"
+      "$state": "Assessed"
     },
-    "__sourceId": "_ZafiS2yBihCUL:applications/Contractor Check-JChJ76vPTnXeyQ",
+    "__sourceId": "1621430770419-general:contractorcheck/contractorAnswers",
     "_components": {},
     "companyName": "Master Contractors USA",
     "companySize": "Large Business",
     "description": "We are a really cool company full of really cool people",
     "__originalId": "1621430770419:companyP/companyP",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Approved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      }
+    },
     "contractorId": "1621430770419",
     "profileState": "Saved",
     "workActivity": [
@@ -693,169 +774,249 @@
       "Zb5UkuGQwdKIZA:workA/workA"
     ],
     "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-    "_stateChangedAt": 1621430803874,
+    "_stateChangedAt": 1624022173263,
     "headOfficeCountry": "",
     "numberOfEmployees": 1225,
     "preferredLanguage": "English",
     "doYouUseContractors": "no"
   },
   {
-    "__": "0Z6cIG6MpBPkS8",
+    "__": "fDzfCsZ8wt2rbx",
     "_id": "8-DZ0dQ-ny8sF0:companyP/companyP",
     "_client": "rsihYJKKDVyaYN",
     "$created": true,
+    "_created": 1622140349000,
     "_deleted": 0,
     "_version": "Preferred Language",
+    "_modified": 1623993199000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
     "companyName": "Agellan Capital Partners Inc",
+    "_updaterInfo": {
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      }
+    },
     "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143948999,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "Ee95oKbVgIUHJ5",
+    "__": "1Ix1-9DETfYUAD",
     "_id": "2Jb4IVFL3hrjMQ:companyP/companyP",
     "_client": "rsihYJKKDVyaYN",
     "$created": true,
+    "_created": 1622140349000,
     "_deleted": 0,
     "_version": "Preferred Language",
+    "_modified": 1623993186000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
     "companyName": "BURNCO Rock Products Ltd - Client",
+    "_updaterInfo": {
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      }
+    },
     "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143949189,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "VmlDUI8d9QW4M0",
+    "__": "o5SXsCiUepz4ki",
     "_id": "Mx20OTel7MWV4d:companyP/companyP",
     "_client": "rsihYJKKDVyaYN",
     "$created": true,
+    "_created": 1622140349000,
     "_deleted": 0,
     "_version": "Preferred Language",
+    "_modified": 1623992816000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
     "companyName": "Bimbo Canada (Canada Bread)",
+    "_updaterInfo": {
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      }
+    },
     "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143949375,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "OnwYXXSLwZQZEq",
+    "__": "ZwcICfpeCVQ87J",
     "_id": "0pVu0Ed45F96oN:companyP/companyP",
     "_client": "rsihYJKKDVyaYN",
     "$created": true,
+    "_created": 1622140349000,
     "_deleted": 0,
     "_version": "Preferred Language",
+    "_modified": 1623992817000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
     "companyName": "Bird Construction (Client)",
+    "_updaterInfo": {
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      }
+    },
     "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143949577,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "rDRv9QsU1yFvHc",
+    "__": "L8cOqEPoQcdU9_",
     "_id": "lcdBsxkACkPCHQ:companyP/companyP",
     "_client": "rsihYJKKDVyaYN",
     "$created": true,
+    "_created": 1622140349000,
     "_deleted": 0,
     "_version": "Preferred Language",
+    "_modified": 1623992817000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
     "companyName": "Bouygues Energies & Services",
+    "_updaterInfo": {
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      }
+    },
     "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143949790,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "7drMX_HdjA5BiH",
+    "__": "LL1YV5eX0rhZwT",
     "_id": "aDQEUTeZ5XXY8n:companyP/companyP",
     "_client": "rsihYJKKDVyaYN",
     "$created": true,
+    "_created": 1622140350000,
     "_deleted": 0,
     "_version": "Preferred Language",
+    "_modified": 1622140350000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
     "companyName": "Branksome Hall",
+    "_updaterInfo": {
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      }
+    },
     "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143949999,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "Nz_HlC8TkBgJ1B",
+    "__": "PvQ6gkVHMbA4S-",
     "_id": "yX3iTKf69fG_Pl:companyP/companyP",
     "_client": "rsihYJKKDVyaYN",
     "$created": true,
+    "_created": 1622140350000,
     "_deleted": 0,
     "_version": "Preferred Language",
+    "_modified": 1622140350000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
     "companyName": "CBRE (Alberta) Client",
+    "_updaterInfo": {
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      }
+    },
     "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143950236,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "xssLJcr0_U0XCs",
+    "__": "N496ZIkdbbbySr",
     "_id": "3Ob7yOFe2186wl:companyP/companyP",
     "_client": "rsihYJKKDVyaYN",
     "$created": true,
+    "_created": 1622140350000,
     "_deleted": 0,
     "_version": "Preferred Language",
+    "_modified": 1622140350000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
     "companyName": "CBRE Limited (Client)",
+    "_updaterInfo": {
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      }
+    },
     "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143950427,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "kj7S_d2dfmbDeQ",
+    "__": "vMAgu5aEe3j5TK",
     "_id": "o9F45eoXN7sntB:companyP/companyP",
     "_client": "rsihYJKKDVyaYN",
     "$created": true,
+    "_created": 1622140350000,
     "_deleted": 0,
     "_version": "Preferred Language",
+    "_modified": 1622140350000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
     "companyName": "Cadillac Fairview Corporation Limited",
+    "_updaterInfo": {
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      }
+    },
     "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143950612,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "Jw-v2rp4tMiO28",
+    "__": "dfZAkFreXNjYsS",
     "_id": "trzCa9I4sMgRmV:companyP/companyP",
     "_client": "rsihYJKKDVyaYN",
     "$created": true,
+    "_created": 1622140350000,
     "_deleted": 0,
     "_version": "Preferred Language",
+    "_modified": 1622140350000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
     "companyName": "Calgary Co-Operative Association Limited",
+    "_updaterInfo": {
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      }
+    },
     "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143950805,
     "doYouUseContractors": "yes"
   },
