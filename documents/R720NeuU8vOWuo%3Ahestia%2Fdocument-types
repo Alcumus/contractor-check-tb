@@ -1,5 +1,5 @@
 {
-  "__": "R5Y7hNrq4A9mK6",
+  "__": "rX5PgUjjNe96CW",
   "_id": "R720NeuU8vOWuo:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -169,7 +169,7 @@
   },
   "$valid": true,
   "__warn": false,
-  "client": "@WORK",
+  "client": "rsihYJKKDVyaYN",
   "gitHub": {
     "1J8739KZBOtzVQ": {
       "publishDocs": "",
@@ -185,7 +185,7 @@
     }
   },
   "locked": false,
-  "_client": "@WORK",
+  "_client": "rsihYJKKDVyaYN",
   "demands": [],
   "graphQL": {
     "6g4mciY7jkfOUo": {
@@ -207,12 +207,20 @@
       "name": "1.0",
       "time": 1623759820880,
       "user": "64467393-61e5-45fe-a026-45aed6419337",
-      "locked": false,
+      "locked": true,
       "_selectId": "SqEGblmOptRCCD",
       "parentVersion": ""
+    },
+    {
+      "id": "vlDXNbqvv_2SA_",
+      "name": "1.0.1",
+      "time": 1624367959907,
+      "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
+      "locked": true,
+      "parentVersion": "sTNP-VH3hEzwdP"
     }
   ],
-  "_modified": 1623759823000,
+  "_modified": 1624367968000,
   "components": "verification,navigation,richtext",
   "isLockedBy": null,
   "navigation": [],
@@ -1638,16 +1646,15 @@
   "tabsSelected": "#009fda",
   "__warnReasons": [],
   "documentColor": "#333",
-  "_activeVersion": "vlDXNbqvv_2SA_",
-  "_parentVersion": "sTNP-VH3hEzwdP",
+  "_activeVersion": "ILPcxTbq4OqK52",
+  "_parentVersion": "vlDXNbqvv_2SA_",
   "currentVersion": {
-    "live": "1.0",
-    "testing": "1.0",
-    "development": "1.0"
+    "live": "1.0.1",
+    "development": "1.0.1"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "64467393-61e5-45fe-a026-45aed6419337",
+  "_lastModifiedBy": "7360895b-2e38-4601-baf6-16af027bf7ae",
   "defaultActivity": null,
   "devices-allowed": "",
   "sideBarMinWidth": 150,
