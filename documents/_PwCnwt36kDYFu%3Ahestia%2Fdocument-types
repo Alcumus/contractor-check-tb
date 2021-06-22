@@ -1,5 +1,5 @@
 {
-  "__": "NKUnikGCshRm_x",
+  "__": "ZETwgrPXzheHWs",
   "_id": "_PwCnwt36kDYFu:hestia/document-types",
   "icon": "",
   "name": "DemoCompanyRecord",
@@ -166,6 +166,7 @@
     "permanentTheme": ""
   },
   "$valid": true,
+  "client": "rsihYJKKDVyaYN",
   "gitHub": {
     "1J8739KZBOtzVQ": {
       "publishDocs": "",
@@ -180,7 +181,8 @@
       "gitHubPublish": true
     }
   },
-  "_client": "@WORK",
+  "locked": false,
+  "_client": "rsihYJKKDVyaYN",
   "demands": [],
   "graphQL": {
     "6g4mciY7jkfOUo": {
@@ -198,9 +200,17 @@
       "name": "1",
       "time": 1624011314927,
       "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
-      "locked": false,
+      "locked": true,
       "_selectId": "CQn7R1iY6mfyxE",
       "parentVersion": ""
+    },
+    {
+      "id": "AFJ_YDOABQ3zPH",
+      "name": "1.0.1",
+      "time": 1624367959999,
+      "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
+      "locked": true,
+      "parentVersion": "7KiZdDrgmYmC58"
     }
   ],
   "webhooks": {
@@ -208,8 +218,9 @@
       "exposeWebhooks": ""
     }
   },
-  "_modified": 1624011315000,
+  "_modified": 1624367981000,
   "components": "",
+  "isLockedBy": null,
   "navigation": [],
   "_behaviours": {
     "_state": "",
@@ -360,12 +371,11 @@
   "sidebarColor": "#333",
   "tabsSelected": "#009fda",
   "documentColor": "#333",
-  "_activeVersion": "AFJ_YDOABQ3zPH",
-  "_parentVersion": "7KiZdDrgmYmC58",
+  "_activeVersion": "n0GoVXK2c7xw0P",
+  "_parentVersion": "AFJ_YDOABQ3zPH",
   "currentVersion": {
-    "live": "1",
-    "testing": "1",
-    "development": "1"
+    "live": "1.0.1",
+    "development": "1.0.1"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
@@ -376,5 +386,6 @@
   "documentBackdrop": "#f4f4f4",
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
-  "devices-allowed-html": ""
+  "devices-allowed-html": "",
+  "isLockedByCurrentUser": false
 }
