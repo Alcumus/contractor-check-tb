@@ -1,5 +1,5 @@
 {
-  "__": "7J3iwYP9I2zl_v",
+  "__": "ZwkMNIA7GClfBz",
   "_id": "Hfqzb-gWFBvgaC:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -175,8 +175,16 @@
       "publishDocs": "",
       "gitHubPublish": true
     },
+    "1rr4bM4EH-AQP9": {
+      "publishDocs": true,
+      "gitHubPublish": true
+    },
     "aV8boSk1D6q6YG": {
       "publishDocs": true,
+      "gitHubPublish": true
+    },
+    "zHYkrrsjUcXvCT": {
+      "publishDocs": "",
       "gitHubPublish": true
     }
   },
@@ -190,10 +198,17 @@
       "exposeAPI": true,
       "readDemands": [],
       "writeDemands": []
+    },
+    "aZ5t8g0t4u8p6D": {
+      "read": true,
+      "write": true,
+      "exposeAPI": true,
+      "readDemands": [],
+      "writeDemands": []
     }
   },
   "$invalid": false,
-  "_created": 1622461285000,
+  "_created": 1621423256000,
   "_deleted": 0,
   "database": "employees",
   "maxWidth": 1000,
@@ -210,13 +225,23 @@
     {
       "id": "4w4Iz8cY-JOkOd",
       "name": "1.0.1",
-      "time": 1624368525099,
-      "user": "ff79dada-c9af-494d-9025-39ccae118cea",
+      "time": 1624367960000,
+      "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
       "locked": true,
+      "_selectId": "Mf-l2dl3CfuSnm",
       "parentVersion": "YJW3Dk3mqjtsXR"
+    },
+    {
+      "id": "_akUJyXrK76c26",
+      "name": "1.1",
+      "time": 1624374569351,
+      "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
+      "locked": false,
+      "_selectId": "LZB-LJQt02Af4c",
+      "parentVersion": "4w4Iz8cY-JOkOd"
     }
   ],
-  "_modified": 1624368530000,
+  "_modified": 1624374574000,
   "components": "card 2.0",
   "isLockedBy": null,
   "navigation": [],
@@ -439,15 +464,16 @@
   "tabsSelected": "#009fda",
   "__warnReasons": [],
   "documentColor": "#333",
-  "_activeVersion": "4SGSR0TvcEbH4q",
-  "_parentVersion": "4w4Iz8cY-JOkOd",
+  "_activeVersion": "hH_iWXylvcTC-5",
+  "_parentVersion": "_akUJyXrK76c26",
   "currentVersion": {
-    "live": "1.0.1",
-    "development": "1.0.1"
+    "live": "1.1",
+    "testing": "1.1",
+    "development": "1.1"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "ff79dada-c9af-494d-9025-39ccae118cea",
+  "_lastModifiedBy": "7360895b-2e38-4601-baf6-16af027bf7ae",
   "defaultActivity": "B1nGalSvcwX7ea",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
