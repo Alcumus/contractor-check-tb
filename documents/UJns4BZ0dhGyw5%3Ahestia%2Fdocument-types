@@ -1,5 +1,5 @@
 {
-  "__": "ILrz5jizYJT2Am",
+  "__": "y8uDaGzt5JmBqo",
   "_id": "UJns4BZ0dhGyw5:hestia/document-types",
   "icon": "",
   "name": "Master List Company Profile",
@@ -172,7 +172,15 @@
       "publishDocs": "",
       "gitHubPublish": true
     },
+    "1rr4bM4EH-AQP9": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
     "aV8boSk1D6q6YG": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
+    "zHYkrrsjUcXvCT": {
       "publishDocs": "",
       "gitHubPublish": true
     }
@@ -182,6 +190,13 @@
   "demands": [],
   "graphQL": {
     "6g4mciY7jkfOUo": {
+      "read": true,
+      "write": true,
+      "exposeAPI": true,
+      "readDemands": [],
+      "writeDemands": []
+    },
+    "aZ5t8g0t4u8p6D": {
       "read": true,
       "write": true,
       "exposeAPI": true,
@@ -210,10 +225,20 @@
       "time": 1624367960003,
       "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
       "locked": true,
+      "_selectId": "8_rwKMuY2ew8NB",
       "parentVersion": "8eXUnVjk2o1gFo"
+    },
+    {
+      "id": "VS0wTpuS4ZELYB",
+      "name": "2.0.0",
+      "time": 1624374073217,
+      "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
+      "locked": false,
+      "_selectId": "HduzZXbTWaJ9D-",
+      "parentVersion": "zj8LEt7EOU-k4m"
     }
   ],
-  "_modified": 1624367982000,
+  "_modified": 1624374078000,
   "components": "",
   "isLockedBy": null,
   "navigation": [],
@@ -244,8 +269,8 @@
   "sidebarColor": "#333",
   "tabsSelected": "#009fda",
   "documentColor": "#333",
-  "_activeVersion": "VS0wTpuS4ZELYB",
-  "_parentVersion": "zj8LEt7EOU-k4m",
+  "_activeVersion": "if-_6c3fRSCl-K",
+  "_parentVersion": "VS0wTpuS4ZELYB",
   "currentVersion": {
     "live": "1.0.1",
     "development": "1.0.1"
