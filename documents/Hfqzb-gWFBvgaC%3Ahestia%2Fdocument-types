@@ -1,5 +1,5 @@
 {
-  "__": "Kqa8wv93YEQuPF",
+  "__": "VOeJP1HAP6_jsQ",
   "_id": "Hfqzb-gWFBvgaC:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -234,14 +234,14 @@
     {
       "id": "_akUJyXrK76c26",
       "name": "1.1",
-      "time": 1624379040476,
+      "time": 1624381294680,
       "user": "3e424bc3-fb9a-47a1-93a1-056351146687",
       "locked": false,
-      "_selectId": "WdRWPQ3KvAjiXp",
+      "_selectId": "GO7tvsLtlh-Ew_",
       "parentVersion": "4w4Iz8cY-JOkOd"
     }
   ],
-  "_modified": 1624375440000,
+  "_modified": 1624377695000,
   "components": "card 2.0",
   "isLockedBy": null,
   "navigation": [],

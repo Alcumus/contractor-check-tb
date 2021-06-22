@@ -198,5 +198,45 @@
     "_components": {},
     "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1621620711166
+  },
+  {
+    "__": "NpP-1iS-4kHxSe",
+    "_id": "aYmJowffOyCxrC:employees/employees",
+    "name": "HS Gez",
+    "team": "sFMo1b34V1rDjy:Teams/Teams",
+    "_info": {
+      "jRawGTbzEEF8gF": {
+        "rows": [
+          {
+            "_id": "sFMo1b34V1rDjy:Teams/Teams",
+            "_settings": {
+              "_id": "DB_f1fuVIK7FWT:hestia/document-types"
+            }
+          }
+        ]
+      }
+    },
+    "email": "geraint.farley@alcumus.com",
+    "$modes": {},
+    "$valid": true,
+    "SHARED": {},
+    "client": "rsihYJKKDVyaYN",
+    "_client": "rsihYJKKDVyaYN",
+    "$created": true,
+    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
+    "$invalid": false,
+    "_created": 1621592582000,
+    "_deleted": 0,
+    "_version": "Employees",
+    "__created": 1621592582335,
+    "__version": "YJW3Dk3mqjtsXR",
+    "_modified": 1621592582000,
+    "_settings": {
+      "$id": "Hfqzb-gWFBvgaC:hestia/document-types",
+      "$state": "Saved"
+    },
+    "_components": {},
+    "_lastModifiedBy": "64467393-61e5-45fe-a026-45aed6419337",
+    "_stateChangedAt": 1621592582981
   }
 ]
