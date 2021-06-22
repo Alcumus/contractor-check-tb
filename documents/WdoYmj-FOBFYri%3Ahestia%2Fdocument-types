@@ -1,5 +1,5 @@
 {
-  "__": "y0fnm29QthsvD4",
+  "__": "Fv0VTAwC98Peq2",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -182,6 +182,7 @@
   },
   "locked": false,
   "_client": "rsihYJKKDVyaYN",
+  "country": [],
   "demands": [],
   "graphQL": {
     "6g4mciY7jkfOUo": {
@@ -192,11 +193,14 @@
       "writeDemands": []
     }
   },
+  "$created": true,
+  "$creator": "7360895b-2e38-4601-baf6-16af027bf7ae",
   "$invalid": false,
-  "_created": 1621461152000,
+  "_created": 1621422682000,
   "_deleted": 0,
   "database": "companyP",
   "maxWidth": 1000,
+  "province": [],
   "versions": [
     {
       "id": "2FhqrIfj2Pj8uA",
@@ -230,17 +234,25 @@
       "name": "Preferred Language",
       "time": 1624280844273,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-      "locked": false,
+      "locked": true,
       "_selectId": "TqkfimrzXsY181",
       "parentVersion": "Bx_OD0XlxHBKQx"
+    },
+    {
+      "id": "zk0gwNadHUfzTE",
+      "name": "1.0.1",
+      "time": 1624367959992,
+      "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
+      "locked": true,
+      "parentVersion": "GmG8PN_c_6Ta_E"
     }
   ],
-  "_modified": 1624277244000,
+  "_modified": 1624367969000,
   "components": "navigation",
   "isLockedBy": null,
   "navigation": [],
   "_behaviours": {
-    "_state": "",
+    "_state": "New",
     "instances": {
       "form": [
         {
@@ -263,7 +275,130 @@
                   "hints": {},
                   "question": "",
                   "_selectId": "ehEKg8C57sgFSX",
-                  "condition": ""
+                  "condition": "",
+                  "questions": [
+                    {
+                      "id": "bO8QCmZeOBMtJ6",
+                      "name": "",
+                      "type": "title",
+                      "color": "#ffffff",
+                      "hints": {},
+                      "title": "Details",
+                      "question": "",
+                      "_selectId": "DCsbSy0L3VTLkz",
+                      "condition": "",
+                      "questionHeight": "",
+                      "backgroundColor": "#0081af",
+                      "questionLeftPad": "",
+                      "questionRightPad": "",
+                      "questionSpaceBefore": ""
+                    },
+                    {
+                      "id": "UVxygrF9sqVrgJ",
+                      "name": "companyName",
+                      "type": "text",
+                      "hints": {},
+                      "maxWidth": "",
+                      "question": "",
+                      "_selectId": "EwKg0PNptp3x9I",
+                      "condition": "",
+                      "inputLabel": "",
+                      "defaultValue": "",
+                      "questionHeight": "",
+                      "questionLeftPad": "",
+                      "questionRightPad": "",
+                      "questionSpaceBefore": ""
+                    },
+                    {
+                      "id": "fToPIYyylGM46y",
+                      "name": "description",
+                      "type": "text",
+                      "hints": {
+                        "rich_text": true
+                      },
+                      "maxWidth": "",
+                      "question": "<p>Enter a description of your business that will be shown on the master list profile.</p>\n",
+                      "_selectId": "HJQerx3AeorCBr",
+                      "condition": "",
+                      "inputLabel": "",
+                      "defaultValue": "",
+                      "questionHeight": "",
+                      "questionLeftPad": "",
+                      "questionRightPad": "",
+                      "questionSpaceBefore": ""
+                    },
+                    {
+                      "id": "jPhyMzcthwTK3Z",
+                      "name": "preferredLanguage",
+                      "type": "choice",
+                      "hints": {},
+                      "choices": [
+                        {
+                          "label": "English",
+                          "value": "English"
+                        },
+                        {
+                          "label": "French",
+                          "value": "French"
+                        }
+                      ],
+                      "question": "",
+                      "_selectId": "T__8lGmnObInjH",
+                      "condition": "",
+                      "inputLabel": "",
+                      "choiceOptions": {
+                        "French": {
+                          "icon": "",
+                          "colour": ""
+                        },
+                        "English": {
+                          "icon": "",
+                          "colour": ""
+                        }
+                      },
+                      "defaultChoices": [],
+                      "questionHeight": "",
+                      "questionLeftPad": "",
+                      "questionRightPad": "",
+                      "questionSpaceBefore": ""
+                    },
+                    {
+                      "id": "a7K7TYfhU3ntRS",
+                      "name": "email",
+                      "type": "text",
+                      "hints": {
+                        "email": true
+                      },
+                      "maxWidth": "",
+                      "question": "",
+                      "_selectId": "9McnSE7SfWwM6i",
+                      "condition": "",
+                      "inputLabel": "",
+                      "defaultValue": "",
+                      "questionHeight": "",
+                      "questionLeftPad": "",
+                      "questionRightPad": "",
+                      "questionSpaceBefore": ""
+                    },
+                    {
+                      "id": "LQMLXTqEZuw3wS",
+                      "name": "phone",
+                      "type": "text",
+                      "hints": {
+                        "phone": true
+                      },
+                      "maxWidth": "",
+                      "question": "",
+                      "_selectId": "kERgYm9VT-9yZd",
+                      "condition": "",
+                      "inputLabel": "",
+                      "defaultValue": "",
+                      "questionHeight": "",
+                      "questionLeftPad": "",
+                      "questionRightPad": "",
+                      "questionSpaceBefore": ""
+                    }
+                  ]
                 },
                 {
                   "id": "bO8QCmZeOBMtJ6",
@@ -396,7 +531,91 @@
                   "hints": {},
                   "question": "",
                   "_selectId": "WuF_6GIRdXJMh0",
-                  "condition": ""
+                  "condition": "",
+                  "questions": [
+                    {
+                      "id": "9XTBPephjGt1Cb",
+                      "name": "",
+                      "type": "title",
+                      "color": "#ffffff",
+                      "hints": {},
+                      "title": "Location",
+                      "question": "",
+                      "_selectId": "9TRlL8HF4HUwGZ",
+                      "condition": "",
+                      "questionHeight": "",
+                      "backgroundColor": "#0081af",
+                      "questionLeftPad": "",
+                      "questionRightPad": "",
+                      "questionSpaceBefore": ""
+                    },
+                    {
+                      "id": "w-bdfrSO3fwaaU",
+                      "name": "address",
+                      "type": "text",
+                      "hints": {
+                        "multi_line": true
+                      },
+                      "maxWidth": "",
+                      "question": "",
+                      "_selectId": "p0MZEvk-kIZ5wf",
+                      "condition": "",
+                      "inputLabel": "",
+                      "defaultValue": "",
+                      "questionHeight": "",
+                      "questionLeftPad": "",
+                      "questionRightPad": "",
+                      "questionSpaceBefore": ""
+                    },
+                    {
+                      "id": "_TkVTpX5P9WCPc",
+                      "name": "City",
+                      "type": "text",
+                      "hints": {},
+                      "maxWidth": "",
+                      "question": "",
+                      "_selectId": "otZLg2XxIit8n9",
+                      "condition": "",
+                      "inputLabel": "",
+                      "defaultValue": "",
+                      "questionHeight": "",
+                      "questionLeftPad": "",
+                      "questionRightPad": "",
+                      "questionSpaceBefore": ""
+                    },
+                    {
+                      "id": "Z1bAvMA5JxxkN8",
+                      "name": "ZIP",
+                      "type": "text",
+                      "hints": {},
+                      "maxWidth": "",
+                      "question": "",
+                      "_selectId": "8k17MkxY3d6eFA",
+                      "condition": "",
+                      "inputLabel": "",
+                      "defaultValue": "",
+                      "questionHeight": "",
+                      "questionLeftPad": "",
+                      "questionRightPad": "",
+                      "questionSpaceBefore": ""
+                    },
+                    {
+                      "id": "apOQJF6oBr9XLR",
+                      "name": "headOfficeCountry",
+                      "type": "text",
+                      "hints": {},
+                      "maxWidth": "",
+                      "question": "",
+                      "_selectId": "jW5RIYpctgpA-A",
+                      "condition": "",
+                      "inputLabel": "Country",
+                      "defaultValue": "",
+                      "questionHeight": "",
+                      "questionLeftPad": "",
+                      "questionRightPad": "",
+                      "questionSpaceBefore": ""
+                    }
+                  ]
                 },
                 {
                   "id": "9XTBPephjGt1Cb",
@@ -1412,6 +1631,7 @@
             }
           ],
           "storeIn": "",
+          "$readOnly": false,
           "_selectId": "l9wTn7Plxm_jew",
           "editDemands": [],
           "inputStates": [
@@ -1570,6 +1790,7 @@
     }
   },
   "_components": {},
+  "companySize": [],
   "createOnNew": false,
   "description": "<p></p>\n",
   "displayName": "companyProfile",
@@ -1578,24 +1799,27 @@
   "sidebarColor": "#333",
   "tabsSelected": "#009fda",
   "__warnReasons": [],
+  "doYouContract": [],
   "documentColor": "#333",
-  "_activeVersion": "zk0gwNadHUfzTE",
-  "_parentVersion": "GmG8PN_c_6Ta_E",
+  "_activeVersion": "oCVAYtF03bvSfQ",
+  "_parentVersion": "zk0gwNadHUfzTE",
+  "classification": [],
   "currentVersion": {
-    "live": "Preferred Language",
-    "testing": "Preferred Language",
-    "development": "Preferred Language"
+    "live": "1.0.1",
+    "development": "1.0.1"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+  "_lastModifiedBy": "7360895b-2e38-4601-baf6-16af027bf7ae",
   "defaultActivity": "x_5KNezQjHRN0v",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
   "documentBackdrop": "#f4f4f4",
   "_updatersExpanded": true,
+  "preferredLanguage": [],
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
+  "doYouUseContractors": [],
   "devices-allowed-html": "",
   "isLockedByCurrentUser": false
 }
