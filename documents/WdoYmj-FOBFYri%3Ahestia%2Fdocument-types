@@ -1,5 +1,5 @@
 {
-  "__": "VFvykay3Pfll3S",
+  "__": "RU8IyQh6BVoNbO",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -169,7 +169,7 @@
   },
   "$valid": true,
   "__warn": false,
-  "client": "@WORK",
+  "client": "rsihYJKKDVyaYN",
   "gitHub": {
     "1J8739KZBOtzVQ": {
       "publishDocs": "",
@@ -178,14 +178,10 @@
     "aV8boSk1D6q6YG": {
       "publishDocs": true,
       "gitHubPublish": true
-    },
-    "hVWU8Lx-bizSIx": {
-      "publishDocs": "",
-      "gitHubPublish": true
     }
   },
   "locked": false,
-  "_client": "@WORK",
+  "_client": "rsihYJKKDVyaYN",
   "demands": [],
   "graphQL": {
     "6g4mciY7jkfOUo": {
@@ -232,14 +228,22 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1623760802245,
-      "user": "64467393-61e5-45fe-a026-45aed6419337",
-      "locked": false,
-      "_selectId": "1_LcVs27LayafV",
+      "time": 1624280844273,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "_selectId": "TqkfimrzXsY181",
       "parentVersion": "Bx_OD0XlxHBKQx"
+    },
+    {
+      "id": "zk0gwNadHUfzTE",
+      "name": "1.01",
+      "time": 1624368261644,
+      "user": "62472027-dc65-4c8a-816d-bb79b891a870",
+      "locked": true,
+      "parentVersion": "GmG8PN_c_6Ta_E"
     }
   ],
-  "_modified": 1623760804000,
+  "_modified": 1624368267000,
   "components": "navigation",
   "isLockedBy": null,
   "navigation": [],
@@ -637,8 +641,8 @@
                       "value": "Canada"
                     },
                     {
-                      "label": "United States",
-                      "value": "United States"
+                      "label": "US",
+                      "value": "US"
                     }
                   ],
                   "question": "<p>Indicate the countries that your business operates in</p>\n",
@@ -652,10 +656,6 @@
                       "colour": ""
                     },
                     "Canada": {
-                      "icon": "",
-                      "colour": ""
-                    },
-                    "United States": {
                       "icon": "",
                       "colour": ""
                     }
@@ -1186,6 +1186,22 @@
                   "_selectId": "lLhffib9g6GWw_",
                   "condition": "",
                   "permanent": "",
+                  "rightSlot": {
+                    "id": "gdD0dLHODQrJ6s",
+                    "name": "",
+                    "type": "embedAction",
+                    "hints": {},
+                    "action": "bl4vej3CtWXo4X",
+                    "variant": "outlined",
+                    "question": "",
+                    "_selectId": "wT0HGvmxjKNfPC",
+                    "condition": "",
+                    "_actionName": "Update",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  },
                   "background": "",
                   "middleSlot": {
                     "id": "jde7yLfz6j0moc",
@@ -1250,11 +1266,113 @@
           "duplicateNames": {}
         }
       ],
+      "chase": [
+        {
+          "id": "Dee2r-Lb5_9MQZ",
+          "name": "Manage Assessment",
+          "events": [],
+          "tracks": [
+            {
+              "id": "msTTT8c9WnoZjr",
+              "name": "Main",
+              "items": [
+                {
+                  "id": "oNPf9wmBHl9ORG",
+                  "from": "previous",
+                  "type": "delay",
+                  "units": "minutes",
+                  "amount": 0.1,
+                  "_selectId": "E32sIGQthqxbaK"
+                },
+                {
+                  "id": "mLzIXxuvUsmIyT",
+                  "type": "switchState",
+                  "toState": "Assessed",
+                  "_selectId": "SWjtxxQUOuoBSL"
+                }
+              ],
+              "states": [
+                "Approved"
+              ]
+            }
+          ],
+          "_selectId": "Pk7hnMy4kDPHUy",
+          "masterQuery": {}
+        }
+      ],
       "styled": [
         {
           "css": ".title {\n    border-radius: 8px;\n    margin: 4px;\n    \n}\n\n.title [class*=h1-] {\n    font-size: 20px !important;\n}",
           "_init": true,
           "_selectId": "8bxlAvIOfisovH"
+        }
+      ],
+      "updater": [
+        {
+          "id": "Qi6ubuhBLjlkcx",
+          "name": "Create Contact",
+          "query": {
+            "$and": [
+              {
+                "email": {
+                  "$ne": "NULL"
+                }
+              }
+            ]
+          },
+          "onEnter": "",
+          "inStates": [
+            "New",
+            "Saved"
+          ],
+          "mergeAll": "",
+          "_selectId": "N9hFwo43VxJlL9",
+          "properties": [
+            {
+              "id": "Ypw1vAvdvNI_FL",
+              "field": "email",
+              "value": "{email}",
+              "defaultValue": ""
+            },
+            {
+              "id": "KAqaa2Q4nxK4u9",
+              "field": "primary",
+              "value": "yes",
+              "defaultValue": ""
+            }
+          ],
+          "specificId": true,
+          "targetType": "0pBBN3JGvJXvK6:hestia/document-types",
+          "updateClient": false,
+          "recordChanges": "",
+          "targetTypeName": "Contact",
+          "updateRecordId": "{resolveId(_id)}:contractorcheck/contact",
+          "updateToClient": "rsihYJKKDVyaYN",
+          "createMergeRecord": false,
+          "uniqueMergeRecords": false,
+          "updateTargetDocumentState": ""
+        },
+        {
+          "id": "-kkm4OhThVfEB2",
+          "name": "Update Master List",
+          "onEnter": "",
+          "inStates": [
+            "New",
+            "Saved",
+            "Approved"
+          ],
+          "mergeAll": true,
+          "_selectId": "EpcP3VL3bVD7zn",
+          "properties": [],
+          "specificId": "",
+          "targetType": "UJns4BZ0dhGyw5:hestia/document-types",
+          "updateState": "Stored",
+          "updateClient": true,
+          "recordChanges": "",
+          "targetTypeName": "Master List Company Profile",
+          "updateToClient": "rsihYJKKDVyaYN",
+          "createMergeRecord": "",
+          "updateTargetDocumentState": true
         }
       ],
       "formAction": [
@@ -1307,6 +1425,85 @@
           "inputStates": [
             "New",
             "Saved"
+          ],
+          "visibleDemands": []
+        },
+        {
+          "id": "FPrVUGkb9dKHqZ",
+          "name": "Assessed",
+          "forms": [
+            {
+              "id": "uc2TDSSSoyIaaY",
+              "form": "QBK3L2kW3hNl0_",
+              "readOnly": false,
+              "_selectId": "MdrFeR_iKzRAyT"
+            },
+            {
+              "id": "-hiJu5HIpOhSpv",
+              "form": "YcQ_phx_ZRx4_Q",
+              "readOnly": false,
+              "_selectId": "r24DFxgESlbZpH"
+            }
+          ],
+          "inline": true,
+          "actions": [
+            {
+              "id": "bl4vej3CtWXo4X",
+              "blur": "",
+              "icon": "",
+              "color": "#fff",
+              "modal": {
+                "enabled": false
+              },
+              "goBack": "",
+              "caption": "Update",
+              "command": "setData",
+              "toState": "Assessed",
+              "variant": "text",
+              "_selectId": "zEl9co8VyovenH",
+              "condition": "",
+              "endOfLine": "",
+              "navigateTo": "",
+              "properties": [],
+              "changeState": true,
+              "backgroundColor": "#03a9f4",
+              "visibleCondition": "",
+              "notificationToast": ""
+            }
+          ],
+          "storeIn": "",
+          "_selectId": "Otv9eVDy6A7vnP",
+          "editDemands": [],
+          "inputStates": [
+            "Assessed"
+          ],
+          "visibleDemands": []
+        },
+        {
+          "id": "VrbTPiTVbB6Vej",
+          "name": "Approved",
+          "forms": [],
+          "inline": true,
+          "actions": [],
+          "storeIn": "",
+          "_selectId": "NrNu48LSHHVP1r",
+          "editDemands": [],
+          "inputStates": [
+            "Approved"
+          ],
+          "visibleDemands": []
+        },
+        {
+          "id": "7v1mLaSCgryHRN",
+          "name": "Stored",
+          "forms": [],
+          "inline": true,
+          "actions": [],
+          "storeIn": "",
+          "_selectId": "HpFQoC1-KBuJI9",
+          "editDemands": [],
+          "inputStates": [
+            "Stored"
           ],
           "visibleDemands": []
         }
@@ -1382,7 +1579,7 @@
   },
   "_components": {},
   "createOnNew": false,
-  "description": "",
+  "description": "<p></p>\n",
   "displayName": "companyProfile",
   "__originalId": "WdoYmj-FOBFYri:hestia/document-types",
   "defaultState": "New",
@@ -1390,20 +1587,20 @@
   "tabsSelected": "#009fda",
   "__warnReasons": [],
   "documentColor": "#333",
-  "_activeVersion": "zk0gwNadHUfzTE",
-  "_parentVersion": "GmG8PN_c_6Ta_E",
+  "_activeVersion": "wWCklGhKnTBHwc",
+  "_parentVersion": "zk0gwNadHUfzTE",
   "currentVersion": {
-    "live": "Preferred Language",
-    "testing": "Preferred Language",
-    "development": "Preferred Language"
+    "live": "1.01",
+    "development": "1.01"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "64467393-61e5-45fe-a026-45aed6419337",
+  "_lastModifiedBy": "62472027-dc65-4c8a-816d-bb79b891a870",
   "defaultActivity": "x_5KNezQjHRN0v",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
   "documentBackdrop": "#f4f4f4",
+  "_updatersExpanded": true,
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
   "devices-allowed-html": "",
