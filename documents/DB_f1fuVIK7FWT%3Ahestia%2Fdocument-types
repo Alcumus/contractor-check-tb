@@ -1,5 +1,5 @@
 {
-  "__": "xW5ofavOg_f0-s",
+  "__": "KqQUFDFwrzEh4H",
   "_id": "DB_f1fuVIK7FWT:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -185,7 +185,7 @@
     }
   },
   "$invalid": false,
-  "_created": 1621422766000,
+  "_created": 1622461285000,
   "_deleted": 0,
   "database": "Teams",
   "maxWidth": 1000,
@@ -201,14 +201,14 @@
     },
     {
       "id": "WU65N1_qIn410U",
-      "name": "1.01",
-      "time": 1624368261658,
-      "user": "62472027-dc65-4c8a-816d-bb79b891a870",
+      "name": "1.0.1",
+      "time": 1624368525109,
+      "user": "ff79dada-c9af-494d-9025-39ccae118cea",
       "locked": true,
       "parentVersion": "lMgkcEhQ5ngx9H"
     }
   ],
-  "_modified": 1624368267000,
+  "_modified": 1624368531000,
   "components": "card 2.0",
   "isLockedBy": null,
   "navigation": [],
@@ -325,15 +325,15 @@
   "tabsSelected": "#009fda",
   "__warnReasons": [],
   "documentColor": "#333",
-  "_activeVersion": "PWudL-M1_Yn6I8",
+  "_activeVersion": "X1sX2R-nJtJD_c",
   "_parentVersion": "WU65N1_qIn410U",
   "currentVersion": {
-    "live": "1.01",
-    "development": "1.01"
+    "live": "1.0.1",
+    "development": "1.0.1"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "62472027-dc65-4c8a-816d-bb79b891a870",
+  "_lastModifiedBy": "ff79dada-c9af-494d-9025-39ccae118cea",
   "defaultActivity": "kDe-e2LVJKEqg2",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
