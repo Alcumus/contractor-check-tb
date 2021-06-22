@@ -1,5 +1,5 @@
 {
-  "__": "AWB5WuCdx_gAEm",
+  "__": "Rda45djCKms3PZ",
   "_id": "R720NeuU8vOWuo:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -212,7 +212,7 @@
     }
   },
   "$invalid": false,
-  "_created": 1621508919000,
+  "_created": 1622461281000,
   "_deleted": 0,
   "database": "contractorcheck",
   "maxWidth": 1000,
@@ -238,14 +238,14 @@
     {
       "id": "ILPcxTbq4OqK52",
       "name": "1.1",
-      "time": 1624377866663,
-      "user": "62472027-dc65-4c8a-816d-bb79b891a870",
+      "time": 1624378348673,
+      "user": "ff79dada-c9af-494d-9025-39ccae118cea",
       "locked": false,
-      "_selectId": "VfUvL3j1TAKUsT",
+      "_selectId": "lMh3s2vPIDWyOt",
       "parentVersion": "vlDXNbqvv_2SA_"
     }
   ],
-  "_modified": 1624377872000,
+  "_modified": 1624378354000,
   "components": "verification,navigation,richtext",
   "isLockedBy": null,
   "navigation": [],
@@ -1680,7 +1680,7 @@
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "62472027-dc65-4c8a-816d-bb79b891a870",
+  "_lastModifiedBy": "ff79dada-c9af-494d-9025-39ccae118cea",
   "defaultActivity": null,
   "devices-allowed": "",
   "sideBarMinWidth": 150,
