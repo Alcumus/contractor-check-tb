@@ -1,5 +1,5 @@
 {
-  "__": "df3iGWx0zzh59T",
+  "__": "Tbysy2lcojnhaK",
   "_id": "rH6EL6EJjx3vGG:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -204,7 +204,7 @@
     }
   },
   "$invalid": false,
-  "_created": 1621422686000,
+  "_created": 1622461285000,
   "_deleted": 0,
   "database": "workA",
   "maxWidth": 1000,
@@ -257,14 +257,14 @@
     {
       "id": "oKiFRvQiOziul8",
       "name": "1.1",
-      "time": 1624374365695,
-      "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
+      "time": 1624378272222,
+      "user": "ff79dada-c9af-494d-9025-39ccae118cea",
       "locked": false,
-      "_selectId": "5pQR4Q-xcbcs3s",
+      "_selectId": "ajOBueIhywd_yN",
       "parentVersion": "1bX7G-SYavPET0"
     }
   ],
-  "_modified": 1624374370000,
+  "_modified": 1624378277000,
   "components": "",
   "isLockedBy": null,
   "navigation": [],
@@ -467,7 +467,7 @@
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "7360895b-2e38-4601-baf6-16af027bf7ae",
+  "_lastModifiedBy": "ff79dada-c9af-494d-9025-39ccae118cea",
   "defaultActivity": "sf5_XV2E1ihhek",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
