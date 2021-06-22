@@ -1,5 +1,5 @@
 {
-  "__": "ZwkMNIA7GClfBz",
+  "__": "HXwjuBkGAbIy7L",
   "_id": "Hfqzb-gWFBvgaC:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -234,14 +234,14 @@
     {
       "id": "_akUJyXrK76c26",
       "name": "1.1",
-      "time": 1624374569351,
-      "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
+      "time": 1624377811133,
+      "user": "62472027-dc65-4c8a-816d-bb79b891a870",
       "locked": false,
-      "_selectId": "LZB-LJQt02Af4c",
+      "_selectId": "IifRlpEJz1MPnt",
       "parentVersion": "4w4Iz8cY-JOkOd"
     }
   ],
-  "_modified": 1624374574000,
+  "_modified": 1624377816000,
   "components": "card 2.0",
   "isLockedBy": null,
   "navigation": [],
@@ -473,7 +473,7 @@
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "7360895b-2e38-4601-baf6-16af027bf7ae",
+  "_lastModifiedBy": "62472027-dc65-4c8a-816d-bb79b891a870",
   "defaultActivity": "B1nGalSvcwX7ea",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
