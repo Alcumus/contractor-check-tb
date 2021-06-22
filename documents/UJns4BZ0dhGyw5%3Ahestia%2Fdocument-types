@@ -1,5 +1,5 @@
 {
-  "__": "Nf17DDp9oVxDku",
+  "__": "ILrz5jizYJT2Am",
   "_id": "UJns4BZ0dhGyw5:hestia/document-types",
   "icon": "",
   "name": "Master List Company Profile",
@@ -177,6 +177,7 @@
       "gitHubPublish": true
     }
   },
+  "locked": false,
   "_client": "rsihYJKKDVyaYN",
   "demands": [],
   "graphQL": {
@@ -199,13 +200,22 @@
       "name": "1.0",
       "time": 1624367685826,
       "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
-      "locked": false,
+      "locked": true,
       "_selectId": "H-EFTIkrt9CKRs",
       "parentVersion": ""
+    },
+    {
+      "id": "zj8LEt7EOU-k4m",
+      "name": "1.0.1",
+      "time": 1624367960003,
+      "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
+      "locked": true,
+      "parentVersion": "8eXUnVjk2o1gFo"
     }
   ],
-  "_modified": 1624367693000,
+  "_modified": 1624367982000,
   "components": "",
+  "isLockedBy": null,
   "navigation": [],
   "_behaviours": {
     "_state": "",
@@ -234,12 +244,11 @@
   "sidebarColor": "#333",
   "tabsSelected": "#009fda",
   "documentColor": "#333",
-  "_activeVersion": "zj8LEt7EOU-k4m",
-  "_parentVersion": "8eXUnVjk2o1gFo",
+  "_activeVersion": "VS0wTpuS4ZELYB",
+  "_parentVersion": "zj8LEt7EOU-k4m",
   "currentVersion": {
-    "live": "1.0",
-    "testing": "1.0",
-    "development": "1.0"
+    "live": "1.0.1",
+    "development": "1.0.1"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
@@ -250,5 +259,6 @@
   "documentBackdrop": "#f4f4f4",
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
-  "devices-allowed-html": ""
+  "devices-allowed-html": "",
+  "isLockedByCurrentUser": false
 }
