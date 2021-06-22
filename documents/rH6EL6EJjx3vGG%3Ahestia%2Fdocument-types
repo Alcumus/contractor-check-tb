@@ -1,5 +1,5 @@
 {
-  "__": "-6Aae4oStmGTGs",
+  "__": "FHTZ-GPSt5ulHS",
   "_id": "rH6EL6EJjx3vGG:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -189,7 +189,7 @@
     }
   },
   "$invalid": false,
-  "_created": 1621422686000,
+  "_created": 1622461285000,
   "_deleted": 0,
   "database": "workA",
   "maxWidth": 1000,
@@ -232,14 +232,14 @@
     },
     {
       "id": "1bX7G-SYavPET0",
-      "name": "1.01",
-      "time": 1624368261660,
-      "user": "62472027-dc65-4c8a-816d-bb79b891a870",
+      "name": "1.0.1",
+      "time": 1624368525110,
+      "user": "ff79dada-c9af-494d-9025-39ccae118cea",
       "locked": true,
       "parentVersion": "ur734zai3McGV7"
     }
   ],
-  "_modified": 1624368267000,
+  "_modified": 1624368531000,
   "components": "",
   "isLockedBy": null,
   "navigation": [],
@@ -433,15 +433,15 @@
   "tabsSelected": "#009fda",
   "__warnReasons": [],
   "documentColor": "#333",
-  "_activeVersion": "PEjPOVvbz2bLmz",
+  "_activeVersion": "_7JJUlhRC-oA3L",
   "_parentVersion": "1bX7G-SYavPET0",
   "currentVersion": {
-    "live": "1.01",
-    "development": "1.01"
+    "live": "1.0.1",
+    "development": "1.0.1"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "62472027-dc65-4c8a-816d-bb79b891a870",
+  "_lastModifiedBy": "ff79dada-c9af-494d-9025-39ccae118cea",
   "defaultActivity": "sf5_XV2E1ihhek",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
