@@ -1,5 +1,5 @@
 {
-  "__": "PQcX7eJpdV0T85",
+  "__": "fy3BOZffOGx5tL",
   "_id": "j0P98w9sl6QXZo:hestia/document-types",
   "icon": "",
   "name": "Audit Trail",
@@ -182,7 +182,7 @@
     }
   },
   "$invalid": false,
-  "_created": 1622199884000,
+  "_created": 1622216592000,
   "_deleted": 0,
   "database": "contractorcheck",
   "maxWidth": 1000,
@@ -198,14 +198,14 @@
     },
     {
       "id": "J4030GZ1fyK-SV",
-      "name": "1.0.1",
-      "time": 1624367959912,
-      "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
+      "name": "1.01",
+      "time": 1624368261569,
+      "user": "62472027-dc65-4c8a-816d-bb79b891a870",
       "locked": true,
       "parentVersion": "PlkNsC6NXRUcX4"
     }
   ],
-  "_modified": 1624367968000,
+  "_modified": 1624368267000,
   "components": "",
   "isLockedBy": null,
   "navigation": [],
@@ -397,15 +397,15 @@
   "sidebarColor": "#333",
   "tabsSelected": "#009fda",
   "documentColor": "#333",
-  "_activeVersion": "D3uOsdgkQn7xig",
+  "_activeVersion": "uylkCuyNXcrUiV",
   "_parentVersion": "J4030GZ1fyK-SV",
   "currentVersion": {
-    "live": "1.0.1",
-    "development": "1.0.1"
+    "live": "1.01",
+    "development": "1.01"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "7360895b-2e38-4601-baf6-16af027bf7ae",
+  "_lastModifiedBy": "62472027-dc65-4c8a-816d-bb79b891a870",
   "defaultActivity": "Vj7pWcB7wLiQHo",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
