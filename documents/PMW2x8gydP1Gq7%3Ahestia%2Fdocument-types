@@ -1,5 +1,5 @@
 {
-  "__": "ID-79siF0VPG74",
+  "__": "10B0b401Yo3Wut",
   "_id": "PMW2x8gydP1Gq7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -202,14 +202,14 @@
     {
       "id": "tV6rqmkixtZSUh",
       "name": "1",
-      "time": 1624296832136,
+      "time": 1624376670769,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "JejGDGXJ0IioZu",
+      "_selectId": "aNWj8siS6ZVqLA",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624293234000,
+  "_modified": 1624373071000,
   "components": "verification,localisation,hint-text",
   "isLockedBy": null,
   "navigation": [],
@@ -360,7 +360,9 @@
                   "id": "a1S3m000008DkPgFile",
                   "name": "emergencyPreparednessPlanningSmBusEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -414,7 +416,9 @@
                   "id": "a1S3m000008CkMOFile",
                   "name": "emergencyPreparednessPlanningLrgBusEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -468,7 +472,9 @@
                   "id": "a1S3m000006rbu4File",
                   "name": "pandemicReturntoOperationPlanEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -522,7 +528,9 @@
                   "id": "a1S3m000008jxUOFile",
                   "name": "healthSafetyPolicyProcedureProgramSmBusUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -576,7 +584,9 @@
                   "id": "a1S3m000008jxUJFile",
                   "name": "healthSafetyPolicyProcedureProgramLrgBusUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -630,7 +640,9 @@
                   "id": "a1S3m000008jxU9File",
                   "name": "emergencyPreparednessPlanningSmBusUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -684,7 +696,9 @@
                   "id": "a1S3m000008jxUEFile",
                   "name": "emergencyPreparednessPlanningLrgBusUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -738,7 +752,9 @@
                   "id": "a1S3m000008jxVCFile",
                   "name": "healthSafetyTrainingSoleUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -792,7 +808,9 @@
                   "id": "a1S3m000008jxV2File",
                   "name": "healthSafetyTrainingLrgBusUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -846,7 +864,9 @@
                   "id": "a1S3m000008jxV7File",
                   "name": "healthSafetyTrainingSmlBusUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -900,7 +920,9 @@
                   "id": "a1S3m000008jxUsFile",
                   "name": "accidentIncidentInvestigationLrgBusUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -954,7 +976,9 @@
                   "id": "a1S3m000008jxVMFile",
                   "name": "violenceHarassmentBullyingLrgBusUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -1008,7 +1032,9 @@
                   "id": "a1S3m000008jxVHFile",
                   "name": "violenceHarassmentBullyingSmlBusUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -1062,7 +1088,9 @@
                   "id": "a1S3m000008jxUxFile",
                   "name": "accidentIncidentInvestigationSmBusUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -1116,7 +1144,9 @@
                   "id": "a1S3m000008k4JqFile",
                   "name": "tradeQualificationsQuebecOnlyEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -1170,7 +1200,9 @@
                   "id": "a1S1N000005WjLxFile",
                   "name": "employeeInstructionsSwpsopSmBusEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -1224,7 +1256,9 @@
                   "id": "a1S1N000005WjLyFile",
                   "name": "employeeInstructionsSwpsopLrgBusEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -1278,7 +1312,9 @@
                   "id": "a1S1N000005WjM0File",
                   "name": "accidentIncidentInvestigationSmBusEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -1332,7 +1368,9 @@
                   "id": "a1S1N000005WjM1File",
                   "name": "healthSafetyTrainingSoleEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -1386,7 +1424,9 @@
                   "id": "a1S1N000005WjM2File",
                   "name": "violenceHarassmentBullyingSmBusEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -1440,7 +1480,9 @@
                   "id": "a1S1N000005WjM3File",
                   "name": "safetyCommunicationsSmBusEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -1494,7 +1536,9 @@
                   "id": "a1S1N000005WjM4File",
                   "name": "healthSafetyPolicyProceduresProgramSmBusEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -1548,7 +1592,9 @@
                   "id": "a1S1N000005WjM5File",
                   "name": "healthSafetyTrainingSmBusEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -1602,7 +1648,9 @@
                   "id": "a1S1N000005WjM6File",
                   "name": "molSafetyAwarenessTrainingEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -1656,7 +1704,9 @@
                   "id": "a1S1N000005WjM7File",
                   "name": "accidentIncidentInvestigationLrgBusEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -1710,7 +1760,9 @@
                   "id": "a1S1N000005WjM8File",
                   "name": "heavyDangerousEquipmentLrgBusEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -1764,7 +1816,9 @@
                   "id": "a1S1N000005WjM9File",
                   "name": "safetyCommunicationsLrgBusEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -1818,7 +1872,9 @@
                   "id": "a1S1N000005WjMAFile",
                   "name": "healthSafetyTrainingLrgBusEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -1872,7 +1928,9 @@
                   "id": "a1S1N000005WjMBFile",
                   "name": "regulatoryOrdersEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -1926,7 +1984,9 @@
                   "id": "a1S1N000005WjMEFile",
                   "name": "violenceHarassmentBullyingLrgBusEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -1980,7 +2040,9 @@
                   "id": "a1S1N000005WjMGFile",
                   "name": "healthSafetyPolicyProceduresProgramLrgBusEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -2034,7 +2096,9 @@
                   "id": "a1S1N000005WjMHFile",
                   "name": "hazardIdentificationControlEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -2088,7 +2152,9 @@
                   "id": "a1S1N000008BzzNFile",
                   "name": "heavyDangerousEquipmentSmBusEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -2142,7 +2208,9 @@
                   "id": "a1S3m000008CpJJFile",
                   "name": "divingFitForDutyEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -2196,7 +2264,9 @@
                   "id": "a1S3m000008CpJiFile",
                   "name": "divingNotificationsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -2250,7 +2320,9 @@
                   "id": "a1S3m000008CpJnFile",
                   "name": "diveSitePlanEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -2304,7 +2376,9 @@
                   "id": "a1S3m000008CpIVFile",
                   "name": "divingQualificationsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -2358,7 +2432,9 @@
                   "id": "a1S3m000008CpJOFile",
                   "name": "divingEquipmentVesselDiveSiteEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -2412,7 +2488,9 @@
                   "id": "a1S3m000008CpJdFile",
                   "name": "personalDivingEquipmentEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -2466,7 +2544,9 @@
                   "id": "a1S3m000008CpJsFile",
                   "name": "diveSupervisorsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -2520,7 +2600,9 @@
                   "id": "a1S3m000008jxkUFile",
                   "name": "architectQualificationsUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -2574,7 +2656,9 @@
                   "id": "a1S3m000008jxkFFile",
                   "name": "airConditioningRefrigerationQualificationsUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -2628,7 +2712,9 @@
                   "id": "a1S3m000008jxkKFile",
                   "name": "architectAssociationsUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -2682,7 +2768,9 @@
                   "id": "a1S3m000008jxlSFile",
                   "name": "craneHoistRepairQualificationsUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -2736,7 +2824,9 @@
                   "id": "a1S3m000006rheqFile",
                   "name": "structuralSteelQualificationEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -2790,7 +2880,9 @@
                   "id": "a1S3m000008DiUsFile",
                   "name": "craneHoistInspectionsSwpEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -2844,7 +2936,9 @@
                   "id": "a1S3m000008Dj7dFile",
                   "name": "carrierLicenseChemicalShippingEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -2898,7 +2992,9 @@
                   "id": "a1S3m000008jxlTFile",
                   "name": "divingEquipmentVesselDiveSiteUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -2952,7 +3048,9 @@
                   "id": "a1S3m000008jxlXFile",
                   "name": "divingExperienceUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -3006,7 +3104,9 @@
                   "id": "a1S3m000008jxlcFile",
                   "name": "diveSupervisorsUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -3060,7 +3160,9 @@
                   "id": "a1S3m000008Dq2CFile",
                   "name": "divingExperienceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -3114,7 +3216,9 @@
                   "id": "a1S3m000008DxsDFile",
                   "name": "vacuumTruckOperationEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -3168,7 +3272,9 @@
                   "id": "a1S3m000006rbqHFile",
                   "name": "professionalEngineerAssociationsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -3222,7 +3328,9 @@
                   "id": "a1S3m000006rbqIFile",
                   "name": "professionalEngineerQualificationsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -3276,7 +3384,9 @@
                   "id": "a1S3m000008jyeQFile",
                   "name": "roofingHotTarsTorchesandKettlesUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -3330,7 +3440,9 @@
                   "id": "a1S3m000008jyeKFile",
                   "name": "pressureSystemsQualificationsUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -3384,7 +3496,9 @@
                   "id": "a1S3m000008jydvFile",
                   "name": "locksmithEmployeesLicenseUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -3438,7 +3552,9 @@
                   "id": "a1S3m000008jyetFile",
                   "name": "structuralSteelQualificationUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -3492,7 +3608,9 @@
                   "id": "a1S3m000008jye0File",
                   "name": "locksmithStateAgencyLicenseUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -3546,7 +3664,9 @@
                   "id": "a1S3m000008jye1File",
                   "name": "powerDistributionSystemsQualificationsUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -3600,7 +3720,9 @@
                   "id": "a1S3m000008jye2File",
                   "name": "pressureSystemsInspectorQualificationsUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -3654,7 +3776,9 @@
                   "id": "a1S3m000008jye5File",
                   "name": "mobileEquipmentMaintenanceQualificationsUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -3708,7 +3832,9 @@
                   "id": "a1S3m000008jyeZFile",
                   "name": "professionalQualificationsUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -3762,7 +3888,9 @@
                   "id": "a1S3m000008jyeoFile",
                   "name": "securityStateLicenseUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -3816,7 +3944,9 @@
                   "id": "a1S3m000008jyepFile",
                   "name": "steamfitterQualificationsUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -3870,7 +4000,9 @@
                   "id": "a1S3m000008jyeFFile",
                   "name": "powerLiningWorkQualificationsUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -3924,7 +4056,9 @@
                   "id": "a1S3m000008jyeeFile",
                   "name": "securityAlarmQualificationUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -3978,7 +4112,9 @@
                   "id": "a1S3m000008jyeAFile",
                   "name": "plumbingQualificationsUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -4032,7 +4168,9 @@
                   "id": "a1S3m000008jyePFile",
                   "name": "professionalEngineerAssociationsUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -4086,7 +4224,9 @@
                   "id": "a1S3m000008jyeUFile",
                   "name": "professionalEngineerQualificationsUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -4140,7 +4280,9 @@
                   "id": "a1S3m000008jyejFile",
                   "name": "securityEmployeeLicenseUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -4194,7 +4336,9 @@
                   "id": "a1S3m000008jyeyFile",
                   "name": "workingatHeightsUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -4248,7 +4392,9 @@
                   "id": "a1S3m000008jyf3File",
                   "name": "securityAlarmCompanyLicenseUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -4302,7 +4448,9 @@
                   "id": "a1S3m000008jyf4File",
                   "name": "backflowQualificationsUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -4356,7 +4504,9 @@
                   "id": "a1S3m000008jyekFile",
                   "name": "carrierLicenseChemicalShippingUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -4410,7 +4560,9 @@
                   "id": "a1S3m000008jydqFile",
                   "name": "landSurveyorQualificationsUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -4464,7 +4616,9 @@
                   "id": "a1S3m000008jydbFile",
                   "name": "gasfitterQualificationsUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -4518,7 +4672,9 @@
                   "id": "a1S3m000008jydMFile",
                   "name": "electricalWorkQualificationsUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -4572,7 +4728,9 @@
                   "id": "a1S3m000008jydRFile",
                   "name": "elevatorEscalatorQualificationsUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -4626,7 +4784,9 @@
                   "id": "a1S3m000008jydHFile",
                   "name": "electricalWorkLiveUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -4680,7 +4840,9 @@
                   "id": "a1S3m000008jydWFile",
                   "name": "fireSprinklerSystemsQualificationsUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -4734,7 +4896,9 @@
                   "id": "a1S3m000008jydSFile",
                   "name": "heatingQualificationsUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -4788,7 +4952,9 @@
                   "id": "a1S1N000005WjR8File",
                   "name": "pestControlQualificationsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -4842,7 +5008,9 @@
                   "id": "a1S1N000005WjRBFile",
                   "name": "workingatHeightsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -4896,7 +5064,9 @@
                   "id": "a1S1N000005WjRDFile",
                   "name": "hoistingRiggerSwpTrainingEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -4950,7 +5120,9 @@
                   "id": "a1S1N000005WjRGFile",
                   "name": "trafficSafetyManagementEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -5004,7 +5176,9 @@
                   "id": "a1S1N000005WjRHFile",
                   "name": "undergroundUtilityLocatesEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -5058,7 +5232,9 @@
                   "id": "a1S1N000005WjRIFile",
                   "name": "fireSprinklerSystemsQualificationsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -5112,7 +5288,9 @@
                   "id": "a1S1N000005WjRJFile",
                   "name": "bloodBornePathogensBiohazardsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -5166,7 +5344,9 @@
                   "id": "a1S1N000005WjRKFile",
                   "name": "hazardousMaterialSpillsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -5220,7 +5400,9 @@
                   "id": "a1S1N000005WjRLFile",
                   "name": "silicaControlPlanEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -5274,7 +5456,9 @@
                   "id": "a1S1N000005WjRNFile",
                   "name": "fallProtectionDesignInstallationQualificationsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -5328,7 +5512,9 @@
                   "id": "a1S1N000005WjROFile",
                   "name": "locksmithprovincialagencylicenseEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -5382,7 +5568,9 @@
                   "id": "a1S1N000005WjRPFile",
                   "name": "wasteandRecyclingEquipmentEnteringSwpEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -5436,7 +5624,9 @@
                   "id": "a1S1N000005WjRSFile",
                   "name": "craneOperationLoadTestsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -5490,7 +5680,9 @@
                   "id": "a1S1N000005WjRUFile",
                   "name": "craneOperationQualificationsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -5544,7 +5736,9 @@
                   "id": "a1S1N000005WjRYFile",
                   "name": "identifyingHiddenElectricalGasLinesEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -5598,7 +5792,9 @@
                   "id": "a1S1N000005WjPgFile",
                   "name": "subcontractorSupervisionEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -5713,7 +5909,9 @@
                   "id": "a1S1N000005WjPjFile",
                   "name": "subcontractorInspectionEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -5767,7 +5965,9 @@
                   "id": "a1S1N000005WjPkFile",
                   "name": "plumbingQualificationsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -5821,7 +6021,9 @@
                   "id": "a1S1N000005WjPnFile",
                   "name": "highVoltageQualificationsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -5875,7 +6077,9 @@
                   "id": "a1S1N000005WjPsFile",
                   "name": "securityViolenceRiskEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -5929,7 +6133,9 @@
                   "id": "a1S1N000005WjPtFile",
                   "name": "securityProvincialLicenseEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -5983,7 +6189,9 @@
                   "id": "a1S1N000005WjPuFile",
                   "name": "securityEmployeeLicenseEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -6037,7 +6245,9 @@
                   "id": "a1S1N000005WjRrFile",
                   "name": "craneOperationPreUseInspectionsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -6091,7 +6301,9 @@
                   "id": "a1S1N000005WjRsFile",
                   "name": "craneOperationCriticalLiftPlansEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -6145,7 +6357,9 @@
                   "id": "a1S1N000005WjQ1File",
                   "name": "gasfitterQualificationsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -6199,7 +6413,9 @@
                   "id": "a1S1N000005WjQ3File",
                   "name": "electricalWorkQualificationsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -6253,7 +6469,9 @@
                   "id": "a1S1N000005WjQ4File",
                   "name": "electricalWorkLiveEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -6307,7 +6525,9 @@
                   "id": "a1S1N000005WjQ5File",
                   "name": "facilitiesManagementCoordinationEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -6361,7 +6581,9 @@
                   "id": "a1S1N000005WjQ7File",
                   "name": "vegetationPesticidesEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -6415,7 +6637,9 @@
                   "id": "a1S1N000005WjQBFile",
                   "name": "asbestosRemovalQualificationEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -6469,7 +6693,9 @@
                   "id": "a1S1N000005WjQCFile",
                   "name": "asbestosRemovalSupervisorEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -6523,7 +6749,9 @@
                   "id": "a1S1N000005WjQDFile",
                   "name": "asbestosRemovalHealthMonitoringEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -6577,7 +6805,9 @@
                   "id": "a1S1N000005WjQHFile",
                   "name": "specializedPpeRespiratoryEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -6631,7 +6861,9 @@
                   "id": "a1S1N000005WjQJFile",
                   "name": "asbestosRemovalDopTestEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -6685,7 +6917,9 @@
                   "id": "a1S1N000005WjQLFile",
                   "name": "securityAlarmQualificationEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -6739,7 +6973,9 @@
                   "id": "a1S1N000005WjSEFile",
                   "name": "craneHoistRepairQualificationsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -6793,7 +7029,9 @@
                   "id": "a1S1N000005WjQQFile",
                   "name": "scaffoldErectionEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -6847,7 +7085,9 @@
                   "id": "a1S1N000005WjQTFile",
                   "name": "trenchesExcavationEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -6901,7 +7141,9 @@
                   "id": "a1S1N000005WjQbFile",
                   "name": "safeDrivingEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -6955,7 +7197,9 @@
                   "id": "a1S1N000005WjQeFile",
                   "name": "noiseandVibrationQualificationsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -7009,7 +7253,9 @@
                   "id": "a1S1N000005WjQgFile",
                   "name": "disasterCleanupQualificationEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -7063,7 +7309,9 @@
                   "id": "a1S1N000005WjQhFile",
                   "name": "ventilationDuctworkQualificationsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -7117,7 +7365,9 @@
                   "id": "a1S1N000005WjSWFile",
                   "name": "landSurveyorQualificationsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -7171,7 +7421,9 @@
                   "id": "a1S1N000005WjQmFile",
                   "name": "arboristTreeServicesQualificationsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -7225,7 +7477,9 @@
                   "id": "a1S1N000005WjQnFile",
                   "name": "architectQualificationsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -7279,7 +7533,9 @@
                   "id": "a1S1N000005WjQoFile",
                   "name": "architectAssociationsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -7333,7 +7589,9 @@
                   "id": "a1S1N000005WjQpFile",
                   "name": "hazardousMaterialsRemovalQualificationsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -7387,7 +7645,9 @@
                   "id": "a1S1N000005WjSZFile",
                   "name": "locksmithEmployeesLicenseEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -7441,7 +7701,9 @@
                   "id": "a1S1N000005WjSaFile",
                   "name": "lockoutEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -7495,7 +7757,9 @@
                   "id": "a1S1N000005WjQrFile",
                   "name": "hazardousMaterialsRemovalDisposalEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -7549,7 +7813,9 @@
                   "id": "a1S1N000005WjQsFile",
                   "name": "roofingHotTarsTorchesandKettlesEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -7603,7 +7869,9 @@
                   "id": "a1S1N000005WjQtFile",
                   "name": "ionizationRadiationQualificationsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -7657,7 +7925,9 @@
                   "id": "a1S1N000005WjQwFile",
                   "name": "fireProtectionEquipmentQualificationEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -7711,7 +7981,9 @@
                   "id": "a1S1N000005WjQxFile",
                   "name": "fireAlarmQualificationsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -7765,7 +8037,9 @@
                   "id": "a1S1N000005WjQyFile",
                   "name": "fireworksQualificationsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -7819,7 +8093,9 @@
                   "id": "a1S1N000005WjSdFile",
                   "name": "electricSolarPanelInstallationQualificationEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -7873,7 +8149,9 @@
                   "id": "a1S1N000005WjR2File",
                   "name": "airConditioningRefrigerationQualificationsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -7927,7 +8205,9 @@
                   "id": "a1S1N000005WjR3File",
                   "name": "heatingQualificationsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -7981,7 +8261,9 @@
                   "id": "a1S1N000005WjR4File",
                   "name": "subcontractorSelectionEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -8035,7 +8317,9 @@
                   "id": "a1S1N000005WjR7File",
                   "name": "pestControlCompanyPermitsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -8089,7 +8373,9 @@
                   "id": "a1S1N000005WjPXFile",
                   "name": "generatorQualificationsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -8143,7 +8429,9 @@
                   "id": "a1S1N000005WjPbFile",
                   "name": "windowCleaningWorkPlanEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -8197,7 +8485,9 @@
                   "id": "a1S1N000005WjPfFile",
                   "name": "emergencyDescentRescueEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -8251,7 +8541,9 @@
                   "id": "a1S1N000005WjSlFile",
                   "name": "confinedSpaceEntryEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -8305,7 +8597,9 @@
                   "id": "a1S3m000008knOXFile",
                   "name": "divingQualificationsUsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -8359,7 +8653,9 @@
                   "id": "a1S3m000006rd8KFile",
                   "name": "flushTruckOperationsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -8413,7 +8709,9 @@
                   "id": "a1S3m000006rZ8NFile",
                   "name": "specializedPpeArcFlashEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -8467,7 +8765,9 @@
                   "id": "a1S3m000006rd6RFile",
                   "name": "securityAlarmCompanyLicenseEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -8521,7 +8821,9 @@
                   "id": "a1S3m000006rdMBFile",
                   "name": "coolingTowerCleaningLegionellaEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -8575,7 +8877,9 @@
                   "id": "a1S3m000006rcPNFile",
                   "name": "powerDistributionSystemsQualificationsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -8629,7 +8933,9 @@
                   "id": "a1S3m000006rcPSFile",
                   "name": "powerLiningWorkQualificationsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -8683,7 +8989,9 @@
                   "id": "a1S3m000006rcPcFile",
                   "name": "arboristTreeServicesLimbingFallingEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -8737,7 +9045,9 @@
                   "id": "a1S3m000006rdKMFile",
                   "name": "steamfitterQualificationsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -8791,7 +9101,9 @@
                   "id": "a1S3m000006rdKOFile",
                   "name": "pressureSystemsInspectorQualificationsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -8845,7 +9157,9 @@
                   "id": "a1S3m000006rdKRFile",
                   "name": "backflowQualificationsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -8899,7 +9213,9 @@
                   "id": "a1S3m000006rdKLFile",
                   "name": "mobileEquipmentMaintenanceQualificationsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -8953,7 +9269,9 @@
                   "id": "a1S3m000006rdKJFile",
                   "name": "elevatorEscalatorQualificationsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -9007,7 +9325,9 @@
                   "id": "a1S3m000006rdKKFile",
                   "name": "elevatorEscalatorRefurbishmentEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -9061,7 +9381,9 @@
                   "id": "a1S3m000006rTx5File",
                   "name": "safetyAroundOverheadPowerLinesEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -9115,7 +9437,9 @@
                   "id": "a1S3m000006rdPFFile",
                   "name": "pressureSystemsQualificationsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -9167,7 +9491,7 @@
               "condition": "",
               "questions": [
                 {
-                  "id": "XztevVzgZ309Tn",
+                  "id": "PV4FtG6sNB5uv2",
                   "form": "general",
                   "type": "useForm",
                   "hints": {},
@@ -9176,7 +9500,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"general\")"
                 },
                 {
-                  "id": "b3-WvgwimtwH0r",
+                  "id": "L4HUOtKawv5w_A",
                   "form": "agellanCapitalPartnersInc",
                   "type": "useForm",
                   "hints": {},
@@ -9185,7 +9509,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Agellan Capital Partners Inc\")"
                 },
                 {
-                  "id": "wxIf7z9CyBzaQv",
+                  "id": "3-r9dmTmtqPJeV",
                   "form": "bimboCanadaCanadaBread",
                   "type": "useForm",
                   "hints": {},
@@ -9194,7 +9518,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Bimbo Canada (Canada Bread)\")"
                 },
                 {
-                  "id": "Tu-2VvUWcy9-76",
+                  "id": "QobT6E-vbJLaV4",
                   "form": "birdConstructionClient",
                   "type": "useForm",
                   "hints": {},
@@ -9203,7 +9527,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Bird Construction (Client)\")"
                 },
                 {
-                  "id": "_IBDggUE5EPRA9",
+                  "id": "t_Rim1ZqiJfrM6",
                   "form": "bouyguesEnergiesServices",
                   "type": "useForm",
                   "hints": {},
@@ -9212,7 +9536,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Bouygues Energies & Services\")"
                 },
                 {
-                  "id": "aOj8_HwNqw-6Mz",
+                  "id": "rD02xYRl5UXF4X",
                   "form": "branksomeHall",
                   "type": "useForm",
                   "hints": {},
@@ -9221,7 +9545,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Branksome Hall\")"
                 },
                 {
-                  "id": "2H8aNdINd8znUr",
+                  "id": "uh1iUwiH5NGBsX",
                   "form": "burncoRockProductsLtdClient",
                   "type": "useForm",
                   "hints": {},
@@ -9230,7 +9554,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"BURNCO Rock Products Ltd - Client\")"
                 },
                 {
-                  "id": "OMkuzB_HP4HeuT",
+                  "id": "nKT3uqqDmPEN6g",
                   "form": "cadillacFairviewCorporationLimited",
                   "type": "useForm",
                   "hints": {},
@@ -9239,7 +9563,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Cadillac Fairview Corporation Limited\")"
                 },
                 {
-                  "id": "e-cQv5VOTOvl-H",
+                  "id": "eCKttNew-SZvlj",
                   "form": "calgaryCoOperativeAssociationLimited",
                   "type": "useForm",
                   "hints": {},
@@ -9248,7 +9572,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Calgary Co-Operative Association Limited\")"
                 },
                 {
-                  "id": "Of-jowgpZrS5j0",
+                  "id": "DYwyO1d84-EZQN",
                   "form": "canadaGeneralDocuments",
                   "type": "useForm",
                   "hints": {},
@@ -9257,7 +9581,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Canada General Documents\")"
                 },
                 {
-                  "id": "1GTP6qsddfUxBj",
+                  "id": "r2fUrOYJcMaLYM",
                   "form": "cbreAlbertaClient",
                   "type": "useForm",
                   "hints": {},
@@ -9266,7 +9590,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"CBRE (Alberta) Client\")"
                 },
                 {
-                  "id": "Eg-NEYFBaMs3UZ",
+                  "id": "86o2OCNrDns6O0",
                   "form": "cbreLimitedClient",
                   "type": "useForm",
                   "hints": {},
@@ -9275,7 +9599,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"CBRE Limited (Client)\")"
                 },
                 {
-                  "id": "pTg26ByR-2UZei",
+                  "id": "QIfF4pD8YLNnmu",
                   "form": "choicePropertiesIndustrialOffice",
                   "type": "useForm",
                   "hints": {},
@@ -9284,7 +9608,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Choice Properties - Industrial & Office\")"
                 },
                 {
-                  "id": "vTS7rwcFjTt0Pt",
+                  "id": "Oz6Df1_CQH0Brp",
                   "form": "choicePropertiesReit",
                   "type": "useForm",
                   "hints": {},
@@ -9293,7 +9617,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Choice Properties REIT\")"
                 },
                 {
-                  "id": "XFvmjG0-DKuZDp",
+                  "id": "Un_rq3_h-RNucU",
                   "form": "cineplexIncClient",
                   "type": "useForm",
                   "hints": {},
@@ -9302,7 +9626,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Cineplex Inc. (Client)\")"
                 },
                 {
-                  "id": "HZa4SrZBRQqSSB",
+                  "id": "NewPZPkirXS_H8",
                   "form": "conseilScolaireViamonde",
                   "type": "useForm",
                   "hints": {},
@@ -9311,7 +9635,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Conseil Scolaire Viamonde\")"
                 },
                 {
-                  "id": "qNcqE4UbMXNQyg",
+                  "id": "6mxyVVls7LE3VJ",
                   "form": "crownPropertyManagementInc",
                   "type": "useForm",
                   "hints": {},
@@ -9320,7 +9644,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Crown Property Management Inc.\")"
                 },
                 {
-                  "id": "a4ioOMlWkci2Kw",
+                  "id": "yYTspjyN-E_CY2",
                   "form": "cushmanWakefield20VicManagementIncClient",
                   "type": "useForm",
                   "hints": {},
@@ -9329,7 +9653,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Cushman & Wakefield (20 VIC Management Inc) (Client)\")"
                 },
                 {
-                  "id": "Zy738FLXKDFrV1",
+                  "id": "koUNqod0om5jKm",
                   "form": "dreamUnlimitedCorp",
                   "type": "useForm",
                   "hints": {},
@@ -9338,7 +9662,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Dream Unlimited Corp\")"
                 },
                 {
-                  "id": "Na45wmX4IH-rEz",
+                  "id": "nyRhxEaNeEUioX",
                   "form": "enwaveEnergyCorporationClient",
                   "type": "useForm",
                   "hints": {},
@@ -9347,7 +9671,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Enwave Energy Corporation (Client)\")"
                 },
                 {
-                  "id": "oc9vV4pjDWUdD3",
+                  "id": "QnwThT3v72dv05",
                   "form": "epicInvestmentServicesClient",
                   "type": "useForm",
                   "hints": {},
@@ -9356,7 +9680,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"EPIC Investment Services (Client)\")"
                 },
                 {
-                  "id": "C2f0sSKQenWVJU",
+                  "id": "c9gm5g-SRM8Jtb",
                   "form": "firstCapitalReit",
                   "type": "useForm",
                   "hints": {},
@@ -9365,7 +9689,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"First Capital - REIT\")"
                 },
                 {
-                  "id": "dpxSXsxoCbuN7r",
+                  "id": "gp-fdadsLpLlHH",
                   "form": "firstGulfClient",
                   "type": "useForm",
                   "hints": {},
@@ -9374,7 +9698,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"First Gulf (Client)\")"
                 },
                 {
-                  "id": "8LIp1yf0RZMFMP",
+                  "id": "Ga-6i3X_JLwEm-",
                   "form": "giveandGoPreparedFoodsCorp",
                   "type": "useForm",
                   "hints": {},
@@ -9383,7 +9707,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Give and Go Prepared Foods Corp\")"
                 },
                 {
-                  "id": "KS6aZUvZ6vcbXc",
+                  "id": "wpqAGRjy5xLFzw",
                   "form": "holtRenfrewClient",
                   "type": "useForm",
                   "hints": {},
@@ -9392,7 +9716,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Holt Renfrew (Client)\")"
                 },
                 {
-                  "id": "Q7jlrtvhoHClo1",
+                  "id": "DzaynwFWgWEtiC",
                   "form": "ivanhoeCambridgeInc",
                   "type": "useForm",
                   "hints": {},
@@ -9401,7 +9725,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Ivanhoe Cambridge Inc.\")"
                 },
                 {
-                  "id": "d4HUi6wBlYdYMp",
+                  "id": "QLGGlh2Fi0o2RE",
                   "form": "kLineGroup",
                   "type": "useForm",
                   "hints": {},
@@ -9410,7 +9734,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"K-Line Group\")"
                 },
                 {
-                  "id": "TC7OXENCSJzxbe",
+                  "id": "w9hL3gzu88gI0U",
                   "form": "labbeLeechInteriorsLtdClient",
                   "type": "useForm",
                   "hints": {},
@@ -9419,7 +9743,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Labbe - Leech Interiors Ltd (Client)\")"
                 },
                 {
-                  "id": "aPrRtJ2bKfGxSL",
+                  "id": "q6nUmOTH3KzpFy",
                   "form": "loblawGroupofCompanies",
                   "type": "useForm",
                   "hints": {},
@@ -9428,7 +9752,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Loblaw Group of Companies\")"
                 },
                 {
-                  "id": "zUueG1wTefacCW",
+                  "id": "D5WofAY2hb1ud9",
                   "form": "longoBrothersFruitMarketsInc",
                   "type": "useForm",
                   "hints": {},
@@ -9437,7 +9761,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Longo Brothers Fruit Markets Inc.\")"
                 },
                 {
-                  "id": "jEI_j4NBkhesXW",
+                  "id": "6chTC8EIkAssEw",
                   "form": "mapleLeafFoodsIncClient",
                   "type": "useForm",
                   "hints": {},
@@ -9446,7 +9770,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Maple Leaf Foods Inc. (Client)\")"
                 },
                 {
-                  "id": "u8pBAyVQtVMp8S",
+                  "id": "_39iePgdbG8lMN",
                   "form": "mapleLeafPropertyManagementMlpmClient",
                   "type": "useForm",
                   "hints": {},
@@ -9455,7 +9779,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Maple Leaf Property Management (MLPM) (Client)\")"
                 },
                 {
-                  "id": "xV3wvD1Ndgy4T5",
+                  "id": "2Gkn0gt0uO2C-0",
                   "form": "mapleLeafSportsandEntertainmentPartnershipsMlse",
                   "type": "useForm",
                   "hints": {},
@@ -9464,7 +9788,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Maple Leaf Sports and Entertainment Partnerships (MLSE)\")"
                 },
                 {
-                  "id": "PNjjSlKl34zrIu",
+                  "id": "MxU4es6i8bYLu7",
                   "form": "menkesPropertyManagementServicesLtdHooppProperties",
                   "type": "useForm",
                   "hints": {},
@@ -9473,7 +9797,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Menkes Property Management Services Ltd (HOOPP Properties)\")"
                 },
                 {
-                  "id": "xAThY1NQsB3s4s",
+                  "id": "b4e5XKiYJCqy8m",
                   "form": "menResPropertyManagementInc",
                   "type": "useForm",
                   "hints": {},
@@ -9482,7 +9806,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"MenRes Property Management Inc.\")"
                 },
                 {
-                  "id": "EbfOCBSVXmVsRs",
+                  "id": "PSyDdNoQgWW6uI",
                   "form": "metroOntarioInc",
                   "type": "useForm",
                   "hints": {},
@@ -9491,7 +9815,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Metro Ontario Inc.\")"
                 },
                 {
-                  "id": "aVHmB3Z51PMrsg",
+                  "id": "GZd-O-4nmig-8l",
                   "form": "metroQuebecInc",
                   "type": "useForm",
                   "hints": {},
@@ -9500,7 +9824,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Metro Quebec Inc.\")"
                 },
                 {
-                  "id": "pfPq7vQ7vjuxYC",
+                  "id": "2TOuefHkrxtCiQ",
                   "form": "ontarioCleanWaterAgency",
                   "type": "useForm",
                   "hints": {},
@@ -9509,7 +9833,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Ontario Clean Water Agency\")"
                 },
                 {
-                  "id": "30Pp1-XSGL1HLH",
+                  "id": "kTccdCl42zRwQI",
                   "form": "oxfordPropertiesGroupClient",
                   "type": "useForm",
                   "hints": {},
@@ -9518,7 +9842,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Oxford Properties Group (Client)\")"
                 },
                 {
-                  "id": "7427kMmZYn5Lkr",
+                  "id": "FN8iwtSJkUvUCP",
                   "form": "planGroupIncClient",
                   "type": "useForm",
                   "hints": {},
@@ -9527,7 +9851,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Plan Group Inc. (Client)\")"
                 },
                 {
-                  "id": "l4_6oZ4j7hD8X8",
+                  "id": "krCIThyrDGoUZt",
                   "form": "portofHalifax",
                   "type": "useForm",
                   "hints": {},
@@ -9536,7 +9860,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Port of Halifax\")"
                 },
                 {
-                  "id": "2XIiCq8MM4Btdg",
+                  "id": "6-86Z_CufHQviC",
                   "form": "providenceHealthcare",
                   "type": "useForm",
                   "hints": {},
@@ -9545,7 +9869,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Providence Healthcare\")"
                 },
                 {
-                  "id": "-EX5xmwbBkRAY6",
+                  "id": "bUZMDCoUo0INjG",
                   "form": "purduePharmaCanada",
                   "type": "useForm",
                   "hints": {},
@@ -9554,7 +9878,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Purdue Pharma Canada\")"
                 },
                 {
-                  "id": "WdSU_tCfYT1Oj5",
+                  "id": "jAZzpDbD3eeomP",
                   "form": "riskCheckIncClient",
                   "type": "useForm",
                   "hints": {},
@@ -9563,7 +9887,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"RiskCheck Inc. (Client)\")"
                 },
                 {
-                  "id": "grfg4JX7DotFvP",
+                  "id": "jXbMbLwGmOqbGc",
                   "form": "rogersIndustrial",
                   "type": "useForm",
                   "hints": {},
@@ -9572,7 +9896,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Rogers Industrial\")"
                 },
                 {
-                  "id": "zrCjQlgNc6Ln9q",
+                  "id": "b-geiTe5UIKowp",
                   "form": "schindlerElevatorCorporationClient",
                   "type": "useForm",
                   "hints": {},
@@ -9581,7 +9905,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Schindler Elevator Corporation (Client)\")"
                 },
                 {
-                  "id": "8Wqj1UyoXbKBy_",
+                  "id": "eYdfXzNp8_YO37",
                   "form": "shoppersDrugMartLossPrevention",
                   "type": "useForm",
                   "hints": {},
@@ -9590,7 +9914,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Shoppers Drug Mart Loss Prevention\")"
                 },
                 {
-                  "id": "oQxT1u0j4fsISj",
+                  "id": "DMQl_eAC34JyE3",
                   "form": "stMichaelsHospital",
                   "type": "useForm",
                   "hints": {},
@@ -9599,7 +9923,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"St. Michael's Hospital\")"
                 },
                 {
-                  "id": "HimnNVKCMkdl7J",
+                  "id": "Yn4LYRQLQFZ9MX",
                   "form": "strathmoreLandscapeContractorsClient",
                   "type": "useForm",
                   "hints": {},
@@ -9608,7 +9932,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Strathmore Landscape Contractors (Client)\")"
                 },
                 {
-                  "id": "Y-Wo9wQKYEG0OY",
+                  "id": "lNT8KzLM_jfUMV",
                   "form": "sunLifeUs",
                   "type": "useForm",
                   "hints": {},
@@ -9617,7 +9941,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Sun Life (US)\")"
                 },
                 {
-                  "id": "bM_eoER9kV4IP-",
+                  "id": "opABNGyGRWQPPN",
                   "form": "sunLifeCanada",
                   "type": "useForm",
                   "hints": {},
@@ -9626,7 +9950,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Sun Life Canada\")"
                 },
                 {
-                  "id": "Qs7e3A-asQ9Fak",
+                  "id": "qUlSfbo8bHbWq7",
                   "form": "theBadmintonAndRacquetClubofToronto",
                   "type": "useForm",
                   "hints": {},
@@ -9635,7 +9959,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"The Badminton And Racquet Club of Toronto\")"
                 },
                 {
-                  "id": "bjV2CV6SOu-dC8",
+                  "id": "eXU9IpcH8hbIoz",
                   "form": "thyssenkruppElevatorCanadaLimitedClient",
                   "type": "useForm",
                   "hints": {},
@@ -9644,7 +9968,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Thyssenkrupp Elevator (Canada) Limited (Client)\")"
                 },
                 {
-                  "id": "kMsIiewlKqg_OR",
+                  "id": "fFE2m8falpg19U",
                   "form": "tjConstructionManagementLtdClient",
                   "type": "useForm",
                   "hints": {},
@@ -9653,7 +9977,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"TJ Construction Management Ltd. (Client)\")"
                 },
                 {
-                  "id": "5vEx6Zm0hOi7bi",
+                  "id": "giNhIg3OiDCn84",
                   "form": "trinityCollegeSchool",
                   "type": "useForm",
                   "hints": {},
@@ -9662,7 +9986,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Trinity College School\")"
                 },
                 {
-                  "id": "LgHHPamB-YNx05",
+                  "id": "JzFBNZLgY6L5g6",
                   "form": "triovestRealtyAdvisorsInc",
                   "type": "useForm",
                   "hints": {},
@@ -9671,7 +9995,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Triovest Realty Advisors Inc.\")"
                 },
                 {
-                  "id": "ArmGmdHN_-d1I5",
+                  "id": "J-LI6eAaZzDwDA",
                   "form": "usGeneralDocuments",
                   "type": "useForm",
                   "hints": {},
@@ -9680,7 +10004,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"US General Documents\")"
                 },
                 {
-                  "id": "tzar0eGYsVMR99",
+                  "id": "7-hyZYfXAYgHFU",
                   "form": "ustestclient",
                   "type": "useForm",
                   "hints": {},
@@ -9689,7 +10013,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"US TEST CLIENT\")"
                 },
                 {
-                  "id": "togBQ43-bftUJJ",
+                  "id": "7Myi6jBOSlLJT4",
                   "form": "vancouverFraserPortAuthority",
                   "type": "useForm",
                   "hints": {},
@@ -9698,7 +10022,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Vancouver Fraser Port Authority\")"
                 },
                 {
-                  "id": "Ed148H5yPLwAC0",
+                  "id": "PEJMy_2NkITsTs",
                   "form": "wittingtonPropertiesLimited",
                   "type": "useForm",
                   "hints": {},
@@ -9747,7 +10071,9 @@
                   "id": "a1S1N000005WjmNFile",
                   "name": "agellanCapitalPartnersIncWcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -9801,7 +10127,9 @@
                   "id": "a1S1N000005WjmPFile",
                   "name": "agellanCapitalPartnersIncInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -9872,7 +10200,9 @@
                   "id": "a1S3m000008E3yUFile",
                   "name": "grupoBimboCanadaBreadInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -9926,7 +10256,9 @@
                   "id": "a1S3m000008E3yeFile",
                   "name": "grupoBimboCanadaBreadWcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -9980,7 +10312,9 @@
                   "id": "a1S3m000008E4kaFile",
                   "name": "grupoBimboCanadaBreadGmpFoodSafetyEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -10048,7 +10382,9 @@
                   "id": "a1S3m000008kSXiFile",
                   "name": "birdConstructionCertificateofInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -10102,7 +10438,9 @@
                   "id": "a1S3m000008kSXdFile",
                   "name": "birdConstructionWcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -10156,7 +10494,9 @@
                   "id": "a1S3m000008kSXnFile",
                   "name": "birdConstructionContractorPreQualificationFormEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -10239,7 +10579,9 @@
                   "id": "a1S3m000008kSXoFile",
                   "name": "birdConstructionCertificateofRecognitionEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "condition": "valueEquals(birdConstructionCertificateofRecognition, \"Yes\")",
                   "extensions": [
@@ -10294,7 +10636,9 @@
                   "id": "a1S3m000008kXWgFile",
                   "name": "birdConstructionSubcontractorHealthandSafetyInformationEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -10348,7 +10692,9 @@
                   "id": "a1S3m000008kXWhFile",
                   "name": "birdConstructionSdiRequirementsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -10416,7 +10762,9 @@
                   "id": "a1S3m000008LedXFile",
                   "name": "byesInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -10470,7 +10818,9 @@
                   "id": "a1S3m000008k7AcFile",
                   "name": "byesWorkersCompensationEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -10540,7 +10890,9 @@
                   "id": "a1S1N000005Wjo8File",
                   "name": "branksomeHallWcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -10594,7 +10946,9 @@
                   "id": "a1S1N000005Wjn2File",
                   "name": "branksomeHallInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -10664,7 +11018,9 @@
                   "id": "a1S3m000008khUTFile",
                   "name": "burncoWcbwsibEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -10718,7 +11074,9 @@
                   "id": "a1S3m000008khUZFile",
                   "name": "burncoCertificateofInsuranceCoiEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -10772,7 +11130,9 @@
                   "id": "a1S3m000008ktbgFile",
                   "name": "burncoContractorQuestionnaireEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -10840,7 +11200,9 @@
                   "id": "a1S1N000005WjnoFile",
                   "name": "cadillacFairviewInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -10894,7 +11256,9 @@
                   "id": "a1S1N000005WjnpFile",
                   "name": "cadillacFairviewSpecificationFormEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -11131,7 +11495,9 @@
                   "id": "a1S1N000005WjnXFile",
                   "name": "cadillacFairviewTdcEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -11185,7 +11551,9 @@
                   "id": "a1S1N000005WjnmFile",
                   "name": "cadillacFairviewWcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -11253,7 +11621,9 @@
                   "id": "a1S3m000008zZ6UFile",
                   "name": "calgaryCoopCertificateofInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -11307,7 +11677,9 @@
                   "id": "a1S3m000008zZ6PFile",
                   "name": "calgaryCoopWcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -11361,7 +11733,9 @@
                   "id": "a1S3m000008zZ6VFile",
                   "name": "calgaryCoopCorEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -11429,7 +11803,9 @@
                   "id": "a1S3m000008kpKbFile",
                   "name": "canWorkersCompensationClearanceManitobaEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -11483,7 +11859,9 @@
                   "id": "a1S3m000008kpKvFile",
                   "name": "canWorkersCompensationClearanceNorthwestTerritoriesEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -11537,7 +11915,9 @@
                   "id": "a1S3m000008kpKgFile",
                   "name": "canWorkersCompensationClearanceNewBrunswickEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -11591,7 +11971,9 @@
                   "id": "a1S3m000008kpKhFile",
                   "name": "canWorkersCompensationClearanceSaskatchewanEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -11645,7 +12027,9 @@
                   "id": "a1S3m000008kpKiFile",
                   "name": "canWorkersCompensationClearanceYukonEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -11699,7 +12083,9 @@
                   "id": "a1S3m000008kpL5File",
                   "name": "canWorkersCompensationClearanceNunavutEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -11753,7 +12139,9 @@
                   "id": "a1S3m000008kpL6File",
                   "name": "canWorkersCompensationClearanceQuebecEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -11807,7 +12195,9 @@
                   "id": "a1S3m000008kpKWFile",
                   "name": "canWorkersCompensationClearanceAlbertaEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -11861,7 +12251,9 @@
                   "id": "a1S3m000008kpKXFile",
                   "name": "canWorkersCompensationClearanceBritishColumbiaEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -11915,7 +12307,9 @@
                   "id": "a1S3m000008kpL0File",
                   "name": "canWorkersCompensationClearanceNovaScotiaEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -11969,7 +12363,9 @@
                   "id": "a1S3m000008kpLAFile",
                   "name": "canWorkersCompensationClearanceOntarioEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -12023,7 +12419,9 @@
                   "id": "a1S3m000008kpLFFile",
                   "name": "canWorkersCompensationClearancePeiEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -12077,7 +12475,9 @@
                   "id": "a1S3m000008kpKqFile",
                   "name": "canWorkersCompensationClearanceNewfoundlandLabradorEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -12174,7 +12574,9 @@
                   "id": "a1S3m000008NYi1File",
                   "name": "cbreAlbertaVehicleInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "condition": "valueEquals(cbreAlbertaVehicleInsurance, \"Yes\")",
                   "extensions": [
@@ -12229,7 +12631,9 @@
                   "id": "a1S1N000005WjmqFile",
                   "name": "cbreAlbertaWcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -12283,7 +12687,9 @@
                   "id": "a1S1N000005WjmQFile",
                   "name": "cbreAlbertaInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -12412,7 +12818,9 @@
                   "id": "a1S1N000005WjmfFile",
                   "name": "cbreLimitedInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -12466,7 +12874,9 @@
                   "id": "a1S1N000005WjmOFile",
                   "name": "cbreLimitedWcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -12534,7 +12944,9 @@
                   "id": "a1S3m000009DJxpFile",
                   "name": "choicePropertiesIndustrialOfficeWcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -12588,7 +13000,9 @@
                   "id": "a1S3m000009DJm4File",
                   "name": "choicePropertiesIndustrialOfficeInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -12642,7 +13056,9 @@
                   "id": "a1S3m000009DJy9File",
                   "name": "choicePropertiesIndustrialOfficePandemicAcknowledgementFormEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -12710,7 +13126,9 @@
                   "id": "a1S3m000006s3lxFile",
                   "name": "choicePropertiesReitPandemicAcknowledgementFormEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -12764,7 +13182,9 @@
                   "id": "a1S1N000005WjmeFile",
                   "name": "choicePropertiesReitConstructionInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -12818,7 +13238,9 @@
                   "id": "a1S1N000005Wjo0File",
                   "name": "choicePropertiesReitFinancialDataEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -12872,7 +13294,9 @@
                   "id": "a1S1N000005Wjo2File",
                   "name": "choicePropertiesReitwcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -12926,7 +13350,9 @@
                   "id": "a1S1N000005WjnUFile",
                   "name": "choicePropertiesReitLienFormEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -12980,7 +13406,9 @@
                   "id": "a1S1N000005WjnZFile",
                   "name": "choicePropertiesReitContractorUnionSpecsFormEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -13034,7 +13462,9 @@
                   "id": "a1S1N000005WjnjFile",
                   "name": "choicePropertiesReitInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -13102,7 +13532,9 @@
                   "id": "a1S1N000005WjoFFile",
                   "name": "cineplexContractorHsFormEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -13156,7 +13588,9 @@
                   "id": "a1S1N000005WjoHFile",
                   "name": "cineplexWcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -13210,7 +13644,9 @@
                   "id": "a1S1N000005WjnQFile",
                   "name": "cineplexInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -13264,7 +13700,9 @@
                   "id": "a1S1N000005WjnYFile",
                   "name": "cineplexBlankInvoiceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -13393,7 +13831,9 @@
                   "id": "a1S3m000008l51sFile",
                   "name": "conseilScholaireViamondeCoiEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -13447,7 +13887,9 @@
                   "id": "a1S3m000008l51nFile",
                   "name": "conseilScolaireViamondeWsbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -13515,7 +13957,9 @@
                   "id": "a1S1N000005WjmoFile",
                   "name": "crownPropertyManagementIncInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -13569,7 +14013,9 @@
                   "id": "a1S1N000005WjmzFile",
                   "name": "crownPropertyManagementIncWcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -13666,7 +14112,9 @@
                   "id": "a1S3m000008NYiBFile",
                   "name": "cushmanWakefieldVehicleInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "condition": "valueEquals(cushmanWakefieldVehicleInsurance, \"Yes\")",
                   "extensions": [
@@ -13721,7 +14169,9 @@
                   "id": "a1S1N000005WjmVFile",
                   "name": "cushmanWakefieldWcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -13775,7 +14225,9 @@
                   "id": "a1S1N000005WjmrFile",
                   "name": "cushmanWakefieldInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -13843,7 +14295,9 @@
                   "id": "a1S3m000008lIAxFile",
                   "name": "dreamUnlimitedCovidPandemicAcknowledgementEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -13958,7 +14412,9 @@
                   "id": "a1S1N000005WjoEFile",
                   "name": "dreamUnlimitedCorpWsibInjuryExperienceReportEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -14134,7 +14590,9 @@
                   "id": "a1S1N000005WjmSFile",
                   "name": "dreamUnlimitedWcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -14188,7 +14646,9 @@
                   "id": "a1S1N000005WjnnFile",
                   "name": "dreamUnlimitedCorpInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -14256,7 +14716,9 @@
                   "id": "a1S1N000005Wjn0File",
                   "name": "enwaveWcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -14310,7 +14772,9 @@
                   "id": "a1S1N000005Wjn3File",
                   "name": "enwaveInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -14364,7 +14828,9 @@
                   "id": "a1S1N000005WjnIFile",
                   "name": "enwaveEnvironmentalComplianceApprovalEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -14418,7 +14884,9 @@
                   "id": "a1S1N000005WjnKFile",
                   "name": "enwaveEmrContactListEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -14472,7 +14940,9 @@
                   "id": "a1S1N000005WjnNFile",
                   "name": "enwaveWsibInjuryExperienceReportEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -14540,7 +15010,9 @@
                   "id": "a1S1N000005WjnPFile",
                   "name": "epicInvestmentServiceInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -14594,7 +15066,9 @@
                   "id": "a1S1N000005WjnRFile",
                   "name": "epicInvestmentServicesWcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -14662,7 +15136,9 @@
                   "id": "a1S1N000005WjmgFile",
                   "name": "firstCapitalReitwcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -14745,7 +15221,9 @@
                   "id": "a1S1N000005WjmhFile",
                   "name": "firstCapitalReitVehicleInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "condition": "valueEquals(firstCapitalReitVehicleInsurance, \"Yes\")",
                   "extensions": [
@@ -14800,7 +15278,9 @@
                   "id": "a1S1N000005WjmmFile",
                   "name": "firstCapitalReitVendorTcEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -14854,7 +15334,9 @@
                   "id": "a1S1N000005WjmvFile",
                   "name": "firstCapitalReitSupplierCodeofConductEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -14908,7 +15390,9 @@
                   "id": "a1S1N000005WjmTFile",
                   "name": "firstCapitalReitInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -14976,7 +15460,9 @@
                   "id": "a1S1N000005WjmlFile",
                   "name": "firstGulfInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -15030,7 +15516,9 @@
                   "id": "a1S1N000005WjmuFile",
                   "name": "firstGulfWcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -15098,7 +15586,9 @@
                   "id": "a1S3m000008LjXzFile",
                   "name": "giveGoPreparedFoodsFinalCanadianAgreementEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -15152,7 +15642,9 @@
                   "id": "a1S3m000008LjWrFile",
                   "name": "giveGoPreparedFoodsWcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -15206,7 +15698,9 @@
                   "id": "a1S3m000008LjXLFile",
                   "name": "giveGoPreparedFoodsPlantRulesContractorsVisitorsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -15260,7 +15754,9 @@
                   "id": "a1S3m000008LjWmFile",
                   "name": "giveGoPreparedFoodsInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -15328,7 +15824,9 @@
                   "id": "a1S1N000005WjnSFile",
                   "name": "holtRenfrewWcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -15382,7 +15880,9 @@
                   "id": "a1S1N000005WjnTFile",
                   "name": "holtRenfrewContractorTrainingSignOffEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -15436,7 +15936,9 @@
                   "id": "a1S1N000005WjnWFile",
                   "name": "holtRenfrewInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -15490,7 +15992,9 @@
                   "id": "a1S3m000008LiZKFile",
                   "name": "holtRenfrewLeasedRiskAssessmentEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -15544,7 +16048,9 @@
                   "id": "a1S3m000008LiZPFile",
                   "name": "holtRenfrewLeasedWhmisEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -15598,7 +16104,9 @@
                   "id": "a1S3m000008LiZFFile",
                   "name": "holtRenfrewLeasedEquipmentMaintenanceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -15652,7 +16160,9 @@
                   "id": "a1S3m000008LiZ5File",
                   "name": "holtRenfrewLeasedPolicyEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -15706,7 +16216,9 @@
                   "id": "a1S3m000008LiZAFile",
                   "name": "holtRenfrewLeasedTrainingEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -15760,7 +16272,9 @@
                   "id": "a1S3m000008LiZUFile",
                   "name": "holtRenfrewLeasedPartnerQ6Evidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -15889,7 +16403,9 @@
                   "id": "a1S1N000005WjnaFile",
                   "name": "ivanhoeCambridgeWcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -15943,7 +16459,9 @@
                   "id": "a1S1N000005WjncFile",
                   "name": "ivanhoeCambridgeInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -15997,7 +16515,9 @@
                   "id": "a1S1N000005WjndFile",
                   "name": "ivanhoeCambridgeFullFormEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -16051,7 +16571,9 @@
                   "id": "a1S1N000005WjneFile",
                   "name": "ivanhoeCambridgeShortFormEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -16119,7 +16641,9 @@
                   "id": "a1S3m000008kHr2File",
                   "name": "kLineGroupEnvironmentalPolicyandProgramEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -16173,7 +16697,9 @@
                   "id": "a1S3m000008kHr7File",
                   "name": "kLineGroupHealthandSafetyPolicyEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -16227,7 +16753,9 @@
                   "id": "a1S3m000008kHqiFile",
                   "name": "kLineGroupWcbwsibEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -16281,7 +16809,9 @@
                   "id": "a1S3m000008kHqjFile",
                   "name": "kLineGroupOhsas18001Iso45001CertificateEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -16335,7 +16865,9 @@
                   "id": "a1S3m000008kHqkFile",
                   "name": "kLineGroupSubcontractorPrequalificationFormEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -16418,7 +16950,9 @@
                   "id": "a1S3m000008kHqnFile",
                   "name": "kLineGroupCorCertificateEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "condition": "valueEquals(kLineGroupCorCertificate, \"Yes\")",
                   "extensions": [
@@ -16473,7 +17007,9 @@
                   "id": "a1S3m000008kfIiFile",
                   "name": "kLineGroupPremiumRateStatementWcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -16527,7 +17063,9 @@
                   "id": "a1S3m000008kGyhFile",
                   "name": "kLineGroupInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -16595,7 +17133,9 @@
                   "id": "a1S1N000008BmkIFile",
                   "name": "labbeLeechInteriorsInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -16649,7 +17189,9 @@
                   "id": "a1S1N000008BmlPFile",
                   "name": "labbeLeechInteriorsWcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -16778,7 +17320,9 @@
                   "id": "a1S1N000005WjnqFile",
                   "name": "loblawWisrEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -16832,7 +17376,9 @@
                   "id": "a1S1N000005WjnrFile",
                   "name": "loblawFinancialDataEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -16886,7 +17432,9 @@
                   "id": "a1S1N000005WjnsFile",
                   "name": "loblawOwnerPrincipalEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -16940,7 +17488,9 @@
                   "id": "a1S1N000005WjntFile",
                   "name": "loblawEarlyReturntoWorkEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -16994,7 +17544,9 @@
                   "id": "a1S1N000005WjnuFile",
                   "name": "loblawOrientationPackageSignoffEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -17048,7 +17600,9 @@
                   "id": "a1S1N000005WjnfFile",
                   "name": "loblawInsuranceConstructionEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -17102,7 +17656,9 @@
                   "id": "a1S1N000005WjngFile",
                   "name": "loblawWcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -17156,7 +17712,9 @@
                   "id": "a1S1N000005WjnhFile",
                   "name": "loblawSigningAuthorityEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -17210,7 +17768,9 @@
                   "id": "a1S1N000005WjnkFile",
                   "name": "loblawInsuranceMaintenanceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -17264,7 +17824,9 @@
                   "id": "a1S1N000005WjnlFile",
                   "name": "loblawOrientationTrainingListEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -17318,7 +17880,9 @@
                   "id": "a1S1N000008C1prFile",
                   "name": "loblawContractorUnionSpecsFormEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -17415,7 +17979,9 @@
                   "id": "a1S3m000008NYifFile",
                   "name": "longoBrothersVehicleInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "condition": "valueEquals(longoBrothersVehicleInsurance, \"Yes\")",
                   "extensions": [
@@ -17470,7 +18036,9 @@
                   "id": "a1S1N000005WjmYFile",
                   "name": "longoBrothersWcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -17524,7 +18092,9 @@
                   "id": "a1S1N000005Wjn1File",
                   "name": "longoBrothersInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -17592,7 +18162,9 @@
                   "id": "a1S1N000005WjnvFile",
                   "name": "mapleLeafFoodsConfidentialityNonDisclosureEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -17646,7 +18218,9 @@
                   "id": "a1S1N000005WjnwFile",
                   "name": "mapleLeafFoodsContractorTrainingAcknowledgementEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -17700,7 +18274,9 @@
                   "id": "a1S1N000005WjnxFile",
                   "name": "mapleLeafFoodsCodeofConductEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -17754,7 +18330,9 @@
                   "id": "a1S1N000005WjnyFile",
                   "name": "mapleLeafFoodsWcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -17808,7 +18386,9 @@
                   "id": "a1S1N000005WjnzFile",
                   "name": "mapleLeafFoodsInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -17862,7 +18442,9 @@
                   "id": "a1S1N000005Wjo7File",
                   "name": "mapleLeadFoodsChecklistEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -17991,7 +18573,9 @@
                   "id": "a1S1N000005WjmWFile",
                   "name": "mapleLeafPropertyManagementInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -18045,7 +18629,9 @@
                   "id": "a1S1N000005WjmxFile",
                   "name": "mapleLeafPropertyManagementWcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -18099,7 +18685,9 @@
                   "id": "a1S1N000005WjmyFile",
                   "name": "mapleLeafPropertyManagementHsSignOffDocEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -18167,7 +18755,9 @@
                   "id": "a1S3m000006rqlQFile",
                   "name": "mlseWorkersCompensationEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -18221,7 +18811,9 @@
                   "id": "a1S3m000006rqlLFile",
                   "name": "mlseInsuranceRequirementEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -18289,7 +18881,9 @@
                   "id": "a1S1N000005Wjo6File",
                   "name": "menkesPropertyInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -18343,7 +18937,9 @@
                   "id": "a1S1N000005WjmLFile",
                   "name": "menkesPropertyWcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -18411,7 +19007,9 @@
                   "id": "a1S3m000006sJTrFile",
                   "name": "menResPropertyManagementWcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -18465,7 +19063,9 @@
                   "id": "a1S3m000006sJTwFile",
                   "name": "menResPropertyManagementInsuranceRequirementsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -18519,7 +19119,9 @@
                   "id": "a1S3m000008jw5LFile",
                   "name": "menResInsuranceDishonestEmployeeLiabilityEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -18616,7 +19218,9 @@
                   "id": "a1S3m000008NYiMFile",
                   "name": "metroOntarioVehicleInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "condition": "valueEquals(metroOntarioVehicleInsurance, \"Yes\")",
                   "extensions": [
@@ -18732,7 +19336,9 @@
                   "id": "a1S1N000005WjoMFile",
                   "name": "metroOntarioIncInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -18786,7 +19392,9 @@
                   "id": "a1S1N000005WjoOFile",
                   "name": "metroOntarioIncContractorCommitmentEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -18840,7 +19448,9 @@
                   "id": "a1S1N000005WjnEFile",
                   "name": "metroOntarioIncWcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -18894,7 +19504,9 @@
                   "id": "a1S1N000005WjnJFile",
                   "name": "metroOntarioIncJobHazardsChecklistEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -18948,7 +19560,9 @@
                   "id": "a1S1N000005WjmJFile",
                   "name": "metroOntarioIncAodaEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -19016,7 +19630,9 @@
                   "id": "a1S1N000005Wjo9File",
                   "name": "metroQuebecCnesstEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -19192,7 +19808,9 @@
                   "id": "a1S1N000005WjoDFile",
                   "name": "metroQuebecInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -19246,7 +19864,9 @@
                   "id": "a1S1N000005WjoIFile",
                   "name": "metroQubecIncRbqEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -19314,7 +19934,9 @@
                   "id": "a1S3m000008DzcnFile",
                   "name": "ocwaPreWorkELearningEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -19368,7 +19990,9 @@
                   "id": "a1S3m000006rZh4File",
                   "name": "ocwaWorkersCompensationEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -19422,7 +20046,9 @@
                   "id": "a1S3m000006rffDFile",
                   "name": "ocwaSouthPeelELearningEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -19519,7 +20145,9 @@
                   "id": "a1S3m000008LrbUFile",
                   "name": "oxfordPropertiesGroupVehicleInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "condition": "valueEquals(oxfordPropertiesGroupVehicleInsurance, \"Yes\")",
                   "extensions": [
@@ -19574,7 +20202,9 @@
                   "id": "a1S1N000005WjmcFile",
                   "name": "oxfordPropertiesGroupInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -19628,7 +20258,9 @@
                   "id": "a1S1N000005WjoAFile",
                   "name": "oxfordPropertiesGroupWcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -19818,7 +20450,9 @@
                   "id": "a1S3m000006rZgaFile",
                   "name": "planGroupInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -19872,7 +20506,9 @@
                   "id": "a1S3m000006rZgbFile",
                   "name": "planGroupWorkersCompensationEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -19926,7 +20562,9 @@
                   "id": "a1S3m000006rZgfFile",
                   "name": "planGroupWorkplaceInjurySummaryReportEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -19980,7 +20618,9 @@
                   "id": "a1S3m000008E9IhFile",
                   "name": "thePlanGroupIncidentRateFormEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -20048,7 +20688,9 @@
                   "id": "a1S3m000008l8pNFile",
                   "name": "portofHalifaxCertificateofInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -20102,7 +20744,9 @@
                   "id": "a1S3m000008l8phFile",
                   "name": "portofHalifaxWcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -20156,7 +20800,9 @@
                   "id": "a1S3m000008lA0RFile",
                   "name": "portofHalifaxWorkplaceHarassmentViolenceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -20224,7 +20870,9 @@
                   "id": "a1S1N000008BmAqFile",
                   "name": "providenceHealthcareWsibEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -20278,7 +20926,9 @@
                   "id": "a1S1N000008BmAvFile",
                   "name": "providenceHealthcareInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -20375,7 +21025,9 @@
                   "id": "a1S3m000008NYipFile",
                   "name": "purduePharmaCanadaVehicleInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "condition": "valueEquals(purduePharmaCanadaVehicleInsurance, \"Yes\")",
                   "extensions": [
@@ -20430,7 +21082,9 @@
                   "id": "a1S1N000008CdXjFile",
                   "name": "purduePharmaCanadaInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -20484,7 +21138,9 @@
                   "id": "a1S1N000008CdXyFile",
                   "name": "purduePharmaCanadaContractorPoliciesEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -20538,7 +21194,9 @@
                   "id": "a1S1N000008CdXtFile",
                   "name": "purduePharmaCanadaWcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -20606,7 +21264,9 @@
                   "id": "a1S1N000005WjoJFile",
                   "name": "riskCheckIncInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -20660,7 +21320,9 @@
                   "id": "a1S1N000005WjoLFile",
                   "name": "riskCheckIncWcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -20728,7 +21390,9 @@
                   "id": "a1S3m000008LldqFile",
                   "name": "propertyquestionEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -20782,7 +21446,9 @@
                   "id": "a1S3m000008Lle0File",
                   "name": "demoClientAssessmentCSregularquestionEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -20851,7 +21517,9 @@
                   "id": "a1S3m000006rWr2File",
                   "name": "schindlerContractorPreQualificationFormEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -20905,7 +21573,9 @@
                   "id": "a1S3m000008jqc9File",
                   "name": "schindlerCoCVendorPolicyFormEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -20959,7 +21629,9 @@
                   "id": "a1S3m000006rT4wFile",
                   "name": "schindlerCertificateofInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -21013,7 +21685,9 @@
                   "id": "a1S3m000006rT56File",
                   "name": "schindlerWorkersCompenationEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -21388,7 +22062,9 @@
                   "id": "a1S3m000008jr70File",
                   "name": "sdmlpInsuranceRequirementsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -21564,7 +22240,9 @@
                   "id": "a1S3m000008jxScFile",
                   "name": "sdmlpwcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -21632,7 +22310,9 @@
                   "id": "a1S1N000005WjmpFile",
                   "name": "stMichaelsHospitalWcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -21686,7 +22366,9 @@
                   "id": "a1S1N000005WjnLFile",
                   "name": "stMichaelsHospitalInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -21754,7 +22436,9 @@
                   "id": "a1S3m000008jpusFile",
                   "name": "strathmoreInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -21808,7 +22492,9 @@
                   "id": "a1S3m000008jpunFile",
                   "name": "strathmoreWcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -21876,7 +22562,9 @@
                   "id": "a1S3m000008kC1OFile",
                   "name": "sunLifeUsInsurancePreQuestionnaire2Evidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -21930,7 +22618,9 @@
                   "id": "a1S3m000008kC19File",
                   "name": "sunLifeUsInsurancePreQuestionnaire1Evidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -22013,7 +22703,9 @@
                   "id": "a1S3m000008kC1sFile",
                   "name": "sunLifeUsInsurancePreQuestionnaire3Evidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "condition": "valueEquals(sunLifeUsInsurancePreQuestionnaire3, \"Yes\")",
                   "extensions": [
@@ -22097,7 +22789,9 @@
                   "id": "a1S3m000008kC1dFile",
                   "name": "sunLifeUsInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "condition": "valueEquals(sunLifeUsInsurance, \"Yes\")",
                   "extensions": [
@@ -22213,7 +22907,9 @@
                   "id": "a1S3m000008k885File",
                   "name": "sunLifeUsInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -22267,7 +22963,9 @@
                   "id": "a1S3m000008k88AFile",
                   "name": "sunLifeUsExperienceModifierEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -22321,7 +23019,9 @@
                   "id": "a1S3m000008k88FFile",
                   "name": "sunLifeNaicsCitationsOshamshaepaEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -22375,7 +23075,9 @@
                   "id": "a1S3m000008k88PFile",
                   "name": "sunLifeUsCitationsOshamshaepaEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -22443,7 +23145,9 @@
                   "id": "a1S1N000005WjmnFile",
                   "name": "sunLifeFinancialWcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -22497,7 +23201,9 @@
                   "id": "a1S1N000005WjnAFile",
                   "name": "sunLifeFinancialInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -22565,7 +23271,9 @@
                   "id": "a1S3m000008NaDbFile",
                   "name": "badmintonRacquetClubofTorontoWcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -22619,7 +23327,9 @@
                   "id": "a1S3m000008NaDWFile",
                   "name": "badmintonRacquetClubofTorontoInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -22687,7 +23397,9 @@
                   "id": "a1S1N000005WjmaFile",
                   "name": "thyssenKruppWcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -22741,7 +23453,9 @@
                   "id": "a1S1N000005Wjo5File",
                   "name": "thyssenKruppInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -22809,7 +23523,9 @@
                   "id": "a1S3m000008NjESFile",
                   "name": "tjConstructionManagementLtdVendorCodeofConductEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -22863,7 +23579,9 @@
                   "id": "a1S3m000008NjEcFile",
                   "name": "tjConstructionManagementLtdServiceAgreementEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -22917,7 +23635,9 @@
                   "id": "a1S3m000008NjEmFile",
                   "name": "tjConstructionManagementLtdSubContractorQualificationsEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -22971,7 +23691,9 @@
                   "id": "a1S3m000008NjENFile",
                   "name": "tjConstructionManagementLtdProjectDeliverableGuidelinesEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -23025,7 +23747,9 @@
                   "id": "a1S3m000008NjE8File",
                   "name": "tjConstructionManagementLtdContractorOrientationEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -23079,7 +23803,9 @@
                   "id": "a1S3m000008Nj7vFile",
                   "name": "tjConstructionManagementLtdWcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -23133,7 +23859,9 @@
                   "id": "a1S3m000008Nj8FFile",
                   "name": "tjConstructionManagementLtdInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -23201,7 +23929,9 @@
                   "id": "a1S1N000008CMiPFile",
                   "name": "trinityCollegeSchoolInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -23255,7 +23985,9 @@
                   "id": "a1S1N000008CMiUFile",
                   "name": "trinityCollegeSchoolWcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -23352,7 +24084,9 @@
                   "id": "a1S3m000008NYiCFile",
                   "name": "triovestRealtyAdvisorsVehicleInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "condition": "valueEquals(triovestRealtyAdvisorsVehicleInsurance, \"Yes\")",
                   "extensions": [
@@ -23407,7 +24141,9 @@
                   "id": "a1S1N000008LAlzFile",
                   "name": "triovestRealtyAdvisorsIncBcInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -23461,7 +24197,9 @@
                   "id": "a1S1N000005WjmwFile",
                   "name": "triovestRealtyAdvisorsWcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -23637,7 +24375,9 @@
                   "id": "a1S1N000008Bp6KFile",
                   "name": "triovestRealityAdvisorsIncInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -23691,7 +24431,9 @@
                   "id": "a1S1N000008LAkhFile",
                   "name": "triovestRealtyAdvisorsIncAbskInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -23759,7 +24501,9 @@
                   "id": "a1S3m000008kCU7File",
                   "name": "usGeneralDocumentsExperienceModifierEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -23827,7 +24571,9 @@
                   "id": "a1S3m000008kBisFile",
                   "name": "csTestQuestionEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -23915,7 +24661,9 @@
                   "id": "a1S3m000008NYivFile",
                   "name": "vancouverFraserPortAuthorityVehicleInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "condition": "valueEquals(vancouverFraserPortAuthorityVehicleInsurance, \"Yes\")",
                   "extensions": [
@@ -23970,7 +24718,9 @@
                   "id": "a1S1N000008BmBAFile",
                   "name": "vancouverFraserPortAuthorityWcbEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -24024,7 +24774,9 @@
                   "id": "a1S1N000008BmBFFile",
                   "name": "vancouverFraserPortAuthorityInjuryRateEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -24078,7 +24830,9 @@
                   "id": "a1S1N000008BmB5File",
                   "name": "vancouverFraserPortAuthorityInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -24132,7 +24886,9 @@
                   "id": "a1S1N000008BmB0File",
                   "name": "vancouverFraserPortAuthorityExperienceRatingEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -24200,7 +24956,9 @@
                   "id": "a1S1N000005Wjn6File",
                   "name": "wittingtonPropertiesLimitedInsuranceEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -24254,7 +25012,9 @@
                   "id": "a1S1N000005WjnOFile",
                   "name": "wittingtonPropertiesLimitedWsibEvidence",
                   "type": "file",
-                  "hints": {},
+                  "hints": {
+                    "dragAndDrop": true
+                  },
                   "question": "<h5>Required Evidence</h5>",
                   "extensions": [
                     "docx",
@@ -30125,7 +30885,34 @@
           "__init": true,
           "_selectId": "9FuSIszUF6x78V",
           "alcumusVerificationOptions": {
-            "clear": true,
+            "clear": {
+              "type": null,
+              "view": null,
+              "pageX": null,
+              "pageY": null,
+              "altKey": null,
+              "button": null,
+              "detail": null,
+              "target": null,
+              "bubbles": null,
+              "buttons": null,
+              "clientX": null,
+              "clientY": null,
+              "ctrlKey": null,
+              "metaKey": null,
+              "screenX": null,
+              "screenY": null,
+              "shiftKey": null,
+              "isTrusted": null,
+              "cancelable": null,
+              "eventPhase": null,
+              "_targetInst": null,
+              "nativeEvent": null,
+              "dispatchConfig": null,
+              "defaultPrevented": null,
+              "_dispatchInstances": null,
+              "_dispatchListeners": null
+            },
             "a1S1N000005WjLxFile": {
               "viewTypes": "",
               "isAuditable": false,
