@@ -1,5 +1,5 @@
 {
-  "__": "FHTZ-GPSt5ulHS",
+  "__": "df3iGWx0zzh59T",
   "_id": "rH6EL6EJjx3vGG:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -175,8 +175,16 @@
       "publishDocs": "",
       "gitHubPublish": true
     },
+    "1rr4bM4EH-AQP9": {
+      "publishDocs": true,
+      "gitHubPublish": true
+    },
     "aV8boSk1D6q6YG": {
       "publishDocs": true,
+      "gitHubPublish": true
+    },
+    "zHYkrrsjUcXvCT": {
+      "publishDocs": "",
       "gitHubPublish": true
     }
   },
@@ -186,10 +194,17 @@
   "graphQL": {
     "6g4mciY7jkfOUo": {
       "exposeAPI": ""
+    },
+    "aZ5t8g0t4u8p6D": {
+      "read": true,
+      "write": true,
+      "exposeAPI": true,
+      "readDemands": [],
+      "writeDemands": []
     }
   },
   "$invalid": false,
-  "_created": 1622461285000,
+  "_created": 1621422686000,
   "_deleted": 0,
   "database": "workA",
   "maxWidth": 1000,
@@ -233,13 +248,23 @@
     {
       "id": "1bX7G-SYavPET0",
       "name": "1.0.1",
-      "time": 1624368525110,
-      "user": "ff79dada-c9af-494d-9025-39ccae118cea",
+      "time": 1624367960010,
+      "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
       "locked": true,
+      "_selectId": "KcOXufVyeXARPb",
       "parentVersion": "ur734zai3McGV7"
+    },
+    {
+      "id": "oKiFRvQiOziul8",
+      "name": "1.1",
+      "time": 1624374365695,
+      "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
+      "locked": false,
+      "_selectId": "5pQR4Q-xcbcs3s",
+      "parentVersion": "1bX7G-SYavPET0"
     }
   ],
-  "_modified": 1624368531000,
+  "_modified": 1624374370000,
   "components": "",
   "isLockedBy": null,
   "navigation": [],
@@ -433,15 +458,16 @@
   "tabsSelected": "#009fda",
   "__warnReasons": [],
   "documentColor": "#333",
-  "_activeVersion": "_7JJUlhRC-oA3L",
-  "_parentVersion": "1bX7G-SYavPET0",
+  "_activeVersion": "EJNtkXGLRN8yXp",
+  "_parentVersion": "oKiFRvQiOziul8",
   "currentVersion": {
-    "live": "1.0.1",
-    "development": "1.0.1"
+    "live": "1.1",
+    "testing": "1.1",
+    "development": "1.1"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "ff79dada-c9af-494d-9025-39ccae118cea",
+  "_lastModifiedBy": "7360895b-2e38-4601-baf6-16af027bf7ae",
   "defaultActivity": "sf5_XV2E1ihhek",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
