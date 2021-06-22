@@ -1,5 +1,5 @@
 {
-  "__": "mNpWzL6q80vPeT",
+  "__": "bE0PPHzfJRl-iR",
   "_id": "j0P98w9sl6QXZo:hestia/document-types",
   "icon": "",
   "name": "Audit Trail",
@@ -166,25 +166,42 @@
     "permanentTheme": ""
   },
   "$valid": true,
+  "client": "rsihYJKKDVyaYN",
   "gitHub": {
     "1J8739KZBOtzVQ": {
       "publishDocs": "",
       "gitHubPublish": true
     },
+    "1rr4bM4EH-AQP9": {
+      "publishDocs": true,
+      "gitHubPublish": true
+    },
     "aV8boSk1D6q6YG": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
+    "zHYkrrsjUcXvCT": {
       "publishDocs": "",
       "gitHubPublish": true
     }
   },
+  "locked": false,
   "_client": "rsihYJKKDVyaYN",
   "demands": [],
   "graphQL": {
     "6g4mciY7jkfOUo": {
       "exposeAPI": ""
+    },
+    "aZ5t8g0t4u8p6D": {
+      "read": true,
+      "write": true,
+      "exposeAPI": true,
+      "readDemands": [],
+      "writeDemands": []
     }
   },
   "$invalid": false,
-  "_created": 1622055209000,
+  "_created": 1622205078000,
   "_deleted": 0,
   "database": "contractorcheck",
   "maxWidth": 1000,
@@ -192,15 +209,34 @@
     {
       "id": "PlkNsC6NXRUcX4",
       "name": "1.0",
-      "time": 1622209397047,
+      "time": 1622059998287,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-      "locked": false,
-      "_selectId": "ak4BjBP1tNdQkt",
+      "locked": true,
+      "_selectId": "B_RFTPhwAahve3",
       "parentVersion": ""
+    },
+    {
+      "id": "J4030GZ1fyK-SV",
+      "name": "1.0.1",
+      "time": 1624367959912,
+      "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
+      "locked": true,
+      "_selectId": "VRCRMZ4Mt3c3CF",
+      "parentVersion": "PlkNsC6NXRUcX4"
+    },
+    {
+      "id": "D3uOsdgkQn7xig",
+      "name": "1.1",
+      "time": 1624379026685,
+      "user": "3e424bc3-fb9a-47a1-93a1-056351146687",
+      "locked": false,
+      "_selectId": "z_HYrMhDdqr1wF",
+      "parentVersion": "J4030GZ1fyK-SV"
     }
   ],
-  "_modified": 1622205797000,
+  "_modified": 1624375426000,
   "components": "",
+  "isLockedBy": null,
   "navigation": [],
   "_behaviours": {
     "_state": "",
@@ -390,21 +426,22 @@
   "sidebarColor": "#333",
   "tabsSelected": "#009fda",
   "documentColor": "#333",
-  "_activeVersion": "J4030GZ1fyK-SV",
-  "_parentVersion": "PlkNsC6NXRUcX4",
+  "_activeVersion": "fi464oFADTfQGK",
+  "_parentVersion": "D3uOsdgkQn7xig",
   "currentVersion": {
-    "live": "1.0",
-    "testing": "1.0",
-    "development": "1.0"
+    "live": "1.1",
+    "testing": "1.1",
+    "development": "1.1"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+  "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
   "defaultActivity": "Vj7pWcB7wLiQHo",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
   "documentBackdrop": "#f4f4f4",
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
-  "devices-allowed-html": ""
+  "devices-allowed-html": "",
+  "isLockedByCurrentUser": false
 }
