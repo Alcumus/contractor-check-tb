@@ -1,5 +1,5 @@
 {
-  "__": "sv_ISwqqsnOLlu",
+  "__": "WPICGr2JTlL5mG",
   "_id": "PMW2x8gydP1Gq7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -202,14 +202,14 @@
     {
       "id": "tV6rqmkixtZSUh",
       "name": "1",
-      "time": 1624332877736,
+      "time": 1624333043622,
       "user": "7dd7cacc-c5ec-4552-bcbf-24159026bb2a",
       "locked": false,
-      "_selectId": "VqOxWpgtVCXNGR",
+      "_selectId": "IECv_e-PFrTzdp",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624332880000,
+  "_modified": 1624333044000,
   "components": "verification,localisation",
   "isLockedBy": null,
   "navigation": [],
@@ -7417,39 +7417,44 @@
                   "deselectedHoverBackgroundColor": "#1C9DD41F"
                 },
                 {
-                  "id": "CqWusKa-V2sqpt",
-                  "name": "ValueTest",
-                  "type": "topicTarget",
+                  "id": "WsKFkfRvDcTJxh",
+                  "name": "",
+                  "type": "divider",
+                  "color": "#fff",
                   "hints": {},
-                  "values": [
-                    {
-                      "id": "GEOfEbYS667Lwo",
-                      "icon": "",
-                      "name": "Value 1",
-                      "field": [
-                        "",
-                        "Field 1"
-                      ],
-                      "caption": ""
-                    },
-                    {
-                      "id": "W_dFcHGHSyfRgC",
-                      "icon": "MdAirplanemodeActive",
-                      "name": "Value 2",
-                      "field": [
-                        "",
-                        "Field 2"
-                      ],
-                      "caption": ""
-                    }
-                  ],
                   "question": "",
-                  "_selectId": "SlnDbjCkKzH9kS",
+                  "_selectId": "ifUHBfn1Pz1lm8",
                   "condition": "",
-                  "description": "<p>Description text here</p>\n",
+                  "lineColor": "",
+                  "lineHeight": 1,
+                  "dividerHeader": "",
+                  "questionHeight": "",
+                  "backgroundColor": "#1da7e0",
+                  "navigationTitle": "Next Section",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "9dyMjY4tYWw8F1",
+                  "name": "ProjectCapacity",
+                  "type": "number",
+                  "hints": {},
+                  "question": "<p>How many projects can you run at the same time?</p>\n",
+                  "_selectId": "JJRQf0dKIjapUl",
+                  "condition": "",
+                  "inputLabel": "",
                   "iconOffsetX": "",
                   "iconOffsetY": "",
-                  "dialogHeader": "Help"
+                  "defaultValue": "",
+                  "dialogHeader": "Help",
+                  "maximumValue": "",
+                  "minimumValue": "",
+                  "decimalPlaces": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
                 }
               ],
               "description": ""
