@@ -1,5 +1,5 @@
 {
-  "__": "FvI7bwDa1zyv1N",
+  "__": "Tl7ua5h5Q1CErC",
   "_id": "WwdiDwh2djKCCh:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -241,7 +241,7 @@
       "parentVersion": "g0kqLgJQJ13MRT"
     }
   ],
-  "_modified": 1624374264000,
+  "_modified": 1624374277000,
   "components": "",
   "isLockedBy": null,
   "navigation": [],
@@ -551,8 +551,9 @@
   "_activeVersion": "5WRRhz9R29wXCM",
   "_parentVersion": "FEMBKbE-T8eXhC",
   "currentVersion": {
-    "live": "1.0.1",
-    "development": "1.0.1"
+    "live": "1.1",
+    "testing": "1.1",
+    "development": "1.1"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
