@@ -1,5 +1,5 @@
 {
-  "__": "eDF4Ba_Q1cAXNL",
+  "__": "0bfk2NzafWUBYr",
   "_id": "ImG4GhYEohQwgO:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -277,7 +277,7 @@
       "exposeWebhooks": true
     }
   },
-  "_modified": 1624374394000,
+  "_modified": 1624374399000,
   "components": "",
   "isLockedBy": null,
   "navigation": [],
