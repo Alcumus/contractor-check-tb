@@ -1,0 +1,391 @@
+{
+  "__": "ZETwgrPXzheHWs",
+  "_id": "_PwCnwt36kDYFu:hestia/document-types",
+  "icon": "",
+  "name": "DemoCompanyRecord",
+  "tags": [],
+  "table": "company",
+  "theme": {
+    "other": {
+      "opacity": {
+        "AlcOpacity_001": "10%",
+        "AlcOpacity_002": "25%",
+        "AlcOpacity_003": "50%",
+        "AlcOpacity_004": "75%"
+      },
+      "palette": {
+        "gold": "gold",
+        "type": "light",
+        "bronze": "#853",
+        "silver": "silver",
+        "primary": {
+          "main": "#1da7e0",
+          "contrastText": "#fff"
+        },
+        "AlcSys_001": "#FFFFFF",
+        "AlcSys_002": "#F7F8F9",
+        "AlcSys_003": "#F4F5F6",
+        "AlcSys_004": "#EBEBED",
+        "AlcSys_005": "#CCCCCC",
+        "AlcSys_006": "rgba(125, 125, 125, 1)",
+        "AlcSys_007": "#263836",
+        "AlcSys_008": "#000000",
+        "AlcBrand_001": "#1da7e0",
+        "AlcBrand_002": "#0081AF",
+        "AlcBrand_003": "#294A76",
+        "AlcBrand_004": "#0099B3",
+        "AlcBrand_005": "#604696",
+        "AlcBrand_006": "#D26A37",
+        "AlcBrand_007": "#679861",
+        "AlcBrand_008": "#EBBA00",
+        "AlcBrand_009": "#8C1D82",
+        "AlcBrand_010": "#DC840A",
+        "AlcSys_006_10": "rgba(125, 125, 125, .1)",
+        "AlcSys_006_25": "rgba(125, 125, 125, .25)",
+        "AlcSys_006_50": "rgba(125, 125, 125, .50)",
+        "AlcSys_006_75": "rgba(125, 125, 125, .75)",
+        "AlcSys_Grad001": "linear-gradient(55deg, #F7F8F9 100%, #F4F5F6 100%)",
+        "AlcSys_Grad002": "linear-gradient(55deg, #1da7e0 100%, #604696 100%)",
+        "AlcSysState_prog": "rgba(235, 186, 0, 1)",
+        "AlcSysState_risk": "rgba(233, 75, 75, 1)",
+        "AlcSysState_green": "rgba(63, 195, 128, 1)",
+        "AlcSysState_issue": "rgba(233, 165, 75, 1)",
+        "AlcSysState_prog_10": "rgba(235, 186, 0, .1)",
+        "AlcSysState_prog_25": "rgba(235, 186, 0,.251)",
+        "AlcSysState_prog_50": "rgba(235, 186, 0,.5)",
+        "AlcSysState_prog_75": "rgba(235, 186, 0, .75)",
+        "AlcSysState_risk_10": "rgba(233, 75, 75, .1)",
+        "AlcSysState_risk_25": "rgba(233, 75, 75, .25)",
+        "AlcSysState_risk_50": "rgba(233, 75, 75, .50)",
+        "AlcSysState_risk_75": "rgba(233, 75, 75, .75)",
+        "AlcSysState_green_10": "rgba(63, 195, 128, 0.1)",
+        "AlcSysState_green_25": "rgba(63, 195, 128, 0.25)",
+        "AlcSysState_green_50": "rgba(63, 195, 128, 0.5)",
+        "AlcSysState_green_75": "rgba(63, 195, 128, 0.75)",
+        "AlcSysState_issue_10": "rgba(233, 165, 75, .1)",
+        "AlcSysState_issue_25": "rgba(233, 165, 75, .25)",
+        "AlcSysState_issue_50": "rgba(233, 165, 75, .50)",
+        "AlcSysState_issue_75": "rgba(233, 165, 75, .75)"
+      },
+      "document": {
+        "form": {
+          "fontSize": 16,
+          "fontFamily": "Roboto, sans-serif"
+        },
+        "child": {
+          "fontSize": 16,
+          "fontFamily": "Roboto, sans-serif"
+        },
+        "fontSize": 16,
+        "fontFamily": "Roboto, sans-serif"
+      },
+      "typography": {
+        "h1": {
+          "fontSize": "2.8em",
+          "fontFamily": "Montserrat, sans-serif",
+          "fontWeight": 700
+        },
+        "h2": {
+          "fontSize": "2.3em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 400
+        },
+        "h3": {
+          "fontSize": "2em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 400
+        },
+        "h4": {
+          "fontSize": "1.667em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 500
+        },
+        "h5": {
+          "fontSize": "1.333em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 500
+        },
+        "h6": {
+          "fontSize": "1.167em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 400
+        },
+        "body1": {
+          "fontSize": "1.167em",
+          "fontFamily": "Roboto"
+        },
+        "body2": {
+          "fontSize": "1em",
+          "fontFamily": "Roboto"
+        },
+        "body3": {
+          "fontSize": "0.9em",
+          "fontFamily": "Roboto"
+        },
+        "body4": {
+          "fontSize": "14px",
+          "fontFamily": "Roboto"
+        },
+        "overline": {
+          "fontSize": "0.917em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 500,
+          "textTransform": "uppercase"
+        },
+        "Action1_Medium": {
+          "fontSize": "1.167em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 500
+        },
+        "Action2_Medium": {
+          "fontSize": "1em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 500
+        },
+        "Action1_Regular": {
+          "fontSize": "1.167em",
+          "fontFamily": "Montserrat"
+        },
+        "Action2_Regular": {
+          "fontSize": "1em",
+          "fontFamily": "Montserrat"
+        },
+        "Action1_SemiBold": {
+          "fontSize": "1.167em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 600
+        },
+        "Action2_SemiBold": {
+          "fontSize": "1em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 600
+        }
+      }
+    },
+    "theme": "Alcumus",
+    "permanentTheme": ""
+  },
+  "$valid": true,
+  "client": "rsihYJKKDVyaYN",
+  "gitHub": {
+    "1J8739KZBOtzVQ": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
+    "aV8boSk1D6q6YG": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
+    "hVWU8Lx-bizSIx": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    }
+  },
+  "locked": false,
+  "_client": "rsihYJKKDVyaYN",
+  "demands": [],
+  "graphQL": {
+    "6g4mciY7jkfOUo": {
+      "exposeAPI": ""
+    }
+  },
+  "$invalid": false,
+  "_created": 1624010901000,
+  "_deleted": 0,
+  "database": "demo",
+  "maxWidth": 1000,
+  "versions": [
+    {
+      "id": "7KiZdDrgmYmC58",
+      "name": "1",
+      "time": 1624011314927,
+      "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
+      "locked": true,
+      "_selectId": "CQn7R1iY6mfyxE",
+      "parentVersion": ""
+    },
+    {
+      "id": "AFJ_YDOABQ3zPH",
+      "name": "1.0.1",
+      "time": 1624367959999,
+      "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
+      "locked": true,
+      "parentVersion": "7KiZdDrgmYmC58"
+    }
+  ],
+  "webhooks": {
+    "HxewVLNY2C3G82": {
+      "exposeWebhooks": ""
+    }
+  },
+  "_modified": 1624367981000,
+  "components": "",
+  "isLockedBy": null,
+  "navigation": [],
+  "_behaviours": {
+    "_state": "",
+    "instances": {
+      "form": [
+        {
+          "id": "uYsGYKVV3cu5qL",
+          "name": "Main",
+          "sections": [
+            {
+              "name": "Main",
+              "_expanded": true,
+              "_selectId": "CBh5fE6gucS0ID",
+              "questions": [
+                {
+                  "id": "aVNofp336F__4l",
+                  "name": "name",
+                  "type": "text",
+                  "hints": {},
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "SkT9jVZXQWmJ25",
+                  "condition": "",
+                  "inputLabel": "",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "kwaGN3M4mBMU5S",
+                  "name": "desc",
+                  "type": "text",
+                  "hints": {},
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "CG8FUR9F9foF6G",
+                  "condition": "",
+                  "inputLabel": "",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "WUt4q1i-jHoXVB",
+                  "name": "salesforce_id",
+                  "type": "text",
+                  "hints": {},
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "UWnZHZo3w282fh",
+                  "condition": "",
+                  "inputLabel": "",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                }
+              ]
+            }
+          ],
+          "_selectId": "HZfgqS9yo0c9zn",
+          "condition": "",
+          "description": "",
+          "duplicateNames": {}
+        }
+      ],
+      "formAction": [
+        {
+          "id": "s40UL88T_z6jbt",
+          "name": "Main",
+          "forms": [
+            {
+              "id": "F4kXBjZj4lBfgu",
+              "form": "uYsGYKVV3cu5qL",
+              "readOnly": "",
+              "_selectId": "inlc7rVFEYOx6_"
+            }
+          ],
+          "inline": true,
+          "actions": [
+            {
+              "id": "ftz7vbj_kRfmh4",
+              "blur": "",
+              "icon": "",
+              "color": "#fff",
+              "modal": {
+                "enabled": false
+              },
+              "goBack": "",
+              "caption": "Submit",
+              "command": "setData",
+              "toState": "New",
+              "variant": "text",
+              "_selectId": "bcUcteegLSpXRa",
+              "condition": "",
+              "endOfLine": "",
+              "navigateTo": "",
+              "properties": [],
+              "changeState": true,
+              "backgroundColor": "#03a9f4",
+              "visibleCondition": "",
+              "notificationToast": ""
+            },
+            {
+              "id": "WeE1xCXwiXY1E2",
+              "blur": "",
+              "icon": "",
+              "color": "#fff",
+              "modal": {
+                "enabled": false
+              },
+              "goBack": "",
+              "caption": "Updated",
+              "command": "setData",
+              "toState": "Updated",
+              "variant": "text",
+              "_selectId": "oiHvOe4vXMx9Zj",
+              "condition": "",
+              "endOfLine": "",
+              "navigateTo": "",
+              "properties": [],
+              "changeState": true,
+              "backgroundColor": "#03a9f4",
+              "visibleCondition": "",
+              "notificationToast": ""
+            }
+          ],
+          "storeIn": "",
+          "_selectId": "C_CiwaWcWUtngC",
+          "editDemands": [],
+          "inputStates": [
+            "New"
+          ],
+          "visibleDemands": []
+        }
+      ]
+    }
+  },
+  "createOnNew": false,
+  "description": "",
+  "displayName": "Demo Company Record",
+  "defaultState": "New",
+  "sidebarColor": "#333",
+  "tabsSelected": "#009fda",
+  "documentColor": "#333",
+  "_activeVersion": "n0GoVXK2c7xw0P",
+  "_parentVersion": "AFJ_YDOABQ3zPH",
+  "currentVersion": {
+    "live": "1.0.1",
+    "development": "1.0.1"
+  },
+  "tabsBackground": "#f4f4f4",
+  "tabsForeground": "#555",
+  "_lastModifiedBy": "7360895b-2e38-4601-baf6-16af027bf7ae",
+  "defaultActivity": "s40UL88T_z6jbt",
+  "devices-allowed": "",
+  "sideBarMinWidth": 150,
+  "documentBackdrop": "#f4f4f4",
+  "sidebarBackground": "#fff",
+  "documentBackground": "#f4f4f4",
+  "devices-allowed-html": "",
+  "isLockedByCurrentUser": false
+}
