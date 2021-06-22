@@ -1,5 +1,5 @@
 {
-  "__": "FuSLjwiGHkIuBS",
+  "__": "sv_ISwqqsnOLlu",
   "_id": "PMW2x8gydP1Gq7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -202,14 +202,14 @@
     {
       "id": "tV6rqmkixtZSUh",
       "name": "1",
-      "time": 1624332764323,
+      "time": 1624332877736,
       "user": "7dd7cacc-c5ec-4552-bcbf-24159026bb2a",
       "locked": false,
-      "_selectId": "2F2DTJ6XNt6d1W",
+      "_selectId": "VqOxWpgtVCXNGR",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624332765000,
+  "_modified": 1624332880000,
   "components": "verification,localisation",
   "isLockedBy": null,
   "navigation": [],
@@ -7364,11 +7364,10 @@
                       "value": "Apple Pie"
                     }
                   ],
-                  "helpText": "<p>Help text here</p>\n",
                   "question": "<p>Choose the best option from below.</p>\n",
                   "_selectId": "j_68Fzld0sjQsS",
                   "condition": "",
-                  "inputLabel": "Input Label Test",
+                  "inputLabel": "",
                   "borderWidth": 2,
                   "buttonWidth": 60,
                   "iconOffsetX": "",
@@ -7447,7 +7446,7 @@
                   "question": "",
                   "_selectId": "SlnDbjCkKzH9kS",
                   "condition": "",
-                  "description": "",
+                  "description": "<p>Description text here</p>\n",
                   "iconOffsetX": "",
                   "iconOffsetY": "",
                   "dialogHeader": "Help"
