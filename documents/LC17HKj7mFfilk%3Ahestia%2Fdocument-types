@@ -1,5 +1,5 @@
 {
-  "__": "BGnoced96cCim1",
+  "__": "m7VJA1Q1NY6HaL",
   "_id": "LC17HKj7mFfilk:hestia/document-types",
   "icon": "",
   "name": "icw",
@@ -186,7 +186,7 @@
     }
   },
   "$invalid": false,
-  "_created": 1624359587000,
+  "_created": 1624359793000,
   "_deleted": 0,
   "database": "icw",
   "maxWidth": 1000,
@@ -202,9 +202,9 @@
     },
     {
       "id": "WyAd3Ai3vQ-kL_",
-      "name": "1.01",
-      "time": 1624368261651,
-      "user": "62472027-dc65-4c8a-816d-bb79b891a870",
+      "name": "1.0.1",
+      "time": 1624368525100,
+      "user": "ff79dada-c9af-494d-9025-39ccae118cea",
       "locked": true,
       "parentVersion": "Cq7AGYj1lrSL72"
     }
@@ -215,7 +215,7 @@
       "exposeWebhooks": true
     }
   },
-  "_modified": 1624368267000,
+  "_modified": 1624368531000,
   "components": "",
   "isLockedBy": null,
   "navigation": [],
@@ -284,15 +284,15 @@
   "sidebarColor": "#333",
   "tabsSelected": "#009fda",
   "documentColor": "#333",
-  "_activeVersion": "uUksF9Qqq8Twk8",
+  "_activeVersion": "U_okYZ5S-xRla3",
   "_parentVersion": "WyAd3Ai3vQ-kL_",
   "currentVersion": {
-    "live": "1.01",
-    "development": "1.01"
+    "live": "1.0.1",
+    "development": "1.0.1"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "62472027-dc65-4c8a-816d-bb79b891a870",
+  "_lastModifiedBy": "ff79dada-c9af-494d-9025-39ccae118cea",
   "defaultActivity": "ajGAR1Lo6Vsk36",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
