@@ -1,5 +1,5 @@
 {
-  "__": "KxpuXXKVBuT1Tp",
+  "__": "zr-8jekAn5-vU7",
   "_id": "0pBBN3JGvJXvK6:hestia/document-types",
   "icon": "",
   "name": "Contact",
@@ -234,7 +234,7 @@
       "parentVersion": "iIKtVL2XxyM3qJ"
     }
   ],
-  "_modified": 1624374508000,
+  "_modified": 1624374516000,
   "components": "",
   "isLockedBy": null,
   "navigation": [],
@@ -399,8 +399,9 @@
   "_activeVersion": "JBn8YadrrLwqk8",
   "_parentVersion": "jQALyneSsaK6Cm",
   "currentVersion": {
-    "live": "1.0.1",
-    "development": "1.0.1"
+    "live": "1.1",
+    "testing": "1.1",
+    "development": "1.1"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
