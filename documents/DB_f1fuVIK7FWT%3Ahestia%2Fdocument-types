@@ -1,5 +1,5 @@
 {
-  "__": "xW5ofavOg_f0-s",
+  "__": "Wf_D77ZusWPePU",
   "_id": "DB_f1fuVIK7FWT:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -171,8 +171,16 @@
   "__warn": false,
   "client": "rsihYJKKDVyaYN",
   "gitHub": {
+    "1rr4bM4EH-AQP9": {
+      "publishDocs": true,
+      "gitHubPublish": true
+    },
     "aV8boSk1D6q6YG": {
       "publishDocs": true,
+      "gitHubPublish": true
+    },
+    "zHYkrrsjUcXvCT": {
+      "publishDocs": "",
       "gitHubPublish": true
     }
   },
@@ -182,6 +190,13 @@
   "graphQL": {
     "6g4mciY7jkfOUo": {
       "exposeAPI": ""
+    },
+    "aZ5t8g0t4u8p6D": {
+      "read": true,
+      "write": true,
+      "exposeAPI": true,
+      "readDemands": [],
+      "writeDemands": []
     }
   },
   "$invalid": false,
@@ -201,14 +216,24 @@
     },
     {
       "id": "WU65N1_qIn410U",
-      "name": "1.01",
-      "time": 1624368261658,
-      "user": "62472027-dc65-4c8a-816d-bb79b891a870",
+      "name": "1.0.1",
+      "time": 1624367960008,
+      "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
       "locked": true,
+      "_selectId": "fD8HKq3V9O_G6e",
       "parentVersion": "lMgkcEhQ5ngx9H"
+    },
+    {
+      "id": "atSFOEnYdOyURT",
+      "name": "1.1.0",
+      "time": 1624377845393,
+      "user": "62472027-dc65-4c8a-816d-bb79b891a870",
+      "locked": false,
+      "_selectId": "zdLv4d2eLh32HN",
+      "parentVersion": "WU65N1_qIn410U"
     }
   ],
-  "_modified": 1624368267000,
+  "_modified": 1624377850000,
   "components": "card 2.0",
   "isLockedBy": null,
   "navigation": [],
@@ -325,11 +350,12 @@
   "tabsSelected": "#009fda",
   "__warnReasons": [],
   "documentColor": "#333",
-  "_activeVersion": "PWudL-M1_Yn6I8",
-  "_parentVersion": "WU65N1_qIn410U",
+  "_activeVersion": "1JzCOqgxeeAbfM",
+  "_parentVersion": "atSFOEnYdOyURT",
   "currentVersion": {
-    "live": "1.01",
-    "development": "1.01"
+    "live": "1.1.0",
+    "testing": "1.1.0",
+    "development": "1.1.0"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
