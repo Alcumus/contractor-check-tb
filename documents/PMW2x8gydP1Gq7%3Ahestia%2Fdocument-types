@@ -1,5 +1,5 @@
 {
-  "__": "xgiAlwZiBj7Nby",
+  "__": "FuSLjwiGHkIuBS",
   "_id": "PMW2x8gydP1Gq7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -202,14 +202,14 @@
     {
       "id": "tV6rqmkixtZSUh",
       "name": "1",
-      "time": 1624332637799,
+      "time": 1624332764323,
       "user": "7dd7cacc-c5ec-4552-bcbf-24159026bb2a",
       "locked": false,
-      "_selectId": "qexnb3VlxYCdVd",
+      "_selectId": "2F2DTJ6XNt6d1W",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624332638000,
+  "_modified": 1624332765000,
   "components": "verification,localisation",
   "isLockedBy": null,
   "navigation": [],
@@ -7344,7 +7344,7 @@
                   "type": "choice",
                   "color": "#009fda",
                   "hints": {
-                    "radio": true
+                    "choose_multiple": true
                   },
                   "choices": [
                     {
@@ -7364,7 +7364,8 @@
                       "value": "Apple Pie"
                     }
                   ],
-                  "question": "",
+                  "helpText": "<p>Help text here</p>\n",
+                  "question": "<p>Choose the best option from below.</p>\n",
                   "_selectId": "j_68Fzld0sjQsS",
                   "condition": "",
                   "inputLabel": "Input Label Test",
@@ -7374,7 +7375,8 @@
                   "iconOffsetY": "",
                   "borderRadius": 100,
                   "buttonHeight": 60,
-                  "dialogHeader": "Help",
+                  "dialogHeader": "Helps",
+                  "uniqueChoice": "",
                   "choiceOptions": {
                     "Cookies": {
                       "icon": "",
@@ -7385,7 +7387,7 @@
                       "colour": ""
                     },
                     "Chocolate": {
-                      "icon": "",
+                      "icon": "MdLocalAirport",
                       "colour": "#f50057"
                     },
                     "Cheese Cake": {
