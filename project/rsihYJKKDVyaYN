@@ -1,84 +1,108 @@
 {
-  "__": "GY664Ebga7at9m",
+  "__": "IEzeuRsVYD8qak",
   "_id": "rsihYJKKDVyaYN:hestia/project",
   "name": "Project",
   "$valid": true,
+  "client": "rsihYJKKDVyaYN",
   "_client": "rsihYJKKDVyaYN",
   "$invalid": false,
-  "_created": 1621327545000,
+  "_created": 1621847793000,
   "_deleted": 0,
-  "_modified": 1621738643000,
+  "_modified": 1624377558000,
   "components": "graph-ql",
   "_behaviours": {
     "instances": {
       "gitSync": [
         {
-          "id": "aV8boSk1D6q6YG",
-          "name": "Contractor Check",
+          "id": "1rr4bM4EH-AQP9",
+          "name": "Contractor Check Dev",
           "__init": true,
           "branch": "dev",
           "publish": true,
-          "_selectId": "kXt05PM8SXjVtT",
+          "_selectId": "OcDa0ETdpw3CZz",
           "Repository": "Alcumus/contractor-check-tb",
           "publishThemes": true,
           "publishTopics": true,
           "publishProject": true
+        },
+        {
+          "id": "zHYkrrsjUcXvCT",
+          "name": "Contactor Check Main",
+          "__init": true,
+          "branch": "main",
+          "publish": "",
+          "_selectId": "Eol_1EWGqJ7b5d",
+          "Repository": "Alcumus/contractor-check-tb",
+          "publishThemes": "",
+          "publishTopics": "",
+          "publishProject": ""
         }
       ],
       "graphQLApi": [
         {
-          "id": "6g4mciY7jkfOUo",
+          "id": "aZ5t8g0t4u8p6D",
           "name": "ccgraphql",
           "__init": true,
           "basePath": "/ccgraphql",
-          "_selectId": "yci2Re31GMIyfu",
-          "subscriptionPort": 4001
+          "_selectId": "G_1kCaE7fX2ra6"
         }
       ]
     },
     "_state": ""
   },
-  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+  "_lastModifiedBy": "7360895b-2e38-4601-baf6-16af027bf7ae",
   "_original": {
-    "__": "GY664Ebga7at9m",
+    "__": "IEzeuRsVYD8qak",
     "_id": "rsihYJKKDVyaYN:hestia/project",
     "name": "Project",
     "$valid": true,
+    "client": "rsihYJKKDVyaYN",
     "_client": "rsihYJKKDVyaYN",
     "$invalid": false,
-    "_created": 1621327545000,
+    "_created": 1621847793000,
     "_deleted": 0,
-    "_modified": 1621738643000,
+    "_modified": 1624377558000,
     "components": "graph-ql",
     "_behaviours": {
       "_state": "",
       "instances": {
         "gitSync": [
           {
-            "id": "aV8boSk1D6q6YG",
-            "name": "Contractor Check",
+            "id": "1rr4bM4EH-AQP9",
+            "name": "Contractor Check Dev",
             "__init": true,
             "branch": "dev",
             "publish": true,
-            "_selectId": "kXt05PM8SXjVtT",
+            "_selectId": "OcDa0ETdpw3CZz",
             "Repository": "Alcumus/contractor-check-tb",
             "publishThemes": true,
             "publishTopics": true,
             "publishProject": true
+          },
+          {
+            "id": "zHYkrrsjUcXvCT",
+            "name": "Contactor Check Main",
+            "__init": true,
+            "branch": "main",
+            "publish": "",
+            "_selectId": "Eol_1EWGqJ7b5d",
+            "Repository": "Alcumus/contractor-check-tb",
+            "publishThemes": "",
+            "publishTopics": "",
+            "publishProject": ""
           }
         ],
         "graphQLApi": [
           {
-            "id": "6g4mciY7jkfOUo",
+            "id": "aZ5t8g0t4u8p6D",
             "name": "ccgraphql",
             "__init": true,
             "basePath": "/ccgraphql",
-            "_selectId": "yci2Re31GMIyfu",
-            "subscriptionPort": 4001
+            "_selectId": "G_1kCaE7fX2ra6"
           }
         ]
       }
     },
-    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59"
+    "_lastModifiedBy": "7360895b-2e38-4601-baf6-16af027bf7ae"
   }
 }
