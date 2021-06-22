@@ -1,5 +1,5 @@
 {
-  "__": "n2zVr8Zv4EEdzU",
+  "__": "yGLRhQoSkmHHke",
   "_id": "UJns4BZ0dhGyw5:hestia/document-types",
   "icon": "",
   "name": "Master List Company Profile",
@@ -231,14 +231,14 @@
     {
       "id": "VS0wTpuS4ZELYB",
       "name": "2.0.0",
-      "time": 1624374079721,
+      "time": 1624374101427,
       "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
       "locked": false,
-      "_selectId": "8NpgnjJVjMA8Jn",
+      "_selectId": "ibWJdP6wk7AoFJ",
       "parentVersion": "zj8LEt7EOU-k4m"
     }
   ],
-  "_modified": 1624374085000,
+  "_modified": 1624374106000,
   "components": "",
   "isLockedBy": null,
   "navigation": [],
@@ -272,8 +272,9 @@
   "_activeVersion": "if-_6c3fRSCl-K",
   "_parentVersion": "VS0wTpuS4ZELYB",
   "currentVersion": {
-    "live": "1.0.1",
-    "development": "1.0.1"
+    "live": "2.0.0",
+    "testing": "2.0.0",
+    "development": "2.0.0"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
