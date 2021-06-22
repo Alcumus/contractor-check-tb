@@ -1,5 +1,5 @@
 {
-  "__": "LcGxw23Q71jZpK",
+  "__": "o4IFjmgtiZ19PD",
   "_id": "ImG4GhYEohQwgO:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -169,7 +169,7 @@
   },
   "$valid": true,
   "__warn": false,
-  "client": "@WORK",
+  "client": "rsihYJKKDVyaYN",
   "gitHub": {
     "1J8739KZBOtzVQ": {
       "publishDocs": "",
@@ -181,7 +181,7 @@
     }
   },
   "locked": false,
-  "_client": "@WORK",
+  "_client": "rsihYJKKDVyaYN",
   "demands": [],
   "graphQL": {
     "6g4mciY7jkfOUo": {
@@ -196,7 +196,7 @@
     }
   },
   "$invalid": false,
-  "_created": 1623764802000,
+  "_created": 1621422682000,
   "_deleted": 0,
   "database": "clientA",
   "maxWidth": 1000,
@@ -233,9 +233,17 @@
       "name": "1.0",
       "time": 1623831291625,
       "user": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
-      "locked": false,
+      "locked": true,
       "_selectId": "WQC3hpGLlXFFCH",
       "parentVersion": "tzg4n_Tc9y7XG7"
+    },
+    {
+      "id": "yDkAUUYkv3srRO",
+      "name": "1.0.1",
+      "time": 1624367959985,
+      "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
+      "locked": true,
+      "parentVersion": "YAsc-hxBglasCu"
     }
   ],
   "webhooks": {
@@ -244,7 +252,7 @@
       "exposeWebhooks": true
     }
   },
-  "_modified": 1623827692000,
+  "_modified": 1624367986000,
   "components": "",
   "isLockedBy": null,
   "navigation": [],
@@ -475,16 +483,15 @@
   "tabsSelected": "#009fda",
   "__warnReasons": [],
   "documentColor": "#333",
-  "_activeVersion": "yDkAUUYkv3srRO",
-  "_parentVersion": "YAsc-hxBglasCu",
+  "_activeVersion": "dtc91t1AN2-Rm8",
+  "_parentVersion": "yDkAUUYkv3srRO",
   "currentVersion": {
-    "live": "1.0",
-    "testing": "1.0",
-    "development": "1.0"
+    "live": "1.0.1",
+    "development": "1.0.1"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
+  "_lastModifiedBy": "7360895b-2e38-4601-baf6-16af027bf7ae",
   "defaultActivity": "hF5Rhx8eIzgMD-",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
