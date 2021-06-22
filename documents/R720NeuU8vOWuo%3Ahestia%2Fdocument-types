@@ -1,5 +1,5 @@
 {
-  "__": "V3cn6w5ooGjGkE",
+  "__": "Rda45djCKms3PZ",
   "_id": "R720NeuU8vOWuo:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -175,11 +175,19 @@
       "publishDocs": "",
       "gitHubPublish": true
     },
+    "1rr4bM4EH-AQP9": {
+      "publishDocs": true,
+      "gitHubPublish": true
+    },
     "aV8boSk1D6q6YG": {
       "publishDocs": "",
       "gitHubPublish": true
     },
     "hVWU8Lx-bizSIx": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
+    "zHYkrrsjUcXvCT": {
       "publishDocs": "",
       "gitHubPublish": true
     }
@@ -191,6 +199,13 @@
     "6g4mciY7jkfOUo": {
       "read": true,
       "write": true,
+      "exposeAPI": true,
+      "readDemands": [],
+      "writeDemands": []
+    },
+    "aZ5t8g0t4u8p6D": {
+      "read": true,
+      "write": false,
       "exposeAPI": true,
       "readDemands": [],
       "writeDemands": []
@@ -214,13 +229,23 @@
     {
       "id": "vlDXNbqvv_2SA_",
       "name": "1.0.1",
-      "time": 1624368525010,
-      "user": "ff79dada-c9af-494d-9025-39ccae118cea",
+      "time": 1624367959907,
+      "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
       "locked": true,
+      "_selectId": "Lcj7ejcHR9kIna",
       "parentVersion": "sTNP-VH3hEzwdP"
+    },
+    {
+      "id": "ILPcxTbq4OqK52",
+      "name": "1.1",
+      "time": 1624378348673,
+      "user": "ff79dada-c9af-494d-9025-39ccae118cea",
+      "locked": false,
+      "_selectId": "lMh3s2vPIDWyOt",
+      "parentVersion": "vlDXNbqvv_2SA_"
     }
   ],
-  "_modified": 1624368531000,
+  "_modified": 1624378354000,
   "components": "verification,navigation,richtext",
   "isLockedBy": null,
   "navigation": [],
@@ -1646,11 +1671,12 @@
   "tabsSelected": "#009fda",
   "__warnReasons": [],
   "documentColor": "#333",
-  "_activeVersion": "lsydvVpChkNeUr",
-  "_parentVersion": "vlDXNbqvv_2SA_",
+  "_activeVersion": "__kreznl9WgbWU",
+  "_parentVersion": "ILPcxTbq4OqK52",
   "currentVersion": {
-    "live": "1.0.1",
-    "development": "1.0.1"
+    "live": "1.1",
+    "testing": "1.1",
+    "development": "1.1"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
