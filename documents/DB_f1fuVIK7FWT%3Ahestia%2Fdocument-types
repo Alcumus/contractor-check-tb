@@ -1,5 +1,5 @@
 {
-  "__": "IhcKB_REQC-Ynd",
+  "__": "xW5ofavOg_f0-s",
   "_id": "DB_f1fuVIK7FWT:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -185,7 +185,7 @@
     }
   },
   "$invalid": false,
-  "_created": 1621461164000,
+  "_created": 1621422766000,
   "_deleted": 0,
   "database": "Teams",
   "maxWidth": 1000,
@@ -195,12 +195,20 @@
       "name": "Teams",
       "time": 1621742375029,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-      "locked": false,
+      "locked": true,
       "_selectId": "IBb4DhoAFfuiy4",
       "parentVersion": ""
+    },
+    {
+      "id": "WU65N1_qIn410U",
+      "name": "1.01",
+      "time": 1624368261658,
+      "user": "62472027-dc65-4c8a-816d-bb79b891a870",
+      "locked": true,
+      "parentVersion": "lMgkcEhQ5ngx9H"
     }
   ],
-  "_modified": 1621738775000,
+  "_modified": 1624368267000,
   "components": "card 2.0",
   "isLockedBy": null,
   "navigation": [],
@@ -317,16 +325,15 @@
   "tabsSelected": "#009fda",
   "__warnReasons": [],
   "documentColor": "#333",
-  "_activeVersion": "WU65N1_qIn410U",
-  "_parentVersion": "lMgkcEhQ5ngx9H",
+  "_activeVersion": "PWudL-M1_Yn6I8",
+  "_parentVersion": "WU65N1_qIn410U",
   "currentVersion": {
-    "live": "Teams",
-    "testing": "Teams",
-    "development": "Teams"
+    "live": "1.01",
+    "development": "1.01"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+  "_lastModifiedBy": "62472027-dc65-4c8a-816d-bb79b891a870",
   "defaultActivity": "kDe-e2LVJKEqg2",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
