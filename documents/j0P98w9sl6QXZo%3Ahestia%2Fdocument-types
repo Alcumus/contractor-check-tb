@@ -1,5 +1,5 @@
 {
-  "__": "K3dOtJNf5Zld2E",
+  "__": "bE0PPHzfJRl-iR",
   "_id": "j0P98w9sl6QXZo:hestia/document-types",
   "icon": "",
   "name": "Audit Trail",
@@ -168,6 +168,10 @@
   "$valid": true,
   "client": "rsihYJKKDVyaYN",
   "gitHub": {
+    "1J8739KZBOtzVQ": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
     "1rr4bM4EH-AQP9": {
       "publishDocs": true,
       "gitHubPublish": true
@@ -197,7 +201,7 @@
     }
   },
   "$invalid": false,
-  "_created": 1622461281000,
+  "_created": 1622205078000,
   "_deleted": 0,
   "database": "contractorcheck",
   "maxWidth": 1000,
@@ -223,14 +227,14 @@
     {
       "id": "D3uOsdgkQn7xig",
       "name": "1.1",
-      "time": 1624378335484,
-      "user": "ff79dada-c9af-494d-9025-39ccae118cea",
+      "time": 1624379026685,
+      "user": "3e424bc3-fb9a-47a1-93a1-056351146687",
       "locked": false,
-      "_selectId": "mqJB-OpSYXSA7R",
+      "_selectId": "z_HYrMhDdqr1wF",
       "parentVersion": "J4030GZ1fyK-SV"
     }
   ],
-  "_modified": 1624378340000,
+  "_modified": 1624375426000,
   "components": "",
   "isLockedBy": null,
   "navigation": [],
@@ -431,7 +435,7 @@
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "ff79dada-c9af-494d-9025-39ccae118cea",
+  "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
   "defaultActivity": "Vj7pWcB7wLiQHo",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
