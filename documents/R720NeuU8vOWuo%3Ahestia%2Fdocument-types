@@ -1,5 +1,5 @@
 {
-  "__": "fvv9dCzLfHiIXi",
+  "__": "AWB5WuCdx_gAEm",
   "_id": "R720NeuU8vOWuo:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -175,11 +175,19 @@
       "publishDocs": "",
       "gitHubPublish": true
     },
+    "1rr4bM4EH-AQP9": {
+      "publishDocs": true,
+      "gitHubPublish": true
+    },
     "aV8boSk1D6q6YG": {
       "publishDocs": "",
       "gitHubPublish": true
     },
     "hVWU8Lx-bizSIx": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
+    "zHYkrrsjUcXvCT": {
       "publishDocs": "",
       "gitHubPublish": true
     }
@@ -191,6 +199,13 @@
     "6g4mciY7jkfOUo": {
       "read": true,
       "write": true,
+      "exposeAPI": true,
+      "readDemands": [],
+      "writeDemands": []
+    },
+    "aZ5t8g0t4u8p6D": {
+      "read": true,
+      "write": false,
       "exposeAPI": true,
       "readDemands": [],
       "writeDemands": []
@@ -213,14 +228,24 @@
     },
     {
       "id": "vlDXNbqvv_2SA_",
-      "name": "1.01",
-      "time": 1624368261563,
-      "user": "62472027-dc65-4c8a-816d-bb79b891a870",
+      "name": "1.0.1",
+      "time": 1624367959907,
+      "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
       "locked": true,
+      "_selectId": "Lcj7ejcHR9kIna",
       "parentVersion": "sTNP-VH3hEzwdP"
+    },
+    {
+      "id": "ILPcxTbq4OqK52",
+      "name": "1.1",
+      "time": 1624377866663,
+      "user": "62472027-dc65-4c8a-816d-bb79b891a870",
+      "locked": false,
+      "_selectId": "VfUvL3j1TAKUsT",
+      "parentVersion": "vlDXNbqvv_2SA_"
     }
   ],
-  "_modified": 1624368267000,
+  "_modified": 1624377872000,
   "components": "verification,navigation,richtext",
   "isLockedBy": null,
   "navigation": [],
@@ -1646,11 +1671,12 @@
   "tabsSelected": "#009fda",
   "__warnReasons": [],
   "documentColor": "#333",
-  "_activeVersion": "s3bcaA-FD8fbGx",
-  "_parentVersion": "vlDXNbqvv_2SA_",
+  "_activeVersion": "__kreznl9WgbWU",
+  "_parentVersion": "ILPcxTbq4OqK52",
   "currentVersion": {
-    "live": "1.01",
-    "development": "1.01"
+    "live": "1.1",
+    "testing": "1.1",
+    "development": "1.1"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
