@@ -1,5 +1,5 @@
 {
-  "__": "adXQe-QSBTyGPP",
+  "__": "ZpiEvsdP7QqMup",
   "_id": "PMW2x8gydP1Gq7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -202,14 +202,14 @@
     {
       "id": "tV6rqmkixtZSUh",
       "name": "1",
-      "time": 1624332405005,
+      "time": 1624332595457,
       "user": "7dd7cacc-c5ec-4552-bcbf-24159026bb2a",
       "locked": false,
-      "_selectId": "2tbHfeYBWOyLwm",
+      "_selectId": "c7W_qqDqBYZ5r0",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624332519000,
+  "_modified": 1624332596000,
   "components": "verification,localisation",
   "isLockedBy": null,
   "navigation": [],
@@ -7342,10 +7342,10 @@
                   "id": "uVbTY0RRUz4Ha3",
                   "name": "Choose",
                   "type": "choice",
+                  "color": "#009fda",
                   "hints": {
                     "radio": true,
-                    "checkbox": true,
-                    "round_button": true
+                    "checkbox": true
                   },
                   "choices": [
                     {
@@ -7369,8 +7369,12 @@
                   "_selectId": "j_68Fzld0sjQsS",
                   "condition": "",
                   "inputLabel": "Input Label Test",
+                  "borderWidth": 2,
+                  "buttonWidth": 60,
                   "iconOffsetX": "",
                   "iconOffsetY": "",
+                  "borderRadius": 100,
+                  "buttonHeight": 60,
                   "dialogHeader": "Help",
                   "choiceOptions": {
                     "Cookies": {
@@ -7391,10 +7395,26 @@
                     }
                   },
                   "defaultChoices": [],
+                  "preventNullify": "",
                   "questionHeight": "",
                   "questionLeftPad": "",
                   "questionRightPad": "",
-                  "questionSpaceBefore": ""
+                  "buttonWidthSuffix": "px",
+                  "selectedTextColor": "#fff",
+                  "borderRadiusSuffix": "%",
+                  "buttonHeightSuffix": "px",
+                  "deselectedTextColor": "#000",
+                  "questionSpaceBefore": "",
+                  "selectedBorderColor": "#0082AF",
+                  "deselectedBorderColor": "#0082AF",
+                  "selectedHoverTextColor": "#fff",
+                  "selectedBackgroundColor": "#1C9DD4",
+                  "deselectedHoverTextColor": "#0082AF",
+                  "selectedHoverBorderColor": "#0082AF",
+                  "deselectedBackgroundColor": "transparent",
+                  "deselectedHoverBorderColor": "#0082AF",
+                  "selectedHoverBackgroundColor": "#1C9DD4",
+                  "deselectedHoverBackgroundColor": "#1C9DD41F"
                 },
                 {
                   "id": "CqWusKa-V2sqpt",
