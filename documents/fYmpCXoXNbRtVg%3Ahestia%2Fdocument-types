@@ -1,5 +1,5 @@
 {
-  "__": "muW1XUaK3FRV_G",
+  "__": "PkMaogZtnd_jT5",
   "_id": "fYmpCXoXNbRtVg:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -169,19 +169,27 @@
   },
   "$valid": true,
   "__warn": false,
-  "client": "@WORK",
+  "client": "rsihYJKKDVyaYN",
   "gitHub": {
     "1J8739KZBOtzVQ": {
       "publishDocs": "",
       "gitHubPublish": true
     },
+    "1rr4bM4EH-AQP9": {
+      "publishDocs": true,
+      "gitHubPublish": true
+    },
     "aV8boSk1D6q6YG": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
+    "zHYkrrsjUcXvCT": {
       "publishDocs": "",
       "gitHubPublish": true
     }
   },
   "locked": false,
-  "_client": "@WORK",
+  "_client": "rsihYJKKDVyaYN",
   "demands": [],
   "graphQL": {
     "6g4mciY7jkfOUo": {
@@ -190,10 +198,17 @@
       "exposeAPI": true,
       "readDemands": [],
       "writeDemands": []
+    },
+    "aZ5t8g0t4u8p6D": {
+      "read": true,
+      "write": true,
+      "exposeAPI": true,
+      "readDemands": [],
+      "writeDemands": []
     }
   },
   "$invalid": false,
-  "_created": 1621508921000,
+  "_created": 1622205078000,
   "_deleted": 0,
   "database": "contractorcheck",
   "maxWidth": 1000,
@@ -201,14 +216,32 @@
     {
       "id": "D57acZ-uIHF-Tx",
       "name": "1.0",
-      "time": 1623758088222,
-      "user": "8fa3969a-8f88-46fd-b3bf-6dcb7df5f2b9",
-      "locked": false,
-      "_selectId": "WlT_4HaU9g3Zvq",
+      "time": 1624023282007,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "_selectId": "lD0EhWQagl__dh",
       "parentVersion": ""
+    },
+    {
+      "id": "VQ5hArydJHv-rN",
+      "name": "1.0.1",
+      "time": 1624367959996,
+      "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
+      "locked": true,
+      "_selectId": "xW1eGlq8JeBk-B",
+      "parentVersion": "D57acZ-uIHF-Tx"
+    },
+    {
+      "id": "OReZImqC_xcrIZ",
+      "name": "1.1",
+      "time": 1624379045732,
+      "user": "3e424bc3-fb9a-47a1-93a1-056351146687",
+      "locked": false,
+      "_selectId": "43sRX91mGwCrqq",
+      "parentVersion": "VQ5hArydJHv-rN"
     }
   ],
-  "_modified": 1623758090000,
+  "_modified": 1624375446000,
   "components": "verification,helptext,navigation,formprogress",
   "isLockedBy": null,
   "navigation": [],
@@ -556,7 +589,7 @@
                   "name": "",
                   "type": "information",
                   "hints": {},
-                  "question": "<p><span style=\"color: rgb(0,97,131);font-size: 24px;\"><strong>Master List Entry - Read Only</strong></span></p>\n<p></p>\n",
+                  "question": "<p><span style=\"color: #006183;font-size: 24px;\"><strong>Master List Entry - Read Only</strong></span></p>\n<p></p>\n",
                   "_selectId": "3ScKVhFYDIxio6",
                   "condition": "",
                   "questionHeight": "10em",
@@ -940,6 +973,36 @@
           "createMergeRecord": true,
           "uniqueMergeRecords": true,
           "updateTargetDocumentState": false
+        },
+        {
+          "id": "ZUbMPbIyQSu4Vu",
+          "name": "Tell The Profile I'm Assessed",
+          "query": {
+            "$and": [
+              {
+                "assessmentType": {
+                  "$eq": "general"
+                }
+              }
+            ]
+          },
+          "onEnter": "",
+          "inStates": [
+            "Accepted"
+          ],
+          "mergeAll": "",
+          "_selectId": "Mv_4BJNUNwdjmm",
+          "properties": [],
+          "specificId": true,
+          "targetType": "WdoYmj-FOBFYri:hestia/document-types",
+          "updateState": "Approved",
+          "updateClient": "",
+          "recordChanges": "",
+          "targetTypeName": "Company Profile",
+          "updateRecordId": "{linkedProfile}",
+          "createMergeRecord": false,
+          "uniqueMergeRecords": false,
+          "updateTargetDocumentState": true
         }
       ],
       "derivation": [
@@ -1513,16 +1576,16 @@
   "__warnReasons": [],
   "documentColor": "#333",
   "linkedProfile": "undefined",
-  "_activeVersion": "VQ5hArydJHv-rN",
-  "_parentVersion": "D57acZ-uIHF-Tx",
+  "_activeVersion": "t80bsYM8Ty9yR0",
+  "_parentVersion": "OReZImqC_xcrIZ",
   "currentVersion": {
-    "live": "1.0",
-    "testing": "1.0",
-    "development": "1.0"
+    "live": "1.1",
+    "testing": "1.1",
+    "development": "1.1"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "8fa3969a-8f88-46fd-b3bf-6dcb7df5f2b9",
+  "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
   "defaultActivity": null,
   "devices-allowed": "",
   "sideBarMinWidth": 150,
