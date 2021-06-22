@@ -1,5 +1,5 @@
 {
-  "__": "fVHEy1CmqKKT5G",
+  "__": "rX5PgUjjNe96CW",
   "_id": "R720NeuU8vOWuo:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -171,7 +171,15 @@
   "__warn": false,
   "client": "rsihYJKKDVyaYN",
   "gitHub": {
+    "1J8739KZBOtzVQ": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
     "aV8boSk1D6q6YG": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
+    "hVWU8Lx-bizSIx": {
       "publishDocs": "",
       "gitHubPublish": true
     }
@@ -189,7 +197,7 @@
     }
   },
   "$invalid": false,
-  "_created": 1621454010000,
+  "_created": 1621508919000,
   "_deleted": 0,
   "database": "contractorcheck",
   "maxWidth": 1000,
@@ -197,14 +205,22 @@
     {
       "id": "sTNP-VH3hEzwdP",
       "name": "1.0",
-      "time": 1621847764189,
-      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-      "locked": false,
-      "_selectId": "f7goDRRffkZF_w",
+      "time": 1623759820880,
+      "user": "64467393-61e5-45fe-a026-45aed6419337",
+      "locked": true,
+      "_selectId": "SqEGblmOptRCCD",
       "parentVersion": ""
+    },
+    {
+      "id": "vlDXNbqvv_2SA_",
+      "name": "1.0.1",
+      "time": 1624367959907,
+      "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
+      "locked": true,
+      "parentVersion": "sTNP-VH3hEzwdP"
     }
   ],
-  "_modified": 1621844164000,
+  "_modified": 1624367968000,
   "components": "verification,navigation,richtext",
   "isLockedBy": null,
   "navigation": [],
@@ -563,6 +579,22 @@
                     "questionLeftPad": "",
                     "questionRightPad": "",
                     "questionSpaceBefore": ""
+                  },
+                  "leftMiddleSlot": {
+                    "id": "UVbs0ef8pYotG3",
+                    "name": "",
+                    "type": "embedAction",
+                    "hints": {},
+                    "action": "0n0s4jlWwM9ywl",
+                    "variant": "outlined",
+                    "question": "",
+                    "_selectId": "jSTZmQJTq4JphH",
+                    "condition": "",
+                    "_actionName": "Back To Assessor",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
                   }
                 }
               ],
@@ -828,6 +860,96 @@
           "condition": "",
           "description": "",
           "duplicateNames": {}
+        },
+        {
+          "id": "wnfSuaf77SKHeI",
+          "name": "Assessor Reject",
+          "sections": [
+            {
+              "id": "1622204619612-k-uI6g5kyT7wUL",
+              "_id": "1622204619612-k-uI6g5kyT7wUL:hestia/form-sections",
+              "name": "...",
+              "_expanded": true,
+              "_selectId": "5aV6m8SUvcmbN9",
+              "condition": "",
+              "questions": [
+                {
+                  "id": "KTO0_auRS3OOPh",
+                  "name": "",
+                  "type": "title",
+                  "color": "",
+                  "hints": {},
+                  "title": "Your assessment has been rejected by Quality Control",
+                  "question": "",
+                  "_selectId": "H5tEC1aTQSI-F-",
+                  "condition": "",
+                  "questionHeight": "",
+                  "backgroundColor": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "LMfFr0AgAdzOI8",
+                  "name": "",
+                  "type": "information",
+                  "hints": {},
+                  "question": "<p>Quality Control have indicated that there are actions you should take on your assessment, the action points will be detailed in the questionnaire next to the relevant questions.</p>\n",
+                  "_selectId": "HE1yjBv9YQJKpX",
+                  "condition": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "xYqs7Z1BftUGtb",
+                  "name": "",
+                  "side": "bottom",
+                  "type": "navigation",
+                  "color": "",
+                  "hints": {},
+                  "width": "",
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "HN4Q3NcyewuObn",
+                  "condition": "notMode(userType,\"qc\")",
+                  "permanent": "",
+                  "background": "",
+                  "middleSlot": {
+                    "id": "-BugS8sC0HOnLj",
+                    "name": "",
+                    "type": "embedAction",
+                    "hints": {},
+                    "action": "r-fxpbGVfYdoZn",
+                    "variant": "outlined",
+                    "question": "",
+                    "_selectId": "7zuPLkp04oBPhe",
+                    "condition": "",
+                    "_actionName": "Acknowledge",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  }
+                },
+                {
+                  "id": "c9FnTXVkhjkkt_",
+                  "name": "",
+                  "type": "disableActions",
+                  "hints": {},
+                  "question": "",
+                  "_selectId": "z772AFyON28N8F",
+                  "condition": ""
+                }
+              ],
+              "description": ""
+            }
+          ],
+          "_selectId": "j9dYQUCzWBLT-u",
+          "condition": "",
+          "description": "",
+          "duplicateNames": {}
         }
       ],
       "updater": [
@@ -865,18 +987,131 @@
         {
           "id": "WDMBctURpiDYYr",
           "name": "Tell the Contractor That They Are Accepted",
+          "onEnter": "",
           "inStates": [
             "Master List"
           ],
           "mergeAll": "",
           "_selectId": "fPonWRjIDi3uOU",
-          "properties": [],
+          "properties": [
+            {
+              "id": "vXzSpUbVWxpUr4",
+              "field": "qcAcceptedDate",
+              "value": "{acceptedDate}",
+              "defaultValue": ""
+            }
+          ],
           "specificId": "",
           "targetType": "fYmpCXoXNbRtVg:hestia/document-types",
           "updateState": "Accepted",
+          "recordChanges": "",
           "targetTypeName": "Contractor Questionnaire",
           "createMergeRecord": "",
           "updateTargetDocumentState": true
+        },
+        {
+          "id": "ZhbzXcIBj7ZnE4",
+          "name": "Audit Assessing",
+          "onEnter": "",
+          "inStates": [
+            "Assessing"
+          ],
+          "mergeAll": false,
+          "_selectId": "OdFNUq9cvgD19F",
+          "properties": [
+            {
+              "id": "P3Z3dZ8NOaw7Ma",
+              "field": "activity",
+              "value": "Assessing",
+              "defaultValue": ""
+            },
+            {
+              "id": "eKKMqox-hsnRxH",
+              "field": "employee",
+              "value": "{$currentUser.Employees._id}",
+              "defaultValue": ""
+            },
+            {
+              "id": "pUL2QiK0uLU5am",
+              "field": "profile",
+              "value": "{profile}",
+              "defaultValue": ""
+            },
+            {
+              "id": "INAqEBu-E1DqFi",
+              "field": "time",
+              "value": "{$now}",
+              "defaultValue": ""
+            },
+            {
+              "id": "jyxJO50CDUUAZs",
+              "field": "assessment",
+              "value": "{_uniqueId}:contractorcheck/contractorAnswers",
+              "defaultValue": ""
+            }
+          ],
+          "specificId": false,
+          "targetType": "j0P98w9sl6QXZo:hestia/document-types",
+          "updateState": "",
+          "recordChanges": "details",
+          "$behaviourType": "updater",
+          "targetTypeName": "Audit Trail",
+          "updateRecordId": "",
+          "createMergeRecord": true,
+          "uniqueMergeRecords": true,
+          "updateTargetDocumentState": false
+        },
+        {
+          "id": "KaAhQE8R8CcYNK",
+          "name": "Audit Quality Control",
+          "onEnter": "",
+          "inStates": [
+            "Quality Control"
+          ],
+          "mergeAll": false,
+          "_selectId": "NBzVJ2MA7zX8HO",
+          "properties": [
+            {
+              "id": "P3Z3dZ8NOaw7Ma",
+              "field": "activity",
+              "value": "Quality Control",
+              "defaultValue": ""
+            },
+            {
+              "id": "eKKMqox-hsnRxH",
+              "field": "employee",
+              "value": "{$currentUser.Employees._id}",
+              "defaultValue": ""
+            },
+            {
+              "id": "pUL2QiK0uLU5am",
+              "field": "profile",
+              "value": "{profile}",
+              "defaultValue": ""
+            },
+            {
+              "id": "INAqEBu-E1DqFi",
+              "field": "time",
+              "value": "{$now}",
+              "defaultValue": ""
+            },
+            {
+              "id": "jyxJO50CDUUAZs",
+              "field": "assessment",
+              "value": "{_uniqueId}:contractorcheck/contractorAnswers",
+              "defaultValue": ""
+            }
+          ],
+          "specificId": false,
+          "targetType": "j0P98w9sl6QXZo:hestia/document-types",
+          "updateState": "",
+          "recordChanges": "details",
+          "$behaviourType": "updater",
+          "targetTypeName": "Audit Trail",
+          "updateRecordId": "",
+          "createMergeRecord": true,
+          "uniqueMergeRecords": true,
+          "updateTargetDocumentState": false
         }
       ],
       "derivation": [
@@ -1099,12 +1334,6 @@
               "_selectId": "SvEexAgjSnWk2j"
             },
             {
-              "id": "ZY0ukY3XmCXcuZ",
-              "form": "w7GjXlxsQ53W2i",
-              "readOnly": false,
-              "_selectId": "_MwGwlQCBRm5G-"
-            },
-            {
               "id": "SJw1z6IRBhPPn_",
               "form": "Z2qfcK_DREYEil",
               "readOnly": false,
@@ -1139,7 +1368,12 @@
               "condition": "allMax",
               "endOfLine": "",
               "navigateTo": "",
-              "properties": [],
+              "properties": [
+                {
+                  "field": "acceptedDate",
+                  "value": "{$now}"
+                }
+              ],
               "changeState": true,
               "backgroundColor": "#03a9f4",
               "visibleCondition": "",
@@ -1199,6 +1433,38 @@
               "backgroundColor": "#03a9f4",
               "visibleCondition": "",
               "notificationToast": ""
+            },
+            {
+              "id": "0n0s4jlWwM9ywl",
+              "blur": "",
+              "icon": "",
+              "color": "#fff",
+              "modal": {
+                "title": "Return to Assessor",
+                "cancel": "Cancel",
+                "enabled": true,
+                "message": "Are you sure you want to reject the assessment and return it to the assessor?",
+                "cancelColor": "",
+                "toggleOrder": "",
+                "confirmColor": "",
+                "confirmation": "Yes",
+                "cancelBackgroundColor": "",
+                "confirmBackgroundColor": ""
+              },
+              "goBack": "",
+              "caption": "Back To Assessor",
+              "command": "setData",
+              "toState": "Assessor Reject",
+              "variant": "text",
+              "_selectId": "qKltzKf8xrumfC",
+              "condition": "",
+              "endOfLine": "",
+              "navigateTo": "",
+              "properties": [],
+              "changeState": true,
+              "backgroundColor": "#f50057",
+              "visibleCondition": "",
+              "notificationToast": ""
             }
           ],
           "storeIn": "",
@@ -1254,6 +1520,51 @@
           "editDemands": [],
           "inputStates": [
             "Rejected"
+          ],
+          "visibleDemands": []
+        },
+        {
+          "id": "o5kW-RtWKYGgCV",
+          "name": "Assessor Reject",
+          "forms": [
+            {
+              "id": "5gb7kWJ58NfSUc",
+              "form": "wnfSuaf77SKHeI",
+              "readOnly": false,
+              "_selectId": "0W8KdVpGWsps1-"
+            }
+          ],
+          "inline": true,
+          "actions": [
+            {
+              "id": "r-fxpbGVfYdoZn",
+              "blur": "",
+              "icon": "",
+              "color": "#fff",
+              "modal": {
+                "enabled": false
+              },
+              "goBack": "",
+              "caption": "Acknowledge",
+              "command": "setData",
+              "toState": "Assessing",
+              "variant": "text",
+              "_selectId": "KJVRh58lEz7GeC",
+              "condition": "",
+              "endOfLine": "",
+              "navigateTo": "",
+              "properties": [],
+              "changeState": true,
+              "backgroundColor": "#03a9f4",
+              "visibleCondition": "",
+              "notificationToast": ""
+            }
+          ],
+          "storeIn": "",
+          "_selectId": "EviVHsn_L0j_SP",
+          "editDemands": [],
+          "inputStates": [
+            "Assessor Reject"
           ],
           "visibleDemands": []
         }
@@ -1335,17 +1646,16 @@
   "tabsSelected": "#009fda",
   "__warnReasons": [],
   "documentColor": "#333",
-  "_activeVersion": "vlDXNbqvv_2SA_",
-  "_parentVersion": "sTNP-VH3hEzwdP",
+  "_activeVersion": "ILPcxTbq4OqK52",
+  "_parentVersion": "vlDXNbqvv_2SA_",
   "currentVersion": {
-    "live": "1.0",
-    "testing": "1.0",
-    "development": "1.0"
+    "live": "1.0.1",
+    "development": "1.0.1"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-  "defaultActivity": "i1sf_6rgwCYP0J",
+  "_lastModifiedBy": "7360895b-2e38-4601-baf6-16af027bf7ae",
+  "defaultActivity": null,
   "devices-allowed": "",
   "sideBarMinWidth": 150,
   "documentBackdrop": "#f4f4f4",
