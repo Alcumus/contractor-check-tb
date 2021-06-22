@@ -1,5 +1,5 @@
 {
-  "__": "8RSpOgfSjvrSTV",
+  "__": "adXQe-QSBTyGPP",
   "_id": "PMW2x8gydP1Gq7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -202,14 +202,14 @@
     {
       "id": "tV6rqmkixtZSUh",
       "name": "1",
-      "time": 1624304653199,
+      "time": 1624332405005,
       "user": "7dd7cacc-c5ec-4552-bcbf-24159026bb2a",
       "locked": false,
-      "_selectId": "euGSzo-Alfzjmv",
+      "_selectId": "2tbHfeYBWOyLwm",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624332400000,
+  "_modified": 1624332519000,
   "components": "verification,localisation",
   "isLockedBy": null,
   "navigation": [],
@@ -7342,7 +7342,11 @@
                   "id": "uVbTY0RRUz4Ha3",
                   "name": "Choose",
                   "type": "choice",
-                  "hints": {},
+                  "hints": {
+                    "radio": true,
+                    "checkbox": true,
+                    "round_button": true
+                  },
                   "choices": [
                     {
                       "label": "Cheese Cake",
@@ -7371,7 +7375,7 @@
                   "choiceOptions": {
                     "Cookies": {
                       "icon": "",
-                      "colour": ""
+                      "colour": "#00b5f5"
                     },
                     "Apple Pie": {
                       "icon": "",
@@ -7379,7 +7383,7 @@
                     },
                     "Chocolate": {
                       "icon": "",
-                      "colour": ""
+                      "colour": "#f50057"
                     },
                     "Cheese Cake": {
                       "icon": "",
