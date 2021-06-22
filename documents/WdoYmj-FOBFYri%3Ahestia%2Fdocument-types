@@ -1,5 +1,5 @@
 {
-  "__": "dEWFy4LvAWnenz",
+  "__": "bjI3mD4L9N5eWf",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -211,7 +211,7 @@
   "$created": true,
   "$creator": "7360895b-2e38-4601-baf6-16af027bf7ae",
   "$invalid": false,
-  "_created": 1622461284000,
+  "_created": 1622205077000,
   "_deleted": 0,
   "database": "companyP",
   "maxWidth": 1000,
@@ -265,14 +265,14 @@
     {
       "id": "oCVAYtF03bvSfQ",
       "name": "1.1",
-      "time": 1624378285315,
-      "user": "ff79dada-c9af-494d-9025-39ccae118cea",
+      "time": 1624379057018,
+      "user": "3e424bc3-fb9a-47a1-93a1-056351146687",
       "locked": false,
-      "_selectId": "jP9a36QAMXYGe8",
+      "_selectId": "8ReFUBNz_Ybct5",
       "parentVersion": "zk0gwNadHUfzTE"
     }
   ],
-  "_modified": 1624378290000,
+  "_modified": 1624375457000,
   "components": "navigation",
   "isLockedBy": null,
   "navigation": [],
@@ -1836,7 +1836,7 @@
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "ff79dada-c9af-494d-9025-39ccae118cea",
+  "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
   "defaultActivity": "x_5KNezQjHRN0v",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
