@@ -1,5 +1,5 @@
 {
-  "__": "88-W9-aEyDNkPS",
+  "__": "6v-9tXqmXZqMFE",
   "_id": "j0P98w9sl6QXZo:hestia/document-types",
   "icon": "",
   "name": "Audit Trail",
@@ -166,14 +166,12 @@
     "permanentTheme": ""
   },
   "$valid": true,
-  "client": "rsihYJKKDVyaYN",
   "gitHub": {
     "aV8boSk1D6q6YG": {
       "publishDocs": "",
       "gitHubPublish": true
     }
   },
-  "locked": false,
   "_client": "rsihYJKKDVyaYN",
   "demands": [],
   "graphQL": {
@@ -182,7 +180,7 @@
     }
   },
   "$invalid": false,
-  "_created": 1622461281000,
+  "_created": 1622055209000,
   "_deleted": 0,
   "database": "contractorcheck",
   "maxWidth": 1000,
@@ -192,22 +190,13 @@
       "name": "1.0",
       "time": 1622059998287,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-      "locked": true,
+      "locked": false,
       "_selectId": "B_RFTPhwAahve3",
       "parentVersion": ""
-    },
-    {
-      "id": "J4030GZ1fyK-SV",
-      "name": "1.0.1",
-      "time": 1624368525015,
-      "user": "ff79dada-c9af-494d-9025-39ccae118cea",
-      "locked": true,
-      "parentVersion": "PlkNsC6NXRUcX4"
     }
   ],
-  "_modified": 1624368530000,
+  "_modified": 1622056398000,
   "components": "",
-  "isLockedBy": null,
   "navigation": [],
   "_behaviours": {
     "_state": "",
@@ -397,21 +386,21 @@
   "sidebarColor": "#333",
   "tabsSelected": "#009fda",
   "documentColor": "#333",
-  "_activeVersion": "wP__qD38sRnXvF",
-  "_parentVersion": "J4030GZ1fyK-SV",
+  "_activeVersion": "J4030GZ1fyK-SV",
+  "_parentVersion": "PlkNsC6NXRUcX4",
   "currentVersion": {
-    "live": "1.0.1",
-    "development": "1.0.1"
+    "live": "1.0",
+    "testing": "1.0",
+    "development": "1.0"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "ff79dada-c9af-494d-9025-39ccae118cea",
+  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
   "defaultActivity": "Vj7pWcB7wLiQHo",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
   "documentBackdrop": "#f4f4f4",
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
-  "devices-allowed-html": "",
-  "isLockedByCurrentUser": false
+  "devices-allowed-html": ""
 }
