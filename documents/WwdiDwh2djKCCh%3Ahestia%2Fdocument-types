@@ -1,5 +1,5 @@
 {
-  "__": "FcTWOZ2vDravA9",
+  "__": "PZCLUyIf6Q-2-U",
   "_id": "WwdiDwh2djKCCh:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -175,16 +175,8 @@
       "publishDocs": "",
       "gitHubPublish": true
     },
-    "1rr4bM4EH-AQP9": {
-      "publishDocs": true,
-      "gitHubPublish": true
-    },
     "aV8boSk1D6q6YG": {
       "publishDocs": "",
-      "gitHubPublish": true
-    },
-    "zHYkrrsjUcXvCT": {
-      "publishDocs": false,
       "gitHubPublish": true
     }
   },
@@ -198,17 +190,10 @@
       "exposeAPI": true,
       "readDemands": [],
       "writeDemands": []
-    },
-    "aZ5t8g0t4u8p6D": {
-      "read": true,
-      "write": true,
-      "exposeAPI": true,
-      "readDemands": [],
-      "writeDemands": []
     }
   },
   "$invalid": false,
-  "_created": 1622205078000,
+  "_created": 1621454620000,
   "_deleted": 0,
   "database": "contractorCheck",
   "maxWidth": 1000,
@@ -216,32 +201,14 @@
     {
       "id": "pmgndWqtbw5UAv",
       "name": "1.0",
-      "time": 1624024853759,
+      "time": 1624492143178,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-      "locked": true,
-      "_selectId": "S0ZkZzY7EOoPym",
-      "parentVersion": ""
-    },
-    {
-      "id": "g0kqLgJQJ13MRT",
-      "name": "1.0.1",
-      "time": 1624367960004,
-      "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
-      "locked": true,
-      "_selectId": "KBXs_zUliAulvZ",
-      "parentVersion": "pmgndWqtbw5UAv"
-    },
-    {
-      "id": "FEMBKbE-T8eXhC",
-      "name": "1.1",
-      "time": 1624379017260,
-      "user": "3e424bc3-fb9a-47a1-93a1-056351146687",
       "locked": false,
-      "_selectId": "WiIG54yp4W2rha",
-      "parentVersion": "g0kqLgJQJ13MRT"
+      "_selectId": "661ej_C89LRpsf",
+      "parentVersion": ""
     }
   ],
-  "_modified": 1624375417000,
+  "_modified": 1624488543000,
   "components": "",
   "isLockedBy": null,
   "navigation": [],
@@ -548,16 +515,16 @@
   "tabsSelected": "#009fda",
   "__warnReasons": [],
   "documentColor": "#333",
-  "_activeVersion": "5WRRhz9R29wXCM",
-  "_parentVersion": "FEMBKbE-T8eXhC",
+  "_activeVersion": "g0kqLgJQJ13MRT",
+  "_parentVersion": "pmgndWqtbw5UAv",
   "currentVersion": {
-    "live": "1.1",
-    "testing": "1.1",
-    "development": "1.1"
+    "live": "1.0",
+    "testing": "1.0",
+    "development": "1.0"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
   "defaultActivity": "6NjIL2Z7jEbrem",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
