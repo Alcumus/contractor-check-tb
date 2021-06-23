@@ -1,6 +1,6 @@
 [
   {
-    "__": "tlj17iR0oc4AQr",
+    "__": "gg8TGJr8hIL9Zg",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -199,7 +199,7 @@
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1624454415000,
+    "_modified": 1624480591000,
     "components": "navigation",
     "isLockedBy": null,
     "navigation": [],
@@ -836,7 +836,7 @@
                     "condition": "",
                     "popupView": "tO-6DxodJdqI_0",
                     "inputLabel": "Anchored Clients",
-                    "lookupType": "WdoYmj-FOBFYri:hestia/document-types",
+                    "lookupType": "UJns4BZ0dhGyw5:hestia/document-types",
                     "sortFields": [
                       "companyName"
                     ],
@@ -848,15 +848,17 @@
                     ],
                     "popupQuestion": "What clients do you want to work with?",
                     "addButtonLabel": "",
-                    "lookupTypeName": "Company Profile",
+                    "lookupTypeName": "Master List Company Profile",
                     "popupView_name": "Name",
                     "questionHeight": "",
                     "requiredFields": [
                       "companyName"
                     ],
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "displayView_name": "Name",
                     "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": ""
                   }
                 ],

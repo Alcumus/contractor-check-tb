@@ -1,5 +1,5 @@
 {
-  "__": "xAjJgJgo00XAhk",
+  "__": "PiK6TJGnCsu0GK",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -228,14 +228,14 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1624484191329,
+      "time": 1624490757588,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "7QRK7KFkGxG4LK",
+      "_selectId": "Xd-vN55sprxpZe",
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1624480591000,
+  "_modified": 1624487158000,
   "components": "navigation",
   "isLockedBy": null,
   "navigation": [],
@@ -872,7 +872,7 @@
                   "condition": "",
                   "popupView": "tO-6DxodJdqI_0",
                   "inputLabel": "Anchored Clients",
-                  "lookupType": "WdoYmj-FOBFYri:hestia/document-types",
+                  "lookupType": "UJns4BZ0dhGyw5:hestia/document-types",
                   "sortFields": [
                     "companyName"
                   ],
@@ -884,15 +884,17 @@
                   ],
                   "popupQuestion": "What clients do you want to work with?",
                   "addButtonLabel": "",
-                  "lookupTypeName": "Company Profile",
+                  "lookupTypeName": "Master List Company Profile",
                   "popupView_name": "Name",
                   "questionHeight": "",
                   "requiredFields": [
                     "companyName"
                   ],
+                  "clearIfDisabled": "",
                   "questionLeftPad": "",
                   "displayView_name": "Name",
                   "questionRightPad": "",
+                  "editableCondition": "",
                   "questionSpaceBefore": ""
                 }
               ],
