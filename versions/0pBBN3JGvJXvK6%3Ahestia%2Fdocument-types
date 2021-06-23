@@ -1,6 +1,6 @@
 [
   {
-    "__": "bqiErcT9eWsFS4",
+    "__": "Dun_T0JS5Muc9j",
     "_id": "0pBBN3JGvJXvK6-UXlXJ3hYoZG3bS:hestia/versions",
     "__id": "0pBBN3JGvJXvK6:hestia/document-types",
     "icon": "",
@@ -168,6 +168,7 @@
       "permanentTheme": ""
     },
     "$valid": true,
+    "client": "rsihYJKKDVyaYN",
     "gitHub": {
       "1J8739KZBOtzVQ": {
         "publishDocs": "",
@@ -194,7 +195,7 @@
     "_deleted": 0,
     "database": "contractorcheck",
     "maxWidth": 1000,
-    "_modified": 1624443012000,
+    "_modified": 1624443446000,
     "components": "",
     "navigation": [],
     "_behaviours": {
@@ -352,15 +353,44 @@
             "forms": [
               {
                 "id": "L7RO02qVStvfts",
-                "form": "KccnXcUbIAsSrW"
+                "form": "KccnXcUbIAsSrW",
+                "readOnly": "",
+                "_selectId": "sulkFs9FQ2F4KX"
               }
             ],
             "inline": true,
-            "actions": [],
+            "actions": [
+              {
+                "id": "ldGCKGmuoLACAb",
+                "blur": "",
+                "icon": "",
+                "color": "#fff",
+                "modal": {
+                  "enabled": false
+                },
+                "goBack": "",
+                "caption": "Save",
+                "command": "setData",
+                "toState": "New",
+                "variant": "text",
+                "_selectId": "X232oZNSe8iT2C",
+                "condition": "",
+                "endOfLine": "",
+                "navigateTo": "",
+                "properties": [],
+                "changeState": true,
+                "backgroundColor": "#03a9f4",
+                "visibleCondition": "",
+                "notificationToast": ""
+              }
+            ],
+            "storeIn": "",
             "_selectId": "FaRq0Ggk2vaI2B",
+            "editDemands": [],
             "inputStates": [
               "New"
-            ]
+            ],
+            "visibleDemands": []
           }
         ],
         "viewAsText": [
