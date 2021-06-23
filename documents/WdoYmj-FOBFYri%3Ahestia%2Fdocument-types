@@ -1,5 +1,5 @@
 {
-  "__": "jLv1swLqdX5BiD",
+  "__": "XKLalAOynMvspg",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -175,13 +175,22 @@
       "publishDocs": "",
       "gitHubPublish": true
     },
+    "1rr4bM4EH-AQP9": {
+      "publishDocs": true,
+      "gitHubPublish": true
+    },
     "aV8boSk1D6q6YG": {
       "publishDocs": true,
+      "gitHubPublish": true
+    },
+    "zHYkrrsjUcXvCT": {
+      "publishDocs": "",
       "gitHubPublish": true
     }
   },
   "locked": false,
   "_client": "rsihYJKKDVyaYN",
+  "country": [],
   "demands": [],
   "graphQL": {
     "6g4mciY7jkfOUo": {
@@ -190,13 +199,23 @@
       "exposeAPI": true,
       "readDemands": [],
       "writeDemands": []
+    },
+    "aZ5t8g0t4u8p6D": {
+      "read": true,
+      "write": true,
+      "exposeAPI": true,
+      "readDemands": [],
+      "writeDemands": []
     }
   },
+  "$created": true,
+  "$creator": "7360895b-2e38-4601-baf6-16af027bf7ae",
   "$invalid": false,
-  "_created": 1621461152000,
+  "_created": 1621422682000,
   "_deleted": 0,
   "database": "companyP",
   "maxWidth": 1000,
+  "province": [],
   "versions": [
     {
       "id": "2FhqrIfj2Pj8uA",
@@ -228,19 +247,37 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1624444467166,
+      "time": 1624280844273,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-      "locked": false,
-      "_selectId": "RTNSN44Jw-ZxNt",
+      "locked": true,
+      "_selectId": "TqkfimrzXsY181",
       "parentVersion": "Bx_OD0XlxHBKQx"
+    },
+    {
+      "id": "zk0gwNadHUfzTE",
+      "name": "1.0.1",
+      "time": 1624367959992,
+      "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
+      "locked": true,
+      "_selectId": "o97zsKteOgfiSL",
+      "parentVersion": "GmG8PN_c_6Ta_E"
+    },
+    {
+      "id": "oCVAYtF03bvSfQ",
+      "name": "1.1",
+      "time": 1624453396655,
+      "user": "64467393-61e5-45fe-a026-45aed6419337",
+      "locked": false,
+      "_selectId": "pSUdWHoz48e-Om",
+      "parentVersion": "zk0gwNadHUfzTE"
     }
   ],
-  "_modified": 1624440867000,
+  "_modified": 1624453397000,
   "components": "navigation",
   "isLockedBy": null,
   "navigation": [],
   "_behaviours": {
-    "_state": "",
+    "_state": "New",
     "instances": {
       "form": [
         {
@@ -263,7 +300,130 @@
                   "hints": {},
                   "question": "",
                   "_selectId": "ehEKg8C57sgFSX",
-                  "condition": ""
+                  "condition": "",
+                  "questions": [
+                    {
+                      "id": "bO8QCmZeOBMtJ6",
+                      "name": "",
+                      "type": "title",
+                      "color": "#ffffff",
+                      "hints": {},
+                      "title": "Details",
+                      "question": "",
+                      "_selectId": "DCsbSy0L3VTLkz",
+                      "condition": "",
+                      "questionHeight": "",
+                      "backgroundColor": "#0081af",
+                      "questionLeftPad": "",
+                      "questionRightPad": "",
+                      "questionSpaceBefore": ""
+                    },
+                    {
+                      "id": "UVxygrF9sqVrgJ",
+                      "name": "companyName",
+                      "type": "text",
+                      "hints": {},
+                      "maxWidth": "",
+                      "question": "",
+                      "_selectId": "EwKg0PNptp3x9I",
+                      "condition": "",
+                      "inputLabel": "",
+                      "defaultValue": "",
+                      "questionHeight": "",
+                      "questionLeftPad": "",
+                      "questionRightPad": "",
+                      "questionSpaceBefore": ""
+                    },
+                    {
+                      "id": "fToPIYyylGM46y",
+                      "name": "description",
+                      "type": "text",
+                      "hints": {
+                        "rich_text": true
+                      },
+                      "maxWidth": "",
+                      "question": "<p>Enter a description of your business that will be shown on the master list profile.</p>\n",
+                      "_selectId": "HJQerx3AeorCBr",
+                      "condition": "",
+                      "inputLabel": "",
+                      "defaultValue": "",
+                      "questionHeight": "",
+                      "questionLeftPad": "",
+                      "questionRightPad": "",
+                      "questionSpaceBefore": ""
+                    },
+                    {
+                      "id": "jPhyMzcthwTK3Z",
+                      "name": "preferredLanguage",
+                      "type": "choice",
+                      "hints": {},
+                      "choices": [
+                        {
+                          "label": "English",
+                          "value": "English"
+                        },
+                        {
+                          "label": "French",
+                          "value": "French"
+                        }
+                      ],
+                      "question": "",
+                      "_selectId": "T__8lGmnObInjH",
+                      "condition": "",
+                      "inputLabel": "",
+                      "choiceOptions": {
+                        "French": {
+                          "icon": "",
+                          "colour": ""
+                        },
+                        "English": {
+                          "icon": "",
+                          "colour": ""
+                        }
+                      },
+                      "defaultChoices": [],
+                      "questionHeight": "",
+                      "questionLeftPad": "",
+                      "questionRightPad": "",
+                      "questionSpaceBefore": ""
+                    },
+                    {
+                      "id": "a7K7TYfhU3ntRS",
+                      "name": "email",
+                      "type": "text",
+                      "hints": {
+                        "email": true
+                      },
+                      "maxWidth": "",
+                      "question": "",
+                      "_selectId": "9McnSE7SfWwM6i",
+                      "condition": "",
+                      "inputLabel": "",
+                      "defaultValue": "",
+                      "questionHeight": "",
+                      "questionLeftPad": "",
+                      "questionRightPad": "",
+                      "questionSpaceBefore": ""
+                    },
+                    {
+                      "id": "LQMLXTqEZuw3wS",
+                      "name": "phone",
+                      "type": "text",
+                      "hints": {
+                        "phone": true
+                      },
+                      "maxWidth": "",
+                      "question": "",
+                      "_selectId": "kERgYm9VT-9yZd",
+                      "condition": "",
+                      "inputLabel": "",
+                      "defaultValue": "",
+                      "questionHeight": "",
+                      "questionLeftPad": "",
+                      "questionRightPad": "",
+                      "questionSpaceBefore": ""
+                    }
+                  ]
                 },
                 {
                   "id": "bO8QCmZeOBMtJ6",
@@ -346,8 +506,10 @@
                   },
                   "defaultChoices": [],
                   "questionHeight": "",
+                  "clearIfDisabled": "",
                   "questionLeftPad": "",
                   "questionRightPad": "",
+                  "editableCondition": "",
                   "questionSpaceBefore": ""
                 },
                 {
@@ -396,7 +558,91 @@
                   "hints": {},
                   "question": "",
                   "_selectId": "WuF_6GIRdXJMh0",
-                  "condition": ""
+                  "condition": "",
+                  "questions": [
+                    {
+                      "id": "9XTBPephjGt1Cb",
+                      "name": "",
+                      "type": "title",
+                      "color": "#ffffff",
+                      "hints": {},
+                      "title": "Location",
+                      "question": "",
+                      "_selectId": "9TRlL8HF4HUwGZ",
+                      "condition": "",
+                      "questionHeight": "",
+                      "backgroundColor": "#0081af",
+                      "questionLeftPad": "",
+                      "questionRightPad": "",
+                      "questionSpaceBefore": ""
+                    },
+                    {
+                      "id": "w-bdfrSO3fwaaU",
+                      "name": "address",
+                      "type": "text",
+                      "hints": {
+                        "multi_line": true
+                      },
+                      "maxWidth": "",
+                      "question": "",
+                      "_selectId": "p0MZEvk-kIZ5wf",
+                      "condition": "",
+                      "inputLabel": "",
+                      "defaultValue": "",
+                      "questionHeight": "",
+                      "questionLeftPad": "",
+                      "questionRightPad": "",
+                      "questionSpaceBefore": ""
+                    },
+                    {
+                      "id": "_TkVTpX5P9WCPc",
+                      "name": "City",
+                      "type": "text",
+                      "hints": {},
+                      "maxWidth": "",
+                      "question": "",
+                      "_selectId": "otZLg2XxIit8n9",
+                      "condition": "",
+                      "inputLabel": "",
+                      "defaultValue": "",
+                      "questionHeight": "",
+                      "questionLeftPad": "",
+                      "questionRightPad": "",
+                      "questionSpaceBefore": ""
+                    },
+                    {
+                      "id": "Z1bAvMA5JxxkN8",
+                      "name": "ZIP",
+                      "type": "text",
+                      "hints": {},
+                      "maxWidth": "",
+                      "question": "",
+                      "_selectId": "8k17MkxY3d6eFA",
+                      "condition": "",
+                      "inputLabel": "",
+                      "defaultValue": "",
+                      "questionHeight": "",
+                      "questionLeftPad": "",
+                      "questionRightPad": "",
+                      "questionSpaceBefore": ""
+                    },
+                    {
+                      "id": "apOQJF6oBr9XLR",
+                      "name": "headOfficeCountry",
+                      "type": "text",
+                      "hints": {},
+                      "maxWidth": "",
+                      "question": "",
+                      "_selectId": "jW5RIYpctgpA-A",
+                      "condition": "",
+                      "inputLabel": "Country",
+                      "defaultValue": "",
+                      "questionHeight": "",
+                      "questionLeftPad": "",
+                      "questionRightPad": "",
+                      "questionSpaceBefore": ""
+                    }
+                  ]
                 },
                 {
                   "id": "9XTBPephjGt1Cb",
@@ -557,7 +803,7 @@
                   "name": "doYouContract",
                   "type": "choice",
                   "hints": {
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -590,9 +836,11 @@
                   "defaultChoices": [],
                   "preventNullify": "",
                   "questionHeight": "",
+                  "clearIfDisabled": "",
                   "questionLeftPad": "",
                   "questionRightPad": "",
                   "buttonWidthSuffix": "px",
+                  "editableCondition": "",
                   "selectedTextColor": "#fff",
                   "borderRadiusSuffix": "%",
                   "buttonHeightSuffix": "px",
@@ -633,8 +881,8 @@
                       "value": "Canada"
                     },
                     {
-                      "label": "US",
-                      "value": "US"
+                      "label": "United States",
+                      "value": "United States"
                     }
                   ],
                   "question": "<p>Indicate the countries that your business operates in</p>\n",
@@ -650,12 +898,18 @@
                     "Canada": {
                       "icon": "",
                       "colour": ""
+                    },
+                    "United States": {
+                      "icon": "",
+                      "colour": ""
                     }
                   },
                   "defaultChoices": [],
                   "questionHeight": "",
+                  "clearIfDisabled": "",
                   "questionLeftPad": "",
                   "questionRightPad": "",
+                  "editableCondition": "",
                   "questionSpaceBefore": ""
                 },
                 {
@@ -772,8 +1026,10 @@
                   },
                   "defaultChoices": [],
                   "questionHeight": "",
+                  "clearIfDisabled": "",
                   "questionLeftPad": "",
                   "questionRightPad": "",
+                  "editableCondition": "",
                   "questionSpaceBefore": ""
                 },
                 {
@@ -911,7 +1167,7 @@
                   "name": "doYouUseContractors",
                   "type": "choice",
                   "hints": {
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -944,9 +1200,11 @@
                   "defaultChoices": [],
                   "preventNullify": "",
                   "questionHeight": "",
+                  "clearIfDisabled": "",
                   "questionLeftPad": "",
                   "questionRightPad": "",
                   "buttonWidthSuffix": "px",
+                  "editableCondition": "",
                   "selectedTextColor": "#fff",
                   "borderRadiusSuffix": "%",
                   "buttonHeightSuffix": "px",
@@ -1020,8 +1278,10 @@
                   },
                   "defaultChoices": [],
                   "questionHeight": "",
+                  "clearIfDisabled": "",
                   "questionLeftPad": "",
                   "questionRightPad": "",
+                  "editableCondition": "",
                   "questionSpaceBefore": ""
                 },
                 {
@@ -1065,8 +1325,10 @@
                   },
                   "defaultChoices": [],
                   "questionHeight": "",
+                  "clearIfDisabled": "",
                   "questionLeftPad": "",
                   "questionRightPad": "",
+                  "editableCondition": "",
                   "questionSpaceBefore": ""
                 },
                 {
@@ -1315,10 +1577,7 @@
           "onEnter": "",
           "inStates": [
             "New",
-            "Saved",
-            "Assessed",
-            "Approved",
-            "Stored"
+            "Saved"
           ],
           "mergeAll": "",
           "_selectId": "N9hFwo43VxJlL9",
@@ -1333,18 +1592,6 @@
               "id": "KAqaa2Q4nxK4u9",
               "field": "primary",
               "value": "yes",
-              "defaultValue": ""
-            },
-            {
-              "id": "E8aMKooLPe3cqi",
-              "field": "_client",
-              "value": "{resolveId(_id)}",
-              "defaultValue": ""
-            },
-            {
-              "id": "BBFKO-uHKHxqwt",
-              "field": "company",
-              "value": "{_id}",
               "defaultValue": ""
             }
           ],
@@ -1380,40 +1627,6 @@
           "updateToClient": "rsihYJKKDVyaYN",
           "createMergeRecord": "",
           "updateTargetDocumentState": true
-        },
-        {
-          "id": "okFTMSwCgI9C4a",
-          "name": "Make My Client My Id",
-          "onEnter": "",
-          "inStates": [
-            "New",
-            "Saved",
-            "Assessed",
-            "Approved",
-            "Stored"
-          ],
-          "mergeAll": "",
-          "_selectId": "Lu3YphSV1lI0sS",
-          "properties": [
-            {
-              "id": "q4qoNIYBel9dYW",
-              "field": "_client",
-              "value": [
-                "{resolveId(_id)}"
-              ],
-              "defaultValue": ""
-            }
-          ],
-          "specificId": true,
-          "targetType": "WdoYmj-FOBFYri:hestia/document-types",
-          "updateState": "",
-          "updateClient": "",
-          "recordChanges": "",
-          "targetTypeName": "Company Profile",
-          "updateRecordId": "{_id}",
-          "createMergeRecord": false,
-          "uniqueMergeRecords": false,
-          "updateTargetDocumentState": false
         }
       ],
       "formAction": [
@@ -1461,6 +1674,7 @@
             }
           ],
           "storeIn": "",
+          "$readOnly": false,
           "_selectId": "l9wTn7Plxm_jew",
           "editDemands": [],
           "inputStates": [
@@ -1619,6 +1833,7 @@
     }
   },
   "_components": {},
+  "companySize": [],
   "createOnNew": false,
   "description": "<p></p>\n",
   "displayName": "companyProfile",
@@ -1627,24 +1842,28 @@
   "sidebarColor": "#333",
   "tabsSelected": "#009fda",
   "__warnReasons": [],
+  "doYouContract": [],
   "documentColor": "#333",
-  "_activeVersion": "zk0gwNadHUfzTE",
-  "_parentVersion": "GmG8PN_c_6Ta_E",
+  "_activeVersion": "uiQ96_9H_oh_pg",
+  "_parentVersion": "oCVAYtF03bvSfQ",
+  "classification": [],
   "currentVersion": {
-    "live": "Preferred Language",
-    "testing": "Preferred Language",
-    "development": "Preferred Language"
+    "live": "1.1",
+    "testing": "1.1",
+    "development": "1.1"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+  "_lastModifiedBy": "64467393-61e5-45fe-a026-45aed6419337",
   "defaultActivity": "x_5KNezQjHRN0v",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
   "documentBackdrop": "#f4f4f4",
   "_updatersExpanded": true,
+  "preferredLanguage": [],
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
+  "doYouUseContractors": [],
   "devices-allowed-html": "",
   "isLockedByCurrentUser": false
 }
