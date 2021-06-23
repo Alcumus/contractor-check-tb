@@ -1,5 +1,5 @@
 {
-  "__": "j91I2L7wuzaikZ",
+  "__": "QDnmq-0r0GHrKH",
   "_id": "0pBBN3JGvJXvK6:hestia/document-types",
   "icon": "",
   "name": "Contact",
@@ -197,14 +197,14 @@
     {
       "id": "UXlXJ3hYoZG3bS",
       "name": "1.0",
-      "time": 1624455009636,
+      "time": 1624484590726,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "jvmHUYYJn6Si6d",
+      "_selectId": "eS-TX5I37YCrbD",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624451409000,
+  "_modified": 1624480991000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -232,8 +232,10 @@
                   "inputLabel": "",
                   "defaultValue": "",
                   "questionHeight": "",
+                  "clearIfDisabled": "",
                   "questionLeftPad": "",
                   "questionRightPad": "",
+                  "editableCondition": "",
                   "questionSpaceBefore": ""
                 },
                 {
@@ -248,8 +250,10 @@
                   "inputLabel": "",
                   "defaultValue": "",
                   "questionHeight": "",
+                  "clearIfDisabled": "",
                   "questionLeftPad": "",
                   "questionRightPad": "",
+                  "editableCondition": "",
                   "questionSpaceBefore": ""
                 },
                 {
@@ -257,6 +261,7 @@
                   "name": "email",
                   "type": "text",
                   "hints": {
+                    "hidden": true,
                     "required": true
                   },
                   "maxWidth": "",
@@ -266,15 +271,19 @@
                   "inputLabel": "",
                   "defaultValue": "",
                   "questionHeight": "",
+                  "clearIfDisabled": "",
                   "questionLeftPad": "",
                   "questionRightPad": "",
+                  "editableCondition": "",
                   "questionSpaceBefore": ""
                 },
                 {
                   "id": "dijaAJJBdP7LN-",
                   "name": "fundamental",
                   "type": "text",
-                  "hints": {},
+                  "hints": {
+                    "hidden": true
+                  },
                   "maxWidth": "",
                   "question": "",
                   "_selectId": "BLifMCURc8uh1N",
@@ -282,15 +291,19 @@
                   "inputLabel": "",
                   "defaultValue": "",
                   "questionHeight": "",
+                  "clearIfDisabled": "",
                   "questionLeftPad": "",
                   "questionRightPad": "",
+                  "editableCondition": "",
                   "questionSpaceBefore": ""
                 },
                 {
                   "id": "qPikkYp2AHEpdm",
                   "name": "primary",
                   "type": "boolean",
-                  "hints": {},
+                  "hints": {
+                    "hidden": true
+                  },
                   "choices": [
                     {
                       "label": "Yes",
@@ -319,7 +332,9 @@
                   "id": "OmQGuc38LQeTC-",
                   "name": "company",
                   "type": "lookup",
-                  "hints": {},
+                  "hints": {
+                    "hidden": true
+                  },
                   "lines": 1,
                   "groups": [],
                   "question": "",
