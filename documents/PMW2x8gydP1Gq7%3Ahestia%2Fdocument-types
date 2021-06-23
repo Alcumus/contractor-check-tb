@@ -1,5 +1,5 @@
 {
-  "__": "wxkqUDg0CJoos6",
+  "__": "QpzmSKxOJMkUYp",
   "_id": "PMW2x8gydP1Gq7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -175,7 +175,15 @@
       "publishDocs": "",
       "gitHubPublish": true
     },
+    "1rr4bM4EH-AQP9": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
     "aV8boSk1D6q6YG": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
+    "zHYkrrsjUcXvCT": {
       "publishDocs": "",
       "gitHubPublish": true
     }
@@ -223,9 +231,18 @@
       "locked": true,
       "_selectId": "BC3uUjk_wQHvr-",
       "parentVersion": "tV6rqmkixtZSUh"
+    },
+    {
+      "id": "Ho4CIwIyrxdkT7",
+      "name": "1.0.2",
+      "time": 1624453388381,
+      "user": "64467393-61e5-45fe-a026-45aed6419337",
+      "locked": false,
+      "_selectId": "_UZFaAcqHv2VY_",
+      "parentVersion": "S6PddpGF4BJdmU"
     }
   ],
-  "_modified": 1624373953000,
+  "_modified": 1624453391000,
   "components": "verification,localisation,hint-text",
   "isLockedBy": null,
   "navigation": [],
@@ -18191,10 +18208,18 @@
                 {
                   "id": "a1S3m000008NYifCard",
                   "type": "card",
+                  "color": "",
                   "hints": {},
+                  "title": "",
                   "_selectId": "weT0tL_B6Wjvsu",
                   "condition": "",
-                  "elevation": 0
+                  "elevation": 0,
+                  "topMargin": "",
+                  "background": "",
+                  "leftMargin": "",
+                  "collapsible": "",
+                  "rightMargin": "",
+                  "bottomMargin": ""
                 },
                 {
                   "id": "a1S3m000008NYifText",
@@ -18202,8 +18227,7 @@
                   "type": "choice",
                   "color": "#009fda",
                   "hints": {
-                    "radio": true,
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -18396,12 +18420,14 @@
                   "type": "hintText",
                   "hints": {},
                   "title": "Helpful Tips",
+                  "_selectId": "dxTjW4ZYRoIyCO",
                   "expandByDefault": true
                 },
                 {
                   "id": "a1S1N000005Wjn1End",
                   "type": "stop",
-                  "hints": {}
+                  "hints": {},
+                  "_selectId": "2Ra6zTQjlEot6z"
                 }
               ],
               "description": ""
@@ -39904,11 +39930,12 @@
   "__warnReasons": [],
   "documentColor": "#333",
   "linkedProfile": "undefined",
-  "_activeVersion": "Ho4CIwIyrxdkT7",
-  "_parentVersion": "S6PddpGF4BJdmU",
+  "_activeVersion": "Mlt-SNApsQIWmG",
+  "_parentVersion": "Ho4CIwIyrxdkT7",
   "currentVersion": {
-    "live": "1.0.1",
-    "development": "1.0.1"
+    "live": "1.0.2",
+    "testing": "1.0.2",
+    "development": "1.0.2"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
