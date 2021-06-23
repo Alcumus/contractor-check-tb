@@ -1,5 +1,5 @@
 {
-  "__": "Yl9HgBzoDdlu-b",
+  "__": "bO-JeBtkr13l26",
   "_id": "c3Vsou_iiAj3_m:hestia/document-types",
   "icon": "",
   "name": "SalesforceImport",
@@ -192,14 +192,14 @@
     {
       "id": "aR0fAcL1sQGZXb",
       "name": "SalesforceImport",
-      "time": 1624442393503,
+      "time": 1624442481595,
       "user": "087af269-7b85-44fc-be62-94b7b6613ad8",
       "locked": false,
-      "_selectId": "DVmGhoQW2k7v25",
+      "_selectId": "x-x_KX5vuvz4Ov",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624442393000,
+  "_modified": 1624442482000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -260,7 +260,7 @@
         {
           "id": "_7hLk5yqbPNcdP",
           "name": "Update Contractor Profile",
-          "onEnter": "",
+          "onEnter": false,
           "inStates": [
             "New"
           ],
@@ -280,7 +280,7 @@
           "updateClient": false,
           "recordChanges": "",
           "targetTypeName": "Company Profile",
-          "updateRecordId": "{_id}",
+          "updateRecordId": "{name}",
           "createMergeRecord": false,
           "uniqueMergeRecords": false,
           "updateTargetDocumentState": false
