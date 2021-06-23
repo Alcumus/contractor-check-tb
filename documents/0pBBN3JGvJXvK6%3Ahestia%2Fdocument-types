@@ -1,5 +1,5 @@
 {
-  "__": "NVZmKRXmdhEUzE",
+  "__": "6gPuE9WLqJmVj9",
   "_id": "0pBBN3JGvJXvK6:hestia/document-types",
   "icon": "",
   "name": "Contact",
@@ -192,14 +192,14 @@
     {
       "id": "UXlXJ3hYoZG3bS",
       "name": "1.0",
-      "time": 1623997432124,
+      "time": 1624444429211,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "tdKL7HX04UEZSH",
+      "_selectId": "PoJaXeNY2znZUH",
       "parentVersion": ""
     }
   ],
-  "_modified": 1623993832000,
+  "_modified": 1624440829000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -307,6 +307,39 @@
                   "questionRightPad": "",
                   "questionSpaceBefore": "",
                   "selectedDefaultValue": "-1"
+                },
+                {
+                  "id": "OmQGuc38LQeTC-",
+                  "name": "company",
+                  "type": "lookup",
+                  "hints": {},
+                  "lines": 1,
+                  "groups": [],
+                  "question": "",
+                  "_selectId": "L7MdZqVkmXqE0J",
+                  "condition": "",
+                  "popupView": "tO-6DxodJdqI_0",
+                  "inputLabel": "",
+                  "lookupType": "WdoYmj-FOBFYri:hestia/document-types",
+                  "sortFields": [],
+                  "displayView": "tO-6DxodJdqI_0",
+                  "linesMobile": 1,
+                  "defaultValue": "",
+                  "searchFields": [],
+                  "popupQuestion": "",
+                  "addButtonLabel": "",
+                  "lookupTypeName": "Company Profile",
+                  "popupView_name": "Name",
+                  "questionHeight": "",
+                  "requiredFields": [
+                    "companyName"
+                  ],
+                  "clearIfDisabled": "",
+                  "questionLeftPad": "",
+                  "displayView_name": "Name",
+                  "questionRightPad": "",
+                  "editableCondition": "",
+                  "questionSpaceBefore": ""
                 }
               ]
             }
