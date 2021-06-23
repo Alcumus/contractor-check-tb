@@ -1,5 +1,5 @@
 {
-  "__": "ma_YgJM60xpKZM",
+  "__": "aySbba1-Sqqgdw",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -228,14 +228,14 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1624442524683,
+      "time": 1624442611115,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "ObBXQ9-N7K3Gqr",
+      "_selectId": "_TillMaCgA7HSK",
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1624438925000,
+  "_modified": 1624439011000,
   "components": "navigation",
   "isLockedBy": null,
   "navigation": [],
@@ -1315,7 +1315,10 @@
           "onEnter": "",
           "inStates": [
             "New",
-            "Saved"
+            "Saved",
+            "Assessed",
+            "Approved",
+            "Stored"
           ],
           "mergeAll": "",
           "_selectId": "N9hFwo43VxJlL9",
@@ -1374,6 +1377,38 @@
           "updateToClient": "rsihYJKKDVyaYN",
           "createMergeRecord": "",
           "updateTargetDocumentState": true
+        },
+        {
+          "id": "okFTMSwCgI9C4a",
+          "name": "Make My Client My Id",
+          "onEnter": "",
+          "inStates": [
+            "New",
+            "Saved",
+            "Assessed",
+            "Approved",
+            "Stored"
+          ],
+          "mergeAll": "",
+          "_selectId": "Lu3YphSV1lI0sS",
+          "properties": [
+            {
+              "id": "q4qoNIYBel9dYW",
+              "field": "_client",
+              "value": "{resolveId(_id)}",
+              "defaultValue": ""
+            }
+          ],
+          "specificId": true,
+          "targetType": "WdoYmj-FOBFYri:hestia/document-types",
+          "updateState": "",
+          "updateClient": "",
+          "recordChanges": "",
+          "targetTypeName": "Company Profile",
+          "updateRecordId": "{_id}",
+          "createMergeRecord": false,
+          "uniqueMergeRecords": false,
+          "updateTargetDocumentState": false
         }
       ],
       "formAction": [
