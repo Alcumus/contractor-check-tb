@@ -1,5 +1,5 @@
 {
-  "__": "fH5Nuwa57WHi8e",
+  "__": "VX8v7YyiVlqtEa",
   "_id": "c3Vsou_iiAj3_m:hestia/document-types",
   "icon": "",
   "name": "SalesforceImport",
@@ -192,14 +192,14 @@
     {
       "id": "aR0fAcL1sQGZXb",
       "name": "SalesforceImport",
-      "time": 1624442521401,
+      "time": 1624442594558,
       "user": "087af269-7b85-44fc-be62-94b7b6613ad8",
       "locked": false,
-      "_selectId": "TkwHXvKztIsfvP",
+      "_selectId": "O25_o5D0eTTfX0",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624442521000,
+  "_modified": 1624442594000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -293,15 +293,44 @@
           "forms": [
             {
               "id": "61zpnzKDORQ096",
-              "form": "QP_9QZTacvqsjU"
+              "form": "QP_9QZTacvqsjU",
+              "readOnly": "",
+              "_selectId": "XwgWC1SzhCzs0T"
             }
           ],
           "inline": true,
-          "actions": [],
+          "actions": [
+            {
+              "id": "3b6sJy7PvQTnUM",
+              "blur": "",
+              "icon": "",
+              "color": "#fff",
+              "modal": {
+                "enabled": false
+              },
+              "goBack": false,
+              "caption": "Submit",
+              "command": "setData",
+              "toState": "New",
+              "variant": "text",
+              "_selectId": "JDHF5jtQrZFAEK",
+              "condition": "",
+              "endOfLine": "",
+              "navigateTo": "",
+              "properties": [],
+              "changeState": true,
+              "backgroundColor": "#03a9f4",
+              "visibleCondition": "",
+              "notificationToast": ""
+            }
+          ],
+          "storeIn": "",
           "_selectId": "eLUej3uOQJ07L5",
+          "editDemands": [],
           "inputStates": [
             "New"
-          ]
+          ],
+          "visibleDemands": []
         }
       ]
     }
