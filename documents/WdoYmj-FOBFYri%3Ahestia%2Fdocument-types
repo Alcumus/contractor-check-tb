@@ -1,5 +1,5 @@
 {
-  "__": "jLv1swLqdX5BiD",
+  "__": "rFWYfil2Ytzzas",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -228,14 +228,14 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1624444467166,
+      "time": 1624457317116,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "RTNSN44Jw-ZxNt",
+      "_selectId": "42cg2CGmNScmXm",
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1624440867000,
+  "_modified": 1624453717000,
   "components": "navigation",
   "isLockedBy": null,
   "navigation": [],
@@ -1211,6 +1211,41 @@
                     "questionRightPad": "",
                     "questionSpaceBefore": ""
                   }
+                },
+                {
+                  "id": "ho2ChCJm3XGU1l",
+                  "name": "complete",
+                  "type": "progressbar",
+                  "forms": [
+                    {
+                      "id": "yhJls05_OvS0lE",
+                      "form": "QBK3L2kW3hNl0_"
+                    }
+                  ],
+                  "hints": {
+                    "hidden": true
+                  },
+                  "hideBar": "",
+                  "barWidth": "50%",
+                  "diameter": "40px",
+                  "endLabel": "",
+                  "question": "",
+                  "textSize": "22px",
+                  "_selectId": "KfPZq4wmC5-bJl",
+                  "condition": "",
+                  "lineColor": "#1da7e0",
+                  "textColor": "#ededed",
+                  "startLabel": "",
+                  "trailColor": "#d6d6d6",
+                  "endTextSize": "14px",
+                  "strokeWidth": 10,
+                  "countTextSize": "18px",
+                  "endLabelColor": "#1da7e0",
+                  "showBackground": false,
+                  "showPercentage": true,
+                  "showSeparators": false,
+                  "backgroundColor": "#ededed",
+                  "startLabelColor": "#000"
                 }
               ],
               "description": ""
