@@ -1,6 +1,6 @@
 [
   {
-    "__": "7aymWezj8FhCRp",
+    "__": "IaDDnm4o7sMBMR",
     "ZIP": "999",
     "_id": "1621266694681:companyP/companyP",
     "City": "Racoon City",
@@ -105,12 +105,7 @@
     },
     "_client": "1621266694681",
     "address": "The Hive",
-    "clients": [
-      "Agellan Capital Partners Inc",
-      "Enwave Energy Corporation (Client)",
-      "First Capital - REIT",
-      "Schindler Elevator Corporation (Client)"
-    ],
+    "clients": [],
     "country": [
       "Canada",
       "US"
@@ -121,14 +116,14 @@
     "_created": 1621461167000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 92,
+    "complete": 94,
     "province": [
       "New Brunswick",
       "Northwest Territories",
       "Alberta",
       "British Columbia"
     ],
-    "_modified": 1624441225000,
+    "_modified": 1624486912000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
@@ -158,12 +153,7 @@
       "Cooling Tower Maintenance",
       "Commercial Diving"
     ],
-    "clientsLookup": [
-      "8-DZ0dQ-ny8sF0:companyP/companyP",
-      "8c5KGaMb3gHxgE:companyP/companyP",
-      "k7edZG8PkJSqaj:companyP/companyP",
-      "k5iFGd-sL7NCcV:companyP/companyP"
-    ],
+    "clientsLookup": [],
     "doYouContract": "yes",
     "classification": "Maintenance",
     "workActivities": [
@@ -172,11 +162,11 @@
       "tXjZb3-pXJFRPQ:workA/workA",
       "0SL-HHTURQQEZf:workA/workA"
     ],
-    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_lastModifiedBy": "cd405ef0-2323-4874-9f83-b7aab77149b8",
     "_stateChangedAt": 1621266733117,
     "headOfficeCountry": "USA",
     "numberOfEmployees": "0",
-    "preferredLanguage": "",
+    "preferredLanguage": "English",
     "doYouUseContractors": "no",
     "workActivitiesLookup": [
       "JgpbhOLqdNDhgP:workA/workA",
