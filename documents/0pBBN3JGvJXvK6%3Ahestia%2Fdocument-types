@@ -1,5 +1,5 @@
 {
-  "__": "M5kZtoiV6GkEq5",
+  "__": "j91I2L7wuzaikZ",
   "_id": "0pBBN3JGvJXvK6:hestia/document-types",
   "icon": "",
   "name": "Contact",
@@ -197,14 +197,14 @@
     {
       "id": "UXlXJ3hYoZG3bS",
       "name": "1.0",
-      "time": 1624454953498,
+      "time": 1624455009636,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "fym_2DF1C9gUS7",
+      "_selectId": "jvmHUYYJn6Si6d",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624451353000,
+  "_modified": 1624451409000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -306,10 +306,12 @@
                   "condition": "",
                   "allowNullify": "",
                   "questionHeight": "",
-                  "trueInputLabel": "",
-                  "falseInputLabel": "",
+                  "trueInputLabel": "<p>Primary</p>\n",
+                  "clearIfDisabled": "",
+                  "falseInputLabel": "<p>Other</p>\n",
                   "questionLeftPad": "",
                   "questionRightPad": "",
+                  "editableCondition": "",
                   "questionSpaceBefore": "",
                   "selectedDefaultValue": "-1"
                 },
