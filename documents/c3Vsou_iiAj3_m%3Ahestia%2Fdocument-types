@@ -1,5 +1,5 @@
 {
-  "__": "jnbEhzTcCJShuu",
+  "__": "Yl9HgBzoDdlu-b",
   "_id": "c3Vsou_iiAj3_m:hestia/document-types",
   "icon": "",
   "name": "SalesforceImport",
@@ -192,14 +192,14 @@
     {
       "id": "aR0fAcL1sQGZXb",
       "name": "SalesforceImport",
-      "time": 1624442091602,
+      "time": 1624442393503,
       "user": "087af269-7b85-44fc-be62-94b7b6613ad8",
       "locked": false,
-      "_selectId": "dCYGVZSQ2ewckH",
+      "_selectId": "DVmGhoQW2k7v25",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624442092000,
+  "_modified": 1624442393000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -266,16 +266,24 @@
           ],
           "mergeAll": "",
           "_selectId": "8gpKybWVDk21oV",
-          "properties": [],
-          "specificId": false,
+          "properties": [
+            {
+              "id": "LI5iSaid0Zia6_",
+              "field": "companyName",
+              "value": "{name}",
+              "defaultValue": ""
+            }
+          ],
+          "specificId": true,
           "targetType": "WdoYmj-FOBFYri:hestia/document-types",
-          "updateClient": "",
+          "updateState": "",
+          "updateClient": false,
           "recordChanges": "",
           "targetTypeName": "Company Profile",
           "updateRecordId": "{_id}",
-          "createMergeRecord": true,
+          "createMergeRecord": false,
           "uniqueMergeRecords": false,
-          "updateTargetDocumentState": ""
+          "updateTargetDocumentState": false
         }
       ],
       "formAction": [
