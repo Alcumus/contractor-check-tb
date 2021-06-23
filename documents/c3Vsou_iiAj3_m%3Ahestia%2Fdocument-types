@@ -1,5 +1,5 @@
 {
-  "__": "VEIJ8fsondF_9r",
+  "__": "X9bIIiZ-yebrzZ",
   "_id": "c3Vsou_iiAj3_m:hestia/document-types",
   "icon": "",
   "name": "SalesforceImport",
@@ -192,13 +192,14 @@
     {
       "id": "aR0fAcL1sQGZXb",
       "name": "SalesforceImport",
-      "time": 1624441489134,
+      "time": 1624441884334,
       "user": "087af269-7b85-44fc-be62-94b7b6613ad8",
       "locked": false,
-      "_selectId": "MMoL_SomwtpqhX"
+      "_selectId": "Q7YSN_6OMauPKP",
+      "parentVersion": ""
     }
   ],
-  "_modified": 1624441492000,
+  "_modified": 1624441884000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -253,6 +254,44 @@
           "condition": "",
           "description": "",
           "duplicateNames": {}
+        }
+      ],
+      "updater": [
+        {
+          "id": "PqQM6_lay6EhnF",
+          "name": "New Updater",
+          "_selectId": "6TtbLB_U34Cp9t",
+          "targetType": ""
+        },
+        {
+          "id": "_7hLk5yqbPNcdP",
+          "name": "Update Contractor Profile",
+          "onEnter": "",
+          "inStates": [
+            "New"
+          ],
+          "mergeAll": "",
+          "_selectId": "8gpKybWVDk21oV",
+          "properties": [
+            {
+              "id": "axoinRtCl_1nCK",
+              "field": "doYouContract",
+              "value": [
+                "",
+                "yes"
+              ],
+              "defaultValue": ""
+            }
+          ],
+          "specificId": true,
+          "targetType": "hestia-activetasks",
+          "updateClient": "",
+          "recordChanges": "",
+          "targetTypeName": "Active Tasks",
+          "updateRecordId": "{_id}",
+          "createMergeRecord": false,
+          "uniqueMergeRecords": false,
+          "updateTargetDocumentState": ""
         }
       ],
       "formAction": [
