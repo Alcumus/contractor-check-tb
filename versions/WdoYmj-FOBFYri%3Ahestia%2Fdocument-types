@@ -1,6 +1,6 @@
 [
   {
-    "__": "2H4FZeR7OLm3Ss",
+    "__": "-zlj5K7H5AVBBp",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -1186,9 +1186,7 @@
                         "form": "QBK3L2kW3hNl0_"
                       }
                     ],
-                    "hints": {
-                      "hidden": true
-                    },
+                    "hints": {},
                     "hideBar": "",
                     "barWidth": "50%",
                     "diameter": "40px",
@@ -1209,7 +1207,9 @@
                     "showPercentage": true,
                     "showSeparators": false,
                     "backgroundColor": "#ededed",
-                    "startLabelColor": "#000"
+                    "clearIfDisabled": "",
+                    "startLabelColor": "#000",
+                    "editableCondition": ""
                   }
                 ],
                 "description": ""

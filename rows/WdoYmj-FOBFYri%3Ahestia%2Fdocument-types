@@ -1,6 +1,6 @@
 [
   {
-    "__": "38ECR9t1Ka8IGt",
+    "__": "7aymWezj8FhCRp",
     "ZIP": "999",
     "_id": "1621266694681:companyP/companyP",
     "City": "Racoon City",
@@ -121,13 +121,14 @@
     "_created": 1621461167000,
     "_deleted": 0,
     "_version": "Preferred Language",
+    "complete": 92,
     "province": [
       "New Brunswick",
       "Northwest Territories",
       "Alberta",
       "British Columbia"
     ],
-    "_modified": 1624441144000,
+    "_modified": 1624441225000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
@@ -183,10 +184,15 @@
     ]
   },
   {
-    "__": "aNNhCiyxTfmslf",
+    "__": "2vdRuaKokT9Z8Z",
     "ZIP": "32323",
     "_id": "1621268379734:companyP/companyP",
     "City": "Toronto",
+    "_info": {
+      "clientsLookup": {
+        "rows": []
+      }
+    },
     "email": "jim.smith@harford.com",
     "phone": "07737222388",
     "$valid": true,
@@ -200,17 +206,7 @@
     },
     "_client": "1621268379734",
     "address": "The Cabin\n12 Lake Drive",
-    "clients": [
-      "Choice Properties REIT",
-      "Choice Properties - Industrial & Office",
-      "CBRE (Alberta) Client",
-      "Bird Construction (Client)",
-      "Bimbo Canada (Canada Bread)",
-      "Agellan Capital Partners Inc",
-      "Branksome Hall",
-      "Trinity College School",
-      "Triovest Realty Advisors Inc."
-    ],
+    "clients": [],
     "country": [
       "Canada"
     ],
@@ -220,12 +216,13 @@
     "_created": 1621461168000,
     "_deleted": 0,
     "_version": "Preferred Language",
+    "complete": 92,
     "province": [
       "Ontario",
       "Prince Edward Island",
       "Quebec"
     ],
-    "_modified": 1624441144000,
+    "_modified": 1624453955000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
@@ -253,17 +250,7 @@
       "Arborist/Tree Services",
       "Land Surveyor"
     ],
-    "clientsLookup": [
-      "rWZHj0TRnqPNxY:clientA/clientA",
-      "SNpIPcO_Hcg-fo:clientA/clientA",
-      "8g4L7VeVn-3ndC:clientA/clientA",
-      "1U7C5aUY8IeEcn:clientA/clientA",
-      "kA3HjK-C79sSsr:clientA/clientA",
-      "Cp6ZiAd1Be9igc:clientA/clientA",
-      "EozCwS7ACVj2Jw:clientA/clientA",
-      "krFzG_aXgD_EDT:clientA/clientA",
-      "8JPxjzzYCJ8rkd:clientA/clientA"
-    ],
+    "clientsLookup": [],
     "doYouContract": "yes",
     "classification": "Maintenance",
     "workActivities": [
