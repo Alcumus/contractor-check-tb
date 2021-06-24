@@ -1,5 +1,5 @@
 {
-  "__": "N5i3LdM9zOG6bF",
+  "__": "NzkP0SPpdPmRgv",
   "_id": "xDklBSu-uzSV88:hestia/document-types",
   "icon": "",
   "name": "SalesforceMigrationImport",
@@ -192,14 +192,14 @@
     {
       "id": "UUo7uk3raQDWtZ",
       "name": "initialWork",
-      "time": 1624569018648,
+      "time": 1624569077906,
       "user": "087af269-7b85-44fc-be62-94b7b6613ad8",
       "locked": false,
-      "_selectId": "hWISvNKmL60WS4",
+      "_selectId": "v4PSN16fS5Gk08",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624569018000,
+  "_modified": 1624569078000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -275,6 +275,12 @@
               "id": "tIO_Gvy-pUUYYd",
               "field": "companyName",
               "value": "{name}",
+              "defaultValue": ""
+            },
+            {
+              "id": "igb7eUNPIZWXgA",
+              "field": "doYouContract",
+              "value": "{Description}",
               "defaultValue": ""
             }
           ],
