@@ -1,6 +1,6 @@
 [
   {
-    "__": "qBy-WQwvefl_88",
+    "__": "qceXQ2rXK5QGNu",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -199,7 +199,7 @@
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1624487619000,
+    "_modified": 1624488561000,
     "components": "navigation",
     "isLockedBy": null,
     "navigation": [],
@@ -1188,7 +1188,9 @@
                         "form": "QBK3L2kW3hNl0_"
                       }
                     ],
-                    "hints": {},
+                    "hints": {
+                      "hidden": true
+                    },
                     "hideBar": "",
                     "barWidth": "50%",
                     "diameter": "40px",
