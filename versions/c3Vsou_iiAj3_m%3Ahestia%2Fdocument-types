@@ -1,6 +1,6 @@
 [
   {
-    "__": "ObWo4-heTihAqR",
+    "__": "1_RI1JjiwFlRhs",
     "_id": "c3Vsou_iiAj3_m-aR0fAcL1sQGZXb:hestia/versions",
     "__id": "c3Vsou_iiAj3_m:hestia/document-types",
     "icon": "",
@@ -192,7 +192,7 @@
     "_deleted": 0,
     "database": "salesforceContractorImport",
     "maxWidth": 1000,
-    "_modified": 1624567551000,
+    "_modified": 1624568255000,
     "components": "",
     "navigation": [],
     "_behaviours": {
@@ -303,20 +303,12 @@
                   "{name}"
                 ],
                 "defaultValue": ""
-              },
-              {
-                "id": "AQiQmK1FF4pEha",
-                "field": "doYouContract",
-                "value": [
-                  "{description}"
-                ],
-                "defaultValue": ""
               }
             ],
             "specificId": true,
             "targetType": "WdoYmj-FOBFYri:hestia/document-types",
             "updateState": "Saved",
-            "updateClient": false,
+            "updateClient": true,
             "recordChanges": "",
             "targetTypeName": "Company Profile",
             "updateRecordId": "{resolveId(_id)}:companyP/companyP",

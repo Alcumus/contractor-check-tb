@@ -1,5 +1,5 @@
 {
-  "__": "P1sm8OtypO-BLG",
+  "__": "WAdgQh-TJs6QKv",
   "_id": "c3Vsou_iiAj3_m:hestia/document-types",
   "icon": "",
   "name": "SalesforceImport",
@@ -194,14 +194,14 @@
     {
       "id": "aR0fAcL1sQGZXb",
       "name": "SalesforceImport",
-      "time": 1624568254604,
+      "time": 1624568360302,
       "user": "087af269-7b85-44fc-be62-94b7b6613ad8",
       "locked": false,
-      "_selectId": "xNfRVb2XnQ0Qjn",
+      "_selectId": "WUeskuS0B_FQST",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624568255000,
+  "_modified": 1624568360000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -312,20 +312,12 @@
                 "{name}"
               ],
               "defaultValue": ""
-            },
-            {
-              "id": "AQiQmK1FF4pEha",
-              "field": "doYouContract",
-              "value": [
-                "{description}"
-              ],
-              "defaultValue": ""
             }
           ],
           "specificId": true,
           "targetType": "WdoYmj-FOBFYri:hestia/document-types",
           "updateState": "Saved",
-          "updateClient": false,
+          "updateClient": true,
           "recordChanges": "",
           "targetTypeName": "Company Profile",
           "updateRecordId": "{resolveId(_id)}:companyP/companyP",
