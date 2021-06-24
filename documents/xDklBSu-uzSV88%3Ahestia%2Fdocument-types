@@ -1,5 +1,5 @@
 {
-  "__": "NzkP0SPpdPmRgv",
+  "__": "7vJYnlNneqsm5M",
   "_id": "xDklBSu-uzSV88:hestia/document-types",
   "icon": "",
   "name": "SalesforceMigrationImport",
@@ -192,14 +192,14 @@
     {
       "id": "UUo7uk3raQDWtZ",
       "name": "initialWork",
-      "time": 1624569077906,
+      "time": 1624569624408,
       "user": "087af269-7b85-44fc-be62-94b7b6613ad8",
       "locked": false,
-      "_selectId": "v4PSN16fS5Gk08",
+      "_selectId": "E3TFiZdkej-RMt",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624569078000,
+  "_modified": 1624569624000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -248,6 +248,38 @@
                   "questionLeftPad": "",
                   "questionRightPad": "",
                   "editableCondition": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "lgs_iU47XlqmeA",
+                  "name": "ia_crm__Email_ID__c",
+                  "type": "text",
+                  "hints": {},
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "VDtXp8glD4cFGP",
+                  "condition": "",
+                  "inputLabel": "",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "6P67CpPD8rgc5t",
+                  "name": "Phone",
+                  "type": "text",
+                  "hints": {},
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "wJ1xJs7t33XItr",
+                  "condition": "",
+                  "inputLabel": "",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
                   "questionSpaceBefore": ""
                 }
               ],

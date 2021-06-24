@@ -1,6 +1,6 @@
 [
   {
-    "__": "wOMroV1xiOUucj",
+    "__": "cLpY3tZGhqnkRp",
     "_id": "xDklBSu-uzSV88-UUo7uk3raQDWtZ:hestia/versions",
     "__id": "xDklBSu-uzSV88:hestia/document-types",
     "icon": "",
@@ -190,7 +190,7 @@
     "_deleted": 0,
     "database": "salesforceMigrationImport",
     "maxWidth": 1000,
-    "_modified": 1624569018000,
+    "_modified": 1624569085000,
     "components": "",
     "navigation": [],
     "_behaviours": {
@@ -239,6 +239,38 @@
                     "questionLeftPad": "",
                     "questionRightPad": "",
                     "editableCondition": "",
+                    "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "lgs_iU47XlqmeA",
+                    "name": "ia_crm__Email_ID__c",
+                    "type": "text",
+                    "hints": {},
+                    "maxWidth": "",
+                    "question": "",
+                    "_selectId": "VDtXp8glD4cFGP",
+                    "condition": "",
+                    "inputLabel": "",
+                    "defaultValue": "",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "6P67CpPD8rgc5t",
+                    "name": "Phone",
+                    "type": "text",
+                    "hints": {},
+                    "maxWidth": "",
+                    "question": "",
+                    "_selectId": "wJ1xJs7t33XItr",
+                    "condition": "",
+                    "inputLabel": "",
+                    "defaultValue": "",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
                     "questionSpaceBefore": ""
                   }
                 ],
