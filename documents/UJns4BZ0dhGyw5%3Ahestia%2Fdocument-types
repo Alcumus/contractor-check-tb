@@ -1,5 +1,5 @@
 {
-  "__": "A4J6by0tekoKlU",
+  "__": "EKSphI5kofZCOP",
   "_id": "UJns4BZ0dhGyw5:hestia/document-types",
   "icon": "",
   "name": "Master List Company Profile",
@@ -197,14 +197,14 @@
     {
       "id": "8eXUnVjk2o1gFo",
       "name": "1.0",
-      "time": 1624364710133,
+      "time": 1624494892380,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "Ynm5g5bw5uhEr4",
+      "_selectId": "pYNcNXK8f99HQd",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624361110000,
+  "_modified": 1624491292000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -223,6 +223,23 @@
             "x_5KNezQjHRN0v": {}
           },
           "derivedFromName": "Company Profile"
+        }
+      ],
+      "viewAsText": [
+        {
+          "id": "TwE9lX50LCjAz3",
+          "name": "Master List Name",
+          "fields": [
+            {
+              "id": "q6wfZWJTQsET-v",
+              "field": "companyName",
+              "separator": " ",
+              "transform": "none",
+              "defaultValue": ""
+            }
+          ],
+          "_selectId": "wcSD8AHeQjAJMz",
+          "availableActions": []
         }
       ]
     }
