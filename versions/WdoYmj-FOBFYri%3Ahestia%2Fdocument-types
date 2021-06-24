@@ -1517,7 +1517,7 @@
     "isLockedByCurrentUser": false
   },
   {
-    "__": "vyKF0yK-GZr4Oq",
+    "__": "z0x8Ae53IINdj3",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -1727,7 +1727,7 @@
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1624542930000,
+    "_modified": 1624552397000,
     "components": "navigation",
     "isLockedBy": null,
     "navigation": [],
@@ -2103,7 +2103,9 @@
                         "colour": ""
                       }
                     },
-                    "defaultChoices": [],
+                    "defaultChoices": [
+                      "yes"
+                    ],
                     "preventNullify": "",
                     "questionHeight": "",
                     "clearIfDisabled": "",
@@ -3221,7 +3223,7 @@
     },
     "tabsBackground": "#f4f4f4",
     "tabsForeground": "#555",
-    "_lastModifiedBy": "7360895b-2e38-4601-baf6-16af027bf7ae",
+    "_lastModifiedBy": "087af269-7b85-44fc-be62-94b7b6613ad8",
     "defaultActivity": "x_5KNezQjHRN0v",
     "devices-allowed": "",
     "sideBarMinWidth": 150,
