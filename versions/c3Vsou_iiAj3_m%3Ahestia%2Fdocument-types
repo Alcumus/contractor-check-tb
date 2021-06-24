@@ -1,6 +1,6 @@
 [
   {
-    "__": "542dVjH4C42j96",
+    "__": "BBUo74CR1NzBdE",
     "_id": "c3Vsou_iiAj3_m-aR0fAcL1sQGZXb:hestia/versions",
     "__id": "c3Vsou_iiAj3_m:hestia/document-types",
     "icon": "",
@@ -190,7 +190,7 @@
     "_deleted": 0,
     "database": "salesforceContractorImport",
     "maxWidth": 1000,
-    "_modified": 1624565500000,
+    "_modified": 1624565683000,
     "components": "",
     "navigation": [],
     "_behaviours": {
@@ -234,8 +234,10 @@
                     "inputLabel": "",
                     "defaultValue": "",
                     "questionHeight": "",
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": ""
                   },
                   {
@@ -279,8 +281,28 @@
                       "yes"
                     ],
                     "questionHeight": "",
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
+                    "editableCondition": "",
+                    "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "LN-sNykQ6ihdlu",
+                    "name": "description",
+                    "type": "text",
+                    "hints": {},
+                    "maxWidth": "",
+                    "question": "",
+                    "_selectId": "ej4f51TLn-qYvi",
+                    "condition": "",
+                    "inputLabel": "",
+                    "defaultValue": "yes",
+                    "questionHeight": "",
+                    "clearIfDisabled": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": ""
                   }
                 ]
@@ -320,14 +342,14 @@
             ],
             "specificId": true,
             "targetType": "WdoYmj-FOBFYri:hestia/document-types",
-            "updateState": "",
+            "updateState": "Saved",
             "updateClient": false,
             "recordChanges": "",
             "targetTypeName": "Company Profile",
             "updateRecordId": "{resolveId(_id)}:companyP/companyP",
             "createMergeRecord": false,
             "uniqueMergeRecords": false,
-            "updateTargetDocumentState": false
+            "updateTargetDocumentState": true
           }
         ],
         "formAction": [

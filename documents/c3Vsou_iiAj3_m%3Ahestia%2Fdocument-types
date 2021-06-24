@@ -1,5 +1,5 @@
 {
-  "__": "aZzlnOelTenNoq",
+  "__": "giOta9ezunDEkX",
   "_id": "c3Vsou_iiAj3_m:hestia/document-types",
   "icon": "",
   "name": "SalesforceImport",
@@ -192,14 +192,14 @@
     {
       "id": "aR0fAcL1sQGZXb",
       "name": "SalesforceImport",
-      "time": 1624565682708,
+      "time": 1624566044579,
       "user": "087af269-7b85-44fc-be62-94b7b6613ad8",
       "locked": false,
-      "_selectId": "WCbJXg1Zt2c76_",
+      "_selectId": "HpnhaquQo7cSnj",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624565683000,
+  "_modified": 1624566044000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -243,8 +243,10 @@
                   "inputLabel": "",
                   "defaultValue": "",
                   "questionHeight": "",
+                  "clearIfDisabled": "",
                   "questionLeftPad": "",
                   "questionRightPad": "",
+                  "editableCondition": "",
                   "questionSpaceBefore": ""
                 },
                 {
@@ -288,8 +290,28 @@
                     "yes"
                   ],
                   "questionHeight": "",
+                  "clearIfDisabled": "",
                   "questionLeftPad": "",
                   "questionRightPad": "",
+                  "editableCondition": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "LN-sNykQ6ihdlu",
+                  "name": "description",
+                  "type": "text",
+                  "hints": {},
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "ej4f51TLn-qYvi",
+                  "condition": "",
+                  "inputLabel": "",
+                  "defaultValue": "yes",
+                  "questionHeight": "",
+                  "clearIfDisabled": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "editableCondition": "",
                   "questionSpaceBefore": ""
                 }
               ]
@@ -329,14 +351,14 @@
           ],
           "specificId": true,
           "targetType": "WdoYmj-FOBFYri:hestia/document-types",
-          "updateState": "",
+          "updateState": "Saved",
           "updateClient": false,
           "recordChanges": "",
           "targetTypeName": "Company Profile",
           "updateRecordId": "{resolveId(_id)}:companyP/companyP",
           "createMergeRecord": false,
           "uniqueMergeRecords": false,
-          "updateTargetDocumentState": false
+          "updateTargetDocumentState": true
         }
       ],
       "formAction": [
