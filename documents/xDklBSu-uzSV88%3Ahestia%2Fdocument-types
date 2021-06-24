@@ -1,5 +1,5 @@
 {
-  "__": "UY22mChs2mrjUZ",
+  "__": "EOysd8wFLfvARX",
   "_id": "xDklBSu-uzSV88:hestia/document-types",
   "icon": "",
   "name": "SalesforceMigrationImport",
@@ -192,14 +192,14 @@
     {
       "id": "UUo7uk3raQDWtZ",
       "name": "initialWork",
-      "time": 1624569675215,
+      "time": 1624569862473,
       "user": "087af269-7b85-44fc-be62-94b7b6613ad8",
       "locked": false,
-      "_selectId": "xM2fJa-F7ovqwz",
+      "_selectId": "dO-OtzKuDWdCiW",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624569675000,
+  "_modified": 1624569864000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -281,6 +281,22 @@
                   "questionLeftPad": "",
                   "questionRightPad": "",
                   "questionSpaceBefore": ""
+                },
+                {
+                  "id": "U1MtU3vgmSjsEv",
+                  "name": "Invoicing_Email__c",
+                  "type": "text",
+                  "hints": {},
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "Ry4B-5lFcCDD5s",
+                  "condition": "",
+                  "inputLabel": "",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
                 }
               ],
               "description": ""
@@ -324,7 +340,7 @@
             {
               "id": "zh1fEbSrayI_YZ",
               "field": "email",
-              "value": "{ia_crm__Email_ID__c}",
+              "value": "{Invoicing_Email__c}",
               "defaultValue": ""
             }
           ],
