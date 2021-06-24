@@ -1,5 +1,5 @@
 {
-  "__": "lHPZZ_7TVY6vGO",
+  "__": "scNWl1jzq-fti_",
   "_id": "jD9jg1lpLekww9:hestia/document-types",
   "icon": "",
   "name": "SalesForceAccounts",
@@ -194,7 +194,7 @@
     }
   },
   "$invalid": false,
-  "_created": 1624359796000,
+  "_created": 1624356837000,
   "_deleted": 0,
   "database": "salesforce",
   "maxWidth": 1000,
@@ -214,7 +214,17 @@
       "time": 1624368525108,
       "user": "ff79dada-c9af-494d-9025-39ccae118cea",
       "locked": true,
+      "_selectId": "ERWbNY5iXRivly",
       "parentVersion": "2yfOBIKlh8W31B"
+    },
+    {
+      "id": "gSqk_maQZmykdr",
+      "name": "1.0.2",
+      "time": 1624524948251,
+      "user": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
+      "locked": false,
+      "_selectId": "S5plvx0wAimODY",
+      "parentVersion": "9VBJkCvhNTZ9Og"
     }
   ],
   "webhooks": {
@@ -222,7 +232,7 @@
       "exposeWebhooks": ""
     }
   },
-  "_modified": 1624368531000,
+  "_modified": 1624521382000,
   "components": "",
   "isLockedBy": null,
   "navigation": [],
@@ -356,15 +366,16 @@
   "sidebarColor": "#333",
   "tabsSelected": "#009fda",
   "documentColor": "#333",
-  "_activeVersion": "gSqk_maQZmykdr",
-  "_parentVersion": "9VBJkCvhNTZ9Og",
+  "_activeVersion": "uCltnTvbaY6x-N",
+  "_parentVersion": "gSqk_maQZmykdr",
   "currentVersion": {
     "live": "1.0.1",
+    "testing": "1.0.1",
     "development": "1.0.1"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "ff79dada-c9af-494d-9025-39ccae118cea",
+  "_lastModifiedBy": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
   "defaultActivity": "UmSH7vPTuW2IU4",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
