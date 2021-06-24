@@ -1,6 +1,6 @@
 [
   {
-    "__": "DdQS3Dfr8Lm-Gr",
+    "__": "W90GJbjEHEdz6t",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -533,6 +533,7 @@
                     "id": "IUex3afvqm3XeP",
                     "name": "doYouContract",
                     "type": "choice",
+                    "color": "#1da7e0",
                     "hints": {
                       "radio": true
                     },
@@ -559,7 +560,15 @@
                         "icon": "",
                         "colour": ""
                       },
+                      "no": {
+                        "icon": "",
+                        "colour": ""
+                      },
                       "Yes": {
+                        "icon": "",
+                        "colour": ""
+                      },
+                      "yes": {
                         "icon": "",
                         "colour": ""
                       }
@@ -925,9 +934,11 @@
                     "defaultChoices": [],
                     "preventNullify": "",
                     "questionHeight": "",
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
                     "buttonWidthSuffix": "px",
+                    "editableCondition": "",
                     "selectedTextColor": "#fff",
                     "borderRadiusSuffix": "%",
                     "buttonHeightSuffix": "px",
