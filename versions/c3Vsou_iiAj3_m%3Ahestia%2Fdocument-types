@@ -1,6 +1,6 @@
 [
   {
-    "__": "uYY8nIXzSncVes",
+    "__": "NAWe0kfaNwAJ54",
     "_id": "c3Vsou_iiAj3_m-aR0fAcL1sQGZXb:hestia/versions",
     "__id": "c3Vsou_iiAj3_m:hestia/document-types",
     "icon": "",
@@ -190,7 +190,7 @@
     "_deleted": 0,
     "database": "salesforceContractorImport",
     "maxWidth": 1000,
-    "_modified": 1624566461000,
+    "_modified": 1624566660000,
     "components": "",
     "navigation": [],
     "_behaviours": {
@@ -259,6 +259,22 @@
                     "questionRightPad": "",
                     "editableCondition": "",
                     "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "cJSaLvTWvL8h9-",
+                    "name": "website",
+                    "type": "text",
+                    "hints": {},
+                    "maxWidth": "",
+                    "question": "",
+                    "_selectId": "IMYG1IK_HnuPDW",
+                    "condition": "",
+                    "inputLabel": "",
+                    "defaultValue": "",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
                   }
                 ]
               }
@@ -291,7 +307,9 @@
               {
                 "id": "AQiQmK1FF4pEha",
                 "field": "doYouContract",
-                "value": "{description}",
+                "value": [
+                  "{description}"
+                ],
                 "defaultValue": ""
               }
             ],
