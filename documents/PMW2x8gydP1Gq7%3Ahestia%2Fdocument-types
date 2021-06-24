@@ -1,5 +1,5 @@
 {
-  "__": "oNyYqVoF-7HGiF",
+  "__": "q_qkMV_6ayWOAm",
   "_id": "PMW2x8gydP1Gq7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -202,14 +202,14 @@
     {
       "id": "tV6rqmkixtZSUh",
       "name": "1",
-      "time": 1624563265784,
+      "time": 1624563347457,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "8aLhhPiwbReDH7",
+      "_selectId": "-CYZS_XBzRKApD",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624559666000,
+  "_modified": 1624559748000,
   "components": "verification,localisation,hint-text",
   "isLockedBy": null,
   "navigation": [],
@@ -10703,6 +10703,22 @@
                   "questionRightPad": "",
                   "editableCondition": "",
                   "questionSpaceBefore": ""
+                },
+                {
+                  "id": "JM1CostFphr_bg",
+                  "file": {
+                    "name": "ContractorCheckRGB (1).png",
+                    "path": "/api/s3/2825f92e75abc55fdcc39edfa5ffa675.png"
+                  },
+                  "link": "",
+                  "name": "bimboGoodManufacturingPractices",
+                  "type": "referenceLink",
+                  "hints": {},
+                  "caption": "Good Manufacturing Practices",
+                  "question": "",
+                  "_selectId": "mSxBTescNaVuv5",
+                  "condition": "",
+                  "showPreview": ""
                 },
                 {
                   "id": "a1S3m000008E4kaFile",
