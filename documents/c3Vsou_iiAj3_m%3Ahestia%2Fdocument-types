@@ -1,5 +1,5 @@
 {
-  "__": "giOta9ezunDEkX",
+  "__": "7Zb9tbu7vg2-d5",
   "_id": "c3Vsou_iiAj3_m:hestia/document-types",
   "icon": "",
   "name": "SalesforceImport",
@@ -192,14 +192,14 @@
     {
       "id": "aR0fAcL1sQGZXb",
       "name": "SalesforceImport",
-      "time": 1624566044579,
+      "time": 1624566241264,
       "user": "087af269-7b85-44fc-be62-94b7b6613ad8",
       "locked": false,
-      "_selectId": "HpnhaquQo7cSnj",
+      "_selectId": "_SKDCIqjGoEI3h",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624566044000,
+  "_modified": 1624566242000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -227,8 +227,10 @@
                   "inputLabel": "",
                   "defaultValue": "",
                   "questionHeight": "",
+                  "clearIfDisabled": "",
                   "questionLeftPad": "",
                   "questionRightPad": "",
+                  "editableCondition": "",
                   "questionSpaceBefore": ""
                 },
                 {
@@ -250,53 +252,6 @@
                   "questionSpaceBefore": ""
                 },
                 {
-                  "id": "CYgykPRQS10KTQ",
-                  "name": "doYouContract",
-                  "type": "choice",
-                  "hints": {},
-                  "choices": [
-                    {
-                      "label": "Yes",
-                      "value": "yes"
-                    },
-                    {
-                      "label": "No",
-                      "value": "no"
-                    }
-                  ],
-                  "question": "",
-                  "_selectId": "Wbk9If9aPCHgqS",
-                  "condition": "",
-                  "inputLabel": "",
-                  "choiceOptions": {
-                    "No": {
-                      "icon": "",
-                      "colour": ""
-                    },
-                    "no": {
-                      "icon": "",
-                      "colour": ""
-                    },
-                    "Yes": {
-                      "icon": "",
-                      "colour": ""
-                    },
-                    "yes": {
-                      "icon": "",
-                      "colour": ""
-                    }
-                  },
-                  "defaultChoices": [
-                    "yes"
-                  ],
-                  "questionHeight": "",
-                  "clearIfDisabled": "",
-                  "questionLeftPad": "",
-                  "questionRightPad": "",
-                  "editableCondition": "",
-                  "questionSpaceBefore": ""
-                },
-                {
                   "id": "LN-sNykQ6ihdlu",
                   "name": "description",
                   "type": "text",
@@ -306,7 +261,7 @@
                   "_selectId": "ej4f51TLn-qYvi",
                   "condition": "",
                   "inputLabel": "",
-                  "defaultValue": "yes",
+                  "defaultValue": "",
                   "questionHeight": "",
                   "clearIfDisabled": "",
                   "questionLeftPad": "",
