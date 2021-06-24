@@ -1,6 +1,6 @@
 [
   {
-    "__": "Fw7JkCZm4LNEo4",
+    "__": "qxsPRJT8REnIRm",
     "_id": "fYmpCXoXNbRtVg-D57acZ-uIHF-Tx:hestia/versions",
     "__id": "fYmpCXoXNbRtVg:hestia/document-types",
     "__ok": true,
@@ -199,7 +199,7 @@
     "_deleted": 0,
     "database": "contractorcheck",
     "maxWidth": 1000,
-    "_modified": 1624495972000,
+    "_modified": 1624530495000,
     "components": "verification,helptext,navigation,formprogress",
     "isLockedBy": null,
     "navigation": [],
@@ -284,9 +284,7 @@
                           "form": "allForms"
                         }
                       ],
-                      "hints": {
-                        "countOnlyRequiredFields": true
-                      },
+                      "hints": {},
                       "hideBar": true,
                       "barWidth": "50%",
                       "diameter": "40px",
@@ -310,7 +308,9 @@
                       "showPercentage": false,
                       "showSeparators": false,
                       "backgroundColor": "#ededed",
-                      "startLabelColor": "#000"
+                      "clearIfDisabled": "",
+                      "startLabelColor": "#000",
+                      "editableCondition": ""
                     },
                     "rightMiddleSlot": null
                   },
