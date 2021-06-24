@@ -1,5 +1,5 @@
 {
-  "__": "Dn2w-RJdQtPZTA",
+  "__": "P1sm8OtypO-BLG",
   "_id": "c3Vsou_iiAj3_m:hestia/document-types",
   "icon": "",
   "name": "SalesforceImport",
@@ -194,14 +194,14 @@
     {
       "id": "aR0fAcL1sQGZXb",
       "name": "SalesforceImport",
-      "time": 1624568214530,
+      "time": 1624568254604,
       "user": "087af269-7b85-44fc-be62-94b7b6613ad8",
       "locked": false,
-      "_selectId": "-xQqX4_kNPoKc6",
+      "_selectId": "xNfRVb2XnQ0Qjn",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624568214000,
+  "_modified": 1624568255000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -254,39 +254,35 @@
                   "questionSpaceBefore": ""
                 },
                 {
-                  "id": "LN-sNykQ6ihdlu",
-                  "name": "Description",
-                  "type": "text",
-                  "hints": {},
-                  "maxWidth": "",
-                  "question": "",
-                  "_selectId": "ej4f51TLn-qYvi",
-                  "condition": "",
-                  "inputLabel": "",
-                  "defaultValue": "",
-                  "questionHeight": "",
-                  "clearIfDisabled": "",
-                  "questionLeftPad": "",
-                  "questionRightPad": "",
-                  "editableCondition": "",
-                  "questionSpaceBefore": ""
-                },
-                {
-                  "id": "cJSaLvTWvL8h9-",
+                  "id": "GJXPXW8gwpuJl2",
                   "name": "Website",
                   "type": "text",
                   "hints": {},
                   "maxWidth": "",
                   "question": "",
-                  "_selectId": "IMYG1IK_HnuPDW",
+                  "_selectId": "XKmD5ZFuLa5lNm",
                   "condition": "",
                   "inputLabel": "",
                   "defaultValue": "",
                   "questionHeight": "",
-                  "clearIfDisabled": "",
                   "questionLeftPad": "",
                   "questionRightPad": "",
-                  "editableCondition": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "tcwR4pp10L0hMK",
+                  "name": "Description",
+                  "type": "text",
+                  "hints": {},
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "gQa1eeq7uBh9Q8",
+                  "condition": "",
+                  "inputLabel": "",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
                   "questionSpaceBefore": ""
                 }
               ]
