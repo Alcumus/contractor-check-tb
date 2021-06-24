@@ -1,5 +1,5 @@
 {
-  "__": "MhyG9TORfPPKyc",
+  "__": "N5i3LdM9zOG6bF",
   "_id": "xDklBSu-uzSV88:hestia/document-types",
   "icon": "",
   "name": "SalesforceMigrationImport",
@@ -192,14 +192,14 @@
     {
       "id": "UUo7uk3raQDWtZ",
       "name": "initialWork",
-      "time": 1624568951884,
+      "time": 1624569018648,
       "user": "087af269-7b85-44fc-be62-94b7b6613ad8",
       "locked": false,
-      "_selectId": "ktu-etFH0ohWfJ",
+      "_selectId": "hWISvNKmL60WS4",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624568956000,
+  "_modified": 1624569018000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -230,6 +230,24 @@
                   "questionHeight": "",
                   "questionLeftPad": "",
                   "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "B2tMXxRLuaC3Sm",
+                  "name": "Description",
+                  "type": "text",
+                  "hints": {},
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "faJWfJwRB2fxvB",
+                  "condition": "",
+                  "inputLabel": "",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "clearIfDisabled": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "editableCondition": "",
                   "questionSpaceBefore": ""
                 }
               ],
