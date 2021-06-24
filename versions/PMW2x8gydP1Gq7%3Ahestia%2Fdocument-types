@@ -1,6 +1,6 @@
 [
   {
-    "__": "J5kt8QwkzJBxb5",
+    "__": "jJMX-XNCNQUVwS",
     "_id": "PMW2x8gydP1Gq7-tV6rqmkixtZSUh:hestia/versions",
     "__id": "PMW2x8gydP1Gq7:hestia/document-types",
     "__ok": true,
@@ -200,7 +200,7 @@
     "_deleted": 0,
     "database": "test",
     "maxWidth": 1000,
-    "_modified": 1624559666000,
+    "_modified": 1624559748000,
     "components": "verification,localisation,hint-text",
     "isLockedBy": null,
     "navigation": [],
@@ -10704,12 +10704,16 @@
                     "link": "",
                     "name": "bimboGoodManufacturingPractices",
                     "type": "referenceLink",
-                    "hints": {},
+                    "hints": {
+                      "dontCountInProgress": true
+                    },
                     "caption": "Good Manufacturing Practices",
                     "question": "",
                     "_selectId": "mSxBTescNaVuv5",
                     "condition": "",
-                    "showPreview": ""
+                    "showPreview": "",
+                    "clearIfDisabled": "",
+                    "editableCondition": ""
                   },
                   {
                     "id": "a1S3m000008E4kaFile",
