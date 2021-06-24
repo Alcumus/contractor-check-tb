@@ -1,5 +1,5 @@
 {
-  "__": "xu1MnNE5pCCUGl",
+  "__": "uH5OUd6paaIDKE",
   "_id": "GaC12kvdmhTkfG:hestia/document-types",
   "icon": "",
   "name": "sfImport",
@@ -192,14 +192,14 @@
     {
       "id": "G7u2_EFeeU8XPX",
       "name": "1",
-      "time": 1624525375840,
+      "time": 1624527153725,
       "user": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
       "locked": false,
-      "_selectId": "r11tFZz9AlzQr8",
+      "_selectId": "whofRP2aO7-qyp",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624521776000,
+  "_modified": 1624523554000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -288,13 +288,14 @@
           ],
           "specificId": true,
           "targetType": "jD9jg1lpLekww9:hestia/document-types",
+          "updateState": "New",
           "updateClient": "",
           "recordChanges": "",
           "targetTypeName": "SalesForceAccounts",
           "updateRecordId": "{sfid}:salesforce/accounts",
           "createMergeRecord": false,
           "uniqueMergeRecords": false,
-          "updateTargetDocumentState": ""
+          "updateTargetDocumentState": true
         }
       ],
       "formAction": [
