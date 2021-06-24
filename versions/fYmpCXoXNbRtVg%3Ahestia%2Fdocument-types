@@ -1,6 +1,6 @@
 [
   {
-    "__": "qxsPRJT8REnIRm",
+    "__": "zKioVEYnjwFXYG",
     "_id": "fYmpCXoXNbRtVg-D57acZ-uIHF-Tx:hestia/versions",
     "__id": "fYmpCXoXNbRtVg:hestia/document-types",
     "__ok": true,
@@ -285,7 +285,7 @@
                         }
                       ],
                       "hints": {},
-                      "hideBar": true,
+                      "hideBar": false,
                       "barWidth": "50%",
                       "diameter": "40px",
                       "endLabel": "",
