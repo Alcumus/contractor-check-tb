@@ -1,5 +1,5 @@
 {
-  "__": "kWi91Cnn_Lo1gr",
+  "__": "wnccGi0z9kRWAy",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -228,14 +228,14 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1624533767790,
+      "time": 1624533831271,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "D9Y7hs65jQ_Q44",
+      "_selectId": "hO9jr0jxWjilp8",
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1624530168000,
+  "_modified": 1624530231000,
   "components": "navigation",
   "isLockedBy": null,
   "navigation": [],
@@ -561,8 +561,10 @@
                   "condition": "",
                   "inputLabel": "",
                   "questionHeight": "",
+                  "clearIfDisabled": "",
                   "questionLeftPad": "",
                   "questionRightPad": "",
+                  "editableCondition": "",
                   "questionSpaceBefore": ""
                 },
                 {
@@ -571,7 +573,7 @@
                   "type": "choice",
                   "color": "#1da7e0",
                   "hints": {
-                    "radio": true
+                    "round_button": true
                   },
                   "choices": [
                     {

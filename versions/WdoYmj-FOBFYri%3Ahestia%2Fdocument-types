@@ -1,6 +1,6 @@
 [
   {
-    "__": "W90GJbjEHEdz6t",
+    "__": "IhEk7X8Hr8EP3i",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -525,8 +525,10 @@
                     "condition": "",
                     "inputLabel": "",
                     "questionHeight": "",
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": ""
                   },
                   {
@@ -535,7 +537,7 @@
                     "type": "choice",
                     "color": "#1da7e0",
                     "hints": {
-                      "radio": true
+                      "round_button": true
                     },
                     "choices": [
                       {
