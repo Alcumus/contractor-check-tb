@@ -1,6 +1,6 @@
 [
   {
-    "__": "grMZ-aAoT7hFxw",
+    "__": "Fw7JkCZm4LNEo4",
     "_id": "fYmpCXoXNbRtVg-D57acZ-uIHF-Tx:hestia/versions",
     "__id": "fYmpCXoXNbRtVg:hestia/document-types",
     "__ok": true,
@@ -1013,8 +1013,8 @@
                 "modal": {
                   "enabled": false
                 },
-                "goBack": "",
-                "caption": "Save Draft",
+                "goBack": true,
+                "caption": "Save Draft & Close",
                 "command": "setData",
                 "toState": "New",
                 "variant": "text",
@@ -1438,8 +1438,8 @@
                 "modal": {
                   "enabled": false
                 },
-                "goBack": "",
-                "caption": "Save Draft",
+                "goBack": true,
+                "caption": "Save Draft & Close",
                 "command": "setData",
                 "toState": "Editing",
                 "variant": "text",

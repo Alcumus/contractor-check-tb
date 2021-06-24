@@ -1,5 +1,5 @@
 {
-  "__": "ZFdsedmL0C5DpJ",
+  "__": "aLydonpqbJTE2W",
   "_id": "fYmpCXoXNbRtVg:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -201,14 +201,14 @@
     {
       "id": "D57acZ-uIHF-Tx",
       "name": "1.0",
-      "time": 1624534039047,
+      "time": 1624534092457,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "wy4A6Gy0xlc1BK",
+      "_selectId": "DTvYrNnZapJnUP",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624530439000,
+  "_modified": 1624530495000,
   "components": "verification,helptext,navigation,formprogress",
   "isLockedBy": null,
   "navigation": [],
@@ -1022,8 +1022,8 @@
               "modal": {
                 "enabled": false
               },
-              "goBack": "",
-              "caption": "Save Draft",
+              "goBack": true,
+              "caption": "Save Draft & Close",
               "command": "setData",
               "toState": "New",
               "variant": "text",
@@ -1447,8 +1447,8 @@
               "modal": {
                 "enabled": false
               },
-              "goBack": "",
-              "caption": "Save Draft",
+              "goBack": true,
+              "caption": "Save Draft & Close",
               "command": "setData",
               "toState": "Editing",
               "variant": "text",
