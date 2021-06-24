@@ -1,5 +1,5 @@
 {
-  "__": "WlkDLX93yIvbkZ",
+  "__": "m7VJA1Q1NY6HaL",
   "_id": "LC17HKj7mFfilk:hestia/document-types",
   "icon": "",
   "name": "icw",
@@ -166,6 +166,7 @@
     "permanentTheme": ""
   },
   "$valid": true,
+  "client": "rsihYJKKDVyaYN",
   "gitHub": {
     "1J8739KZBOtzVQ": {
       "publishDocs": "",
@@ -176,7 +177,8 @@
       "gitHubPublish": true
     }
   },
-  "_client": "@WORK",
+  "locked": false,
+  "_client": "rsihYJKKDVyaYN",
   "demands": [],
   "graphQL": {
     "6g4mciY7jkfOUo": {
@@ -184,7 +186,7 @@
     }
   },
   "$invalid": false,
-  "_created": 1623832274000,
+  "_created": 1624359793000,
   "_deleted": 0,
   "database": "icw",
   "maxWidth": 1000,
@@ -194,9 +196,17 @@
       "name": "1",
       "time": 1623836121138,
       "user": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
-      "locked": false,
+      "locked": true,
       "_selectId": "I-G1PcacnEiIs4",
       "parentVersion": ""
+    },
+    {
+      "id": "WyAd3Ai3vQ-kL_",
+      "name": "1.0.1",
+      "time": 1624368525100,
+      "user": "ff79dada-c9af-494d-9025-39ccae118cea",
+      "locked": true,
+      "parentVersion": "Cq7AGYj1lrSL72"
     }
   ],
   "webhooks": {
@@ -205,8 +215,9 @@
       "exposeWebhooks": true
     }
   },
-  "_modified": 1623832521000,
+  "_modified": 1624368531000,
   "components": "",
+  "isLockedBy": null,
   "navigation": [],
   "_behaviours": {
     "_state": "",
@@ -273,21 +284,21 @@
   "sidebarColor": "#333",
   "tabsSelected": "#009fda",
   "documentColor": "#333",
-  "_activeVersion": "WyAd3Ai3vQ-kL_",
-  "_parentVersion": "Cq7AGYj1lrSL72",
+  "_activeVersion": "U_okYZ5S-xRla3",
+  "_parentVersion": "WyAd3Ai3vQ-kL_",
   "currentVersion": {
-    "live": "1",
-    "testing": "1",
-    "development": "1"
+    "live": "1.0.1",
+    "development": "1.0.1"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
+  "_lastModifiedBy": "ff79dada-c9af-494d-9025-39ccae118cea",
   "defaultActivity": "ajGAR1Lo6Vsk36",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
   "documentBackdrop": "#f4f4f4",
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
-  "devices-allowed-html": ""
+  "devices-allowed-html": "",
+  "isLockedByCurrentUser": false
 }

@@ -1,5 +1,5 @@
 {
-  "__": "pbuVFCsKi0fh2e",
+  "__": "Mt6uztY7mmmzaO",
   "_id": "jD9jg1lpLekww9:hestia/document-types",
   "icon": "",
   "name": "SalesForceAccounts",
@@ -166,6 +166,7 @@
     "permanentTheme": ""
   },
   "$valid": true,
+  "client": "rsihYJKKDVyaYN",
   "gitHub": {
     "1J8739KZBOtzVQ": {
       "publishDocs": "",
@@ -180,7 +181,8 @@
       "gitHubPublish": true
     }
   },
-  "_client": "@WORK",
+  "locked": false,
+  "_client": "rsihYJKKDVyaYN",
   "demands": [],
   "graphQL": {
     "6g4mciY7jkfOUo": {
@@ -192,7 +194,7 @@
     }
   },
   "$invalid": false,
-  "_created": 1623841324000,
+  "_created": 1624356837000,
   "_deleted": 0,
   "database": "salesforce",
   "maxWidth": 1000,
@@ -202,9 +204,27 @@
       "name": "1",
       "time": 1623922493138,
       "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
-      "locked": false,
+      "locked": true,
       "_selectId": "g1-RmXKnKeiEoS",
       "parentVersion": ""
+    },
+    {
+      "id": "9VBJkCvhNTZ9Og",
+      "name": "1.0.1",
+      "time": 1624368525108,
+      "user": "ff79dada-c9af-494d-9025-39ccae118cea",
+      "locked": true,
+      "_selectId": "ERWbNY5iXRivly",
+      "parentVersion": "2yfOBIKlh8W31B"
+    },
+    {
+      "id": "gSqk_maQZmykdr",
+      "name": "1.0.2",
+      "time": 1624525379119,
+      "user": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
+      "locked": false,
+      "_selectId": "xZejk4Atx3J1T9",
+      "parentVersion": "9VBJkCvhNTZ9Og"
     }
   ],
   "webhooks": {
@@ -212,8 +232,9 @@
       "exposeWebhooks": ""
     }
   },
-  "_modified": 1623922493000,
+  "_modified": 1624521779000,
   "components": "",
+  "isLockedBy": null,
   "navigation": [],
   "_behaviours": {
     "_state": "",
@@ -345,21 +366,22 @@
   "sidebarColor": "#333",
   "tabsSelected": "#009fda",
   "documentColor": "#333",
-  "_activeVersion": "9VBJkCvhNTZ9Og",
-  "_parentVersion": "2yfOBIKlh8W31B",
+  "_activeVersion": "uCltnTvbaY6x-N",
+  "_parentVersion": "gSqk_maQZmykdr",
   "currentVersion": {
-    "live": "1",
-    "testing": "1",
-    "development": "1"
+    "live": "1.0.1",
+    "testing": "1.0.1",
+    "development": "1.0.1"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "7360895b-2e38-4601-baf6-16af027bf7ae",
+  "_lastModifiedBy": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
   "defaultActivity": "UmSH7vPTuW2IU4",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
   "documentBackdrop": "#f4f4f4",
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
-  "devices-allowed-html": ""
+  "devices-allowed-html": "",
+  "isLockedByCurrentUser": false
 }

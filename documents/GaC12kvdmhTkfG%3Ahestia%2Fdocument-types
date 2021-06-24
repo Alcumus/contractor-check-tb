@@ -1,10 +1,10 @@
 {
-  "__": "3B2Ov8eLx5HWN_",
-  "_id": "_PwCnwt36kDYFu:hestia/document-types",
+  "__": "uH5OUd6paaIDKE",
+  "_id": "GaC12kvdmhTkfG:hestia/document-types",
   "icon": "",
-  "name": "DemoCompanyRecord",
+  "name": "sfImport",
   "tags": [],
-  "table": "company",
+  "table": "import",
   "theme": {
     "other": {
       "opacity": {
@@ -166,7 +166,6 @@
     "permanentTheme": ""
   },
   "$valid": true,
-  "client": "rsihYJKKDVyaYN",
   "gitHub": {
     "1J8739KZBOtzVQ": {
       "publishDocs": "",
@@ -175,13 +174,8 @@
     "aV8boSk1D6q6YG": {
       "publishDocs": "",
       "gitHubPublish": true
-    },
-    "hVWU8Lx-bizSIx": {
-      "publishDocs": "",
-      "gitHubPublish": true
     }
   },
-  "locked": false,
   "_client": "rsihYJKKDVyaYN",
   "demands": [],
   "graphQL": {
@@ -190,124 +184,136 @@
     }
   },
   "$invalid": false,
-  "_created": 1624359795000,
+  "_created": 1624518783000,
   "_deleted": 0,
-  "database": "demo",
+  "database": "salesforce",
   "maxWidth": 1000,
   "versions": [
     {
-      "id": "7KiZdDrgmYmC58",
+      "id": "G7u2_EFeeU8XPX",
       "name": "1",
-      "time": 1624011314927,
-      "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
-      "locked": true,
-      "_selectId": "CQn7R1iY6mfyxE",
+      "time": 1624527153725,
+      "user": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
+      "locked": false,
+      "_selectId": "whofRP2aO7-qyp",
       "parentVersion": ""
-    },
-    {
-      "id": "AFJ_YDOABQ3zPH",
-      "name": "1.0.1",
-      "time": 1624368525099,
-      "user": "ff79dada-c9af-494d-9025-39ccae118cea",
-      "locked": true,
-      "parentVersion": "7KiZdDrgmYmC58"
     }
   ],
-  "webhooks": {
-    "HxewVLNY2C3G82": {
-      "exposeWebhooks": ""
-    }
-  },
-  "_modified": 1624368531000,
+  "_modified": 1624523554000,
   "components": "",
-  "isLockedBy": null,
   "navigation": [],
   "_behaviours": {
     "_state": "",
     "instances": {
       "form": [
         {
-          "id": "uYsGYKVV3cu5qL",
+          "id": "Uh-URiSttnRPxy",
           "name": "Main",
           "sections": [
             {
               "name": "Main",
               "_expanded": true,
-              "_selectId": "CBh5fE6gucS0ID",
+              "_selectId": "4fWcxmmWSn3YYx",
+              "condition": "",
               "questions": [
                 {
-                  "id": "aVNofp336F__4l",
+                  "id": "k3EoOx7smCO2Aa",
                   "name": "name",
                   "type": "text",
                   "hints": {},
                   "maxWidth": "",
                   "question": "",
-                  "_selectId": "SkT9jVZXQWmJ25",
+                  "_selectId": "6ZaGD6iD1uwfpb",
                   "condition": "",
                   "inputLabel": "",
                   "defaultValue": "",
                   "questionHeight": "",
+                  "clearIfDisabled": "",
                   "questionLeftPad": "",
                   "questionRightPad": "",
+                  "editableCondition": "",
                   "questionSpaceBefore": ""
                 },
                 {
-                  "id": "kwaGN3M4mBMU5S",
-                  "name": "desc",
+                  "id": "nN2j8iCptm81wH",
+                  "name": "sfid",
                   "type": "text",
                   "hints": {},
                   "maxWidth": "",
                   "question": "",
-                  "_selectId": "CG8FUR9F9foF6G",
+                  "_selectId": "TNYrCAsXEKo9b_",
                   "condition": "",
                   "inputLabel": "",
                   "defaultValue": "",
                   "questionHeight": "",
+                  "clearIfDisabled": "",
                   "questionLeftPad": "",
                   "questionRightPad": "",
-                  "questionSpaceBefore": ""
-                },
-                {
-                  "id": "WUt4q1i-jHoXVB",
-                  "name": "salesforce_id",
-                  "type": "text",
-                  "hints": {},
-                  "maxWidth": "",
-                  "question": "",
-                  "_selectId": "UWnZHZo3w282fh",
-                  "condition": "",
-                  "inputLabel": "",
-                  "defaultValue": "",
-                  "questionHeight": "",
-                  "questionLeftPad": "",
-                  "questionRightPad": "",
+                  "editableCondition": "",
                   "questionSpaceBefore": ""
                 }
-              ]
+              ],
+              "description": ""
             }
           ],
-          "_selectId": "HZfgqS9yo0c9zn",
+          "_selectId": "HUeQhMCSg1Sc3j",
           "condition": "",
           "description": "",
           "duplicateNames": {}
         }
       ],
+      "updater": [
+        {
+          "id": "Xjv8yJcrlVOcxT",
+          "name": "RecordCreated",
+          "onEnter": "",
+          "inStates": [
+            "New"
+          ],
+          "mergeAll": "",
+          "_selectId": "6YkN8E1eWNmtxR",
+          "properties": [
+            {
+              "id": "sUCxXCBZpEilo7",
+              "field": "name",
+              "value": "{name}",
+              "defaultValue": ""
+            },
+            {
+              "id": "onYydgshYpjLkl",
+              "field": "sfid",
+              "value": "{sfid}",
+              "defaultValue": ""
+            }
+          ],
+          "specificId": true,
+          "targetType": "jD9jg1lpLekww9:hestia/document-types",
+          "updateState": "New",
+          "updateClient": "",
+          "recordChanges": "",
+          "targetTypeName": "SalesForceAccounts",
+          "updateRecordId": "{sfid}:salesforce/accounts",
+          "createMergeRecord": false,
+          "uniqueMergeRecords": false,
+          "updateTargetDocumentState": true
+        }
+      ],
       "formAction": [
         {
-          "id": "s40UL88T_z6jbt",
+          "id": "sBmEqss4mJYOS0",
           "name": "Main",
           "forms": [
             {
-              "id": "F4kXBjZj4lBfgu",
-              "form": "uYsGYKVV3cu5qL",
+              "id": "5hbR2bW0wxy4cq",
+              "form": "Uh-URiSttnRPxy",
               "readOnly": "",
-              "_selectId": "inlc7rVFEYOx6_"
+              "_selectId": "mIbCym2thtDhKc"
             }
           ],
           "inline": true,
           "actions": [
             {
-              "id": "ftz7vbj_kRfmh4",
+              "id": "1uMJ3Nh1GelWHo",
               "blur": "",
               "icon": "",
               "color": "#fff",
@@ -319,30 +325,7 @@
               "command": "setData",
               "toState": "New",
               "variant": "text",
-              "_selectId": "bcUcteegLSpXRa",
-              "condition": "",
-              "endOfLine": "",
-              "navigateTo": "",
-              "properties": [],
-              "changeState": true,
-              "backgroundColor": "#03a9f4",
-              "visibleCondition": "",
-              "notificationToast": ""
-            },
-            {
-              "id": "WeE1xCXwiXY1E2",
-              "blur": "",
-              "icon": "",
-              "color": "#fff",
-              "modal": {
-                "enabled": false
-              },
-              "goBack": "",
-              "caption": "Updated",
-              "command": "setData",
-              "toState": "Updated",
-              "variant": "text",
-              "_selectId": "oiHvOe4vXMx9Zj",
+              "_selectId": "mdZh7OjDowfJPY",
               "condition": "",
               "endOfLine": "",
               "navigateTo": "",
@@ -354,7 +337,7 @@
             }
           ],
           "storeIn": "",
-          "_selectId": "C_CiwaWcWUtngC",
+          "_selectId": "7fqzuN1iCKARgu",
           "editDemands": [],
           "inputStates": [
             "New"
@@ -366,26 +349,26 @@
   },
   "createOnNew": false,
   "description": "",
-  "displayName": "Demo Company Record",
+  "displayName": "Salesforce Import",
   "defaultState": "New",
   "sidebarColor": "#333",
   "tabsSelected": "#009fda",
   "documentColor": "#333",
-  "_activeVersion": "7h27wo1wCVyNXj",
-  "_parentVersion": "AFJ_YDOABQ3zPH",
+  "_activeVersion": "5cQeQUvG48vBl-",
+  "_parentVersion": "G7u2_EFeeU8XPX",
   "currentVersion": {
-    "live": "1.0.1",
-    "development": "1.0.1"
+    "live": "",
+    "testing": "",
+    "development": ""
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "ff79dada-c9af-494d-9025-39ccae118cea",
-  "defaultActivity": "s40UL88T_z6jbt",
+  "_lastModifiedBy": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
+  "defaultActivity": "sBmEqss4mJYOS0",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
   "documentBackdrop": "#f4f4f4",
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
-  "devices-allowed-html": "",
-  "isLockedByCurrentUser": false
+  "devices-allowed-html": ""
 }
