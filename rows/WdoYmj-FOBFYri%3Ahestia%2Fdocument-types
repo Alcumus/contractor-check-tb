@@ -1496,7 +1496,7 @@
     "preferredLanguage": "English"
   },
   {
-    "__": "Y5R2kg-bkn56yp",
+    "__": "yQWOJ3yEUdZZrT",
     "ZIP": "999",
     "_id": "1621266694681:companyP/companyP",
     "City": "Racoon City",
@@ -1608,13 +1608,12 @@
       "Schindler Elevator Corporation (Client)"
     ],
     "country": [
-      "Canada",
-      "US"
+      "Canada"
     ],
     "$created": true,
     "$creator": "64467393-61e5-45fe-a026-45aed6419337",
     "$invalid": false,
-    "_created": 1621461167000,
+    "_created": 1621847790000,
     "_deleted": 0,
     "_version": "Preferred Language",
     "province": [
@@ -1623,7 +1622,7 @@
       "Alberta",
       "British Columbia"
     ],
-    "_modified": 1624017211000,
+    "_modified": 1624528932000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
@@ -1664,7 +1663,7 @@
       "tXjZb3-pXJFRPQ:workA/workA",
       "0SL-HHTURQQEZf:workA/workA"
     ],
-    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_lastModifiedBy": "i9RWEy8bDuX0_X",
     "_stateChangedAt": 1621266733117,
     "headOfficeCountry": "USA",
     "numberOfEmployees": "0",
@@ -1676,10 +1675,22 @@
     ]
   },
   {
-    "__": "xa5ycKx2c_v2e-",
+    "__": "9zVEmr2IWWsNk3",
     "ZIP": "32323",
     "_id": "1621268379734:companyP/companyP",
     "City": "Toronto",
+    "_info": {
+      "clientsLookup": {
+        "rows": [
+          {
+            "_id": "8-DZ0dQ-ny8sF0:companyP/companyP",
+            "_settings": {
+              "_id": "WdoYmj-FOBFYri:hestia/document-types"
+            }
+          }
+        ]
+      }
+    },
     "email": "jim.smith@harford.com",
     "phone": "07737222388",
     "$valid": true,
@@ -1694,15 +1705,7 @@
     "_client": "rsihYJKKDVyaYN",
     "address": "The Cabin\n12 Lake Drive",
     "clients": [
-      "Choice Properties REIT",
-      "Choice Properties - Industrial & Office",
-      "CBRE (Alberta) Client",
-      "Bird Construction (Client)",
-      "Bimbo Canada (Canada Bread)",
-      "Agellan Capital Partners Inc",
-      "Branksome Hall",
-      "Trinity College School",
-      "Triovest Realty Advisors Inc."
+      "Agellan Capital Partners Inc"
     ],
     "country": [
       "Canada"
@@ -1710,7 +1713,7 @@
     "$created": true,
     "$creator": "64467393-61e5-45fe-a026-45aed6419337",
     "$invalid": false,
-    "_created": 1621461168000,
+    "_created": 1621847790000,
     "_deleted": 0,
     "_version": "Preferred Language",
     "province": [
@@ -1718,7 +1721,7 @@
       "Prince Edward Island",
       "Quebec"
     ],
-    "_modified": 1623992627000,
+    "_modified": 1624467778000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
@@ -1744,15 +1747,7 @@
       "Land Surveyor"
     ],
     "clientsLookup": [
-      "rWZHj0TRnqPNxY:clientA/clientA",
-      "SNpIPcO_Hcg-fo:clientA/clientA",
-      "8g4L7VeVn-3ndC:clientA/clientA",
-      "1U7C5aUY8IeEcn:clientA/clientA",
-      "kA3HjK-C79sSsr:clientA/clientA",
-      "Cp6ZiAd1Be9igc:clientA/clientA",
-      "EozCwS7ACVj2Jw:clientA/clientA",
-      "krFzG_aXgD_EDT:clientA/clientA",
-      "8JPxjzzYCJ8rkd:clientA/clientA"
+      "8-DZ0dQ-ny8sF0:companyP/companyP"
     ],
     "doYouContract": "yes",
     "classification": "Maintenance",
@@ -1760,7 +1755,7 @@
       "Zb5UkuGQwdKIZA:workA/workA",
       "xxVMHkOquDqZK8:workA/workA"
     ],
-    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_lastModifiedBy": "i9RWEy8bDuX0_X",
     "_stateChangedAt": 1621268411531,
     "headOfficeCountry": "Canada",
     "numberOfEmployees": 55,
@@ -1939,7 +1934,7 @@
     "doYouUseContractors": "no"
   },
   {
-    "__": "KAWvEMonSIbwiy",
+    "__": "8L3dpvg0x3bMsV",
     "ZIP": "",
     "_id": "1621330978348:companyP/companyP",
     "City": "",
@@ -1965,12 +1960,6 @@
             }
           },
           {
-            "_id": "lcdBsxkACkPCHQ:companyP/companyP",
-            "_settings": {
-              "_id": "WdoYmj-FOBFYri:hestia/document-types"
-            }
-          },
-          {
             "_id": "aDQEUTeZ5XXY8n:companyP/companyP",
             "_settings": {
               "_id": "WdoYmj-FOBFYri:hestia/document-types"
@@ -1978,12 +1967,6 @@
           },
           {
             "_id": "XjjpwWQXoFlddC:companyP/companyP",
-            "_settings": {
-              "_id": "WdoYmj-FOBFYri:hestia/document-types"
-            }
-          },
-          {
-            "_id": "U039vw8bd3vmHh:companyP/companyP",
             "_settings": {
               "_id": "WdoYmj-FOBFYri:hestia/document-types"
             }
@@ -2030,10 +2013,8 @@
       "Agellan Capital Partners Inc",
       "Bimbo Canada (Canada Bread)",
       "Bird Construction (Client)",
-      "Bouygues Energies & Services",
       "Branksome Hall",
-      "Dream Unlimited Corp",
-      "Loblaw Group of Companies"
+      "Dream Unlimited Corp"
     ],
     "country": [
       "US"
@@ -2041,14 +2022,14 @@
     "$created": true,
     "$creator": "64467393-61e5-45fe-a026-45aed6419337",
     "$invalid": false,
-    "_created": 1621461172000,
+    "_created": 1621847790000,
     "_deleted": 0,
     "_version": "Preferred Language",
     "province": [
       "Nunavut",
       "Newfoundland and Labrador"
     ],
-    "_modified": 1624271600000,
+    "_modified": 1624528582000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Assessed"
@@ -2066,7 +2047,7 @@
     "__originalId": "1621330978348:companyP/companyP",
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Approved"
+        "state": "Saved"
       },
       "Qi6ubuhBLjlkcx": {
         "state": "Saved"
@@ -2083,10 +2064,8 @@
       "8-DZ0dQ-ny8sF0:companyP/companyP",
       "Mx20OTel7MWV4d:companyP/companyP",
       "0pVu0Ed45F96oN:companyP/companyP",
-      "lcdBsxkACkPCHQ:companyP/companyP",
       "aDQEUTeZ5XXY8n:companyP/companyP",
-      "XjjpwWQXoFlddC:companyP/companyP",
-      "U039vw8bd3vmHh:companyP/companyP"
+      "XjjpwWQXoFlddC:companyP/companyP"
     ],
     "doYouContract": "yes",
     "classification": "Maintenance",
@@ -2095,15 +2074,15 @@
       "2TPCmBI54Ak_4m:workA/workA",
       "KSoRD4ak6jh6RI:workA/workA"
     ],
-    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-    "_stateChangedAt": 1624275200505,
+    "_lastModifiedBy": "i9RWEy8bDuX0_X",
+    "_stateChangedAt": 1624528581724,
     "headOfficeCountry": "",
     "numberOfEmployees": 155,
     "preferredLanguage": "French",
     "doYouUseContractors": "no"
   },
   {
-    "__": "Md4gWICWvUk6G1",
+    "__": "oP5hqFRVs-HoxN",
     "ZIP": "",
     "_id": "1621430770419:companyP/companyP",
     "City": "",
@@ -2220,10 +2199,10 @@
     "$created": true,
     "$creator": "3e424bc3-fb9a-47a1-93a1-056351146687",
     "$invalid": false,
-    "_created": 1621461173000,
+    "_created": 1621847790000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "_modified": 1624018573000,
+    "_modified": 1624465220000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Assessed"
@@ -4248,7 +4227,7 @@
     "doYouUseContractors": "yes"
   },
   {
-    "__": "BtJ2NHR5kT0KOU",
+    "__": "G560UiDvESH0pu",
     "ZIP": "12345",
     "_id": "aBkovKEgpAlXEm:companyP/companyP",
     "City": "Some city",
@@ -4322,6 +4301,12 @@
     "$valid": true,
     "SHARED": {},
     "client": "@WORK",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624464162712,
+        "documentCreated": 1624464162712
+      }
+    },
     "_client": "@WORK",
     "address": "Random Address",
     "clients": [
@@ -4330,7 +4315,6 @@
       "Agellan Capital Partners Inc",
       "Bimbo Canada (Canada Bread)",
       "Bird Construction (Client)",
-      "Branksome Hall",
       "Cadillac Fairview Corporation Limited"
     ],
     "country": [
@@ -4349,7 +4333,7 @@
     ],
     "__created": 1622797235425,
     "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1623254297000,
+    "_modified": 1624464410000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
@@ -4358,11 +4342,18 @@
     "companyName": "Stacie's Test company 1",
     "companySize": "Small Business",
     "description": "This is a test contractor profile",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      }
+    },
     "contractorId": "",
     "profileState": "",
     "workActivity": [
       "Air Quality",
-      "Architect",
       "Electric Solar Panel Installation",
       "Access Solutions - Roadways, Bridges, Rig Mats"
     ],
@@ -4389,7 +4380,7 @@
     "doYouUseContractors": "no"
   },
   {
-    "__": "kERzlePO5dScFt",
+    "__": "Enl3R3O4HhDX24",
     "ZIP": "9991",
     "_id": "W1XWsHYuCfbJ5l:companyP/companyP",
     "City": "Dave City",
@@ -4414,6 +4405,12 @@
     "$valid": true,
     "SHARED": {},
     "client": "@WORK",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624464980541,
+        "documentCreated": 1624464980541
+      }
+    },
     "_client": "@WORK",
     "address": "Daves Inc",
     "clients": [
@@ -4431,7 +4428,7 @@
     "province": [],
     "__created": 1623238053833,
     "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1623422615000,
+    "_modified": 1624368277000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
@@ -4440,6 +4437,14 @@
     "companyName": "Daves Exciting Company",
     "companySize": "Small Business",
     "description": "We only employ and work for Daves",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      }
+    },
     "contractorId": "W1XWsHYuCfbJ5l",
     "profileState": "",
     "workActivity": [
@@ -4453,7 +4458,7 @@
     "workActivities": [
       "EeddgbcJWOZjtW:workA/workA"
     ],
-    "_lastModifiedBy": "MM1d7jBt72HCb8",
+    "_lastModifiedBy": "i9RWEy8bDuX0_X",
     "_stateChangedAt": 1623238055233,
     "headOfficeCountry": "ACountry",
     "numberOfEmployees": 18,
@@ -4461,7 +4466,7 @@
     "doYouUseContractors": "yes"
   },
   {
-    "__": "TFkzcBk4DhBgq5",
+    "__": "BLpoRu2oXm7PC2",
     "ZIP": "CF15 7TW",
     "_id": "tsC8Zuo9YfUzzv:companyP/companyP",
     "City": "Cardiff",
@@ -4505,6 +4510,12 @@
     "$valid": true,
     "SHARED": {},
     "client": "@WORK",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624464149749,
+        "documentCreated": 1624464149749
+      }
+    },
     "_client": "@WORK",
     "address": "Axys House, Parc Nantgarw",
     "clients": [
@@ -4533,7 +4544,7 @@
     ],
     "__created": 1623316758833,
     "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1623412462000,
+    "_modified": 1624368277000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
@@ -4542,6 +4553,14 @@
     "companyName": "Tetris Construction",
     "companySize": "Small Business",
     "description": "Building walls brick by brick",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      }
+    },
     "contractorId": "",
     "profileState": "",
     "workActivity": [
@@ -4565,7 +4584,7 @@
     "doYouUseContractors": "yes"
   },
   {
-    "__": "ctP7TX6FqSEfSv",
+    "__": "qb1BAOsw-ggkYX",
     "ZIP": "CF83 4PO",
     "_id": "2BI85wCDHzoVaR:companyP/companyP",
     "City": "",
@@ -4669,6 +4688,12 @@
     "$valid": true,
     "SHARED": {},
     "client": "@WORK",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624464478876,
+        "documentCreated": 1624464478876
+      }
+    },
     "_client": "@WORK",
     "address": "Test Address",
     "clients": [
@@ -4699,7 +4724,7 @@
     ],
     "__created": 1623664376942,
     "__version": "zk0gwNadHUfzTE",
-    "_modified": 1623665339000,
+    "_modified": 1624368277000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
@@ -4708,11 +4733,18 @@
     "companyName": "Michele Contractor 1",
     "companySize": "Small Business",
     "description": "<p>This is a brand new contractor account created via ThingBuilder</p>\n",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      }
+    },
     "contractorId": "",
     "profileState": "",
     "workActivity": [
       "Ability to Subcontract",
-      null,
       "Air Quality"
     ],
     "clientsLookup": [
@@ -4734,7 +4766,7 @@
       "qmaPwMF5Kg3KTd:workA/workA",
       "p3aGtGgud-4ZbI:workA/workA"
     ],
-    "_lastModifiedBy": "497d0048-061c-4d0d-a3c0-6601534d2bf2",
+    "_lastModifiedBy": "i9RWEy8bDuX0_X",
     "_stateChangedAt": 1623664377681,
     "headOfficeCountry": "",
     "numberOfEmployees": "120",
@@ -4742,7 +4774,7 @@
     "doYouUseContractors": "no"
   },
   {
-    "__": "PV5SmqF7xtswW5",
+    "__": "6puZ4nVtKY2f-j",
     "ZIP": "CF15 7TW",
     "_id": "tYPDHGLeuwtHS3:companyP/companyP",
     "City": "Cardiff",
@@ -4786,6 +4818,12 @@
     "$valid": true,
     "SHARED": {},
     "client": "@WORK",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624464104992,
+        "documentCreated": 1624464104992
+      }
+    },
     "_client": "@WORK",
     "address": "Axys House, Parc Nantgarw",
     "clients": [
@@ -4806,7 +4844,7 @@
     ],
     "__created": 1623665588348,
     "__version": "zk0gwNadHUfzTE",
-    "_modified": 1623676283000,
+    "_modified": 1624464105000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
@@ -4815,6 +4853,14 @@
     "companyName": "CCP-38 Test Company",
     "companySize": "Small Business",
     "description": "",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      }
+    },
     "contractorId": "",
     "profileState": "",
     "workActivity": [
@@ -4832,7 +4878,7 @@
       "2TPCmBI54Ak_4m:workA/workA",
       "FnfnIcKgfYV2SP:workA/workA"
     ],
-    "_lastModifiedBy": "i9RWEy8bDuX0_X",
+    "_lastModifiedBy": "8fa3969a-8f88-46fd-b3bf-6dcb7df5f2b9",
     "_stateChangedAt": 1623665590714,
     "headOfficeCountry": "UK",
     "numberOfEmployees": "12",
@@ -4840,7 +4886,7 @@
     "doYouUseContractors": "yes"
   },
   {
-    "__": "N_rWrWudBauyP0",
+    "__": "GLWmT2SYGCzTXx",
     "ZIP": "CF15 7TW",
     "_id": "rUsHgv7c5s4oQ4:companyP/companyP",
     "City": "Cardiff",
@@ -4890,6 +4936,12 @@
     "$valid": true,
     "SHARED": {},
     "client": "@WORK",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624464893281,
+        "documentCreated": 1624464893281
+      }
+    },
     "_client": "@WORK",
     "address": "Axys House, Parc Nantgarw",
     "clients": [
@@ -4908,7 +4960,7 @@
     "province": [],
     "__created": 1623678826494,
     "__version": "zk0gwNadHUfzTE",
-    "_modified": 1623683029000,
+    "_modified": 1624368277000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
@@ -4917,6 +4969,14 @@
     "companyName": "CCP-38 Test Company 2",
     "companySize": "Large Business",
     "description": "<p></p>\n",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      }
+    },
     "contractorId": "",
     "profileState": "",
     "workActivity": [
@@ -4943,7 +5003,7 @@
     "doYouUseContractors": "yes"
   },
   {
-    "__": "e5AKUwen2mPzuD",
+    "__": "KjzYqedk3I4VC1",
     "ZIP": "CF15 7TW",
     "_id": "hpBrYHsA3cqCkh:companyP/companyP",
     "City": "Cardiff",
@@ -4999,6 +5059,12 @@
     "$valid": true,
     "SHARED": {},
     "client": "@WORK",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624464136348,
+        "documentCreated": 1624464136348
+      }
+    },
     "_client": "@WORK",
     "address": "Axys House, Parc Nantgarw",
     "clients": [
@@ -5021,7 +5087,7 @@
     ],
     "__created": 1623683745292,
     "__version": "zk0gwNadHUfzTE",
-    "_modified": 1623683747000,
+    "_modified": 1624368277000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
@@ -5030,6 +5096,14 @@
     "companyName": "CCP-86 Testing Company 1",
     "companySize": "Small Business",
     "description": "",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      }
+    },
     "contractorId": "",
     "profileState": "",
     "workActivity": [
@@ -5049,7 +5123,7 @@
       "3GD6j7cH-8C_Xv:workA/workA",
       "oK0e9hmJBqKl-J:workA/workA"
     ],
-    "_lastModifiedBy": "8fa3969a-8f88-46fd-b3bf-6dcb7df5f2b9",
+    "_lastModifiedBy": "i9RWEy8bDuX0_X",
     "_stateChangedAt": 1623683747688,
     "headOfficeCountry": "United Kingdom",
     "numberOfEmployees": "12",
@@ -5057,7 +5131,7 @@
     "doYouUseContractors": "yes"
   },
   {
-    "__": "JZ-y-OmZ0G65_f",
+    "__": "-cvlKY8jYyCScM",
     "ZIP": "CF15 7TW",
     "_id": "X7ZGTnWx9Wq7I0:companyP/companyP",
     "City": "Cardiff",
@@ -5115,6 +5189,12 @@
     "$valid": true,
     "SHARED": {},
     "client": "@WORK",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624464933908,
+        "documentCreated": 1624464933908
+      }
+    },
     "_client": "@WORK",
     "address": "Axys House, Parc Nantgarw",
     "clients": [],
@@ -5130,7 +5210,7 @@
     "province": [],
     "__created": 1623683897741,
     "__version": "zk0gwNadHUfzTE",
-    "_modified": 1623683900000,
+    "_modified": 1624368277000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
@@ -5139,6 +5219,14 @@
     "companyName": "CCP-86 Testing Company 2",
     "companySize": "Small Business",
     "description": "",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      }
+    },
     "contractorId": "",
     "profileState": "",
     "workActivity": [
@@ -5162,7 +5250,7 @@
       "0SL-HHTURQQEZf:workA/workA",
       "1zgco_vwvH6Uat:workA/workA"
     ],
-    "_lastModifiedBy": "8fa3969a-8f88-46fd-b3bf-6dcb7df5f2b9",
+    "_lastModifiedBy": "i9RWEy8bDuX0_X",
     "_stateChangedAt": 1623683900160,
     "headOfficeCountry": "United Kingdom",
     "numberOfEmployees": "123",
@@ -5170,7 +5258,7 @@
     "doYouUseContractors": "yes"
   },
   {
-    "__": "jCmVyyx6YDPzWD",
+    "__": "0OTBggrnf_CqMm",
     "ZIP": "CF15 7TW",
     "_id": "bsvshl8HWeVjXQ:companyP/companyP",
     "City": "Cardiff",
@@ -5220,6 +5308,12 @@
     "$valid": true,
     "SHARED": {},
     "client": "@WORK",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624528846920,
+        "documentCreated": 1624528846920
+      }
+    },
     "_client": "@WORK",
     "address": "Axys House, Parc Nantgarw",
     "clients": [
@@ -5243,7 +5337,7 @@
     ],
     "__created": 1623683980119,
     "__version": "zk0gwNadHUfzTE",
-    "_modified": 1623683982000,
+    "_modified": 1624368278000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
@@ -5252,6 +5346,14 @@
     "companyName": "CCP-86 Testing Company 3",
     "companySize": "Small Business",
     "description": "",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      }
+    },
     "contractorId": "",
     "profileState": "",
     "workActivity": [
@@ -5270,7 +5372,7 @@
       "9CM430kfGREfro:workA/workA",
       "4h74iObh9m1SOV:workA/workA"
     ],
-    "_lastModifiedBy": "8fa3969a-8f88-46fd-b3bf-6dcb7df5f2b9",
+    "_lastModifiedBy": "i9RWEy8bDuX0_X",
     "_stateChangedAt": 1623683982642,
     "headOfficeCountry": "United Kingdom",
     "numberOfEmployees": "33",
@@ -5278,7 +5380,7 @@
     "doYouUseContractors": "yes"
   },
   {
-    "__": "o_49hLVd4vBIJX",
+    "__": "dt7V2gzvtwxfjX",
     "ZIP": "CF15 7TW",
     "_id": "5FrGCa9xllGf6d:companyP/companyP",
     "City": "Cardiff",
@@ -5286,13 +5388,7 @@
       "clientsLookup": {
         "rows": [
           {
-            "_id": "XljQUk5fW3y45k:companyP/companyP",
-            "_settings": {
-              "_id": "WdoYmj-FOBFYri:hestia/document-types"
-            }
-          },
-          {
-            "_id": "lMjmgtYXDIRiVY:companyP/companyP",
+            "_id": "Mx20OTel7MWV4d:companyP/companyP",
             "_settings": {
               "_id": "WdoYmj-FOBFYri:hestia/document-types"
             }
@@ -5302,13 +5398,7 @@
       "workActivities": {
         "rows": [
           {
-            "_id": "Z15Br9Y92bUpIJ:workA/workA",
-            "_settings": {
-              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
-            }
-          },
-          {
-            "_id": "Xilj9wmF0IxuuS:workA/workA",
+            "_id": "qmaPwMF5Kg3KTd:workA/workA",
             "_settings": {
               "_id": "rH6EL6EJjx3vGG:hestia/document-types"
             }
@@ -5322,11 +5412,16 @@
     "$valid": true,
     "SHARED": {},
     "client": "@WORK",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624528852721,
+        "documentCreated": 1624528852721
+      }
+    },
     "_client": "@WORK",
     "address": "Axy House, Parc Nantgarw",
     "clients": [
-      "Triovest Realty Advisors Inc.",
-      "Trinity College School"
+      "Bimbo Canada (Canada Bread)"
     ],
     "country": [
       "Canada"
@@ -5344,7 +5439,7 @@
     ],
     "__created": 1623684228631,
     "__version": "zk0gwNadHUfzTE",
-    "_modified": 1623684231000,
+    "_modified": 1624538109000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
@@ -5352,24 +5447,29 @@
     "_components": {},
     "companyName": "CCP-86 Testing Company 4",
     "companySize": "Small Business",
-    "description": "<p></p>\n",
+    "description": "<p>The worlds 4th best CCP-86 Testing Company</p>\n",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      }
+    },
     "contractorId": "",
     "profileState": "",
     "workActivity": [
-      "Fireworks Displays",
-      "Gas Fitter"
+      "Ability to Subcontract"
     ],
     "clientsLookup": [
-      "XljQUk5fW3y45k:companyP/companyP",
-      "lMjmgtYXDIRiVY:companyP/companyP"
+      "Mx20OTel7MWV4d:companyP/companyP"
     ],
     "doYouContract": "yes",
     "classification": "",
     "workActivities": [
-      "Z15Br9Y92bUpIJ:workA/workA",
-      "Xilj9wmF0IxuuS:workA/workA"
+      "qmaPwMF5Kg3KTd:workA/workA"
     ],
-    "_lastModifiedBy": "8fa3969a-8f88-46fd-b3bf-6dcb7df5f2b9",
+    "_lastModifiedBy": "i9RWEy8bDuX0_X",
     "_stateChangedAt": 1623684231075,
     "headOfficeCountry": "United Kingdom",
     "numberOfEmployees": "33",
@@ -5377,7 +5477,7 @@
     "doYouUseContractors": "yes"
   },
   {
-    "__": "C1CKnmIugYYhDZ",
+    "__": "YDuBTmOeu308zN",
     "ZIP": "CF17 8TT",
     "_id": "i-IZSecsFfWa_Y:companyP/companyP",
     "City": "City Line 1",
@@ -5433,6 +5533,12 @@
     "$valid": true,
     "SHARED": {},
     "client": "@WORK",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624464462079,
+        "documentCreated": 1624464462079
+      }
+    },
     "_client": "@WORK",
     "address": "Address Line 1q",
     "clients": [
@@ -5456,7 +5562,7 @@
     ],
     "__created": 1623763982364,
     "__version": "zk0gwNadHUfzTE",
-    "_modified": 1623763984000,
+    "_modified": 1624368278000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
@@ -5465,6 +5571,14 @@
     "companyName": "Michele Contractor 2",
     "companySize": "Small Business",
     "description": "",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      }
+    },
     "contractorId": "",
     "profileState": "",
     "workActivity": [
@@ -5485,7 +5599,7 @@
       "wYPXkjPTQCkZjo:workA/workA",
       "ltqdoaaON9dNqC:workA/workA"
     ],
-    "_lastModifiedBy": "497d0048-061c-4d0d-a3c0-6601534d2bf2",
+    "_lastModifiedBy": "i9RWEy8bDuX0_X",
     "_stateChangedAt": 1623763983989,
     "headOfficeCountry": "UK",
     "numberOfEmployees": "230",
@@ -5493,7 +5607,7 @@
     "doYouUseContractors": "no"
   },
   {
-    "__": "KBdsuQ_JOnoEru",
+    "__": "oG7L8oVACIr2uU",
     "ZIP": "CF10 8RE",
     "_id": "CiAIn33pxSOG91:companyP/companyP",
     "City": "Cardiff",
@@ -5543,6 +5657,12 @@
     "$valid": true,
     "SHARED": {},
     "client": "@WORK",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624464452085,
+        "documentCreated": 1624464452085
+      }
+    },
     "_client": "@WORK",
     "address": "Test Address Line 1\nTest Address Line 2",
     "clients": [
@@ -5564,7 +5684,7 @@
     ],
     "__created": 1623845222186,
     "__version": "zk0gwNadHUfzTE",
-    "_modified": 1623845224000,
+    "_modified": 1624368278000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
@@ -5573,6 +5693,14 @@
     "companyName": "Michele Contractor 3",
     "companySize": "Small Business",
     "description": "",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      }
+    },
     "contractorId": "",
     "profileState": "",
     "workActivity": [
@@ -5591,7 +5719,7 @@
       "_JhGpJr3pEngpy:workA/workA",
       "ic0ic66CJjkDC0:workA/workA"
     ],
-    "_lastModifiedBy": "497d0048-061c-4d0d-a3c0-6601534d2bf2",
+    "_lastModifiedBy": "i9RWEy8bDuX0_X",
     "_stateChangedAt": 1623845224284,
     "headOfficeCountry": "UK",
     "numberOfEmployees": "300",
@@ -5599,7 +5727,7 @@
     "doYouUseContractors": "no"
   },
   {
-    "__": "tD1BE5WHOjOeCr",
+    "__": "J8-VSEootmXHNc",
     "ZIP": "CF87 6RR",
     "_id": "m9gIIux0u9ek4C:companyP/companyP",
     "City": "Cardiff",
@@ -5637,6 +5765,12 @@
     "$valid": true,
     "SHARED": {},
     "client": "@WORK",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624464445282,
+        "documentCreated": 1624464445282
+      }
+    },
     "_client": "@WORK",
     "address": "Address Line 1\nAddress Line 2",
     "clients": [
@@ -5660,7 +5794,7 @@
     ],
     "__created": 1624008807810,
     "__version": "zk0gwNadHUfzTE",
-    "_modified": 1624023668000,
+    "_modified": 1624368278000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
@@ -5669,6 +5803,14 @@
     "companyName": "Michele Contractor 4 CCP-90",
     "companySize": "Large Business",
     "description": "Enter something here",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      }
+    },
     "contractorId": "",
     "profileState": "",
     "workActivity": [
@@ -5683,7 +5825,7 @@
     "workActivities": [
       "qmaPwMF5Kg3KTd:workA/workA"
     ],
-    "_lastModifiedBy": "497d0048-061c-4d0d-a3c0-6601534d2bf2",
+    "_lastModifiedBy": "i9RWEy8bDuX0_X",
     "_stateChangedAt": 1624008808528,
     "headOfficeCountry": "UK",
     "numberOfEmployees": "500",
@@ -5791,7 +5933,7 @@
     "doYouUseContractors": []
   },
   {
-    "__": "vw0GqQaFHDVYCB",
+    "__": "iQQ2JDfWXSexOf",
     "ZIP": "CF15 7TW",
     "_id": "_BHxF1SGiJYhfZ:companyP/companyP",
     "City": "Cardiff",
@@ -5823,6 +5965,12 @@
     "$valid": true,
     "SHARED": {},
     "client": "rsihYJKKDVyaYN",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624467546251,
+        "documentCreated": 1624467546251
+      }
+    },
     "_client": "rsihYJKKDVyaYN",
     "address": "Axys House, Parc Nantgarw",
     "clients": [
@@ -5834,7 +5982,7 @@
     "$created": true,
     "$creator": "64467393-61e5-45fe-a026-45aed6419337",
     "$invalid": false,
-    "_created": 1623422044000,
+    "_created": 1624376489000,
     "_deleted": 0,
     "_version": "Preferred Language",
     "province": [
@@ -5842,7 +5990,7 @@
     ],
     "__created": 1623422043859,
     "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1623422044000,
+    "_modified": 1624376489000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
@@ -5851,6 +5999,14 @@
     "companyName": "Gez Test 100",
     "companySize": "Small Business",
     "description": "",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      }
+    },
     "contractorId": "",
     "profileState": "",
     "workActivity": [
@@ -5864,7 +6020,7 @@
     "workActivities": [
       "qmaPwMF5Kg3KTd:workA/workA"
     ],
-    "_lastModifiedBy": "64467393-61e5-45fe-a026-45aed6419337",
+    "_lastModifiedBy": "i9RWEy8bDuX0_X",
     "_stateChangedAt": 1623422045035,
     "headOfficeCountry": "United Kingdom",
     "numberOfEmployees": "11",
@@ -5967,5 +6123,239 @@
     "numberOfEmployees": "22",
     "preferredLanguage": "English",
     "doYouUseContractors": "yes"
+  },
+  {
+    "__": "YQrDkliP1HbcNh",
+    "ZIP": "CF123CF",
+    "_id": "iFK35X64TB-Uz5:companyP/companyP",
+    "City": "Cardiff",
+    "_info": {
+      "clientsLookup": {
+        "rows": [
+          {
+            "_id": "8-DZ0dQ-ny8sF0:companyP/companyP",
+            "_settings": {
+              "_id": "WdoYmj-FOBFYri:hestia/document-types"
+            }
+          },
+          {
+            "_id": "XjjpwWQXoFlddC:companyP/companyP",
+            "_settings": {
+              "_id": "WdoYmj-FOBFYri:hestia/document-types"
+            }
+          },
+          {
+            "_id": "VkI2juqAmzA6n0:companyP/companyP",
+            "_settings": {
+              "_id": "WdoYmj-FOBFYri:hestia/document-types"
+            }
+          },
+          {
+            "_id": "aNnsZjYxexfOY0:companyP/companyP",
+            "_settings": {
+              "_id": "WdoYmj-FOBFYri:hestia/document-types"
+            }
+          }
+        ]
+      },
+      "workActivities": {
+        "rows": [
+          {
+            "_id": "qmaPwMF5Kg3KTd:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          },
+          {
+            "_id": "JgpbhOLqdNDhgP:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          },
+          {
+            "_id": "Y9eam4wtWr9ci3:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          }
+        ]
+      }
+    },
+    "email": "sjtest2@test.com",
+    "phone": "01230123012",
+    "$modes": {},
+    "$valid": true,
+    "SHARED": {},
+    "client": "rsihYJKKDVyaYN",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624463137470,
+        "documentCreated": 1624463137470
+      }
+    },
+    "_client": "rsihYJKKDVyaYN",
+    "address": "123, random street",
+    "clients": [
+      "Agellan Capital Partners Inc",
+      "Dream Unlimited Corp",
+      "Oxford Properties Group (Client)",
+      "Crown Property Management Inc."
+    ],
+    "country": [
+      "US"
+    ],
+    "$created": true,
+    "$creator": "19b570a7-aba6-4fe4-b219-236085741235",
+    "$invalid": false,
+    "_created": 1624463137000,
+    "_deleted": 0,
+    "_version": "1.1",
+    "province": [],
+    "__created": 1624463135867,
+    "__version": "oCVAYtF03bvSfQ",
+    "_modified": 1624464433000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Saved"
+    },
+    "_components": {},
+    "companyName": "SJ Test Company 2",
+    "companySize": "Small Business",
+    "description": "<p></p>\n",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      }
+    },
+    "contractorId": "",
+    "profileState": "",
+    "workActivity": [
+      "Ability to Subcontract",
+      "Access Solutions - Roadways, Bridges, Rig Mats",
+      "Air Conditioning"
+    ],
+    "clientsLookup": [
+      "8-DZ0dQ-ny8sF0:companyP/companyP",
+      "XjjpwWQXoFlddC:companyP/companyP",
+      "VkI2juqAmzA6n0:companyP/companyP",
+      "aNnsZjYxexfOY0:companyP/companyP"
+    ],
+    "doYouContract": "yes",
+    "classification": "",
+    "workActivities": [
+      "qmaPwMF5Kg3KTd:workA/workA",
+      "JgpbhOLqdNDhgP:workA/workA",
+      "Y9eam4wtWr9ci3:workA/workA"
+    ],
+    "_lastModifiedBy": "19b570a7-aba6-4fe4-b219-236085741235",
+    "_stateChangedAt": 1624463137469,
+    "headOfficeCountry": "Wales",
+    "numberOfEmployees": "20",
+    "preferredLanguage": "English",
+    "doYouUseContractors": "no"
+  },
+  {
+    "__": "ggNF10Mf1JN112",
+    "ZIP": "",
+    "_id": "7dKyF8XqJcVBcu:companyP/companyP",
+    "City": "",
+    "_info": {
+      "clientsLookup": {
+        "rows": [
+          {
+            "_id": "ws5k0bhwqHwiqV:companyP/companyP",
+            "_settings": {
+              "_id": "WdoYmj-FOBFYri:hestia/document-types"
+            }
+          }
+        ]
+      },
+      "workActivities": {
+        "rows": [
+          {
+            "_id": "qmaPwMF5Kg3KTd:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          },
+          {
+            "_id": "JgpbhOLqdNDhgP:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          }
+        ]
+      }
+    },
+    "email": "michele.davies@alcumusgroup.com",
+    "phone": "01234567890",
+    "$modes": {},
+    "$valid": true,
+    "SHARED": {},
+    "client": "rsihYJKKDVyaYN",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624523246353,
+        "documentCreated": 1624523246353
+      }
+    },
+    "_client": "rsihYJKKDVyaYN",
+    "address": "",
+    "clients": [
+      "Give and Go Prepared Foods Corp"
+    ],
+    "country": [
+      "US"
+    ],
+    "$created": true,
+    "$creator": "497d0048-061c-4d0d-a3c0-6601534d2bf2",
+    "$invalid": false,
+    "_created": 1624523246000,
+    "_deleted": 0,
+    "_version": "1.1",
+    "province": [],
+    "__created": 1624523245207,
+    "__version": "oCVAYtF03bvSfQ",
+    "_modified": 1624523246000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Saved"
+    },
+    "_components": {},
+    "companyName": "Michele Contractor 5",
+    "companySize": "Small Business",
+    "description": "",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      }
+    },
+    "contractorId": "",
+    "profileState": "",
+    "workActivity": [
+      "Ability to Subcontract",
+      "Access Solutions - Roadways, Bridges, Rig Mats"
+    ],
+    "clientsLookup": [
+      "ws5k0bhwqHwiqV:companyP/companyP"
+    ],
+    "doYouContract": "yes",
+    "classification": "",
+    "workActivities": [
+      "qmaPwMF5Kg3KTd:workA/workA",
+      "JgpbhOLqdNDhgP:workA/workA"
+    ],
+    "_lastModifiedBy": "497d0048-061c-4d0d-a3c0-6601534d2bf2",
+    "_stateChangedAt": 1624523246352,
+    "headOfficeCountry": "",
+    "numberOfEmployees": "123",
+    "preferredLanguage": "English",
+    "doYouUseContractors": "no"
   }
 ]
