@@ -1,6 +1,6 @@
 [
   {
-    "__": "iwjPwGWAezd4M7",
+    "__": "W5QSdMZAm29u6S",
     "_id": "GaC12kvdmhTkfG-G7u2_EFeeU8XPX:hestia/versions",
     "__id": "GaC12kvdmhTkfG:hestia/document-types",
     "icon": "",
@@ -190,7 +190,7 @@
     "_deleted": 0,
     "database": "salesforce",
     "maxWidth": 1000,
-    "_modified": 1624521496000,
+    "_modified": 1624521519000,
     "components": "",
     "navigation": [],
     "_behaviours": {
@@ -209,7 +209,7 @@
                 "questions": [
                   {
                     "id": "k3EoOx7smCO2Aa",
-                    "name": "Name",
+                    "name": "name",
                     "type": "text",
                     "hints": {},
                     "maxWidth": "",
@@ -219,13 +219,15 @@
                     "inputLabel": "",
                     "defaultValue": "",
                     "questionHeight": "",
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": ""
                   },
                   {
                     "id": "nN2j8iCptm81wH",
-                    "name": "Id",
+                    "name": "sfid",
                     "type": "text",
                     "hints": {},
                     "maxWidth": "",
@@ -235,8 +237,10 @@
                     "inputLabel": "",
                     "defaultValue": "",
                     "questionHeight": "",
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": ""
                   }
                 ],
@@ -263,15 +267,13 @@
               {
                 "id": "sUCxXCBZpEilo7",
                 "field": "name",
-                "value": [
-                  "{Name}"
-                ],
+                "value": "{name}",
                 "defaultValue": ""
               },
               {
                 "id": "onYydgshYpjLkl",
                 "field": "sfid",
-                "value": "{Id}",
+                "value": "{sfid}",
                 "defaultValue": ""
               }
             ],
@@ -280,7 +282,7 @@
             "updateClient": "",
             "recordChanges": "",
             "targetTypeName": "SalesForceAccounts",
-            "updateRecordId": "{Id}:salesforce/accounts",
+            "updateRecordId": "{sfid}:salesforce/accounts",
             "createMergeRecord": false,
             "uniqueMergeRecords": false,
             "updateTargetDocumentState": ""
