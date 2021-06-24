@@ -1,5 +1,5 @@
 {
-  "__": "BWgvRBwLqpW4Hf",
+  "__": "6CVuqaYnKdvoRw",
   "_id": "c3Vsou_iiAj3_m:hestia/document-types",
   "icon": "",
   "name": "SalesforceImport",
@@ -180,7 +180,9 @@
   "demands": [],
   "graphQL": {
     "aZ5t8g0t4u8p6D": {
-      "exposeAPI": ""
+      "read": "",
+      "write": "",
+      "exposeAPI": false
     }
   },
   "$invalid": false,
@@ -192,14 +194,14 @@
     {
       "id": "aR0fAcL1sQGZXb",
       "name": "SalesforceImport",
-      "time": 1624566836237,
+      "time": 1624566876025,
       "user": "087af269-7b85-44fc-be62-94b7b6613ad8",
       "locked": false,
-      "_selectId": "DvQzamNu5b2OIX",
+      "_selectId": "T0AntLYgUmO1wg",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624566836000,
+  "_modified": 1624566876000,
   "components": "",
   "navigation": [],
   "_behaviours": {

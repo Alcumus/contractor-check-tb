@@ -1,6 +1,6 @@
 [
   {
-    "__": "NAWe0kfaNwAJ54",
+    "__": "g_4n72qCRto7Ew",
     "_id": "c3Vsou_iiAj3_m-aR0fAcL1sQGZXb:hestia/versions",
     "__id": "c3Vsou_iiAj3_m:hestia/document-types",
     "icon": "",
@@ -182,7 +182,9 @@
     "demands": [],
     "graphQL": {
       "aZ5t8g0t4u8p6D": {
-        "exposeAPI": ""
+        "read": "",
+        "write": "",
+        "exposeAPI": false
       }
     },
     "$invalid": false,
