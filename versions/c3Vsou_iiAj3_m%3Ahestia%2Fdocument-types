@@ -1,6 +1,6 @@
 [
   {
-    "__": "r9izFzb1HedGWI",
+    "__": "542dVjH4C42j96",
     "_id": "c3Vsou_iiAj3_m-aR0fAcL1sQGZXb:hestia/versions",
     "__id": "c3Vsou_iiAj3_m:hestia/document-types",
     "icon": "",
@@ -190,7 +190,7 @@
     "_deleted": 0,
     "database": "salesforceContractorImport",
     "maxWidth": 1000,
-    "_modified": 1624443857000,
+    "_modified": 1624565500000,
     "components": "",
     "navigation": [],
     "_behaviours": {
@@ -239,9 +239,9 @@
                     "questionSpaceBefore": ""
                   },
                   {
-                    "id": "GqgdRB7DsuiSuP",
-                    "name": "doYouContractOthers",
-                    "type": "boolean",
+                    "id": "CYgykPRQS10KTQ",
+                    "name": "doYouContract",
+                    "type": "choice",
                     "hints": {},
                     "choices": [
                       {
@@ -254,18 +254,34 @@
                       }
                     ],
                     "question": "",
-                    "_selectId": "SgOaAX0cQB7_FN",
+                    "_selectId": "Wbk9If9aPCHgqS",
                     "condition": "",
-                    "allowNullify": "",
+                    "inputLabel": "",
+                    "choiceOptions": {
+                      "No": {
+                        "icon": "",
+                        "colour": ""
+                      },
+                      "no": {
+                        "icon": "",
+                        "colour": ""
+                      },
+                      "Yes": {
+                        "icon": "",
+                        "colour": ""
+                      },
+                      "yes": {
+                        "icon": "",
+                        "colour": ""
+                      }
+                    },
+                    "defaultChoices": [
+                      "yes"
+                    ],
                     "questionHeight": "",
-                    "trueInputLabel": "",
-                    "clearIfDisabled": "",
-                    "falseInputLabel": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
-                    "editableCondition": "",
-                    "questionSpaceBefore": "",
-                    "selectedDefaultValue": "1"
+                    "questionSpaceBefore": ""
                   }
                 ]
               }
@@ -298,7 +314,7 @@
               {
                 "id": "AQiQmK1FF4pEha",
                 "field": "doYouUseContractors",
-                "value": "{doYouContractOthers}",
+                "value": "{doYouContract}",
                 "defaultValue": ""
               }
             ],

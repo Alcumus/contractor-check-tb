@@ -1,5 +1,5 @@
 {
-  "__": "cf472dbLVIS7X7",
+  "__": "aZzlnOelTenNoq",
   "_id": "c3Vsou_iiAj3_m:hestia/document-types",
   "icon": "",
   "name": "SalesforceImport",
@@ -192,14 +192,14 @@
     {
       "id": "aR0fAcL1sQGZXb",
       "name": "SalesforceImport",
-      "time": 1624565500020,
+      "time": 1624565682708,
       "user": "087af269-7b85-44fc-be62-94b7b6613ad8",
       "locked": false,
-      "_selectId": "qeoLHXenvswGJJ",
+      "_selectId": "WCbJXg1Zt2c76_",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624565500000,
+  "_modified": 1624565683000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -248,9 +248,9 @@
                   "questionSpaceBefore": ""
                 },
                 {
-                  "id": "GqgdRB7DsuiSuP",
-                  "name": "doYouContractOthers",
-                  "type": "boolean",
+                  "id": "CYgykPRQS10KTQ",
+                  "name": "doYouContract",
+                  "type": "choice",
                   "hints": {},
                   "choices": [
                     {
@@ -263,18 +263,34 @@
                     }
                   ],
                   "question": "",
-                  "_selectId": "SgOaAX0cQB7_FN",
+                  "_selectId": "Wbk9If9aPCHgqS",
                   "condition": "",
-                  "allowNullify": "",
+                  "inputLabel": "",
+                  "choiceOptions": {
+                    "No": {
+                      "icon": "",
+                      "colour": ""
+                    },
+                    "no": {
+                      "icon": "",
+                      "colour": ""
+                    },
+                    "Yes": {
+                      "icon": "",
+                      "colour": ""
+                    },
+                    "yes": {
+                      "icon": "",
+                      "colour": ""
+                    }
+                  },
+                  "defaultChoices": [
+                    "yes"
+                  ],
                   "questionHeight": "",
-                  "trueInputLabel": "",
-                  "clearIfDisabled": "",
-                  "falseInputLabel": "",
                   "questionLeftPad": "",
                   "questionRightPad": "",
-                  "editableCondition": "",
-                  "questionSpaceBefore": "",
-                  "selectedDefaultValue": "1"
+                  "questionSpaceBefore": ""
                 }
               ]
             }
@@ -307,7 +323,7 @@
             {
               "id": "AQiQmK1FF4pEha",
               "field": "doYouUseContractors",
-              "value": "{doYouContractOthers}",
+              "value": "{doYouContract}",
               "defaultValue": ""
             }
           ],
