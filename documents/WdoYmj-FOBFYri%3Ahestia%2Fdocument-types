@@ -1,5 +1,5 @@
 {
-  "__": "EuLxPFUqRvV6y0",
+  "__": "9k-0IVRst1-Zqw",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -228,14 +228,14 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1624498427103,
+      "time": 1624533650646,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "5KsDkruPfy7w-H",
+      "_selectId": "Aevqj4VZ5k2kic",
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1624494827000,
+  "_modified": 1624530051000,
   "components": "navigation",
   "isLockedBy": null,
   "navigation": [],
@@ -570,7 +570,7 @@
                   "name": "doYouContract",
                   "type": "choice",
                   "hints": {
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -603,9 +603,11 @@
                   "defaultChoices": [],
                   "preventNullify": "",
                   "questionHeight": "",
+                  "clearIfDisabled": "",
                   "questionLeftPad": "",
                   "questionRightPad": "",
                   "buttonWidthSuffix": "px",
+                  "editableCondition": "",
                   "selectedTextColor": "#fff",
                   "borderRadiusSuffix": "%",
                   "buttonHeightSuffix": "px",
