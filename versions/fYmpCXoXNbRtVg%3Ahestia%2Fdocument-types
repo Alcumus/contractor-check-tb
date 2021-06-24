@@ -1,6 +1,6 @@
 [
   {
-    "__": "PbV0mFwQlfDh7K",
+    "__": "yTQVWviixuU8aa",
     "_id": "fYmpCXoXNbRtVg-D57acZ-uIHF-Tx:hestia/versions",
     "__id": "fYmpCXoXNbRtVg:hestia/document-types",
     "__ok": true,
@@ -199,7 +199,7 @@
     "_deleted": 0,
     "database": "contractorcheck",
     "maxWidth": 1000,
-    "_modified": 1624019682000,
+    "_modified": 1624495972000,
     "components": "verification,helptext,navigation,formprogress",
     "isLockedBy": null,
     "navigation": [],
@@ -1014,7 +1014,7 @@
                   "enabled": false
                 },
                 "goBack": "",
-                "caption": "Save",
+                "caption": "Save Draft",
                 "command": "setData",
                 "toState": "New",
                 "variant": "text",
