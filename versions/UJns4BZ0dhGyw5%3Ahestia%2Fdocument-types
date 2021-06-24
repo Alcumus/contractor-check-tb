@@ -1,6 +1,6 @@
 [
   {
-    "__": "nvHtXvPMwslVVr",
+    "__": "mFVyQCo_endaqV",
     "_id": "UJns4BZ0dhGyw5-8eXUnVjk2o1gFo:hestia/versions",
     "__id": "UJns4BZ0dhGyw5:hestia/document-types",
     "icon": "",
@@ -174,8 +174,16 @@
         "publishDocs": true,
         "gitHubPublish": true
       },
+      "1rr4bM4EH-AQP9": {
+        "publishDocs": "",
+        "gitHubPublish": true
+      },
       "aV8boSk1D6q6YG": {
         "publishDocs": true,
+        "gitHubPublish": true
+      },
+      "zHYkrrsjUcXvCT": {
+        "publishDocs": "",
         "gitHubPublish": true
       }
     },
@@ -188,6 +196,9 @@
         "exposeAPI": true,
         "readDemands": [],
         "writeDemands": []
+      },
+      "aZ5t8g0t4u8p6D": {
+        "exposeAPI": ""
       }
     },
     "$invalid": false,
