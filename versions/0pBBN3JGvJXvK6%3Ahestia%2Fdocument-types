@@ -1,6 +1,6 @@
 [
   {
-    "__": "43g4Kck2mAjfvq",
+    "__": "dO0KzcybU8qodq",
     "_id": "0pBBN3JGvJXvK6-UXlXJ3hYoZG3bS:hestia/versions",
     "__id": "0pBBN3JGvJXvK6:hestia/document-types",
     "icon": "",
@@ -195,7 +195,7 @@
     "_deleted": 0,
     "database": "contractorcheck",
     "maxWidth": 1000,
-    "_modified": 1624530844000,
+    "_modified": 1624531080000,
     "components": "",
     "navigation": [],
     "_behaviours": {
@@ -221,22 +221,6 @@
                     "_selectId": "EA7F5MkboIpAvs",
                     "condition": "",
                     "questionHeight": "2em",
-                    "questionLeftPad": "",
-                    "questionRightPad": "",
-                    "questionSpaceBefore": ""
-                  },
-                  {
-                    "id": "cxSHmFOs_zTrQb",
-                    "name": "",
-                    "type": "title",
-                    "color": "",
-                    "hints": {},
-                    "title": "Contact Details",
-                    "question": "",
-                    "_selectId": "vK2UpGFSflLrnO",
-                    "condition": "",
-                    "questionHeight": "",
-                    "backgroundColor": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
                     "questionSpaceBefore": ""
@@ -543,7 +527,7 @@
     },
     "tabsBackground": "#f4f4f4",
     "tabsForeground": "#555",
-    "_lastModifiedBy": "cd405ef0-2323-4874-9f83-b7aab77149b8",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "defaultActivity": "wLkWrCLCMvU21P",
     "devices-allowed": "",
     "sideBarMinWidth": 150,
