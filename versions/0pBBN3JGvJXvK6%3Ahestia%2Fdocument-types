@@ -1,6 +1,6 @@
 [
   {
-    "__": "2Q1OhVQ3qOtr6j",
+    "__": "n4Fi5i-se27Y2b",
     "_id": "0pBBN3JGvJXvK6-UXlXJ3hYoZG3bS:hestia/versions",
     "__id": "0pBBN3JGvJXvK6:hestia/document-types",
     "icon": "",
@@ -195,7 +195,7 @@
     "_deleted": 0,
     "database": "contractorcheck",
     "maxWidth": 1000,
-    "_modified": 1624451409000,
+    "_modified": 1624480991000,
     "components": "",
     "navigation": [],
     "_behaviours": {
@@ -211,6 +211,24 @@
                 "_expanded": true,
                 "_selectId": "HRI6QKd44WdtPe",
                 "questions": [
+                  {
+                    "id": "Ze_Tr9ylYuOqdp",
+                    "name": "",
+                    "type": "card",
+                    "color": "",
+                    "hints": {},
+                    "title": "",
+                    "question": "",
+                    "_selectId": "FDt4JWYCVJq5N-",
+                    "condition": "",
+                    "elevation": "",
+                    "topMargin": "",
+                    "background": "",
+                    "leftMargin": "",
+                    "collapsible": "",
+                    "rightMargin": "",
+                    "bottomMargin": ""
+                  },
                   {
                     "id": "XCjM57ig_ZrjC_",
                     "name": "givenName",
@@ -353,6 +371,56 @@
                     "questionRightPad": "",
                     "editableCondition": "",
                     "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "G4d3h2z9L3ooL3",
+                    "name": "",
+                    "type": "stop",
+                    "hints": {},
+                    "question": "",
+                    "stopWhat": [],
+                    "_selectId": "ndly5lR7I5A_5X",
+                    "condition": ""
+                  },
+                  {
+                    "id": "GWtVWhgslhK86z",
+                    "name": "",
+                    "type": "disableActions",
+                    "hints": {},
+                    "question": "",
+                    "_selectId": "bSIvwpi9MXtINR",
+                    "condition": ""
+                  },
+                  {
+                    "id": "wqZDEBJ5KNIeQn",
+                    "name": "",
+                    "side": "bottom",
+                    "type": "navigation",
+                    "color": "",
+                    "hints": {},
+                    "width": "",
+                    "maxWidth": "",
+                    "question": "",
+                    "_selectId": "4a72K9FUzlpPi8",
+                    "condition": "",
+                    "permanent": "",
+                    "background": "",
+                    "middleSlot": {
+                      "id": "9zmm_oRQ0zPoNl",
+                      "name": "",
+                      "type": "embedAction",
+                      "hints": {},
+                      "action": "ldGCKGmuoLACAb",
+                      "variant": "outlined",
+                      "question": "",
+                      "_selectId": "JYEoWyTvDOQQRp",
+                      "condition": "",
+                      "_actionName": "Save (Main)",
+                      "questionHeight": "",
+                      "questionLeftPad": "",
+                      "questionRightPad": "",
+                      "questionSpaceBefore": ""
+                    }
                   }
                 ]
               }
@@ -386,7 +454,7 @@
                   "enabled": false
                 },
                 "goBack": "",
-                "caption": "Save",
+                "caption": "Submit",
                 "command": "setData",
                 "toState": "New",
                 "variant": "text",
