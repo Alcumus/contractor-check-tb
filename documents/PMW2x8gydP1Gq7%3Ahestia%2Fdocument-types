@@ -1,5 +1,5 @@
 {
-  "__": "d-TqTdxq6e9uOj",
+  "__": "oNyYqVoF-7HGiF",
   "_id": "PMW2x8gydP1Gq7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -202,14 +202,14 @@
     {
       "id": "tV6rqmkixtZSUh",
       "name": "1",
-      "time": 1624563097813,
+      "time": 1624563265784,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "7Q0vyLlv_1a3F0",
+      "_selectId": "8aLhhPiwbReDH7",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624559498000,
+  "_modified": 1624559666000,
   "components": "verification,localisation,hint-text",
   "isLockedBy": null,
   "navigation": [],
@@ -10505,12 +10505,15 @@
             {
               "id": "Main",
               "name": "Questions",
+              "_expanded": true,
               "_selectId": "VuMmVpa4OGdrhu",
+              "condition": "",
               "questions": [
                 {
                   "id": "a1S3m000008E3yUCard",
                   "type": "card",
                   "hints": {},
+                  "_selectId": "_DDlWP9KfGTnzx",
                   "condition": "",
                   "elevation": 0
                 },
@@ -10523,17 +10526,25 @@
                     "multi_line": true
                   },
                   "question": "Grupo Bimbo has requested that you upload a Certificate of Insurance. You will find attached, in the link below, the insurance requirements to be submitted to your insurance representative. Please upload for our review. Keeping a current Certificate of Insurance on your ContractorCheck account is required by the client. ?Please ensure the Certificate Holder is name and address match: ?Canada Bread Company Limited; 10 Four Season Place, Etobicoke ON M9B 6H7?",
+                  "_selectId": "sOy9gbHkA3ma3t",
                   "condition": "",
                   "inputLabel": " "
                 },
                 {
                   "id": "a1S3m000008E3yUFile",
+                  "icon": "",
                   "name": "grupoBimboCanadaBreadInsuranceEvidence",
                   "type": "file",
+                  "color": "",
                   "hints": {
                     "dragAndDrop": true
                   },
+                  "modal": {
+                    "enabled": false
+                  },
+                  "variant": "text",
                   "question": "<h5>Required Evidence</h5>",
+                  "_selectId": "s47U8UKGQEusWF",
                   "condition": "",
                   "extensions": [
                     "docx",
@@ -10545,10 +10556,23 @@
                     "xls",
                     "xlsx"
                   ],
-                  "inputLabel": "Evidence",
+                  "inputLabel": "Insurance Certificate",
                   "maximumSize": 10000000,
                   "maximumFiles": 10,
                   "minimumFiles": 0,
+                  "buttonCaption": "",
+                  "disableDelete": "",
+                  "uploadCaption": "Uploading & Virus Scanning:",
+                  "disablePreview": "",
+                  "offlineCapable": "",
+                  "questionHeight": "",
+                  "backgroundColor": "",
+                  "clearIfDisabled": "",
+                  "disableDownload": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "_autoCheckOptions": [],
+                  "editableCondition": "",
                   "questionSpaceBefore": -1
                 },
                 {
@@ -10558,17 +10582,22 @@
                   "type": "hintText",
                   "hints": {},
                   "title": "Helpful Tips",
+                  "_selectId": "76pfeVb-015R6V",
                   "expandByDefault": true
                 },
                 {
                   "id": "a1S3m000008E3yUEnd",
                   "type": "stop",
-                  "hints": {}
+                  "hints": {},
+                  "stopWhat": [],
+                  "_selectId": "rpl0LP4LnCqc3g",
+                  "condition": ""
                 },
                 {
                   "id": "a1S3m000008E3yeCard",
                   "type": "card",
                   "hints": {},
+                  "_selectId": "8UrvSHX89S2u2r",
                   "condition": "",
                   "elevation": 0
                 },
@@ -10581,17 +10610,25 @@
                     "multi_line": true
                   },
                   "question": "Grupo Bimbo/Canada Bread has requested that you provide us with a Clearance Certificate/Letter from Workers' Compensation in the provinces where your Head Office location, your branches, employee home offices, if they differ. On or before the provincial expiry date, ensure we are provided with a renewed Clearance every 45, 60 or 90 days depending on the province. Please list these provinces in your answer and confirm by uploading the Clearances for each province listed. Click the following link to download your WCB/CSST: <a target=\"_blank\" href=\"https://contractorcheck.force.com/contractorportal/s/files\">https://contractorcheck.force.com/contractorportal/s/files</a>",
+                  "_selectId": "D3fbySaHKJ5tVe",
                   "condition": "",
                   "inputLabel": " "
                 },
                 {
                   "id": "a1S3m000008E3yeFile",
+                  "icon": "",
                   "name": "grupoBimboCanadaBreadWcbEvidence",
                   "type": "file",
+                  "color": "",
                   "hints": {
                     "dragAndDrop": true
                   },
+                  "modal": {
+                    "enabled": false
+                  },
+                  "variant": "text",
                   "question": "<h5>Required Evidence</h5>",
+                  "_selectId": "_nGwxFhlngLJH8",
                   "condition": "",
                   "extensions": [
                     "docx",
@@ -10603,10 +10640,23 @@
                     "xls",
                     "xlsx"
                   ],
-                  "inputLabel": "Evidence",
+                  "inputLabel": "Clearance Certificate(s)",
                   "maximumSize": 10000000,
                   "maximumFiles": 10,
                   "minimumFiles": 0,
+                  "buttonCaption": "",
+                  "disableDelete": "",
+                  "uploadCaption": "Uploading & Virus Scanning:",
+                  "disablePreview": "",
+                  "offlineCapable": "",
+                  "questionHeight": "",
+                  "backgroundColor": "",
+                  "clearIfDisabled": "",
+                  "disableDownload": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "_autoCheckOptions": [],
+                  "editableCondition": "",
                   "questionSpaceBefore": -1
                 },
                 {
@@ -10616,17 +10666,20 @@
                   "type": "hintText",
                   "hints": {},
                   "title": "Helpful Tips",
+                  "_selectId": "2Vh1ErFvmW-xX6",
                   "expandByDefault": true
                 },
                 {
                   "id": "a1S3m000008E3yeEnd",
                   "type": "stop",
-                  "hints": {}
+                  "hints": {},
+                  "_selectId": "BqnwGrjO1tZsUD"
                 },
                 {
                   "id": "a1S3m000008E4kaCard",
                   "type": "card",
                   "hints": {},
+                  "_selectId": "MmWla_0ZQySk33",
                   "condition": "",
                   "elevation": 0
                 },
@@ -10638,18 +10691,34 @@
                     "required": true,
                     "multi_line": true
                   },
+                  "maxWidth": "",
                   "question": "Grupo Bimbo requires all contractors to acknowledge they have read the attached Good Manufacturing Practices. Please upload a signed and dated Good Manufacturing Practices annually.",
+                  "_selectId": "WY926J06iyKJlA",
                   "condition": "",
-                  "inputLabel": " "
+                  "inputLabel": " ",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "clearIfDisabled": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "editableCondition": "",
+                  "questionSpaceBefore": ""
                 },
                 {
                   "id": "a1S3m000008E4kaFile",
+                  "icon": "",
                   "name": "grupoBimboCanadaBreadGmpFoodSafetyEvidence",
                   "type": "file",
+                  "color": "",
                   "hints": {
                     "dragAndDrop": true
                   },
+                  "modal": {
+                    "enabled": false
+                  },
+                  "variant": "text",
                   "question": "<h5>Required Evidence</h5>",
+                  "_selectId": "xCIqu9rX9zebu0",
                   "condition": "",
                   "extensions": [
                     "docx",
@@ -10661,10 +10730,23 @@
                     "xls",
                     "xlsx"
                   ],
-                  "inputLabel": "Evidence",
+                  "inputLabel": "Signed Good Manufacturing Practices",
                   "maximumSize": 10000000,
                   "maximumFiles": 10,
                   "minimumFiles": 0,
+                  "buttonCaption": "",
+                  "disableDelete": "",
+                  "uploadCaption": "Uploading & Virus Scanning:",
+                  "disablePreview": "",
+                  "offlineCapable": "",
+                  "questionHeight": "",
+                  "backgroundColor": "",
+                  "clearIfDisabled": "",
+                  "disableDownload": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "_autoCheckOptions": [],
+                  "editableCondition": "",
                   "questionSpaceBefore": -1
                 },
                 {
@@ -10674,17 +10756,22 @@
                   "type": "hintText",
                   "hints": {},
                   "title": "Helpful Tips",
+                  "_selectId": "UEbjbu4lVFCRUk",
                   "expandByDefault": true
                 },
                 {
                   "id": "a1S3m000008E4kaEnd",
                   "type": "stop",
-                  "hints": {}
+                  "hints": {},
+                  "_selectId": "hUDQRWfCfcVIQd"
                 }
-              ]
+              ],
+              "description": ""
             }
           ],
-          "_selectId": "7GnzcFwPoADYM6"
+          "_selectId": "7GnzcFwPoADYM6",
+          "condition": "",
+          "duplicateNames": {}
         },
         {
           "id": "birdConstructionClient",
@@ -14514,7 +14601,7 @@
                     "xls",
                     "xlsx"
                   ],
-                  "inputLabel": "Clearance Certificate",
+                  "inputLabel": "Clearance Certificate(s)",
                   "maximumSize": 10000000,
                   "maximumFiles": 10,
                   "minimumFiles": 0,
