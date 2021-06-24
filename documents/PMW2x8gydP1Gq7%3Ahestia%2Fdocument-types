@@ -1,5 +1,5 @@
 {
-  "__": "9SXTB5lbBdwxBr",
+  "__": "d-TqTdxq6e9uOj",
   "_id": "PMW2x8gydP1Gq7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -202,14 +202,14 @@
     {
       "id": "tV6rqmkixtZSUh",
       "name": "1",
-      "time": 1624380523713,
+      "time": 1624563097813,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "WWBqM4NXTmFiKL",
+      "_selectId": "7Q0vyLlv_1a3F0",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624376924000,
+  "_modified": 1624559498000,
   "components": "verification,localisation,hint-text",
   "isLockedBy": null,
   "navigation": [],
@@ -6033,9 +6033,9 @@
                   "id": "a1S1N000005WjPhText",
                   "name": "subcontractorSubcontracting",
                   "type": "choice",
+                  "color": "#1C9DD4",
                   "hints": {
-                    "radio": true,
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -9816,7 +9816,7 @@
               "condition": "",
               "questions": [
                 {
-                  "id": "ZvoGYNEeroaK6P",
+                  "id": "t8A5E-yJcSB-nv",
                   "form": "general",
                   "type": "useForm",
                   "hints": {},
@@ -9825,7 +9825,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"general\")"
                 },
                 {
-                  "id": "d-lLj1YHUeJBtX",
+                  "id": "07lZ0Ugiy_bBxz",
                   "form": "agellanCapitalPartnersInc",
                   "type": "useForm",
                   "hints": {},
@@ -9834,7 +9834,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Agellan Capital Partners Inc\")"
                 },
                 {
-                  "id": "EtULKvxsH--Bnm",
+                  "id": "F14zzCt3aIIzLU",
                   "form": "bimboCanadaCanadaBread",
                   "type": "useForm",
                   "hints": {},
@@ -9843,7 +9843,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Bimbo Canada (Canada Bread)\")"
                 },
                 {
-                  "id": "kCZVFk7377LImN",
+                  "id": "5jQizDYEPg3xJh",
                   "form": "birdConstructionClient",
                   "type": "useForm",
                   "hints": {},
@@ -9852,7 +9852,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Bird Construction (Client)\")"
                 },
                 {
-                  "id": "Pt2O4QDv5FEphz",
+                  "id": "0ZLVrqGVz1eDvG",
                   "form": "bouyguesEnergiesServices",
                   "type": "useForm",
                   "hints": {},
@@ -9861,7 +9861,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Bouygues Energies & Services\")"
                 },
                 {
-                  "id": "pvvMF7Ieer7A0B",
+                  "id": "FFB-nCqUVSzstj",
                   "form": "branksomeHall",
                   "type": "useForm",
                   "hints": {},
@@ -9870,7 +9870,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Branksome Hall\")"
                 },
                 {
-                  "id": "NyKVMxAcvPdtmX",
+                  "id": "qpNg9MokYUnVH0",
                   "form": "burncoRockProductsLtdClient",
                   "type": "useForm",
                   "hints": {},
@@ -9879,7 +9879,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"BURNCO Rock Products Ltd - Client\")"
                 },
                 {
-                  "id": "65wDtriElw4rDF",
+                  "id": "wmC7DldoOFHVnk",
                   "form": "cadillacFairviewCorporationLimited",
                   "type": "useForm",
                   "hints": {},
@@ -9888,7 +9888,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Cadillac Fairview Corporation Limited\")"
                 },
                 {
-                  "id": "kKvTHtH7I2VLO9",
+                  "id": "uFi_tFS5h-Pwsd",
                   "form": "calgaryCoOperativeAssociationLimited",
                   "type": "useForm",
                   "hints": {},
@@ -9897,7 +9897,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Calgary Co-Operative Association Limited\")"
                 },
                 {
-                  "id": "Qt9kLqgfmX10CS",
+                  "id": "trdc31e2k_9CXB",
                   "form": "canadaGeneralDocuments",
                   "type": "useForm",
                   "hints": {},
@@ -9906,7 +9906,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Canada General Documents\")"
                 },
                 {
-                  "id": "qK9rk_3HOSJxKt",
+                  "id": "CtS82ZDyFAr7x-",
                   "form": "cbreAlbertaClient",
                   "type": "useForm",
                   "hints": {},
@@ -9915,7 +9915,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"CBRE (Alberta) Client\")"
                 },
                 {
-                  "id": "yYleOoDktRNABe",
+                  "id": "F4RogwDqPr8Ui4",
                   "form": "cbreLimitedClient",
                   "type": "useForm",
                   "hints": {},
@@ -9924,7 +9924,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"CBRE Limited (Client)\")"
                 },
                 {
-                  "id": "etwaiNytjvNumO",
+                  "id": "7N-HVWJWydhd2e",
                   "form": "choicePropertiesIndustrialOffice",
                   "type": "useForm",
                   "hints": {},
@@ -9933,7 +9933,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Choice Properties - Industrial & Office\")"
                 },
                 {
-                  "id": "ZBlXFxDC43gEDQ",
+                  "id": "Gehkk3eNbp38Fy",
                   "form": "choicePropertiesReit",
                   "type": "useForm",
                   "hints": {},
@@ -9942,7 +9942,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Choice Properties REIT\")"
                 },
                 {
-                  "id": "o0QlDiWOrz7JpC",
+                  "id": "5_jzNkWc5HtnNB",
                   "form": "cineplexIncClient",
                   "type": "useForm",
                   "hints": {},
@@ -9951,7 +9951,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Cineplex Inc. (Client)\")"
                 },
                 {
-                  "id": "nUx7anrVSKbxys",
+                  "id": "tryBjZiEzQskml",
                   "form": "conseilScolaireViamonde",
                   "type": "useForm",
                   "hints": {},
@@ -9960,7 +9960,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Conseil Scolaire Viamonde\")"
                 },
                 {
-                  "id": "qLQYRSAKYx5w4L",
+                  "id": "0UD_UP0AyKulBB",
                   "form": "crownPropertyManagementInc",
                   "type": "useForm",
                   "hints": {},
@@ -9969,7 +9969,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Crown Property Management Inc.\")"
                 },
                 {
-                  "id": "Ftba-SThw9w1oU",
+                  "id": "gN1C3mf2YRe0q1",
                   "form": "cushmanWakefield20VicManagementIncClient",
                   "type": "useForm",
                   "hints": {},
@@ -9978,7 +9978,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Cushman & Wakefield (20 VIC Management Inc) (Client)\")"
                 },
                 {
-                  "id": "B4tZTnIai9A5NL",
+                  "id": "-kVmPV1aCaXtJl",
                   "form": "dreamUnlimitedCorp",
                   "type": "useForm",
                   "hints": {},
@@ -9987,7 +9987,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Dream Unlimited Corp\")"
                 },
                 {
-                  "id": "nVvTwqECjwnCTE",
+                  "id": "K6-v-svVS-i4Y-",
                   "form": "enwaveEnergyCorporationClient",
                   "type": "useForm",
                   "hints": {},
@@ -9996,7 +9996,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Enwave Energy Corporation (Client)\")"
                 },
                 {
-                  "id": "6tsW9h2xbjLPLq",
+                  "id": "hwCp7-WIw7UkDL",
                   "form": "epicInvestmentServicesClient",
                   "type": "useForm",
                   "hints": {},
@@ -10005,7 +10005,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"EPIC Investment Services (Client)\")"
                 },
                 {
-                  "id": "2iyhN9IF08gCKF",
+                  "id": "01VS4F6gXcGHAM",
                   "form": "firstCapitalReit",
                   "type": "useForm",
                   "hints": {},
@@ -10014,7 +10014,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"First Capital - REIT\")"
                 },
                 {
-                  "id": "2hdzbrVM8x7Vp4",
+                  "id": "DoGmmedCESW07h",
                   "form": "firstGulfClient",
                   "type": "useForm",
                   "hints": {},
@@ -10023,7 +10023,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"First Gulf (Client)\")"
                 },
                 {
-                  "id": "9jNcZDV8z6UJh7",
+                  "id": "luzignkBCsJIMY",
                   "form": "giveandGoPreparedFoodsCorp",
                   "type": "useForm",
                   "hints": {},
@@ -10032,7 +10032,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Give and Go Prepared Foods Corp\")"
                 },
                 {
-                  "id": "aJrH63KL4rSYu1",
+                  "id": "ElmjxweMM75gCP",
                   "form": "holtRenfrewClient",
                   "type": "useForm",
                   "hints": {},
@@ -10041,7 +10041,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Holt Renfrew (Client)\")"
                 },
                 {
-                  "id": "5sF36_VxjArK_S",
+                  "id": "23vQq-ziAh6QY3",
                   "form": "ivanhoeCambridgeInc",
                   "type": "useForm",
                   "hints": {},
@@ -10050,7 +10050,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Ivanhoe Cambridge Inc.\")"
                 },
                 {
-                  "id": "slPdlHFT4cpPYP",
+                  "id": "sSWOI32LAl5K1x",
                   "form": "kLineGroup",
                   "type": "useForm",
                   "hints": {},
@@ -10059,7 +10059,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"K-Line Group\")"
                 },
                 {
-                  "id": "romssTZj47lpXu",
+                  "id": "5WqEFc1oUHlIS8",
                   "form": "labbeLeechInteriorsLtdClient",
                   "type": "useForm",
                   "hints": {},
@@ -10068,7 +10068,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Labbe - Leech Interiors Ltd (Client)\")"
                 },
                 {
-                  "id": "8hK_XndWwPCHry",
+                  "id": "e7WDuGUyvs4whd",
                   "form": "loblawGroupofCompanies",
                   "type": "useForm",
                   "hints": {},
@@ -10077,7 +10077,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Loblaw Group of Companies\")"
                 },
                 {
-                  "id": "bJc0o_xb6_fzUn",
+                  "id": "h7FEWcDpa4h4DI",
                   "form": "longoBrothersFruitMarketsInc",
                   "type": "useForm",
                   "hints": {},
@@ -10086,7 +10086,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Longo Brothers Fruit Markets Inc.\")"
                 },
                 {
-                  "id": "eKkpvYcP0MfoU_",
+                  "id": "SPtkDk0MfVb6SP",
                   "form": "mapleLeafFoodsIncClient",
                   "type": "useForm",
                   "hints": {},
@@ -10095,7 +10095,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Maple Leaf Foods Inc. (Client)\")"
                 },
                 {
-                  "id": "Y87Pt-Pfg98WNb",
+                  "id": "HVAh_9OLZxjJPD",
                   "form": "mapleLeafPropertyManagementMlpmClient",
                   "type": "useForm",
                   "hints": {},
@@ -10104,7 +10104,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Maple Leaf Property Management (MLPM) (Client)\")"
                 },
                 {
-                  "id": "3IZf3aPVWwY6cw",
+                  "id": "ciaB1A3f3zdNpH",
                   "form": "mapleLeafSportsandEntertainmentPartnershipsMlse",
                   "type": "useForm",
                   "hints": {},
@@ -10113,7 +10113,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Maple Leaf Sports and Entertainment Partnerships (MLSE)\")"
                 },
                 {
-                  "id": "iEeA6hTYe4-ciZ",
+                  "id": "S0UxmTfvk12FNm",
                   "form": "menkesPropertyManagementServicesLtdHooppProperties",
                   "type": "useForm",
                   "hints": {},
@@ -10122,7 +10122,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Menkes Property Management Services Ltd (HOOPP Properties)\")"
                 },
                 {
-                  "id": "aIKGgBvHoRQNiV",
+                  "id": "K8DBRdc-vqM8_P",
                   "form": "menResPropertyManagementInc",
                   "type": "useForm",
                   "hints": {},
@@ -10131,7 +10131,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"MenRes Property Management Inc.\")"
                 },
                 {
-                  "id": "Om55hA9uZ80Ul8",
+                  "id": "hapZuhtnEqGtND",
                   "form": "metroOntarioInc",
                   "type": "useForm",
                   "hints": {},
@@ -10140,7 +10140,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Metro Ontario Inc.\")"
                 },
                 {
-                  "id": "HhlSiE85vlIwGj",
+                  "id": "Ir5KYev58ZepH1",
                   "form": "metroQuebecInc",
                   "type": "useForm",
                   "hints": {},
@@ -10149,7 +10149,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Metro Quebec Inc.\")"
                 },
                 {
-                  "id": "HwZRKH2SBoX0xX",
+                  "id": "e8gpEHvZmx3pYq",
                   "form": "ontarioCleanWaterAgency",
                   "type": "useForm",
                   "hints": {},
@@ -10158,7 +10158,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Ontario Clean Water Agency\")"
                 },
                 {
-                  "id": "5_sDppieFsv7qU",
+                  "id": "GCbUKvhkN0DYc2",
                   "form": "oxfordPropertiesGroupClient",
                   "type": "useForm",
                   "hints": {},
@@ -10167,7 +10167,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Oxford Properties Group (Client)\")"
                 },
                 {
-                  "id": "TtFxf-O7LnioDr",
+                  "id": "AWMEXxN6qT5CQw",
                   "form": "planGroupIncClient",
                   "type": "useForm",
                   "hints": {},
@@ -10176,7 +10176,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Plan Group Inc. (Client)\")"
                 },
                 {
-                  "id": "7a8DQJbZQqm1yG",
+                  "id": "UcAJ_6RLB49XYs",
                   "form": "portofHalifax",
                   "type": "useForm",
                   "hints": {},
@@ -10185,7 +10185,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Port of Halifax\")"
                 },
                 {
-                  "id": "NTPkdGmHWXXRXw",
+                  "id": "oWgfSgJpLQeJop",
                   "form": "providenceHealthcare",
                   "type": "useForm",
                   "hints": {},
@@ -10194,7 +10194,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Providence Healthcare\")"
                 },
                 {
-                  "id": "_hKifKvZe_UL6X",
+                  "id": "0-_ecYzxyVwqzQ",
                   "form": "purduePharmaCanada",
                   "type": "useForm",
                   "hints": {},
@@ -10203,7 +10203,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Purdue Pharma Canada\")"
                 },
                 {
-                  "id": "t8SF6HVtT1VRNx",
+                  "id": "KwPgut0mps3qtm",
                   "form": "riskCheckIncClient",
                   "type": "useForm",
                   "hints": {},
@@ -10212,7 +10212,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"RiskCheck Inc. (Client)\")"
                 },
                 {
-                  "id": "bqSOXx6_qfVK1U",
+                  "id": "q90I0kkG-QSFM6",
                   "form": "rogersIndustrial",
                   "type": "useForm",
                   "hints": {},
@@ -10221,7 +10221,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Rogers Industrial\")"
                 },
                 {
-                  "id": "PBulhXNu6QQ9zh",
+                  "id": "DQQiiv2ipAKFU8",
                   "form": "schindlerElevatorCorporationClient",
                   "type": "useForm",
                   "hints": {},
@@ -10230,7 +10230,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Schindler Elevator Corporation (Client)\")"
                 },
                 {
-                  "id": "ZJvhupMnxH2Zht",
+                  "id": "MjfT_FiZsxhidK",
                   "form": "shoppersDrugMartLossPrevention",
                   "type": "useForm",
                   "hints": {},
@@ -10239,7 +10239,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Shoppers Drug Mart Loss Prevention\")"
                 },
                 {
-                  "id": "Dw5oyXX_GvRgFn",
+                  "id": "Kh1ESgSBkqZCgB",
                   "form": "stMichaelsHospital",
                   "type": "useForm",
                   "hints": {},
@@ -10248,7 +10248,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"St. Michael's Hospital\")"
                 },
                 {
-                  "id": "Oaru6fWehd27u6",
+                  "id": "L0NVshjjfUejsN",
                   "form": "strathmoreLandscapeContractorsClient",
                   "type": "useForm",
                   "hints": {},
@@ -10257,7 +10257,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Strathmore Landscape Contractors (Client)\")"
                 },
                 {
-                  "id": "nG9HLalPrMLYb-",
+                  "id": "wf9ueGBqNPFP5o",
                   "form": "sunLifeUs",
                   "type": "useForm",
                   "hints": {},
@@ -10266,7 +10266,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Sun Life (US)\")"
                 },
                 {
-                  "id": "WzLIJ7nM17XaBs",
+                  "id": "lNJ2m87VeZ-761",
                   "form": "sunLifeCanada",
                   "type": "useForm",
                   "hints": {},
@@ -10275,7 +10275,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Sun Life Canada\")"
                 },
                 {
-                  "id": "S6OPbD7wqUPNxi",
+                  "id": "wDySRptS6qISxa",
                   "form": "theBadmintonAndRacquetClubofToronto",
                   "type": "useForm",
                   "hints": {},
@@ -10284,7 +10284,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"The Badminton And Racquet Club of Toronto\")"
                 },
                 {
-                  "id": "m5yZGIAgXcTC4y",
+                  "id": "QvEMji0rA9drv1",
                   "form": "thyssenkruppElevatorCanadaLimitedClient",
                   "type": "useForm",
                   "hints": {},
@@ -10293,7 +10293,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Thyssenkrupp Elevator (Canada) Limited (Client)\")"
                 },
                 {
-                  "id": "onbuzdjYZC6DpU",
+                  "id": "kxSUkLTbXSGRum",
                   "form": "tjConstructionManagementLtdClient",
                   "type": "useForm",
                   "hints": {},
@@ -10302,7 +10302,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"TJ Construction Management Ltd. (Client)\")"
                 },
                 {
-                  "id": "2W_NMhDaVgPUJa",
+                  "id": "xRdPiGF0IpXSsW",
                   "form": "trinityCollegeSchool",
                   "type": "useForm",
                   "hints": {},
@@ -10311,7 +10311,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Trinity College School\")"
                 },
                 {
-                  "id": "e7u97m3Gq8mcZr",
+                  "id": "ccpaa-vRahfU9K",
                   "form": "triovestRealtyAdvisorsInc",
                   "type": "useForm",
                   "hints": {},
@@ -10320,7 +10320,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Triovest Realty Advisors Inc.\")"
                 },
                 {
-                  "id": "H9PaUvLCFcYqw3",
+                  "id": "98nwALu_G5k6O8",
                   "form": "usGeneralDocuments",
                   "type": "useForm",
                   "hints": {},
@@ -10329,7 +10329,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"US General Documents\")"
                 },
                 {
-                  "id": "IarQM0NRn9h4Lp",
+                  "id": "Ta8TJ0yQBq1GLF",
                   "form": "ustestclient",
                   "type": "useForm",
                   "hints": {},
@@ -10338,7 +10338,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"US TEST CLIENT\")"
                 },
                 {
-                  "id": "ib11HttOVwq6sK",
+                  "id": "btI4sO8gnEtVhv",
                   "form": "vancouverFraserPortAuthority",
                   "type": "useForm",
                   "hints": {},
@@ -10347,7 +10347,7 @@
                   "condition": "valueEquals(\"assessmentType\", \"Vancouver Fraser Port Authority\")"
                 },
                 {
-                  "id": "TZSdxtk_Ynbz7g",
+                  "id": "AhfvXsZUB5ZWw1",
                   "form": "wittingtonPropertiesLimited",
                   "type": "useForm",
                   "hints": {},
@@ -10880,9 +10880,9 @@
                   "id": "a1S3m000008kSXoText",
                   "name": "birdConstructionCertificateofRecognition",
                   "type": "choice",
+                  "color": "#1C9DD4",
                   "hints": {
-                    "radio": true,
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -11665,9 +11665,9 @@
                   "id": "a1S1N000005Wjo1Text",
                   "name": "cadillacFairviewLabour",
                   "type": "choice",
+                  "color": "#1C9DD4",
                   "hints": {
-                    "radio": true,
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -11727,9 +11727,9 @@
                   "id": "a1S1N000005Wjo3Text",
                   "name": "cadillacFairviewCarpentry",
                   "type": "choice",
+                  "color": "#1C9DD4",
                   "hints": {
-                    "radio": true,
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -11789,9 +11789,9 @@
                   "id": "a1S1N000005WjoGText",
                   "name": "cadillacFairviewMasonry",
                   "type": "choice",
+                  "color": "#1C9DD4",
                   "hints": {
-                    "radio": true,
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -12937,9 +12937,9 @@
                   "id": "a1S3m000008NYi1Text",
                   "name": "cbreAlbertaVehicleInsurance",
                   "type": "choice",
+                  "color": "#1C9DD4",
                   "hints": {
-                    "radio": true,
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -13154,9 +13154,9 @@
                   "id": "a1S3m000008NYi6Text",
                   "name": "cbreLimitedVehicleInsurance",
                   "type": "choice",
+                  "color": "#1C9DD4",
                   "hints": {
-                    "radio": true,
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -14186,9 +14186,9 @@
                   "id": "a1S1N000005WjnbText",
                   "name": "cineplexEft",
                   "type": "choice",
+                  "color": "#1C9DD4",
                   "hints": {
-                    "radio": true,
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -14379,12 +14379,15 @@
             {
               "id": "Main",
               "name": "Questions",
+              "_expanded": true,
               "_selectId": "SNyRPkUg4sod0y",
+              "condition": "",
               "questions": [
                 {
                   "id": "a1S1N000005WjmoCard",
                   "type": "card",
                   "hints": {},
+                  "_selectId": "ErZ5FCY-nEXVwY",
                   "condition": "",
                   "elevation": 0
                 },
@@ -14397,17 +14400,25 @@
                     "multi_line": true
                   },
                   "question": "Crown Property Management Inc. has requested that you upload a Certificate of Insurance. You will find attached, in the link below, the insurance requirements to be submitted to your insurance representative. Please upload for our review. Keeping a current Certificate of Insurance on your ContractorCheck account is required by the client.",
+                  "_selectId": "o3rtkLNkU6Zijj",
                   "condition": "",
                   "inputLabel": " "
                 },
                 {
                   "id": "a1S1N000005WjmoFile",
+                  "icon": "",
                   "name": "crownPropertyManagementIncInsuranceEvidence",
                   "type": "file",
+                  "color": "",
                   "hints": {
                     "dragAndDrop": true
                   },
+                  "modal": {
+                    "enabled": false
+                  },
+                  "variant": "text",
                   "question": "<h5>Required Evidence</h5>",
+                  "_selectId": "JmBZVhoFIKEJeB",
                   "condition": "",
                   "extensions": [
                     "docx",
@@ -14419,10 +14430,23 @@
                     "xls",
                     "xlsx"
                   ],
-                  "inputLabel": "Evidence",
+                  "inputLabel": "Insurance Certificate",
                   "maximumSize": 10000000,
                   "maximumFiles": 10,
                   "minimumFiles": 0,
+                  "buttonCaption": "",
+                  "disableDelete": "",
+                  "uploadCaption": "Uploading & Virus Scanning:",
+                  "disablePreview": "",
+                  "offlineCapable": "",
+                  "questionHeight": "",
+                  "backgroundColor": "",
+                  "clearIfDisabled": "",
+                  "disableDownload": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "_autoCheckOptions": [],
+                  "editableCondition": "",
                   "questionSpaceBefore": -1
                 },
                 {
@@ -14432,17 +14456,22 @@
                   "type": "hintText",
                   "hints": {},
                   "title": "Helpful Tips",
+                  "_selectId": "s09AozobEcawzY",
                   "expandByDefault": true
                 },
                 {
                   "id": "a1S1N000005WjmoEnd",
                   "type": "stop",
-                  "hints": {}
+                  "hints": {},
+                  "stopWhat": [],
+                  "_selectId": "5Cmwy46BX4RVqy",
+                  "condition": ""
                 },
                 {
                   "id": "a1S1N000005WjmzCard",
                   "type": "card",
                   "hints": {},
+                  "_selectId": "jI5n1p5NT_ZzIK",
                   "condition": "",
                   "elevation": 0
                 },
@@ -14455,17 +14484,25 @@
                     "multi_line": true
                   },
                   "question": "Crown Property Management Inc has requested that you provide us with a Clearance Certificate/Letter from Workers' Compensation in the provinces where your Head Office location, your branches, employee home offices, if they differ. On or before the provincial expiry date, ensure we are provided with a renewed Clearance every 45, 60 or 90 days depending on the province. Please list these provinces in your answer and confirm by uploading the Clearances for each province listed. Click the following link to download your WCB/CSST: <a target=\"_blank\" href=\"https://contractorcheck.force.com/contractorportal/s/files\">https://contractorcheck.force.com/contractorportal/s/files</a>",
+                  "_selectId": "AZzOasZkUvWFt9",
                   "condition": "",
                   "inputLabel": " "
                 },
                 {
                   "id": "a1S1N000005WjmzFile",
+                  "icon": "",
                   "name": "crownPropertyManagementIncWcbEvidence",
                   "type": "file",
+                  "color": "",
                   "hints": {
                     "dragAndDrop": true
                   },
+                  "modal": {
+                    "enabled": false
+                  },
+                  "variant": "text",
                   "question": "<h5>Required Evidence</h5>",
+                  "_selectId": "XDK6bV9EDfClh4",
                   "condition": "",
                   "extensions": [
                     "docx",
@@ -14477,10 +14514,23 @@
                     "xls",
                     "xlsx"
                   ],
-                  "inputLabel": "Evidence",
+                  "inputLabel": "Clearance Certificate",
                   "maximumSize": 10000000,
                   "maximumFiles": 10,
                   "minimumFiles": 0,
+                  "buttonCaption": "",
+                  "disableDelete": "",
+                  "uploadCaption": "Uploading & Virus Scanning:",
+                  "disablePreview": "",
+                  "offlineCapable": "",
+                  "questionHeight": "",
+                  "backgroundColor": "",
+                  "clearIfDisabled": "",
+                  "disableDownload": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "_autoCheckOptions": [],
+                  "editableCondition": "",
                   "questionSpaceBefore": -1
                 },
                 {
@@ -14490,17 +14540,22 @@
                   "type": "hintText",
                   "hints": {},
                   "title": "Helpful Tips",
+                  "_selectId": "UgAQqtjQFMYIz5",
                   "expandByDefault": true
                 },
                 {
                   "id": "a1S1N000005WjmzEnd",
                   "type": "stop",
-                  "hints": {}
+                  "hints": {},
+                  "_selectId": "TR0isF2cHicKkA"
                 }
-              ]
+              ],
+              "description": ""
             }
           ],
-          "_selectId": "5tjUpEzBQn06si"
+          "_selectId": "5tjUpEzBQn06si",
+          "condition": "",
+          "duplicateNames": {}
         },
         {
           "id": "cushmanWakefield20VicManagementIncClient",
@@ -14522,9 +14577,9 @@
                   "id": "a1S3m000008NYiBText",
                   "name": "cushmanWakefieldVehicleInsurance",
                   "type": "choice",
+                  "color": "#1C9DD4",
                   "hints": {
-                    "radio": true,
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -14797,9 +14852,9 @@
                   "id": "a1S3m000008NYiGText",
                   "name": "dreamUnlimitedVehicleInsurance",
                   "type": "choice",
+                  "color": "#1C9DD4",
                   "hints": {
-                    "radio": true,
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -14917,9 +14972,9 @@
                   "id": "a1S1N000005WjnVText",
                   "name": "dreamUnlimitedCorpBonding",
                   "type": "choice",
+                  "color": "#1C9DD4",
                   "hints": {
-                    "radio": true,
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -14979,9 +15034,9 @@
                   "id": "a1S1N000005WjniText",
                   "name": "dreamUnlimitedCorpBackgroundCheck",
                   "type": "choice",
+                  "color": "#1C9DD4",
                   "hints": {
-                    "radio": true,
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -15663,9 +15718,9 @@
                   "id": "a1S1N000005WjmhText",
                   "name": "firstCapitalReitVehicleInsurance",
                   "type": "choice",
+                  "color": "#1C9DD4",
                   "hints": {
-                    "radio": true,
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -16850,9 +16905,9 @@
                   "id": "a1S3m000008NYiLText",
                   "name": "ivanhoeCambridgeVehicleInsurance",
                   "type": "choice",
+                  "color": "#1C9DD4",
                   "hints": {
-                    "radio": true,
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -17448,9 +17503,9 @@
                   "id": "a1S3m000008kHqnText",
                   "name": "kLineGroupCorCertificate",
                   "type": "choice",
+                  "color": "#1C9DD4",
                   "hints": {
-                    "radio": true,
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -17795,9 +17850,9 @@
                   "id": "a1S3m000008NYiaText",
                   "name": "loblawVehicleInsurance",
                   "type": "choice",
+                  "color": "#1C9DD4",
                   "hints": {
-                    "radio": true,
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -18509,9 +18564,9 @@
                   "id": "a1S3m000008NYifText",
                   "name": "longoBrothersVehicleInsurance",
                   "type": "choice",
+                  "color": "#1C9DD4",
                   "hints": {
-                    "radio": true,
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -19088,9 +19143,9 @@
                   "id": "a1S3m000008NYikText",
                   "name": "mapleLeafPropertyManagementVehicleInsurance",
                   "type": "choice",
+                  "color": "#1C9DD4",
                   "hints": {
-                    "radio": true,
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -19786,9 +19841,9 @@
                   "id": "a1S3m000008NYiMText",
                   "name": "metroOntarioVehicleInsurance",
                   "type": "choice",
+                  "color": "#1C9DD4",
                   "hints": {
-                    "radio": true,
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -19873,9 +19928,9 @@
                   "id": "a1S1N000005WjoKText",
                   "name": "metroOntarioIncContractorRequirements",
                   "type": "choice",
+                  "color": "#1C9DD4",
                   "hints": {
-                    "radio": true,
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -20297,9 +20352,9 @@
                   "id": "a1S1N000005WjoBText",
                   "name": "metroQubecIncPolitiquedecadenassage",
                   "type": "choice",
+                  "color": "#1C9DD4",
                   "hints": {
-                    "radio": true,
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -20359,9 +20414,9 @@
                   "id": "a1S1N000005WjoCText",
                   "name": "metroQubecIncPolitiquetravailenhauteur",
                   "type": "choice",
+                  "color": "#1C9DD4",
                   "hints": {
-                    "radio": true,
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -20739,9 +20794,9 @@
                   "id": "a1S3m000008LrbUText",
                   "name": "oxfordPropertiesGroupVehicleInsurance",
                   "type": "choice",
+                  "color": "#1C9DD4",
                   "hints": {
-                    "radio": true,
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -20942,9 +20997,9 @@
                   "id": "a1S1N000005Wjn9Text",
                   "name": "oxfordPropertiesGroupSustainableIntelligence",
                   "type": "choice",
+                  "color": "#1C9DD4",
                   "hints": {
-                    "radio": true,
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -21004,9 +21059,9 @@
                   "id": "a1S1N000005WjmKText",
                   "name": "oxfordPropertiesGroupResponsibleContractorPolicy",
                   "type": "choice",
+                  "color": "#1C9DD4",
                   "hints": {
-                    "radio": true,
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -21644,9 +21699,9 @@
                   "id": "a1S3m000008NYipText",
                   "name": "purduePharmaCanadaVehicleInsurance",
                   "type": "choice",
+                  "color": "#1C9DD4",
                   "hints": {
-                    "radio": true,
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -22412,9 +22467,9 @@
                   "id": "a1S3m000006rTuzText",
                   "name": "schindlerSubcontractorHealthSafety",
                   "type": "choice",
+                  "color": "#1C9DD4",
                   "hints": {
-                    "radio": true,
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -22474,9 +22529,9 @@
                   "id": "a1S3m000006rTuuText",
                   "name": "schindlerSubcontractorSafetyAbsolutes",
                   "type": "choice",
+                  "color": "#1C9DD4",
                   "hints": {
-                    "radio": true,
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -22536,9 +22591,9 @@
                   "id": "a1S3m000006rTufText",
                   "name": "schindlerPoTermsandConditions",
                   "type": "choice",
+                  "color": "#1C9DD4",
                   "hints": {
-                    "radio": true,
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -22598,9 +22653,9 @@
                   "id": "a1S3m000006rTvAText",
                   "name": "schindlerNoGoRules",
                   "type": "choice",
+                  "color": "#1C9DD4",
                   "hints": {
-                    "radio": true,
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -22676,9 +22731,9 @@
                   "id": "a1S3m000008jr75Text",
                   "name": "sdmlpThirdPartyProviders",
                   "type": "choice",
+                  "color": "#1C9DD4",
                   "hints": {
-                    "radio": true,
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -22796,9 +22851,9 @@
                   "id": "a1S3m000008kb18Text",
                   "name": "sdmlpCanadianCharterofRightsandFreedoms",
                   "type": "choice",
+                  "color": "#1C9DD4",
                   "hints": {
-                    "radio": true,
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -22858,9 +22913,9 @@
                   "id": "a1S3m000008kb13Text",
                   "name": "sdmlpSupplierCodeofConduct",
                   "type": "choice",
+                  "color": "#1C9DD4",
                   "hints": {
-                    "radio": true,
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -23368,9 +23423,9 @@
                   "id": "a1S3m000008kC1sText",
                   "name": "sunLifeUsInsurancePreQuestionnaire3",
                   "type": "choice",
+                  "color": "#1C9DD4",
                   "hints": {
-                    "radio": true,
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -23455,9 +23510,9 @@
                   "id": "a1S3m000008kC1dText",
                   "name": "sunLifeUsInsurance",
                   "type": "choice",
+                  "color": "#1C9DD4",
                   "hints": {
-                    "radio": true,
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -23542,9 +23597,9 @@
                   "id": "a1S3m000008k88KText",
                   "name": "sunLifeUsCitationsOshamshaepa",
                   "type": "choice",
+                  "color": "#1C9DD4",
                   "hints": {
-                    "radio": true,
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -24790,9 +24845,9 @@
                   "id": "a1S3m000008NYiCText",
                   "name": "triovestRealtyAdvisorsVehicleInsurance",
                   "type": "choice",
+                  "color": "#1C9DD4",
                   "hints": {
-                    "radio": true,
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -24993,9 +25048,9 @@
                   "id": "a1S1N000005Wjn7Text",
                   "name": "triovestRealityAdvisorsIncEngineering",
                   "type": "choice",
+                  "color": "#1C9DD4",
                   "hints": {
-                    "radio": true,
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -25055,9 +25110,9 @@
                   "id": "a1S1N000005WjmRText",
                   "name": "triovestStandardServiceAgreementAcknowledgement",
                   "type": "choice",
+                  "color": "#1C9DD4",
                   "hints": {
-                    "radio": true,
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
@@ -25382,9 +25437,9 @@
                   "id": "a1S3m000008NYivText",
                   "name": "vancouverFraserPortAuthorityVehicleInsurance",
                   "type": "choice",
+                  "color": "#1C9DD4",
                   "hints": {
-                    "radio": true,
-                    "round_button": true
+                    "radio": true
                   },
                   "choices": [
                     {
