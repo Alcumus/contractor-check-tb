@@ -1,6 +1,6 @@
 [
   {
-    "__": "9N28NMh8J4dXvC",
+    "__": "eLxta0tuaW5IOi",
     "_id": "c3Vsou_iiAj3_m-aR0fAcL1sQGZXb:hestia/versions",
     "__id": "c3Vsou_iiAj3_m:hestia/document-types",
     "icon": "",
@@ -192,7 +192,7 @@
     "_deleted": 0,
     "database": "salesforceContractorImport",
     "maxWidth": 1000,
-    "_modified": 1624566876000,
+    "_modified": 1624567551000,
     "components": "",
     "navigation": [],
     "_behaviours": {
@@ -246,7 +246,7 @@
                   },
                   {
                     "id": "LN-sNykQ6ihdlu",
-                    "name": "description",
+                    "name": "Description",
                     "type": "text",
                     "hints": {},
                     "maxWidth": "",
@@ -264,7 +264,7 @@
                   },
                   {
                     "id": "cJSaLvTWvL8h9-",
-                    "name": "website",
+                    "name": "Website",
                     "type": "text",
                     "hints": {},
                     "maxWidth": "",
@@ -274,8 +274,10 @@
                     "inputLabel": "",
                     "defaultValue": "",
                     "questionHeight": "",
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": ""
                   }
                 ]
@@ -339,7 +341,7 @@
                 "_selectId": "XwgWC1SzhCzs0T"
               }
             ],
-            "inline": true,
+            "inline": false,
             "actions": [
               {
                 "id": "3b6sJy7PvQTnUM",
