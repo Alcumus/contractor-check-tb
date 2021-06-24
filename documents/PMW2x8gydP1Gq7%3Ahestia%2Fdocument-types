@@ -1,5 +1,5 @@
 {
-  "__": "mx1Rc6dYLb2NYb",
+  "__": "FtwiRUnvQ7Vsdy",
   "_id": "PMW2x8gydP1Gq7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -202,14 +202,14 @@
     {
       "id": "tV6rqmkixtZSUh",
       "name": "1",
-      "time": 1624563692704,
+      "time": 1624563834474,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "EsBiNkElQJB2l1",
+      "_selectId": "Mi8e2XFH0Wyuxm",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624560094000,
+  "_modified": 1624560235000,
   "components": "verification,localisation,hint-text",
   "isLockedBy": null,
   "navigation": [],
@@ -10525,10 +10525,18 @@
                     "required": true,
                     "multi_line": true
                   },
-                  "question": "Grupo Bimbo has requested that you upload a Certificate of Insurance. You will find attached, in the link below, the insurance requirements to be submitted to your insurance representative. Please upload for our review. Keeping a current Certificate of Insurance on your ContractorCheck account is required by the client. ?Please ensure the Certificate Holder is name and address match: ?Canada Bread Company Limited; 10 Four Season Place, Etobicoke ON M9B 6H7?",
+                  "maxWidth": "",
+                  "question": "<p>Grupo Bimbo has requested that you upload a Certificate of Insurance. You will find attached, in the link below, the insurance requirements to be submitted to your insurance representative. Please upload for our review. Keeping a current Certificate of Insurance on your ContractorCheck account is required by the client.&nbsp;</p>\n<p></p>\n<p><em>Please ensure the Certificate Holder is name and address match</em>: <strong>Canada Bread Company Limited, 10 Four Season Place, Etobicoke ON M9B 6H7</strong></p>\n",
                   "_selectId": "sOy9gbHkA3ma3t",
                   "condition": "",
-                  "inputLabel": " "
+                  "inputLabel": " ",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "clearIfDisabled": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "editableCondition": "",
+                  "questionSpaceBefore": ""
                 },
                 {
                   "id": "a1S3m000008E3yUFile",
@@ -10609,10 +10617,18 @@
                     "required": true,
                     "multi_line": true
                   },
-                  "question": "Grupo Bimbo/Canada Bread has requested that you provide us with a Clearance Certificate/Letter from Workers' Compensation in the provinces where your Head Office location, your branches, employee home offices, if they differ. On or before the provincial expiry date, ensure we are provided with a renewed Clearance every 45, 60 or 90 days depending on the province. Please list these provinces in your answer and confirm by uploading the Clearances for each province listed. Click the following link to download your WCB/CSST: <a target=\"_blank\" href=\"https://contractorcheck.force.com/contractorportal/s/files\">https://contractorcheck.force.com/contractorportal/s/files</a>",
+                  "maxWidth": "",
+                  "question": "<p>Grupo Bimbo/Canada Bread has requested that you provide us with a Clearance Certificate/Letter from Workers' Compensation in the provinces where your Head Office location, your branches, employee home offices, if they differ. On or before the provincial expiry date, ensure we are provided with a renewed Clearance every 45, 60 or 90 days depending on the province. Please list these provinces in your answer and confirm by uploading the Clearances for each province listed.&nbsp;</p>\n",
                   "_selectId": "D3fbySaHKJ5tVe",
                   "condition": "",
-                  "inputLabel": " "
+                  "inputLabel": " ",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "clearIfDisabled": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "editableCondition": "",
+                  "questionSpaceBefore": ""
                 },
                 {
                   "id": "a1S3m000008E3yeFile",
