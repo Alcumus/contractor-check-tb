@@ -1,5 +1,5 @@
 {
-  "__": "uuSc48Gxr3T2tA",
+  "__": "cf472dbLVIS7X7",
   "_id": "c3Vsou_iiAj3_m:hestia/document-types",
   "icon": "",
   "name": "SalesforceImport",
@@ -192,14 +192,14 @@
     {
       "id": "aR0fAcL1sQGZXb",
       "name": "SalesforceImport",
-      "time": 1624443857178,
+      "time": 1624565500020,
       "user": "087af269-7b85-44fc-be62-94b7b6613ad8",
       "locked": false,
-      "_selectId": "t6gVsZ8hdGtCp1",
+      "_selectId": "qeoLHXenvswGJJ",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624443857000,
+  "_modified": 1624565500000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -246,6 +246,35 @@
                   "questionLeftPad": "",
                   "questionRightPad": "",
                   "questionSpaceBefore": ""
+                },
+                {
+                  "id": "GqgdRB7DsuiSuP",
+                  "name": "doYouContractOthers",
+                  "type": "boolean",
+                  "hints": {},
+                  "choices": [
+                    {
+                      "label": "Yes",
+                      "value": "yes"
+                    },
+                    {
+                      "label": "No",
+                      "value": "no"
+                    }
+                  ],
+                  "question": "",
+                  "_selectId": "SgOaAX0cQB7_FN",
+                  "condition": "",
+                  "allowNullify": "",
+                  "questionHeight": "",
+                  "trueInputLabel": "",
+                  "clearIfDisabled": "",
+                  "falseInputLabel": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "editableCondition": "",
+                  "questionSpaceBefore": "",
+                  "selectedDefaultValue": "1"
                 }
               ]
             }
@@ -273,6 +302,12 @@
               "value": [
                 "{name}"
               ],
+              "defaultValue": ""
+            },
+            {
+              "id": "AQiQmK1FF4pEha",
+              "field": "doYouUseContractors",
+              "value": "{doYouContractOthers}",
               "defaultValue": ""
             }
           ],
