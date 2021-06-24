@@ -1,6 +1,6 @@
 [
   {
-    "__": "zKioVEYnjwFXYG",
+    "__": "SAGej3aToEdaP5",
     "_id": "fYmpCXoXNbRtVg-D57acZ-uIHF-Tx:hestia/versions",
     "__id": "fYmpCXoXNbRtVg:hestia/document-types",
     "__ok": true,
@@ -378,6 +378,24 @@
                       "questionRightPad": "",
                       "questionSpaceBefore": ""
                     }
+                  },
+                  {
+                    "id": "dRq_s1sO2nEwUz",
+                    "name": "progress",
+                    "type": "text",
+                    "hints": {
+                      "hidden": true
+                    },
+                    "maxWidth": "",
+                    "question": "",
+                    "_selectId": "yCyzDGjygC2jU9",
+                    "condition": "",
+                    "inputLabel": "",
+                    "defaultValue": "",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
                   }
                 ],
                 "description": ""

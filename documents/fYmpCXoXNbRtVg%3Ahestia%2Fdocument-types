@@ -1,5 +1,5 @@
 {
-  "__": "LjMAZZb99QywQ3",
+  "__": "DBNTOVZuTZekWt",
   "_id": "fYmpCXoXNbRtVg:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -201,14 +201,14 @@
     {
       "id": "D57acZ-uIHF-Tx",
       "name": "1.0",
-      "time": 1624556024576,
+      "time": 1624557684796,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "kZY9CjOg8qGVBH",
+      "_selectId": "zR21SS8pu_3vph",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624552424000,
+  "_modified": 1624554085000,
   "components": "verification,helptext,navigation,formprogress",
   "isLockedBy": null,
   "navigation": [],
@@ -387,6 +387,24 @@
                     "questionRightPad": "",
                     "questionSpaceBefore": ""
                   }
+                },
+                {
+                  "id": "dRq_s1sO2nEwUz",
+                  "name": "progress",
+                  "type": "text",
+                  "hints": {
+                    "hidden": true
+                  },
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "yCyzDGjygC2jU9",
+                  "condition": "",
+                  "inputLabel": "",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
                 }
               ],
               "description": ""
