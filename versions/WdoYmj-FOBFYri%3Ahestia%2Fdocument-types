@@ -1,6 +1,6 @@
 [
   {
-    "__": "qceXQ2rXK5QGNu",
+    "__": "klnv8h_7VG1pyy",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -199,7 +199,7 @@
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1624488561000,
+    "_modified": 1624490101000,
     "components": "navigation",
     "isLockedBy": null,
     "navigation": [],
@@ -800,13 +800,13 @@
                     "question": "",
                     "_selectId": "5qu5TL1ekVAv49",
                     "condition": "",
-                    "popupView": "tO-6DxodJdqI_0",
+                    "popupView": "TwE9lX50LCjAz3",
                     "inputLabel": "Anchored Clients",
                     "lookupType": "UJns4BZ0dhGyw5:hestia/document-types",
                     "sortFields": [
                       "companyName"
                     ],
-                    "displayView": "tO-6DxodJdqI_0",
+                    "displayView": "TwE9lX50LCjAz3",
                     "linesMobile": 1,
                     "defaultValue": "",
                     "searchFields": [
@@ -815,14 +815,14 @@
                     "popupQuestion": "What clients do you want to work with?",
                     "addButtonLabel": "",
                     "lookupTypeName": "Master List Company Profile",
-                    "popupView_name": "Name",
+                    "popupView_name": "Master List Name",
                     "questionHeight": "",
                     "requiredFields": [
                       "companyName"
                     ],
                     "clearIfDisabled": "",
                     "questionLeftPad": "",
-                    "displayView_name": "Name",
+                    "displayView_name": "Master List Name",
                     "questionRightPad": "",
                     "editableCondition": "",
                     "questionSpaceBefore": ""
@@ -1047,10 +1047,28 @@
                     "question": "",
                     "_selectId": "8NPQKzQa_x_8m9",
                     "condition": "",
-                    "relatedType": "WdoYmj-FOBFYri:hestia/document-types",
+                    "relatedType": "UJns4BZ0dhGyw5:hestia/document-types",
                     "questionHeight": "",
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
+                    "relatedQuestion": {
+                      "id": "UVxygrF9sqVrgJ",
+                      "name": "companyName",
+                      "type": "text",
+                      "hints": {},
+                      "maxWidth": "",
+                      "question": "",
+                      "_selectId": "EwKg0PNptp3x9I",
+                      "condition": "",
+                      "inputLabel": "",
+                      "defaultValue": "",
+                      "questionHeight": "",
+                      "questionLeftPad": "",
+                      "questionRightPad": "",
+                      "questionSpaceBefore": ""
+                    },
                     "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": ""
                   },
                   {
@@ -1067,8 +1085,10 @@
                     "inputLabel": "",
                     "defaultValue": "",
                     "questionHeight": "",
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": ""
                   },
                   {

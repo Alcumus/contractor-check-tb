@@ -1,91 +1,9 @@
 [
   {
-    "__": "ZmvjF5wpidTITh",
+    "__": "TPDTmlrV6LuVKA",
     "ZIP": "999",
     "_id": "1621266694681:companyP/companyP",
     "City": "Racoon City",
-    "_info": {
-      "clients": {
-        "rows": [
-          {
-            "_id": "R-Z5yeIDz9rNkk:clientA/clientA",
-            "_settings": {
-              "_id": "ImG4GhYEohQwgO:hestia/document-types"
-            },
-            "_behaviours": {
-              "_state": "",
-              "instances": {}
-            }
-          }
-        ]
-      },
-      "clientsLookup": {
-        "rows": [
-          {
-            "_id": "Mx20OTel7MWV4d:contractorcheck/masterCompanyProfile",
-            "_settings": {
-              "_id": "UJns4BZ0dhGyw5:hestia/document-types"
-            }
-          },
-          {
-            "_id": "0pVu0Ed45F96oN:contractorcheck/masterCompanyProfile",
-            "_settings": {
-              "_id": "UJns4BZ0dhGyw5:hestia/document-types"
-            }
-          },
-          {
-            "_id": "lcdBsxkACkPCHQ:contractorcheck/masterCompanyProfile",
-            "_settings": {
-              "_id": "UJns4BZ0dhGyw5:hestia/document-types"
-            }
-          }
-        ]
-      },
-      "workActivities": {
-        "rows": [
-          {
-            "_id": "hZ_qK7iOHgS-FA:workA/workA",
-            "_settings": {
-              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
-            }
-          },
-          {
-            "_id": "1zgco_vwvH6Uat:workA/workA",
-            "_settings": {
-              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
-            }
-          },
-          {
-            "_id": "tXjZb3-pXJFRPQ:workA/workA",
-            "_settings": {
-              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
-            }
-          },
-          {
-            "_id": "0SL-HHTURQQEZf:workA/workA",
-            "_settings": {
-              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
-            }
-          }
-        ]
-      },
-      "workActivitiesLookup": {
-        "rows": [
-          {
-            "_id": "JgpbhOLqdNDhgP:workA/workA",
-            "_settings": {
-              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
-            }
-          },
-          {
-            "_id": "qmaPwMF5Kg3KTd:workA/workA",
-            "_settings": {
-              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
-            }
-          }
-        ]
-      }
-    },
     "email": "bill@smithereen.com",
     "phone": "07979333322",
     "$valid": true,
@@ -121,7 +39,7 @@
       "Alberta",
       "British Columbia"
     ],
-    "_modified": 1624489786000,
+    "_modified": 1624490184000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
@@ -164,7 +82,7 @@
       "tXjZb3-pXJFRPQ:workA/workA",
       "0SL-HHTURQQEZf:workA/workA"
     ],
-    "_lastModifiedBy": "cd405ef0-2323-4874-9f83-b7aab77149b8",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1621266733117,
     "headOfficeCountry": "USA",
     "numberOfEmployees": "0",
