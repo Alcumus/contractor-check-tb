@@ -1,6 +1,6 @@
 [
   {
-    "__": "IhEk7X8Hr8EP3i",
+    "__": "-lkqX9AepvFI-B",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -1502,7 +1502,7 @@
                   "enabled": false
                 },
                 "goBack": "",
-                "caption": "Save",
+                "caption": "Submit",
                 "command": "setData",
                 "toState": "Saved",
                 "variant": "text",
