@@ -1,5 +1,5 @@
 {
-  "__": "zTNuf6T92hAjFr",
+  "__": "UO98_gvqzQw72T",
   "_id": "xDklBSu-uzSV88:hestia/document-types",
   "icon": "",
   "name": "SalesforceMigrationImport",
@@ -192,13 +192,14 @@
     {
       "id": "UUo7uk3raQDWtZ",
       "name": "initialWork",
-      "time": 1624568686825,
+      "time": 1624568835380,
       "user": "087af269-7b85-44fc-be62-94b7b6613ad8",
       "locked": false,
-      "_selectId": "2M9_n9Dw7yLygo"
+      "_selectId": "dDkJjPIMtzeyZt",
+      "parentVersion": ""
     }
   ],
-  "_modified": 1624568687000,
+  "_modified": 1624568835000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -223,38 +224,6 @@
                   "maxWidth": "",
                   "question": "",
                   "_selectId": "w0JwFLU2NnL9Av",
-                  "condition": "",
-                  "inputLabel": "",
-                  "defaultValue": "",
-                  "questionHeight": "",
-                  "questionLeftPad": "",
-                  "questionRightPad": "",
-                  "questionSpaceBefore": ""
-                },
-                {
-                  "id": "riGPK9HJfHxAuJ",
-                  "name": "Description",
-                  "type": "text",
-                  "hints": {},
-                  "maxWidth": "",
-                  "question": "",
-                  "_selectId": "zdJLmaC819zVuj",
-                  "condition": "",
-                  "inputLabel": "",
-                  "defaultValue": "",
-                  "questionHeight": "",
-                  "questionLeftPad": "",
-                  "questionRightPad": "",
-                  "questionSpaceBefore": ""
-                },
-                {
-                  "id": "CXuAZWYtB7-fLP",
-                  "name": "Website",
-                  "type": "text",
-                  "hints": {},
-                  "maxWidth": "",
-                  "question": "",
-                  "_selectId": "bQpgYE0H0lZtK6",
                   "condition": "",
                   "inputLabel": "",
                   "defaultValue": "",
