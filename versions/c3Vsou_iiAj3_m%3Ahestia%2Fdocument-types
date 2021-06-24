@@ -1,6 +1,6 @@
 [
   {
-    "__": "B9tETdSBGpQhfn",
+    "__": "uYY8nIXzSncVes",
     "_id": "c3Vsou_iiAj3_m-aR0fAcL1sQGZXb:hestia/versions",
     "__id": "c3Vsou_iiAj3_m:hestia/document-types",
     "icon": "",
@@ -190,7 +190,7 @@
     "_deleted": 0,
     "database": "salesforceContractorImport",
     "maxWidth": 1000,
-    "_modified": 1624565683000,
+    "_modified": 1624566461000,
     "components": "",
     "navigation": [],
     "_behaviours": {
@@ -290,8 +290,8 @@
               },
               {
                 "id": "AQiQmK1FF4pEha",
-                "field": "doYouUseContractors",
-                "value": "{doYouContract}",
+                "field": "doYouContract",
+                "value": "{description}",
                 "defaultValue": ""
               }
             ],
