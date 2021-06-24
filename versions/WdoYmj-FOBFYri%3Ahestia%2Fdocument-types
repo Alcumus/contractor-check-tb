@@ -1,6 +1,6 @@
 [
   {
-    "__": "YvmwZhrMJyb7rq",
+    "__": "DdQS3Dfr8Lm-Gr",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -199,7 +199,7 @@
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1624491322000,
+    "_modified": 1624494827000,
     "components": "navigation",
     "isLockedBy": null,
     "navigation": [],
@@ -534,7 +534,7 @@
                     "name": "doYouContract",
                     "type": "choice",
                     "hints": {
-                      "round_button": true
+                      "radio": true
                     },
                     "choices": [
                       {
@@ -567,9 +567,11 @@
                     "defaultChoices": [],
                     "preventNullify": "",
                     "questionHeight": "",
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
                     "buttonWidthSuffix": "px",
+                    "editableCondition": "",
                     "selectedTextColor": "#fff",
                     "borderRadiusSuffix": "%",
                     "buttonHeightSuffix": "px",
