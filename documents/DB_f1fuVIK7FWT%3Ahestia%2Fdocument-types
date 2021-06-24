@@ -1,5 +1,5 @@
 {
-  "__": "wPcX1PnlAVIp7M",
+  "__": "01eC4VkrOsqoJj",
   "_id": "DB_f1fuVIK7FWT:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -204,7 +204,7 @@
     }
   },
   "$invalid": false,
-  "_created": 1622205074000,
+  "_created": 1621422766000,
   "_deleted": 0,
   "database": "Teams",
   "maxWidth": 1000,
@@ -230,14 +230,14 @@
     {
       "id": "atSFOEnYdOyURT",
       "name": "1.1.0",
-      "time": 1624381281552,
-      "user": "3e424bc3-fb9a-47a1-93a1-056351146687",
+      "time": 1624550621492,
+      "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
       "locked": false,
-      "_selectId": "KS0MxJfJ5qnSIf",
+      "_selectId": "Ja8joMDNGTtF-M",
       "parentVersion": "WU65N1_qIn410U"
     }
   ],
-  "_modified": 1624377681000,
+  "_modified": 1624550623000,
   "components": "card 2.0",
   "isLockedBy": null,
   "navigation": [],
@@ -363,7 +363,7 @@
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+  "_lastModifiedBy": "7360895b-2e38-4601-baf6-16af027bf7ae",
   "defaultActivity": "kDe-e2LVJKEqg2",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
