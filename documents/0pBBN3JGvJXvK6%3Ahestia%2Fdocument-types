@@ -1,5 +1,5 @@
 {
-  "__": "wGObpx3hyp1MuL",
+  "__": "AwxsBs82KtQm4A",
   "_id": "0pBBN3JGvJXvK6:hestia/document-types",
   "icon": "",
   "name": "Contact",
@@ -197,14 +197,14 @@
     {
       "id": "UXlXJ3hYoZG3bS",
       "name": "1.0",
-      "time": 1624627399226,
+      "time": 1624628554598,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "DghzdSOrRiNrQk",
+      "_selectId": "xUWqZBrtVvpMzU",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624623799000,
+  "_modified": 1624624954000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -477,7 +477,7 @@
               "modal": {
                 "enabled": false
               },
-              "goBack": "",
+              "goBack": true,
               "caption": "Submit",
               "command": "setData",
               "toState": "New",
