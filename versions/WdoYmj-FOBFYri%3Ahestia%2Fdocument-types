@@ -1,6 +1,6 @@
 [
   {
-    "__": "zaThsW2qI4z-Iw",
+    "__": "6rKR-M5aZvHxM9",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -259,6 +259,24 @@
                     "questionSpaceBefore": ""
                   },
                   {
+                    "id": "hP7ETSsOD2aKRU",
+                    "name": "",
+                    "type": "card",
+                    "color": "",
+                    "hints": {},
+                    "title": "",
+                    "question": "",
+                    "_selectId": "AZO7_AykVqTXKW",
+                    "condition": "",
+                    "elevation": "",
+                    "topMargin": "",
+                    "background": "",
+                    "leftMargin": "",
+                    "collapsible": "",
+                    "rightMargin": "",
+                    "bottomMargin": ""
+                  },
+                  {
                     "id": "UVxygrF9sqVrgJ",
                     "name": "companyName",
                     "type": "text",
@@ -359,9 +377,23 @@
                     "inputLabel": "",
                     "defaultValue": "",
                     "questionHeight": "",
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "VCl1ocPpCIPkB_",
+                    "name": "",
+                    "type": "stop",
+                    "hints": {},
+                    "question": "",
+                    "stopWhat": [
+                      "card"
+                    ],
+                    "_selectId": "TIMEw6rvaW_KuA",
+                    "condition": ""
                   },
                   {
                     "id": "A1LcMkPGvhb3IX",
@@ -392,6 +424,24 @@
                     "questionSpaceBefore": ""
                   },
                   {
+                    "id": "b6Ok5YGYx-cgcm",
+                    "name": "",
+                    "type": "card",
+                    "color": "",
+                    "hints": {},
+                    "title": "",
+                    "question": "",
+                    "_selectId": "2KBYzVTaYxH1dR",
+                    "condition": "",
+                    "elevation": "",
+                    "topMargin": "",
+                    "background": "",
+                    "leftMargin": "",
+                    "collapsible": "",
+                    "rightMargin": "",
+                    "bottomMargin": ""
+                  },
+                  {
                     "id": "w-bdfrSO3fwaaU",
                     "name": "address",
                     "type": "text",
@@ -405,8 +455,10 @@
                     "inputLabel": "",
                     "defaultValue": "",
                     "questionHeight": "",
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": ""
                   },
                   {
@@ -453,9 +505,23 @@
                     "inputLabel": "Country",
                     "defaultValue": "",
                     "questionHeight": "",
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "W-486m212hklpO",
+                    "name": "",
+                    "type": "stop",
+                    "hints": {},
+                    "question": "",
+                    "stopWhat": [
+                      "card"
+                    ],
+                    "_selectId": "8oLvAJTWThtWmW",
+                    "condition": ""
                   }
                 ],
                 "description": ""
@@ -493,6 +559,24 @@
                     "questionLeftPad": "",
                     "questionRightPad": "",
                     "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "3bqmB2qhm7LZeD",
+                    "name": "",
+                    "type": "card",
+                    "color": "",
+                    "hints": {},
+                    "title": "",
+                    "question": "",
+                    "_selectId": "5RZMm_fSnSuxTZ",
+                    "condition": "",
+                    "elevation": "",
+                    "topMargin": "",
+                    "background": "",
+                    "leftMargin": "",
+                    "collapsible": "",
+                    "rightMargin": "",
+                    "bottomMargin": ""
                   },
                   {
                     "id": "SxLdcrQqH-PQ46",
@@ -1165,10 +1249,22 @@
                     "requiredFields": [
                       "companyName"
                     ],
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "displayView_name": "Name",
                     "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "p6bgatjFLtqYJW",
+                    "name": "",
+                    "type": "stop",
+                    "hints": {},
+                    "question": "",
+                    "stopWhat": [],
+                    "_selectId": "NWxOR48maMtsdL",
+                    "condition": ""
                   },
                   {
                     "id": "X0stRxDnbxpZAj",
