@@ -1,5 +1,5 @@
 {
-  "__": "3B2Ov8eLx5HWN_",
+  "__": "pfBe5kmvdf-EMz",
   "_id": "_PwCnwt36kDYFu:hestia/document-types",
   "icon": "",
   "name": "DemoCompanyRecord",
@@ -181,7 +181,6 @@
       "gitHubPublish": true
     }
   },
-  "locked": false,
   "_client": "rsihYJKKDVyaYN",
   "demands": [],
   "graphQL": {
@@ -190,7 +189,7 @@
     }
   },
   "$invalid": false,
-  "_created": 1624359795000,
+  "_created": 1624267523000,
   "_deleted": 0,
   "database": "demo",
   "maxWidth": 1000,
@@ -198,19 +197,11 @@
     {
       "id": "7KiZdDrgmYmC58",
       "name": "1",
-      "time": 1624011314927,
-      "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
-      "locked": true,
-      "_selectId": "CQn7R1iY6mfyxE",
+      "time": 1624618035824,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": false,
+      "_selectId": "JYmP7UYwQelzTe",
       "parentVersion": ""
-    },
-    {
-      "id": "AFJ_YDOABQ3zPH",
-      "name": "1.0.1",
-      "time": 1624368525099,
-      "user": "ff79dada-c9af-494d-9025-39ccae118cea",
-      "locked": true,
-      "parentVersion": "7KiZdDrgmYmC58"
     }
   ],
   "webhooks": {
@@ -218,9 +209,8 @@
       "exposeWebhooks": ""
     }
   },
-  "_modified": 1624368531000,
+  "_modified": 1624614436000,
   "components": "",
-  "isLockedBy": null,
   "navigation": [],
   "_behaviours": {
     "_state": "",
@@ -371,21 +361,21 @@
   "sidebarColor": "#333",
   "tabsSelected": "#009fda",
   "documentColor": "#333",
-  "_activeVersion": "7h27wo1wCVyNXj",
-  "_parentVersion": "AFJ_YDOABQ3zPH",
+  "_activeVersion": "AFJ_YDOABQ3zPH",
+  "_parentVersion": "7KiZdDrgmYmC58",
   "currentVersion": {
-    "live": "1.0.1",
-    "development": "1.0.1"
+    "live": "1",
+    "testing": "1",
+    "development": "1"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "ff79dada-c9af-494d-9025-39ccae118cea",
+  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
   "defaultActivity": "s40UL88T_z6jbt",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
   "documentBackdrop": "#f4f4f4",
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
-  "devices-allowed-html": "",
-  "isLockedByCurrentUser": false
+  "devices-allowed-html": ""
 }

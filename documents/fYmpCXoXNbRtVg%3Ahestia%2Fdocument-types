@@ -1,5 +1,5 @@
 {
-  "__": "aLydonpqbJTE2W",
+  "__": "n5P6wvQRL73pZi",
   "_id": "fYmpCXoXNbRtVg:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -201,14 +201,14 @@
     {
       "id": "D57acZ-uIHF-Tx",
       "name": "1.0",
-      "time": 1624534092457,
+      "time": 1624618063795,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "DTvYrNnZapJnUP",
+      "_selectId": "udoOysGMwxIEqi",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624530495000,
+  "_modified": 1624614464000,
   "components": "verification,helptext,navigation,formprogress",
   "isLockedBy": null,
   "navigation": [],
@@ -293,10 +293,8 @@
                         "form": "allForms"
                       }
                     ],
-                    "hints": {
-                      "countOnlyRequiredFields": true
-                    },
-                    "hideBar": true,
+                    "hints": {},
+                    "hideBar": false,
                     "barWidth": "50%",
                     "diameter": "40px",
                     "endLabel": "",
@@ -319,7 +317,9 @@
                     "showPercentage": false,
                     "showSeparators": false,
                     "backgroundColor": "#ededed",
-                    "startLabelColor": "#000"
+                    "clearIfDisabled": "",
+                    "startLabelColor": "#000",
+                    "editableCondition": ""
                   },
                   "rightMiddleSlot": null
                 },
@@ -387,6 +387,24 @@
                     "questionRightPad": "",
                     "questionSpaceBefore": ""
                   }
+                },
+                {
+                  "id": "dRq_s1sO2nEwUz",
+                  "name": "progress",
+                  "type": "text",
+                  "hints": {
+                    "hidden": true
+                  },
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "yCyzDGjygC2jU9",
+                  "condition": "",
+                  "inputLabel": "",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
                 }
               ],
               "description": ""

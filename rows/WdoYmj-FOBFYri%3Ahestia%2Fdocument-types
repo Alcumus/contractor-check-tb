@@ -1,6 +1,6 @@
 [
   {
-    "__": "F0XNLKJjpCqSI2",
+    "__": "U2-0CjZfWeP57z",
     "ZIP": "999",
     "_id": "1621266694681:companyP/companyP",
     "City": "Racoon City",
@@ -30,6 +30,52 @@
             "_settings": {
               "_id": "UJns4BZ0dhGyw5:hestia/document-types"
             }
+          },
+          {
+            "_id": "4ZOTyeDJ12zt7K:contractorcheck/masterCompanyProfile",
+            "_settings": {
+              "_id": "UJns4BZ0dhGyw5:hestia/document-types"
+            }
+          }
+        ]
+      },
+      "workActivities": {
+        "rows": [
+          {
+            "_id": "hZ_qK7iOHgS-FA:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          },
+          {
+            "_id": "1zgco_vwvH6Uat:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          },
+          {
+            "_id": "tXjZb3-pXJFRPQ:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          },
+          {
+            "_id": "0SL-HHTURQQEZf:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          },
+          {
+            "_id": "1J2eLs8b1pARUz:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          },
+          {
+            "_id": "4AALZ6jd6nPmFT:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
           }
         ]
       }
@@ -51,7 +97,8 @@
       "Bimbo Canada (Canada Bread)",
       "Bird Construction (Client)",
       "Bouygues Energies & Services",
-      "Crown Property Management Inc."
+      "Crown Property Management Inc.",
+      "First Gulf (Client)"
     ],
     "country": [
       "Canada",
@@ -70,7 +117,7 @@
       "Alberta",
       "British Columbia"
     ],
-    "_modified": 1624492451000,
+    "_modified": 1624542810000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
@@ -98,13 +145,16 @@
       "Audio and Visual Systems - Installation, Maintenance",
       "Construction Management",
       "Cooling Tower Maintenance",
-      "Commercial Diving"
+      "Commercial Diving",
+      "Electrical Heating Systems - Installation, Maintenance",
+      "Electrical Work - Installation, Maintenance(below 600V)"
     ],
     "clientsLookup": [
       "Mx20OTel7MWV4d:contractorcheck/masterCompanyProfile",
       "0pVu0Ed45F96oN:contractorcheck/masterCompanyProfile",
       "lcdBsxkACkPCHQ:contractorcheck/masterCompanyProfile",
-      "aNnsZjYxexfOY0:contractorcheck/masterCompanyProfile"
+      "aNnsZjYxexfOY0:contractorcheck/masterCompanyProfile",
+      "4ZOTyeDJ12zt7K:contractorcheck/masterCompanyProfile"
     ],
     "doYouContract": "yes",
     "classification": "Maintenance",
@@ -112,7 +162,9 @@
       "hZ_qK7iOHgS-FA:workA/workA",
       "1zgco_vwvH6Uat:workA/workA",
       "tXjZb3-pXJFRPQ:workA/workA",
-      "0SL-HHTURQQEZf:workA/workA"
+      "0SL-HHTURQQEZf:workA/workA",
+      "1J2eLs8b1pARUz:workA/workA",
+      "4AALZ6jd6nPmFT:workA/workA"
     ],
     "_lastModifiedBy": "cd405ef0-2323-4874-9f83-b7aab77149b8",
     "_stateChangedAt": 1621266733117,
