@@ -1,5 +1,5 @@
 {
-  "__": "p5C1eNkGAVcgdN",
+  "__": "k2-btmZVTOrPkJ",
   "_id": "UJns4BZ0dhGyw5:hestia/document-types",
   "icon": "",
   "name": "Master List Company Profile",
@@ -169,15 +169,15 @@
   "client": "rsihYJKKDVyaYN",
   "gitHub": {
     "1J8739KZBOtzVQ": {
-      "publishDocs": "",
-      "gitHubPublish": true
-    },
-    "1rr4bM4EH-AQP9": {
       "publishDocs": true,
       "gitHubPublish": true
     },
-    "aV8boSk1D6q6YG": {
+    "1rr4bM4EH-AQP9": {
       "publishDocs": "",
+      "gitHubPublish": true
+    },
+    "aV8boSk1D6q6YG": {
+      "publishDocs": true,
       "gitHubPublish": true
     },
     "zHYkrrsjUcXvCT": {
@@ -185,7 +185,6 @@
       "gitHubPublish": true
     }
   },
-  "locked": false,
   "_client": "rsihYJKKDVyaYN",
   "demands": [],
   "graphQL": {
@@ -213,34 +212,15 @@
     {
       "id": "8eXUnVjk2o1gFo",
       "name": "1.0",
-      "time": 1624367685826,
-      "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
-      "locked": true,
-      "_selectId": "H-EFTIkrt9CKRs",
-      "parentVersion": ""
-    },
-    {
-      "id": "zj8LEt7EOU-k4m",
-      "name": "1.0.1",
-      "time": 1624367960003,
-      "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
-      "locked": true,
-      "_selectId": "8_rwKMuY2ew8NB",
-      "parentVersion": "8eXUnVjk2o1gFo"
-    },
-    {
-      "id": "VS0wTpuS4ZELYB",
-      "name": "2.0.0",
-      "time": 1624377836126,
+      "time": 1624624175041,
       "user": "62472027-dc65-4c8a-816d-bb79b891a870",
       "locked": false,
-      "_selectId": "aiWnCMX8c68-6Q",
-      "parentVersion": "zj8LEt7EOU-k4m"
+      "_selectId": "Zj_T-R4S5K6ScU",
+      "parentVersion": ""
     }
   ],
-  "_modified": 1624377841000,
+  "_modified": 1624624176000,
   "components": "",
-  "isLockedBy": null,
   "navigation": [],
   "_behaviours": {
     "_state": "",
@@ -259,6 +239,23 @@
           },
           "derivedFromName": "Company Profile"
         }
+      ],
+      "viewAsText": [
+        {
+          "id": "TwE9lX50LCjAz3",
+          "name": "Master List Name",
+          "fields": [
+            {
+              "id": "q6wfZWJTQsET-v",
+              "field": "companyName",
+              "separator": " ",
+              "transform": "none",
+              "defaultValue": ""
+            }
+          ],
+          "_selectId": "wcSD8AHeQjAJMz",
+          "availableActions": []
+        }
       ]
     }
   },
@@ -269,12 +266,12 @@
   "sidebarColor": "#333",
   "tabsSelected": "#009fda",
   "documentColor": "#333",
-  "_activeVersion": "if-_6c3fRSCl-K",
-  "_parentVersion": "VS0wTpuS4ZELYB",
+  "_activeVersion": "zj8LEt7EOU-k4m",
+  "_parentVersion": "8eXUnVjk2o1gFo",
   "currentVersion": {
-    "live": "2.0.0",
-    "testing": "2.0.0",
-    "development": "2.0.0"
+    "live": "1.0",
+    "testing": "1.0",
+    "development": "1.0"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
@@ -285,6 +282,5 @@
   "documentBackdrop": "#f4f4f4",
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
-  "devices-allowed-html": "",
-  "isLockedByCurrentUser": false
+  "devices-allowed-html": ""
 }
