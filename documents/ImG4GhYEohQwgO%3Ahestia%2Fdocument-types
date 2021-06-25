@@ -1,5 +1,5 @@
 {
-  "__": "mUe2qNCWXrw17I",
+  "__": "XrLuN8_PL93WMj",
   "_id": "ImG4GhYEohQwgO:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -246,29 +246,11 @@
     {
       "id": "YAsc-hxBglasCu",
       "name": "1.0",
-      "time": 1623831291625,
-      "user": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
-      "locked": true,
-      "_selectId": "WQC3hpGLlXFFCH",
-      "parentVersion": "tzg4n_Tc9y7XG7"
-    },
-    {
-      "id": "yDkAUUYkv3srRO",
-      "name": "1.0.1",
-      "time": 1624367959985,
-      "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
-      "locked": true,
-      "_selectId": "RiZmM40xxvTdeP",
-      "parentVersion": "YAsc-hxBglasCu"
-    },
-    {
-      "id": "dtc91t1AN2-Rm8",
-      "name": "1.1",
-      "time": 1624377781142,
+      "time": 1624624013849,
       "user": "62472027-dc65-4c8a-816d-bb79b891a870",
       "locked": false,
-      "_selectId": "d-XYh9F8AwzJQF",
-      "parentVersion": "yDkAUUYkv3srRO"
+      "_selectId": "pIHaObn_6abYWL",
+      "parentVersion": "tzg4n_Tc9y7XG7"
     }
   ],
   "webhooks": {
@@ -277,7 +259,7 @@
       "exposeWebhooks": true
     }
   },
-  "_modified": 1624377786000,
+  "_modified": 1624624015000,
   "components": "",
   "isLockedBy": null,
   "navigation": [],
@@ -508,12 +490,12 @@
   "tabsSelected": "#009fda",
   "__warnReasons": [],
   "documentColor": "#333",
-  "_activeVersion": "5_nfr4uq9NFuMn",
-  "_parentVersion": "dtc91t1AN2-Rm8",
+  "_activeVersion": "yDkAUUYkv3srRO",
+  "_parentVersion": "YAsc-hxBglasCu",
   "currentVersion": {
-    "live": "1.1",
-    "testing": "1.1",
-    "development": "1.1"
+    "live": "1.0",
+    "testing": "1.0",
+    "development": "1.0"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
