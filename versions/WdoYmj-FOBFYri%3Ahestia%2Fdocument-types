@@ -1,6 +1,6 @@
 [
   {
-    "__": "GisfKmy3kwAqOJ",
+    "__": "zaThsW2qI4z-Iw",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -1345,7 +1345,7 @@
         ],
         "styled": [
           {
-            "css": ".title {\n    border-radius: 205px;\n    margin: 4px;\n    padding-left: 32px;\n    padding-right: 32px;\n    \n}\n\n.title [class*=h1-] {\n    font-size: 20px !important;\n}",
+            "css": ".title {\n    border-radius: 205px;\n    margin: 4px;\n    \n}\n\n.title [class*=h1-] {\n    font-size: 20px !important;\n}",
             "_init": true,
             "_selectId": "8bxlAvIOfisovH"
           }
