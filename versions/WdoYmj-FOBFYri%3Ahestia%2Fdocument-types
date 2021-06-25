@@ -1517,7 +1517,7 @@
     "isLockedByCurrentUser": false
   },
   {
-    "__": "O-H50UG5Yz4kz5",
+    "__": "JxTFGfD8qccFYZ",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -1694,8 +1694,16 @@
         "publishDocs": "",
         "gitHubPublish": true
       },
+      "1rr4bM4EH-AQP9": {
+        "publishDocs": "",
+        "gitHubPublish": true
+      },
       "aV8boSk1D6q6YG": {
         "publishDocs": true,
+        "gitHubPublish": true
+      },
+      "zHYkrrsjUcXvCT": {
+        "publishDocs": "",
         "gitHubPublish": true
       }
     },
@@ -1709,6 +1717,9 @@
         "exposeAPI": true,
         "readDemands": [],
         "writeDemands": []
+      },
+      "aZ5t8g0t4u8p6D": {
+        "exposeAPI": ""
       }
     },
     "$invalid": false,
