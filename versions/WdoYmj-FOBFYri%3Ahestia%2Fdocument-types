@@ -1,6 +1,6 @@
 [
   {
-    "__": "8EKXAzSaZFiTcq",
+    "__": "b483JReE5fDSsr",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -573,7 +573,7 @@
                     "type": "choice",
                     "color": "#1da7e0",
                     "hints": {
-                      "round_button": true
+                      "radio": true
                     },
                     "choices": [
                       {
