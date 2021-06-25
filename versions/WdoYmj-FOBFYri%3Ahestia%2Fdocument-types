@@ -1,6 +1,6 @@
 [
   {
-    "__": "c2tfV4iOgNtOMI",
+    "__": "8EKXAzSaZFiTcq",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -680,8 +680,10 @@
                     },
                     "defaultChoices": [],
                     "questionHeight": "",
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": ""
                   },
                   {
@@ -811,7 +813,7 @@
                     },
                     "lines": 1,
                     "groups": [],
-                    "question": "",
+                    "question": "<p>What work activities do are you involved in?</p>\n",
                     "_selectId": "QfQbuYf1ojTPt3",
                     "condition": "",
                     "popupView": "tS4DUkUYSJz3cx",
@@ -834,9 +836,11 @@
                     "requiredFields": [
                       "workActivity"
                     ],
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "displayView_name": "List of Work Activities",
                     "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": ""
                   },
                   {
@@ -859,7 +863,7 @@
                       ]
                     },
                     "groups": [],
-                    "question": "",
+                    "question": "<p>Which clients do you work with?</p>\n",
                     "_selectId": "5qu5TL1ekVAv49",
                     "condition": "",
                     "popupView": "TwE9lX50LCjAz3",

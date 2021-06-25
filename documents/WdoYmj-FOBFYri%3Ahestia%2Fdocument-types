@@ -1,5 +1,5 @@
 {
-  "__": "AbZ3rqQAa9eIoN",
+  "__": "9PqAUAyUSNxg8A",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -228,14 +228,14 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1624626567731,
+      "time": 1624626649817,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "3sAGzrydv3czq7",
+      "_selectId": "fRZfqcTdPpcjVM",
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1624622968000,
+  "_modified": 1624623050000,
   "components": "navigation",
   "isLockedBy": null,
   "navigation": [],
@@ -716,8 +716,10 @@
                   },
                   "defaultChoices": [],
                   "questionHeight": "",
+                  "clearIfDisabled": "",
                   "questionLeftPad": "",
                   "questionRightPad": "",
+                  "editableCondition": "",
                   "questionSpaceBefore": ""
                 },
                 {
@@ -847,7 +849,7 @@
                   },
                   "lines": 1,
                   "groups": [],
-                  "question": "",
+                  "question": "<p>What work activities do are you involved in?</p>\n",
                   "_selectId": "QfQbuYf1ojTPt3",
                   "condition": "",
                   "popupView": "tS4DUkUYSJz3cx",
@@ -870,9 +872,11 @@
                   "requiredFields": [
                     "workActivity"
                   ],
+                  "clearIfDisabled": "",
                   "questionLeftPad": "",
                   "displayView_name": "List of Work Activities",
                   "questionRightPad": "",
+                  "editableCondition": "",
                   "questionSpaceBefore": ""
                 },
                 {
@@ -895,7 +899,7 @@
                     ]
                   },
                   "groups": [],
-                  "question": "",
+                  "question": "<p>Which clients do you work with?</p>\n",
                   "_selectId": "5qu5TL1ekVAv49",
                   "condition": "",
                   "popupView": "TwE9lX50LCjAz3",
