@@ -1,6 +1,6 @@
 [
   {
-    "__": "9AJsgubf-7wpu5",
+    "__": "UEnupo7SahaQDK",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -199,7 +199,7 @@
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1624530259000,
+    "_modified": 1624530284000,
     "components": "navigation",
     "isLockedBy": null,
     "navigation": [],
