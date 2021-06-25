@@ -1,5 +1,5 @@
 {
-  "__": "msR0eW5TBgGtp0",
+  "__": "wGObpx3hyp1MuL",
   "_id": "0pBBN3JGvJXvK6:hestia/document-types",
   "icon": "",
   "name": "Contact",
@@ -197,14 +197,14 @@
     {
       "id": "UXlXJ3hYoZG3bS",
       "name": "1.0",
-      "time": 1624618054585,
+      "time": 1624627399226,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "nzztu1Hzyb1tQA",
+      "_selectId": "DghzdSOrRiNrQk",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624614454000,
+  "_modified": 1624623799000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -240,11 +240,11 @@
                   "type": "card",
                   "color": "",
                   "hints": {},
-                  "title": "",
+                  "title": "Your Details",
                   "question": "",
                   "_selectId": "FDt4JWYCVJq5N-",
                   "condition": "",
-                  "elevation": "",
+                  "elevation": 2,
                   "topMargin": "",
                   "background": "",
                   "leftMargin": "",

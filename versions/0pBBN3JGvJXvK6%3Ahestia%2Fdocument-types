@@ -1,6 +1,6 @@
 [
   {
-    "__": "ZzQF4dFxmQ5XjW",
+    "__": "T4fNTF3hZhPEOa",
     "_id": "0pBBN3JGvJXvK6-UXlXJ3hYoZG3bS:hestia/versions",
     "__id": "0pBBN3JGvJXvK6:hestia/document-types",
     "icon": "",
@@ -195,7 +195,7 @@
     "_deleted": 0,
     "database": "contractorcheck",
     "maxWidth": 1000,
-    "_modified": 1624538978000,
+    "_modified": 1624614454000,
     "components": "",
     "navigation": [],
     "_behaviours": {
@@ -231,11 +231,11 @@
                     "type": "card",
                     "color": "",
                     "hints": {},
-                    "title": "",
+                    "title": "Your Details",
                     "question": "",
                     "_selectId": "FDt4JWYCVJq5N-",
                     "condition": "",
-                    "elevation": "",
+                    "elevation": 2,
                     "topMargin": "",
                     "background": "",
                     "leftMargin": "",
