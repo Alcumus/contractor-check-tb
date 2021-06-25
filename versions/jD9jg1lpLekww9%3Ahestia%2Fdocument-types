@@ -1,7 +1,7 @@
 [
   {
-    "__": "T_lvoxuIE8oaBF",
-    "_id": "jD9jg1lpLekww9-gSqk_maQZmykdr:hestia/versions",
+    "__": "9oi6xroZFmEj2q",
+    "_id": "jD9jg1lpLekww9-2yfOBIKlh8W31B:hestia/versions",
     "__id": "jD9jg1lpLekww9:hestia/document-types",
     "icon": "",
     "name": "SalesForceAccounts",
@@ -183,7 +183,6 @@
         "gitHubPublish": true
       }
     },
-    "locked": false,
     "_client": "rsihYJKKDVyaYN",
     "demands": [],
     "graphQL": {
@@ -196,7 +195,7 @@
       }
     },
     "$invalid": false,
-    "_created": 1624356837000,
+    "_created": 1624267525000,
     "_deleted": 0,
     "database": "salesforce",
     "maxWidth": 1000,
@@ -205,9 +204,8 @@
         "exposeWebhooks": ""
       }
     },
-    "_modified": 1624521382000,
+    "_modified": 1624267525000,
     "components": "",
-    "isLockedBy": null,
     "navigation": [],
     "_behaviours": {
       "_state": "",
@@ -339,23 +337,22 @@
     "sidebarColor": "#333",
     "tabsSelected": "#009fda",
     "documentColor": "#333",
-    "_activeVersion": "gSqk_maQZmykdr",
-    "_parentVersion": "9VBJkCvhNTZ9Og",
+    "_activeVersion": "2yfOBIKlh8W31B",
+    "_parentVersion": "",
     "currentVersion": {
-      "live": "1.0.1",
-      "testing": "1.0.1",
-      "development": "1.0.1"
+      "live": "1",
+      "testing": "1",
+      "development": "1"
     },
     "tabsBackground": "#f4f4f4",
     "tabsForeground": "#555",
-    "_lastModifiedBy": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "defaultActivity": "UmSH7vPTuW2IU4",
     "devices-allowed": "",
     "sideBarMinWidth": 150,
     "documentBackdrop": "#f4f4f4",
     "sidebarBackground": "#fff",
     "documentBackground": "#f4f4f4",
-    "devices-allowed-html": "",
-    "isLockedByCurrentUser": false
+    "devices-allowed-html": ""
   }
 ]
