@@ -1,6 +1,6 @@
 [
   {
-    "__": "b483JReE5fDSsr",
+    "__": "K4kL4mMb0_IMQz",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -199,7 +199,7 @@
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1624622756000,
+    "_modified": 1624623186000,
     "components": "navigation",
     "isLockedBy": null,
     "navigation": [],
@@ -942,8 +942,9 @@
                     "id": "JHi3haTWV_GctK",
                     "name": "doYouUseContractors",
                     "type": "choice",
+                    "color": "#009fda",
                     "hints": {
-                      "round_button": true
+                      "radio": true
                     },
                     "choices": [
                       {
@@ -968,7 +969,15 @@
                         "icon": "",
                         "colour": ""
                       },
+                      "no": {
+                        "icon": "",
+                        "colour": ""
+                      },
                       "Yes": {
+                        "icon": "",
+                        "colour": ""
+                      },
+                      "yes": {
                         "icon": "",
                         "colour": ""
                       }
@@ -1054,8 +1063,10 @@
                     },
                     "defaultChoices": [],
                     "questionHeight": "",
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": ""
                   },
                   {
