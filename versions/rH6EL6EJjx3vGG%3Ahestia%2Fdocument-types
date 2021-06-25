@@ -1,0 +1,802 @@
+[
+  {
+    "__": "5xVa99KpuODJpy",
+    "_id": "rH6EL6EJjx3vGG-wtCwBMwccCGSfQ:hestia/versions",
+    "__id": "rH6EL6EJjx3vGG:hestia/document-types",
+    "__ok": true,
+    "icon": "",
+    "name": "Work  Activities",
+    "tags": [],
+    "_type": "document",
+    "table": "workA",
+    "theme": {
+      "other": {
+        "opacity": {
+          "AlcOpacity_001": "10%",
+          "AlcOpacity_002": "25%",
+          "AlcOpacity_003": "50%",
+          "AlcOpacity_004": "75%"
+        },
+        "palette": {
+          "gold": "gold",
+          "type": "light",
+          "bronze": "#853",
+          "silver": "silver",
+          "primary": {
+            "main": "#1da7e0",
+            "contrastText": "#fff"
+          },
+          "AlcSys_001": "#FFFFFF",
+          "AlcSys_002": "#F7F8F9",
+          "AlcSys_003": "#F4F5F6",
+          "AlcSys_004": "#EBEBED",
+          "AlcSys_005": "#CCCCCC",
+          "AlcSys_006": "rgba(125, 125, 125, 1)",
+          "AlcSys_007": "#263836",
+          "AlcSys_008": "#000000",
+          "AlcBrand_001": "#1da7e0",
+          "AlcBrand_002": "#0081AF",
+          "AlcBrand_003": "#294A76",
+          "AlcBrand_004": "#0099B3",
+          "AlcBrand_005": "#604696",
+          "AlcBrand_006": "#D26A37",
+          "AlcBrand_007": "#679861",
+          "AlcBrand_008": "#EBBA00",
+          "AlcBrand_009": "#8C1D82",
+          "AlcBrand_010": "#DC840A",
+          "AlcSys_006_10": "rgba(125, 125, 125, .1)",
+          "AlcSys_006_25": "rgba(125, 125, 125, .25)",
+          "AlcSys_006_50": "rgba(125, 125, 125, .50)",
+          "AlcSys_006_75": "rgba(125, 125, 125, .75)",
+          "AlcSys_Grad001": "linear-gradient(55deg, #F7F8F9 100%, #F4F5F6 100%)",
+          "AlcSys_Grad002": "linear-gradient(55deg, #1da7e0 100%, #604696 100%)",
+          "AlcSysState_prog": "rgba(235, 186, 0, 1)",
+          "AlcSysState_risk": "rgba(233, 75, 75, 1)",
+          "AlcSysState_green": "rgba(63, 195, 128, 1)",
+          "AlcSysState_issue": "rgba(233, 165, 75, 1)",
+          "AlcSysState_prog_10": "rgba(235, 186, 0, .1)",
+          "AlcSysState_prog_25": "rgba(235, 186, 0,.251)",
+          "AlcSysState_prog_50": "rgba(235, 186, 0,.5)",
+          "AlcSysState_prog_75": "rgba(235, 186, 0, .75)",
+          "AlcSysState_risk_10": "rgba(233, 75, 75, .1)",
+          "AlcSysState_risk_25": "rgba(233, 75, 75, .25)",
+          "AlcSysState_risk_50": "rgba(233, 75, 75, .50)",
+          "AlcSysState_risk_75": "rgba(233, 75, 75, .75)",
+          "AlcSysState_green_10": "rgba(63, 195, 128, 0.1)",
+          "AlcSysState_green_25": "rgba(63, 195, 128, 0.25)",
+          "AlcSysState_green_50": "rgba(63, 195, 128, 0.5)",
+          "AlcSysState_green_75": "rgba(63, 195, 128, 0.75)",
+          "AlcSysState_issue_10": "rgba(233, 165, 75, .1)",
+          "AlcSysState_issue_25": "rgba(233, 165, 75, .25)",
+          "AlcSysState_issue_50": "rgba(233, 165, 75, .50)",
+          "AlcSysState_issue_75": "rgba(233, 165, 75, .75)"
+        },
+        "document": {
+          "form": {
+            "fontSize": 16,
+            "fontFamily": "Roboto, sans-serif"
+          },
+          "child": {
+            "fontSize": 16,
+            "fontFamily": "Roboto, sans-serif"
+          },
+          "fontSize": 16,
+          "fontFamily": "Roboto, sans-serif"
+        },
+        "typography": {
+          "h1": {
+            "fontSize": "2.8em",
+            "fontFamily": "Montserrat, sans-serif",
+            "fontWeight": 700
+          },
+          "h2": {
+            "fontSize": "2.3em",
+            "fontFamily": "Montserrat",
+            "fontWeight": 400
+          },
+          "h3": {
+            "fontSize": "2em",
+            "fontFamily": "Montserrat",
+            "fontWeight": 400
+          },
+          "h4": {
+            "fontSize": "1.667em",
+            "fontFamily": "Montserrat",
+            "fontWeight": 500
+          },
+          "h5": {
+            "fontSize": "1.333em",
+            "fontFamily": "Montserrat",
+            "fontWeight": 500
+          },
+          "h6": {
+            "fontSize": "1.167em",
+            "fontFamily": "Montserrat",
+            "fontWeight": 400
+          },
+          "body1": {
+            "fontSize": "1.167em",
+            "fontFamily": "Roboto"
+          },
+          "body2": {
+            "fontSize": "1em",
+            "fontFamily": "Roboto"
+          },
+          "body3": {
+            "fontSize": "0.9em",
+            "fontFamily": "Roboto"
+          },
+          "body4": {
+            "fontSize": "14px",
+            "fontFamily": "Roboto"
+          },
+          "overline": {
+            "fontSize": "0.917em",
+            "fontFamily": "Montserrat",
+            "fontWeight": 500,
+            "textTransform": "uppercase"
+          },
+          "Action1_Medium": {
+            "fontSize": "1.167em",
+            "fontFamily": "Montserrat",
+            "fontWeight": 500
+          },
+          "Action2_Medium": {
+            "fontSize": "1em",
+            "fontFamily": "Montserrat",
+            "fontWeight": 500
+          },
+          "Action1_Regular": {
+            "fontSize": "1.167em",
+            "fontFamily": "Montserrat"
+          },
+          "Action2_Regular": {
+            "fontSize": "1em",
+            "fontFamily": "Montserrat"
+          },
+          "Action1_SemiBold": {
+            "fontSize": "1.167em",
+            "fontFamily": "Montserrat",
+            "fontWeight": 600
+          },
+          "Action2_SemiBold": {
+            "fontSize": "1em",
+            "fontFamily": "Montserrat",
+            "fontWeight": 600
+          }
+        }
+      },
+      "theme": "Alcumus",
+      "permanentTheme": ""
+    },
+    "__warn": false,
+    "client": "@WORK",
+    "locked": false,
+    "_client": "@WORK",
+    "demands": [],
+    "_created": 1621432264000,
+    "_deleted": 0,
+    "database": "workA",
+    "maxWidth": 1000,
+    "_modified": 1621466989000,
+    "_versionId": "rH6EL6EJjx3vGG-wtCwBMwccCGSfQ:hestia/versions",
+    "components": "",
+    "isLockedBy": null,
+    "navigation": [],
+    "_behaviours": {
+      "_state": "",
+      "instances": {
+        "form": [
+          {
+            "id": "mnhk-9aVbpoQ3r",
+            "name": "Main",
+            "sections": [
+              {
+                "name": "Main",
+                "_expanded": true,
+                "_selectId": "q6wRV4xTbnagri",
+                "condition": "",
+                "questions": [
+                  {
+                    "id": "-tDFZcnZ5AwAkZ",
+                    "name": "workActivity",
+                    "type": "text",
+                    "hints": {},
+                    "maxWidth": "",
+                    "question": "",
+                    "_selectId": "GdLj0nswP871bK",
+                    "condition": "",
+                    "inputLabel": "",
+                    "defaultValue": "",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "ZOU0S_skCl-gpQ",
+                    "name": "workActivities",
+                    "rows": 5,
+                    "type": "documentList",
+                    "hints": {},
+                    "where": {},
+                    "listType": "rH6EL6EJjx3vGG:hestia/document-types",
+                    "question": "",
+                    "_selectId": "yyPrTnqspiEY9M",
+                    "condition": "",
+                    "filterText": "",
+                    "navigation": [],
+                    "displayView": "IOvAqZx5yk41ev",
+                    "sortColumns": [],
+                    "listTypeName": "Work  Activities",
+                    "displayFields": [],
+                    "filterColumns": [],
+                    "useDataSource": "",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "displayView_name": "Imported Work Activities",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "gBDWK_PPt7AhxF",
+                    "icon": "",
+                    "name": "",
+                    "type": "excelImport",
+                    "color": "",
+                    "hints": {},
+                    "width": "",
+                    "fields": {
+                      "_id": {
+                        "mapping": ""
+                      },
+                      "$state": {
+                        "mapping": ""
+                      },
+                      "$creator": {
+                        "mapping": ""
+                      },
+                      "_created": {
+                        "mapping": ""
+                      },
+                      "_modified": {
+                        "mapping": ""
+                      },
+                      "workActivity": {
+                        "mapping": "{Work Activities}"
+                      }
+                    },
+                    "height": "",
+                    "variant": "text",
+                    "idColumn": "",
+                    "question": "",
+                    "_selectId": "i3BnhhyvYghZCW",
+                    "condition": "",
+                    "importType": "rH6EL6EJjx3vGG:hestia/document-types",
+                    "sourceSheet": "Sheet1",
+                    "buttonCaption": "Import",
+                    "createUniqueId": true,
+                    "importTypeName": "Work  Activities",
+                    "backgroundColor": "",
+                    "backgroundImage": "",
+                    "additionalFields": [],
+                    "exampleExcelFile": {
+                      "Sheet1": [
+                        "Work Activities"
+                      ]
+                    },
+                    "backgroundPosition": ""
+                  }
+                ],
+                "description": ""
+              }
+            ],
+            "_selectId": "OMLPP1bywG4M1P",
+            "condition": "",
+            "description": "",
+            "duplicateNames": {}
+          }
+        ],
+        "formAction": [
+          {
+            "id": "sf5_XV2E1ihhek",
+            "name": "Main",
+            "forms": [
+              {
+                "id": "ebiR51heR7T0lP",
+                "form": "mnhk-9aVbpoQ3r",
+                "readOnly": "",
+                "_selectId": "Twb0BZgN9lKWfj"
+              }
+            ],
+            "inline": true,
+            "actions": [
+              {
+                "id": "TpyvIYiWPxULgf",
+                "blur": "",
+                "icon": "",
+                "color": "#fff",
+                "modal": {
+                  "enabled": false
+                },
+                "goBack": "",
+                "caption": "Save",
+                "command": "setData",
+                "toState": "Saved",
+                "variant": "text",
+                "_selectId": "PGg6bwQFeirbaD",
+                "condition": "",
+                "endOfLine": "",
+                "navigateTo": "",
+                "properties": [],
+                "changeState": true,
+                "backgroundColor": "#03a9f4",
+                "visibleCondition": "",
+                "notificationToast": ""
+              }
+            ],
+            "storeIn": "",
+            "_selectId": "ljQSlS6YPwRyKu",
+            "editDemands": [],
+            "inputStates": [
+              "New"
+            ],
+            "visibleDemands": []
+          }
+        ],
+        "viewAsText": [
+          {
+            "id": "tS4DUkUYSJz3cx",
+            "name": "List of Work Activities",
+            "fields": [
+              {
+                "id": "E6O1rnhVv4ncHs",
+                "field": "workActivity",
+                "separator": " ",
+                "transform": "none",
+                "defaultValue": ""
+              }
+            ],
+            "_selectId": "nOE-D5bOxf9sk4",
+            "availableActions": []
+          }
+        ]
+      }
+    },
+    "_components": {},
+    "createOnNew": false,
+    "description": "",
+    "displayName": "Work Activities",
+    "__originalId": "rH6EL6EJjx3vGG:hestia/document-types",
+    "defaultState": "New",
+    "sidebarColor": "#333",
+    "tabsSelected": "#009fda",
+    "__warnReasons": [],
+    "documentColor": "#333",
+    "_activeVersion": "wtCwBMwccCGSfQ",
+    "_parentVersion": "LbbilJr9QG82YZ",
+    "currentVersion": {
+      "live": "Post Import",
+      "development": "Post Import"
+    },
+    "tabsBackground": "#f4f4f4",
+    "tabsForeground": "#555",
+    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "defaultActivity": "sf5_XV2E1ihhek",
+    "devices-allowed": "",
+    "sideBarMinWidth": 150,
+    "documentBackdrop": "#f4f4f4",
+    "sidebarBackground": "#fff",
+    "documentBackground": "#f4f4f4",
+    "devices-allowed-html": "",
+    "isLockedByCurrentUser": false
+  },
+  {
+    "__": "57scuOOpJ3jWwq",
+    "_id": "rH6EL6EJjx3vGG-ur734zai3McGV7:hestia/versions",
+    "__id": "rH6EL6EJjx3vGG:hestia/document-types",
+    "__ok": true,
+    "icon": "",
+    "name": "Work  Activities",
+    "tags": [],
+    "_type": "document",
+    "table": "workA",
+    "theme": {
+      "other": {
+        "opacity": {
+          "AlcOpacity_001": "10%",
+          "AlcOpacity_002": "25%",
+          "AlcOpacity_003": "50%",
+          "AlcOpacity_004": "75%"
+        },
+        "palette": {
+          "gold": "gold",
+          "type": "light",
+          "bronze": "#853",
+          "silver": "silver",
+          "primary": {
+            "main": "#1da7e0",
+            "contrastText": "#fff"
+          },
+          "AlcSys_001": "#FFFFFF",
+          "AlcSys_002": "#F7F8F9",
+          "AlcSys_003": "#F4F5F6",
+          "AlcSys_004": "#EBEBED",
+          "AlcSys_005": "#CCCCCC",
+          "AlcSys_006": "rgba(125, 125, 125, 1)",
+          "AlcSys_007": "#263836",
+          "AlcSys_008": "#000000",
+          "AlcBrand_001": "#1da7e0",
+          "AlcBrand_002": "#0081AF",
+          "AlcBrand_003": "#294A76",
+          "AlcBrand_004": "#0099B3",
+          "AlcBrand_005": "#604696",
+          "AlcBrand_006": "#D26A37",
+          "AlcBrand_007": "#679861",
+          "AlcBrand_008": "#EBBA00",
+          "AlcBrand_009": "#8C1D82",
+          "AlcBrand_010": "#DC840A",
+          "AlcSys_006_10": "rgba(125, 125, 125, .1)",
+          "AlcSys_006_25": "rgba(125, 125, 125, .25)",
+          "AlcSys_006_50": "rgba(125, 125, 125, .50)",
+          "AlcSys_006_75": "rgba(125, 125, 125, .75)",
+          "AlcSys_Grad001": "linear-gradient(55deg, #F7F8F9 100%, #F4F5F6 100%)",
+          "AlcSys_Grad002": "linear-gradient(55deg, #1da7e0 100%, #604696 100%)",
+          "AlcSysState_prog": "rgba(235, 186, 0, 1)",
+          "AlcSysState_risk": "rgba(233, 75, 75, 1)",
+          "AlcSysState_green": "rgba(63, 195, 128, 1)",
+          "AlcSysState_issue": "rgba(233, 165, 75, 1)",
+          "AlcSysState_prog_10": "rgba(235, 186, 0, .1)",
+          "AlcSysState_prog_25": "rgba(235, 186, 0,.251)",
+          "AlcSysState_prog_50": "rgba(235, 186, 0,.5)",
+          "AlcSysState_prog_75": "rgba(235, 186, 0, .75)",
+          "AlcSysState_risk_10": "rgba(233, 75, 75, .1)",
+          "AlcSysState_risk_25": "rgba(233, 75, 75, .25)",
+          "AlcSysState_risk_50": "rgba(233, 75, 75, .50)",
+          "AlcSysState_risk_75": "rgba(233, 75, 75, .75)",
+          "AlcSysState_green_10": "rgba(63, 195, 128, 0.1)",
+          "AlcSysState_green_25": "rgba(63, 195, 128, 0.25)",
+          "AlcSysState_green_50": "rgba(63, 195, 128, 0.5)",
+          "AlcSysState_green_75": "rgba(63, 195, 128, 0.75)",
+          "AlcSysState_issue_10": "rgba(233, 165, 75, .1)",
+          "AlcSysState_issue_25": "rgba(233, 165, 75, .25)",
+          "AlcSysState_issue_50": "rgba(233, 165, 75, .50)",
+          "AlcSysState_issue_75": "rgba(233, 165, 75, .75)"
+        },
+        "document": {
+          "form": {
+            "fontSize": 16,
+            "fontFamily": "Roboto, sans-serif"
+          },
+          "child": {
+            "fontSize": 16,
+            "fontFamily": "Roboto, sans-serif"
+          },
+          "fontSize": 16,
+          "fontFamily": "Roboto, sans-serif"
+        },
+        "typography": {
+          "h1": {
+            "fontSize": "2.8em",
+            "fontFamily": "Montserrat, sans-serif",
+            "fontWeight": 700
+          },
+          "h2": {
+            "fontSize": "2.3em",
+            "fontFamily": "Montserrat",
+            "fontWeight": 400
+          },
+          "h3": {
+            "fontSize": "2em",
+            "fontFamily": "Montserrat",
+            "fontWeight": 400
+          },
+          "h4": {
+            "fontSize": "1.667em",
+            "fontFamily": "Montserrat",
+            "fontWeight": 500
+          },
+          "h5": {
+            "fontSize": "1.333em",
+            "fontFamily": "Montserrat",
+            "fontWeight": 500
+          },
+          "h6": {
+            "fontSize": "1.167em",
+            "fontFamily": "Montserrat",
+            "fontWeight": 400
+          },
+          "body1": {
+            "fontSize": "1.167em",
+            "fontFamily": "Roboto"
+          },
+          "body2": {
+            "fontSize": "1em",
+            "fontFamily": "Roboto"
+          },
+          "body3": {
+            "fontSize": "0.9em",
+            "fontFamily": "Roboto"
+          },
+          "body4": {
+            "fontSize": "14px",
+            "fontFamily": "Roboto"
+          },
+          "overline": {
+            "fontSize": "0.917em",
+            "fontFamily": "Montserrat",
+            "fontWeight": 500,
+            "textTransform": "uppercase"
+          },
+          "Action1_Medium": {
+            "fontSize": "1.167em",
+            "fontFamily": "Montserrat",
+            "fontWeight": 500
+          },
+          "Action2_Medium": {
+            "fontSize": "1em",
+            "fontFamily": "Montserrat",
+            "fontWeight": 500
+          },
+          "Action1_Regular": {
+            "fontSize": "1.167em",
+            "fontFamily": "Montserrat"
+          },
+          "Action2_Regular": {
+            "fontSize": "1em",
+            "fontFamily": "Montserrat"
+          },
+          "Action1_SemiBold": {
+            "fontSize": "1.167em",
+            "fontFamily": "Montserrat",
+            "fontWeight": 600
+          },
+          "Action2_SemiBold": {
+            "fontSize": "1em",
+            "fontFamily": "Montserrat",
+            "fontWeight": 600
+          }
+        }
+      },
+      "theme": "Alcumus",
+      "permanentTheme": ""
+    },
+    "$valid": true,
+    "__warn": false,
+    "client": "rsihYJKKDVyaYN",
+    "gitHub": {
+      "1J8739KZBOtzVQ": {
+        "publishDocs": "",
+        "gitHubPublish": true
+      },
+      "aV8boSk1D6q6YG": {
+        "publishDocs": true,
+        "gitHubPublish": true
+      }
+    },
+    "locked": false,
+    "_client": "rsihYJKKDVyaYN",
+    "demands": [],
+    "graphQL": {
+      "6g4mciY7jkfOUo": {
+        "exposeAPI": ""
+      }
+    },
+    "$invalid": false,
+    "_created": 1621461164000,
+    "_deleted": 0,
+    "database": "workA",
+    "maxWidth": 1000,
+    "_modified": 1624267525000,
+    "components": "",
+    "isLockedBy": null,
+    "navigation": [],
+    "_behaviours": {
+      "_state": "",
+      "instances": {
+        "form": [
+          {
+            "id": "mnhk-9aVbpoQ3r",
+            "name": "Main",
+            "sections": [
+              {
+                "name": "Main",
+                "_expanded": true,
+                "_selectId": "q6wRV4xTbnagri",
+                "condition": "",
+                "questions": [
+                  {
+                    "id": "-tDFZcnZ5AwAkZ",
+                    "name": "workActivity",
+                    "type": "text",
+                    "hints": {},
+                    "maxWidth": "",
+                    "question": "",
+                    "_selectId": "GdLj0nswP871bK",
+                    "condition": "",
+                    "inputLabel": "",
+                    "defaultValue": "",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "ZOU0S_skCl-gpQ",
+                    "name": "workActivities",
+                    "rows": 5,
+                    "type": "documentList",
+                    "hints": {},
+                    "where": {},
+                    "listType": "rH6EL6EJjx3vGG:hestia/document-types",
+                    "question": "",
+                    "_selectId": "yyPrTnqspiEY9M",
+                    "condition": "",
+                    "filterText": "",
+                    "navigation": [],
+                    "displayView": "IOvAqZx5yk41ev",
+                    "sortColumns": [],
+                    "listTypeName": "Work  Activities",
+                    "displayFields": [],
+                    "filterColumns": [],
+                    "useDataSource": "",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "displayView_name": "Imported Work Activities",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "gBDWK_PPt7AhxF",
+                    "icon": "",
+                    "name": "",
+                    "type": "excelImport",
+                    "color": "",
+                    "hints": {},
+                    "width": "",
+                    "fields": {
+                      "_id": {
+                        "mapping": ""
+                      },
+                      "$state": {
+                        "mapping": ""
+                      },
+                      "$creator": {
+                        "mapping": ""
+                      },
+                      "_created": {
+                        "mapping": ""
+                      },
+                      "_modified": {
+                        "mapping": ""
+                      },
+                      "workActivity": {
+                        "mapping": "{Work Activity}"
+                      }
+                    },
+                    "height": "",
+                    "variant": "text",
+                    "idColumn": "",
+                    "question": "",
+                    "_selectId": "i3BnhhyvYghZCW",
+                    "condition": "",
+                    "importType": "rH6EL6EJjx3vGG:hestia/document-types",
+                    "sourceSheet": "Sheet1",
+                    "buttonCaption": "Import",
+                    "createUniqueId": true,
+                    "importTypeName": "Work  Activities",
+                    "backgroundColor": "",
+                    "backgroundImage": "",
+                    "additionalFields": [],
+                    "exampleExcelFile": {
+                      "Sheet1": [
+                        "Work Activity"
+                      ]
+                    },
+                    "backgroundPosition": ""
+                  }
+                ],
+                "description": ""
+              }
+            ],
+            "_selectId": "OMLPP1bywG4M1P",
+            "condition": "",
+            "description": "",
+            "duplicateNames": {}
+          }
+        ],
+        "formAction": [
+          {
+            "id": "sf5_XV2E1ihhek",
+            "name": "Main",
+            "forms": [
+              {
+                "id": "ebiR51heR7T0lP",
+                "form": "mnhk-9aVbpoQ3r",
+                "readOnly": "",
+                "_selectId": "Twb0BZgN9lKWfj"
+              }
+            ],
+            "inline": true,
+            "actions": [
+              {
+                "id": "TpyvIYiWPxULgf",
+                "blur": "",
+                "icon": "",
+                "color": "#fff",
+                "modal": {
+                  "enabled": false
+                },
+                "goBack": "",
+                "caption": "Save",
+                "command": "setData",
+                "toState": "Saved",
+                "variant": "text",
+                "_selectId": "PGg6bwQFeirbaD",
+                "condition": "",
+                "endOfLine": "",
+                "navigateTo": "",
+                "properties": [],
+                "changeState": true,
+                "backgroundColor": "#03a9f4",
+                "visibleCondition": "",
+                "notificationToast": ""
+              }
+            ],
+            "storeIn": "",
+            "_selectId": "ljQSlS6YPwRyKu",
+            "editDemands": [],
+            "inputStates": [
+              "New"
+            ],
+            "visibleDemands": []
+          }
+        ],
+        "viewAsText": [
+          {
+            "id": "tS4DUkUYSJz3cx",
+            "name": "List of Work Activities",
+            "fields": [
+              {
+                "id": "E6O1rnhVv4ncHs",
+                "field": "workActivity",
+                "separator": " ",
+                "transform": "none",
+                "defaultValue": ""
+              }
+            ],
+            "_selectId": "nOE-D5bOxf9sk4",
+            "availableActions": []
+          }
+        ]
+      }
+    },
+    "createOnNew": false,
+    "description": "",
+    "displayName": "Work Activities",
+    "__originalId": "rH6EL6EJjx3vGG:hestia/document-types",
+    "defaultState": "New",
+    "sidebarColor": "#333",
+    "tabsSelected": "#009fda",
+    "__warnReasons": [],
+    "documentColor": "#333",
+    "_activeVersion": "ur734zai3McGV7",
+    "_parentVersion": "wtCwBMwccCGSfQ",
+    "currentVersion": {
+      "live": "1.0",
+      "testing": "1.0",
+      "development": "1.0"
+    },
+    "tabsBackground": "#f4f4f4",
+    "tabsForeground": "#555",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "defaultActivity": "sf5_XV2E1ihhek",
+    "devices-allowed": "",
+    "sideBarMinWidth": 150,
+    "documentBackdrop": "#f4f4f4",
+    "sidebarBackground": "#fff",
+    "documentBackground": "#f4f4f4",
+    "devices-allowed-html": "",
+    "isLockedByCurrentUser": false
+  }
+]
