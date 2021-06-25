@@ -1,6 +1,6 @@
 [
   {
-    "__": "mFVyQCo_endaqV",
+    "__": "UiSnQ1Bk-INz5E",
     "_id": "UJns4BZ0dhGyw5-8eXUnVjk2o1gFo:hestia/versions",
     "__id": "UJns4BZ0dhGyw5:hestia/document-types",
     "icon": "",
@@ -174,16 +174,8 @@
         "publishDocs": true,
         "gitHubPublish": true
       },
-      "1rr4bM4EH-AQP9": {
-        "publishDocs": "",
-        "gitHubPublish": true
-      },
       "aV8boSk1D6q6YG": {
         "publishDocs": true,
-        "gitHubPublish": true
-      },
-      "zHYkrrsjUcXvCT": {
-        "publishDocs": "",
         "gitHubPublish": true
       }
     },
@@ -196,9 +188,6 @@
         "exposeAPI": true,
         "readDemands": [],
         "writeDemands": []
-      },
-      "aZ5t8g0t4u8p6D": {
-        "exposeAPI": ""
       }
     },
     "$invalid": false,
@@ -206,7 +195,7 @@
     "_deleted": 0,
     "database": "contractorcheck",
     "maxWidth": 1000,
-    "_modified": 1624542930000,
+    "_modified": 1624606981000,
     "components": "",
     "navigation": [],
     "_behaviours": {
