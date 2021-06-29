@@ -1,6 +1,6 @@
 [
   {
-    "__": "RYKrjH8uLOETeC",
+    "__": "zUqhLXmhOkVg3M",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -1431,8 +1431,7 @@
               "New",
               "Saved",
               "Assessed",
-              "Approved",
-              "Stored"
+              "Approved"
             ],
             "mergeAll": "",
             "_selectId": "N9hFwo43VxJlL9",
@@ -1498,7 +1497,7 @@
             "recordChanges": "",
             "targetTypeName": "Master List Company Profile",
             "updateToClient": "rsihYJKKDVyaYN",
-            "createMergeRecord": true,
+            "createMergeRecord": false,
             "uniqueMergeRecords": "",
             "updateTargetDocumentState": true
           },
