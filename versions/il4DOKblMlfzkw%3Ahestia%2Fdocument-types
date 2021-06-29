@@ -1,6 +1,6 @@
 [
   {
-    "__": "IsRFWdT6Cg5A1I",
+    "__": "UZGi_EArbnnjNF",
     "_id": "il4DOKblMlfzkw-PN-xFeWB01IZeJ:hestia/versions",
     "__id": "il4DOKblMlfzkw:hestia/document-types",
     "icon": "",
@@ -271,15 +271,67 @@
             "forms": [
               {
                 "id": "wvuJ3Ls1QmtVJH",
-                "form": "njHn2ys2KesZeg"
+                "form": "njHn2ys2KesZeg",
+                "readOnly": "",
+                "_selectId": "zLT3kEq66QtVKs"
               }
             ],
             "inline": true,
-            "actions": [],
+            "actions": [
+              {
+                "id": "qW3c7WkYOewMH3",
+                "blur": false,
+                "icon": "AiOutlineDelete",
+                "color": "#fff",
+                "modal": {
+                  "enabled": false
+                },
+                "goBack": "",
+                "caption": "",
+                "command": "setData",
+                "toState": "New",
+                "variant": "text",
+                "_selectId": "WWR2wcitfuYYMO",
+                "condition": "",
+                "endOfLine": true,
+                "navigateTo": "",
+                "properties": [],
+                "changeState": true,
+                "backgroundColor": "#03a9f4",
+                "visibleCondition": "",
+                "notificationToast": ""
+              },
+              {
+                "id": "uWs_tFLFzyFyzN",
+                "blur": true,
+                "icon": "",
+                "color": "#fff",
+                "modal": {
+                  "enabled": false
+                },
+                "goBack": false,
+                "caption": "Submit",
+                "command": "setData",
+                "toState": "New",
+                "variant": "text",
+                "_selectId": "57YBtSt5b_Gee3",
+                "condition": "",
+                "endOfLine": "",
+                "navigateTo": "",
+                "properties": [],
+                "changeState": true,
+                "backgroundColor": "#03a9f4",
+                "visibleCondition": "",
+                "notificationToast": ""
+              }
+            ],
+            "storeIn": "",
             "_selectId": "cFr1yb39NXEoql",
+            "editDemands": [],
             "inputStates": [
               "New"
-            ]
+            ],
+            "visibleDemands": []
           }
         ]
       }
@@ -291,7 +343,13 @@
     "sidebarColor": "#333",
     "tabsSelected": "#009fda",
     "documentColor": "#333",
-    "_activeVersion": "3VXwrWyc_ZLjlw",
+    "_activeVersion": "PN-xFeWB01IZeJ",
+    "_parentVersion": "",
+    "currentVersion": {
+      "live": "1.0",
+      "testing": "1.0",
+      "development": "1.0"
+    },
     "tabsBackground": "#f4f4f4",
     "tabsForeground": "#555",
     "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
