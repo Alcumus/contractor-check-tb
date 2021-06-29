@@ -1,6 +1,6 @@
 [
   {
-    "__": "ewcLsS024dEOI0",
+    "__": "zVHgBUrQ50ItPp",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -199,7 +199,7 @@
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1624960088000,
+    "_modified": 1624964094000,
     "components": "navigation",
     "isLockedBy": null,
     "navigation": [],
@@ -272,6 +272,34 @@
                     "inputLabel": "",
                     "defaultValue": "",
                     "questionHeight": "",
+                    "clearIfDisabled": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "editableCondition": "",
+                    "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "rDUe4YrbcFath1",
+                    "icon": "",
+                    "name": "trading",
+                    "type": "array",
+                    "color": "",
+                    "embed": false,
+                    "hints": {},
+                    "maximum": "",
+                    "minimum": "",
+                    "useForm": "r0d2U2DYXRkFBi",
+                    "variant": "text",
+                    "question": "",
+                    "_selectId": "o_R4Ssm3HQ4rVA",
+                    "condition": "",
+                    "buttonIcon": {},
+                    "contextMap": {},
+                    "editorTitle": "",
+                    "_useFormName": "Trading Details",
+                    "buttonCaption": "Add Trading Name",
+                    "questionHeight": "",
+                    "backgroundColor": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
                     "questionSpaceBefore": ""
@@ -1367,6 +1395,43 @@
               }
             ],
             "_selectId": "1uzFuP8uk5ZOZ0",
+            "condition": "",
+            "description": "",
+            "duplicateNames": {}
+          },
+          {
+            "id": "r0d2U2DYXRkFBi",
+            "name": "Trading Details",
+            "sections": [
+              {
+                "id": "1624997140247-9Fh1-eraY3wuDx",
+                "_id": "1624997140247-9Fh1-eraY3wuDx:hestia/form-sections",
+                "name": "...",
+                "_expanded": true,
+                "_selectId": "USM_r2kBLky68o",
+                "condition": "",
+                "questions": [
+                  {
+                    "id": "C_InByHmWQETbL",
+                    "name": "tradingName",
+                    "type": "text",
+                    "hints": {},
+                    "maxWidth": "",
+                    "question": "",
+                    "_selectId": "5Ui2Fpxad-gS5s",
+                    "condition": "",
+                    "inputLabel": "",
+                    "defaultValue": "",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  }
+                ],
+                "description": ""
+              }
+            ],
+            "_selectId": "TjQGOex9-rTgR8",
             "condition": "",
             "description": "",
             "duplicateNames": {}
