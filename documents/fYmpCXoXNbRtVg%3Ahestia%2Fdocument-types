@@ -1,5 +1,5 @@
 {
-  "__": "n5P6wvQRL73pZi",
+  "__": "HlMatb2mDJ4Hgs",
   "_id": "fYmpCXoXNbRtVg:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -201,14 +201,14 @@
     {
       "id": "D57acZ-uIHF-Tx",
       "name": "1.0",
-      "time": 1624618063795,
+      "time": 1624628315412,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "udoOysGMwxIEqi",
+      "_selectId": "Z8yxk9MJWsoGvt",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624614464000,
+  "_modified": 1624624715000,
   "components": "verification,helptext,navigation,formprogress",
   "isLockedBy": null,
   "navigation": [],
@@ -1051,7 +1051,7 @@
               "navigateTo": "",
               "properties": [],
               "changeState": true,
-              "backgroundColor": "#03a9f4",
+              "backgroundColor": "#0a599a",
               "visibleCondition": "",
               "notificationToast": ""
             },
@@ -1059,7 +1059,7 @@
               "id": "4rGdwjaa96EPBg",
               "blur": "",
               "icon": "",
-              "color": "#1da7e0",
+              "color": "#0a599a",
               "modal": {
                 "title": "Submit Form",
                 "cancel": "Cancel",
@@ -1077,6 +1077,8 @@
               "command": "setData",
               "toState": "Submitted",
               "variant": "text",
+              "allForms": true,
+              "useForms": [],
               "_selectId": "4sCNVZJk2JvnbV",
               "condition": "requiredData",
               "endOfLine": "",
@@ -1140,7 +1142,7 @@
               "navigateTo": "",
               "properties": [],
               "changeState": true,
-              "backgroundColor": "#03a9f4",
+              "backgroundColor": "#0a599a",
               "visibleCondition": "$state=ready",
               "notificationToast": ""
             },
@@ -1163,7 +1165,7 @@
               "navigateTo": "",
               "properties": [],
               "changeState": true,
-              "backgroundColor": "#03a9f4",
+              "backgroundColor": "#0a599a",
               "visibleCondition": "$state=ready",
               "notificationToast": ""
             }
@@ -1220,7 +1222,7 @@
               "navigateTo": "",
               "properties": [],
               "changeState": true,
-              "backgroundColor": "#03a9f4",
+              "backgroundColor": "#0a599a",
               "visibleCondition": "",
               "notificationToast": ""
             },
@@ -1243,7 +1245,7 @@
               "navigateTo": "",
               "properties": [],
               "changeState": true,
-              "backgroundColor": "#03a9f4",
+              "backgroundColor": "#0a599a",
               "visibleCondition": "",
               "notificationToast": ""
             }
@@ -1306,7 +1308,7 @@
               "navigateTo": "",
               "properties": [],
               "changeState": true,
-              "backgroundColor": "#03a9f4",
+              "backgroundColor": "#0a599a",
               "visibleCondition": "",
               "notificationToast": ""
             }
@@ -1384,7 +1386,7 @@
               "navigateTo": "",
               "properties": [],
               "changeState": true,
-              "backgroundColor": "#03a9f4",
+              "backgroundColor": "#0a599a",
               "visibleCondition": "",
               "notificationToast": ""
             },
@@ -1407,7 +1409,7 @@
               "navigateTo": "",
               "properties": [],
               "changeState": true,
-              "backgroundColor": "#03a9f4",
+              "backgroundColor": "#0a599a",
               "visibleCondition": "",
               "notificationToast": ""
             }
@@ -1476,7 +1478,7 @@
               "navigateTo": "",
               "properties": [],
               "changeState": true,
-              "backgroundColor": "#03a9f4",
+              "backgroundColor": "#0a599a",
               "visibleCondition": "",
               "notificationToast": ""
             },
@@ -1484,7 +1486,7 @@
               "id": "4rGdwjaa96EPBg",
               "blur": "",
               "icon": "",
-              "color": "#1da7e0",
+              "color": "#0a599a",
               "modal": {
                 "title": "Submit Form",
                 "cancel": "Cancel",
@@ -1502,6 +1504,8 @@
               "command": "setData",
               "toState": "Submitted",
               "variant": "text",
+              "allForms": true,
+              "useForms": [],
               "_selectId": "4sCNVZJk2JvnbV",
               "condition": "requiredData",
               "endOfLine": "",
