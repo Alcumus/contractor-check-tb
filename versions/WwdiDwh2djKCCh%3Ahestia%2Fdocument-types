@@ -1,6 +1,6 @@
 [
   {
-    "__": "Szs9TWnCp_XRIj",
+    "__": "cbGqsPr8SpkD8F",
     "_id": "WwdiDwh2djKCCh-pmgndWqtbw5UAv:hestia/versions",
     "__id": "WwdiDwh2djKCCh:hestia/document-types",
     "__ok": true,
@@ -379,7 +379,7 @@
             "id": "gOpXurBsKws1hv",
             "mode": "On an interval",
             "name": "Schedule for checking for expired files",
-            "unit": "days",
+            "unit": "months",
             "__init": true,
             "amount": 1,
             "inStates": [
