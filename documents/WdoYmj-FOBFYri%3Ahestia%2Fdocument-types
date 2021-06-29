@@ -1,5 +1,5 @@
 {
-  "__": "-tA4TKqpcV8tzw",
+  "__": "IB7v5xLmp5C5U5",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -228,14 +228,14 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1624628541941,
+      "time": 1624963448377,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "aitXxJ7IYiPR-p",
+      "_selectId": "3GesJvuJpva5ao",
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1624624942000,
+  "_modified": 1624959848000,
   "components": "navigation",
   "isLockedBy": null,
   "navigation": [],
@@ -1534,7 +1534,8 @@
           "recordChanges": "",
           "targetTypeName": "Master List Company Profile",
           "updateToClient": "rsihYJKKDVyaYN",
-          "createMergeRecord": "",
+          "createMergeRecord": true,
+          "uniqueMergeRecords": "",
           "updateTargetDocumentState": true
         },
         {
@@ -1545,8 +1546,7 @@
             "New",
             "Saved",
             "Assessed",
-            "Approved",
-            "Stored"
+            "Approved"
           ],
           "mergeAll": "",
           "_selectId": "Lu3YphSV1lI0sS",

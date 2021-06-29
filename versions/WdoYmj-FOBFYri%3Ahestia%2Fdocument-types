@@ -1,6 +1,6 @@
 [
   {
-    "__": "RpxfUhUVzhg1jv",
+    "__": "RYKrjH8uLOETeC",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -199,7 +199,7 @@
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1624624620000,
+    "_modified": 1624624942000,
     "components": "navigation",
     "isLockedBy": null,
     "navigation": [],
@@ -1498,7 +1498,8 @@
             "recordChanges": "",
             "targetTypeName": "Master List Company Profile",
             "updateToClient": "rsihYJKKDVyaYN",
-            "createMergeRecord": "",
+            "createMergeRecord": true,
+            "uniqueMergeRecords": "",
             "updateTargetDocumentState": true
           },
           {
@@ -1509,8 +1510,7 @@
               "New",
               "Saved",
               "Assessed",
-              "Approved",
-              "Stored"
+              "Approved"
             ],
             "mergeAll": "",
             "_selectId": "Lu3YphSV1lI0sS",
