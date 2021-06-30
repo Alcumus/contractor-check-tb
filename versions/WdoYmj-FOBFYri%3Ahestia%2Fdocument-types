@@ -1,6 +1,6 @@
 [
   {
-    "__": "avlsIsNdETrne5",
+    "__": "uiHQIHYNGj3pJn",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -199,7 +199,7 @@
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1625000843000,
+    "_modified": 1625001086000,
     "components": "navigation",
     "isLockedBy": null,
     "navigation": [],
@@ -279,36 +279,21 @@
                     "questionSpaceBefore": ""
                   },
                   {
-                    "id": "sbBn96kFz7wpWe",
-                    "icon": "",
-                    "name": "trading",
-                    "type": "childRecord",
-                    "color": "",
-                    "embed": false,
+                    "id": "9k656naShPk0My",
+                    "name": "tradingNames",
+                    "type": "text",
                     "hints": {
-                      "embed": true
+                      "multi_line": true
                     },
-                    "width": "",
-                    "height": "",
-                    "maximum": "",
-                    "minimum": "",
-                    "variant": "text",
+                    "maxWidth": "",
                     "question": "",
-                    "_selectId": "3zA5MTRfSx8F60",
+                    "_selectId": "bSUv7mBFW_5aXC",
                     "condition": "",
-                    "buttonIcon": {},
-                    "contextMap": {},
-                    "createType": "il4DOKblMlfzkw:hestia/document-types",
-                    "showInStates": "",
-                    "buttonCaption": "+ Trading Name",
-                    "displayFields": [],
+                    "inputLabel": "",
+                    "defaultValue": "",
                     "questionHeight": "",
-                    "backgroundColor": "",
-                    "backgroundImage": "",
                     "questionLeftPad": "",
-                    "contextVariables": "",
                     "questionRightPad": "",
-                    "backgroundPosition": "",
                     "questionSpaceBefore": ""
                   },
                   {
