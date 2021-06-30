@@ -1,6 +1,6 @@
 [
   {
-    "__": "rFtkE-_g8kSBz6",
+    "__": "cOMfOvhNDOQGcg",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -199,7 +199,7 @@
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1625039477000,
+    "_modified": 1625041562000,
     "components": "navigation",
     "isLockedBy": null,
     "navigation": [],
@@ -287,15 +287,17 @@
                     "hints": {
                       "multi_line": true
                     },
-                    "maxWidth": "",
+                    "maxWidth": "5000",
                     "question": "",
                     "_selectId": "bSUv7mBFW_5aXC",
                     "condition": "",
                     "inputLabel": "",
                     "defaultValue": "",
                     "questionHeight": "",
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": ""
                   },
                   {
@@ -303,17 +305,19 @@
                     "name": "description",
                     "type": "text",
                     "hints": {
-                      "rich_text": true
+                      "multi_line": true
                     },
-                    "maxWidth": "",
+                    "maxWidth": "500",
                     "question": "<p>Enter a description of your business that will be shown on the master list profile.</p>\n",
                     "_selectId": "HJQerx3AeorCBr",
                     "condition": "",
                     "inputLabel": "",
                     "defaultValue": "",
                     "questionHeight": "",
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": ""
                   },
                   {
@@ -365,8 +369,10 @@
                     "inputLabel": "",
                     "defaultValue": "",
                     "questionHeight": "",
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": ""
                   },
                   {
@@ -438,7 +444,7 @@
                     "hints": {
                       "multi_line": true
                     },
-                    "maxWidth": "",
+                    "maxWidth": "500",
                     "question": "",
                     "_selectId": "p0MZEvk-kIZ5wf",
                     "condition": "",
@@ -456,15 +462,17 @@
                     "name": "City",
                     "type": "text",
                     "hints": {},
-                    "maxWidth": "",
+                    "maxWidth": "500",
                     "question": "",
                     "_selectId": "otZLg2XxIit8n9",
                     "condition": "",
                     "inputLabel": "",
                     "defaultValue": "",
                     "questionHeight": "",
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": ""
                   },
                   {
@@ -472,28 +480,49 @@
                     "name": "ZIP",
                     "type": "text",
                     "hints": {},
-                    "maxWidth": "",
+                    "maxWidth": "50",
                     "question": "",
                     "_selectId": "8k17MkxY3d6eFA",
                     "condition": "",
                     "inputLabel": "",
                     "defaultValue": "",
                     "questionHeight": "",
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": ""
                   },
                   {
-                    "id": "apOQJF6oBr9XLR",
+                    "id": "nTSPVi2Fw205nP",
                     "name": "headOfficeCountry",
-                    "type": "text",
+                    "type": "choice",
                     "hints": {},
-                    "maxWidth": "",
+                    "choices": [
+                      {
+                        "label": "Canada",
+                        "value": "Canada"
+                      },
+                      {
+                        "label": "US",
+                        "value": "US"
+                      }
+                    ],
                     "question": "",
-                    "_selectId": "jW5RIYpctgpA-A",
+                    "_selectId": "GlIWd38iVqGjxy",
                     "condition": "",
                     "inputLabel": "Country",
-                    "defaultValue": "",
+                    "choiceOptions": {
+                      "US": {
+                        "icon": "",
+                        "colour": ""
+                      },
+                      "Canada": {
+                        "icon": "",
+                        "colour": ""
+                      }
+                    },
+                    "defaultChoices": [],
                     "questionHeight": "",
                     "clearIfDisabled": "",
                     "questionLeftPad": "",
@@ -1356,6 +1385,7 @@
             "condition": "",
             "description": "",
             "duplicateNames": {
+              "country": true,
               "companySize": true
             }
           },
