@@ -1,5 +1,5 @@
 {
-  "__": "AubL16vHAYiWjy",
+  "__": "8HJW9rYbeocqWS",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -228,14 +228,14 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1625043076795,
+      "time": 1625044923161,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "P0v1wmr2Bce2_M",
+      "_selectId": "X9M2Cxr7lGQB22",
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1625039477000,
+  "_modified": 1625041323000,
   "components": "navigation",
   "isLockedBy": null,
   "navigation": [],
@@ -300,7 +300,9 @@
                   "id": "UVxygrF9sqVrgJ",
                   "name": "companyName",
                   "type": "text",
-                  "hints": {},
+                  "hints": {
+                    "not_editable": true
+                  },
                   "maxWidth": "",
                   "question": "",
                   "_selectId": "EwKg0PNptp3x9I",

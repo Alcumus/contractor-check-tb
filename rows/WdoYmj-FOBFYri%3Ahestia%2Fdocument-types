@@ -1,6 +1,6 @@
 [
   {
-    "__": "0ZkVpv7p7vxSlG",
+    "__": "kxHWfWOua-I7U8",
     "ZIP": "999",
     "_id": "1621266694681:companyP/companyP",
     "City": "Racoon City",
@@ -145,7 +145,7 @@
       "Alberta",
       "British Columbia"
     ],
-    "_modified": 1624994758000,
+    "_modified": 1625001212000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
@@ -169,6 +169,7 @@
     },
     "contractorId": "1621266694681",
     "profileState": "Saved",
+    "tradingNames": "Bill's Commercial Diving\nBill's Sparky Services",
     "workActivity": [
       "Audio and Visual Systems - Installation, Maintenance",
       "Construction Management",
