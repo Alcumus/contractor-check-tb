@@ -1,6 +1,6 @@
 [
   {
-    "__": "GR-U9QG7SdPITD",
+    "__": "LQ-JlmFVZRZs-s",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -328,11 +328,11 @@
                     "choices": [
                       {
                         "label": "English",
-                        "value": "english"
+                        "value": "en"
                       },
                       {
                         "label": "French",
-                        "value": "french"
+                        "value": "fr"
                       }
                     ],
                     "question": "",
