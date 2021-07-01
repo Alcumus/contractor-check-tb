@@ -1,5 +1,5 @@
 {
-  "__": "xpB92C3CijZapq",
+  "__": "dRR7LXdpTvB0_L",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -228,14 +228,14 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1625045455566,
+      "time": 1625153006578,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "XrEgERQXZ4Fvbp",
+      "_selectId": "oqGIkDfvD7O7yJ",
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1625041855000,
+  "_modified": 1625149406000,
   "components": "navigation",
   "isLockedBy": null,
   "navigation": [],
@@ -364,11 +364,11 @@
                   "choices": [
                     {
                       "label": "English",
-                      "value": "English"
+                      "value": "en"
                     },
                     {
                       "label": "French",
-                      "value": "French"
+                      "value": "fr"
                     }
                   ],
                   "question": "",
@@ -376,6 +376,14 @@
                   "condition": "",
                   "inputLabel": "",
                   "choiceOptions": {
+                    "en": {
+                      "icon": "",
+                      "colour": ""
+                    },
+                    "fr": {
+                      "icon": "",
+                      "colour": ""
+                    },
                     "French": {
                       "icon": "",
                       "colour": ""
@@ -387,8 +395,10 @@
                   },
                   "defaultChoices": [],
                   "questionHeight": "",
+                  "clearIfDisabled": "",
                   "questionLeftPad": "",
                   "questionRightPad": "",
+                  "editableCondition": "",
                   "questionSpaceBefore": ""
                 },
                 {

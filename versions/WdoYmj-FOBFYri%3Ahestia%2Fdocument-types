@@ -1,6 +1,6 @@
 [
   {
-    "__": "cOMfOvhNDOQGcg",
+    "__": "cyQfM3c0d9_vg1",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -199,7 +199,7 @@
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1625041562000,
+    "_modified": 1625041855000,
     "components": "navigation",
     "isLockedBy": null,
     "navigation": [],
@@ -328,11 +328,11 @@
                     "choices": [
                       {
                         "label": "English",
-                        "value": "English"
+                        "value": "en"
                       },
                       {
                         "label": "French",
-                        "value": "French"
+                        "value": "fr"
                       }
                     ],
                     "question": "",
@@ -340,6 +340,14 @@
                     "condition": "",
                     "inputLabel": "",
                     "choiceOptions": {
+                      "en": {
+                        "icon": "",
+                        "colour": ""
+                      },
+                      "fr": {
+                        "icon": "",
+                        "colour": ""
+                      },
                       "French": {
                         "icon": "",
                         "colour": ""
@@ -351,8 +359,10 @@
                     },
                     "defaultChoices": [],
                     "questionHeight": "",
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": ""
                   },
                   {
