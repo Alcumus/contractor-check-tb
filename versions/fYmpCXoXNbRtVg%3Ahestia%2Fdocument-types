@@ -1,6 +1,6 @@
 [
   {
-    "__": "wq9GCXNvJAT6XC",
+    "__": "ficVpH2s_3feqy",
     "_id": "fYmpCXoXNbRtVg-D57acZ-uIHF-Tx:hestia/versions",
     "__id": "fYmpCXoXNbRtVg:hestia/document-types",
     "__ok": true,
@@ -200,7 +200,7 @@
     "database": "contractorcheck",
     "maxWidth": 1000,
     "_modified": 1625157747000,
-    "components": "verification,helptext,navigation,formprogress",
+    "components": "verification,helptext,navigation,formprogress,localisation",
     "isLockedBy": null,
     "navigation": [],
     "_behaviours": {
