@@ -69,7 +69,7 @@
     }
   },
   {
-    "__": "qBSnI3oO5dl_ht",
+    "__": "UnW2GRvn_yMWLM",
     "_id": "ECoksiaw9KgkFx:hestia/topics",
     "name": "External Parties",
     "_client": "rsihYJKKDVyaYN",
@@ -119,7 +119,7 @@
         "defaultView_name": "Email"
       }
     ],
-    "_modified": 1623993740000,
+    "_modified": 1625149160000,
     "relationships": {
       "types": {
         "0pBBN3JGvJXvK6:hestia/document-types": {
@@ -129,7 +129,15 @@
           "relatedMapping": [
             "emailAddress"
           ],
-          "additionalDemandsPath": "fundamental"
+          "additionalDemandsPath": "fundamental",
+          "additionalProfileFields": [
+            {
+              "id": "hbENSQIyrT-08C",
+              "field": "company.preferredLanguage",
+              "rename": "locale",
+              "defaultValue": ""
+            }
+          ]
         },
         "WdoYmj-FOBFYri:hestia/document-types": {
           "field": "_id",
