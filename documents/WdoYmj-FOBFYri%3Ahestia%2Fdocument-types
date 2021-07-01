@@ -1,5 +1,5 @@
 {
-  "__": "h47nG7wFWxKEFw",
+  "__": "Q9F8PKh8hJFwEn",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -228,14 +228,14 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1625158657720,
+      "time": 1625181970000,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "aeTu1Ab7OiVPa7",
+      "_selectId": "EPoRg5sjc6XAiV",
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1625155058000,
+  "_modified": 1625178370000,
   "components": "navigation",
   "isLockedBy": null,
   "navigation": [],
@@ -1877,6 +1877,32 @@
           ],
           "_selectId": "GkwqrXDc_mjz9M",
           "availableActions": []
+        }
+      ],
+      "localization": [
+        {
+          "id": "yJjD15cTLaK2sk",
+          "__init": true,
+          "locale": "french,fr",
+          "_selectId": "W3yhSVrI7L-n4c",
+          "textOverride": {
+            "No": "Non",
+            "Yes": "Oui",
+            "French": "Francais",
+            "Country": "Pays",
+            "English": "Anglais",
+            "Work Activities": "Activités de travail",
+            "Anchored Clients": "Clients ancrés",
+            "Operating Countries": "Pays d'exploitation",
+            "Operating Provinces": "Provinces d'exploitation",
+            "<p>Which clients do you work with?</p>": "<p>Avec quels clients travaillez-vous ?</p>",
+            "<p>What work activities do are you involved in?</p>": "<p>À quelles activités professionnelles participez-vous ?</p>",
+            "<p>Do you provide contracting services to others?</p>": "<p>Fournissez-vous des services contractuels à d'autres ?</p>",
+            "<p>Do you use contractors or provide subcontractors?</p>": "<p>Utilisez-vous des entrepreneurs ou fournissez-vous des sous-traitants ?</p>",
+            "<p>Indicate the countries that your business operates in</p>": "<p>Indiquez les pays dans lesquels votre entreprise opère</p>",
+            "<p>Indicate the provinces that your business operates in</p>": "<p>Indiquez les provinces dans lesquelles votre entreprise exerce ses activités</p>",
+            "<p>Enter a description of your business that will be shown on the master list profile.</p>": "<p>Entrez une description de votre entreprise qui sera affichée sur le profil de la liste principale.</p>"
+          }
         }
       ]
     }

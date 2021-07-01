@@ -1,6 +1,6 @@
 [
   {
-    "__": "LQ-JlmFVZRZs-s",
+    "__": "xkScmNMAWlHsch",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -199,7 +199,7 @@
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1625150738000,
+    "_modified": 1625155058000,
     "components": "navigation",
     "isLockedBy": null,
     "navigation": [],
@@ -1841,6 +1841,32 @@
             ],
             "_selectId": "GkwqrXDc_mjz9M",
             "availableActions": []
+          }
+        ],
+        "localization": [
+          {
+            "id": "yJjD15cTLaK2sk",
+            "__init": true,
+            "locale": "french,fr",
+            "_selectId": "W3yhSVrI7L-n4c",
+            "textOverride": {
+              "No": "Non",
+              "Yes": "Oui",
+              "French": "Francais",
+              "Country": "Pays",
+              "English": "Anglais",
+              "Work Activities": "Activités de travail",
+              "Anchored Clients": "Clients ancrés",
+              "Operating Countries": "Pays d'exploitation",
+              "Operating Provinces": "Provinces d'exploitation",
+              "<p>Which clients do you work with?</p>": "<p>Avec quels clients travaillez-vous ?</p>",
+              "<p>What work activities do are you involved in?</p>": "<p>À quelles activités professionnelles participez-vous ?</p>",
+              "<p>Do you provide contracting services to others?</p>": "<p>Fournissez-vous des services contractuels à d'autres ?</p>",
+              "<p>Do you use contractors or provide subcontractors?</p>": "<p>Utilisez-vous des entrepreneurs ou fournissez-vous des sous-traitants ?</p>",
+              "<p>Indicate the countries that your business operates in</p>": "<p>Indiquez les pays dans lesquels votre entreprise opère</p>",
+              "<p>Indicate the provinces that your business operates in</p>": "<p>Indiquez les provinces dans lesquelles votre entreprise exerce ses activités</p>",
+              "<p>Enter a description of your business that will be shown on the master list profile.</p>": "<p>Entrez une description de votre entreprise qui sera affichée sur le profil de la liste principale.</p>"
+            }
           }
         ]
       }
