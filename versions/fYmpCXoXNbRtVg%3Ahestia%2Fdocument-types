@@ -1,6 +1,6 @@
 [
   {
-    "__": "ficVpH2s_3feqy",
+    "__": "rpE52QxHCnidKv",
     "_id": "fYmpCXoXNbRtVg-D57acZ-uIHF-Tx:hestia/versions",
     "__id": "fYmpCXoXNbRtVg:hestia/document-types",
     "__ok": true,
@@ -199,7 +199,7 @@
     "_deleted": 0,
     "database": "contractorcheck",
     "maxWidth": 1000,
-    "_modified": 1625157747000,
+    "_modified": 1625157787000,
     "components": "verification,helptext,navigation,formprogress,localisation",
     "isLockedBy": null,
     "navigation": [],
@@ -1547,6 +1547,18 @@
               },
               "XSRjk-WZlSspfb": {
                 "question": ""
+              },
+              "a1S1N000005WjmNText": {
+                "question": "<p>This is an example see this!</p>\n",
+                "inputLabel": "",
+                "defaultValue": "",
+                "inputPlaceholder": ""
+              },
+              "a1S1N000005WjmPText": {
+                "question": "<p>Are you sure?</p>\n",
+                "inputLabel": "",
+                "defaultValue": "",
+                "inputPlaceholder": ""
               },
               "a1S3m000008CpIVFile": {
                 "question": "",
