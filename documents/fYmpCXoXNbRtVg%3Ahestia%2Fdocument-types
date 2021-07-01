@@ -1,5 +1,5 @@
 {
-  "__": "HlMatb2mDJ4Hgs",
+  "__": "6X4_XRQrCYzuU5",
   "_id": "fYmpCXoXNbRtVg:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -201,14 +201,14 @@
     {
       "id": "D57acZ-uIHF-Tx",
       "name": "1.0",
-      "time": 1624628315412,
+      "time": 1625161347586,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "Z8yxk9MJWsoGvt",
+      "_selectId": "M3_3hu8HspfwzY",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624624715000,
+  "_modified": 1625157747000,
   "components": "verification,helptext,navigation,formprogress",
   "isLockedBy": null,
   "navigation": [],
@@ -1542,6 +1542,77 @@
           ],
           "_selectId": "jwlG8lMD9513KZ",
           "availableActions": []
+        }
+      ],
+      "localization": [
+        {
+          "id": "dy6dAZ1QSBgZjo",
+          "__init": true,
+          "locale": "french",
+          "_selectId": "8TVMPv9OPoLGwa",
+          "textOverride": {
+            "RafKrj90cILrkT": {
+              "question": "Bananananana"
+            },
+            "XSRjk-WZlSspfb": {
+              "question": ""
+            },
+            "a1S3m000008CpIVFile": {
+              "question": "",
+              "inputLabel": "",
+              "removeLabel": "",
+              "removeTitle": "",
+              "buttonCaption": "",
+              "uploadCaption": "",
+              "removeConfirmation": ""
+            },
+            "a1S3m000008CpJdFile": {
+              "question": "<p>Banana</p>\r\n",
+              "inputLabel": "",
+              "removeLabel": "",
+              "removeTitle": "",
+              "buttonCaption": "",
+              "uploadCaption": "",
+              "removeConfirmation": ""
+            },
+            "a1S3m000008DkPgFile": {
+              "question": "",
+              "inputLabel": "",
+              "removeLabel": "",
+              "removeTitle": "",
+              "buttonCaption": "",
+              "uploadCaption": "",
+              "removeConfirmation": ""
+            },
+            "a1S3m000008jxUOFile": {
+              "question": "",
+              "inputLabel": "",
+              "removeLabel": "",
+              "removeTitle": "",
+              "buttonCaption": "",
+              "uploadCaption": "",
+              "removeConfirmation": ""
+            },
+            "a1S3m000008jxkFFile": {
+              "question": "",
+              "inputLabel": "",
+              "removeLabel": "",
+              "removeTitle": "",
+              "buttonCaption": "",
+              "uploadCaption": "",
+              "removeConfirmation": ""
+            },
+            "a1S3m000008kSXoText": {
+              "choices": {
+                "No": "Non",
+                "Yes": "Oui"
+              }
+            },
+            "<h5>Required Evidence</h5>": "<p>Bananas in pajamas</p>\r\n",
+            "\"Please provide proof of registration with the Régie du bâtiment du Québec (RBQ) such as your RBQ license number or a copy of the registration page with a recent date. If you do not have this document, but are required to do so, Metro Quebec will contact you to advise.\"": "This is number 1",
+            "Agellan Capital Partners Inc has requested that you upload a Certificate of Insurance. You will find attached, in the link below, the insurance requirements to be submitted to your insurance representative. Please upload for our review. Keeping a current Certificate of Insurance on your ContractorCheck account is required by the client.": "Upload it dude!",
+            "Agellan Capital Partners Inc has requested that you provide us with a Clearance Certificate/Letter from Workers' Compensation in the provinces where your Head Office location, your branches, employee home offices, if they differ. On or before the provincial expiry date, ensure we are provided with a renewed Clearance every 45, 60 or 90 days depending on the province. Please list these provinces in your answer and confirm by uploading the Clearances for each province listed. Click the following link to download your WCB/CSST: <a target=\"_blank\" href=\"https://contractorcheck.force.com/contractorportal/s/files\">https://contractorcheck.force.com/contractorportal/s/files</a>": "<p></p>\r\n"
+          }
         }
       ]
     }
