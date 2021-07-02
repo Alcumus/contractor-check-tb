@@ -1,5 +1,5 @@
 {
-  "__": "7xci0vpvCDJUeB",
+  "__": "dtnxCCiJKvTR_j",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -228,14 +228,14 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1625186140005,
+      "time": 1625186222948,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "TQwQFkqX7GRQRg",
+      "_selectId": "VuxVdtIONTTkJg",
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1625182540000,
+  "_modified": 1625182623000,
   "components": "navigation",
   "isLockedBy": null,
   "navigation": [],
@@ -1892,6 +1892,7 @@
             "Phone": "Numéro de téléphone",
             "Yukon": "À propos de votre entreprise",
             "French": "Francais",
+            "Address": "Adresse",
             "Country": "Pays",
             "Details": "Détails",
             "English": "Anglais",
