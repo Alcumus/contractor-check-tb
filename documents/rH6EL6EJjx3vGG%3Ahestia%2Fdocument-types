@@ -1,5 +1,5 @@
 {
-  "__": "dbdWPNjJkVPjDs",
+  "__": "fG4CIB_IDjDkfT",
   "_id": "rH6EL6EJjx3vGG:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -224,14 +224,14 @@
     {
       "id": "ur734zai3McGV7",
       "name": "1.0",
-      "time": 1625188485911,
+      "time": 1625188564449,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "G23aQPIWYGob6q",
+      "_selectId": "GuNpMuI6D0Py1q",
       "parentVersion": "wtCwBMwccCGSfQ"
     }
   ],
-  "_modified": 1625184886000,
+  "_modified": 1625184964000,
   "components": "",
   "isLockedBy": null,
   "navigation": [],
@@ -284,80 +284,6 @@
                   "questionRightPad": "",
                   "editableCondition": "",
                   "questionSpaceBefore": ""
-                },
-                {
-                  "id": "ZOU0S_skCl-gpQ",
-                  "name": "workActivities",
-                  "rows": 5,
-                  "type": "documentList",
-                  "hints": {},
-                  "where": {},
-                  "listType": "rH6EL6EJjx3vGG:hestia/document-types",
-                  "question": "",
-                  "_selectId": "yyPrTnqspiEY9M",
-                  "condition": "",
-                  "filterText": "",
-                  "navigation": [],
-                  "displayView": "IOvAqZx5yk41ev",
-                  "sortColumns": [],
-                  "listTypeName": "Work  Activities",
-                  "displayFields": [],
-                  "filterColumns": [],
-                  "useDataSource": "",
-                  "questionHeight": "",
-                  "questionLeftPad": "",
-                  "displayView_name": "Imported Work Activities",
-                  "questionRightPad": "",
-                  "questionSpaceBefore": ""
-                },
-                {
-                  "id": "gBDWK_PPt7AhxF",
-                  "icon": "",
-                  "name": "",
-                  "type": "excelImport",
-                  "color": "",
-                  "hints": {},
-                  "width": "",
-                  "fields": {
-                    "_id": {
-                      "mapping": ""
-                    },
-                    "$state": {
-                      "mapping": ""
-                    },
-                    "$creator": {
-                      "mapping": ""
-                    },
-                    "_created": {
-                      "mapping": ""
-                    },
-                    "_modified": {
-                      "mapping": ""
-                    },
-                    "workActivity": {
-                      "mapping": "{Work Activity}"
-                    }
-                  },
-                  "height": "",
-                  "variant": "text",
-                  "idColumn": "",
-                  "question": "",
-                  "_selectId": "i3BnhhyvYghZCW",
-                  "condition": "",
-                  "importType": "rH6EL6EJjx3vGG:hestia/document-types",
-                  "sourceSheet": "Sheet1",
-                  "buttonCaption": "Import",
-                  "createUniqueId": true,
-                  "importTypeName": "Work  Activities",
-                  "backgroundColor": "",
-                  "backgroundImage": "",
-                  "additionalFields": [],
-                  "exampleExcelFile": {
-                    "Sheet1": [
-                      "Work Activity"
-                    ]
-                  },
-                  "backgroundPosition": ""
                 }
               ],
               "description": ""
