@@ -1,9 +1,10 @@
 [
   {
-    "__": "xoM_2XgqRJIBgc",
+    "__": "wrHUiNSwXDYa8_",
     "ZIP": "999",
     "_id": "1621266694681:companyP/companyP",
     "City": "Racoon City",
+    "Ville": "",
     "_info": {
       "clientsLookup": {
         "rows": [
@@ -152,7 +153,7 @@
       "Alberta",
       "British Columbia"
     ],
-    "_modified": 1625150746000,
+    "_modified": 1625157601000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
@@ -161,7 +162,7 @@
     "_components": {},
     "companyName": "Bill Smithereen Contracting",
     "companySize": "Sole Proprietor",
-    "description": "<p>An expert in everything construction great!</p>\n",
+    "description": "An expert in everything construction great!\n",
     "__originalId": "1621266694681:companyP/companyP",
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {

@@ -1,5 +1,5 @@
 {
-  "__": "MDjtW76qEVUgff",
+  "__": "7xci0vpvCDJUeB",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -228,14 +228,14 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1625184406436,
+      "time": 1625186140005,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "Dn7K0au6nZ57d4",
+      "_selectId": "TQwQFkqX7GRQRg",
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1625180807000,
+  "_modified": 1625182540000,
   "components": "navigation",
   "isLockedBy": null,
   "navigation": [],
@@ -1899,6 +1899,7 @@
             "Company Name": "Nom de enterprise",
             "Trading Name": "Nom commercial",
             "Trading Names": "Noms commerciaux",
+            "Your Business": "À propos de votre entreprise",
             "Do You Contract": "Contractez-vous",
             "Work Activities": "Activités de travail",
             "Anchored Clients": "Clients ancrés",
