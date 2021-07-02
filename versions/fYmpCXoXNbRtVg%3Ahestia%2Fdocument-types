@@ -1,6 +1,6 @@
 [
   {
-    "__": "BQWR9hoJhZNq8D",
+    "__": "avd_lpjFTD6uTq",
     "_id": "fYmpCXoXNbRtVg-D57acZ-uIHF-Tx:hestia/versions",
     "__id": "fYmpCXoXNbRtVg:hestia/document-types",
     "__ok": true,
@@ -1555,7 +1555,7 @@
               "XSRjk-WZlSspfb": {
                 "question": ""
               },
-              "Document Expiry": "Agellan Capital Partners Inc demande que vous téléchargez un certificat d'assurance. Vous trouverez ci-joint, dans le lien ci-dessous, les exigences en matière d'assurance à soumettre à votre représentant en assurance. S'il vous plaît télécharger pour notre examen. Conserver un certificat d'assurance à jour sur votre compte ContractorCheck est requis par le client.",
+              "Document Expiry": "Expiration du document",
               "property question": "SVP fournir un certificat d'assurance spécifique à votre client",
               "Save Draft & Close": "Enregistrer le brouillon et fermer",
               "a1S1N000005WjmNText": {
@@ -1708,7 +1708,7 @@
               "Please list and provide evidence of any specific training and/or certifications employees have to work on power distribution systems": "Veuillez énumérer et fournir des preuves de toute formation et/ou certification spécifique que les employés doivent travailler sur les systèmes de distribution d'énergie. * Cliquez sur le bouton \" AFFICHER \" pour obtenir des instructions sur les preuves requises.",
               "Please provide evidence of trade qualifications for the elevator/escalator installation and maintenance (Elevating Devices Mechanic)": "Veuillez fournir des preuves de qualifications professionnelles pour l'installation et l'entretien d'ascenseurs / escaliers mécaniques (mécanicien d'appareils élévateurs).  * Cliquez sur le bouton \" AFFICHER \" pour obtenir des instructions sur les preuves requises.",
               "Please provide your safe work procedures and/or policies for controlling and cleaning of hazardous material spills in the workplace.": "Veuillez fournir vos procédures de travail et / ou politiques de sécurité pour contrôler et nettoyer les déversements de matières dangereuses sur le lieu de travail.",
-              "<p>One or more of the documents uploaded have expired.  You should upload the updated documents to reinstate your approved status</p>": "Branksome Hall demande que vous nous fournissiez un certificat de décharge / lettre d'indemnisation des accidents du travail dans les provinces où se trouvent votre siège social, vos succursales, le siège social des employés, s'ils diffèrent. Avant ou dès la date d'expiration de la province, assurez-vous de recevoir un nouvel avis tous les 45, 60 ou 90 jours, selon la province. Veuillez énumérer ces provinces dans votre réponse et confirmez en téléchargeant les autorisations pour chacune des provinces énumérées. Cliquez sur le lien suivant pour télécharger votre WCB/CSST: https://contractorcheck.force.com/contractorportal/s/files",
+              "<p>One or more of the documents uploaded have expired.  You should upload the updated documents to reinstate your approved status</p>": "<p>Un ou plusieurs des documents téléchargés ont expiré. Vous devez télécharger les documents mis à jour pour rétablir votre statut approuvé</p>\n",
               "Please provide a copy of your company/agency license for providing security and protective services or Private Investigation services": "NA",
               "Please provide copies of your company/agency license for providing security and protective services or Private Investigation services": "Veuillez fournir des copies de votre licence d'entreprise / agence pour fournir des services de sécurité et de protection ou des services d'enquête privée. * Cliquez sur le bouton «AFFICHER» pour obtenir des instructions sur les éléments de preuve requis.",
               "Please clarify your scope of work regarding elevator interior refurbishment/maintenance and provide evidence of training as applicable": "Veuillez clarifier l'étendue de vos travaux concernant la rénovation / l'entretien intérieur des ascenseurs et fournir des preuves de formation, le cas échéant.  * Cliquez sur le bouton \" AFFICHER \" pour obtenir des instructions sur les preuves requises.",
