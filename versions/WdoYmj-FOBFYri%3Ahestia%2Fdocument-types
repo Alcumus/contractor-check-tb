@@ -1,6 +1,6 @@
 [
   {
-    "__": "g6H7Tfzsh6oIo2",
+    "__": "ztv4SBChCVDf3q",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -199,7 +199,7 @@
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1625182623000,
+    "_modified": 1625183708000,
     "components": "navigation",
     "isLockedBy": null,
     "navigation": [],
@@ -976,6 +976,7 @@
                     "condition": "",
                     "relatedType": "rH6EL6EJjx3vGG:hestia/document-types",
                     "questionHeight": "",
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "relatedQuestion": {
                       "id": "-tDFZcnZ5AwAkZ",
@@ -989,11 +990,52 @@
                       "inputLabel": "",
                       "defaultValue": "",
                       "questionHeight": "",
+                      "clearIfDisabled": "",
                       "questionLeftPad": "",
                       "questionRightPad": "",
+                      "editableCondition": "",
                       "questionSpaceBefore": ""
                     },
                     "questionRightPad": "",
+                    "editableCondition": "",
+                    "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "fqJ2FCdE5XCKed",
+                    "name": "workActivityFrench",
+                    "type": "relatedField",
+                    "field": "workActivityFrench",
+                    "hints": {
+                      "hidden": true
+                    },
+                    "related": "workActivities",
+                    "question": "",
+                    "_selectId": "Z4Ygwvx_GVHxEF",
+                    "condition": "",
+                    "relatedType": "rH6EL6EJjx3vGG:hestia/document-types",
+                    "questionHeight": "",
+                    "clearIfDisabled": "",
+                    "questionLeftPad": "",
+                    "relatedQuestion": {
+                      "id": "-tDFZcnZ5AwAkZ",
+                      "name": "workActivity",
+                      "type": "text",
+                      "hints": {},
+                      "maxWidth": "",
+                      "question": "",
+                      "_selectId": "GdLj0nswP871bK",
+                      "condition": "",
+                      "inputLabel": "",
+                      "defaultValue": "",
+                      "questionHeight": "",
+                      "clearIfDisabled": "",
+                      "questionLeftPad": "",
+                      "questionRightPad": "",
+                      "editableCondition": "",
+                      "questionSpaceBefore": ""
+                    },
+                    "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": ""
                   }
                 ],

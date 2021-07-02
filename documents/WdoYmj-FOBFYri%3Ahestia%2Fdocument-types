@@ -1,5 +1,5 @@
 {
-  "__": "SFrXIDBjFIdqK_",
+  "__": "M8IvAVXbPcVYZM",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -228,14 +228,14 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1625187308238,
+      "time": 1625190426518,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "NOZfa4YYmSH8rL",
+      "_selectId": "7iPbbIe8tg4FYd",
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1625183708000,
+  "_modified": 1625186827000,
   "components": "navigation",
   "isLockedBy": null,
   "navigation": [],
@@ -1012,6 +1012,7 @@
                   "condition": "",
                   "relatedType": "rH6EL6EJjx3vGG:hestia/document-types",
                   "questionHeight": "",
+                  "clearIfDisabled": "",
                   "questionLeftPad": "",
                   "relatedQuestion": {
                     "id": "-tDFZcnZ5AwAkZ",
@@ -1025,11 +1026,52 @@
                     "inputLabel": "",
                     "defaultValue": "",
                     "questionHeight": "",
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": ""
                   },
                   "questionRightPad": "",
+                  "editableCondition": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "fqJ2FCdE5XCKed",
+                  "name": "workActivityFrench",
+                  "type": "relatedField",
+                  "field": "workActivityFrench",
+                  "hints": {
+                    "hidden": true
+                  },
+                  "related": "workActivities",
+                  "question": "",
+                  "_selectId": "Z4Ygwvx_GVHxEF",
+                  "condition": "",
+                  "relatedType": "rH6EL6EJjx3vGG:hestia/document-types",
+                  "questionHeight": "",
+                  "clearIfDisabled": "",
+                  "questionLeftPad": "",
+                  "relatedQuestion": {
+                    "id": "-tDFZcnZ5AwAkZ",
+                    "name": "workActivity",
+                    "type": "text",
+                    "hints": {},
+                    "maxWidth": "",
+                    "question": "",
+                    "_selectId": "GdLj0nswP871bK",
+                    "condition": "",
+                    "inputLabel": "",
+                    "defaultValue": "",
+                    "questionHeight": "",
+                    "clearIfDisabled": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "editableCondition": "",
+                    "questionSpaceBefore": ""
+                  },
+                  "questionRightPad": "",
+                  "editableCondition": "",
                   "questionSpaceBefore": ""
                 }
               ],
