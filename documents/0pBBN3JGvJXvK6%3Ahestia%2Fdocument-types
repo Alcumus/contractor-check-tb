@@ -1,5 +1,5 @@
 {
-  "__": "e1le7dAggWBzfv",
+  "__": "Bvx2N6N0z2-Z6G",
   "_id": "0pBBN3JGvJXvK6:hestia/document-types",
   "icon": "",
   "name": "Contact",
@@ -197,14 +197,14 @@
     {
       "id": "UXlXJ3hYoZG3bS",
       "name": "1.0",
-      "time": 1624628584696,
+      "time": 1625230874064,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "IyrkxO2f1x-hfJ",
+      "_selectId": "6bIY2sknPGsdAF",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624624984000,
+  "_modified": 1625227274000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -516,6 +516,20 @@
             }
           ],
           "_selectId": "yiPH6pAL0EFSiZ"
+        }
+      ],
+      "localization": [
+        {
+          "id": "rGNSUbYo9CI8Q8",
+          "__init": true,
+          "locale": "french,fr",
+          "_selectId": "t6XnYQDWDLpLgD",
+          "textOverride": {
+            "Submit": "Soumettre",
+            "Given Name": "Prénom",
+            "Family Name": "Nom de famille",
+            "Your Details": "Vos détails"
+          }
         }
       ]
     }
