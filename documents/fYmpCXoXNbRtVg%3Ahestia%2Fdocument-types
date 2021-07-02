@@ -1,5 +1,5 @@
 {
-  "__": "nlrp8j1qXsgG6i",
+  "__": "lEIQ1Kiif20vBq",
   "_id": "fYmpCXoXNbRtVg:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -201,14 +201,14 @@
     {
       "id": "D57acZ-uIHF-Tx",
       "name": "1.0",
-      "time": 1625220987983,
+      "time": 1625221089308,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "RrtLLQX5SicI1X",
+      "_selectId": "COynzwSURaEnS9",
       "parentVersion": ""
     }
   ],
-  "_modified": 1625217389000,
+  "_modified": 1625217491000,
   "components": "verification,helptext,navigation,formprogress,localisation",
   "isLockedBy": null,
   "navigation": [],
@@ -1556,7 +1556,7 @@
             "Reject": "Rejeter",
             "Submit": "Soumettre",
             "Accepted": "Accepté",
-            "Evidence": "Êtes-vous cautionnable? SVP répondre par «oui» ou «non». Si oui, svp fournir une lettre qui indique votre limite.",
+            "Evidence": "Preuve",
             "Acknowledge": "Accuser réception",
             "RafKrj90cILrkT": {
               "question": "<p>Bananananana</p>\n"
@@ -1631,7 +1631,7 @@
               }
             },
             "Acknowledge Rejection": "Reconnaître le rejet",
-            "<h5>Required Evidence</h5>": "<p>Bananas in pajamas</p>\r\n",
+            "<h5>Required Evidence</h5>": "<h5>Preuve requise</h5>\n",
             "Client Specific question would be put here.": "Une question spécifique au client serait posée ici.",
             "Please provide your company state agency license.": "NA",
             "Please provide the most recent load test certificate.": "SVP fournir une copie du certificat d'essai de charge le plus récent.",

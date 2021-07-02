@@ -1,6 +1,6 @@
 [
   {
-    "__": "avd_lpjFTD6uTq",
+    "__": "xjUNxuIESulDBS",
     "_id": "fYmpCXoXNbRtVg-D57acZ-uIHF-Tx:hestia/versions",
     "__id": "fYmpCXoXNbRtVg:hestia/document-types",
     "__ok": true,
@@ -1547,7 +1547,7 @@
               "Reject": "Rejeter",
               "Submit": "Soumettre",
               "Accepted": "Accepté",
-              "Evidence": "Êtes-vous cautionnable? SVP répondre par «oui» ou «non». Si oui, svp fournir une lettre qui indique votre limite.",
+              "Evidence": "Preuve",
               "Acknowledge": "Accuser réception",
               "RafKrj90cILrkT": {
                 "question": "<p>Bananananana</p>\n"
@@ -1622,7 +1622,7 @@
                 }
               },
               "Acknowledge Rejection": "Reconnaître le rejet",
-              "<h5>Required Evidence</h5>": "<p>Bananas in pajamas</p>\r\n",
+              "<h5>Required Evidence</h5>": "<h5>Preuve requise</h5>\n",
               "Client Specific question would be put here.": "Une question spécifique au client serait posée ici.",
               "Please provide your company state agency license.": "NA",
               "Please provide the most recent load test certificate.": "SVP fournir une copie du certificat d'essai de charge le plus récent.",
