@@ -1,5 +1,5 @@
 {
-  "__": "fyuu1BEU4roE0n",
+  "__": "dbdWPNjJkVPjDs",
   "_id": "rH6EL6EJjx3vGG:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -224,14 +224,14 @@
     {
       "id": "ur734zai3McGV7",
       "name": "1.0",
-      "time": 1624618004168,
+      "time": 1625188485911,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "zrL0hppi5nBPe4",
+      "_selectId": "G23aQPIWYGob6q",
       "parentVersion": "wtCwBMwccCGSfQ"
     }
   ],
-  "_modified": 1624614404000,
+  "_modified": 1625184886000,
   "components": "",
   "isLockedBy": null,
   "navigation": [],
@@ -261,8 +261,28 @@
                   "inputLabel": "",
                   "defaultValue": "",
                   "questionHeight": "",
+                  "clearIfDisabled": "",
                   "questionLeftPad": "",
                   "questionRightPad": "",
+                  "editableCondition": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "sSUzPPWP1CdN93",
+                  "name": "workActivityFrench",
+                  "type": "text",
+                  "hints": {},
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "87Z48_rVaNyRp1",
+                  "condition": "",
+                  "inputLabel": "",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "clearIfDisabled": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "editableCondition": "",
                   "questionSpaceBefore": ""
                 },
                 {
@@ -404,6 +424,15 @@
             {
               "id": "E6O1rnhVv4ncHs",
               "field": "workActivity",
+              "locale": ",en",
+              "separator": " ",
+              "transform": "none",
+              "defaultValue": ""
+            },
+            {
+              "id": "F-lDICUzAhzh7k",
+              "field": "workActivityFrench",
+              "locale": "fr,french",
               "separator": " ",
               "transform": "none",
               "defaultValue": ""
