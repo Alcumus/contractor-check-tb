@@ -1,0 +1,1653 @@
+[
+  {
+    "__": "Rmnc-ncFUn50_5",
+    "_id": "R720NeuU8vOWuo-sTNP-VH3hEzwdP:hestia/versions",
+    "__id": "R720NeuU8vOWuo:hestia/document-types",
+    "__ok": true,
+    "icon": "",
+    "name": "Assessor Questionnaire",
+    "tags": [],
+    "_type": "document",
+    "table": "assessorQuestionnaire",
+    "theme": {
+      "other": {
+        "opacity": {
+          "AlcOpacity_001": "10%",
+          "AlcOpacity_002": "25%",
+          "AlcOpacity_003": "50%",
+          "AlcOpacity_004": "75%"
+        },
+        "palette": {
+          "gold": "gold",
+          "type": "light",
+          "bronze": "#853",
+          "silver": "silver",
+          "primary": {
+            "main": "#1da7e0",
+            "contrastText": "#fff"
+          },
+          "AlcSys_001": "#FFFFFF",
+          "AlcSys_002": "#F7F8F9",
+          "AlcSys_003": "#F4F5F6",
+          "AlcSys_004": "#EBEBED",
+          "AlcSys_005": "#CCCCCC",
+          "AlcSys_006": "rgba(125, 125, 125, 1)",
+          "AlcSys_007": "#263836",
+          "AlcSys_008": "#000000",
+          "AlcBrand_001": "#1da7e0",
+          "AlcBrand_002": "#0081AF",
+          "AlcBrand_003": "#294A76",
+          "AlcBrand_004": "#0099B3",
+          "AlcBrand_005": "#604696",
+          "AlcBrand_006": "#D26A37",
+          "AlcBrand_007": "#679861",
+          "AlcBrand_008": "#EBBA00",
+          "AlcBrand_009": "#8C1D82",
+          "AlcBrand_010": "#DC840A",
+          "AlcSys_006_10": "rgba(125, 125, 125, .1)",
+          "AlcSys_006_25": "rgba(125, 125, 125, .25)",
+          "AlcSys_006_50": "rgba(125, 125, 125, .50)",
+          "AlcSys_006_75": "rgba(125, 125, 125, .75)",
+          "AlcSys_Grad001": "linear-gradient(55deg, #F7F8F9 100%, #F4F5F6 100%)",
+          "AlcSys_Grad002": "linear-gradient(55deg, #1da7e0 100%, #604696 100%)",
+          "AlcSysState_prog": "rgba(235, 186, 0, 1)",
+          "AlcSysState_risk": "rgba(233, 75, 75, 1)",
+          "AlcSysState_green": "rgba(63, 195, 128, 1)",
+          "AlcSysState_issue": "rgba(233, 165, 75, 1)",
+          "AlcSysState_prog_10": "rgba(235, 186, 0, .1)",
+          "AlcSysState_prog_25": "rgba(235, 186, 0,.251)",
+          "AlcSysState_prog_50": "rgba(235, 186, 0,.5)",
+          "AlcSysState_prog_75": "rgba(235, 186, 0, .75)",
+          "AlcSysState_risk_10": "rgba(233, 75, 75, .1)",
+          "AlcSysState_risk_25": "rgba(233, 75, 75, .25)",
+          "AlcSysState_risk_50": "rgba(233, 75, 75, .50)",
+          "AlcSysState_risk_75": "rgba(233, 75, 75, .75)",
+          "AlcSysState_green_10": "rgba(63, 195, 128, 0.1)",
+          "AlcSysState_green_25": "rgba(63, 195, 128, 0.25)",
+          "AlcSysState_green_50": "rgba(63, 195, 128, 0.5)",
+          "AlcSysState_green_75": "rgba(63, 195, 128, 0.75)",
+          "AlcSysState_issue_10": "rgba(233, 165, 75, .1)",
+          "AlcSysState_issue_25": "rgba(233, 165, 75, .25)",
+          "AlcSysState_issue_50": "rgba(233, 165, 75, .50)",
+          "AlcSysState_issue_75": "rgba(233, 165, 75, .75)"
+        },
+        "document": {
+          "form": {
+            "fontSize": 16,
+            "fontFamily": "Roboto, sans-serif"
+          },
+          "child": {
+            "fontSize": 16,
+            "fontFamily": "Roboto, sans-serif"
+          },
+          "fontSize": 16,
+          "fontFamily": "Roboto, sans-serif"
+        },
+        "typography": {
+          "h1": {
+            "fontSize": "2.8em",
+            "fontFamily": "Montserrat, sans-serif",
+            "fontWeight": 700
+          },
+          "h2": {
+            "fontSize": "2.3em",
+            "fontFamily": "Montserrat",
+            "fontWeight": 400
+          },
+          "h3": {
+            "fontSize": "2em",
+            "fontFamily": "Montserrat",
+            "fontWeight": 400
+          },
+          "h4": {
+            "fontSize": "1.667em",
+            "fontFamily": "Montserrat",
+            "fontWeight": 500
+          },
+          "h5": {
+            "fontSize": "1.333em",
+            "fontFamily": "Montserrat",
+            "fontWeight": 500
+          },
+          "h6": {
+            "fontSize": "1.167em",
+            "fontFamily": "Montserrat",
+            "fontWeight": 400
+          },
+          "body1": {
+            "fontSize": "1.167em",
+            "fontFamily": "Roboto"
+          },
+          "body2": {
+            "fontSize": "1em",
+            "fontFamily": "Roboto"
+          },
+          "body3": {
+            "fontSize": "0.9em",
+            "fontFamily": "Roboto"
+          },
+          "body4": {
+            "fontSize": "14px",
+            "fontFamily": "Roboto"
+          },
+          "overline": {
+            "fontSize": "0.917em",
+            "fontFamily": "Montserrat",
+            "fontWeight": 500,
+            "textTransform": "uppercase"
+          },
+          "Action1_Medium": {
+            "fontSize": "1.167em",
+            "fontFamily": "Montserrat",
+            "fontWeight": 500
+          },
+          "Action2_Medium": {
+            "fontSize": "1em",
+            "fontFamily": "Montserrat",
+            "fontWeight": 500
+          },
+          "Action1_Regular": {
+            "fontSize": "1.167em",
+            "fontFamily": "Montserrat"
+          },
+          "Action2_Regular": {
+            "fontSize": "1em",
+            "fontFamily": "Montserrat"
+          },
+          "Action1_SemiBold": {
+            "fontSize": "1.167em",
+            "fontFamily": "Montserrat",
+            "fontWeight": 600
+          },
+          "Action2_SemiBold": {
+            "fontSize": "1em",
+            "fontFamily": "Montserrat",
+            "fontWeight": 600
+          }
+        }
+      },
+      "theme": "Standard",
+      "permanentTheme": ""
+    },
+    "$valid": true,
+    "__warn": false,
+    "client": "rsihYJKKDVyaYN",
+    "gitHub": {
+      "1J8739KZBOtzVQ": {
+        "publishDocs": "",
+        "gitHubPublish": true
+      },
+      "aV8boSk1D6q6YG": {
+        "publishDocs": "",
+        "gitHubPublish": true
+      },
+      "hVWU8Lx-bizSIx": {
+        "publishDocs": "",
+        "gitHubPublish": true
+      }
+    },
+    "locked": false,
+    "_client": "rsihYJKKDVyaYN",
+    "demands": [],
+    "graphQL": {
+      "6g4mciY7jkfOUo": {
+        "read": true,
+        "write": true,
+        "exposeAPI": true,
+        "readDemands": [],
+        "writeDemands": []
+      }
+    },
+    "$invalid": false,
+    "_created": 1621454010000,
+    "_deleted": 0,
+    "database": "contractorcheck",
+    "maxWidth": 1000,
+    "_modified": 1624614422000,
+    "components": "verification,navigation,richtext",
+    "isLockedBy": null,
+    "navigation": [],
+    "_behaviours": {
+      "_state": "",
+      "instances": {
+        "form": [
+          {
+            "id": "T_UckRyYF2bjL-",
+            "name": "Assessor Data",
+            "sections": [
+              {
+                "name": "Main",
+                "_expanded": true,
+                "_selectId": "cCRMrAfevv4_R9",
+                "questions": [
+                  {
+                    "id": "RBjqwsO8d5Ptqb",
+                    "name": "assessingUser",
+                    "type": "lookup",
+                    "hints": {
+                      "hidden": true
+                    },
+                    "lines": 1,
+                    "groups": [],
+                    "question": "",
+                    "_selectId": "gDpTGcDaCEbHuB",
+                    "condition": "",
+                    "popupView": "M8JWtHWOohsCFK",
+                    "inputLabel": "",
+                    "lookupType": "Hfqzb-gWFBvgaC:hestia/document-types",
+                    "sortFields": [
+                      "name"
+                    ],
+                    "displayView": "M8JWtHWOohsCFK",
+                    "iconOffsetX": "",
+                    "iconOffsetY": "",
+                    "linesMobile": 1,
+                    "defaultValue": "",
+                    "dialogHeader": "Help",
+                    "searchFields": [
+                      "name",
+                      "email"
+                    ],
+                    "popupQuestion": "",
+                    "addButtonLabel": "",
+                    "lookupTypeName": "Employees",
+                    "popupView_name": "Name",
+                    "questionHeight": "",
+                    "requiredFields": [
+                      "name"
+                    ],
+                    "questionLeftPad": "",
+                    "displayView_name": "Name",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "9l8BWxR7B40DjS",
+                    "name": "qualityControlUser",
+                    "type": "lookup",
+                    "hints": {
+                      "hidden": true
+                    },
+                    "lines": 1,
+                    "groups": [],
+                    "question": "",
+                    "_selectId": "8XBTKmUjRXGAqe",
+                    "condition": "",
+                    "popupView": "M8JWtHWOohsCFK",
+                    "inputLabel": "",
+                    "lookupType": "Hfqzb-gWFBvgaC:hestia/document-types",
+                    "sortFields": [
+                      "name"
+                    ],
+                    "displayView": "M8JWtHWOohsCFK",
+                    "iconOffsetX": "",
+                    "iconOffsetY": "",
+                    "linesMobile": 1,
+                    "defaultValue": "",
+                    "dialogHeader": "Help",
+                    "searchFields": [
+                      "name",
+                      "email"
+                    ],
+                    "popupQuestion": "",
+                    "addButtonLabel": "",
+                    "lookupTypeName": "Employees",
+                    "popupView_name": "Name",
+                    "questionHeight": "",
+                    "requiredFields": [
+                      "name"
+                    ],
+                    "questionLeftPad": "",
+                    "displayView_name": "Name",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "9suQrdsQPTQVP2",
+                    "name": "profile",
+                    "type": "lookup",
+                    "hints": {
+                      "hidden": true
+                    },
+                    "lines": 1,
+                    "groups": [],
+                    "question": "",
+                    "_selectId": "jRoQehaaAxKuP2",
+                    "condition": "",
+                    "popupView": "",
+                    "inputLabel": "",
+                    "lookupType": "WdoYmj-FOBFYri:hestia/document-types",
+                    "sortFields": [],
+                    "displayView": "",
+                    "iconOffsetX": "",
+                    "iconOffsetY": "",
+                    "linesMobile": 1,
+                    "defaultValue": "",
+                    "dialogHeader": "Help",
+                    "searchFields": [],
+                    "popupQuestion": "",
+                    "addButtonLabel": "",
+                    "lookupTypeName": "Company Profile",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "i-RJxivimeY2ul",
+                    "name": "submittedDate",
+                    "type": "date",
+                    "hints": {
+                      "hidden": true
+                    },
+                    "question": "",
+                    "_selectId": "bUO52_2Riy4LdY",
+                    "condition": "",
+                    "inputLabel": "",
+                    "iconOffsetX": "",
+                    "iconOffsetY": "",
+                    "localFormat": "",
+                    "dialogHeader": "Help",
+                    "useMaterialUI": "",
+                    "preventNullify": "",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "CL2czJZ8yExmHk",
+                    "name": "acceptedDate",
+                    "type": "date",
+                    "hints": {
+                      "hidden": true
+                    },
+                    "question": "",
+                    "_selectId": "VAczdCpqFSrZq2",
+                    "condition": "",
+                    "inputLabel": "",
+                    "iconOffsetX": "",
+                    "iconOffsetY": "",
+                    "localFormat": "",
+                    "dialogHeader": "Help",
+                    "useMaterialUI": "",
+                    "preventNullify": "",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  }
+                ]
+              }
+            ],
+            "_selectId": "gbFZpojkUvHfXV",
+            "condition": "",
+            "description": "",
+            "duplicateNames": {
+              "assessmentType": true
+            }
+          },
+          {
+            "id": "0JWxAMgsVWjGW_",
+            "name": "Navigation Assessor",
+            "sections": [
+              {
+                "id": "1621690537492-F9ga31i03a6K6s",
+                "_id": "1621690537492-F9ga31i03a6K6s:hestia/form-sections",
+                "name": "...",
+                "_expanded": true,
+                "_selectId": "ntiNPOB3YOxMHR",
+                "condition": "",
+                "questions": [
+                  {
+                    "id": "Kk0tQA6DOWaqQ8",
+                    "name": "",
+                    "type": "disableActions",
+                    "hints": {},
+                    "question": "",
+                    "_selectId": "-a7NF2VNhzIKfu",
+                    "condition": ""
+                  },
+                  {
+                    "id": "QVag4D_G8I3-7Z",
+                    "name": "",
+                    "side": "bottom",
+                    "type": "navigation",
+                    "color": "",
+                    "hints": {},
+                    "width": "",
+                    "leftSlot": {
+                      "id": "ayIJ40AFnKhdl-",
+                      "name": "",
+                      "type": "embedAction",
+                      "hints": {},
+                      "action": "xu1pdevRePcm86",
+                      "variant": "outlined",
+                      "question": "",
+                      "_selectId": "hwY4xQzg9Yeu8O",
+                      "condition": "",
+                      "_actionName": "Reject",
+                      "questionHeight": "",
+                      "questionLeftPad": "",
+                      "questionRightPad": "",
+                      "questionSpaceBefore": ""
+                    },
+                    "maxWidth": "",
+                    "question": "",
+                    "_selectId": "JjqarKa1ZuXH10",
+                    "condition": "",
+                    "permanent": "",
+                    "rightSlot": {
+                      "id": "aWlr4g1AWQc979",
+                      "name": "",
+                      "type": "embedAction",
+                      "hints": {},
+                      "action": "Bd-SAKEYEYm9XH",
+                      "variant": "contained",
+                      "question": "",
+                      "_selectId": "edVxBO8DkogAmo",
+                      "condition": "",
+                      "_actionName": "Accept",
+                      "questionHeight": "",
+                      "questionLeftPad": "",
+                      "questionRightPad": "",
+                      "questionSpaceBefore": ""
+                    },
+                    "background": "",
+                    "middleSlot": {
+                      "id": "wCfetRM8uizOZn",
+                      "name": "",
+                      "type": "embedAction",
+                      "hints": {},
+                      "action": "6ZJIoruKfYvMvx",
+                      "variant": "outlined",
+                      "question": "",
+                      "_selectId": "Ec_FhPkNEJub3G",
+                      "condition": "",
+                      "_actionName": "Save",
+                      "questionHeight": "",
+                      "questionLeftPad": "",
+                      "questionRightPad": "",
+                      "questionSpaceBefore": ""
+                    }
+                  }
+                ],
+                "description": ""
+              }
+            ],
+            "_selectId": "yUU7HvMiqHmHtJ",
+            "condition": "",
+            "description": "",
+            "duplicateNames": {}
+          },
+          {
+            "id": "iL7Y7MIfx_PdEh",
+            "name": "Navigation QC",
+            "sections": [
+              {
+                "id": "1621690997599-wX2jJz6dtY2vwq",
+                "_id": "1621690997599-wX2jJz6dtY2vwq:hestia/form-sections",
+                "name": "...",
+                "_expanded": true,
+                "_selectId": "7q25IQyxOtByUY",
+                "condition": "",
+                "questions": [
+                  {
+                    "id": "XyofoafQjoLGC1",
+                    "name": "",
+                    "type": "disableActions",
+                    "hints": {},
+                    "question": "",
+                    "_selectId": "2wFMH8nQ7A7OJh",
+                    "condition": ""
+                  },
+                  {
+                    "id": "C8U6kL9N4MPPdw",
+                    "name": "",
+                    "side": "bottom",
+                    "type": "navigation",
+                    "color": "",
+                    "hints": {},
+                    "width": "",
+                    "leftSlot": {
+                      "id": "uEA60-Ohahc3Mq",
+                      "name": "",
+                      "type": "embedAction",
+                      "hints": {},
+                      "action": "UiWYng6RsgB6k4",
+                      "variant": "contained",
+                      "question": "",
+                      "_selectId": "5IzDKfaCunq-36",
+                      "condition": "",
+                      "_actionName": "RejectQC",
+                      "questionHeight": "",
+                      "questionLeftPad": "",
+                      "questionRightPad": "",
+                      "questionSpaceBefore": ""
+                    },
+                    "maxWidth": "",
+                    "question": "",
+                    "_selectId": "hyAlOaIvA-viNX",
+                    "condition": "mode(userType,\"qc\")",
+                    "permanent": "",
+                    "rightSlot": {
+                      "id": "vwCrnzkd3YzjfL",
+                      "name": "",
+                      "type": "embedAction",
+                      "hints": {},
+                      "action": "yoibNzDTY3lNJB",
+                      "variant": "outlined",
+                      "question": "",
+                      "_selectId": "yHVtZEDqKcbsd7",
+                      "condition": "",
+                      "_actionName": "AcceptQC",
+                      "questionHeight": "",
+                      "questionLeftPad": "",
+                      "questionRightPad": "",
+                      "questionSpaceBefore": ""
+                    },
+                    "background": "",
+                    "middleSlot": {
+                      "id": "apzR0l0x2KPn9h",
+                      "name": "",
+                      "type": "embedAction",
+                      "hints": {},
+                      "action": "wFiAsbIwK9iwLR",
+                      "variant": "outlined",
+                      "question": "",
+                      "_selectId": "b2BugSaJyArW4o",
+                      "condition": "",
+                      "_actionName": "SaveQC",
+                      "questionHeight": "",
+                      "questionLeftPad": "",
+                      "questionRightPad": "",
+                      "questionSpaceBefore": ""
+                    },
+                    "leftMiddleSlot": {
+                      "id": "UVbs0ef8pYotG3",
+                      "name": "",
+                      "type": "embedAction",
+                      "hints": {},
+                      "action": "0n0s4jlWwM9ywl",
+                      "variant": "outlined",
+                      "question": "",
+                      "_selectId": "jSTZmQJTq4JphH",
+                      "condition": "",
+                      "_actionName": "Back To Assessor",
+                      "questionHeight": "",
+                      "questionLeftPad": "",
+                      "questionRightPad": "",
+                      "questionSpaceBefore": ""
+                    }
+                  }
+                ],
+                "description": ""
+              }
+            ],
+            "_selectId": "5ya3koAqxx2HU2",
+            "condition": "",
+            "description": "",
+            "duplicateNames": {}
+          },
+          {
+            "id": "Z2qfcK_DREYEil",
+            "name": "Spacer",
+            "sections": [
+              {
+                "id": "1621691656237-42mEI41W_UGoIJ",
+                "_id": "1621691656237-42mEI41W_UGoIJ:hestia/form-sections",
+                "name": "...",
+                "_expanded": true,
+                "_selectId": "0nfKJxA-Id6KHE",
+                "condition": "",
+                "questions": [
+                  {
+                    "id": "5vYAPEFk8w_GDo",
+                    "name": "",
+                    "type": "information",
+                    "hints": {},
+                    "question": "<p></p>\n<p></p>\n<p></p>\n<p></p>\n<p></p>\n<p></p>\n<p>&nbsp;</p>\n",
+                    "_selectId": "NT4OkAKd-e3nI2",
+                    "condition": "",
+                    "questionHeight": "20em",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  }
+                ],
+                "description": ""
+              }
+            ],
+            "_selectId": "BxKk2dOtGV1eS-",
+            "condition": "",
+            "description": "",
+            "duplicateNames": {}
+          },
+          {
+            "id": "khydm5NOHNXIGn",
+            "name": "Rejected",
+            "sections": [
+              {
+                "id": "1621724312281-tcIVmIyK0eYl4_",
+                "_id": "1621724312281-tcIVmIyK0eYl4_:hestia/form-sections",
+                "name": "...",
+                "_expanded": true,
+                "_selectId": "LWPLjLPvsQQnJk",
+                "condition": "",
+                "questions": [
+                  {
+                    "id": "xDv0JPWeucELUV",
+                    "name": "",
+                    "type": "information",
+                    "hints": {},
+                    "question": "<p>The assessment has been rejected, awaiting an update from the contractor.</p>\n",
+                    "_selectId": "IDSmxblaKTYM_l",
+                    "condition": "",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  }
+                ],
+                "description": ""
+              }
+            ],
+            "_selectId": "OtoOZrHTzV8ocl",
+            "condition": "",
+            "description": "",
+            "duplicateNames": {}
+          },
+          {
+            "id": "eqIHquWp9gmRLZ",
+            "name": "QC Review",
+            "sections": [
+              {
+                "id": "1621732074112-ggbU5HHrXPl1FG",
+                "_id": "1621732074112-ggbU5HHrXPl1FG:hestia/form-sections",
+                "name": "...",
+                "_expanded": true,
+                "_selectId": "19aBbeCqMFRdse",
+                "condition": "",
+                "questions": [
+                  {
+                    "id": "t4QeDqY6W69glE",
+                    "form": "allForms",
+                    "name": "",
+                    "type": "useForm",
+                    "hints": {},
+                    "question": "",
+                    "_selectId": "VP_sg5LKVtPe3w",
+                    "condition": "mode(userType,\"qc\")",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "j88x3dc2lYfVxm",
+                    "name": "",
+                    "type": "information",
+                    "hints": {},
+                    "question": "<p>The form must be reviewed by a Quality Controller</p>\n",
+                    "_selectId": "9Bma6qQtiL7J0x",
+                    "condition": "notMode(userType,\"qc\")",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  }
+                ],
+                "description": ""
+              }
+            ],
+            "_selectId": "-55GYwAqWts5E0",
+            "condition": "",
+            "description": "",
+            "duplicateNames": {}
+          },
+          {
+            "id": "qgnlIeXvRk_GKY",
+            "name": "Approved",
+            "sections": [
+              {
+                "id": "1621733109561-jMSLQPcNsRIoQG",
+                "_id": "1621733109561-jMSLQPcNsRIoQG:hestia/form-sections",
+                "name": "...",
+                "_expanded": true,
+                "_selectId": "06MbksBwL4eO0r",
+                "condition": "",
+                "questions": [
+                  {
+                    "id": "HneCMhdN9g_rBD",
+                    "name": "",
+                    "type": "information",
+                    "hints": {},
+                    "question": "<p><span style=\"color: #006183;font-size: 24px;\"><strong>The questionnaire has been approved and added to the master list</strong></span></p>\n",
+                    "_selectId": "H0cLzH42WWZ6NN",
+                    "condition": "",
+                    "questionHeight": "10em",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  }
+                ],
+                "description": ""
+              }
+            ],
+            "_selectId": "VzJ3PHB1kRh_Rq",
+            "condition": "",
+            "description": "",
+            "duplicateNames": {}
+          },
+          {
+            "id": "w7GjXlxsQ53W2i",
+            "name": "Email Contents",
+            "sections": [
+              {
+                "id": "1621846734295-UGMUYuTEMF4Rfx",
+                "_id": "1621846734295-UGMUYuTEMF4Rfx:hestia/form-sections",
+                "name": "...",
+                "_expanded": true,
+                "_selectId": "udHc3lyATGZAmF",
+                "condition": "",
+                "questions": [
+                  {
+                    "id": "ErGjEVY7bBlLNu",
+                    "name": "",
+                    "type": "title",
+                    "color": "",
+                    "hints": {},
+                    "title": "Rejection Email",
+                    "question": "",
+                    "_selectId": "VBmOi17wVpNG_x",
+                    "condition": "",
+                    "questionHeight": "",
+                    "backgroundColor": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": "10em"
+                  },
+                  {
+                    "id": "f2k9AWyEQG8NL5",
+                    "name": "",
+                    "type": "information",
+                    "hints": {},
+                    "question": "<p></p>\n<p><span style=\"color: #006183;\">If you reject a questionnaire then an email will be sent to the contractor.  Below you can add custom header and footer text that will go along with the email.</span></p>\n",
+                    "_selectId": "vyGLrxMREIiRLO",
+                    "condition": "",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "fQ52G7805WMnUm",
+                    "name": "emailHeader",
+                    "type": "text",
+                    "hints": {
+                      "rich_text": true
+                    },
+                    "maxWidth": "",
+                    "question": "",
+                    "_selectId": "cUUVx3cCpq2kPE",
+                    "condition": "",
+                    "inputLabel": "",
+                    "iconOffsetX": "",
+                    "iconOffsetY": "",
+                    "defaultValue": "",
+                    "dialogHeader": "Help",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "SvVMsCKgHQM57C",
+                    "name": "",
+                    "type": "information",
+                    "hints": {},
+                    "question": "<p></p>\n<p><span style=\"color: #006183;\">The actions provided next to questions and the questions details will go here</span></p>\n<p></p>\n",
+                    "_selectId": "gfjqEpJQBptUSn",
+                    "condition": "",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "i8FmHiLPX9vbAs",
+                    "name": "emailFooter",
+                    "type": "text",
+                    "hints": {
+                      "rich_text": true
+                    },
+                    "maxWidth": "",
+                    "question": "",
+                    "_selectId": "zhs5n98vvzc9tP",
+                    "condition": "",
+                    "inputLabel": "",
+                    "iconOffsetX": "",
+                    "iconOffsetY": "",
+                    "defaultValue": "",
+                    "dialogHeader": "Help",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  }
+                ],
+                "description": ""
+              }
+            ],
+            "_selectId": "J1ptYPhD_pd8p2",
+            "condition": "",
+            "description": "",
+            "duplicateNames": {}
+          },
+          {
+            "id": "wnfSuaf77SKHeI",
+            "name": "Assessor Reject",
+            "sections": [
+              {
+                "id": "1622204619612-k-uI6g5kyT7wUL",
+                "_id": "1622204619612-k-uI6g5kyT7wUL:hestia/form-sections",
+                "name": "...",
+                "_expanded": true,
+                "_selectId": "5aV6m8SUvcmbN9",
+                "condition": "",
+                "questions": [
+                  {
+                    "id": "KTO0_auRS3OOPh",
+                    "name": "",
+                    "type": "title",
+                    "color": "",
+                    "hints": {},
+                    "title": "Your assessment has been rejected by Quality Control",
+                    "question": "",
+                    "_selectId": "H5tEC1aTQSI-F-",
+                    "condition": "",
+                    "questionHeight": "",
+                    "backgroundColor": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "LMfFr0AgAdzOI8",
+                    "name": "",
+                    "type": "information",
+                    "hints": {},
+                    "question": "<p>Quality Control have indicated that there are actions you should take on your assessment, the action points will be detailed in the questionnaire next to the relevant questions.</p>\n",
+                    "_selectId": "HE1yjBv9YQJKpX",
+                    "condition": "",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "xYqs7Z1BftUGtb",
+                    "name": "",
+                    "side": "bottom",
+                    "type": "navigation",
+                    "color": "",
+                    "hints": {},
+                    "width": "",
+                    "maxWidth": "",
+                    "question": "",
+                    "_selectId": "HN4Q3NcyewuObn",
+                    "condition": "notMode(userType,\"qc\")",
+                    "permanent": "",
+                    "background": "",
+                    "middleSlot": {
+                      "id": "-BugS8sC0HOnLj",
+                      "name": "",
+                      "type": "embedAction",
+                      "hints": {},
+                      "action": "r-fxpbGVfYdoZn",
+                      "variant": "outlined",
+                      "question": "",
+                      "_selectId": "7zuPLkp04oBPhe",
+                      "condition": "",
+                      "_actionName": "Acknowledge",
+                      "questionHeight": "",
+                      "questionLeftPad": "",
+                      "questionRightPad": "",
+                      "questionSpaceBefore": ""
+                    }
+                  },
+                  {
+                    "id": "c9FnTXVkhjkkt_",
+                    "name": "",
+                    "type": "disableActions",
+                    "hints": {},
+                    "question": "",
+                    "_selectId": "z772AFyON28N8F",
+                    "condition": ""
+                  }
+                ],
+                "description": ""
+              }
+            ],
+            "_selectId": "j9dYQUCzWBLT-u",
+            "condition": "",
+            "description": "",
+            "duplicateNames": {}
+          }
+        ],
+        "updater": [
+          {
+            "id": "cJIq9GgpRwgxF8",
+            "name": "Update The Contractor When Rejected",
+            "inStates": [
+              "Rejected"
+            ],
+            "mergeAll": true,
+            "_selectId": "Dg9dHac1egpE65",
+            "properties": [],
+            "specificId": "",
+            "targetType": "fYmpCXoXNbRtVg:hestia/document-types",
+            "updateState": "Rejected",
+            "targetTypeName": "Contractor Questionnaire",
+            "createMergeRecord": "",
+            "updateTargetDocumentState": true
+          },
+          {
+            "id": "kJAKnuSUFpFN_0",
+            "name": "Create Master List Entry On Accept By QC",
+            "inStates": [
+              "Master List"
+            ],
+            "mergeAll": true,
+            "_selectId": "9Psk-ACKnzs1UA",
+            "properties": [],
+            "specificId": "",
+            "targetType": "WwdiDwh2djKCCh:hestia/document-types",
+            "targetTypeName": "Master List Questionnaire",
+            "createMergeRecord": "",
+            "updateTargetDocumentState": ""
+          },
+          {
+            "id": "WDMBctURpiDYYr",
+            "name": "Tell the Contractor That They Are Accepted",
+            "onEnter": "",
+            "inStates": [
+              "Master List"
+            ],
+            "mergeAll": "",
+            "_selectId": "fPonWRjIDi3uOU",
+            "properties": [
+              {
+                "id": "vXzSpUbVWxpUr4",
+                "field": "qcAcceptedDate",
+                "value": "{acceptedDate}",
+                "defaultValue": ""
+              }
+            ],
+            "specificId": "",
+            "targetType": "fYmpCXoXNbRtVg:hestia/document-types",
+            "updateState": "Accepted",
+            "recordChanges": "",
+            "targetTypeName": "Contractor Questionnaire",
+            "createMergeRecord": "",
+            "updateTargetDocumentState": true
+          },
+          {
+            "id": "ZhbzXcIBj7ZnE4",
+            "name": "Audit Assessing",
+            "onEnter": true,
+            "inStates": [
+              "Assessing"
+            ],
+            "mergeAll": false,
+            "_selectId": "OdFNUq9cvgD19F",
+            "properties": [
+              {
+                "id": "P3Z3dZ8NOaw7Ma",
+                "field": "activity",
+                "value": "Assessing",
+                "defaultValue": ""
+              },
+              {
+                "id": "eKKMqox-hsnRxH",
+                "field": "employee",
+                "value": "{$currentUser.Employees._id}",
+                "defaultValue": ""
+              },
+              {
+                "id": "pUL2QiK0uLU5am",
+                "field": "profile",
+                "value": "{profile}",
+                "defaultValue": ""
+              },
+              {
+                "id": "INAqEBu-E1DqFi",
+                "field": "time",
+                "value": "{$now}",
+                "defaultValue": ""
+              },
+              {
+                "id": "jyxJO50CDUUAZs",
+                "field": "assessment",
+                "value": "{_uniqueId}:contractorcheck/contractorAnswers",
+                "defaultValue": ""
+              }
+            ],
+            "specificId": false,
+            "targetType": "j0P98w9sl6QXZo:hestia/document-types",
+            "updateState": "",
+            "updateClient": "",
+            "recordChanges": "details",
+            "$behaviourType": "updater",
+            "targetTypeName": "Audit Trail",
+            "updateRecordId": "",
+            "createMergeRecord": true,
+            "uniqueMergeRecords": true,
+            "updateTargetDocumentState": false
+          },
+          {
+            "id": "KaAhQE8R8CcYNK",
+            "name": "Audit Quality Control",
+            "onEnter": true,
+            "inStates": [
+              "Quality Control"
+            ],
+            "mergeAll": false,
+            "_selectId": "NBzVJ2MA7zX8HO",
+            "properties": [
+              {
+                "id": "P3Z3dZ8NOaw7Ma",
+                "field": "activity",
+                "value": "Quality Control",
+                "defaultValue": ""
+              },
+              {
+                "id": "eKKMqox-hsnRxH",
+                "field": "employee",
+                "value": "{$currentUser.Employees._id}",
+                "defaultValue": ""
+              },
+              {
+                "id": "pUL2QiK0uLU5am",
+                "field": "profile",
+                "value": "{profile}",
+                "defaultValue": ""
+              },
+              {
+                "id": "INAqEBu-E1DqFi",
+                "field": "time",
+                "value": "{$now}",
+                "defaultValue": ""
+              },
+              {
+                "id": "jyxJO50CDUUAZs",
+                "field": "assessment",
+                "value": "{_uniqueId}:contractorcheck/contractorAnswers",
+                "defaultValue": ""
+              }
+            ],
+            "specificId": false,
+            "targetType": "j0P98w9sl6QXZo:hestia/document-types",
+            "updateState": "",
+            "updateClient": "",
+            "recordChanges": "details",
+            "$behaviourType": "updater",
+            "targetTypeName": "Audit Trail",
+            "updateRecordId": "",
+            "createMergeRecord": true,
+            "uniqueMergeRecords": true,
+            "updateTargetDocumentState": false
+          }
+        ],
+        "derivation": [
+          {
+            "id": "gUuvfApH2Jvcei",
+            "name": "Derive from standard questions",
+            "_selectId": "82QmT78Z574PIq",
+            "derivedFrom": "PMW2x8gydP1Gq7:hestia/document-types",
+            "description": "",
+            "textOverride": {},
+            "typeOverride": {},
+            "stateOverride": {},
+            "derivedFromName": "Base Qs"
+          }
+        ],
+        "formAction": [
+          {
+            "id": "i1sf_6rgwCYP0J",
+            "name": "Main",
+            "forms": [
+              {
+                "id": "BOPWDIpMPXNnMi",
+                "form": "sLQ1EhO5G5VfxQ",
+                "readOnly": false,
+                "_selectId": "3dqtlsjlWe44z5"
+              },
+              {
+                "id": "UrG4O37EoAyFOF",
+                "form": "T_UckRyYF2bjL-",
+                "readOnly": "",
+                "_selectId": "_QdSzRA3Rxe5RO"
+              },
+              {
+                "id": "2LFMDKr7YKhUDF",
+                "form": "allForms",
+                "readOnly": true,
+                "_selectId": "NgGRSLkRcJMC9Y"
+              }
+            ],
+            "inline": true,
+            "actions": [
+              {
+                "id": "VLQ4SgYYxxhvUx",
+                "blur": "",
+                "icon": "",
+                "color": "#fff",
+                "modal": {
+                  "enabled": false
+                },
+                "goBack": "",
+                "caption": "Assess",
+                "command": "setData",
+                "toState": "Assessing",
+                "variant": "text",
+                "_selectId": "vDvCETnlbNpPYM",
+                "condition": "",
+                "endOfLine": "",
+                "navigateTo": "",
+                "properties": [
+                  {
+                    "field": "assessingUser",
+                    "value": "{$currentUser.Employees._id}"
+                  }
+                ],
+                "changeState": true,
+                "backgroundColor": "#03a9f4",
+                "visibleCondition": "",
+                "notificationToast": ""
+              }
+            ],
+            "storeIn": "",
+            "_selectId": "6QgdLFzQAjZVQq",
+            "editDemands": [],
+            "inputStates": [
+              "New"
+            ],
+            "visibleDemands": []
+          },
+          {
+            "id": "y6Z8dpyRm8d8jy",
+            "name": "Assessing",
+            "forms": [
+              {
+                "id": "-KD-zryl7qclWt",
+                "form": "0JWxAMgsVWjGW_",
+                "readOnly": false,
+                "_selectId": "R13uk_hEaCC3RK"
+              },
+              {
+                "id": "Grq66t264bvIdv",
+                "form": "allForms",
+                "readOnly": false,
+                "_selectId": "lmi_b45iYB1WgU"
+              },
+              {
+                "id": "TQuIGBzDY1JNe-",
+                "form": "w7GjXlxsQ53W2i",
+                "readOnly": false,
+                "_selectId": "VfzAL0JcitS_ke"
+              },
+              {
+                "id": "WQwq_jliWX7_Ky",
+                "form": "Z2qfcK_DREYEil",
+                "readOnly": false,
+                "_selectId": "EtXUyKQlT0G4db"
+              }
+            ],
+            "inline": true,
+            "actions": [
+              {
+                "id": "Bd-SAKEYEYm9XH",
+                "blur": "",
+                "icon": "",
+                "color": "#1da7e0",
+                "modal": {
+                  "title": "Submit To Master List",
+                  "cancel": "Cancel",
+                  "enabled": true,
+                  "message": "Are you sure you want to submit the questionnaire response to the master list?",
+                  "cancelColor": "",
+                  "toggleOrder": "",
+                  "confirmColor": "#f5f5f5",
+                  "confirmation": "Ok",
+                  "cancelBackgroundColor": "",
+                  "confirmBackgroundColor": "#0081af"
+                },
+                "goBack": "",
+                "caption": "Accept",
+                "command": "setData",
+                "toState": "Quality Control",
+                "variant": "text",
+                "_selectId": "Tz1HKfqngFTU5n",
+                "condition": "allMax",
+                "endOfLine": "",
+                "navigateTo": "",
+                "properties": [],
+                "changeState": true,
+                "backgroundColor": "#f5f5f5",
+                "visibleCondition": "",
+                "notificationToast": ""
+              },
+              {
+                "id": "xu1pdevRePcm86",
+                "blur": "",
+                "icon": "",
+                "color": "#fff",
+                "modal": {
+                  "title": "Reject Questionnaire?",
+                  "cancel": "Cancel",
+                  "enabled": true,
+                  "message": "Are you sure you want to reject the questionnaire and return it to the contractor?",
+                  "cancelColor": "",
+                  "toggleOrder": "",
+                  "confirmColor": "",
+                  "confirmation": "Ok",
+                  "cancelBackgroundColor": "",
+                  "confirmBackgroundColor": ""
+                },
+                "goBack": "",
+                "caption": "Reject",
+                "command": "setData",
+                "toState": "Rejected",
+                "variant": "text",
+                "_selectId": "1g1C0p7hhRS8BE",
+                "condition": "someRejected",
+                "endOfLine": "",
+                "navigateTo": "",
+                "properties": [],
+                "changeState": true,
+                "backgroundColor": "#f50057",
+                "visibleCondition": "",
+                "notificationToast": ""
+              },
+              {
+                "id": "6ZJIoruKfYvMvx",
+                "blur": "",
+                "icon": "",
+                "color": "#fff",
+                "modal": {
+                  "enabled": false
+                },
+                "goBack": "",
+                "caption": "Save",
+                "command": "setData",
+                "toState": "Assessing",
+                "variant": "text",
+                "_selectId": "Oa1EVXUFP3oEG8",
+                "condition": "",
+                "endOfLine": "",
+                "navigateTo": "",
+                "properties": [],
+                "changeState": true,
+                "backgroundColor": "#03a9f4",
+                "visibleCondition": "",
+                "notificationToast": ""
+              }
+            ],
+            "storeIn": "",
+            "_selectId": "sgDXZrWt12OTxE",
+            "editDemands": [],
+            "inputStates": [
+              "Assessing"
+            ],
+            "visibleDemands": []
+          },
+          {
+            "id": "uoxBbCsdR1Myad",
+            "name": "Quality Control",
+            "forms": [
+              {
+                "id": "HoTarewMXgaxl_",
+                "form": "iL7Y7MIfx_PdEh",
+                "readOnly": false,
+                "_selectId": "5ch5Je4XCSroKN"
+              },
+              {
+                "id": "MnuiE8LWUH-0Fm",
+                "form": "eqIHquWp9gmRLZ",
+                "readOnly": false,
+                "_selectId": "SvEexAgjSnWk2j"
+              },
+              {
+                "id": "SJw1z6IRBhPPn_",
+                "form": "Z2qfcK_DREYEil",
+                "readOnly": false,
+                "_selectId": "TNdzNiWwEjl0n5"
+              }
+            ],
+            "inline": true,
+            "actions": [
+              {
+                "id": "yoibNzDTY3lNJB",
+                "blur": "",
+                "icon": "",
+                "color": "#fff",
+                "modal": {
+                  "title": "Send to Master List?",
+                  "cancel": "Cancel",
+                  "enabled": true,
+                  "message": "Are you sure you want to send the questionnaire response to the master list?",
+                  "cancelColor": "",
+                  "toggleOrder": "",
+                  "confirmColor": "",
+                  "confirmation": "Ok",
+                  "cancelBackgroundColor": "",
+                  "confirmBackgroundColor": ""
+                },
+                "goBack": "",
+                "caption": "Accept",
+                "command": "setData",
+                "toState": "Master List",
+                "variant": "text",
+                "_selectId": "k7pUDKLW435z8b",
+                "condition": "allMax",
+                "endOfLine": "",
+                "navigateTo": "",
+                "properties": [
+                  {
+                    "field": "acceptedDate",
+                    "value": "{$now}"
+                  }
+                ],
+                "changeState": true,
+                "backgroundColor": "#03a9f4",
+                "visibleCondition": "",
+                "notificationToast": ""
+              },
+              {
+                "id": "UiWYng6RsgB6k4",
+                "blur": "",
+                "icon": "",
+                "color": "#f50057",
+                "modal": {
+                  "title": "Reject Response?",
+                  "cancel": "Cancel",
+                  "enabled": true,
+                  "message": "This response was previously approved by an assessor.  Do you want to override their decision and return the questionnaire to the contractor?",
+                  "cancelColor": "",
+                  "toggleOrder": "",
+                  "confirmColor": "",
+                  "confirmation": "Ok",
+                  "cancelBackgroundColor": "",
+                  "confirmBackgroundColor": ""
+                },
+                "goBack": "",
+                "caption": "Reject",
+                "command": "setData",
+                "toState": "Rejected",
+                "variant": "text",
+                "_selectId": "LSWP7lPOaTrSNz",
+                "condition": "someRejected",
+                "endOfLine": "",
+                "navigateTo": "",
+                "properties": [],
+                "changeState": true,
+                "backgroundColor": "#f5f5f5",
+                "visibleCondition": "",
+                "notificationToast": ""
+              },
+              {
+                "id": "wFiAsbIwK9iwLR",
+                "blur": "",
+                "icon": "",
+                "color": "#fff",
+                "modal": {
+                  "enabled": false
+                },
+                "goBack": "",
+                "caption": "Save",
+                "command": "setData",
+                "toState": "Quality Control",
+                "variant": "text",
+                "_selectId": "1LQK4NSAGQtanJ",
+                "condition": "",
+                "endOfLine": "",
+                "navigateTo": "",
+                "properties": [],
+                "changeState": true,
+                "backgroundColor": "#03a9f4",
+                "visibleCondition": "",
+                "notificationToast": ""
+              },
+              {
+                "id": "0n0s4jlWwM9ywl",
+                "blur": "",
+                "icon": "",
+                "color": "#fff",
+                "modal": {
+                  "title": "Return to Assessor",
+                  "cancel": "Cancel",
+                  "enabled": true,
+                  "message": "Are you sure you want to reject the assessment and return it to the assessor?",
+                  "cancelColor": "",
+                  "toggleOrder": "",
+                  "confirmColor": "",
+                  "confirmation": "Yes",
+                  "cancelBackgroundColor": "",
+                  "confirmBackgroundColor": ""
+                },
+                "goBack": "",
+                "caption": "Back To Assessor",
+                "command": "setData",
+                "toState": "Assessor Reject",
+                "variant": "text",
+                "_selectId": "qKltzKf8xrumfC",
+                "condition": "",
+                "endOfLine": "",
+                "navigateTo": "",
+                "properties": [],
+                "changeState": true,
+                "backgroundColor": "#f50057",
+                "visibleCondition": "",
+                "notificationToast": ""
+              }
+            ],
+            "storeIn": "",
+            "_selectId": "FtxBJCz_1iLRyi",
+            "editDemands": [],
+            "inputStates": [
+              "Quality Control"
+            ],
+            "visibleDemands": []
+          },
+          {
+            "id": "bNIKUt73-H_cKI",
+            "name": "Master List",
+            "forms": [
+              {
+                "id": "m-3xuzYOtIxovs",
+                "form": "qgnlIeXvRk_GKY",
+                "readOnly": false,
+                "_selectId": "-TsagHuIpBUlpL"
+              },
+              {
+                "id": "mRdyfUZzkfSSN5",
+                "form": "allForms",
+                "readOnly": true,
+                "_selectId": "9kz93t-6Sn8lbs"
+              }
+            ],
+            "inline": true,
+            "actions": [],
+            "storeIn": "",
+            "_selectId": "RW6oqMybrdz2fM",
+            "editDemands": [],
+            "inputStates": [
+              "Master List"
+            ],
+            "visibleDemands": []
+          },
+          {
+            "id": "cd-cXqcynC2Fi6",
+            "name": "Rejected",
+            "forms": [
+              {
+                "id": "W9lnsbJ6yTxWV8",
+                "form": "khydm5NOHNXIGn",
+                "readOnly": false,
+                "_selectId": "Hgq-WBYv7MgfsF"
+              }
+            ],
+            "inline": true,
+            "actions": [],
+            "storeIn": "",
+            "_selectId": "UABUpGzd1X4dpk",
+            "editDemands": [],
+            "inputStates": [
+              "Rejected"
+            ],
+            "visibleDemands": []
+          },
+          {
+            "id": "o5kW-RtWKYGgCV",
+            "name": "Assessor Reject",
+            "forms": [
+              {
+                "id": "5gb7kWJ58NfSUc",
+                "form": "wnfSuaf77SKHeI",
+                "readOnly": false,
+                "_selectId": "0W8KdVpGWsps1-"
+              }
+            ],
+            "inline": true,
+            "actions": [
+              {
+                "id": "r-fxpbGVfYdoZn",
+                "blur": "",
+                "icon": "",
+                "color": "#fff",
+                "modal": {
+                  "enabled": false
+                },
+                "goBack": "",
+                "caption": "Acknowledge",
+                "command": "setData",
+                "toState": "Assessing",
+                "variant": "text",
+                "_selectId": "KJVRh58lEz7GeC",
+                "condition": "",
+                "endOfLine": "",
+                "navigateTo": "",
+                "properties": [],
+                "changeState": true,
+                "backgroundColor": "#03a9f4",
+                "visibleCondition": "",
+                "notificationToast": ""
+              }
+            ],
+            "storeIn": "",
+            "_selectId": "EviVHsn_L0j_SP",
+            "editDemands": [],
+            "inputStates": [
+              "Assessor Reject"
+            ],
+            "visibleDemands": []
+          }
+        ],
+        "confirmation": [
+          {
+            "id": "siO75j4l-rqver",
+            "html": "",
+            "name": "Rejected Email",
+            "email": "<p></p>\n",
+            "title": "",
+            "message": "",
+            "subject": "<p>Your Contractor Check \"{assessmentType}\" submission requires more information</p>\n",
+            "toTimes": 1000,
+            "inStates": [
+              "Rejected"
+            ],
+            "_selectId": "-1ie5rgF4AzYbu",
+            "emailHtml": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n  \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html\n  xmlns=\"http://www.w3.org/1999/xhtml\"\n  lang=\"en\">\n<head>\n  <!--[if gte mso 9\n      ]><xml>\n          <o:OfficeDocumentSettings>\n              <o:AllowPNG />\n              <o:PixelsPerInch>96</o:PixelsPerInch>\n          </o:OfficeDocumentSettings>\n      </xml><!\n  [endif]-->\n  <title>New Report</title>\n  <meta content=\"text/html; charset=utf-8\" http-equiv=\"Content-Type\"/>\n  <meta content=\"IE=edge\" http-equiv=\"X-UA-Compatible\"/>\n  <meta\n    content=\"width=device-width, initial-scale=1.0 \"\n    name=\"viewport\"\n  />\n  <meta content=\"telephone=no\" name=\"format-detection\"/>\n  <!--[if !mso]><!-->\n  <link\n    href=\"https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800\"\n    rel=\"stylesheet\"\n  />\n  <!--<![endif]-->\n  <style type=\"text/css\">\n      body {\n          margin: 0 ;\n          padding: 0 ;\n          -webkit-text-size-adjust: 100% ;\n          -ms-text-size-adjust: 100% ;\n          -webkit-font-smoothing: antialiased ;\n      }\n\n      img {\n          border: 0 ;\n          outline: none ;\n      }\n\n      p {\n          margin: 0;\n          padding: 0;\n      }\n\n      table {\n          border-collapse: collapse;\n          mso-table-lspace: 0;\n          mso-table-rspace: 0;\n      }\n\n      td,\n      a,\n      span {\n          border-collapse: collapse;\n          mso-line-height-rule: exactly;\n      }\n\n      .ExternalClass * {\n          line-height: 100%;\n      }\n\n      .em_defaultlink a {\n          color: inherit ;\n          text-decoration: none ;\n      }\n\n      span.MsoHyperlink {\n          mso-style-priority: 99;\n          color: inherit;\n      }\n\n      span.MsoHyperlinkFollowed {\n          mso-style-priority: 99;\n          color: inherit;\n      }\n\n      .button {\n          /*height: 50px;*/\n          color: white ;\n          background-color: #009fda;\n          box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);\n          font-size: 0.875rem;\n          min-width: 64px;\n          transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;\n          font-family: \"Roboto\", \"Helvetica\", \"Arial\", sans-serif;\n          font-weight: 500;\n          line-height: 1.75;\n          border-width: 0;\n          border-radius: 4px;\n          letter-spacing: 0.02857em;\n          padding: 8px 20px 8px 20px;\n      }\n\n      .button a {\n          color:white;\n      }\n\n      @media only screen and (min-width: 481px) and (max-width: 699px) {\n          .em_main_table {\n              width: 100% ;\n          }\n\n          .em_wrapper {\n              width: 100% ;\n          }\n\n          .em_hide {\n              display: none ;\n          }\n\n          .em_img {\n              width: 100% ;\n              height: auto ;\n          }\n\n          .em_h20 {\n              height: 20px ;\n          }\n\n          .em_padd {\n              padding: 20px 10px ;\n          }\n      }\n\n      @media screen and (max-width: 480px) {\n          .em_main_table {\n              width: 100% ;\n          }\n\n          .em_wrapper {\n              width: 100% ;\n          }\n\n          .em_hide {\n              display: none ;\n          }\n\n          .em_img {\n              width: 100% ;\n              height: auto ;\n          }\n\n          .em_h20 {\n              height: 20px ;\n          }\n\n          .em_padd {\n              padding: 20px 10px ;\n          }\n\n          .em_text1 {\n              font-size: 16px ;\n              line-height: 24px ;\n          }\n\n          u + .em_body .em_full_wrap {\n              width: 100% ;\n              width: 100vw ;\n          }\n      }\n  </style>\n</head>\n\n<body bgcolor=\"#f6f7f8\" class=\"em_body\" style=\"margin:0; padding:0;\">\n<table\n  align=\"center\"\n  bgcolor=\"#f6f7f8\"\n  border=\"0\"\n  cellpadding=\"0\"\n  cellspacing=\"0\"\n  class=\"em_full_wrap\"\n  valign=\"top\"\n  width=\"100%\"\n>\n  <tbody>\n  <tr>\n    <td align=\"center\" valign=\"top\">\n      <table\n        align=\"center\"\n        border=\"0\"\n        cellpadding=\"0\"\n        cellspacing=\"0\"\n        class=\"em_main_table\"\n        style=\"width:700px;\"\n        width=\"700\"\n      >\n        <!--Header section-->\n        <tbody>\n        <tr>\n          <td\n            align=\"center\"\n            bgcolor=\"#f6f7f8\"\n            class=\"em_padd\"\n            style=\"padding:15px;\"\n            valign=\"top\"\n          >\n            <table\n              align=\"center\"\n              border=\"0\"\n              cellpadding=\"0\"\n              cellspacing=\"0\"\n              width=\"100%\"\n            >\n              <tbody>\n              <tr>\n                <td\n                  align=\"center\"\n                  style=\"padding: 1em;\"\n                  valign=\"top\"\n                >\n                  <img alt=\"Alcumus Logo\"\n                       src=\"https://www.alcumusgroup.com/images/logos/alcumus_logo\"\n                       style=\"width: 20em; border-radius: 8px\"\n                  />\n                </td>\n              </tr>\n              <tr>\n                <td\n                  align=\"center\"\n                  style=\"font-family:'Open Sans', Arial, sans-serif; font-size:12px; line-height:15px; color:#333;\"\n                  valign=\"top\"\n                >\n                  More Information Required\n                </td>\n              </tr>\n              </tbody>\n            </table>\n          </td>\n        </tr>\n        <!--//Header section-->\n        <!--Banner section-->\n        <tr>\n          <td align=\"center\" valign=\"top\">\n            <table\n              align=\"center\"\n              bgcolor=\"#fff\"\n              border=\"0\"\n              cellpadding=\"0\"\n              cellspacing=\"0\"\n              width=\"100%\"\n              style=\"border-top: 0.3em solid #009fda\"\n            >\n              <tbody>\n              <tr>\n                <td\n                  align=\"center\"\n                  style=\"padding: 1em; font-family:'Open Sans', Arial, sans-serif; font-size:24pt; line-height:30px; color:#333;\"\n                  valign=\"top\"\n                >\n                  Contractor Check\n                </td>\n              </tr>\n              <tr>\n                &nbsp;\n              </tr>\n              </tbody>\n            </table>\n          </td>\n        </tr>\n        <!--//Banner section-->\n        <!--Content Text Section-->\n        <tr>\n          <td\n            align=\"center\"\n            bgcolor=\"#fff\"\n            class=\"em_padd\"\n            style=\"padding: 0 40px 30px;\"\n            valign=\"top\"\n          >\n            <table\n              align=\"center\"\n              border=\"0\"\n              cellpadding=\"0\"\n              cellspacing=\"0\"\n              width=\"100%\"\n            >\n              <tbody>\n              <tr>\n                <td\n                  align=\"center\"\n                  style=\"font-family:'Open Sans', Arial, sans-serif; font-size:16px; line-height:30px; color:#333 !important;\"\n                  valign=\"top\"\n                >\n                  We were unable to approve your answers and the <%assessmentType%> questionnaire has been returned to you to provide more details.  You will find notes in the questionnaire to guide you.\n\n                </td>\n              </tr>\n              <tr>\n                <td  style=\"margin-top: 20px; font-family:'Open Sans', Arial, sans-serif; font-size:16px; line-height:30px; color:#333 !important;\"\n                >\n                  <%emailHeader%>\n                </td>\n              </tr>\n              <tr>\n                <td  style=\"margin-top: 20px;font-family:'Open Sans', Arial, sans-serif; font-size:16px; line-height:30px; color:#333 !important;\"\n                >\n                  <%_actionsEmail%>\n                </td>\n              </tr>\n              <tr>\n                <td  style=\"margin-top: 20px;font-family:'Open Sans', Arial, sans-serif; font-size:16px; line-height:30px; color:#333 !important;\"\n                >\n                  <%emailFooter%>\n                </td>\n              </tr>\n              </tbody>\n            </table>\n          </td>\n        </tr>\n\n        <!--//Content Text Section-->\n        <!--Footer Section-->\n        <tr>\n          <td\n            align=\"center\"\n            bgcolor=\"#f6f7f8\"\n            class=\"em_padd\"\n            style=\"padding:38px 30px;\"\n            valign=\"top\"\n          >\n            <table\n              align=\"center\"\n              border=\"0\"\n              cellpadding=\"0\"\n              cellspacing=\"0\"\n              width=\"100%\"\n            >\n              <tbody>\n              <tr>\n                <td\n                  align=\"center\"\n                  style=\"font-family:'Open Sans', Arial, sans-serif; font-size:11px; line-height:18px; color:#999999;\"\n                  valign=\"top\"\n                >\n                  (c) Alcumus 2021\n                </td>\n              </tr>\n              </tbody>\n            </table>\n          </td>\n        </tr>\n        </tbody>\n      </table>\n    </td>\n  </tr>\n  </tbody>\n</table>\n<div\n  class=\"em_hide\"\n  style=\"white-space: nowrap; display: none; font-size:0; line-height:0;\"\n>\n  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\n  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\n</div>\n</body>\n</html>\n",
+            "fromTimes": 1,
+            "recipients": [
+              {
+                "id": "Uk0zwMHPCC99sP",
+                "email": "{profile.email}"
+              }
+            ],
+            "titleColor": "#1da7e0",
+            "closeButton": "Ok",
+            "disablePopupMessage": true,
+            "doNotSendToCurrentUser": true
+          },
+          {
+            "id": "aIxEdlXk4Xf5lU",
+            "html": "",
+            "name": "Accepted Email",
+            "email": "<p></p>\n",
+            "title": "",
+            "message": "",
+            "subject": "<p>Your Contractor Check \"{assessmentType}\" has been added to the Master List</p>\n",
+            "toTimes": 1000,
+            "inStates": [
+              "Master List"
+            ],
+            "_selectId": "iQvVDJh1LLsQHK",
+            "emailHtml": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n  \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html\n  xmlns=\"http://www.w3.org/1999/xhtml\"\n  lang=\"en\">\n<head>\n  <!--[if gte mso 9\n      ]><xml>\n          <o:OfficeDocumentSettings>\n              <o:AllowPNG />\n              <o:PixelsPerInch>96</o:PixelsPerInch>\n          </o:OfficeDocumentSettings>\n      </xml><!\n  [endif]-->\n  <title>New Report</title>\n  <meta content=\"text/html; charset=utf-8\" http-equiv=\"Content-Type\"/>\n  <meta content=\"IE=edge\" http-equiv=\"X-UA-Compatible\"/>\n  <meta\n    content=\"width=device-width, initial-scale=1.0 \"\n    name=\"viewport\"\n  />\n  <meta content=\"telephone=no\" name=\"format-detection\"/>\n  <!--[if !mso]><!-->\n  <link\n    href=\"https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800\"\n    rel=\"stylesheet\"\n  />\n  <!--<![endif]-->\n  <style type=\"text/css\">\n      body {\n          margin: 0 ;\n          padding: 0 ;\n          -webkit-text-size-adjust: 100% ;\n          -ms-text-size-adjust: 100% ;\n          -webkit-font-smoothing: antialiased ;\n      }\n\n      img {\n          border: 0 ;\n          outline: none ;\n      }\n\n      p {\n          margin: 0;\n          padding: 0;\n      }\n\n      table {\n          border-collapse: collapse;\n          mso-table-lspace: 0;\n          mso-table-rspace: 0;\n      }\n\n      td,\n      a,\n      span {\n          border-collapse: collapse;\n          mso-line-height-rule: exactly;\n      }\n\n      .ExternalClass * {\n          line-height: 100%;\n      }\n\n      .em_defaultlink a {\n          color: inherit ;\n          text-decoration: none ;\n      }\n\n      span.MsoHyperlink {\n          mso-style-priority: 99;\n          color: inherit;\n      }\n\n      span.MsoHyperlinkFollowed {\n          mso-style-priority: 99;\n          color: inherit;\n      }\n\n      .button {\n          /*height: 50px;*/\n          color: white ;\n          background-color: #009fda;\n          box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);\n          font-size: 0.875rem;\n          min-width: 64px;\n          transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;\n          font-family: \"Roboto\", \"Helvetica\", \"Arial\", sans-serif;\n          font-weight: 500;\n          line-height: 1.75;\n          border-width: 0;\n          border-radius: 4px;\n          letter-spacing: 0.02857em;\n          padding: 8px 20px 8px 20px;\n      }\n\n      .button a {\n          color:white;\n      }\n\n      @media only screen and (min-width: 481px) and (max-width: 699px) {\n          .em_main_table {\n              width: 100% ;\n          }\n\n          .em_wrapper {\n              width: 100% ;\n          }\n\n          .em_hide {\n              display: none ;\n          }\n\n          .em_img {\n              width: 100% ;\n              height: auto ;\n          }\n\n          .em_h20 {\n              height: 20px ;\n          }\n\n          .em_padd {\n              padding: 20px 10px ;\n          }\n      }\n\n      @media screen and (max-width: 480px) {\n          .em_main_table {\n              width: 100% ;\n          }\n\n          .em_wrapper {\n              width: 100% ;\n          }\n\n          .em_hide {\n              display: none ;\n          }\n\n          .em_img {\n              width: 100% ;\n              height: auto ;\n          }\n\n          .em_h20 {\n              height: 20px ;\n          }\n\n          .em_padd {\n              padding: 20px 10px ;\n          }\n\n          .em_text1 {\n              font-size: 16px ;\n              line-height: 24px ;\n          }\n\n          u + .em_body .em_full_wrap {\n              width: 100% ;\n              width: 100vw ;\n          }\n      }\n  </style>\n</head>\n\n<body bgcolor=\"#f6f7f8\" class=\"em_body\" style=\"margin:0; padding:0;\">\n<table\n  align=\"center\"\n  bgcolor=\"#f6f7f8\"\n  border=\"0\"\n  cellpadding=\"0\"\n  cellspacing=\"0\"\n  class=\"em_full_wrap\"\n  valign=\"top\"\n  width=\"100%\"\n>\n  <tbody>\n  <tr>\n    <td align=\"center\" valign=\"top\">\n      <table\n        align=\"center\"\n        border=\"0\"\n        cellpadding=\"0\"\n        cellspacing=\"0\"\n        class=\"em_main_table\"\n        style=\"width:700px;\"\n        width=\"700\"\n      >\n        <!--Header section-->\n        <tbody>\n        <tr>\n          <td\n            align=\"center\"\n            bgcolor=\"#f6f7f8\"\n            class=\"em_padd\"\n            style=\"padding:15px;\"\n            valign=\"top\"\n          >\n            <table\n              align=\"center\"\n              border=\"0\"\n              cellpadding=\"0\"\n              cellspacing=\"0\"\n              width=\"100%\"\n            >\n              <tbody>\n              <tr>\n                <td\n                  align=\"center\"\n                  style=\"padding: 1em;\"\n                  valign=\"top\"\n                >\n                  <img alt=\"Alcumus Logo\"\n                       src=\"https://www.alcumusgroup.com/images/logos/alcumus_logo\"\n                       style=\"width: 20em; border-radius: 8px\"\n                  />\n                </td>\n              </tr>\n              <tr>\n                <td\n                  align=\"center\"\n                  style=\"font-family:'Open Sans', Arial, sans-serif; font-size:12px; line-height:15px; color:#333;\"\n                  valign=\"top\"\n                >\n                  Success!\n                </td>\n              </tr>\n              </tbody>\n            </table>\n          </td>\n        </tr>\n        <!--//Header section-->\n        <!--Banner section-->\n        <tr>\n          <td align=\"center\" valign=\"top\">\n            <table\n              align=\"center\"\n              bgcolor=\"#fff\"\n              border=\"0\"\n              cellpadding=\"0\"\n              cellspacing=\"0\"\n              width=\"100%\"\n              style=\"border-top: 0.3em solid #009fda\"\n            >\n              <tbody>\n              <tr>\n                <td\n                  align=\"center\"\n                  style=\"padding: 1em; font-family:'Open Sans', Arial, sans-serif; font-size:24pt; line-height:30px; color:#333;\"\n                  valign=\"top\"\n                >\n                  Contractor Check\n                </td>\n              </tr>\n              <tr>\n                &nbsp;\n              </tr>\n              </tbody>\n            </table>\n          </td>\n        </tr>\n        <!--//Banner section-->\n        <!--Content Text Section-->\n        <tr>\n          <td\n            align=\"center\"\n            bgcolor=\"#fff\"\n            class=\"em_padd\"\n            style=\"padding: 0 40px 30px;\"\n            valign=\"top\"\n          >\n            <table\n              align=\"center\"\n              border=\"0\"\n              cellpadding=\"0\"\n              cellspacing=\"0\"\n              width=\"100%\"\n            >\n              <tbody>\n              <tr>\n                <td\n                  align=\"center\"\n                  style=\"font-family:'Open Sans', Arial, sans-serif; font-size:16px; line-height:30px; color:#333 !important;\"\n                  valign=\"top\"\n                >\n                  We have added the <%assessmentType%> questionnaire to the Contractor Check master list.\n\n                </td>\n              </tr>\n    \n              </tbody>\n            </table>\n          </td>\n        </tr>\n\n        <!--//Content Text Section-->\n        <!--Footer Section-->\n        <tr>\n          <td\n            align=\"center\"\n            bgcolor=\"#f6f7f8\"\n            class=\"em_padd\"\n            style=\"padding:38px 30px;\"\n            valign=\"top\"\n          >\n            <table\n              align=\"center\"\n              border=\"0\"\n              cellpadding=\"0\"\n              cellspacing=\"0\"\n              width=\"100%\"\n            >\n              <tbody>\n              <tr>\n                <td\n                  align=\"center\"\n                  style=\"font-family:'Open Sans', Arial, sans-serif; font-size:11px; line-height:18px; color:#999999;\"\n                  valign=\"top\"\n                >\n                  (c) Alcumus 2021\n                </td>\n              </tr>\n              </tbody>\n            </table>\n          </td>\n        </tr>\n        </tbody>\n      </table>\n    </td>\n  </tr>\n  </tbody>\n</table>\n<div\n  class=\"em_hide\"\n  style=\"white-space: nowrap; display: none; font-size:0; line-height:0;\"\n>\n  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\n  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\n</div>\n</body>\n</html>\n",
+            "fromTimes": 1,
+            "recipients": [
+              {
+                "id": "Uk0zwMHPCC99sP",
+                "email": "{profile.email}"
+              }
+            ],
+            "titleColor": "#1da7e0",
+            "closeButton": "Ok",
+            "$behaviourType": "confirmation",
+            "disablePopupMessage": true,
+            "doNotSendToCurrentUser": true
+          }
+        ],
+        "auditDataUpdater": [
+          {
+            "id": "HqmqsQVR27vEF_",
+            "__init": true,
+            "inStates": [
+              "Rejected",
+              "Master List"
+            ],
+            "_selectId": "s8wb4AaYJKdRKv"
+          }
+        ]
+      }
+    },
+    "createOnNew": false,
+    "description": "",
+    "displayName": "Assessor Questionnaire",
+    "__originalId": "R720NeuU8vOWuo:hestia/document-types",
+    "defaultState": "New",
+    "sidebarColor": "#333",
+    "tabsSelected": "#009fda",
+    "__warnReasons": [],
+    "documentColor": "#333",
+    "_activeVersion": "sTNP-VH3hEzwdP",
+    "_parentVersion": "",
+    "currentVersion": {
+      "live": "1.0",
+      "testing": "1.0",
+      "development": "1.0"
+    },
+    "tabsBackground": "#f4f4f4",
+    "tabsForeground": "#555",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "defaultActivity": null,
+    "devices-allowed": "",
+    "sideBarMinWidth": 150,
+    "documentBackdrop": "#f4f4f4",
+    "sidebarBackground": "#fff",
+    "documentBackground": "#f4f4f4",
+    "devices-allowed-html": "",
+    "isLockedByCurrentUser": false
+  }
+]

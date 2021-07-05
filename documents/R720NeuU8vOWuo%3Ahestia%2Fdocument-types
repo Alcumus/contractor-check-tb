@@ -1,5 +1,5 @@
 {
-  "__": "VAxQ9SHWzD2RWC",
+  "__": "Jw2LPxuVQJl2ex",
   "_id": "R720NeuU8vOWuo:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -205,14 +205,14 @@
     {
       "id": "sTNP-VH3hEzwdP",
       "name": "1.0",
-      "time": 1624618022138,
+      "time": 1625497632426,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "8cBKP2hX7GUw59",
+      "_selectId": "89TXmBu0Glh0Cn",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624614422000,
+  "_modified": 1625494032000,
   "components": "verification,navigation,richtext",
   "isLockedBy": null,
   "navigation": [],
@@ -1004,7 +1004,7 @@
         {
           "id": "ZhbzXcIBj7ZnE4",
           "name": "Audit Assessing",
-          "onEnter": "",
+          "onEnter": true,
           "inStates": [
             "Assessing"
           ],
@@ -1045,6 +1045,7 @@
           "specificId": false,
           "targetType": "j0P98w9sl6QXZo:hestia/document-types",
           "updateState": "",
+          "updateClient": "",
           "recordChanges": "details",
           "$behaviourType": "updater",
           "targetTypeName": "Audit Trail",
@@ -1056,7 +1057,7 @@
         {
           "id": "KaAhQE8R8CcYNK",
           "name": "Audit Quality Control",
-          "onEnter": "",
+          "onEnter": true,
           "inStates": [
             "Quality Control"
           ],
@@ -1097,6 +1098,7 @@
           "specificId": false,
           "targetType": "j0P98w9sl6QXZo:hestia/document-types",
           "updateState": "",
+          "updateClient": "",
           "recordChanges": "details",
           "$behaviourType": "updater",
           "targetTypeName": "Audit Trail",
