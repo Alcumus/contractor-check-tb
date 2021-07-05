@@ -1,5 +1,5 @@
 {
-  "__": "M8IvAVXbPcVYZM",
+  "__": "PD_KXWucMYDkeQ",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -228,14 +228,14 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1625190426518,
+      "time": 1625489774947,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "7iPbbIe8tg4FYd",
+      "_selectId": "D9NshqWLHPJ-su",
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1625186827000,
+  "_modified": 1625486175000,
   "components": "navigation",
   "isLockedBy": null,
   "navigation": [],
@@ -1675,7 +1675,14 @@
           ],
           "mergeAll": true,
           "_selectId": "EpcP3VL3bVD7zn",
-          "properties": [],
+          "properties": [
+            {
+              "id": "J5DFydmcQAwDqS",
+              "field": "profile",
+              "value": "{_id}",
+              "defaultValue": ""
+            }
+          ],
           "specificId": "",
           "targetType": "UJns4BZ0dhGyw5:hestia/document-types",
           "updateState": "Stored",

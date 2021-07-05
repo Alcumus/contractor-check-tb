@@ -1,6 +1,6 @@
 [
   {
-    "__": "wrHUiNSwXDYa8_",
+    "__": "f2OTLDUTFXMucw",
     "ZIP": "999",
     "_id": "1621266694681:companyP/companyP",
     "City": "Racoon City",
@@ -83,6 +83,12 @@
             "_settings": {
               "_id": "rH6EL6EJjx3vGG:hestia/document-types"
             }
+          },
+          {
+            "_id": "Y9eam4wtWr9ci3:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
           }
         ]
       }
@@ -153,7 +159,7 @@
       "Alberta",
       "British Columbia"
     ],
-    "_modified": 1625157601000,
+    "_modified": 1625187182000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
@@ -184,7 +190,8 @@
       "Cooling Tower Maintenance",
       "Commercial Diving",
       "Electrical Heating Systems - Installation, Maintenance",
-      "Electrical Work - Installation, Maintenance(below 600V)"
+      "Electrical Work - Installation, Maintenance(below 600V)",
+      "Air Conditioning"
     ],
     "clientsLookup": [
       "Mx20OTel7MWV4d:contractorcheck/masterCompanyProfile",
@@ -202,13 +209,23 @@
       "tXjZb3-pXJFRPQ:workA/workA",
       "0SL-HHTURQQEZf:workA/workA",
       "1J2eLs8b1pARUz:workA/workA",
-      "4AALZ6jd6nPmFT:workA/workA"
+      "4AALZ6jd6nPmFT:workA/workA",
+      "Y9eam4wtWr9ci3:workA/workA"
     ],
     "_lastModifiedBy": "cd405ef0-2323-4874-9f83-b7aab77149b8",
     "_stateChangedAt": 1621266733117,
     "headOfficeCountry": "US",
     "numberOfEmployees": "0",
-    "preferredLanguage": "fr",
+    "preferredLanguage": "en",
+    "workActivityFrench": [
+      "Systèmes Audio et Visuels - Installation, Maintenance",
+      "Gestion de la construction",
+      "Entretien des tours de refroidissement",
+      "Plongée commerciale",
+      "Systèmes de chauffage électrique - Installation, entretien",
+      "Travaux électriques - Installation, Maintenance (inférieure à 600V)",
+      "Climatisation"
+    ],
     "doYouUseContractors": "no",
     "workActivitiesLookup": [
       "JgpbhOLqdNDhgP:workA/workA",
@@ -303,7 +320,7 @@
     ]
   },
   {
-    "__": "fyjGg7jrGy1xjf",
+    "__": "Of9eUWkGgZHwBi",
     "ZIP": "",
     "_id": "1621327241644:companyP/companyP",
     "City": "Toronto",
@@ -321,45 +338,33 @@
       "clientsLookup": {
         "rows": [
           {
-            "_id": "8-DZ0dQ-ny8sF0:companyP/companyP",
+            "_id": "LPFyKe_7BTUWJ-:contractorcheck/masterCompanyProfile",
             "_settings": {
-              "_id": "WdoYmj-FOBFYri:hestia/document-types"
+              "_id": "UJns4BZ0dhGyw5:hestia/document-types"
             }
           },
           {
-            "_id": "aDQEUTeZ5XXY8n:companyP/companyP",
+            "_id": "8c5KGaMb3gHxgE:contractorcheck/masterCompanyProfile",
             "_settings": {
-              "_id": "WdoYmj-FOBFYri:hestia/document-types"
+              "_id": "UJns4BZ0dhGyw5:hestia/document-types"
             }
           },
           {
-            "_id": "trzCa9I4sMgRmV:companyP/companyP",
+            "_id": "YdKkWf7FpjkwsV:contractorcheck/masterCompanyProfile",
             "_settings": {
-              "_id": "WdoYmj-FOBFYri:hestia/document-types"
+              "_id": "UJns4BZ0dhGyw5:hestia/document-types"
             }
           },
           {
-            "_id": "iawY_HehQF-ZBu:companyP/companyP",
+            "_id": "5Qs5Ptp-z8jP5G:contractorcheck/masterCompanyProfile",
             "_settings": {
-              "_id": "WdoYmj-FOBFYri:hestia/document-types"
+              "_id": "UJns4BZ0dhGyw5:hestia/document-types"
             }
           },
           {
-            "_id": "k7edZG8PkJSqaj:companyP/companyP",
+            "_id": "2Jb4IVFL3hrjMQ:contractorcheck/masterCompanyProfile",
             "_settings": {
-              "_id": "WdoYmj-FOBFYri:hestia/document-types"
-            }
-          },
-          {
-            "_id": "LPFyKe_7BTUWJ-:companyP/companyP",
-            "_settings": {
-              "_id": "WdoYmj-FOBFYri:hestia/document-types"
-            }
-          },
-          {
-            "_id": "5Qs5Ptp-z8jP5G:companyP/companyP",
-            "_settings": {
-              "_id": "WdoYmj-FOBFYri:hestia/document-types"
+              "_id": "UJns4BZ0dhGyw5:hestia/document-types"
             }
           }
         ]
@@ -395,13 +400,11 @@
     "_client": "1621327241644",
     "address": "",
     "clients": [
-      "Agellan Capital Partners Inc",
-      "Branksome Hall",
-      "Calgary Co-Operative Association Limited",
-      "EPIC Investment Services (Client)",
-      "First Capital - REIT",
       "Ivanhoe Cambridge Inc.",
-      "K-Line Group"
+      "Enwave Energy Corporation (Client)",
+      "Longo Brothers Fruit Markets Inc.",
+      "K-Line Group",
+      "BURNCO Rock Products Ltd - Client"
     ],
     "country": [
       "Canada"
@@ -412,13 +415,13 @@
     "_created": 1621461170000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 84,
+    "complete": 81,
     "province": [
       "Quebec",
       "Saskatchewan",
       "Ontario"
     ],
-    "_modified": 1624964107000,
+    "_modified": 1625483509000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Assessed"
@@ -445,34 +448,34 @@
     },
     "contractorId": "1621327241644",
     "profileState": "Saved",
+    "tradingNames": "",
     "workActivity": [
-      "Air Conditioning",
       "Steamfitter"
     ],
     "clientsLookup": [
-      "8-DZ0dQ-ny8sF0:companyP/companyP",
-      "aDQEUTeZ5XXY8n:companyP/companyP",
-      "trzCa9I4sMgRmV:companyP/companyP",
-      "iawY_HehQF-ZBu:companyP/companyP",
-      "k7edZG8PkJSqaj:companyP/companyP",
-      "LPFyKe_7BTUWJ-:companyP/companyP",
-      "5Qs5Ptp-z8jP5G:companyP/companyP"
+      "LPFyKe_7BTUWJ-:contractorcheck/masterCompanyProfile",
+      "8c5KGaMb3gHxgE:contractorcheck/masterCompanyProfile",
+      "YdKkWf7FpjkwsV:contractorcheck/masterCompanyProfile",
+      "5Qs5Ptp-z8jP5G:contractorcheck/masterCompanyProfile",
+      "2Jb4IVFL3hrjMQ:contractorcheck/masterCompanyProfile"
     ],
     "doYouContract": "yes",
     "classification": "Construction",
     "workActivities": [
-      "98453gUyyYYtgR:workA/workA",
       "ulG_R7NkaQh6dD:workA/workA"
     ],
-    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_lastModifiedBy": "23d85472-167c-45dd-8610-5c723cb99c07",
     "_stateChangedAt": 1624275288512,
     "headOfficeCountry": "Canada",
     "numberOfEmployees": 59,
-    "preferredLanguage": "English",
+    "preferredLanguage": "en",
+    "workActivityFrench": [
+      "Monteur de vapeur"
+    ],
     "doYouUseContractors": "no"
   },
   {
-    "__": "eSFaxyHPFgp8Q2",
+    "__": "G5Q_6PBZpOoha8",
     "ZIP": "666",
     "_id": "1621330978348:companyP/companyP",
     "City": "Slough",
@@ -481,6 +484,12 @@
         "rows": [
           {
             "_id": "Mx20OTel7MWV4d:contractorcheck/masterCompanyProfile",
+            "_settings": {
+              "_id": "UJns4BZ0dhGyw5:hestia/document-types"
+            }
+          },
+          {
+            "_id": "4ZOTyeDJ12zt7K:contractorcheck/masterCompanyProfile",
             "_settings": {
               "_id": "UJns4BZ0dhGyw5:hestia/document-types"
             }
@@ -524,7 +533,8 @@
     "_client": "1621330978348",
     "address": "The Office",
     "clients": [
-      "Bimbo Canada (Canada Bread)"
+      "Bimbo Canada (Canada Bread)",
+      "First Gulf (Client)"
     ],
     "country": [
       "US"
@@ -535,12 +545,12 @@
     "_created": 1621461172000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 91,
+    "complete": 88,
     "province": [
       "Nunavut",
       "Newfoundland and Labrador"
     ],
-    "_modified": 1624964115000,
+    "_modified": 1625226284000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Assessed"
@@ -569,13 +579,15 @@
     },
     "contractorId": "1621330978348",
     "profileState": "Saved",
+    "tradingNames": "",
     "workActivity": [
       "Architect",
       "Armoured Car Services",
       "Wind, Fire, Water Disaster Cleanup and Restoration"
     ],
     "clientsLookup": [
-      "Mx20OTel7MWV4d:contractorcheck/masterCompanyProfile"
+      "Mx20OTel7MWV4d:contractorcheck/masterCompanyProfile",
+      "4ZOTyeDJ12zt7K:contractorcheck/masterCompanyProfile"
     ],
     "doYouContract": "yes",
     "classification": "Maintenance",
@@ -584,11 +596,16 @@
       "2TPCmBI54Ak_4m:workA/workA",
       "KSoRD4ak6jh6RI:workA/workA"
     ],
-    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_lastModifiedBy": "9927652f-a4a6-49bf-9dde-4a96cc25563e",
     "_stateChangedAt": 1624275200505,
-    "headOfficeCountry": "USA",
+    "headOfficeCountry": "US",
     "numberOfEmployees": 155,
-    "preferredLanguage": "French",
+    "preferredLanguage": "en",
+    "workActivityFrench": [
+      "Architecte",
+      "Services de véhicules blindés",
+      "Nettoyage et restauration des catastrophes liées au vent, au feu et à l'eau"
+    ],
     "doYouUseContractors": "no"
   },
   {
@@ -835,7 +852,7 @@
     "doYouUseContractors": "yes"
   },
   {
-    "__": "B5NI_LTGoSaGtf",
+    "__": "8se7ewPOKfO4xM",
     "ZIP": "1234",
     "_id": "Mx20OTel7MWV4d:companyP/companyP",
     "City": "Sometown",
@@ -854,8 +871,8 @@
     "_created": 1622140349000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 50,
-    "_modified": 1624968885000,
+    "complete": 52,
+    "_modified": 1624980475000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
@@ -876,13 +893,14 @@
     },
     "contractorId": "",
     "profileState": "",
+    "tradingNames": "",
     "doYouContract": "no",
     "classification": "",
     "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1624963992108,
-    "headOfficeCountry": "USA",
+    "headOfficeCountry": "US",
     "numberOfEmployees": "",
-    "preferredLanguage": "",
+    "preferredLanguage": "en",
     "doYouUseContractors": "yes"
   },
   {
