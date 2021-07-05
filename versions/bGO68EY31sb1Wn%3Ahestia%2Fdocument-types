@@ -1,6 +1,6 @@
 [
   {
-    "__": "vZi6EOcNmcYjtv",
+    "__": "Beiyxyaj6diCkW",
     "_id": "bGO68EY31sb1Wn-4LHbkNFx6VFSZt:hestia/versions",
     "__id": "bGO68EY31sb1Wn:hestia/document-types",
     "icon": "",
@@ -405,7 +405,13 @@
     "sidebarColor": "#333",
     "tabsSelected": "#009fda",
     "documentColor": "#333",
-    "_activeVersion": "CPoc7Ar-niPAIi",
+    "_activeVersion": "4LHbkNFx6VFSZt",
+    "_parentVersion": "",
+    "currentVersion": {
+      "live": "1.0",
+      "testing": "1.0",
+      "development": "1.0"
+    },
     "tabsBackground": "#f4f4f4",
     "tabsForeground": "#555",
     "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
