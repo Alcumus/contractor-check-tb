@@ -1,6 +1,6 @@
 [
   {
-    "__": "iAGy724bz_qR9Y",
+    "__": "84sl8a0Y3ww1Cr",
     "_id": "fYmpCXoXNbRtVg-D57acZ-uIHF-Tx:hestia/versions",
     "__id": "fYmpCXoXNbRtVg:hestia/document-types",
     "__ok": true,
@@ -1000,6 +1000,57 @@
             "recordChanges": "",
             "targetTypeName": "Contractor Questionnaire",
             "updateRecordId": "{_id}",
+            "createMergeRecord": false,
+            "uniqueMergeRecords": false,
+            "updateTargetDocumentState": ""
+          },
+          {
+            "id": "1D99gZ--qEO6XR",
+            "name": "Update The Questionnaire Status Record",
+            "onEnter": true,
+            "inStates": [
+              "New",
+              "Submitted",
+              "Rejected",
+              "Accepted",
+              "Editing",
+              "Expired"
+            ],
+            "mergeAll": "",
+            "_selectId": "noDPWMoiyoIuc1",
+            "properties": [
+              {
+                "id": "5jwxlPgy08802H",
+                "field": "assessmentType",
+                "value": "{assessmentType}",
+                "defaultValue": ""
+              },
+              {
+                "id": "FcYpp_hSPSjm5F",
+                "field": "companyProfile",
+                "value": "{linkedProfile}",
+                "defaultValue": ""
+              },
+              {
+                "id": "8RTTVwH3ZZEcqz",
+                "field": "masterListCompanyProfile",
+                "value": "{linkedMasterListProfile}",
+                "defaultValue": ""
+              },
+              {
+                "id": "-Q7VZC08OGZqhX",
+                "field": "status",
+                "value": "{_state}",
+                "defaultValue": ""
+              }
+            ],
+            "specificId": true,
+            "targetType": "bGO68EY31sb1Wn:hestia/document-types",
+            "updateClient": true,
+            "recordChanges": "",
+            "targetTypeName": "Questionnaire Status",
+            "updateRecordId": "{resolveId(_id)}:contractorcheck/status",
+            "updateToClient": "rsihYJKKDVyaYN",
             "createMergeRecord": false,
             "uniqueMergeRecords": false,
             "updateTargetDocumentState": ""
