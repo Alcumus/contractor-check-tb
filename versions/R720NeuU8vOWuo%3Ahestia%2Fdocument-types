@@ -1,6 +1,6 @@
 [
   {
-    "__": "ysm4uTpwqZXgmQ",
+    "__": "wsx-6tvULUYz5H",
     "_id": "R720NeuU8vOWuo-sTNP-VH3hEzwdP:hestia/versions",
     "__id": "R720NeuU8vOWuo:hestia/document-types",
     "__ok": true,
@@ -203,7 +203,7 @@
     "_deleted": 0,
     "database": "contractorcheck",
     "maxWidth": 1000,
-    "_modified": 1625494032000,
+    "_modified": 1625494088000,
     "components": "verification,navigation,richtext",
     "isLockedBy": null,
     "navigation": [],
@@ -1099,6 +1099,35 @@
             "createMergeRecord": true,
             "uniqueMergeRecords": true,
             "updateTargetDocumentState": false
+          },
+          {
+            "id": "FIBgx5sOUVQDQT",
+            "name": "Update The Questionnaire Status",
+            "onEnter": true,
+            "inStates": [
+              "Assessing",
+              "Quality Control"
+            ],
+            "mergeAll": "",
+            "_selectId": "GSsbysKWkalAqZ",
+            "properties": [
+              {
+                "id": "Kjzi8638Ykn_pN",
+                "field": "status",
+                "value": "{_state}",
+                "defaultValue": ""
+              }
+            ],
+            "specificId": true,
+            "targetType": "bGO68EY31sb1Wn:hestia/document-types",
+            "updateClient": true,
+            "recordChanges": "",
+            "targetTypeName": "Questionnaire Status",
+            "updateRecordId": "{resolveId(_id)}:contractorcheck/status",
+            "updateToClient": "rsihYJKKDVyaYN",
+            "createMergeRecord": false,
+            "uniqueMergeRecords": false,
+            "updateTargetDocumentState": ""
           }
         ],
         "derivation": [
