@@ -1,6 +1,6 @@
 [
   {
-    "__": "aFc5jv6rmia_MV",
+    "__": "lnjhf265KpeLnP",
     "_id": "fYmpCXoXNbRtVg-D57acZ-uIHF-Tx:hestia/versions",
     "__id": "fYmpCXoXNbRtVg:hestia/document-types",
     "__ok": true,
@@ -1007,7 +1007,7 @@
           {
             "id": "1D99gZ--qEO6XR",
             "name": "Update The Questionnaire Status Record",
-            "onEnter": false,
+            "onEnter": true,
             "inStates": [
               "New",
               "Submitted",
