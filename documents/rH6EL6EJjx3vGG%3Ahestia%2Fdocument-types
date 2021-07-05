@@ -1,5 +1,5 @@
 {
-  "__": "fyuu1BEU4roE0n",
+  "__": "fG4CIB_IDjDkfT",
   "_id": "rH6EL6EJjx3vGG:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -224,14 +224,14 @@
     {
       "id": "ur734zai3McGV7",
       "name": "1.0",
-      "time": 1624618004168,
+      "time": 1625188564449,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "zrL0hppi5nBPe4",
+      "_selectId": "GuNpMuI6D0Py1q",
       "parentVersion": "wtCwBMwccCGSfQ"
     }
   ],
-  "_modified": 1624614404000,
+  "_modified": 1625184964000,
   "components": "",
   "isLockedBy": null,
   "navigation": [],
@@ -261,83 +261,29 @@
                   "inputLabel": "",
                   "defaultValue": "",
                   "questionHeight": "",
+                  "clearIfDisabled": "",
                   "questionLeftPad": "",
                   "questionRightPad": "",
+                  "editableCondition": "",
                   "questionSpaceBefore": ""
                 },
                 {
-                  "id": "ZOU0S_skCl-gpQ",
-                  "name": "workActivities",
-                  "rows": 5,
-                  "type": "documentList",
+                  "id": "sSUzPPWP1CdN93",
+                  "name": "workActivityFrench",
+                  "type": "text",
                   "hints": {},
-                  "where": {},
-                  "listType": "rH6EL6EJjx3vGG:hestia/document-types",
+                  "maxWidth": "",
                   "question": "",
-                  "_selectId": "yyPrTnqspiEY9M",
+                  "_selectId": "87Z48_rVaNyRp1",
                   "condition": "",
-                  "filterText": "",
-                  "navigation": [],
-                  "displayView": "IOvAqZx5yk41ev",
-                  "sortColumns": [],
-                  "listTypeName": "Work  Activities",
-                  "displayFields": [],
-                  "filterColumns": [],
-                  "useDataSource": "",
+                  "inputLabel": "",
+                  "defaultValue": "",
                   "questionHeight": "",
+                  "clearIfDisabled": "",
                   "questionLeftPad": "",
-                  "displayView_name": "Imported Work Activities",
                   "questionRightPad": "",
+                  "editableCondition": "",
                   "questionSpaceBefore": ""
-                },
-                {
-                  "id": "gBDWK_PPt7AhxF",
-                  "icon": "",
-                  "name": "",
-                  "type": "excelImport",
-                  "color": "",
-                  "hints": {},
-                  "width": "",
-                  "fields": {
-                    "_id": {
-                      "mapping": ""
-                    },
-                    "$state": {
-                      "mapping": ""
-                    },
-                    "$creator": {
-                      "mapping": ""
-                    },
-                    "_created": {
-                      "mapping": ""
-                    },
-                    "_modified": {
-                      "mapping": ""
-                    },
-                    "workActivity": {
-                      "mapping": "{Work Activity}"
-                    }
-                  },
-                  "height": "",
-                  "variant": "text",
-                  "idColumn": "",
-                  "question": "",
-                  "_selectId": "i3BnhhyvYghZCW",
-                  "condition": "",
-                  "importType": "rH6EL6EJjx3vGG:hestia/document-types",
-                  "sourceSheet": "Sheet1",
-                  "buttonCaption": "Import",
-                  "createUniqueId": true,
-                  "importTypeName": "Work  Activities",
-                  "backgroundColor": "",
-                  "backgroundImage": "",
-                  "additionalFields": [],
-                  "exampleExcelFile": {
-                    "Sheet1": [
-                      "Work Activity"
-                    ]
-                  },
-                  "backgroundPosition": ""
                 }
               ],
               "description": ""
@@ -404,6 +350,15 @@
             {
               "id": "E6O1rnhVv4ncHs",
               "field": "workActivity",
+              "locale": ",en",
+              "separator": " ",
+              "transform": "none",
+              "defaultValue": ""
+            },
+            {
+              "id": "F-lDICUzAhzh7k",
+              "field": "workActivityFrench",
+              "locale": "fr,french",
               "separator": " ",
               "transform": "none",
               "defaultValue": ""

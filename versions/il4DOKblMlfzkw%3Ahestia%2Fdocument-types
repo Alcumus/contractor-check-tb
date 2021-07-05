@@ -1,12 +1,12 @@
 [
   {
-    "__": "luY8kfgXlAK_4s",
-    "_id": "UJns4BZ0dhGyw5-8eXUnVjk2o1gFo:hestia/versions",
-    "__id": "UJns4BZ0dhGyw5:hestia/document-types",
+    "__": "UZGi_EArbnnjNF",
+    "_id": "il4DOKblMlfzkw-PN-xFeWB01IZeJ:hestia/versions",
+    "__id": "il4DOKblMlfzkw:hestia/document-types",
     "icon": "",
-    "name": "Master List Company Profile",
+    "name": "Trading Identity",
     "tags": [],
-    "table": "masterCompanyProfile",
+    "table": "tradingIdentity",
     "theme": {
       "other": {
         "opacity": {
@@ -21,7 +21,7 @@
           "bronze": "#853",
           "silver": "silver",
           "primary": {
-            "main": "#1da7e0",
+            "main": "#0A599A",
             "contrastText": "#fff"
           },
           "AlcSys_001": "#FFFFFF",
@@ -168,14 +168,13 @@
       "permanentTheme": ""
     },
     "$valid": true,
-    "client": "rsihYJKKDVyaYN",
     "gitHub": {
       "1J8739KZBOtzVQ": {
-        "publishDocs": true,
+        "publishDocs": "",
         "gitHubPublish": true
       },
       "aV8boSk1D6q6YG": {
-        "publishDocs": true,
+        "publishDocs": "",
         "gitHubPublish": true
       }
     },
@@ -183,19 +182,15 @@
     "demands": [],
     "graphQL": {
       "6g4mciY7jkfOUo": {
-        "read": true,
-        "write": true,
-        "exposeAPI": true,
-        "readDemands": [],
-        "writeDemands": []
+        "exposeAPI": ""
       }
     },
     "$invalid": false,
-    "_created": 1624016930000,
+    "_created": 1625000636000,
     "_deleted": 0,
     "database": "contractorcheck",
     "maxWidth": 1000,
-    "_modified": 1624964072000,
+    "_modified": 1625000636000,
     "components": "",
     "navigation": [],
     "_behaviours": {
@@ -203,26 +198,41 @@
       "instances": {
         "form": [
           {
-            "id": "aniP7ivNuI84qd",
-            "name": "Data",
+            "id": "njHn2ys2KesZeg",
+            "name": "Main",
             "sections": [
               {
-                "id": "1625489706564-9Mbe_TXSG-wTNR",
-                "_id": "1625489706564-9Mbe_TXSG-wTNR:hestia/form-sections",
-                "name": "...",
+                "name": "Main",
                 "_expanded": true,
-                "_selectId": "L9rUvKxwEzX_Yk",
-                "condition": "",
+                "_selectId": "WszFq08SDhp-9S",
                 "questions": [
                   {
-                    "id": "jjsKrmYKuBq7yt",
-                    "name": "profile",
-                    "type": "lookup",
+                    "id": "QVQ6hppSs4TENI",
+                    "name": "name",
+                    "type": "text",
                     "hints": {},
+                    "maxWidth": "",
+                    "question": "",
+                    "_selectId": "qL4tbbsT8P3Q_8",
+                    "condition": "",
+                    "inputLabel": "",
+                    "defaultValue": "",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "45hCKmYPcF8hMP",
+                    "name": "company",
+                    "type": "lookup",
+                    "hints": {
+                      "hidden": true
+                    },
                     "lines": 1,
                     "groups": [],
                     "question": "",
-                    "_selectId": "8HNv-Spr1tTHpr",
+                    "_selectId": "U0nAz1aaGQ3G-E",
                     "condition": "",
                     "popupView": "tO-6DxodJdqI_0",
                     "inputLabel": "",
@@ -240,92 +250,100 @@
                     "requiredFields": [
                       "companyName"
                     ],
-                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "displayView_name": "Name",
                     "questionRightPad": "",
-                    "editableCondition": "",
                     "questionSpaceBefore": ""
                   }
-                ],
-                "description": ""
+                ]
               }
             ],
-            "_selectId": "RcwuVHMC6CHx_k",
+            "_selectId": "evYiUdoHF-7wUL",
             "condition": "",
             "description": "",
             "duplicateNames": {}
           }
         ],
-        "derivation": [
-          {
-            "id": "mMfdmRZjjsPOUb",
-            "name": "Derive From Company Profile",
-            "_selectId": "VTjKkGPVlUWxIc",
-            "derivedFrom": "WdoYmj-FOBFYri:hestia/document-types",
-            "description": "",
-            "textOverride": {},
-            "typeOverride": {},
-            "stateOverride": {
-              "x_5KNezQjHRN0v": {}
-            },
-            "derivedFromName": "Company Profile"
-          }
-        ],
         "formAction": [
           {
-            "id": "EPHA20xLUChyzm",
-            "name": "Back Link",
+            "id": "2dib8ki1St2E5b",
+            "name": "Main",
             "forms": [
               {
-                "id": "jwoZ_pL7wKb4i7",
-                "form": "aniP7ivNuI84qd",
-                "readOnly": false,
-                "_selectId": "diHGZuIAMaLAhr"
+                "id": "wvuJ3Ls1QmtVJH",
+                "form": "njHn2ys2KesZeg",
+                "readOnly": "",
+                "_selectId": "zLT3kEq66QtVKs"
               }
             ],
             "inline": true,
-            "actions": [],
-            "storeIn": "",
-            "_selectId": "eeYm2MyqJhuhxT",
-            "editDemands": [],
-            "inputStates": [
-              "New",
-              "Saved",
-              "Assessed",
-              "Approved",
-              "Stored"
-            ],
-            "visibleDemands": []
-          }
-        ],
-        "viewAsText": [
-          {
-            "id": "TwE9lX50LCjAz3",
-            "name": "Master List Name",
-            "fields": [
+            "actions": [
               {
-                "id": "q6wfZWJTQsET-v",
-                "field": "companyName",
-                "separator": " ",
-                "transform": "none",
-                "defaultValue": ""
+                "id": "qW3c7WkYOewMH3",
+                "blur": false,
+                "icon": "AiOutlineDelete",
+                "color": "#fff",
+                "modal": {
+                  "enabled": false
+                },
+                "goBack": "",
+                "caption": "",
+                "command": "setData",
+                "toState": "New",
+                "variant": "text",
+                "_selectId": "WWR2wcitfuYYMO",
+                "condition": "",
+                "endOfLine": true,
+                "navigateTo": "",
+                "properties": [],
+                "changeState": true,
+                "backgroundColor": "#03a9f4",
+                "visibleCondition": "",
+                "notificationToast": ""
+              },
+              {
+                "id": "uWs_tFLFzyFyzN",
+                "blur": true,
+                "icon": "",
+                "color": "#fff",
+                "modal": {
+                  "enabled": false
+                },
+                "goBack": false,
+                "caption": "Submit",
+                "command": "setData",
+                "toState": "New",
+                "variant": "text",
+                "_selectId": "57YBtSt5b_Gee3",
+                "condition": "",
+                "endOfLine": "",
+                "navigateTo": "",
+                "properties": [],
+                "changeState": true,
+                "backgroundColor": "#03a9f4",
+                "visibleCondition": "",
+                "notificationToast": ""
               }
             ],
-            "_selectId": "wcSD8AHeQjAJMz",
-            "availableActions": []
+            "storeIn": "",
+            "_selectId": "cFr1yb39NXEoql",
+            "editDemands": [],
+            "inputStates": [
+              "New"
+            ],
+            "visibleDemands": []
           }
         ]
       }
     },
     "createOnNew": false,
     "description": "",
-    "displayName": "Master List Company Profile",
+    "displayName": "Trading Identity",
     "defaultState": "New",
     "sidebarColor": "#333",
     "tabsSelected": "#009fda",
     "documentColor": "#333",
-    "_activeVersion": "8eXUnVjk2o1gFo",
+    "_activeVersion": "PN-xFeWB01IZeJ",
     "_parentVersion": "",
     "currentVersion": {
       "live": "1.0",
@@ -335,7 +353,7 @@
     "tabsBackground": "#f4f4f4",
     "tabsForeground": "#555",
     "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-    "defaultActivity": "TfKhoFBqWSHFbB",
+    "defaultActivity": "2dib8ki1St2E5b",
     "devices-allowed": "",
     "sideBarMinWidth": 150,
     "documentBackdrop": "#f4f4f4",
