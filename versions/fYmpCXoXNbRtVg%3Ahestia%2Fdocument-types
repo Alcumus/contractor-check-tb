@@ -1,6 +1,6 @@
 [
   {
-    "__": "MYXAkbjSQ8glKd",
+    "__": "4OBErEYG6Wbr-e",
     "_id": "fYmpCXoXNbRtVg-D57acZ-uIHF-Tx:hestia/versions",
     "__id": "fYmpCXoXNbRtVg:hestia/document-types",
     "__ok": true,
@@ -199,7 +199,7 @@
     "_deleted": 0,
     "database": "contractorcheck",
     "maxWidth": 1000,
-    "_modified": 1625225658000,
+    "_modified": 1625321863000,
     "components": "verification,helptext,navigation,formprogress,localisation",
     "isLockedBy": null,
     "navigation": [],
@@ -970,6 +970,31 @@
             "createMergeRecord": false,
             "uniqueMergeRecords": false,
             "updateTargetDocumentState": true
+          },
+          {
+            "id": "-YSq86IIpjxk8r",
+            "name": "Update Links",
+            "onEnter": "",
+            "inStates": [
+              "New",
+              "Submitted",
+              "Rejected",
+              "Accepted",
+              "Editing",
+              "Expired"
+            ],
+            "mergeAll": "",
+            "_selectId": "l2YrcgedUqMTrQ",
+            "properties": [],
+            "specificId": true,
+            "targetType": "fYmpCXoXNbRtVg:hestia/document-types",
+            "updateClient": "",
+            "recordChanges": "",
+            "targetTypeName": "Contractor Questionnaire",
+            "updateRecordId": "{_id}",
+            "createMergeRecord": false,
+            "uniqueMergeRecords": false,
+            "updateTargetDocumentState": ""
           }
         ],
         "derivation": [
@@ -1055,7 +1080,7 @@
                   "title": "Submit Form",
                   "cancel": "Cancel",
                   "enabled": true,
-                  "message": "Do you want to submit your response?  You will not be able to edit the form once it is submitted.",
+                  "message": "<p>Do you want to submit your response?  You will not be able to edit the form once it is submitted.</p>\n",
                   "cancelColor": "#f50057",
                   "toggleOrder": "",
                   "confirmColor": "#f5f5f5",
@@ -1549,6 +1574,7 @@
               "Accepted": "Accepté",
               "Evidence": "Preuve",
               "Acknowledge": "Accuser réception",
+              "Helpful Tips": "Conseils utiles",
               "RafKrj90cILrkT": {
                 "question": "<p>Bananananana</p>\n"
               },
@@ -1597,6 +1623,12 @@
                 "uploadCaption": "",
                 "removeConfirmation": ""
               },
+              "a1S3m000008DkPgText": {
+                "question": "",
+                "inputLabel": "",
+                "defaultValue": "",
+                "inputPlaceholder": ""
+              },
               "a1S3m000008jxUOFile": {
                 "question": "",
                 "inputLabel": "",
@@ -1619,7 +1651,10 @@
                 "choices": {
                   "No": "Non",
                   "Yes": "Oui"
-                }
+                },
+                "question": "",
+                "inputLabel": "",
+                "inputPlaceholder": ""
               },
               "Acknowledge Rejection": "Reconnaître le rejet",
               "Please answer Yes or No": "Veuillez répondre \"Oui\" ou \"Non\".",
