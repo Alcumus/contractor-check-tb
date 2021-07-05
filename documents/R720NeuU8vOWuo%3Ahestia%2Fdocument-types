@@ -1,5 +1,5 @@
 {
-  "__": "Jw2LPxuVQJl2ex",
+  "__": "3LQ20ZGtc-haRg",
   "_id": "R720NeuU8vOWuo:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -205,14 +205,14 @@
     {
       "id": "sTNP-VH3hEzwdP",
       "name": "1.0",
-      "time": 1625497632426,
+      "time": 1625497688397,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "89TXmBu0Glh0Cn",
+      "_selectId": "2bDMFrzX8dM3Qi",
       "parentVersion": ""
     }
   ],
-  "_modified": 1625494032000,
+  "_modified": 1625494088000,
   "components": "verification,navigation,richtext",
   "isLockedBy": null,
   "navigation": [],
@@ -1045,11 +1045,12 @@
           "specificId": false,
           "targetType": "j0P98w9sl6QXZo:hestia/document-types",
           "updateState": "",
-          "updateClient": "",
+          "updateClient": true,
           "recordChanges": "details",
           "$behaviourType": "updater",
           "targetTypeName": "Audit Trail",
           "updateRecordId": "",
+          "updateToClient": "rsihYJKKDVyaYN",
           "createMergeRecord": true,
           "uniqueMergeRecords": true,
           "updateTargetDocumentState": false
@@ -1098,11 +1099,12 @@
           "specificId": false,
           "targetType": "j0P98w9sl6QXZo:hestia/document-types",
           "updateState": "",
-          "updateClient": "",
+          "updateClient": true,
           "recordChanges": "details",
           "$behaviourType": "updater",
           "targetTypeName": "Audit Trail",
           "updateRecordId": "",
+          "updateToClient": "rsihYJKKDVyaYN",
           "createMergeRecord": true,
           "uniqueMergeRecords": true,
           "updateTargetDocumentState": false
