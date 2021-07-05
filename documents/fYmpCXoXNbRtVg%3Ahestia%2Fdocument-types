@@ -1,5 +1,5 @@
 {
-  "__": "O_A6iuqeXCtGk3",
+  "__": "T6g3zGH4xm5Opa",
   "_id": "fYmpCXoXNbRtVg:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -201,14 +201,14 @@
     {
       "id": "D57acZ-uIHF-Tx",
       "name": "1.0",
-      "time": 1625498413960,
+      "time": 1625499364570,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "nVoJYXSsixGaJK",
+      "_selectId": "d_D8p9tAglVtdc",
       "parentVersion": ""
     }
   ],
-  "_modified": 1625494814000,
+  "_modified": 1625495765000,
   "components": "verification,helptext,navigation,formprogress,localisation",
   "isLockedBy": null,
   "navigation": [],
@@ -1016,7 +1016,7 @@
         {
           "id": "1D99gZ--qEO6XR",
           "name": "Update The Questionnaire Status Record",
-          "onEnter": true,
+          "onEnter": false,
           "inStates": [
             "New",
             "Submitted",
@@ -1049,7 +1049,7 @@
             {
               "id": "-Q7VZC08OGZqhX",
               "field": "status",
-              "value": "{_state}",
+              "value": "{$state}",
               "defaultValue": ""
             }
           ],
