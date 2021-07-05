@@ -1,6 +1,6 @@
 [
   {
-    "__": "4OBErEYG6Wbr-e",
+    "__": "4THXUfHoibNf-w",
     "_id": "fYmpCXoXNbRtVg-D57acZ-uIHF-Tx:hestia/versions",
     "__id": "fYmpCXoXNbRtVg:hestia/document-types",
     "__ok": true,
@@ -199,7 +199,7 @@
     "_deleted": 0,
     "database": "contractorcheck",
     "maxWidth": 1000,
-    "_modified": 1625321863000,
+    "_modified": 1625493993000,
     "components": "verification,helptext,navigation,formprogress,localisation",
     "isLockedBy": null,
     "navigation": [],
@@ -737,7 +737,7 @@
           {
             "id": "cO1d3x8xWj_mTH",
             "name": "Audit Submission",
-            "onEnter": "",
+            "onEnter": true,
             "inStates": [
               "Submitted"
             ],
@@ -778,9 +778,11 @@
             "specificId": false,
             "targetType": "j0P98w9sl6QXZo:hestia/document-types",
             "updateState": "",
+            "updateClient": true,
             "recordChanges": "details",
             "targetTypeName": "Audit Trail",
             "updateRecordId": "",
+            "updateToClient": "rsihYJKKDVyaYN",
             "createMergeRecord": true,
             "uniqueMergeRecords": true,
             "updateTargetDocumentState": false
@@ -788,7 +790,7 @@
           {
             "id": "8sBM_DwgiEDu7O",
             "name": "Audit Accredited",
-            "onEnter": "",
+            "onEnter": true,
             "inStates": [
               "Accepted"
             ],
@@ -829,6 +831,7 @@
             "specificId": false,
             "targetType": "j0P98w9sl6QXZo:hestia/document-types",
             "updateState": "",
+            "updateClient": "",
             "recordChanges": "details",
             "$behaviourType": "updater",
             "targetTypeName": "Audit Trail",
@@ -840,7 +843,7 @@
           {
             "id": "5vHBxlK9ougeES",
             "name": "Audit Rejected",
-            "onEnter": "",
+            "onEnter": true,
             "inStates": [
               "Rejected"
             ],
@@ -881,6 +884,7 @@
             "specificId": false,
             "targetType": "j0P98w9sl6QXZo:hestia/document-types",
             "updateState": "",
+            "updateClient": "",
             "recordChanges": "details",
             "$behaviourType": "updater",
             "targetTypeName": "Audit Trail",
@@ -892,7 +896,7 @@
           {
             "id": "Bh1DTG2oSyWCJ-",
             "name": "Audit Expired Documents",
-            "onEnter": "",
+            "onEnter": true,
             "inStates": [
               "Expired"
             ],
@@ -933,6 +937,7 @@
             "specificId": false,
             "targetType": "j0P98w9sl6QXZo:hestia/document-types",
             "updateState": "",
+            "updateClient": "",
             "recordChanges": "details",
             "$behaviourType": "updater",
             "targetTypeName": "Audit Trail",
