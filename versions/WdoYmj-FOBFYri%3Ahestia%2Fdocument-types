@@ -1517,7 +1517,7 @@
     "isLockedByCurrentUser": false
   },
   {
-    "__": "JxTFGfD8qccFYZ",
+    "__": "0RCLWxZs7PfipX",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -1727,7 +1727,12 @@
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1624606982000,
+    "webhooks": {
+      "WMtcQZgZTSiui1": {
+        "exposeWebhooks": ""
+      }
+    },
+    "_modified": 1625481686000,
     "components": "navigation",
     "isLockedBy": null,
     "navigation": [],
@@ -1984,6 +1989,24 @@
                     "questionLeftPad": "",
                     "questionRightPad": "",
                     "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "8Fr6MCjk2M54_H",
+                    "name": "AccountId",
+                    "type": "text",
+                    "hints": {
+                      "hidden": true
+                    },
+                    "maxWidth": "",
+                    "question": "",
+                    "_selectId": "d3T7K7woTuqyyN",
+                    "condition": "",
+                    "inputLabel": "",
+                    "defaultValue": "",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
                   }
                 ],
                 "description": ""
@@ -2126,6 +2149,35 @@
                     "deselectedHoverBorderColor": "#0082AF",
                     "selectedHoverBackgroundColor": "#1C9DD4",
                     "deselectedHoverBackgroundColor": "#1C9DD41F"
+                  },
+                  {
+                    "id": "5a1sAeo-MsQ-QR",
+                    "name": "paymentReceived",
+                    "type": "boolean",
+                    "hints": {
+                      "hidden": true
+                    },
+                    "choices": [
+                      {
+                        "label": "Yes",
+                        "value": "yes"
+                      },
+                      {
+                        "label": "No",
+                        "value": "no"
+                      }
+                    ],
+                    "question": "",
+                    "_selectId": "jKgVk-Iar9KcwR",
+                    "condition": "",
+                    "allowNullify": "",
+                    "questionHeight": "",
+                    "trueInputLabel": "",
+                    "falseInputLabel": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": "",
+                    "selectedDefaultValue": "-1"
                   }
                 ],
                 "description": ""
