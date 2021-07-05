@@ -1,5 +1,5 @@
 {
-  "__": "WqTHg_3Ek0RHn3",
+  "__": "8MJFS2DUjSVQFF",
   "_id": "R720NeuU8vOWuo:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -205,14 +205,14 @@
     {
       "id": "sTNP-VH3hEzwdP",
       "name": "1.0",
-      "time": 1625498488694,
+      "time": 1625499515569,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "rJiijIC1LvCd5q",
+      "_selectId": "doh4LW6DEIoKOj",
       "parentVersion": ""
     }
   ],
-  "_modified": 1625494889000,
+  "_modified": 1625495915000,
   "components": "verification,navigation,richtext",
   "isLockedBy": null,
   "navigation": [],
@@ -1112,7 +1112,7 @@
         {
           "id": "FIBgx5sOUVQDQT",
           "name": "Update The Questionnaire Status",
-          "onEnter": true,
+          "onEnter": false,
           "inStates": [
             "Assessing",
             "Quality Control"
@@ -1123,7 +1123,7 @@
             {
               "id": "Kjzi8638Ykn_pN",
               "field": "status",
-              "value": "{_state}",
+              "value": "{$state}",
               "defaultValue": ""
             }
           ],

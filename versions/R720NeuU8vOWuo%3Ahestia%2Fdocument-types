@@ -1,6 +1,6 @@
 [
   {
-    "__": "wsx-6tvULUYz5H",
+    "__": "8hh2X_2xbUfO5q",
     "_id": "R720NeuU8vOWuo-sTNP-VH3hEzwdP:hestia/versions",
     "__id": "R720NeuU8vOWuo:hestia/document-types",
     "__ok": true,
@@ -203,7 +203,7 @@
     "_deleted": 0,
     "database": "contractorcheck",
     "maxWidth": 1000,
-    "_modified": 1625494088000,
+    "_modified": 1625494889000,
     "components": "verification,navigation,richtext",
     "isLockedBy": null,
     "navigation": [],
@@ -1103,7 +1103,7 @@
           {
             "id": "FIBgx5sOUVQDQT",
             "name": "Update The Questionnaire Status",
-            "onEnter": true,
+            "onEnter": false,
             "inStates": [
               "Assessing",
               "Quality Control"
@@ -1114,7 +1114,7 @@
               {
                 "id": "Kjzi8638Ykn_pN",
                 "field": "status",
-                "value": "{_state}",
+                "value": "{$state}",
                 "defaultValue": ""
               }
             ],
