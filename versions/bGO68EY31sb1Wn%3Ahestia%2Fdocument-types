@@ -1,6 +1,6 @@
 [
   {
-    "__": "Beiyxyaj6diCkW",
+    "__": "3l974Yo52ZPdp3",
     "_id": "bGO68EY31sb1Wn-4LHbkNFx6VFSZt:hestia/versions",
     "__id": "bGO68EY31sb1Wn:hestia/document-types",
     "icon": "",
@@ -174,7 +174,7 @@
         "gitHubPublish": true
       },
       "aV8boSk1D6q6YG": {
-        "publishDocs": "",
+        "publishDocs": true,
         "gitHubPublish": true
       }
     },
@@ -182,7 +182,11 @@
     "demands": [],
     "graphQL": {
       "6g4mciY7jkfOUo": {
-        "exposeAPI": ""
+        "read": true,
+        "write": true,
+        "exposeAPI": true,
+        "readDemands": [],
+        "writeDemands": []
       }
     },
     "$invalid": false,
@@ -190,7 +194,7 @@
     "_deleted": 0,
     "database": "contractorcheck",
     "maxWidth": 1000,
-    "_modified": 1625494237000,
+    "_modified": 1625584135000,
     "components": "",
     "navigation": [],
     "_behaviours": {
@@ -205,6 +209,7 @@
                 "name": "Main",
                 "_expanded": true,
                 "_selectId": "HAVZl81CpRYr6N",
+                "condition": "",
                 "questions": [
                   {
                     "id": "Hoh9HUvGtxAEFT",
@@ -338,7 +343,7 @@
                     "buttonCaption": "",
                     "referenceType": "R720NeuU8vOWuo:hestia/document-types",
                     "createTypeName": "Assessor Questionnaire",
-                    "documentToLink": "{resolveId(_id)}:contractorcheck:assessorQuestionnaire",
+                    "documentToLink": "{resolveId(_id)}:contractorcheck/assessorQuestionnaire",
                     "questionHeight": "",
                     "clearIfDisabled": "",
                     "createIfMissing": "",
@@ -360,7 +365,7 @@
                     "buttonCaption": "",
                     "referenceType": "WwdiDwh2djKCCh:hestia/document-types",
                     "createTypeName": "Master List Questionnaire",
-                    "documentToLink": "{resolveId(_id)}:contractorCheck:masterListQuestionnaire",
+                    "documentToLink": "{resolveId(_id)}:contractorCheck/masterListQuestionnaire",
                     "questionHeight": "",
                     "clearIfDisabled": "",
                     "createIfMissing": "",
@@ -369,7 +374,8 @@
                     "editableCondition": "",
                     "questionSpaceBefore": ""
                   }
-                ]
+                ],
+                "description": ""
               }
             ],
             "_selectId": "aWVQ0IjTfh1nuS",
@@ -422,8 +428,8 @@
     "sidebarBackground": "#fff",
     "documentBackground": "#f4f4f4",
     "devices-allowed-html": "",
-    "assessorQuestionnaire": "#Missing Function: resolveId:contractorcheck:assessorQuestionnaire",
+    "assessorQuestionnaire": "#Missing Function: resolveId:contractorcheck/assessorQuestionnaire",
     "contractorQuestionnaire": "#Missing Function: resolveId:contractorcheck/contractorAnswers",
-    "masterListQuestionnaire": "#Missing Function: resolveId:contractorCheck:masterListQuestionnaire"
+    "masterListQuestionnaire": "#Missing Function: resolveId:contractorCheck/masterListQuestionnaire"
   }
 ]
