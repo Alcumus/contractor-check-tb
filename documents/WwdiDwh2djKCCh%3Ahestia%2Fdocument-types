@@ -1,5 +1,5 @@
 {
-  "__": "ajSUNXHCaB1bbe",
+  "__": "foSsDYgWvJ0mOg",
   "_id": "WwdiDwh2djKCCh:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -210,14 +210,14 @@
     {
       "id": "g0kqLgJQJ13MRT",
       "name": "1.1",
-      "time": 1625494410582,
+      "time": 1625588177667,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "hv0Coks3GUnSQP",
+      "_selectId": "mBqjsvaG4QuCfg",
       "parentVersion": "pmgndWqtbw5UAv"
     }
   ],
-  "_modified": 1625490810000,
+  "_modified": 1625584579000,
   "components": "",
   "isLockedBy": null,
   "navigation": [],
@@ -390,27 +390,6 @@
           "targetTypeName": "Contractor Questionnaire",
           "createMergeRecord": "",
           "updateTargetDocumentState": true
-        },
-        {
-          "id": "b-cqNOcZqVXsLL",
-          "name": "Refresh Links",
-          "onEnter": "",
-          "inStates": [
-            "New",
-            "Expired"
-          ],
-          "mergeAll": "",
-          "_selectId": "54DyVOC1RzQvmx",
-          "properties": [],
-          "specificId": true,
-          "targetType": "WwdiDwh2djKCCh:hestia/document-types",
-          "updateClient": "",
-          "recordChanges": "",
-          "targetTypeName": "Master List Questionnaire",
-          "updateRecordId": "{_id}",
-          "createMergeRecord": false,
-          "uniqueMergeRecords": false,
-          "updateTargetDocumentState": ""
         }
       ],
       "schedule": [
