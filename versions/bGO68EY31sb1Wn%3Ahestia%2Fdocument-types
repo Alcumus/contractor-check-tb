@@ -1,0 +1,429 @@
+[
+  {
+    "__": "Beiyxyaj6diCkW",
+    "_id": "bGO68EY31sb1Wn-4LHbkNFx6VFSZt:hestia/versions",
+    "__id": "bGO68EY31sb1Wn:hestia/document-types",
+    "icon": "",
+    "name": "Questionnaire Status",
+    "tags": [],
+    "table": "status",
+    "theme": {
+      "other": {
+        "opacity": {
+          "AlcOpacity_001": "10%",
+          "AlcOpacity_002": "25%",
+          "AlcOpacity_003": "50%",
+          "AlcOpacity_004": "75%"
+        },
+        "palette": {
+          "gold": "gold",
+          "type": "light",
+          "bronze": "#853",
+          "silver": "silver",
+          "primary": {
+            "main": "#0A599A",
+            "contrastText": "#fff"
+          },
+          "AlcSys_001": "#FFFFFF",
+          "AlcSys_002": "#F7F8F9",
+          "AlcSys_003": "#F4F5F6",
+          "AlcSys_004": "#EBEBED",
+          "AlcSys_005": "#CCCCCC",
+          "AlcSys_006": "rgba(125, 125, 125, 1)",
+          "AlcSys_007": "#263836",
+          "AlcSys_008": "#000000",
+          "AlcBrand_001": "#1da7e0",
+          "AlcBrand_002": "#0081AF",
+          "AlcBrand_003": "#294A76",
+          "AlcBrand_004": "#0099B3",
+          "AlcBrand_005": "#604696",
+          "AlcBrand_006": "#D26A37",
+          "AlcBrand_007": "#679861",
+          "AlcBrand_008": "#EBBA00",
+          "AlcBrand_009": "#8C1D82",
+          "AlcBrand_010": "#DC840A",
+          "AlcSys_006_10": "rgba(125, 125, 125, .1)",
+          "AlcSys_006_25": "rgba(125, 125, 125, .25)",
+          "AlcSys_006_50": "rgba(125, 125, 125, .50)",
+          "AlcSys_006_75": "rgba(125, 125, 125, .75)",
+          "AlcSys_Grad001": "linear-gradient(55deg, #F7F8F9 100%, #F4F5F6 100%)",
+          "AlcSys_Grad002": "linear-gradient(55deg, #1da7e0 100%, #604696 100%)",
+          "AlcSysState_prog": "rgba(235, 186, 0, 1)",
+          "AlcSysState_risk": "rgba(233, 75, 75, 1)",
+          "AlcSysState_green": "rgba(63, 195, 128, 1)",
+          "AlcSysState_issue": "rgba(233, 165, 75, 1)",
+          "AlcSysState_prog_10": "rgba(235, 186, 0, .1)",
+          "AlcSysState_prog_25": "rgba(235, 186, 0,.251)",
+          "AlcSysState_prog_50": "rgba(235, 186, 0,.5)",
+          "AlcSysState_prog_75": "rgba(235, 186, 0, .75)",
+          "AlcSysState_risk_10": "rgba(233, 75, 75, .1)",
+          "AlcSysState_risk_25": "rgba(233, 75, 75, .25)",
+          "AlcSysState_risk_50": "rgba(233, 75, 75, .50)",
+          "AlcSysState_risk_75": "rgba(233, 75, 75, .75)",
+          "AlcSysState_green_10": "rgba(63, 195, 128, 0.1)",
+          "AlcSysState_green_25": "rgba(63, 195, 128, 0.25)",
+          "AlcSysState_green_50": "rgba(63, 195, 128, 0.5)",
+          "AlcSysState_green_75": "rgba(63, 195, 128, 0.75)",
+          "AlcSysState_issue_10": "rgba(233, 165, 75, .1)",
+          "AlcSysState_issue_25": "rgba(233, 165, 75, .25)",
+          "AlcSysState_issue_50": "rgba(233, 165, 75, .50)",
+          "AlcSysState_issue_75": "rgba(233, 165, 75, .75)"
+        },
+        "document": {
+          "form": {
+            "fontSize": 16,
+            "fontFamily": "Roboto, sans-serif"
+          },
+          "child": {
+            "fontSize": 16,
+            "fontFamily": "Roboto, sans-serif"
+          },
+          "fontSize": 16,
+          "fontFamily": "Roboto, sans-serif"
+        },
+        "typography": {
+          "h1": {
+            "fontSize": "2.8em",
+            "fontFamily": "Montserrat, sans-serif",
+            "fontWeight": 700
+          },
+          "h2": {
+            "fontSize": "2.3em",
+            "fontFamily": "Montserrat",
+            "fontWeight": 400
+          },
+          "h3": {
+            "fontSize": "2em",
+            "fontFamily": "Montserrat",
+            "fontWeight": 400
+          },
+          "h4": {
+            "fontSize": "1.667em",
+            "fontFamily": "Montserrat",
+            "fontWeight": 500
+          },
+          "h5": {
+            "fontSize": "1.333em",
+            "fontFamily": "Montserrat",
+            "fontWeight": 500
+          },
+          "h6": {
+            "fontSize": "1.167em",
+            "fontFamily": "Montserrat",
+            "fontWeight": 400
+          },
+          "body1": {
+            "fontSize": "1.167em",
+            "fontFamily": "Roboto"
+          },
+          "body2": {
+            "fontSize": "1em",
+            "fontFamily": "Roboto"
+          },
+          "body3": {
+            "fontSize": "0.9em",
+            "fontFamily": "Roboto"
+          },
+          "body4": {
+            "fontSize": "14px",
+            "fontFamily": "Roboto"
+          },
+          "overline": {
+            "fontSize": "0.917em",
+            "fontFamily": "Montserrat",
+            "fontWeight": 500,
+            "textTransform": "uppercase"
+          },
+          "Action1_Medium": {
+            "fontSize": "1.167em",
+            "fontFamily": "Montserrat",
+            "fontWeight": 500
+          },
+          "Action2_Medium": {
+            "fontSize": "1em",
+            "fontFamily": "Montserrat",
+            "fontWeight": 500
+          },
+          "Action1_Regular": {
+            "fontSize": "1.167em",
+            "fontFamily": "Montserrat"
+          },
+          "Action2_Regular": {
+            "fontSize": "1em",
+            "fontFamily": "Montserrat"
+          },
+          "Action1_SemiBold": {
+            "fontSize": "1.167em",
+            "fontFamily": "Montserrat",
+            "fontWeight": 600
+          },
+          "Action2_SemiBold": {
+            "fontSize": "1em",
+            "fontFamily": "Montserrat",
+            "fontWeight": 600
+          }
+        }
+      },
+      "theme": "Alcumus",
+      "permanentTheme": ""
+    },
+    "$valid": true,
+    "gitHub": {
+      "1J8739KZBOtzVQ": {
+        "publishDocs": "",
+        "gitHubPublish": true
+      },
+      "aV8boSk1D6q6YG": {
+        "publishDocs": "",
+        "gitHubPublish": true
+      }
+    },
+    "_client": "rsihYJKKDVyaYN",
+    "demands": [],
+    "graphQL": {
+      "6g4mciY7jkfOUo": {
+        "exposeAPI": ""
+      }
+    },
+    "$invalid": false,
+    "_created": 1625494237000,
+    "_deleted": 0,
+    "database": "contractorcheck",
+    "maxWidth": 1000,
+    "_modified": 1625494237000,
+    "components": "",
+    "navigation": [],
+    "_behaviours": {
+      "_state": "",
+      "instances": {
+        "form": [
+          {
+            "id": "qAvRdUF4mlcSRD",
+            "name": "Main",
+            "sections": [
+              {
+                "name": "Main",
+                "_expanded": true,
+                "_selectId": "HAVZl81CpRYr6N",
+                "questions": [
+                  {
+                    "id": "Hoh9HUvGtxAEFT",
+                    "name": "status",
+                    "type": "text",
+                    "hints": {},
+                    "maxWidth": "",
+                    "question": "",
+                    "_selectId": "lc23GjPU7mwaww",
+                    "condition": "",
+                    "inputLabel": "",
+                    "defaultValue": "",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "Lbnral6LCSSaHV",
+                    "name": "assessmentType",
+                    "type": "text",
+                    "hints": {},
+                    "maxWidth": "",
+                    "question": "",
+                    "_selectId": "m8FG9UC85_FlW_",
+                    "condition": "",
+                    "inputLabel": "",
+                    "defaultValue": "",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "KlrUhut7yCJgkS",
+                    "name": "companyProfile",
+                    "type": "lookup",
+                    "hints": {},
+                    "lines": 1,
+                    "groups": [],
+                    "question": "",
+                    "_selectId": "7-av-kxloSBYmE",
+                    "condition": "",
+                    "popupView": "tO-6DxodJdqI_0",
+                    "inputLabel": "",
+                    "lookupType": "WdoYmj-FOBFYri:hestia/document-types",
+                    "sortFields": [],
+                    "displayView": "tO-6DxodJdqI_0",
+                    "linesMobile": 1,
+                    "defaultValue": "",
+                    "searchFields": [],
+                    "popupQuestion": "",
+                    "addButtonLabel": "",
+                    "lookupTypeName": "Company Profile",
+                    "popupView_name": "Name",
+                    "questionHeight": "",
+                    "requiredFields": [
+                      "companyName"
+                    ],
+                    "clearIfDisabled": "",
+                    "questionLeftPad": "",
+                    "displayView_name": "Name",
+                    "questionRightPad": "",
+                    "editableCondition": "",
+                    "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "rpu6LM0B5v7QDL",
+                    "name": "masterListCompanyProfile",
+                    "type": "lookup",
+                    "hints": {},
+                    "lines": 1,
+                    "groups": [],
+                    "question": "",
+                    "_selectId": "25SpsjlJIUhFSK",
+                    "condition": "",
+                    "popupView": "TwE9lX50LCjAz3",
+                    "inputLabel": "",
+                    "lookupType": "UJns4BZ0dhGyw5:hestia/document-types",
+                    "sortFields": [],
+                    "displayView": "TwE9lX50LCjAz3",
+                    "linesMobile": 1,
+                    "defaultValue": "",
+                    "searchFields": [],
+                    "popupQuestion": "",
+                    "addButtonLabel": "",
+                    "lookupTypeName": "Master List Company Profile",
+                    "popupView_name": "Master List Name",
+                    "questionHeight": "",
+                    "requiredFields": [
+                      "companyName"
+                    ],
+                    "clearIfDisabled": "",
+                    "questionLeftPad": "",
+                    "displayView_name": "Master List Name",
+                    "questionRightPad": "",
+                    "editableCondition": "",
+                    "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "UHgwuFu0GvIuaw",
+                    "name": "contractorQuestionnaire",
+                    "type": "linkDocument",
+                    "hints": {},
+                    "openType": "",
+                    "question": "",
+                    "_selectId": "Ko_szxkHcNMSGG",
+                    "condition": "",
+                    "buttonIcon": {},
+                    "createType": "",
+                    "buttonCaption": "",
+                    "referenceType": "fYmpCXoXNbRtVg:hestia/document-types",
+                    "createTypeName": "Contractor Questionnaire",
+                    "documentToLink": "{resolveId(_id)}:contractorcheck/contractorAnswers",
+                    "questionHeight": "",
+                    "createIfMissing": false,
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "gMovyrW6COxyvK",
+                    "name": "assessorQuestionnaire",
+                    "type": "linkDocument",
+                    "hints": {},
+                    "openType": "",
+                    "question": "",
+                    "_selectId": "RaK3czZVFHcFG5",
+                    "condition": "",
+                    "buttonIcon": {},
+                    "buttonCaption": "",
+                    "referenceType": "R720NeuU8vOWuo:hestia/document-types",
+                    "createTypeName": "Assessor Questionnaire",
+                    "documentToLink": "{resolveId(_id)}:contractorcheck:assessorQuestionnaire",
+                    "questionHeight": "",
+                    "clearIfDisabled": "",
+                    "createIfMissing": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "editableCondition": "",
+                    "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "HYIqUwESYQLBTn",
+                    "name": "masterListQuestionnaire",
+                    "type": "linkDocument",
+                    "hints": {},
+                    "openType": "",
+                    "question": "",
+                    "_selectId": "x4EtyAvQLW7QxZ",
+                    "condition": "",
+                    "buttonIcon": {},
+                    "buttonCaption": "",
+                    "referenceType": "WwdiDwh2djKCCh:hestia/document-types",
+                    "createTypeName": "Master List Questionnaire",
+                    "documentToLink": "{resolveId(_id)}:contractorCheck:masterListQuestionnaire",
+                    "questionHeight": "",
+                    "clearIfDisabled": "",
+                    "createIfMissing": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "editableCondition": "",
+                    "questionSpaceBefore": ""
+                  }
+                ]
+              }
+            ],
+            "_selectId": "aWVQ0IjTfh1nuS",
+            "condition": "",
+            "description": "",
+            "duplicateNames": {}
+          }
+        ],
+        "formAction": [
+          {
+            "id": "fz05uunhyNz9uN",
+            "name": "Main",
+            "forms": [
+              {
+                "id": "bhTaQP9kA3Wk5O",
+                "form": "qAvRdUF4mlcSRD"
+              }
+            ],
+            "inline": true,
+            "actions": [],
+            "_selectId": "9ScVYlQck9y67w",
+            "inputStates": [
+              "New"
+            ]
+          }
+        ]
+      }
+    },
+    "createOnNew": false,
+    "description": "",
+    "displayName": "Questionnaire Status",
+    "defaultState": "New",
+    "sidebarColor": "#333",
+    "tabsSelected": "#009fda",
+    "documentColor": "#333",
+    "_activeVersion": "4LHbkNFx6VFSZt",
+    "_parentVersion": "",
+    "currentVersion": {
+      "live": "1.0",
+      "testing": "1.0",
+      "development": "1.0"
+    },
+    "tabsBackground": "#f4f4f4",
+    "tabsForeground": "#555",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "defaultActivity": "fz05uunhyNz9uN",
+    "devices-allowed": "",
+    "sideBarMinWidth": 150,
+    "documentBackdrop": "#f4f4f4",
+    "sidebarBackground": "#fff",
+    "documentBackground": "#f4f4f4",
+    "devices-allowed-html": "",
+    "assessorQuestionnaire": "#Missing Function: resolveId:contractorcheck:assessorQuestionnaire",
+    "contractorQuestionnaire": "#Missing Function: resolveId:contractorcheck/contractorAnswers",
+    "masterListQuestionnaire": "#Missing Function: resolveId:contractorCheck:masterListQuestionnaire"
+  }
+]

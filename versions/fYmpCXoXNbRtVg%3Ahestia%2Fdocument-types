@@ -1,6 +1,6 @@
 [
   {
-    "__": "MYXAkbjSQ8glKd",
+    "__": "lnjhf265KpeLnP",
     "_id": "fYmpCXoXNbRtVg-D57acZ-uIHF-Tx:hestia/versions",
     "__id": "fYmpCXoXNbRtVg:hestia/document-types",
     "__ok": true,
@@ -199,7 +199,7 @@
     "_deleted": 0,
     "database": "contractorcheck",
     "maxWidth": 1000,
-    "_modified": 1625225658000,
+    "_modified": 1625495616000,
     "components": "verification,helptext,navigation,formprogress,localisation",
     "isLockedBy": null,
     "navigation": [],
@@ -737,7 +737,7 @@
           {
             "id": "cO1d3x8xWj_mTH",
             "name": "Audit Submission",
-            "onEnter": "",
+            "onEnter": true,
             "inStates": [
               "Submitted"
             ],
@@ -778,9 +778,11 @@
             "specificId": false,
             "targetType": "j0P98w9sl6QXZo:hestia/document-types",
             "updateState": "",
+            "updateClient": true,
             "recordChanges": "details",
             "targetTypeName": "Audit Trail",
             "updateRecordId": "",
+            "updateToClient": "rsihYJKKDVyaYN",
             "createMergeRecord": true,
             "uniqueMergeRecords": true,
             "updateTargetDocumentState": false
@@ -788,7 +790,7 @@
           {
             "id": "8sBM_DwgiEDu7O",
             "name": "Audit Accredited",
-            "onEnter": "",
+            "onEnter": true,
             "inStates": [
               "Accepted"
             ],
@@ -829,10 +831,12 @@
             "specificId": false,
             "targetType": "j0P98w9sl6QXZo:hestia/document-types",
             "updateState": "",
+            "updateClient": true,
             "recordChanges": "details",
             "$behaviourType": "updater",
             "targetTypeName": "Audit Trail",
             "updateRecordId": "",
+            "updateToClient": "rsihYJKKDVyaYN",
             "createMergeRecord": true,
             "uniqueMergeRecords": true,
             "updateTargetDocumentState": false
@@ -840,7 +844,7 @@
           {
             "id": "5vHBxlK9ougeES",
             "name": "Audit Rejected",
-            "onEnter": "",
+            "onEnter": true,
             "inStates": [
               "Rejected"
             ],
@@ -881,10 +885,12 @@
             "specificId": false,
             "targetType": "j0P98w9sl6QXZo:hestia/document-types",
             "updateState": "",
+            "updateClient": true,
             "recordChanges": "details",
             "$behaviourType": "updater",
             "targetTypeName": "Audit Trail",
             "updateRecordId": "",
+            "updateToClient": "rsihYJKKDVyaYN",
             "createMergeRecord": true,
             "uniqueMergeRecords": true,
             "updateTargetDocumentState": false
@@ -892,7 +898,7 @@
           {
             "id": "Bh1DTG2oSyWCJ-",
             "name": "Audit Expired Documents",
-            "onEnter": "",
+            "onEnter": true,
             "inStates": [
               "Expired"
             ],
@@ -933,10 +939,12 @@
             "specificId": false,
             "targetType": "j0P98w9sl6QXZo:hestia/document-types",
             "updateState": "",
+            "updateClient": true,
             "recordChanges": "details",
             "$behaviourType": "updater",
             "targetTypeName": "Audit Trail",
             "updateRecordId": "",
+            "updateToClient": "rsihYJKKDVyaYN",
             "createMergeRecord": true,
             "uniqueMergeRecords": true,
             "updateTargetDocumentState": false
@@ -970,6 +978,82 @@
             "createMergeRecord": false,
             "uniqueMergeRecords": false,
             "updateTargetDocumentState": true
+          },
+          {
+            "id": "-YSq86IIpjxk8r",
+            "name": "Update Links",
+            "onEnter": "",
+            "inStates": [
+              "New",
+              "Submitted",
+              "Rejected",
+              "Accepted",
+              "Editing",
+              "Expired"
+            ],
+            "mergeAll": "",
+            "_selectId": "l2YrcgedUqMTrQ",
+            "properties": [],
+            "specificId": true,
+            "targetType": "fYmpCXoXNbRtVg:hestia/document-types",
+            "updateClient": "",
+            "recordChanges": "",
+            "targetTypeName": "Contractor Questionnaire",
+            "updateRecordId": "{_id}",
+            "createMergeRecord": false,
+            "uniqueMergeRecords": false,
+            "updateTargetDocumentState": ""
+          },
+          {
+            "id": "1D99gZ--qEO6XR",
+            "name": "Update The Questionnaire Status Record",
+            "onEnter": true,
+            "inStates": [
+              "New",
+              "Submitted",
+              "Rejected",
+              "Accepted",
+              "Editing",
+              "Expired"
+            ],
+            "mergeAll": "",
+            "_selectId": "noDPWMoiyoIuc1",
+            "properties": [
+              {
+                "id": "5jwxlPgy08802H",
+                "field": "assessmentType",
+                "value": "{assessmentType}",
+                "defaultValue": ""
+              },
+              {
+                "id": "FcYpp_hSPSjm5F",
+                "field": "companyProfile",
+                "value": "{linkedProfile}",
+                "defaultValue": ""
+              },
+              {
+                "id": "8RTTVwH3ZZEcqz",
+                "field": "masterListCompanyProfile",
+                "value": "{linkedMasterListProfile}",
+                "defaultValue": ""
+              },
+              {
+                "id": "-Q7VZC08OGZqhX",
+                "field": "status",
+                "value": "{$state}",
+                "defaultValue": ""
+              }
+            ],
+            "specificId": true,
+            "targetType": "bGO68EY31sb1Wn:hestia/document-types",
+            "updateClient": true,
+            "recordChanges": "",
+            "targetTypeName": "Questionnaire Status",
+            "updateRecordId": "{resolveId(_id)}:contractorcheck/status",
+            "updateToClient": "rsihYJKKDVyaYN",
+            "createMergeRecord": false,
+            "uniqueMergeRecords": false,
+            "updateTargetDocumentState": ""
           }
         ],
         "derivation": [
@@ -1055,7 +1139,7 @@
                   "title": "Submit Form",
                   "cancel": "Cancel",
                   "enabled": true,
-                  "message": "Do you want to submit your response?  You will not be able to edit the form once it is submitted.",
+                  "message": "<p>Do you want to submit your response?  You will not be able to edit the form once it is submitted.</p>\n",
                   "cancelColor": "#f50057",
                   "toggleOrder": "",
                   "confirmColor": "#f5f5f5",
@@ -1549,6 +1633,7 @@
               "Accepted": "Accepté",
               "Evidence": "Preuve",
               "Acknowledge": "Accuser réception",
+              "Helpful Tips": "Conseils utiles",
               "RafKrj90cILrkT": {
                 "question": "<p>Bananananana</p>\n"
               },
@@ -1597,6 +1682,12 @@
                 "uploadCaption": "",
                 "removeConfirmation": ""
               },
+              "a1S3m000008DkPgText": {
+                "question": "",
+                "inputLabel": "",
+                "defaultValue": "",
+                "inputPlaceholder": ""
+              },
               "a1S3m000008jxUOFile": {
                 "question": "",
                 "inputLabel": "",
@@ -1619,7 +1710,10 @@
                 "choices": {
                   "No": "Non",
                   "Yes": "Oui"
-                }
+                },
+                "question": "",
+                "inputLabel": "",
+                "inputPlaceholder": ""
               },
               "Acknowledge Rejection": "Reconnaître le rejet",
               "Please answer Yes or No": "Veuillez répondre \"Oui\" ou \"Non\".",
