@@ -526,7 +526,7 @@
     "isLockedByCurrentUser": false
   },
   {
-    "__": "C_PW8sT_ixby_N",
+    "__": "sIZVvqN5U738X-",
     "_id": "WwdiDwh2djKCCh-g0kqLgJQJ13MRT:hestia/versions",
     "__id": "WwdiDwh2djKCCh:hestia/document-types",
     "__ok": true,
@@ -725,7 +725,7 @@
     "_deleted": 0,
     "database": "contractorCheck",
     "maxWidth": 1000,
-    "_modified": 1624981085000,
+    "_modified": 1625490857000,
     "components": "",
     "isLockedBy": null,
     "navigation": [],
@@ -898,27 +898,6 @@
             "targetTypeName": "Contractor Questionnaire",
             "createMergeRecord": "",
             "updateTargetDocumentState": true
-          },
-          {
-            "id": "b-cqNOcZqVXsLL",
-            "name": "Refresh Links",
-            "onEnter": "",
-            "inStates": [
-              "New",
-              "Expired"
-            ],
-            "mergeAll": "",
-            "_selectId": "54DyVOC1RzQvmx",
-            "properties": [],
-            "specificId": true,
-            "targetType": "WwdiDwh2djKCCh:hestia/document-types",
-            "updateClient": "",
-            "recordChanges": "",
-            "targetTypeName": "Master List Questionnaire",
-            "updateRecordId": "{_id}",
-            "createMergeRecord": false,
-            "uniqueMergeRecords": false,
-            "updateTargetDocumentState": ""
           }
         ],
         "schedule": [
