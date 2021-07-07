@@ -1,5 +1,5 @@
 {
-  "__": "HGyCSSHDhQwqTo",
+  "__": "5yzTt82uvA5uCS",
   "_id": "R720NeuU8vOWuo:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -205,14 +205,14 @@
     {
       "id": "sTNP-VH3hEzwdP",
       "name": "1.0",
-      "time": 1625672938106,
+      "time": 1625679691443,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "YLhsI7Ac4LXUp-",
+      "_selectId": "PRIIAIa5OOSfDj",
       "parentVersion": ""
     }
   ],
-  "_modified": 1625669338000,
+  "_modified": 1625676091000,
   "components": "verification,navigation,richtext",
   "isLockedBy": null,
   "navigation": [],
@@ -1191,6 +1191,34 @@
           "createMergeRecord": false,
           "uniqueMergeRecords": false,
           "updateTargetDocumentState": ""
+        },
+        {
+          "id": "qBB84tuwI2zrS9",
+          "name": "Update To Assessing If There Is An Allocated User",
+          "query": {
+            "$and": [
+              {
+                "assessingUser": {
+                  "$ne": "NULL"
+                }
+              }
+            ]
+          },
+          "onEnter": "",
+          "inStates": [
+            "New"
+          ],
+          "mergeAll": "",
+          "_selectId": "JPenPoKc3POYu_",
+          "properties": [],
+          "specificId": "",
+          "targetType": "R720NeuU8vOWuo:hestia/document-types",
+          "updateState": "Assessing",
+          "updateClient": "",
+          "recordChanges": "",
+          "targetTypeName": "Assessor Questionnaire",
+          "createMergeRecord": "",
+          "updateTargetDocumentState": true
         }
       ],
       "derivation": [
