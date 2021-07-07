@@ -1,6 +1,6 @@
 [
   {
-    "__": "IU-WpufuJo8HkJ",
+    "__": "3QdmsVwZ5Wz_83",
     "_id": "R720NeuU8vOWuo-sTNP-VH3hEzwdP:hestia/versions",
     "__id": "R720NeuU8vOWuo:hestia/document-types",
     "__ok": true,
@@ -203,7 +203,7 @@
     "_deleted": 0,
     "database": "contractorcheck",
     "maxWidth": 1000,
-    "_modified": 1625669338000,
+    "_modified": 1625676274000,
     "components": "verification,navigation,richtext",
     "isLockedBy": null,
     "navigation": [],
@@ -1205,6 +1205,38 @@
             "specificId": true,
             "targetType": "R720NeuU8vOWuo:hestia/document-types",
             "updateState": "Assessing",
+            "updateClient": "",
+            "recordChanges": "",
+            "targetTypeName": "Assessor Questionnaire",
+            "updateRecordId": "{_id}",
+            "createMergeRecord": false,
+            "uniqueMergeRecords": false,
+            "updateTargetDocumentState": true
+          },
+          {
+            "id": "X_Oeiu7zgiY17e",
+            "name": "Update to New If No User",
+            "query": {
+              "$and": [
+                {
+                  "assessingUser": {
+                    "$in": [
+                      "NULL"
+                    ]
+                  }
+                }
+              ]
+            },
+            "onEnter": "",
+            "inStates": [
+              "Assessing"
+            ],
+            "mergeAll": "",
+            "_selectId": "EQSyEYI-B8DdgC",
+            "properties": [],
+            "specificId": true,
+            "targetType": "R720NeuU8vOWuo:hestia/document-types",
+            "updateState": "New",
             "updateClient": "",
             "recordChanges": "",
             "targetTypeName": "Assessor Questionnaire",
