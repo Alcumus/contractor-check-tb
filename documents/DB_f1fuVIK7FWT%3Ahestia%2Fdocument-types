@@ -1,5 +1,5 @@
 {
-  "__": "U9hAUnrnVhAMUM",
+  "__": "c7xWehwr1LEP4H",
   "_id": "DB_f1fuVIK7FWT:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -197,14 +197,14 @@
     {
       "id": "lMgkcEhQ5ngx9H",
       "name": "Teams",
-      "time": 1624617981699,
+      "time": 1625664130658,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "XGhhqFrlCxcvjH",
+      "_selectId": "fJDHNqUW0dK6UP",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624614381000,
+  "_modified": 1625660530000,
   "components": "card 2.0",
   "isLockedBy": null,
   "navigation": [],
@@ -220,6 +220,7 @@
               "name": "Main",
               "_expanded": true,
               "_selectId": "idfmT07tuJSi5n",
+              "condition": "",
               "questions": [
                 {
                   "id": "wwxqx81RecF7bp",
@@ -236,8 +237,27 @@
                   "questionLeftPad": "",
                   "questionRightPad": "",
                   "questionSpaceBefore": ""
+                },
+                {
+                  "id": "pjh7uZXN6xOlg4",
+                  "name": "fundamental",
+                  "type": "text",
+                  "hints": {},
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "dXjUFOn9BvbIp5",
+                  "condition": "",
+                  "inputLabel": "",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "clearIfDisabled": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "editableCondition": "",
+                  "questionSpaceBefore": ""
                 }
-              ]
+              ],
+              "description": ""
             }
           ],
           "_selectId": "prazY60lTjyyXk",
