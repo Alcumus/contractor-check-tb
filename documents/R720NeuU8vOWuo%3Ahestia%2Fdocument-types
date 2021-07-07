@@ -1,5 +1,5 @@
 {
-  "__": "ux074FM0wYOiEo",
+  "__": "Dn7E1osNRDhbg6",
   "_id": "R720NeuU8vOWuo:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -205,14 +205,14 @@
     {
       "id": "sTNP-VH3hEzwdP",
       "name": "1.0",
-      "time": 1625680491963,
+      "time": 1625680731454,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "P-Vo9uqgL5SGC_",
+      "_selectId": "AnX73n4tLplC7g",
       "parentVersion": ""
     }
   ],
-  "_modified": 1625676892000,
+  "_modified": 1625677131000,
   "components": "verification,navigation,richtext",
   "isLockedBy": null,
   "navigation": [],
@@ -1214,38 +1214,6 @@
           "specificId": true,
           "targetType": "R720NeuU8vOWuo:hestia/document-types",
           "updateState": "Assessing",
-          "updateClient": "",
-          "recordChanges": "",
-          "targetTypeName": "Assessor Questionnaire",
-          "updateRecordId": "{_id}",
-          "createMergeRecord": false,
-          "uniqueMergeRecords": false,
-          "updateTargetDocumentState": true
-        },
-        {
-          "id": "X_Oeiu7zgiY17e",
-          "name": "Update to New If No User",
-          "query": {
-            "$and": [
-              {
-                "assessingUser": {
-                  "$in": [
-                    "NULL"
-                  ]
-                }
-              }
-            ]
-          },
-          "onEnter": "",
-          "inStates": [
-            "Assessing"
-          ],
-          "mergeAll": "",
-          "_selectId": "EQSyEYI-B8DdgC",
-          "properties": [],
-          "specificId": true,
-          "targetType": "R720NeuU8vOWuo:hestia/document-types",
-          "updateState": "New",
           "updateClient": "",
           "recordChanges": "",
           "targetTypeName": "Assessor Questionnaire",
