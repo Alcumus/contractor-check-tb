@@ -1,5 +1,5 @@
 {
-  "__": "MECalbE5Iur7er",
+  "__": "xlLCyaBh1MOXwL",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -228,14 +228,14 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1625642629148,
+      "time": 1625642813975,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "mrp-mcVfTlZH8Z",
+      "_selectId": "E0h1Y3KKFtNil1",
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1625639029000,
+  "_modified": 1625639214000,
   "components": "navigation",
   "isLockedBy": null,
   "navigation": [],
@@ -306,7 +306,7 @@
                   "maxWidth": "",
                   "question": "",
                   "_selectId": "EwKg0PNptp3x9I",
-                  "condition": "valueNotEquals($state,New)",
+                  "condition": "valueNotEquals(\"$state\",New)",
                   "inputLabel": "",
                   "defaultValue": "",
                   "questionHeight": "",
