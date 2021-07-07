@@ -1,6 +1,6 @@
 [
   {
-    "__": "3pa2ca0sZ5oway",
+    "__": "YYvV8AcmDcCjwo",
     "_id": "R720NeuU8vOWuo-sTNP-VH3hEzwdP:hestia/versions",
     "__id": "R720NeuU8vOWuo:hestia/document-types",
     "__ok": true,
@@ -1585,7 +1585,7 @@
               {
                 "id": "d4JYms0P6diPuI",
                 "form": "allForms",
-                "readOnly": true,
+                "readOnly": false,
                 "_selectId": "bGkOhqq-4KqZ6g"
               }
             ],
