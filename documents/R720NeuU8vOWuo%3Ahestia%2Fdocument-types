@@ -1,5 +1,5 @@
 {
-  "__": "5yzTt82uvA5uCS",
+  "__": "hzBskZj1dCMvfb",
   "_id": "R720NeuU8vOWuo:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -205,14 +205,14 @@
     {
       "id": "sTNP-VH3hEzwdP",
       "name": "1.0",
-      "time": 1625679691443,
+      "time": 1625679794803,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "PRIIAIa5OOSfDj",
+      "_selectId": "DpgfsOJoRO98B7",
       "parentVersion": ""
     }
   ],
-  "_modified": 1625676091000,
+  "_modified": 1625676195000,
   "components": "verification,navigation,richtext",
   "isLockedBy": null,
   "navigation": [],
@@ -1211,13 +1211,15 @@
           "mergeAll": "",
           "_selectId": "JPenPoKc3POYu_",
           "properties": [],
-          "specificId": "",
+          "specificId": true,
           "targetType": "R720NeuU8vOWuo:hestia/document-types",
           "updateState": "Assessing",
           "updateClient": "",
           "recordChanges": "",
           "targetTypeName": "Assessor Questionnaire",
-          "createMergeRecord": "",
+          "updateRecordId": "{_id}",
+          "createMergeRecord": false,
+          "uniqueMergeRecords": false,
           "updateTargetDocumentState": true
         }
       ],

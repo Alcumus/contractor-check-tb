@@ -1,6 +1,6 @@
 [
   {
-    "__": "q2jncaCZLk0cxi",
+    "__": "XA2gNuwf_C6JZd",
     "_id": "R720NeuU8vOWuo-sTNP-VH3hEzwdP:hestia/versions",
     "__id": "R720NeuU8vOWuo:hestia/document-types",
     "__ok": true,
@@ -1202,13 +1202,15 @@
             "mergeAll": "",
             "_selectId": "JPenPoKc3POYu_",
             "properties": [],
-            "specificId": "",
+            "specificId": true,
             "targetType": "R720NeuU8vOWuo:hestia/document-types",
             "updateState": "Assessing",
             "updateClient": "",
             "recordChanges": "",
             "targetTypeName": "Assessor Questionnaire",
-            "createMergeRecord": "",
+            "updateRecordId": "{_id}",
+            "createMergeRecord": false,
+            "uniqueMergeRecords": false,
             "updateTargetDocumentState": true
           }
         ],
