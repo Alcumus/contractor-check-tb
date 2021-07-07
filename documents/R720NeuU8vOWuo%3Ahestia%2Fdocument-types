@@ -1,5 +1,5 @@
 {
-  "__": "rqKwgS1rB2kQzk",
+  "__": "HGyCSSHDhQwqTo",
   "_id": "R720NeuU8vOWuo:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -205,14 +205,14 @@
     {
       "id": "sTNP-VH3hEzwdP",
       "name": "1.0",
-      "time": 1625672625354,
+      "time": 1625672938106,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "IkiCNwnXcuJOxV",
+      "_selectId": "YLhsI7Ac4LXUp-",
       "parentVersion": ""
     }
   ],
-  "_modified": 1625669025000,
+  "_modified": 1625669338000,
   "components": "verification,navigation,richtext",
   "isLockedBy": null,
   "navigation": [],
@@ -1594,7 +1594,7 @@
             {
               "id": "d4JYms0P6diPuI",
               "form": "allForms",
-              "readOnly": false,
+              "readOnly": true,
               "_selectId": "bGkOhqq-4KqZ6g"
             }
           ],
