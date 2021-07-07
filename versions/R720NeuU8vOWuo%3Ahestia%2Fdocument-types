@@ -1,6 +1,6 @@
 [
   {
-    "__": "0QlLppw3KFDyZn",
+    "__": "Uf3WMnZNEMYtXV",
     "_id": "R720NeuU8vOWuo-sTNP-VH3hEzwdP:hestia/versions",
     "__id": "R720NeuU8vOWuo:hestia/document-types",
     "__ok": true,
@@ -203,7 +203,7 @@
     "_deleted": 0,
     "database": "contractorcheck",
     "maxWidth": 1000,
-    "_modified": 1625574077000,
+    "_modified": 1625658747000,
     "components": "verification,navigation,richtext",
     "isLockedBy": null,
     "navigation": [],
@@ -1125,6 +1125,60 @@
             "targetTypeName": "Questionnaire Status",
             "updateRecordId": "{resolveId(_id)}:contractorcheck/status",
             "updateToClient": "rsihYJKKDVyaYN",
+            "createMergeRecord": false,
+            "uniqueMergeRecords": false,
+            "updateTargetDocumentState": ""
+          },
+          {
+            "id": "CuSdJ1sYtQcIFY",
+            "name": "Update QC User",
+            "onEnter": true,
+            "inStates": [
+              "Assessor Reject"
+            ],
+            "mergeAll": "",
+            "_selectId": "-oa0Nlnd0I9GPQ",
+            "properties": [
+              {
+                "id": "i5OGgtgtyudjqR",
+                "field": "qualityControlUser",
+                "value": "{$currentUser.Employee._id}",
+                "defaultValue": ""
+              }
+            ],
+            "specificId": true,
+            "targetType": "R720NeuU8vOWuo:hestia/document-types",
+            "updateClient": "",
+            "recordChanges": "",
+            "targetTypeName": "Assessor Questionnaire",
+            "updateRecordId": "{_id}",
+            "createMergeRecord": false,
+            "uniqueMergeRecords": false,
+            "updateTargetDocumentState": ""
+          },
+          {
+            "id": "kY2BjuxTwn0Afu",
+            "name": "Update QC User when approved",
+            "onEnter": true,
+            "inStates": [
+              "Master List"
+            ],
+            "mergeAll": "",
+            "_selectId": "5NlSyiKaT2m7ZL",
+            "properties": [
+              {
+                "id": "_iajeYrmx0sRO-",
+                "field": "qualityControlUser",
+                "value": "master",
+                "defaultValue": ""
+              }
+            ],
+            "specificId": true,
+            "targetType": "R720NeuU8vOWuo:hestia/document-types",
+            "updateClient": "",
+            "recordChanges": "",
+            "targetTypeName": "Assessor Questionnaire",
+            "updateRecordId": "{_id}",
             "createMergeRecord": false,
             "uniqueMergeRecords": false,
             "updateTargetDocumentState": ""
