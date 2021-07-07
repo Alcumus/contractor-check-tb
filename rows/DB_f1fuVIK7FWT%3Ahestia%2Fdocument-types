@@ -1,6 +1,6 @@
 [
   {
-    "__": "MfTet9cjHR6YcB",
+    "__": "m7lSWS411Lq2ui",
     "_id": "sFMo1b34V1rDjy:Teams/Teams",
     "team": "HS Assessors",
     "$modes": {},
@@ -21,11 +21,12 @@
       "$state": "New"
     },
     "_components": {},
+    "fundamental": "awe-runner,all-clients",
     "__originalId": "sFMo1b34V1rDjy:Teams/Teams",
     "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59"
   },
   {
-    "__": "herBzxMwlDNadJ",
+    "__": "UDdXkyO6zC7Isu",
     "_id": "0Q4gC4esaI5a9z:Teams/Teams",
     "team": "CS Assessors",
     "$modes": {},
@@ -46,11 +47,12 @@
       "$state": "New"
     },
     "_components": {},
+    "fundamental": "awe-runner,all-clients",
     "__originalId": "0Q4gC4esaI5a9z:Teams/Teams",
     "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59"
   },
   {
-    "__": "UhN016Ee-hmT5w",
+    "__": "9zcqPiJBrASeHt",
     "_id": "98K4up6C9i1lgK:Teams/Teams",
     "team": "QC Assessors",
     "$modes": {},
@@ -71,11 +73,12 @@
       "$state": "New"
     },
     "_components": {},
+    "fundamental": "awe-runner,all-clients",
     "__originalId": "98K4up6C9i1lgK:Teams/Teams",
     "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59"
   },
   {
-    "__": "2n-6NLgLP-nsCz",
+    "__": "JOubghdY2wzRP_",
     "_id": "hXaXaoRxOAZTu5:Teams/Teams",
     "team": "Managers",
     "$modes": {},
@@ -90,12 +93,13 @@
     "_deleted": 0,
     "_version": "Teams",
     "__created": 1621422835866,
-    "_modified": 1621547504000,
+    "_modified": 1621547505000,
     "_settings": {
       "$id": "DB_f1fuVIK7FWT:hestia/document-types",
       "$state": "New"
     },
     "_components": {},
+    "fundamental": "awe-runner,all-clients",
     "__originalId": "hXaXaoRxOAZTu5:Teams/Teams",
     "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59"
   }
