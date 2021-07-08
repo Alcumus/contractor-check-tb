@@ -1,5 +1,5 @@
 {
-  "__": "YmZcMFVDE0htA5",
+  "__": "-zpFQ2I3RQzkJx",
   "_id": "LC17HKj7mFfilk:hestia/document-types",
   "icon": "",
   "name": "icw",
@@ -193,10 +193,10 @@
     {
       "id": "Cq7AGYj1lrSL72",
       "name": "1",
-      "time": 1625753852073,
+      "time": 1625754335456,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "ATbAFRWRQSoUtA",
+      "_selectId": "zA5zLpbjRz9deZ",
       "parentVersion": ""
     }
   ],
@@ -206,7 +206,7 @@
       "exposeWebhooks": true
     }
   },
-  "_modified": 1625750252000,
+  "_modified": 1625750735000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -344,7 +344,7 @@
           "updateClient": "",
           "recordChanges": "",
           "targetTypeName": "Dummy Output",
-          "updateRecordId": "{resolve(_id)}-{makeIdFrom(\"$value.companyName\")}:test/dummyOutput",
+          "updateRecordId": "{resolveId(_id)}-{makeIdFrom(\"$value.companyName\")}:test/dummyOutput",
           "createMergeRecord": false,
           "uniqueMergeRecords": false,
           "updateTargetDocumentState": false

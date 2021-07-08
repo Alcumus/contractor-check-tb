@@ -1,6 +1,6 @@
 [
   {
-    "__": "BPuoZ7RcxN4b7j",
+    "__": "X6gXYDMNcZPxCk",
     "_id": "LC17HKj7mFfilk-Cq7AGYj1lrSL72:hestia/versions",
     "__id": "LC17HKj7mFfilk:hestia/document-types",
     "icon": "",
@@ -197,7 +197,7 @@
         "exposeWebhooks": true
       }
     },
-    "_modified": 1625750072000,
+    "_modified": 1625750252000,
     "components": "",
     "navigation": [],
     "_behaviours": {
@@ -335,7 +335,7 @@
             "updateClient": "",
             "recordChanges": "",
             "targetTypeName": "Dummy Output",
-            "updateRecordId": "{resolve(_id)}-{makeIdFrom(\"$value.companyName\")}:test/dummyOutput",
+            "updateRecordId": "{resolveId(_id)}-{makeIdFrom(\"$value.companyName\")}:test/dummyOutput",
             "createMergeRecord": false,
             "uniqueMergeRecords": false,
             "updateTargetDocumentState": false
