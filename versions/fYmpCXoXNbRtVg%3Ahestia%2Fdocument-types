@@ -1,6 +1,6 @@
 [
   {
-    "__": "WfMZ--7And9bvo",
+    "__": "1KM1oIbgDYmS_f",
     "_id": "fYmpCXoXNbRtVg-D57acZ-uIHF-Tx:hestia/versions",
     "__id": "fYmpCXoXNbRtVg:hestia/document-types",
     "__ok": true,
@@ -1141,7 +1141,7 @@
                   "title": "Submit Your Answers?",
                   "cancel": "Cancel",
                   "enabled": true,
-                  "message": "<p>Do you want to submit your answers?&nbsp;&nbsp;</p>\n<p><span style=\"color: rgba(0,0,0,0.87);background-color: rgb(255,255,255);font-size: 14px;font-family: Roboto, Helvetica, Arial, sans-serif;\">&lt;% if(progress_remain &gt; 0) { %&gt;</span></p>\n<ul>\n<li style=\"margin-left:1.5em;\"><span style=\"color: rgba(0,0,0,0.87);background-color: rgb(255,255,255);font-size: 14px;font-family: Roboto, Helvetica, Arial, sans-serif;\"><strong>You haven't answered {progress_remain} questions</strong> &lt;% } %&gt;</span></li>\n<li>You will not be able to edit the form once it is submitted.</li>\n</ul>\n",
+                  "message": "<p><span style=\"color: rgba(0,0,0,0.87);background-color: rgb(255,255,255);font-size: 14px;font-family: Roboto, Helvetica, Arial, sans-serif;\">&lt;% if(progress_remain &gt; 0) { %&gt;</span></p>\n<ul>\n<li style=\"margin-left:1.5em;\"><span style=\"color: rgba(0,0,0,0.87);background-color: rgb(255,255,255);font-size: 14px;font-family: Roboto, Helvetica, Arial, sans-serif;\"><strong>You haven't answered </strong></span><span style=\"color: #f50057;background-color: rgb(255,255,255);font-size: 14px;font-family: Roboto, Helvetica, Arial, sans-serif;\"><strong>{progress_remain} </strong></span><span style=\"color: rgba(0,0,0,0.87);background-color: rgb(255,255,255);font-size: 14px;font-family: Roboto, Helvetica, Arial, sans-serif;\"><strong>questions</strong> &lt;% }</span></li>\n</ul>\n<p><span style=\"color: rgba(0,0,0,0.87);background-color: rgb(255,255,255);font-size: 14px;font-family: Roboto, Helvetica, Arial, sans-serif;\"> %&gt;</span></p>\n<ul>\n<li>You will not be able to edit the form once it is submitted.</li>\n</ul>\n",
                   "cancelColor": "#f50057",
                   "toggleOrder": "",
                   "confirmColor": "#f5f5f5",
