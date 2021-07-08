@@ -1,6 +1,6 @@
 [
   {
-    "__": "LmdhGpJu5vp1Hq",
+    "__": "s75g6BObH03TKt",
     "_id": "Vd-DfPw6WABtoj-vvTvnxD27-UCFb:hestia/versions",
     "__id": "Vd-DfPw6WABtoj:hestia/document-types",
     "icon": "",
@@ -182,7 +182,11 @@
     "demands": [],
     "graphQL": {
       "6g4mciY7jkfOUo": {
-        "exposeAPI": ""
+        "read": true,
+        "write": true,
+        "exposeAPI": true,
+        "readDemands": [],
+        "writeDemands": []
       }
     },
     "$invalid": false,
@@ -258,7 +262,13 @@
     "sidebarColor": "#333",
     "tabsSelected": "#009fda",
     "documentColor": "#333",
-    "_activeVersion": "tMTn1pwr1ooPje",
+    "_activeVersion": "vvTvnxD27-UCFb",
+    "_parentVersion": "",
+    "currentVersion": {
+      "live": "1.0",
+      "testing": "1.0",
+      "development": "1.0"
+    },
     "tabsBackground": "#f4f4f4",
     "tabsForeground": "#555",
     "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",

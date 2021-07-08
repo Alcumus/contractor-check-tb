@@ -1,5 +1,5 @@
 {
-  "__": "fHuex9CqBLGbjZ",
+  "__": "-dvoJRJZmNK48h",
   "_id": "Vd-DfPw6WABtoj:hestia/document-types",
   "icon": "",
   "name": "Dummy Output",
@@ -180,7 +180,11 @@
   "demands": [],
   "graphQL": {
     "6g4mciY7jkfOUo": {
-      "exposeAPI": ""
+      "read": true,
+      "write": true,
+      "exposeAPI": true,
+      "readDemands": [],
+      "writeDemands": []
     }
   },
   "$invalid": false,
@@ -192,13 +196,14 @@
     {
       "id": "vvTvnxD27-UCFb",
       "name": "1.0",
-      "time": 1625752700868,
+      "time": 1625752710182,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "2UFSzeOT7dusmX"
+      "_selectId": "P4tVcLgMv7MJq5",
+      "parentVersion": ""
     }
   ],
-  "_modified": 1625749101000,
+  "_modified": 1625749110000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -269,9 +274,9 @@
   "_activeVersion": "tMTn1pwr1ooPje",
   "_parentVersion": "vvTvnxD27-UCFb",
   "currentVersion": {
-    "live": "",
-    "testing": "",
-    "development": ""
+    "live": "1.0",
+    "testing": "1.0",
+    "development": "1.0"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
