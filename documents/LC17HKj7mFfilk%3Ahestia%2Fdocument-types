@@ -1,5 +1,5 @@
 {
-  "__": "kwIVtm6BeU1g4S",
+  "__": "vgOHEhnQKQk5So",
   "_id": "LC17HKj7mFfilk:hestia/document-types",
   "icon": "",
   "name": "icw",
@@ -206,7 +206,7 @@
       "exposeWebhooks": true
     }
   },
-  "_modified": 1625751290000,
+  "_modified": 1625751329000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -344,7 +344,7 @@
           "updateClient": "",
           "recordChanges": "",
           "targetTypeName": "Dummy Output",
-          "updateRecordId": "1banana-{resolveId(_id)}-{makeIdFrom(\"$value.companyName\")}:test/dummyOutput",
+          "updateRecordId": "banana-{resolveId(_id)}-{makeIdFrom(\"$value.companyName\")}:test/dummyOutput",
           "createMergeRecord": false,
           "uniqueMergeRecords": false,
           "updateTargetDocumentState": false
