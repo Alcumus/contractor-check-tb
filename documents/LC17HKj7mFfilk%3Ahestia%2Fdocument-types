@@ -1,5 +1,5 @@
 {
-  "__": "QLYd47zHRFqyWO",
+  "__": "rj63u0vt5sZEc2",
   "_id": "LC17HKj7mFfilk:hestia/document-types",
   "icon": "",
   "name": "icw",
@@ -193,10 +193,10 @@
     {
       "id": "Cq7AGYj1lrSL72",
       "name": "1",
-      "time": 1624618059158,
+      "time": 1625752849658,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "1VKlG3mGGNEU9i",
+      "_selectId": "zMAH9tnByDs-Qo",
       "parentVersion": ""
     }
   ],
@@ -206,7 +206,7 @@
       "exposeWebhooks": true
     }
   },
-  "_modified": 1624614459000,
+  "_modified": 1625749250000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -272,6 +272,41 @@
                   "questionLeftPad": "",
                   "questionRightPad": "",
                   "questionSpaceBefore": ""
+                },
+                {
+                  "id": "UnSdTxnlCgs6vs",
+                  "name": "profiles",
+                  "type": "lookup",
+                  "hints": {
+                    "choose_multiple": true
+                  },
+                  "lines": 1,
+                  "groups": [],
+                  "question": "",
+                  "_selectId": "t0ZIk5l2zK0dQo",
+                  "condition": "",
+                  "popupView": "tO-6DxodJdqI_0",
+                  "inputLabel": "",
+                  "lookupType": "WdoYmj-FOBFYri:hestia/document-types",
+                  "sortFields": [],
+                  "displayView": "tO-6DxodJdqI_0",
+                  "linesMobile": 1,
+                  "defaultValue": "",
+                  "searchFields": [],
+                  "popupQuestion": "",
+                  "addButtonLabel": "",
+                  "lookupTypeName": "Company Profile",
+                  "popupView_name": "Name",
+                  "questionHeight": "",
+                  "requiredFields": [
+                    "companyName"
+                  ],
+                  "clearIfDisabled": "",
+                  "questionLeftPad": "",
+                  "displayView_name": "Name",
+                  "questionRightPad": "",
+                  "editableCondition": "",
+                  "questionSpaceBefore": ""
                 }
               ]
             }
@@ -282,6 +317,39 @@
           "duplicateNames": {}
         }
       ],
+      "updater": [
+        {
+          "id": "mESfZOAuZ9CImv",
+          "name": "Create new records",
+          "onEnter": "",
+          "inStates": [
+            "New"
+          ],
+          "mergeAll": "",
+          "_selectId": "aVBxZmcBJO3NUM",
+          "forValesOf": false,
+          "properties": [
+            {
+              "id": "nYFoShvmUersgS",
+              "field": "assessmentType",
+              "value": "{makeIdFrom(\"$value.companyName\")}",
+              "defaultValue": ""
+            }
+          ],
+          "specificId": true,
+          "targetType": "Vd-DfPw6WABtoj:hestia/document-types",
+          "forValuesOf": true,
+          "iterateOver": "profiles",
+          "updateState": "",
+          "updateClient": "",
+          "recordChanges": "",
+          "targetTypeName": "Dummy Output",
+          "updateRecordId": "{resolve(_id)}-{makeIdFrom(\"$value.companyName\")}:test/dummyOutput",
+          "createMergeRecord": false,
+          "uniqueMergeRecords": false,
+          "updateTargetDocumentState": false
+        }
+      ],
       "formAction": [
         {
           "id": "ajGAR1Lo6Vsk36",
@@ -289,15 +357,58 @@
           "forms": [
             {
               "id": "P5pmtKXcc5XtXK",
-              "form": "wC58efulRjs-DV"
+              "form": "wC58efulRjs-DV",
+              "readOnly": "",
+              "_selectId": "J5WlrqYqzuV6mw"
             }
           ],
           "inline": true,
-          "actions": [],
+          "actions": [
+            {
+              "id": "n6nxQCAisG9v-R",
+              "blur": "",
+              "icon": "",
+              "color": "#fff",
+              "modal": {
+                "icon": "AiFillWarning",
+                "color": "#dc840a",
+                "title": "Warning",
+                "cancel": "Cancel",
+                "enabled": true,
+                "message": "<p>It's a warning</p>\n",
+                "cancelColor": "",
+                "toggleOrder": "",
+                "confirmColor": "",
+                "confirmation": "Ok",
+                "cancelBackgroundColor": "",
+                "confirmBackgroundColor": ""
+              },
+              "goBack": "",
+              "caption": "Submit",
+              "command": "setData",
+              "toState": "New",
+              "variant": "text",
+              "position": "bottom",
+              "_selectId": "_QnQa9qw6IgtaM",
+              "condition": "",
+              "endOfLine": "",
+              "navigateTo": "",
+              "properties": [],
+              "changeState": true,
+              "errorMessage": "Error: Your message goes here",
+              "successMessage": "Success: Your message goes here",
+              "backgroundColor": "#03a9f4",
+              "visibleCondition": "",
+              "notificationToast": false
+            }
+          ],
+          "storeIn": "",
           "_selectId": "4Z7jiX_ffn1XAR",
+          "editDemands": [],
           "inputStates": [
             "New"
-          ]
+          ],
+          "visibleDemands": []
         }
       ]
     }
