@@ -1,5 +1,5 @@
 {
-  "__": "TWAjm9ZJXBhHE_",
+  "__": "SKj2WeuG5hCyKv",
   "_id": "fYmpCXoXNbRtVg:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -201,14 +201,14 @@
     {
       "id": "D57acZ-uIHF-Tx",
       "name": "1.0",
-      "time": 1625746224635,
+      "time": 1625746343701,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "DWang0qILpjL20",
+      "_selectId": "_yhTLW3M5l5hkW",
       "parentVersion": ""
     }
   ],
-  "_modified": 1625742625000,
+  "_modified": 1625742744000,
   "components": "verification,helptext,navigation,formprogress,localisation",
   "isLockedBy": null,
   "navigation": [],
@@ -1150,7 +1150,7 @@
                 "title": "Submit Your Answers?",
                 "cancel": "Cancel",
                 "enabled": true,
-                "message": "<p><span style=\"color: rgba(0,0,0,0.87);background-color: rgb(255,255,255);font-size: 14px;font-family: Roboto, Helvetica, Arial, sans-serif;\"><br>&lt;% if(progress_remain &gt; 0) { %&gt;</span></p>\n<ul>\n<li style=\"margin-left:1.5em;\"><span style=\"color: rgba(0,0,0,0.87);background-color: rgb(255,255,255);font-size: 14px;font-family: Roboto, Helvetica, Arial, sans-serif;\"><strong>You haven't answered </strong></span><span style=\"color: rgb(245,0,87);background-color: rgb(255,255,255);font-size: 14px;font-family: Roboto, Helvetica, Arial, sans-serif;\"><strong>{progress_remain} </strong></span><span style=\"color: rgba(0,0,0,0.87);background-color: rgb(255,255,255);font-size: 14px;font-family: Roboto, Helvetica, Arial, sans-serif;\"><strong>questions.</strong> &lt;% }</span></li>\n</ul>\n<p><span style=\"color: rgba(0,0,0,0.87);background-color: rgb(255,255,255);font-size: 14px;font-family: Roboto, Helvetica, Arial, sans-serif;\"> %&gt;</span></p>\n<ul>\n<li>You will not be able to edit the form once it is submitted.</li>\n</ul>\n",
+                "message": "<p><br><span style=\"color: rgba(0,0,0,0.87);background-color: rgb(255,255,255);font-size: 14px;font-family: Roboto, Helvetica, Arial, sans-serif;\">&lt;% if(progress_remain &gt; 0) { %&gt;</span></p>\n<ul>\n<li style=\"margin-left:1.5em;\"><span style=\"color: rgba(0,0,0,0.87);background-color: rgb(255,255,255);font-size: 14px;font-family: Roboto, Helvetica, Arial, sans-serif;\"><strong>You haven't answered </strong></span><span style=\"color: rgb(245,0,87);background-color: rgb(255,255,255);font-size: 14px;font-family: Roboto, Helvetica, Arial, sans-serif;\"><strong>{progress_remain} </strong></span><span style=\"color: rgba(0,0,0,0.87);background-color: rgb(255,255,255);font-size: 14px;font-family: Roboto, Helvetica, Arial, sans-serif;\"><strong>questions.</strong> &lt;% }%&gt;</span></li>\n</ul>\n<p></p>\n<ul>\n<li>You will not be able to edit the form once it is submitted.</li>\n</ul>\n",
                 "cancelColor": "#f50057",
                 "toggleOrder": "",
                 "confirmColor": "#f5f5f5",
