@@ -1,5 +1,5 @@
 {
-  "__": "jRMga1WCPEwe3m",
+  "__": "yBwY2iA73WKE3g",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -228,14 +228,14 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1625836172907,
+      "time": 1625838010445,
       "user": "3e424bc3-fb9a-47a1-93a1-056351146687",
       "locked": false,
-      "_selectId": "iV_T9Tg45uCw-H",
+      "_selectId": "68JDX6SQq8lX7Q",
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1625832573000,
+  "_modified": 1625834410000,
   "components": "navigation",
   "isLockedBy": null,
   "navigation": [],
@@ -1794,7 +1794,7 @@
           "updateRecordId": "{resolveId(_id)}-{makeIdFrom(\"$value.companyName\")}:contractorcheck/contractorAnswers",
           "createMergeRecord": false,
           "uniqueMergeRecords": false,
-          "updateTargetDocumentState": true
+          "updateTargetDocumentState": false
         }
       ],
       "formAction": [
