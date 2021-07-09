@@ -1,6 +1,6 @@
 [
   {
-    "__": "PNTiy9BNzj2dy8",
+    "__": "8bRxkKGCVKkXUe",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -199,7 +199,7 @@
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1625834523000,
+    "_modified": 1625835026000,
     "components": "navigation",
     "isLockedBy": null,
     "navigation": [],
@@ -1754,14 +1754,14 @@
             "targetType": "fYmpCXoXNbRtVg:hestia/document-types",
             "forValuesOf": true,
             "iterateOver": "clients",
-            "updateState": "",
+            "updateState": "New",
             "updateClient": false,
             "recordChanges": "",
             "targetTypeName": "Contractor Questionnaire",
             "updateRecordId": "{resolveId(_id)}-{makeIdFrom(\"$value.companyName\")}:contractorcheck/contractorAnswers",
             "createMergeRecord": false,
             "uniqueMergeRecords": false,
-            "updateTargetDocumentState": false
+            "updateTargetDocumentState": true
           }
         ],
         "formAction": [
