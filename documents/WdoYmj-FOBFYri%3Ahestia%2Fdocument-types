@@ -1,5 +1,5 @@
 {
-  "__": "7ZBoiHWoGr4zyv",
+  "__": "jRMga1WCPEwe3m",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -193,7 +193,7 @@
     }
   },
   "$invalid": false,
-  "_created": 1621461152000,
+  "_created": 1622205077000,
   "_deleted": 0,
   "database": "companyP",
   "maxWidth": 1000,
@@ -228,14 +228,14 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1625642835810,
-      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "time": 1625836172907,
+      "user": "3e424bc3-fb9a-47a1-93a1-056351146687",
       "locked": false,
-      "_selectId": "QDciDrkZ16tU_W",
+      "_selectId": "iV_T9Tg45uCw-H",
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1625639236000,
+  "_modified": 1625832573000,
   "components": "navigation",
   "isLockedBy": null,
   "navigation": [],
@@ -1744,6 +1744,57 @@
           "createMergeRecord": false,
           "uniqueMergeRecords": false,
           "updateTargetDocumentState": false
+        },
+        {
+          "id": "YF_aX-5R36pkDI",
+          "name": "Add Questionnaire Based on Client Anchor",
+          "onEnter": "",
+          "inStates": [
+            "New",
+            "Saved",
+            "Assessed",
+            "Approved",
+            "Stored"
+          ],
+          "mergeAll": "",
+          "_selectId": "FtGtizbn8zxRgc",
+          "properties": [
+            {
+              "id": "jy2T-6x6jhbLpH",
+              "field": "profile",
+              "value": "{_id}",
+              "defaultValue": ""
+            },
+            {
+              "id": "UJ2V9qjktdZsEE",
+              "field": "linkedProfile",
+              "value": "{_id}",
+              "defaultValue": ""
+            },
+            {
+              "id": "ee237Aa7DeDqAP",
+              "field": "assessmentType",
+              "value": "{companyName}",
+              "defaultValue": ""
+            },
+            {
+              "id": "iyvKQ5sOUuOcdq",
+              "field": "",
+              "value": ""
+            }
+          ],
+          "specificId": true,
+          "targetType": "fYmpCXoXNbRtVg:hestia/document-types",
+          "forValuesOf": true,
+          "iterateOver": "clients",
+          "updateState": "",
+          "updateClient": false,
+          "recordChanges": "",
+          "targetTypeName": "Contractor Questionnaire",
+          "updateRecordId": "{resolveId(_id)}-{makeIdFrom(\"$value.companyName\")}:contractorcheck/contractorAnswers",
+          "createMergeRecord": false,
+          "uniqueMergeRecords": false,
+          "updateTargetDocumentState": true
         }
       ],
       "formAction": [
@@ -2009,7 +2060,7 @@
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+  "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
   "defaultActivity": "x_5KNezQjHRN0v",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
