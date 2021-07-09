@@ -8641,7 +8641,7 @@
     "doYouUseContractors": "no"
   },
   {
-    "__": "7CVSc7HhGQ7cMH",
+    "__": "9y9EGbWf3E_jM8",
     "ZIP": "",
     "_id": "SiG_Z8lm5Vrnk5:companyP/companyP",
     "City": "",
@@ -8649,7 +8649,7 @@
       "clientsLookup": {
         "rows": [
           {
-            "_id": "lMjmgtYXDIRiVY:contractorcheck/masterCompanyProfile",
+            "_id": "8-DZ0dQ-ny8sF0:contractorcheck/masterCompanyProfile",
             "_settings": {
               "_id": "UJns4BZ0dhGyw5:hestia/document-types"
             }
@@ -8672,7 +8672,7 @@
     "_client": "SiG_Z8lm5Vrnk5",
     "address": "",
     "clients": [
-      "Trinity College School"
+      "Agellan Capital Partners Inc"
     ],
     "country": [],
     "$created": true,
@@ -8685,7 +8685,7 @@
     "province": [],
     "__created": 1625837896614,
     "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625843008000,
+    "_modified": 1625843042000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
@@ -8713,7 +8713,7 @@
     "tradingNames": "",
     "workActivity": [],
     "clientsLookup": [
-      "lMjmgtYXDIRiVY:contractorcheck/masterCompanyProfile"
+      "8-DZ0dQ-ny8sF0:contractorcheck/masterCompanyProfile"
     ],
     "doYouContract": "yes",
     "classification": "",
