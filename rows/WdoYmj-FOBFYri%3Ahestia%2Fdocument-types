@@ -8374,7 +8374,7 @@
     "doYouUseContractors": "no"
   },
   {
-    "__": "CFqII1DBtWQZAQ",
+    "__": "rkp5NHkyJLTwMx",
     "ZIP": "",
     "_id": "SiG_Z8lm5Vrnk5:companyP/companyP",
     "City": "",
@@ -8383,12 +8383,6 @@
         "rows": [
           {
             "_id": "YhkaW21g7LzVM3:contractorcheck/masterCompanyProfile",
-            "_settings": {
-              "_id": "UJns4BZ0dhGyw5:hestia/document-types"
-            }
-          },
-          {
-            "_id": "Ep2MltATKsgLig:contractorcheck/masterCompanyProfile",
             "_settings": {
               "_id": "UJns4BZ0dhGyw5:hestia/document-types"
             }
@@ -8411,8 +8405,7 @@
     "_client": "SiG_Z8lm5Vrnk5",
     "address": "",
     "clients": [
-      "Wittington Properties Limited",
-      "Vancouver Fraser Port Authority"
+      "Wittington Properties Limited"
     ],
     "country": [],
     "$created": true,
@@ -8453,8 +8446,7 @@
     "tradingNames": "",
     "workActivity": [],
     "clientsLookup": [
-      "YhkaW21g7LzVM3:contractorcheck/masterCompanyProfile",
-      "Ep2MltATKsgLig:contractorcheck/masterCompanyProfile"
+      "YhkaW21g7LzVM3:contractorcheck/masterCompanyProfile"
     ],
     "doYouContract": "yes",
     "classification": "",
