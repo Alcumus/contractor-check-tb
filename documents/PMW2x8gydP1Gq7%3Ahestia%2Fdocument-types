@@ -1,5 +1,5 @@
 {
-  "__": "-buWEYHOCDVfkb",
+  "__": "9nX2GLUNK6Xqk3",
   "_id": "PMW2x8gydP1Gq7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -213,10 +213,10 @@
     {
       "id": "tV6rqmkixtZSUh",
       "name": "1",
-      "time": 1625493662046,
-      "user": "087af269-7b85-44fc-be62-94b7b6613ad8",
+      "time": 1625833701814,
+      "user": "64467393-61e5-45fe-a026-45aed6419337",
       "locked": false,
-      "_selectId": "yRL35dSXvHg29u",
+      "_selectId": "ewQA2Dg6jICxWj",
       "parentVersion": ""
     }
   ],
@@ -225,7 +225,7 @@
       "exposeWebhooks": ""
     }
   },
-  "_modified": 1625833421000,
+  "_modified": 1625836579000,
   "components": "verification,localisation,hint-text",
   "isLockedBy": null,
   "navigation": [],
@@ -14091,6 +14091,7 @@
                   "hints": {},
                   "formName": "General",
                   "question": "",
+                  "_selectId": "Zygg8eKV_FPHFD",
                   "condition": "valueEquals(\"assessmentType\", \"general\")"
                 },
                 {
@@ -14100,6 +14101,7 @@
                   "hints": {},
                   "formName": "Agellan Capital Partners Inc",
                   "question": "",
+                  "_selectId": "nwd8c5fVKw8JZM",
                   "condition": "valueEquals(\"assessmentType\", \"Agellan Capital Partners Inc\")"
                 },
                 {
@@ -14109,6 +14111,7 @@
                   "hints": {},
                   "formName": "Bimbo Canada (Canada Bread)",
                   "question": "",
+                  "_selectId": "pAikQL5V693voe",
                   "condition": "valueEquals(\"assessmentType\", \"Bimbo Canada (Canada Bread)\")"
                 },
                 {
@@ -14118,6 +14121,7 @@
                   "hints": {},
                   "formName": "Bird Construction (Client)",
                   "question": "",
+                  "_selectId": "KthGgrFtmG5cs8",
                   "condition": "valueEquals(\"assessmentType\", \"Bird Construction (Client)\")"
                 },
                 {
@@ -14127,6 +14131,7 @@
                   "hints": {},
                   "formName": "Bouygues Energies & Services",
                   "question": "",
+                  "_selectId": "-1vF0YXNV4fxtq",
                   "condition": "valueEquals(\"assessmentType\", \"Bouygues Energies & Services\")"
                 },
                 {
@@ -14136,6 +14141,7 @@
                   "hints": {},
                   "formName": "Branksome Hall",
                   "question": "",
+                  "_selectId": "tK2mK_x6xgevO4",
                   "condition": "valueEquals(\"assessmentType\", \"Branksome Hall\")"
                 },
                 {
@@ -14145,6 +14151,7 @@
                   "hints": {},
                   "formName": "BURNCO Rock Products Ltd - Client",
                   "question": "",
+                  "_selectId": "HQkuBmuzmc_zcQ",
                   "condition": "valueEquals(\"assessmentType\", \"BURNCO Rock Products Ltd - Client\")"
                 },
                 {
@@ -14154,6 +14161,7 @@
                   "hints": {},
                   "formName": "Cadillac Fairview Corporation Limited",
                   "question": "",
+                  "_selectId": "wRWtFephDBbrmr",
                   "condition": "valueEquals(\"assessmentType\", \"Cadillac Fairview Corporation Limited\")"
                 },
                 {
@@ -14163,6 +14171,7 @@
                   "hints": {},
                   "formName": "Calgary Co-Operative Association Limited",
                   "question": "",
+                  "_selectId": "ecwYiXCuvRpzYy",
                   "condition": "valueEquals(\"assessmentType\", \"Calgary Co-Operative Association Limited\")"
                 },
                 {
@@ -14172,6 +14181,7 @@
                   "hints": {},
                   "formName": "Canada General Documents",
                   "question": "",
+                  "_selectId": "7G947k3BJHdJ-t",
                   "condition": "valueEquals(\"assessmentType\", \"Canada General Documents\")"
                 },
                 {
@@ -14181,6 +14191,7 @@
                   "hints": {},
                   "formName": "CBRE (Alberta) Client",
                   "question": "",
+                  "_selectId": "drkfgXTVdVtNKB",
                   "condition": "valueEquals(\"assessmentType\", \"CBRE (Alberta) Client\")"
                 },
                 {
@@ -14190,6 +14201,7 @@
                   "hints": {},
                   "formName": "CBRE Limited (Client)",
                   "question": "",
+                  "_selectId": "FzmIHWWawfT3id",
                   "condition": "valueEquals(\"assessmentType\", \"CBRE Limited (Client)\")"
                 },
                 {
@@ -14199,6 +14211,7 @@
                   "hints": {},
                   "formName": "Choice Properties - Industrial & Office",
                   "question": "",
+                  "_selectId": "8P0jqttzrRWkgx",
                   "condition": "valueEquals(\"assessmentType\", \"Choice Properties - Industrial & Office\")"
                 },
                 {
@@ -14559,6 +14572,7 @@
                   "hints": {},
                   "formName": "Thyssenkrupp Elevator (Canada) Limited (Client)",
                   "question": "",
+                  "_selectId": "Vij48RBVdw_VW9",
                   "condition": "valueEquals(\"assessmentType\", \"Thyssenkrupp Elevator (Canada) Limited (Client)\")"
                 },
                 {
@@ -14568,6 +14582,7 @@
                   "hints": {},
                   "formName": "TJ Construction Management Ltd. (Client)",
                   "question": "",
+                  "_selectId": "cnN_9L6eTiGxTk",
                   "condition": "valueEquals(\"assessmentType\", \"TJ Construction Management Ltd. (Client)\")"
                 },
                 {
@@ -14577,6 +14592,7 @@
                   "hints": {},
                   "formName": "Trinity College School",
                   "question": "",
+                  "_selectId": "qKWo0XQdhADpJk",
                   "condition": "valueEquals(\"assessmentType\", \"Trinity College School\")"
                 },
                 {
@@ -14586,6 +14602,7 @@
                   "hints": {},
                   "formName": "Triovest Realty Advisors Inc.",
                   "question": "",
+                  "_selectId": "lceDa4wZ8HsOS_",
                   "condition": "valueEquals(\"assessmentType\", \"Triovest Realty Advisors Inc.\")"
                 },
                 {
@@ -14595,6 +14612,7 @@
                   "hints": {},
                   "formName": "US General Documents",
                   "question": "",
+                  "_selectId": "CaQ498_EGI--to",
                   "condition": "valueEquals(\"assessmentType\", \"US General Documents\")"
                 },
                 {
@@ -14604,6 +14622,7 @@
                   "hints": {},
                   "formName": "US TEST CLIENT",
                   "question": "",
+                  "_selectId": "Owoe8lf1rBrzrT",
                   "condition": "valueEquals(\"assessmentType\", \"US TEST CLIENT\")"
                 },
                 {
@@ -14613,6 +14632,7 @@
                   "hints": {},
                   "formName": "Vancouver Fraser Port Authority",
                   "question": "",
+                  "_selectId": "Rimk5dWIEOx5Om",
                   "condition": "valueEquals(\"assessmentType\", \"Vancouver Fraser Port Authority\")"
                 },
                 {
@@ -14622,7 +14642,18 @@
                   "hints": {},
                   "formName": "Wittington Properties Limited",
                   "question": "",
+                  "_selectId": "TCRWBYjf6k3STC",
                   "condition": "valueEquals(\"assessmentType\", \"Wittington Properties Limited\")"
+                },
+                {
+                  "id": "Zc2Csgd88KAOuP",
+                  "form": "BuZ9UshyPuL-jw",
+                  "name": "",
+                  "type": "useForm",
+                  "hints": {},
+                  "question": "",
+                  "_selectId": "h8_CvEk_UgWCcX",
+                  "condition": "valueEquals(\"assessmentType\", \"Sea Breeze Ventilation\")"
                 }
               ],
               "description": ""
@@ -30355,7 +30386,7 @@
                 },
                 {
                   "id": "Gkis3HoSFbn7ks",
-                  "name": "ventilatonQualifications",
+                  "name": "ventilationQualifications",
                   "type": "boolean",
                   "hints": {},
                   "choices": [
@@ -30385,7 +30416,7 @@
                 {
                   "id": "PGb3NBqT1Qvcga",
                   "icon": "FaCloudUploadAlt",
-                  "name": "ventilationQualifications",
+                  "name": "ventilationQualificationsUpload",
                   "type": "file",
                   "color": "#ffffff",
                   "hints": {
@@ -30453,7 +30484,7 @@
                 },
                 {
                   "id": "veI33iA4x3kPjr",
-                  "name": "descriptionQueston",
+                  "name": "ventilationDescriptionQuestion",
                   "type": "text",
                   "hints": {},
                   "maxWidth": "",
@@ -30463,8 +30494,10 @@
                   "inputLabel": "",
                   "defaultValue": "",
                   "questionHeight": "",
+                  "clearIfDisabled": "",
                   "questionLeftPad": "",
                   "questionRightPad": "",
+                  "editableCondition": "",
                   "questionSpaceBefore": ""
                 },
                 {
@@ -30499,7 +30532,7 @@
                 },
                 {
                   "id": "zNGNnxF0KNTqhB",
-                  "name": "dateQuestion",
+                  "name": "ventilationDateQuestion",
                   "type": "date",
                   "hints": {
                     "future_only": true
@@ -30512,8 +30545,10 @@
                   "useMaterialUI": "",
                   "preventNullify": "",
                   "questionHeight": "",
+                  "clearIfDisabled": "",
                   "questionLeftPad": "",
                   "questionRightPad": "",
+                  "editableCondition": "",
                   "questionSpaceBefore": ""
                 },
                 {
@@ -36336,6 +36371,13 @@
           "id": "d5DXnVTfeyQggt",
           "__init": true,
           "_selectId": "9FuSIszUF6x78V",
+          "actionType": "",
+          "requireMode": "all",
+          "viewableType": "",
+          "defaultSections": "Financial Management=70,Business Professional Standing=40,Environmental Management=10,Quality Management=23,People=31,Health And Safety=15,Risk Management=60",
+          "defaultScoreOptions": "",
+          "defaultAssessmentScore": "",
+          "ignoreForQuestionTypes": "",
           "alcumusVerificationOptions": {
             "clear": {
               "type": null,
@@ -36364,6 +36406,95 @@
               "defaultPrevented": null,
               "_dispatchInstances": null,
               "_dispatchListeners": null
+            },
+            "BzCcYvkMwEIvKq": {
+              "viewTypes": "",
+              "isAuditable": true,
+              "actionsTypes": "",
+              "isYesNowDisplay": true,
+              "questionScoreSteps": "1",
+              "questionScoreOffset": "0",
+              "questionValidScores": "",
+              "questionMaximumScore": null
+            },
+            "Gkis3HoSFbn7ks": {
+              "helpText": "",
+              "viewTypes": "",
+              "helpTextTso": "",
+              "isAuditable": true,
+              "actionsTypes": "",
+              "isYesNowDisplay": true,
+              "isNoScoreAssessed": "",
+              "questionScoreSteps": "1",
+              "questionScoreOffset": "0",
+              "questionValidScores": "",
+              "questionMaximumScore": null
+            },
+            "LKd07ZEYmpwGND": {
+              "viewTypes": "",
+              "isAuditable": true,
+              "actionsTypes": "",
+              "isYesNowDisplay": true,
+              "questionScoreSteps": "1",
+              "questionScoreOffset": "0",
+              "questionValidScores": "",
+              "questionMaximumScore": null
+            },
+            "PGb3NBqT1Qvcga": {
+              "helpText": "",
+              "viewTypes": "",
+              "helpTextTso": "",
+              "isAuditable": false,
+              "actionsTypes": "",
+              "isYesNowDisplay": true,
+              "isNoScoreAssessed": "",
+              "questionScoreSteps": "1",
+              "questionScoreOffset": "0",
+              "questionValidScores": "",
+              "questionMaximumScore": null
+            },
+            "fruUAmLSuFNX9L": {
+              "viewTypes": "",
+              "isAuditable": true,
+              "actionsTypes": "",
+              "isYesNowDisplay": true,
+              "questionScoreSteps": "1",
+              "questionScoreOffset": "0",
+              "questionValidScores": "",
+              "questionMaximumScore": null
+            },
+            "rj_2jbQfr-FSVV": {
+              "viewTypes": "",
+              "isAuditable": true,
+              "actionsTypes": "",
+              "isYesNowDisplay": true,
+              "questionScoreSteps": "1",
+              "questionScoreOffset": "0",
+              "questionValidScores": "",
+              "questionMaximumScore": null
+            },
+            "veI33iA4x3kPjr": {
+              "helpText": "",
+              "viewTypes": "",
+              "helpTextTso": "",
+              "isAuditable": false,
+              "actionsTypes": "",
+              "isYesNowDisplay": true,
+              "isNoScoreAssessed": "",
+              "questionScoreSteps": "1",
+              "questionScoreOffset": "0",
+              "questionValidScores": "",
+              "questionMaximumScore": null
+            },
+            "zNGNnxF0KNTqhB": {
+              "viewTypes": "",
+              "isAuditable": true,
+              "actionsTypes": "",
+              "isYesNowDisplay": true,
+              "questionScoreSteps": "1",
+              "questionScoreOffset": "0",
+              "questionValidScores": "",
+              "questionMaximumScore": null
             },
             "a1S1N000005WjLxFile": {
               "viewTypes": "",
@@ -38106,24 +38237,30 @@
               "questionMaximumScore": null
             },
             "a1S1N000005WjmPFile": {
+              "helpText": "",
               "viewTypes": "",
+              "helpTextTso": "",
               "isAuditable": false,
               "actionsTypes": "",
               "isYesNowDisplay": true,
+              "isNoScoreAssessed": "",
               "questionScoreSteps": "1",
               "questionScoreOffset": "0",
               "questionValidScores": "0,1",
-              "questionMaximumScore": null
+              "questionMaximumScore": ""
             },
             "a1S1N000005WjmPText": {
+              "helpText": "",
               "viewTypes": "",
+              "helpTextTso": "",
               "isAuditable": true,
               "actionsTypes": "",
               "isYesNowDisplay": true,
+              "isNoScoreAssessed": "",
               "questionScoreSteps": "1",
               "questionScoreOffset": "0",
               "questionValidScores": "0,1",
-              "questionMaximumScore": null
+              "questionMaximumScore": ""
             },
             "a1S1N000005WjmQFile": {
               "viewTypes": "",
@@ -44505,7 +44642,8 @@
               "questionValidScores": "0,1",
               "questionMaximumScore": null
             }
-          }
+          },
+          "defaultSupplierStateOnSubmit": "Verified"
         }
       ]
     }
