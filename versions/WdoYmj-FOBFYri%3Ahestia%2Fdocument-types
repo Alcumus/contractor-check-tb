@@ -1,6 +1,6 @@
 [
   {
-    "__": "p-G08UwFkgfsK-",
+    "__": "qhzrjyTfvAUpLg",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -1741,10 +1741,7 @@
               {
                 "id": "ee237Aa7DeDqAP",
                 "field": "assessmentType",
-                "value": [
-                  "{companyName}",
-                  "{$value}"
-                ],
+                "value": "{$value}",
                 "defaultValue": ""
               }
             ],
