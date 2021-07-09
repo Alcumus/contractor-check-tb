@@ -1,6 +1,6 @@
 [
   {
-    "__": "Vmr_sQnfkSsE7V",
+    "__": "vUbplvugtbxDFR",
     "_id": "PMW2x8gydP1Gq7-tV6rqmkixtZSUh:hestia/versions",
     "__id": "PMW2x8gydP1Gq7:hestia/document-types",
     "__ok": true,
@@ -200,7 +200,7 @@
     "_deleted": 0,
     "database": "test",
     "maxWidth": 1000,
-    "_modified": 1624624236000,
+    "_modified": 1625084050000,
     "components": "verification,localisation,hint-text",
     "isLockedBy": null,
     "navigation": [],
@@ -31659,6 +31659,14 @@
             "id": "d5DXnVTfeyQggt",
             "__init": true,
             "_selectId": "9FuSIszUF6x78V",
+            "actionType": "",
+            "requireMode": "all",
+            "viewableType": "",
+            "defaultSections": "Financial Management=70,Business Professional Standing=40,Environmental Management=10,Quality Management=23,People=31,Health And Safety=15,Risk Management=60",
+            "defaultScoreOptions": "",
+            "auditorCantEditAnswers": true,
+            "defaultAssessmentScore": "",
+            "ignoreForQuestionTypes": "",
             "alcumusVerificationOptions": {
               "clear": {
                 "type": null,
@@ -39828,7 +39836,8 @@
                 "questionValidScores": "0,1",
                 "questionMaximumScore": null
               }
-            }
+            },
+            "defaultSupplierStateOnSubmit": "Verified"
           }
         ]
       }
@@ -39861,6 +39870,6 @@
     "documentBackground": "#f4f4f4",
     "devices-allowed-html": "",
     "isLockedByCurrentUser": false,
-    "linkedMasterListProfile": "#Missing Function: resolveId:contractorcheck/masterCompanyProfile"
+    "linkedMasterListProfile": ":contractorcheck/masterCompanyProfile"
   }
 ]
