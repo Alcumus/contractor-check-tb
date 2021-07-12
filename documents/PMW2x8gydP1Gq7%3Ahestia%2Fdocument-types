@@ -1,5 +1,5 @@
 {
-  "__": "itLjZioNZJqVl0",
+  "__": "Knk-t_kM0VhPji",
   "_id": "PMW2x8gydP1Gq7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -210,10 +210,10 @@
     {
       "id": "tV6rqmkixtZSUh",
       "name": "1",
-      "time": 1626083013985,
+      "time": 1626085265522,
       "user": "64467393-61e5-45fe-a026-45aed6419337",
       "locked": false,
-      "_selectId": "AlCTlC8y_F0hhr",
+      "_selectId": "q6s2y1eLqK-bni",
       "parentVersion": ""
     }
   ],
@@ -222,7 +222,7 @@
       "exposeWebhooks": ""
     }
   },
-  "_modified": 1626085260000,
+  "_modified": 1626092130000,
   "components": "verification,localisation,hint-text",
   "isLockedBy": null,
   "navigation": [],
@@ -26048,7 +26048,7 @@
                   "condition": "valueEquals(\"ventilationInsurance\", \"Yes\")",
                   "extensions": [
                     "pdf",
-                    "pn"
+                    "png"
                   ],
                   "inputLabel": "UPLOAD",
                   "maximumSize": "1000000",
@@ -32022,6 +32022,19 @@
               "defaultPrevented": null,
               "_dispatchInstances": null,
               "_dispatchListeners": null
+            },
+            "g4bDboHfcSvJ_9": {
+              "helpText": "",
+              "viewTypes": "",
+              "helpTextTso": "",
+              "isAuditable": true,
+              "actionsTypes": "",
+              "isYesNowDisplay": true,
+              "isNoScoreAssessed": "",
+              "questionScoreSteps": "1",
+              "questionScoreOffset": "0",
+              "questionValidScores": "",
+              "questionMaximumScore": null
             },
             "a1S1N000005WjLxFile": {
               "viewTypes": "",
