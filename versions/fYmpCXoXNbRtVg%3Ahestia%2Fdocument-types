@@ -1,6 +1,6 @@
 [
   {
-    "__": "iqTjwSecCwfi0P",
+    "__": "PBPhp7HIdzj3vw",
     "_id": "fYmpCXoXNbRtVg-D57acZ-uIHF-Tx:hestia/versions",
     "__id": "fYmpCXoXNbRtVg:hestia/document-types",
     "__ok": true,
@@ -199,7 +199,7 @@
     "_deleted": 0,
     "database": "contractorcheck",
     "maxWidth": 1000,
-    "_modified": 1626093380000,
+    "_modified": 1626093896000,
     "components": "verification,helptext,navigation,formprogress,localisation",
     "isLockedBy": null,
     "navigation": [],
@@ -1060,7 +1060,7 @@
             "name": "Update Assessor Record On Resubmitted",
             "onEnter": "",
             "inStates": [
-              "Submitted"
+              "Resubmitted"
             ],
             "mergeAll": true,
             "_selectId": "apn2G2TV87uPtH",
@@ -1091,7 +1091,7 @@
               }
             ],
             "specificId": "",
-            "targetType": "",
+            "targetType": "R720NeuU8vOWuo:hestia/document-types",
             "updateState": "New",
             "updateClient": "",
             "recordChanges": "",
