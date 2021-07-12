@@ -1,5 +1,5 @@
 {
-  "__": "OOonEbnL94mjYy",
+  "__": "0Zg4wiErr6U0wM",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -228,14 +228,14 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1626094339749,
+      "time": 1626095507869,
       "user": "3e424bc3-fb9a-47a1-93a1-056351146687",
       "locked": false,
-      "_selectId": "s_0ms8tKHflACH",
+      "_selectId": "M6Vg3i098OpZQa",
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1626090740000,
+  "_modified": 1626091908000,
   "components": "navigation",
   "isLockedBy": null,
   "navigation": [],
@@ -1799,7 +1799,8 @@
           "name": "Create H&S questionnaire on New",
           "onEnter": "",
           "inStates": [
-            "Saved"
+            "Saved",
+            "New"
           ],
           "mergeAll": "",
           "_selectId": "lT6i9FqOTpK7uw",
@@ -1819,10 +1820,7 @@
             {
               "id": "8Ou05hf40YVaWK",
               "field": "assessmentType",
-              "value": [
-                "",
-                "general"
-              ],
+              "value": "general",
               "defaultValue": ""
             }
           ],
