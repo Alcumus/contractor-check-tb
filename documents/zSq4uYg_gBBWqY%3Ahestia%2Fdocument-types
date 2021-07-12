@@ -1,5 +1,5 @@
 {
-  "__": "J0Sg2cpoq3qo-P",
+  "__": "zhjkzKLnVIssY3",
   "_id": "zSq4uYg_gBBWqY:hestia/document-types",
   "icon": "",
   "name": "Anchor Request",
@@ -180,7 +180,11 @@
   "demands": [],
   "graphQL": {
     "6g4mciY7jkfOUo": {
-      "exposeAPI": ""
+      "read": true,
+      "write": true,
+      "exposeAPI": true,
+      "readDemands": [],
+      "writeDemands": []
     }
   },
   "$invalid": false,
@@ -192,12 +196,14 @@
     {
       "id": "RlnNXS8fP37e6b",
       "name": "1.0",
-      "time": 1626104152122,
+      "time": 1626104166501,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-      "locked": false
+      "locked": false,
+      "_selectId": "AB66dtQjZYlsS3",
+      "parentVersion": ""
     }
   ],
-  "_modified": 1626100552000,
+  "_modified": 1626100566000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -366,6 +372,7 @@
   "devices-allowed": "",
   "sideBarMinWidth": 150,
   "__hideBehaviours": true,
+  "__hidePublishing": true,
   "documentBackdrop": "#f4f4f4",
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",

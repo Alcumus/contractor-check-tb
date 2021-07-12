@@ -1,6 +1,6 @@
 [
   {
-    "__": "H8UK9UXk3antMy",
+    "__": "8lYqvQVacNcUqY",
     "_id": "zSq4uYg_gBBWqY-RlnNXS8fP37e6b:hestia/versions",
     "__id": "zSq4uYg_gBBWqY:hestia/document-types",
     "icon": "",
@@ -182,7 +182,11 @@
     "demands": [],
     "graphQL": {
       "6g4mciY7jkfOUo": {
-        "exposeAPI": ""
+        "read": true,
+        "write": true,
+        "exposeAPI": true,
+        "readDemands": [],
+        "writeDemands": []
       }
     },
     "$invalid": false,
@@ -190,7 +194,7 @@
     "_deleted": 0,
     "database": "contractorcheck",
     "maxWidth": 1000,
-    "_modified": 1626100268000,
+    "_modified": 1626100552000,
     "components": "",
     "navigation": [],
     "_behaviours": {
@@ -345,7 +349,8 @@
     "sidebarColor": "#333",
     "tabsSelected": "#009fda",
     "documentColor": "#333",
-    "_activeVersion": "OcknhHIFsFhidR",
+    "_activeVersion": "RlnNXS8fP37e6b",
+    "_parentVersion": "",
     "currentVersion": {
       "live": "1.0",
       "testing": "1.0",
@@ -358,6 +363,7 @@
     "devices-allowed": "",
     "sideBarMinWidth": 150,
     "__hideBehaviours": true,
+    "__hidePublishing": true,
     "documentBackdrop": "#f4f4f4",
     "sidebarBackground": "#fff",
     "documentBackground": "#f4f4f4",
