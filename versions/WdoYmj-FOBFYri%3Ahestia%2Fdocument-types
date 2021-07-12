@@ -1,6 +1,6 @@
 [
   {
-    "__": "1ek_szUCQuoirJ",
+    "__": "A9LH86uI5IRn0o",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -199,7 +199,7 @@
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1626085743000,
+    "_modified": 1626091964000,
     "components": "navigation",
     "isLockedBy": null,
     "navigation": [],
@@ -1783,10 +1783,7 @@
               {
                 "id": "8Ou05hf40YVaWK",
                 "field": "assessmentType",
-                "value": [
-                  "",
-                  "general"
-                ],
+                "value": "general",
                 "defaultValue": ""
               }
             ],

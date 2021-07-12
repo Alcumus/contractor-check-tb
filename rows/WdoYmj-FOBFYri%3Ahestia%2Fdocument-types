@@ -9258,9 +9258,25 @@
     "doYouUseContractors": "no"
   },
   {
-    "__": "nm8SS4sm6imfnU",
+    "__": "s_CbpkAziDWZT1",
+    "ZIP": "",
     "_id": "IMqqdrif4PYqjO:companyP/companyP",
+    "City": "",
+    "_info": {
+      "clientsLookup": {
+        "rows": [
+          {
+            "_id": "8-DZ0dQ-ny8sF0:contractorcheck/masterCompanyProfile",
+            "_settings": {
+              "_id": "UJns4BZ0dhGyw5:hestia/document-types"
+            }
+          }
+        ]
+      }
+    },
     "email": "automation-contractor-1626095536237@mailhog.com",
+    "phone": "",
+    "SHARED": {},
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
         "pivotalDate": 1626095536360,
@@ -9268,22 +9284,86 @@
       }
     },
     "_client": "IMqqdrif4PYqjO",
+    "address": "",
+    "clients": [
+      "Agellan Capital Partners Inc"
+    ],
+    "country": [],
     "$created": true,
     "_created": 1626091936000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 15,
+    "complete": 30,
     "_modified": 1626091936000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Saved"
+    },
+    "companyName": "Automation Contractor 1626095536237",
+    "companySize": "Sole Proprietor",
+    "description": "",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Saved"
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Saved"
+      }
+    },
+    "contractorId": "",
+    "profileState": "",
+    "tradingNames": "",
+    "workActivity": [],
+    "clientsLookup": [
+      "8-DZ0dQ-ny8sF0:contractorcheck/masterCompanyProfile"
+    ],
+    "doYouContract": "yes",
+    "classification": "",
+    "complete_count": 16,
+    "workActivities": [],
+    "_lastModifiedBy": "f1fe9f40-be2b-4e84-9be8-80f74e7a5f8a",
+    "_stateChangedAt": 1626095585274,
+    "complete_remain": 11,
+    "complete_complete": 5,
+    "headOfficeCountry": "",
+    "numberOfEmployees": "",
+    "preferredLanguage": "",
+    "workActivityFrench": [],
+    "doYouUseContractors": "no"
+  },
+  {
+    "__": "8suMt9cPatOcS_",
+    "_id": "fDW0wNi4EIKfwb:companyP/companyP",
+    "email": "automation-contractor-1626095863189@mailhog.com",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1626095863304,
+        "documentCreated": 1626095863304
+      }
+    },
+    "_client": "fDW0wNi4EIKfwb",
+    "$created": true,
+    "_created": 1626092263000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 15,
+    "_modified": 1626092263000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
-    "companyName": "Automation Contractor 1626095536237",
+    "companyName": "Automation Contractor 1626095863189",
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
-      },
-      "5W2iA7W1ma2gWO": {
         "state": "New"
       },
       "Qi6ubuhBLjlkcx": {
