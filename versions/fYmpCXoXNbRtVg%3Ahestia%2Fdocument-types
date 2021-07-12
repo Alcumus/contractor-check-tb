@@ -1,6 +1,6 @@
 [
   {
-    "__": "lWVlvQm2bNM3hA",
+    "__": "WTucvylxm8-Qlj",
     "_id": "fYmpCXoXNbRtVg-D57acZ-uIHF-Tx:hestia/versions",
     "__id": "fYmpCXoXNbRtVg:hestia/document-types",
     "__ok": true,
@@ -1092,7 +1092,7 @@
             ],
             "specificId": "",
             "targetType": "R720NeuU8vOWuo:hestia/document-types",
-            "updateState": "New",
+            "updateState": "Reassessing",
             "updateClient": "",
             "recordChanges": "",
             "$behaviourType": "updater",
