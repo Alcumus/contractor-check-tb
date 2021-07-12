@@ -1,6 +1,6 @@
 [
   {
-    "__": "PBPhp7HIdzj3vw",
+    "__": "lWVlvQm2bNM3hA",
     "_id": "fYmpCXoXNbRtVg-D57acZ-uIHF-Tx:hestia/versions",
     "__id": "fYmpCXoXNbRtVg:hestia/document-types",
     "__ok": true,
@@ -199,7 +199,7 @@
     "_deleted": 0,
     "database": "contractorcheck",
     "maxWidth": 1000,
-    "_modified": 1626093896000,
+    "_modified": 1626093936000,
     "components": "verification,helptext,navigation,formprogress,localisation",
     "isLockedBy": null,
     "navigation": [],
@@ -1142,7 +1142,7 @@
               }
             ],
             "specificId": false,
-            "targetType": "",
+            "targetType": "j0P98w9sl6QXZo:hestia/document-types",
             "updateState": "",
             "updateClient": true,
             "recordChanges": "details",
@@ -2555,7 +2555,7 @@
     "sideBarMinWidth": 150,
     "__hideBehaviours": true,
     "documentBackdrop": "#f4f4f4",
-    "_updatersExpanded": false,
+    "_updatersExpanded": true,
     "sidebarBackground": "#fff",
     "documentBackground": "#f4f4f4",
     "devices-allowed-html": "",
