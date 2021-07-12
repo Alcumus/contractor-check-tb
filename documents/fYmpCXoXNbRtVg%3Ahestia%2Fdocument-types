@@ -1,5 +1,5 @@
 {
-  "__": "17sGeQND_m7yHe",
+  "__": "G9nhrOfbwmKqBF",
   "_id": "fYmpCXoXNbRtVg:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -201,13 +201,13 @@
     {
       "id": "D57acZ-uIHF-Tx",
       "name": "1.0",
-      "time": 1626097352078,
+      "time": 1626097496392,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
       "parentVersion": ""
     }
   ],
-  "_modified": 1626093752000,
+  "_modified": 1626093896000,
   "components": "verification,helptext,navigation,formprogress,localisation",
   "isLockedBy": null,
   "navigation": [],
@@ -1107,6 +1107,60 @@
           "targetTypeName": "Assessor Questionnaire",
           "createMergeRecord": "",
           "updateTargetDocumentState": true
+        },
+        {
+          "id": "XPzaucqJxCv9yl",
+          "name": "Audit Resubmitted",
+          "onEnter": true,
+          "inStates": [
+            "Resubmitted"
+          ],
+          "mergeAll": false,
+          "_selectId": "NH_MCS8RvQuQOR",
+          "properties": [
+            {
+              "id": "P3Z3dZ8NOaw7Ma",
+              "field": "activity",
+              "value": "Resubmitted response",
+              "defaultValue": ""
+            },
+            {
+              "id": "eKKMqox-hsnRxH",
+              "field": "employee",
+              "value": "{$currentUser.Employees._id}",
+              "defaultValue": ""
+            },
+            {
+              "id": "pUL2QiK0uLU5am",
+              "field": "profile",
+              "value": "{profile}",
+              "defaultValue": ""
+            },
+            {
+              "id": "INAqEBu-E1DqFi",
+              "field": "time",
+              "value": "{$now}",
+              "defaultValue": ""
+            },
+            {
+              "id": "jyxJO50CDUUAZs",
+              "field": "assessment",
+              "value": "{_uniqueId}:contractorcheck/contractorAnswers",
+              "defaultValue": ""
+            }
+          ],
+          "specificId": false,
+          "targetType": "",
+          "updateState": "",
+          "updateClient": true,
+          "recordChanges": "details",
+          "$behaviourType": "updater",
+          "targetTypeName": "Audit Trail",
+          "updateRecordId": "",
+          "updateToClient": "rsihYJKKDVyaYN",
+          "createMergeRecord": true,
+          "uniqueMergeRecords": true,
+          "updateTargetDocumentState": false
         }
       ],
       "derivation": [
