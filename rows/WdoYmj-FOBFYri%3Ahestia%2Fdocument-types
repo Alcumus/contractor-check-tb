@@ -9378,5 +9378,111 @@
     },
     "doYouContract": "yes",
     "doYouUseContractors": "no"
+  },
+  {
+    "__": "Yyq0K68RZNfWvc",
+    "_id": "U5H5puMKoROTKz:companyP/companyP",
+    "email": "automation-contractor-1626095914694@mailhog.com",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1626095914784,
+        "documentCreated": 1626095914784
+      }
+    },
+    "_client": "U5H5puMKoROTKz",
+    "$created": true,
+    "_created": 1626092314000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 15,
+    "_modified": 1626092314000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "companyName": "Automation Contractor 1626095914694",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New"
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New"
+      }
+    },
+    "doYouContract": "yes",
+    "doYouUseContractors": "no"
+  },
+  {
+    "__": "U8cgOQCn_oJxeT",
+    "ZIP": "",
+    "_id": "wxvzabqwJ8HkVR:companyP/companyP",
+    "City": "",
+    "email": "automation-contractor-1626095965043@mailhog.com",
+    "phone": "",
+    "SHARED": {},
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1626095965144,
+        "documentCreated": 1626095965144
+      }
+    },
+    "_client": "wxvzabqwJ8HkVR",
+    "address": "",
+    "clients": [],
+    "country": [],
+    "$created": true,
+    "_created": 1626092365000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 23,
+    "_modified": 1626092365000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Saved"
+    },
+    "companyName": "Automation Contractor 1626095965043",
+    "companySize": "Sole Proprietor",
+    "description": "",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Saved"
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Saved"
+      }
+    },
+    "contractorId": "",
+    "profileState": "",
+    "tradingNames": "",
+    "workActivity": [],
+    "clientsLookup": [],
+    "doYouContract": "yes",
+    "classification": "",
+    "complete_count": 16,
+    "workActivities": [],
+    "_lastModifiedBy": "79d06c6c-9a48-48c6-9c35-54e6f6c79b81",
+    "_stateChangedAt": 1626096025614,
+    "complete_remain": 12,
+    "complete_complete": 4,
+    "headOfficeCountry": "",
+    "numberOfEmployees": "",
+    "preferredLanguage": "",
+    "workActivityFrench": [],
+    "doYouUseContractors": "no"
   }
 ]
