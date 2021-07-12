@@ -1,5 +1,5 @@
 {
-  "__": "kC22IPgmYv0CWT",
+  "__": "fWSd_Mgzsifw2r",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -228,14 +228,14 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1626088949802,
+      "time": 1626089145172,
       "user": "3e424bc3-fb9a-47a1-93a1-056351146687",
       "locked": false,
-      "_selectId": "kBjd0u-E0AC2zT",
+      "_selectId": "tIX9cirZRlLqKW",
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1626085350000,
+  "_modified": 1626085545000,
   "components": "navigation",
   "isLockedBy": null,
   "navigation": [],
@@ -1819,10 +1819,7 @@
             {
               "id": "XABFiea3hRNuMZ",
               "field": "assessmentType",
-              "value": [
-                "",
-                "\"general\""
-              ],
+              "value": "\"general\"",
               "defaultValue": ""
             }
           ],
@@ -1830,7 +1827,7 @@
           "targetType": "fYmpCXoXNbRtVg:hestia/document-types",
           "forValuesOf": "",
           "updateState": "New",
-          "updateClient": "",
+          "updateClient": false,
           "recordChanges": "",
           "targetTypeName": "Contractor Questionnaire",
           "updateRecordId": "{resolveId(_id)}-general:contractorcheck/contractorAnswers",

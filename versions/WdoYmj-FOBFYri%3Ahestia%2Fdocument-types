@@ -1,6 +1,6 @@
 [
   {
-    "__": "r_HjadBUq5KYFR",
+    "__": "ZC5WZxF8xgYQah",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -1783,10 +1783,7 @@
               {
                 "id": "XABFiea3hRNuMZ",
                 "field": "assessmentType",
-                "value": [
-                  "",
-                  "\"general\""
-                ],
+                "value": "\"general\"",
                 "defaultValue": ""
               }
             ],
@@ -1794,7 +1791,7 @@
             "targetType": "fYmpCXoXNbRtVg:hestia/document-types",
             "forValuesOf": "",
             "updateState": "New",
-            "updateClient": "",
+            "updateClient": false,
             "recordChanges": "",
             "targetTypeName": "Contractor Questionnaire",
             "updateRecordId": "{resolveId(_id)}-general:contractorcheck/contractorAnswers",
