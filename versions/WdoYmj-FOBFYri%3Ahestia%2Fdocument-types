@@ -1,6 +1,6 @@
 [
   {
-    "__": "LbjoIXHmdFlyvX",
+    "__": "cMP6moviE-VtTU",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -1783,7 +1783,10 @@
               {
                 "id": "XABFiea3hRNuMZ",
                 "field": "assessmentType",
-                "value": "Health & Safety",
+                "value": [
+                  "Health & Safety",
+                  "general"
+                ],
                 "defaultValue": ""
               }
             ],
