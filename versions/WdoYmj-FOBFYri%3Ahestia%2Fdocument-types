@@ -1,6 +1,6 @@
 [
   {
-    "__": "qhzrjyTfvAUpLg",
+    "__": "r_HjadBUq5KYFR",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -199,7 +199,7 @@
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1625843031000,
+    "_modified": 1625843407000,
     "components": "navigation",
     "isLockedBy": null,
     "navigation": [],
@@ -1754,6 +1754,50 @@
             "recordChanges": "",
             "targetTypeName": "Contractor Questionnaire",
             "updateRecordId": "{resolveId(_id)}-{makeIdFrom(\"$value\")}:contractorcheck/contractorAnswers",
+            "createMergeRecord": false,
+            "uniqueMergeRecords": false,
+            "updateTargetDocumentState": true
+          },
+          {
+            "id": "5W2iA7W1ma2gWO",
+            "name": "Create H&S questionnaire on New",
+            "onEnter": "",
+            "inStates": [
+              "New"
+            ],
+            "mergeAll": "",
+            "_selectId": "lT6i9FqOTpK7uw",
+            "properties": [
+              {
+                "id": "RZ6GM_2spJAAjA",
+                "field": "profile",
+                "value": "{_id}",
+                "defaultValue": ""
+              },
+              {
+                "id": "8TqFDdaMLcG7WG",
+                "field": "linkedProfile",
+                "value": "{_id}",
+                "defaultValue": ""
+              },
+              {
+                "id": "XABFiea3hRNuMZ",
+                "field": "assessmentType",
+                "value": [
+                  "",
+                  "\"general\""
+                ],
+                "defaultValue": ""
+              }
+            ],
+            "specificId": true,
+            "targetType": "fYmpCXoXNbRtVg:hestia/document-types",
+            "forValuesOf": "",
+            "updateState": "New",
+            "updateClient": "",
+            "recordChanges": "",
+            "targetTypeName": "Contractor Questionnaire",
+            "updateRecordId": "{resolveId(_id)}-general:contractorcheck/contractorAnswers",
             "createMergeRecord": false,
             "uniqueMergeRecords": false,
             "updateTargetDocumentState": true
