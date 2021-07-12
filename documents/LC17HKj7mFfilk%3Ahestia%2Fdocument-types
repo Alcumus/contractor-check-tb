@@ -1,5 +1,5 @@
 {
-  "__": "aRWa-Tx6w_V6jU",
+  "__": "id031-hLC4MGrf",
   "_id": "LC17HKj7mFfilk:hestia/document-types",
   "icon": "",
   "name": "icw",
@@ -202,9 +202,10 @@
     {
       "id": "WyAd3Ai3vQ-kL_",
       "name": "1.1",
-      "time": 1626093874666,
+      "time": 1626094010303,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
+      "_selectId": "ocaoNAgs3fmkHp",
       "parentVersion": "Cq7AGYj1lrSL72"
     }
   ],
@@ -214,7 +215,7 @@
       "exposeWebhooks": true
     }
   },
-  "_modified": 1626090274000,
+  "_modified": 1626090410000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -441,7 +442,7 @@
   "defaultActivity": "ajGAR1Lo6Vsk36",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
-  "__hideBehaviours": true,
+  "__hideBehaviours": false,
   "documentBackdrop": "#f4f4f4",
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
