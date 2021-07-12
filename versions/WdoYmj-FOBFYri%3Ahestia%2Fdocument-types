@@ -1,6 +1,6 @@
 [
   {
-    "__": "w52ZwJQMHjLNP_",
+    "__": "MbScTCL8TQnMoZ",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -199,7 +199,7 @@
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1626101844000,
+    "_modified": 1626102498000,
     "components": "navigation",
     "isLockedBy": null,
     "navigation": [],
@@ -1785,7 +1785,7 @@
               {
                 "id": "oPaYSG0U1bJ4UF",
                 "field": "contractor",
-                "value": "{_id}",
+                "value": "{resolveId(_id)}:contractorcheck/masterCompanyProfile",
                 "defaultValue": ""
               },
               {
@@ -2123,7 +2123,7 @@
     "defaultState": "New",
     "sidebarColor": "#333",
     "tabsSelected": "#009fda",
-    "__hideRecords": false,
+    "__hideRecords": true,
     "__warnReasons": [],
     "documentColor": "#333",
     "_activeVersion": "GmG8PN_c_6Ta_E",

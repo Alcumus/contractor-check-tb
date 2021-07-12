@@ -1,6 +1,6 @@
 [
   {
-    "__": "mQf4RZ4tOuGBnn",
+    "__": "gozf1WXfUV5xIp",
     "ZIP": "999",
     "_id": "1621266694681:companyP/companyP",
     "City": "Racoon City",
@@ -8,12 +8,6 @@
     "_info": {
       "clientsLookup": {
         "rows": [
-          {
-            "_id": "Mx20OTel7MWV4d:contractorcheck/masterCompanyProfile",
-            "_settings": {
-              "_id": "UJns4BZ0dhGyw5:hestia/document-types"
-            }
-          },
           {
             "_id": "0pVu0Ed45F96oN:contractorcheck/masterCompanyProfile",
             "_settings": {
@@ -40,6 +34,12 @@
           },
           {
             "_id": "8-DZ0dQ-ny8sF0:contractorcheck/masterCompanyProfile",
+            "_settings": {
+              "_id": "UJns4BZ0dhGyw5:hestia/document-types"
+            }
+          },
+          {
+            "_id": "Mx20OTel7MWV4d:contractorcheck/masterCompanyProfile",
             "_settings": {
               "_id": "UJns4BZ0dhGyw5:hestia/document-types"
             }
@@ -107,12 +107,12 @@
     "_client": "1621266694681",
     "address": "The Hive",
     "clients": [
-      "Bimbo Canada (Canada Bread)",
       "Bird Construction (Client)",
       "Bouygues Energies & Services",
       "Crown Property Management Inc.",
       "First Gulf (Client)",
-      "Agellan Capital Partners Inc"
+      "Agellan Capital Partners Inc",
+      "Bimbo Canada (Canada Bread)"
     ],
     "country": [
       "Canada",
@@ -159,7 +159,7 @@
       "Alberta",
       "British Columbia"
     ],
-    "_modified": 1626102475000,
+    "_modified": 1626102611000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Assessed"
@@ -186,34 +186,34 @@
       "RIEAqtQYktJTNq": {
         "state": "Assessed",
         "previousValues": [
-          "Mx20OTel7MWV4d:contractorcheck/masterCompanyProfile",
           "0pVu0Ed45F96oN:contractorcheck/masterCompanyProfile",
           "lcdBsxkACkPCHQ:contractorcheck/masterCompanyProfile",
           "aNnsZjYxexfOY0:contractorcheck/masterCompanyProfile",
           "4ZOTyeDJ12zt7K:contractorcheck/masterCompanyProfile",
-          "8-DZ0dQ-ny8sF0:contractorcheck/masterCompanyProfile"
+          "8-DZ0dQ-ny8sF0:contractorcheck/masterCompanyProfile",
+          "Mx20OTel7MWV4d:contractorcheck/masterCompanyProfile"
         ]
       },
       "YF_aX-5R36pkDI": {
         "state": "Assessed",
         "previousValues": [
-          "Bimbo Canada (Canada Bread)",
           "Bird Construction (Client)",
           "Bouygues Energies & Services",
           "Crown Property Management Inc.",
           "First Gulf (Client)",
-          "Agellan Capital Partners Inc"
+          "Agellan Capital Partners Inc",
+          "Bimbo Canada (Canada Bread)"
         ]
       },
       "a1Nndl3PbdWVQ6": {
         "state": "Assessed",
         "previousValues": [
-          "Mx20OTel7MWV4d:contractorcheck/masterCompanyProfile",
           "0pVu0Ed45F96oN:contractorcheck/masterCompanyProfile",
           "lcdBsxkACkPCHQ:contractorcheck/masterCompanyProfile",
           "aNnsZjYxexfOY0:contractorcheck/masterCompanyProfile",
           "4ZOTyeDJ12zt7K:contractorcheck/masterCompanyProfile",
-          "8-DZ0dQ-ny8sF0:contractorcheck/masterCompanyProfile"
+          "8-DZ0dQ-ny8sF0:contractorcheck/masterCompanyProfile",
+          "Mx20OTel7MWV4d:contractorcheck/masterCompanyProfile"
         ]
       },
       "okFTMSwCgI9C4a": {
@@ -236,15 +236,16 @@
       "Air Conditioning"
     ],
     "clientsLookup": [
-      "Mx20OTel7MWV4d:contractorcheck/masterCompanyProfile",
       "0pVu0Ed45F96oN:contractorcheck/masterCompanyProfile",
       "lcdBsxkACkPCHQ:contractorcheck/masterCompanyProfile",
       "aNnsZjYxexfOY0:contractorcheck/masterCompanyProfile",
       "4ZOTyeDJ12zt7K:contractorcheck/masterCompanyProfile",
-      "8-DZ0dQ-ny8sF0:contractorcheck/masterCompanyProfile"
+      "8-DZ0dQ-ny8sF0:contractorcheck/masterCompanyProfile",
+      "Mx20OTel7MWV4d:contractorcheck/masterCompanyProfile"
     ],
     "doYouContract": "yes",
     "classification": "Maintenance",
+    "complete_count": 17,
     "workActivities": [
       "hZ_qK7iOHgS-FA:workA/workA",
       "1zgco_vwvH6Uat:workA/workA",
@@ -256,6 +257,8 @@
     ],
     "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1625579818264,
+    "complete_remain": 0,
+    "complete_complete": 17,
     "headOfficeCountry": "US",
     "numberOfEmployees": "0",
     "preferredLanguage": "en",
