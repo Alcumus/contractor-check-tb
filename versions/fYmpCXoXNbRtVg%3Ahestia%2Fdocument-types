@@ -1,6 +1,6 @@
 [
   {
-    "__": "OqLvCwFMyoI0Zu",
+    "__": "7cyNtjgw8U22eb",
     "_id": "fYmpCXoXNbRtVg-D57acZ-uIHF-Tx:hestia/versions",
     "__id": "fYmpCXoXNbRtVg:hestia/document-types",
     "__ok": true,
@@ -199,7 +199,7 @@
     "_deleted": 0,
     "database": "contractorcheck",
     "maxWidth": 1000,
-    "_modified": 1625831282000,
+    "_modified": 1626089301000,
     "components": "verification,helptext,navigation,formprogress,localisation",
     "isLockedBy": null,
     "navigation": [],
@@ -1054,6 +1054,51 @@
             "createMergeRecord": false,
             "uniqueMergeRecords": false,
             "updateTargetDocumentState": ""
+          },
+          {
+            "id": "7f9LXj_ER0kc2K",
+            "name": "Update Assessor Record On Resubmitted",
+            "onEnter": "",
+            "inStates": [
+              "Submitted"
+            ],
+            "mergeAll": true,
+            "_selectId": "apn2G2TV87uPtH",
+            "properties": [
+              {
+                "id": "a6aOTV90EU6JRh",
+                "field": "submittedDate",
+                "value": "{$now}",
+                "defaultValue": ""
+              },
+              {
+                "id": "973I0UL11heLmR",
+                "field": "emailHeader",
+                "value": [
+                  "",
+                  "-"
+                ],
+                "defaultValue": ""
+              },
+              {
+                "id": "-SE76IpRP8g1Df",
+                "field": "emailFooter",
+                "value": [
+                  "",
+                  "-"
+                ],
+                "defaultValue": ""
+              }
+            ],
+            "specificId": "",
+            "targetType": "",
+            "updateState": "New",
+            "updateClient": "",
+            "recordChanges": "",
+            "$behaviourType": "updater",
+            "targetTypeName": "Assessor Questionnaire",
+            "createMergeRecord": "",
+            "updateTargetDocumentState": true
           }
         ],
         "derivation": [
@@ -1251,7 +1296,8 @@
             "_selectId": "zAb0mgmTlrEoAH",
             "editDemands": [],
             "inputStates": [
-              "Submitted"
+              "Submitted",
+              "Resubmitted"
             ],
             "visibleDemands": []
           },
@@ -1565,6 +1611,8 @@
                 "icon": "",
                 "color": "#0a599a",
                 "modal": {
+                  "icon": "",
+                  "color": "",
                   "title": "Submit Form",
                   "cancel": "Cancel",
                   "enabled": true,
@@ -1579,7 +1627,7 @@
                 "goBack": "",
                 "caption": "Submit",
                 "command": "setData",
-                "toState": "Submitted",
+                "toState": "Resubmitted",
                 "variant": "text",
                 "allForms": true,
                 "useForms": [],
@@ -2434,6 +2482,7 @@
     "defaultState": "New",
     "sidebarColor": "#333",
     "tabsSelected": "#009fda",
+    "__hideRecords": false,
     "__warnReasons": [],
     "documentColor": "#333",
     "linkedProfile": "undefined",
@@ -2450,6 +2499,7 @@
     "defaultActivity": null,
     "devices-allowed": "",
     "sideBarMinWidth": 150,
+    "__hideBehaviours": true,
     "documentBackdrop": "#f4f4f4",
     "_updatersExpanded": false,
     "sidebarBackground": "#fff",
