@@ -1,5 +1,5 @@
 {
-  "__": "dGGReckxT1it-m",
+  "__": "aRWa-Tx6w_V6jU",
   "_id": "LC17HKj7mFfilk:hestia/document-types",
   "icon": "",
   "name": "icw",
@@ -195,9 +195,17 @@
       "name": "1",
       "time": 1625755171478,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-      "locked": false,
+      "locked": true,
       "_selectId": "zcuX_sj2MlIbzw",
       "parentVersion": ""
+    },
+    {
+      "id": "WyAd3Ai3vQ-kL_",
+      "name": "1.1",
+      "time": 1626093874666,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": false,
+      "parentVersion": "Cq7AGYj1lrSL72"
     }
   ],
   "webhooks": {
@@ -206,7 +214,7 @@
       "exposeWebhooks": true
     }
   },
-  "_modified": 1625751571000,
+  "_modified": 1626090274000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -420,12 +428,12 @@
   "sidebarColor": "#333",
   "tabsSelected": "#009fda",
   "documentColor": "#333",
-  "_activeVersion": "WyAd3Ai3vQ-kL_",
-  "_parentVersion": "Cq7AGYj1lrSL72",
+  "_activeVersion": "Fs9StVv-EAiR46",
+  "_parentVersion": "WyAd3Ai3vQ-kL_",
   "currentVersion": {
-    "live": "1",
-    "testing": "1",
-    "development": "1"
+    "live": "1.1",
+    "testing": "1.1",
+    "development": "1.1"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
@@ -433,6 +441,7 @@
   "defaultActivity": "ajGAR1Lo6Vsk36",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
+  "__hideBehaviours": true,
   "documentBackdrop": "#f4f4f4",
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
