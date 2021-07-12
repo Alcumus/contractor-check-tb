@@ -9256,5 +9256,47 @@
     "preferredLanguage": "",
     "workActivityFrench": [],
     "doYouUseContractors": "no"
+  },
+  {
+    "__": "nm8SS4sm6imfnU",
+    "_id": "IMqqdrif4PYqjO:companyP/companyP",
+    "email": "automation-contractor-1626095536237@mailhog.com",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1626095536360,
+        "documentCreated": 1626095536360
+      }
+    },
+    "_client": "IMqqdrif4PYqjO",
+    "$created": true,
+    "_created": 1626091936000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 15,
+    "_modified": 1626091936000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "companyName": "Automation Contractor 1626095536237",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New"
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New"
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New"
+      }
+    },
+    "doYouContract": "yes",
+    "doYouUseContractors": "no"
   }
 ]

@@ -1,6 +1,6 @@
 [
   {
-    "__": "hRFlxVS50mp2Oz",
+    "__": "1ek_szUCQuoirJ",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -199,7 +199,7 @@
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1626090740000,
+    "_modified": 1626085743000,
     "components": "navigation",
     "isLockedBy": null,
     "navigation": [],
@@ -1763,8 +1763,7 @@
             "name": "Create H&S questionnaire on New",
             "onEnter": "",
             "inStates": [
-              "Saved",
-              "New"
+              "Saved"
             ],
             "mergeAll": "",
             "_selectId": "lT6i9FqOTpK7uw",
@@ -1784,7 +1783,10 @@
               {
                 "id": "8Ou05hf40YVaWK",
                 "field": "assessmentType",
-                "value": "general",
+                "value": [
+                  "",
+                  "general"
+                ],
                 "defaultValue": ""
               }
             ],
