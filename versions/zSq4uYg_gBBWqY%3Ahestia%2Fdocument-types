@@ -1,6 +1,6 @@
 [
   {
-    "__": "8lYqvQVacNcUqY",
+    "__": "n5WJ9AkzFDFyLJ",
     "_id": "zSq4uYg_gBBWqY-RlnNXS8fP37e6b:hestia/versions",
     "__id": "zSq4uYg_gBBWqY:hestia/document-types",
     "icon": "",
@@ -212,7 +212,7 @@
                 "questions": [
                   {
                     "id": "jb56Ao0PPjLz_9",
-                    "name": "requestingParty",
+                    "name": "contractor",
                     "type": "lookup",
                     "hints": {},
                     "lines": 1,
@@ -249,7 +249,7 @@
                   },
                   {
                     "id": "CDl0kNGMbyA28f",
-                    "name": "targetParty",
+                    "name": "client",
                     "type": "lookup",
                     "hints": {},
                     "lines": 1,
@@ -286,7 +286,7 @@
                   },
                   {
                     "id": "hCD1CG9nhHbm33",
-                    "name": "relationshipConfirmed",
+                    "name": "contractorConfirms",
                     "type": "boolean",
                     "hints": {},
                     "choices": [
@@ -301,6 +301,35 @@
                     ],
                     "question": "",
                     "_selectId": "qQq7MFFZ_s8yM7",
+                    "condition": "",
+                    "allowNullify": "",
+                    "questionHeight": "",
+                    "trueInputLabel": "",
+                    "clearIfDisabled": "",
+                    "falseInputLabel": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "editableCondition": "",
+                    "questionSpaceBefore": "",
+                    "selectedDefaultValue": "-1"
+                  },
+                  {
+                    "id": "9wdX420qH05u7u",
+                    "name": "clientConfirms",
+                    "type": "boolean",
+                    "hints": {},
+                    "choices": [
+                      {
+                        "label": "Yes",
+                        "value": "yes"
+                      },
+                      {
+                        "label": "No",
+                        "value": "no"
+                      }
+                    ],
+                    "question": "",
+                    "_selectId": "lAX7fyAlRIo6z9",
                     "condition": "",
                     "allowNullify": "",
                     "questionHeight": "",
