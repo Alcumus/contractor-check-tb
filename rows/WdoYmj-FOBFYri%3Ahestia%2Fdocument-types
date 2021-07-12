@@ -1,6 +1,6 @@
 [
   {
-    "__": "PEg3B-N5JFFWip",
+    "__": "mQf4RZ4tOuGBnn",
     "ZIP": "999",
     "_id": "1621266694681:companyP/companyP",
     "City": "Racoon City",
@@ -149,17 +149,17 @@
     "$created": true,
     "$creator": "64467393-61e5-45fe-a026-45aed6419337",
     "$invalid": false,
-    "_created": 1622205082000,
+    "_created": 1621461167000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 88,
+    "complete": 92,
     "province": [
       "New Brunswick",
       "Northwest Territories",
       "Alberta",
       "British Columbia"
     ],
-    "_modified": 1625651810000,
+    "_modified": 1626102475000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Assessed"
@@ -172,16 +172,55 @@
     "__originalId": "1621266694681:companyP/companyP",
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Assessed"
+        "state": "Assessed",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Assessed"
+        "state": "Assessed",
+        "previousValues": [
+          ""
+        ]
+      },
+      "RIEAqtQYktJTNq": {
+        "state": "Assessed",
+        "previousValues": [
+          "Mx20OTel7MWV4d:contractorcheck/masterCompanyProfile",
+          "0pVu0Ed45F96oN:contractorcheck/masterCompanyProfile",
+          "lcdBsxkACkPCHQ:contractorcheck/masterCompanyProfile",
+          "aNnsZjYxexfOY0:contractorcheck/masterCompanyProfile",
+          "4ZOTyeDJ12zt7K:contractorcheck/masterCompanyProfile",
+          "8-DZ0dQ-ny8sF0:contractorcheck/masterCompanyProfile"
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "Assessed"
+        "state": "Assessed",
+        "previousValues": [
+          "Bimbo Canada (Canada Bread)",
+          "Bird Construction (Client)",
+          "Bouygues Energies & Services",
+          "Crown Property Management Inc.",
+          "First Gulf (Client)",
+          "Agellan Capital Partners Inc"
+        ]
+      },
+      "a1Nndl3PbdWVQ6": {
+        "state": "Assessed",
+        "previousValues": [
+          "Mx20OTel7MWV4d:contractorcheck/masterCompanyProfile",
+          "0pVu0Ed45F96oN:contractorcheck/masterCompanyProfile",
+          "lcdBsxkACkPCHQ:contractorcheck/masterCompanyProfile",
+          "aNnsZjYxexfOY0:contractorcheck/masterCompanyProfile",
+          "4ZOTyeDJ12zt7K:contractorcheck/masterCompanyProfile",
+          "8-DZ0dQ-ny8sF0:contractorcheck/masterCompanyProfile"
+        ]
       },
       "okFTMSwCgI9C4a": {
-        "state": "Assessed"
+        "state": "Assessed",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "1621266694681",
@@ -215,7 +254,7 @@
       "4AALZ6jd6nPmFT:workA/workA",
       "Y9eam4wtWr9ci3:workA/workA"
     ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1625579818264,
     "headOfficeCountry": "US",
     "numberOfEmployees": "0",
