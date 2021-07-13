@@ -1,6 +1,6 @@
 [
   {
-    "__": "MbScTCL8TQnMoZ",
+    "__": "67COGvLrujt_ln",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -195,11 +195,11 @@
       }
     },
     "$invalid": false,
-    "_created": 1621461152000,
+    "_created": 1622205077000,
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1626102498000,
+    "_modified": 1626092307000,
     "components": "navigation",
     "isLockedBy": null,
     "navigation": [],
@@ -1759,117 +1759,48 @@
             "updateTargetDocumentState": true
           },
           {
-            "id": "RIEAqtQYktJTNq",
-            "name": "Create Requests For Anchoring",
-            "query": {
-              "$and": [
-                {
-                  "doYouContract": {
-                    "$in": [
-                      "yes"
-                    ]
-                  }
-                }
-              ]
-            },
+            "id": "5W2iA7W1ma2gWO",
+            "name": "Create H&S questionnaire on New",
             "onEnter": "",
             "inStates": [
-              "New",
               "Saved",
-              "Assessed",
-              "Approved"
+              "New"
             ],
             "mergeAll": "",
-            "_selectId": "_1hLX9_NCivYDj",
+            "_selectId": "lT6i9FqOTpK7uw",
             "properties": [
               {
-                "id": "oPaYSG0U1bJ4UF",
-                "field": "contractor",
-                "value": "{resolveId(_id)}:contractorcheck/masterCompanyProfile",
-                "defaultValue": ""
-              },
-              {
-                "id": "sveHk6YScBetiZ",
-                "field": "client",
-                "value": "{$value}",
-                "defaultValue": ""
-              },
-              {
-                "id": "9QZTbZ3jb7Nn8M",
-                "field": "contractorConfirms",
-                "value": "yes",
-                "defaultValue": ""
-              }
-            ],
-            "specificId": true,
-            "targetType": "zSq4uYg_gBBWqY:hestia/document-types",
-            "forValuesOf": true,
-            "iterateOver": "clientsLookup",
-            "updateClient": "",
-            "recordChanges": "",
-            "targetTypeName": "Anchor Request",
-            "updateRecordId": "{resolveId(_id)}-{resolveId(\"$value\")}:{$target}",
-            "forMissingValues": "",
-            "createMergeRecord": false,
-            "uniqueMergeRecords": false,
-            "updateTargetDocumentState": ""
-          },
-          {
-            "id": "a1Nndl3PbdWVQ6",
-            "name": "Remove Requests For Anchoring",
-            "query": {
-              "$and": [
-                {
-                  "doYouContract": {
-                    "$in": [
-                      "yes"
-                    ]
-                  }
-                }
-              ]
-            },
-            "onEnter": "",
-            "inStates": [
-              "New",
-              "Saved",
-              "Assessed",
-              "Approved"
-            ],
-            "mergeAll": "",
-            "_selectId": "vmdy3L8YkmFS2g",
-            "properties": [
-              {
-                "id": "oPaYSG0U1bJ4UF",
-                "field": "contractor",
+                "id": "RZ6GM_2spJAAjA",
+                "field": "profile",
                 "value": "{_id}",
                 "defaultValue": ""
               },
               {
-                "id": "sveHk6YScBetiZ",
-                "field": "client",
-                "value": "{$value}",
+                "id": "8TqFDdaMLcG7WG",
+                "field": "linkedProfile",
+                "value": "{_id}",
                 "defaultValue": ""
               },
               {
-                "id": "9QZTbZ3jb7Nn8M",
-                "field": "contractorConfirms",
-                "value": "no",
+                "id": "8Ou05hf40YVaWK",
+                "field": "assessmentType",
+                "value": [
+                  "general"
+                ],
                 "defaultValue": ""
               }
             ],
             "specificId": true,
-            "targetType": "zSq4uYg_gBBWqY:hestia/document-types",
-            "forValuesOf": true,
-            "iterateOver": "clientsLookup",
-            "updateClient": "",
+            "targetType": "fYmpCXoXNbRtVg:hestia/document-types",
+            "forValuesOf": "",
+            "updateState": "New",
+            "updateClient": false,
             "recordChanges": "",
-            "$behaviourType": "updater",
-            "targetTypeName": "Anchor Request",
-            "updateRecordId": "{resolveId(_id)}-{resolveId(\"$value\")}:{$target}",
-            "forMissingValues": true,
+            "targetTypeName": "Contractor Questionnaire",
+            "updateRecordId": "{resolveId(_id)}-general:contractorcheck/contractorAnswers",
             "createMergeRecord": false,
             "uniqueMergeRecords": false,
-            "updateTargetDocumentState": ""
+            "updateTargetDocumentState": true
           }
         ],
         "formAction": [
@@ -2123,7 +2054,6 @@
     "defaultState": "New",
     "sidebarColor": "#333",
     "tabsSelected": "#009fda",
-    "__hideRecords": true,
     "__warnReasons": [],
     "documentColor": "#333",
     "_activeVersion": "GmG8PN_c_6Ta_E",
@@ -2135,12 +2065,10 @@
     },
     "tabsBackground": "#f4f4f4",
     "tabsForeground": "#555",
-    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
     "defaultActivity": "x_5KNezQjHRN0v",
     "devices-allowed": "",
     "sideBarMinWidth": 150,
-    "__hideBehaviours": false,
-    "__hidePublishing": false,
     "documentBackdrop": "#f4f4f4",
     "_updatersExpanded": true,
     "sidebarBackground": "#fff",
@@ -2320,7 +2248,7 @@
     },
     "$valid": true,
     "__warn": false,
-    "client": "rsihYJKKDVyaYN",
+    "client": "mAlQ6JUvniLqBk",
     "gitHub": {
       "1J8739KZBOtzVQ": {
         "publishDocs": "",
@@ -2332,7 +2260,7 @@
       }
     },
     "locked": false,
-    "_client": "rsihYJKKDVyaYN",
+    "_client": "mAlQ6JUvniLqBk",
     "demands": [],
     "graphQL": {
       "6g4mciY7jkfOUo": {
