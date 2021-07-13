@@ -1,6 +1,6 @@
 [
   {
-    "__": "gozf1WXfUV5xIp",
+    "__": "PEg3B-N5JFFWip",
     "ZIP": "999",
     "_id": "1621266694681:companyP/companyP",
     "City": "Racoon City",
@@ -8,6 +8,12 @@
     "_info": {
       "clientsLookup": {
         "rows": [
+          {
+            "_id": "Mx20OTel7MWV4d:contractorcheck/masterCompanyProfile",
+            "_settings": {
+              "_id": "UJns4BZ0dhGyw5:hestia/document-types"
+            }
+          },
           {
             "_id": "0pVu0Ed45F96oN:contractorcheck/masterCompanyProfile",
             "_settings": {
@@ -34,12 +40,6 @@
           },
           {
             "_id": "8-DZ0dQ-ny8sF0:contractorcheck/masterCompanyProfile",
-            "_settings": {
-              "_id": "UJns4BZ0dhGyw5:hestia/document-types"
-            }
-          },
-          {
-            "_id": "Mx20OTel7MWV4d:contractorcheck/masterCompanyProfile",
             "_settings": {
               "_id": "UJns4BZ0dhGyw5:hestia/document-types"
             }
@@ -107,12 +107,12 @@
     "_client": "1621266694681",
     "address": "The Hive",
     "clients": [
+      "Bimbo Canada (Canada Bread)",
       "Bird Construction (Client)",
       "Bouygues Energies & Services",
       "Crown Property Management Inc.",
       "First Gulf (Client)",
-      "Agellan Capital Partners Inc",
-      "Bimbo Canada (Canada Bread)"
+      "Agellan Capital Partners Inc"
     ],
     "country": [
       "Canada",
@@ -149,17 +149,17 @@
     "$created": true,
     "$creator": "64467393-61e5-45fe-a026-45aed6419337",
     "$invalid": false,
-    "_created": 1621461167000,
+    "_created": 1622205082000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 92,
+    "complete": 88,
     "province": [
       "New Brunswick",
       "Northwest Territories",
       "Alberta",
       "British Columbia"
     ],
-    "_modified": 1626102611000,
+    "_modified": 1625651810000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Assessed"
@@ -172,55 +172,16 @@
     "__originalId": "1621266694681:companyP/companyP",
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Assessed",
-        "previousValues": [
-          ""
-        ]
+        "state": "Assessed"
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Assessed",
-        "previousValues": [
-          ""
-        ]
-      },
-      "RIEAqtQYktJTNq": {
-        "state": "Assessed",
-        "previousValues": [
-          "0pVu0Ed45F96oN:contractorcheck/masterCompanyProfile",
-          "lcdBsxkACkPCHQ:contractorcheck/masterCompanyProfile",
-          "aNnsZjYxexfOY0:contractorcheck/masterCompanyProfile",
-          "4ZOTyeDJ12zt7K:contractorcheck/masterCompanyProfile",
-          "8-DZ0dQ-ny8sF0:contractorcheck/masterCompanyProfile",
-          "Mx20OTel7MWV4d:contractorcheck/masterCompanyProfile"
-        ]
+        "state": "Assessed"
       },
       "YF_aX-5R36pkDI": {
-        "state": "Assessed",
-        "previousValues": [
-          "Bird Construction (Client)",
-          "Bouygues Energies & Services",
-          "Crown Property Management Inc.",
-          "First Gulf (Client)",
-          "Agellan Capital Partners Inc",
-          "Bimbo Canada (Canada Bread)"
-        ]
-      },
-      "a1Nndl3PbdWVQ6": {
-        "state": "Assessed",
-        "previousValues": [
-          "0pVu0Ed45F96oN:contractorcheck/masterCompanyProfile",
-          "lcdBsxkACkPCHQ:contractorcheck/masterCompanyProfile",
-          "aNnsZjYxexfOY0:contractorcheck/masterCompanyProfile",
-          "4ZOTyeDJ12zt7K:contractorcheck/masterCompanyProfile",
-          "8-DZ0dQ-ny8sF0:contractorcheck/masterCompanyProfile",
-          "Mx20OTel7MWV4d:contractorcheck/masterCompanyProfile"
-        ]
+        "state": "Assessed"
       },
       "okFTMSwCgI9C4a": {
-        "state": "Assessed",
-        "previousValues": [
-          ""
-        ]
+        "state": "Assessed"
       }
     },
     "contractorId": "1621266694681",
@@ -236,16 +197,15 @@
       "Air Conditioning"
     ],
     "clientsLookup": [
+      "Mx20OTel7MWV4d:contractorcheck/masterCompanyProfile",
       "0pVu0Ed45F96oN:contractorcheck/masterCompanyProfile",
       "lcdBsxkACkPCHQ:contractorcheck/masterCompanyProfile",
       "aNnsZjYxexfOY0:contractorcheck/masterCompanyProfile",
       "4ZOTyeDJ12zt7K:contractorcheck/masterCompanyProfile",
-      "8-DZ0dQ-ny8sF0:contractorcheck/masterCompanyProfile",
-      "Mx20OTel7MWV4d:contractorcheck/masterCompanyProfile"
+      "8-DZ0dQ-ny8sF0:contractorcheck/masterCompanyProfile"
     ],
     "doYouContract": "yes",
     "classification": "Maintenance",
-    "complete_count": 17,
     "workActivities": [
       "hZ_qK7iOHgS-FA:workA/workA",
       "1zgco_vwvH6Uat:workA/workA",
@@ -255,10 +215,8 @@
       "4AALZ6jd6nPmFT:workA/workA",
       "Y9eam4wtWr9ci3:workA/workA"
     ],
-    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
     "_stateChangedAt": 1625579818264,
-    "complete_remain": 0,
-    "complete_complete": 17,
     "headOfficeCountry": "US",
     "numberOfEmployees": "0",
     "preferredLanguage": "en",
@@ -833,46 +791,6 @@
     "numberOfEmployees": 1225,
     "preferredLanguage": "",
     "doYouUseContractors": "no"
-  },
-  {
-    "__": "2lKwrci-ukHlER",
-    "_id": "8-DZ0dQ-ny8sF0:companyP/companyP",
-    "__chase": {
-      "Dee2r-Lb5_9MQZ": {
-        "pivotalDate": 1624280754564,
-        "documentCreated": 1624280754564
-      }
-    },
-    "_client": "8-DZ0dQ-ny8sF0",
-    "$created": true,
-    "_created": 1625231046000,
-    "_deleted": 0,
-    "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651810000,
-    "_settings": {
-      "$id": "WdoYmj-FOBFYri:hestia/document-types",
-      "$state": "New"
-    },
-    "companyName": "Agellan Capital Partners Inc",
-    "_updaterInfo": {
-      "-kkm4OhThVfEB2": {
-        "state": "New"
-      },
-      "Qi6ubuhBLjlkcx": {
-        "state": "New"
-      },
-      "YF_aX-5R36pkDI": {
-        "state": "New"
-      },
-      "okFTMSwCgI9C4a": {
-        "state": "New"
-      }
-    },
-    "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
-    "_stateChangedAt": 1622143948999,
-    "doYouUseContractors": "yes"
   },
   {
     "__": "k2ZbDgxo74KXiT",
@@ -3207,6 +3125,2307 @@
     "doYouContract": "no",
     "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
     "_stateChangedAt": 1622143961612,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "CheRP6bl5IdgY9",
+    "_id": "debug-Company Profile-dev-YZVMe31SHiBlmk:companyP/companyP",
+    "$valid": true,
+    "client": "rsihYJKKDVyaYN",
+    "_client": "rsihYJKKDVyaYN",
+    "country": [],
+    "$creator": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "$invalid": false,
+    "_created": 1624568747478,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "province": [],
+    "_modified": 1624568747478,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "companySize": [],
+    "doYouContract": [],
+    "classification": [],
+    "preferredLanguage": [],
+    "doYouUseContractors": []
+  },
+  {
+    "__": "pWS2HEHLPtfzZu",
+    "_id": "debug-Company Profile-dev-URMWn682j_l9lk:companyP/companyP",
+    "$valid": true,
+    "client": "rsihYJKKDVyaYN",
+    "_client": "rsihYJKKDVyaYN",
+    "country": [],
+    "$creator": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "$invalid": false,
+    "_created": 1621508929000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "province": [],
+    "_modified": 1621856307000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "_components": {},
+    "companySize": [],
+    "__originalId": "debug-Company Profile-dev-URMWn682j_l9lk:companyP/companyP",
+    "classification": [],
+    "_lastModifiedBy": "fbfdc18c-a5b7-4a6f-a334-5da40cfdecd3",
+    "preferredLanguage": []
+  },
+  {
+    "__": "SsKDsnaEfd9UIs",
+    "_id": "debug-Company Profile-dev-G1YsSMZUpMpIBD:companyP/companyP",
+    "$valid": true,
+    "client": "rsihYJKKDVyaYN",
+    "_client": "rsihYJKKDVyaYN",
+    "country": [],
+    "$creator": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "$invalid": false,
+    "_created": 1621508930000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "province": [],
+    "_modified": 1621856307000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "_components": {},
+    "companySize": [],
+    "__originalId": "debug-Company Profile-dev-G1YsSMZUpMpIBD:companyP/companyP",
+    "classification": [],
+    "_lastModifiedBy": "fbfdc18c-a5b7-4a6f-a334-5da40cfdecd3",
+    "preferredLanguage": []
+  },
+  {
+    "__": "9YWQMxFs5qPnEj",
+    "ZIP": "CF15 7TW",
+    "_id": "zOU9pa9ST32-nR:companyP/companyP",
+    "City": "Cardiff",
+    "_info": {
+      "clientsLookup": {
+        "rows": [
+          {
+            "_id": "EozCwS7ACVj2Jw:clientA/clientA",
+            "_settings": {
+              "_id": "ImG4GhYEohQwgO:hestia/document-types"
+            }
+          }
+        ]
+      },
+      "workActivities": {
+        "rows": [
+          {
+            "_id": "cpzHPv4z_GB-_C:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          }
+        ]
+      }
+    },
+    "email": "geraint.farley@alcumus.com",
+    "phone": "01234567891",
+    "$modes": {},
+    "$valid": true,
+    "SHARED": {},
+    "client": "rsihYJKKDVyaYN",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624568935700,
+        "documentCreated": 1624568935700
+      }
+    },
+    "_client": "zOU9pa9ST32-nR",
+    "address": "Axys House, Parc Nantgarw",
+    "country": "Canada",
+    "$created": true,
+    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
+    "$invalid": false,
+    "_created": 1624377587000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 52,
+    "province": [
+      "Alberta"
+    ],
+    "__created": 1621602703489,
+    "__version": "GmG8PN_c_6Ta_E",
+    "_modified": 1625574905000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Saved"
+    },
+    "_components": {},
+    "companyName": "Gez Test 1",
+    "companySize": "Small Business",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Saved"
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Saved"
+      }
+    },
+    "contractorId": "",
+    "profileState": "New",
+    "clientsLookup": [
+      "EozCwS7ACVj2Jw:clientA/clientA"
+    ],
+    "classification": "",
+    "workActivities": [
+      "cpzHPv4z_GB-_C:workA/workA"
+    ],
+    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_stateChangedAt": 1621602704054,
+    "numberOfEmployees": "24",
+    "preferredLanguage": "en"
+  },
+  {
+    "__": "94PcsCx05do3Vv",
+    "ZIP": "CF15 7TW",
+    "_id": "45kg61yCVgQqv9:companyP/companyP",
+    "City": "Cardiff",
+    "_info": {
+      "clientsLookup": {
+        "rows": [
+          {
+            "_id": "kA3HjK-C79sSsr:clientA/clientA",
+            "_settings": {
+              "_id": "ImG4GhYEohQwgO:hestia/document-types"
+            }
+          }
+        ]
+      },
+      "workActivities": {
+        "rows": [
+          {
+            "_id": "JgpbhOLqdNDhgP:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          }
+        ]
+      }
+    },
+    "email": "geraint.farley@alcumus.com",
+    "phone": "01234567891",
+    "$modes": {},
+    "$valid": true,
+    "SHARED": {},
+    "client": "rsihYJKKDVyaYN",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624568935806,
+        "documentCreated": 1624568935806
+      }
+    },
+    "_client": "45kg61yCVgQqv9",
+    "address": "Axys House, Parc Nantgarw",
+    "country": "US",
+    "$created": true,
+    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
+    "$invalid": false,
+    "_created": 1624377587000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 52,
+    "province": [],
+    "__created": 1621604623711,
+    "__version": "GmG8PN_c_6Ta_E",
+    "_modified": 1625574905000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Saved"
+    },
+    "_components": {},
+    "companyName": "Gez Test 3",
+    "companySize": "Small Business",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Saved"
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Saved"
+      }
+    },
+    "contractorId": "",
+    "profileState": "New",
+    "clientsLookup": [
+      "kA3HjK-C79sSsr:clientA/clientA"
+    ],
+    "classification": "",
+    "workActivities": [
+      "JgpbhOLqdNDhgP:workA/workA"
+    ],
+    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_stateChangedAt": 1621604624290,
+    "numberOfEmployees": "5",
+    "preferredLanguage": "en"
+  },
+  {
+    "__": "LLPfFyZWBAyyr_",
+    "ZIP": "CF15 7TW",
+    "_id": "VcejLPJ_KHXUcw:companyP/companyP",
+    "City": "Cardiff",
+    "_info": {
+      "clientsLookup": {
+        "rows": [
+          {
+            "_id": "sAPyI76I6oKOJ0:clientA/clientA",
+            "_settings": {
+              "_id": "ImG4GhYEohQwgO:hestia/document-types"
+            }
+          }
+        ]
+      },
+      "workActivities": {
+        "rows": [
+          {
+            "_id": "qmaPwMF5Kg3KTd:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          }
+        ]
+      }
+    },
+    "email": "geraint.farley@alcumus.com",
+    "phone": "01234567891",
+    "$modes": {},
+    "$valid": true,
+    "SHARED": {},
+    "client": "rsihYJKKDVyaYN",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624568935909,
+        "documentCreated": 1624568935909
+      }
+    },
+    "_client": "VcejLPJ_KHXUcw",
+    "address": "Axys House, Parc Nantgarw",
+    "country": "US",
+    "$created": true,
+    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
+    "$invalid": false,
+    "_created": 1624377587000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 52,
+    "province": [],
+    "__created": 1621607450682,
+    "__version": "GmG8PN_c_6Ta_E",
+    "_modified": 1625574905000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Saved"
+    },
+    "_components": {},
+    "companyName": "Gez Test 4",
+    "companySize": "Small Business",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Saved"
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Saved"
+      }
+    },
+    "contractorId": "",
+    "profileState": "New",
+    "clientsLookup": [
+      "sAPyI76I6oKOJ0:clientA/clientA"
+    ],
+    "classification": "",
+    "workActivities": [
+      "qmaPwMF5Kg3KTd:workA/workA"
+    ],
+    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_stateChangedAt": 1621607451302,
+    "numberOfEmployees": "11",
+    "preferredLanguage": "en"
+  },
+  {
+    "__": "A0muP2mqtUxeIl",
+    "ZIP": "CF15 7TW",
+    "_id": "tDaGHq5qLPJHe7:companyP/companyP",
+    "City": "Cardiff",
+    "_info": {
+      "clientsLookup": {
+        "rows": [
+          {
+            "_id": "WeBuL47xVFZ997:clientA/clientA",
+            "_settings": {
+              "_id": "ImG4GhYEohQwgO:hestia/document-types"
+            }
+          }
+        ]
+      },
+      "workActivities": {
+        "rows": [
+          {
+            "_id": "qmaPwMF5Kg3KTd:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          }
+        ]
+      }
+    },
+    "email": "geraint.farley@alcumus.com",
+    "phone": "01234567891",
+    "$modes": {},
+    "$valid": true,
+    "SHARED": {},
+    "client": "rsihYJKKDVyaYN",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624568936228,
+        "documentCreated": 1624568936228
+      }
+    },
+    "_client": "tDaGHq5qLPJHe7",
+    "address": "Axys House, Parc Nantgarw",
+    "country": "US",
+    "$created": true,
+    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
+    "$invalid": false,
+    "_created": 1624377587000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 52,
+    "province": [],
+    "__created": 1621607761604,
+    "__version": "GmG8PN_c_6Ta_E",
+    "_modified": 1625574905000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Saved"
+    },
+    "_components": {},
+    "companyName": "Gez Test 5",
+    "companySize": "Small Business",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Saved"
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Saved"
+      }
+    },
+    "contractorId": "",
+    "profileState": "New",
+    "clientsLookup": [
+      "WeBuL47xVFZ997:clientA/clientA"
+    ],
+    "classification": "",
+    "workActivities": [
+      "qmaPwMF5Kg3KTd:workA/workA"
+    ],
+    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_stateChangedAt": 1621607762322,
+    "numberOfEmployees": "23",
+    "preferredLanguage": "en"
+  },
+  {
+    "__": "s-KSakNT2DOPA0",
+    "ZIP": "CF15 7TW",
+    "_id": "uFmnvFSyAkB0yl:companyP/companyP",
+    "City": "Cardiff",
+    "_info": {
+      "clientsLookup": {
+        "rows": [
+          {
+            "_id": "srx15qPN0SFkPw:clientA/clientA",
+            "_settings": {
+              "_id": "ImG4GhYEohQwgO:hestia/document-types"
+            }
+          }
+        ]
+      },
+      "workActivities": {
+        "rows": [
+          {
+            "_id": "2TPCmBI54Ak_4m:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          }
+        ]
+      }
+    },
+    "email": "geraint.farley@alcumus.com",
+    "phone": "01234567891",
+    "$modes": {},
+    "$valid": true,
+    "SHARED": {},
+    "client": "rsihYJKKDVyaYN",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624568936387,
+        "documentCreated": 1624568936387
+      }
+    },
+    "_client": "uFmnvFSyAkB0yl",
+    "address": "Axys House, Parc Nantgarw",
+    "country": "US",
+    "$created": true,
+    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
+    "$invalid": false,
+    "_created": 1624377587000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 52,
+    "province": [],
+    "__created": 1621608437649,
+    "__version": "GmG8PN_c_6Ta_E",
+    "_modified": 1625574905000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Saved"
+    },
+    "_components": {},
+    "companyName": "Gez Test 6",
+    "companySize": "Small Business",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Saved"
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Saved"
+      }
+    },
+    "contractorId": "",
+    "profileState": "New",
+    "clientsLookup": [
+      "srx15qPN0SFkPw:clientA/clientA"
+    ],
+    "classification": "",
+    "workActivities": [
+      "2TPCmBI54Ak_4m:workA/workA"
+    ],
+    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_stateChangedAt": 1621608438471,
+    "numberOfEmployees": "23",
+    "preferredLanguage": "en"
+  },
+  {
+    "__": "lOjoij5MeIVlc3",
+    "ZIP": "CF15 7TW",
+    "_id": "4l8wiYhkN4aEjA:companyP/companyP",
+    "City": "Cardiff",
+    "_info": {
+      "clientsLookup": {
+        "rows": [
+          {
+            "_id": "jPkUJdhncIWw22:clientA/clientA",
+            "_settings": {
+              "_id": "ImG4GhYEohQwgO:hestia/document-types"
+            }
+          }
+        ]
+      },
+      "workActivities": {
+        "rows": [
+          {
+            "_id": "ic0ic66CJjkDC0:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          }
+        ]
+      }
+    },
+    "email": "geraint.farley@alcumus.com",
+    "phone": "01234567891",
+    "$modes": {},
+    "$valid": true,
+    "SHARED": {},
+    "client": "rsihYJKKDVyaYN",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624568936417,
+        "documentCreated": 1624568936417
+      }
+    },
+    "_client": "4l8wiYhkN4aEjA",
+    "address": "Axys House, Parc Nantgarw",
+    "country": "US",
+    "$created": true,
+    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
+    "$invalid": false,
+    "_created": 1624377587000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 52,
+    "province": [],
+    "__created": 1621608819584,
+    "__version": "GmG8PN_c_6Ta_E",
+    "_modified": 1625574905000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Saved"
+    },
+    "_components": {},
+    "companyName": "Gez Test 7",
+    "companySize": "Small Business",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Saved"
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Saved"
+      }
+    },
+    "contractorId": "",
+    "profileState": "New",
+    "clientsLookup": [
+      "jPkUJdhncIWw22:clientA/clientA"
+    ],
+    "classification": "",
+    "workActivities": [
+      "ic0ic66CJjkDC0:workA/workA"
+    ],
+    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_stateChangedAt": 1621608820585,
+    "numberOfEmployees": "11",
+    "preferredLanguage": "en"
+  },
+  {
+    "__": "deAiyKv_KqM7Aa",
+    "ZIP": "CF15 7TW",
+    "_id": "Vtn804O67rD0KL:companyP/companyP",
+    "City": "Cardiff",
+    "_info": {
+      "clientsLookup": {
+        "rows": [
+          {
+            "_id": "EozCwS7ACVj2Jw:clientA/clientA",
+            "_settings": {
+              "_id": "ImG4GhYEohQwgO:hestia/document-types"
+            }
+          }
+        ]
+      },
+      "workActivities": {
+        "rows": [
+          {
+            "_id": "Zb5UkuGQwdKIZA:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          }
+        ]
+      }
+    },
+    "email": "geraint.farley@alcumus.com",
+    "phone": "01234567891",
+    "$modes": {},
+    "$valid": true,
+    "SHARED": {},
+    "client": "rsihYJKKDVyaYN",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624568936647,
+        "documentCreated": 1624568936647
+      }
+    },
+    "_client": "Vtn804O67rD0KL",
+    "address": "Axys House, Parc Nantgarw",
+    "country": "US",
+    "$created": true,
+    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
+    "$invalid": false,
+    "_created": 1624377587000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 52,
+    "province": [],
+    "__created": 1621609343125,
+    "__version": "GmG8PN_c_6Ta_E",
+    "_modified": 1625574905000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Saved"
+    },
+    "_components": {},
+    "companyName": "Gez Test 8",
+    "companySize": "Small Business",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Saved"
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Saved"
+      }
+    },
+    "contractorId": "",
+    "profileState": "New",
+    "clientsLookup": [
+      "EozCwS7ACVj2Jw:clientA/clientA"
+    ],
+    "classification": "",
+    "workActivities": [
+      "Zb5UkuGQwdKIZA:workA/workA"
+    ],
+    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_stateChangedAt": 1621609344152,
+    "numberOfEmployees": "43",
+    "preferredLanguage": "en"
+  },
+  {
+    "__": "lIMZM2SJu2ps-V",
+    "ZIP": "CF15 7TW",
+    "_id": "1h9lpHFwl3Nmp2:companyP/companyP",
+    "City": "Cardiff",
+    "_info": {
+      "clientsLookup": {
+        "rows": [
+          {
+            "_id": "exfP3t2THcVObs:clientA/clientA",
+            "_settings": {
+              "_id": "ImG4GhYEohQwgO:hestia/document-types"
+            }
+          }
+        ]
+      },
+      "workActivities": {
+        "rows": [
+          {
+            "_id": "3GD6j7cH-8C_Xv:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          }
+        ]
+      }
+    },
+    "email": "geraint.farley@alcumus.com",
+    "phone": "01234567891",
+    "$modes": {},
+    "$valid": true,
+    "SHARED": {},
+    "client": "rsihYJKKDVyaYN",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624568936856,
+        "documentCreated": 1624568936856
+      }
+    },
+    "_client": "1h9lpHFwl3Nmp2",
+    "address": "Axys House, Parc Nantgarw",
+    "country": "US",
+    "$created": true,
+    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
+    "$invalid": false,
+    "_created": 1624377587000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 52,
+    "province": [],
+    "__created": 1621609666336,
+    "__version": "GmG8PN_c_6Ta_E",
+    "_modified": 1625574905000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Saved"
+    },
+    "_components": {},
+    "companyName": "Gez Test 9",
+    "companySize": "Small Business",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Saved"
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Saved"
+      }
+    },
+    "contractorId": "",
+    "profileState": "New",
+    "clientsLookup": [
+      "exfP3t2THcVObs:clientA/clientA"
+    ],
+    "classification": "",
+    "workActivities": [
+      "3GD6j7cH-8C_Xv:workA/workA"
+    ],
+    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_stateChangedAt": 1621609667512,
+    "numberOfEmployees": "11",
+    "preferredLanguage": "en"
+  },
+  {
+    "__": "ZufC5Y7coXbJXv",
+    "ZIP": "CF15 7TW",
+    "_id": "2H5XyNJAugI7gP:companyP/companyP",
+    "City": "Cardiff",
+    "_info": {
+      "clientsLookup": {
+        "rows": [
+          {
+            "_id": "BpkPtZfCTQgD3T:clientA/clientA",
+            "_settings": {
+              "_id": "ImG4GhYEohQwgO:hestia/document-types"
+            }
+          }
+        ]
+      },
+      "workActivities": {
+        "rows": [
+          {
+            "_id": "60O7iNL_R6NO0g:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          }
+        ]
+      }
+    },
+    "email": "geraint.farley@alcumus.com",
+    "phone": "01234567891",
+    "$modes": {},
+    "$valid": true,
+    "SHARED": {},
+    "client": "rsihYJKKDVyaYN",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624568937100,
+        "documentCreated": 1624568937100
+      }
+    },
+    "_client": "2H5XyNJAugI7gP",
+    "address": "Axys House, Parc Nantgarw",
+    "country": "US",
+    "$created": true,
+    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
+    "$invalid": false,
+    "_created": 1624377587000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 52,
+    "province": [],
+    "__created": 1621610453413,
+    "__version": "GmG8PN_c_6Ta_E",
+    "_modified": 1625574905000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Saved"
+    },
+    "_components": {},
+    "companyName": "Gez Test 10",
+    "companySize": "Small Business",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Saved"
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Saved"
+      }
+    },
+    "contractorId": "",
+    "profileState": "New",
+    "clientsLookup": [
+      "BpkPtZfCTQgD3T:clientA/clientA"
+    ],
+    "classification": "",
+    "workActivities": [
+      "60O7iNL_R6NO0g:workA/workA"
+    ],
+    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_stateChangedAt": 1621610454578,
+    "numberOfEmployees": "12",
+    "preferredLanguage": "en"
+  },
+  {
+    "__": "9DpWwr6gXK_e05",
+    "ZIP": "CF15 7TW",
+    "_id": "WsEPeCJaPyysFk:companyP/companyP",
+    "City": "Cardiff",
+    "_info": {
+      "clientsLookup": {
+        "rows": [
+          {
+            "_id": "8JPxjzzYCJ8rkd:clientA/clientA",
+            "_settings": {
+              "_id": "ImG4GhYEohQwgO:hestia/document-types"
+            }
+          }
+        ]
+      },
+      "workActivities": {
+        "rows": [
+          {
+            "_id": "BpgE8d5PhIAKT8:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          }
+        ]
+      }
+    },
+    "email": "geraint.farley@alcumus.com",
+    "phone": "01234567891",
+    "$modes": {},
+    "$valid": true,
+    "SHARED": {},
+    "client": "rsihYJKKDVyaYN",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624568937289,
+        "documentCreated": 1624568937289
+      }
+    },
+    "_client": "WsEPeCJaPyysFk",
+    "address": "Axys House, Parc Nantgarw",
+    "country": "US",
+    "$created": true,
+    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
+    "$invalid": false,
+    "_created": 1624377588000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 52,
+    "province": [],
+    "__created": 1621610910661,
+    "__version": "GmG8PN_c_6Ta_E",
+    "_modified": 1625574905000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Saved"
+    },
+    "_components": {},
+    "companyName": "Gez Test 11",
+    "companySize": "Small Business",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Saved"
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Saved"
+      }
+    },
+    "contractorId": "",
+    "profileState": "New",
+    "clientsLookup": [
+      "8JPxjzzYCJ8rkd:clientA/clientA"
+    ],
+    "classification": "",
+    "workActivities": [
+      "BpgE8d5PhIAKT8:workA/workA"
+    ],
+    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_stateChangedAt": 1621610911845,
+    "numberOfEmployees": "34",
+    "preferredLanguage": "en"
+  },
+  {
+    "__": "Gpw0wPn-YaMB91",
+    "ZIP": "CF15 7TW",
+    "_id": "fMpQCbq8w7DUBg:companyP/companyP",
+    "City": "Cardiff",
+    "_info": {
+      "clientsLookup": {
+        "rows": [
+          {
+            "_id": "krFzG_aXgD_EDT:clientA/clientA",
+            "_settings": {
+              "_id": "ImG4GhYEohQwgO:hestia/document-types"
+            }
+          }
+        ]
+      },
+      "workActivities": {
+        "rows": [
+          {
+            "_id": "Z15Br9Y92bUpIJ:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          }
+        ]
+      }
+    },
+    "email": "geraint.farley@alcumus.com",
+    "phone": "01234567891",
+    "$modes": {},
+    "$valid": true,
+    "SHARED": {},
+    "client": "rsihYJKKDVyaYN",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624568937542,
+        "documentCreated": 1624568937542
+      }
+    },
+    "_client": "fMpQCbq8w7DUBg",
+    "address": "Axys House, Parc Nantgarw",
+    "country": "US",
+    "$created": true,
+    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
+    "$invalid": false,
+    "_created": 1624377588000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 52,
+    "province": [],
+    "__created": 1621611303638,
+    "__version": "GmG8PN_c_6Ta_E",
+    "_modified": 1625574905000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Saved"
+    },
+    "_components": {},
+    "companyName": "Gez Test 12",
+    "companySize": "Small Business",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Saved"
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Saved"
+      }
+    },
+    "contractorId": "",
+    "profileState": "New",
+    "clientsLookup": [
+      "krFzG_aXgD_EDT:clientA/clientA"
+    ],
+    "classification": "",
+    "workActivities": [
+      "Z15Br9Y92bUpIJ:workA/workA"
+    ],
+    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_stateChangedAt": 1621611304861,
+    "numberOfEmployees": "55",
+    "preferredLanguage": "en"
+  },
+  {
+    "__": "Cd6ATVWTYJCXnJ",
+    "ZIP": "CF15 7TW",
+    "_id": "ZEQvBev8_-cZ2o:companyP/companyP",
+    "City": "Cardiff",
+    "_info": {
+      "clientsLookup": {
+        "rows": [
+          {
+            "_id": "CXvv4nM-_1AFXD:clientA/clientA",
+            "_settings": {
+              "_id": "ImG4GhYEohQwgO:hestia/document-types"
+            }
+          }
+        ]
+      },
+      "workActivities": {
+        "rows": [
+          {
+            "_id": "xxVMHkOquDqZK8:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          }
+        ]
+      }
+    },
+    "email": "geraint.farley@alcumus.com",
+    "phone": "01234567891",
+    "$modes": {},
+    "$valid": true,
+    "SHARED": {},
+    "client": "rsihYJKKDVyaYN",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624568937650,
+        "documentCreated": 1624568937650
+      }
+    },
+    "_client": "ZEQvBev8_-cZ2o",
+    "address": "Axys House, Parc Nantgarw",
+    "country": "US",
+    "$created": true,
+    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
+    "$invalid": false,
+    "_created": 1624377588000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 52,
+    "province": [],
+    "__created": 1621611733918,
+    "__version": "GmG8PN_c_6Ta_E",
+    "_modified": 1625574905000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Saved"
+    },
+    "_components": {},
+    "companyName": "Gez Test 13",
+    "companySize": "Small Business",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Saved"
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Saved"
+      }
+    },
+    "contractorId": "",
+    "profileState": "New",
+    "clientsLookup": [
+      "CXvv4nM-_1AFXD:clientA/clientA"
+    ],
+    "classification": "",
+    "workActivities": [
+      "xxVMHkOquDqZK8:workA/workA"
+    ],
+    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_stateChangedAt": 1621611735450,
+    "numberOfEmployees": "22",
+    "preferredLanguage": "en"
+  },
+  {
+    "__": "z9Vw6NJ1sCz1o0",
+    "ZIP": "CF15 7TW",
+    "_id": "yUzY_OZCRe3Ll6:companyP/companyP",
+    "City": "Cardiff",
+    "_info": {
+      "clientsLookup": {
+        "rows": [
+          {
+            "_id": "i9u8yTmcWqX7F7:clientA/clientA",
+            "_settings": {
+              "_id": "ImG4GhYEohQwgO:hestia/document-types"
+            }
+          }
+        ]
+      },
+      "workActivities": {
+        "rows": [
+          {
+            "_id": "FnfnIcKgfYV2SP:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          }
+        ]
+      }
+    },
+    "email": "geraint.farley@alcumus.com",
+    "phone": "01234567891",
+    "$modes": {},
+    "$valid": true,
+    "SHARED": {},
+    "client": "rsihYJKKDVyaYN",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624568938077,
+        "documentCreated": 1624568938077
+      }
+    },
+    "_client": "yUzY_OZCRe3Ll6",
+    "address": "Axys House, Parc Nantgarw",
+    "country": "US",
+    "$created": true,
+    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
+    "$invalid": false,
+    "_created": 1624377588000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 52,
+    "province": [],
+    "__created": 1621612862231,
+    "__version": "GmG8PN_c_6Ta_E",
+    "_modified": 1625574905000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Saved"
+    },
+    "_components": {},
+    "companyName": "Gez Test 14",
+    "companySize": "Small Business",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Saved"
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Saved"
+      }
+    },
+    "contractorId": "",
+    "profileState": "New",
+    "clientsLookup": [
+      "i9u8yTmcWqX7F7:clientA/clientA"
+    ],
+    "classification": "",
+    "workActivities": [
+      "FnfnIcKgfYV2SP:workA/workA"
+    ],
+    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_stateChangedAt": 1621612863588,
+    "numberOfEmployees": "2",
+    "preferredLanguage": "en"
+  },
+  {
+    "__": "m-0sjLaYeiOdH8",
+    "ZIP": "CF15 7TW",
+    "_id": "grV5IAnQhgdNm7:companyP/companyP",
+    "City": "Parc Nantgarw",
+    "_info": {
+      "workActivities": {
+        "rows": [
+          {
+            "_id": "tXjZb3-pXJFRPQ:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          }
+        ]
+      }
+    },
+    "email": "geraint.farley@alcumus.com",
+    "phone": "01234567891",
+    "$modes": {},
+    "$valid": true,
+    "SHARED": {},
+    "client": "rsihYJKKDVyaYN",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624568938325,
+        "documentCreated": 1624568938325
+      }
+    },
+    "_client": "grV5IAnQhgdNm7",
+    "address": "Axys House",
+    "country": "US",
+    "$created": true,
+    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
+    "$invalid": false,
+    "_created": 1624377588000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 52,
+    "province": [],
+    "__created": 1621613296280,
+    "__version": "GmG8PN_c_6Ta_E",
+    "_modified": 1625574905000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Saved"
+    },
+    "_components": {},
+    "companyName": "Gez Test 15",
+    "companySize": "Small Business",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Saved"
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Saved"
+      }
+    },
+    "contractorId": "",
+    "profileState": "New",
+    "clientsLookup": [],
+    "classification": "",
+    "workActivities": [
+      "tXjZb3-pXJFRPQ:workA/workA"
+    ],
+    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_stateChangedAt": 1621613297802,
+    "numberOfEmployees": "32",
+    "preferredLanguage": "en"
+  },
+  {
+    "__": "glscV4W4zuQtBN",
+    "ZIP": "CF15 7TW",
+    "_id": "BcXfB9wR_6qteD:companyP/companyP",
+    "City": "Cardiff",
+    "_info": {
+      "clientsLookup": {
+        "rows": [
+          {
+            "_id": "kA3HjK-C79sSsr:clientA/clientA",
+            "_settings": {
+              "_id": "ImG4GhYEohQwgO:hestia/document-types"
+            }
+          },
+          {
+            "_id": "1U7C5aUY8IeEcn:clientA/clientA",
+            "_settings": {
+              "_id": "ImG4GhYEohQwgO:hestia/document-types"
+            }
+          }
+        ]
+      },
+      "workActivities": {
+        "rows": [
+          {
+            "_id": "ic0ic66CJjkDC0:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          }
+        ]
+      }
+    },
+    "email": "geraint.farley@alcumus.com",
+    "phone": "0976543211",
+    "$modes": {},
+    "$valid": true,
+    "SHARED": {},
+    "client": "rsihYJKKDVyaYN",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624568938639,
+        "documentCreated": 1624568938639
+      }
+    },
+    "_client": "BcXfB9wR_6qteD",
+    "address": "Axys House, Parc Nantgarw",
+    "country": "US",
+    "$created": true,
+    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
+    "$invalid": false,
+    "_created": 1624377588000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 52,
+    "province": [],
+    "__created": 1621613670545,
+    "__version": "GmG8PN_c_6Ta_E",
+    "_modified": 1625574905000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Saved"
+    },
+    "_components": {},
+    "companyName": "Gez Test 16",
+    "companySize": "Sole Proprietor",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Saved"
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Saved"
+      }
+    },
+    "contractorId": "",
+    "profileState": "Saved",
+    "clientsLookup": [
+      "kA3HjK-C79sSsr:clientA/clientA",
+      "1U7C5aUY8IeEcn:clientA/clientA"
+    ],
+    "classification": "",
+    "workActivities": [
+      "ic0ic66CJjkDC0:workA/workA"
+    ],
+    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_stateChangedAt": 1621613672114,
+    "numberOfEmployees": "1",
+    "preferredLanguage": "en"
+  },
+  {
+    "__": "zo0MQMFESmwC_H",
+    "ZIP": "CF15 7TW",
+    "_id": "TTJ8uT30sBaw6S:companyP/companyP",
+    "City": "Cardiff",
+    "_info": {
+      "clientsLookup": {
+        "rows": [
+          {
+            "_id": "EozCwS7ACVj2Jw:clientA/clientA",
+            "_settings": {
+              "_id": "ImG4GhYEohQwgO:hestia/document-types"
+            }
+          }
+        ]
+      },
+      "workActivities": {
+        "rows": [
+          {
+            "_id": "qmaPwMF5Kg3KTd:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          }
+        ]
+      }
+    },
+    "email": "geraint.farley@alcumus.com",
+    "phone": "01234567891",
+    "$modes": {},
+    "$valid": true,
+    "SHARED": {},
+    "client": "rsihYJKKDVyaYN",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624568938804,
+        "documentCreated": 1624568938804
+      }
+    },
+    "_client": "TTJ8uT30sBaw6S",
+    "address": "Axys House, Parc Nantgarw",
+    "country": "US",
+    "$created": true,
+    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
+    "$invalid": false,
+    "_created": 1624377588000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 52,
+    "province": [],
+    "__created": 1621614343664,
+    "__version": "GmG8PN_c_6Ta_E",
+    "_modified": 1625574905000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Saved"
+    },
+    "_components": {},
+    "companyName": "Gez Test 17",
+    "companySize": "Small Business",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Saved"
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Saved"
+      }
+    },
+    "contractorId": "",
+    "profileState": "New",
+    "clientsLookup": [
+      "EozCwS7ACVj2Jw:clientA/clientA"
+    ],
+    "classification": "",
+    "workActivities": [
+      "qmaPwMF5Kg3KTd:workA/workA"
+    ],
+    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_stateChangedAt": 1621614345230,
+    "numberOfEmployees": "22",
+    "preferredLanguage": "en"
+  },
+  {
+    "__": "rS54OQkQlyfndM",
+    "ZIP": "CF15 7TW",
+    "_id": "8NfQL63c7_EszH:companyP/companyP",
+    "City": "Cardiff",
+    "_info": {
+      "clientsLookup": {
+        "rows": [
+          {
+            "_id": "kA3HjK-C79sSsr:clientA/clientA",
+            "_settings": {
+              "_id": "ImG4GhYEohQwgO:hestia/document-types"
+            }
+          }
+        ]
+      },
+      "workActivities": {
+        "rows": [
+          {
+            "_id": "qmaPwMF5Kg3KTd:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          }
+        ]
+      }
+    },
+    "email": "geraint.farley@alcumusgroup.com",
+    "phone": "01234567891",
+    "$modes": {},
+    "$valid": true,
+    "SHARED": {},
+    "client": "rsihYJKKDVyaYN",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624568938985,
+        "documentCreated": 1624568938985
+      }
+    },
+    "_client": "8NfQL63c7_EszH",
+    "address": "Axys House, Parc Nantgarw",
+    "country": "US",
+    "$created": true,
+    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
+    "$invalid": false,
+    "_created": 1624377588000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 52,
+    "province": [],
+    "__created": 1621767286051,
+    "__version": "GmG8PN_c_6Ta_E",
+    "_modified": 1625574905000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Saved"
+    },
+    "_components": {},
+    "companyName": "Gez Test 18",
+    "companySize": "Small Business",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Saved"
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Saved"
+      }
+    },
+    "contractorId": "",
+    "profileState": "New",
+    "clientsLookup": [
+      "kA3HjK-C79sSsr:clientA/clientA"
+    ],
+    "classification": "",
+    "workActivities": [
+      "qmaPwMF5Kg3KTd:workA/workA"
+    ],
+    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_stateChangedAt": 1621767292217,
+    "numberOfEmployees": "12",
+    "preferredLanguage": "en"
+  },
+  {
+    "__": "Ef3JNAHGUt1Jmf",
+    "ZIP": "CF15 7TW",
+    "_id": "C0kFEffsAocNpj:companyP/companyP",
+    "City": "Cardiff",
+    "_info": {
+      "workActivities": {
+        "rows": [
+          {
+            "_id": "JgpbhOLqdNDhgP:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          }
+        ]
+      }
+    },
+    "email": "geraint.farley@alcumus.com",
+    "phone": "01234567891",
+    "$modes": {},
+    "$valid": true,
+    "SHARED": {},
+    "client": "rsihYJKKDVyaYN",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624568939240,
+        "documentCreated": 1624568939240
+      }
+    },
+    "_client": "C0kFEffsAocNpj",
+    "address": "Axys House, Parc Nantgarw",
+    "country": "US",
+    "$created": true,
+    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
+    "$invalid": false,
+    "_created": 1624377588000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 52,
+    "province": [],
+    "__created": 1621767467493,
+    "__version": "GmG8PN_c_6Ta_E",
+    "_modified": 1625574905000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Saved"
+    },
+    "_components": {},
+    "companyName": "Gez Test 19",
+    "companySize": "Small Business",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Saved"
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Saved"
+      }
+    },
+    "contractorId": "",
+    "profileState": "New",
+    "clientsLookup": [],
+    "classification": "",
+    "workActivities": [
+      "JgpbhOLqdNDhgP:workA/workA"
+    ],
+    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_stateChangedAt": 1621767473621,
+    "numberOfEmployees": "2",
+    "preferredLanguage": "en"
+  },
+  {
+    "__": "F7LAyvrqmfHJ3d",
+    "ZIP": "CF15 7TW",
+    "_id": "CQ_ZDIi5_PTSVv:companyP/companyP",
+    "City": "Cardiff",
+    "_info": {
+      "clientsLookup": {
+        "rows": [
+          {
+            "_id": "1U7C5aUY8IeEcn:clientA/clientA",
+            "_settings": {
+              "_id": "ImG4GhYEohQwgO:hestia/document-types"
+            }
+          }
+        ]
+      },
+      "workActivities": {
+        "rows": [
+          {
+            "_id": "p3aGtGgud-4ZbI:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          }
+        ]
+      }
+    },
+    "email": "geraint.farley@alcumus.com",
+    "phone": "0123456791",
+    "$modes": {},
+    "$valid": true,
+    "SHARED": {},
+    "client": "rsihYJKKDVyaYN",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624568939546,
+        "documentCreated": 1624568939546
+      }
+    },
+    "_client": "CQ_ZDIi5_PTSVv",
+    "address": "Axys House, Parc Nantgarw",
+    "country": "US",
+    "$created": true,
+    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
+    "$invalid": false,
+    "_created": 1624377588000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 52,
+    "province": [],
+    "__created": 1621768144954,
+    "__version": "GmG8PN_c_6Ta_E",
+    "_modified": 1625574905000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Saved"
+    },
+    "_components": {},
+    "companyName": "Gez Test 20",
+    "companySize": "Small Business",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Saved"
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Saved"
+      }
+    },
+    "contractorId": "",
+    "profileState": "Saved",
+    "clientsLookup": [
+      "1U7C5aUY8IeEcn:clientA/clientA"
+    ],
+    "classification": "",
+    "workActivities": [
+      "p3aGtGgud-4ZbI:workA/workA"
+    ],
+    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_stateChangedAt": 1621768151037,
+    "numberOfEmployees": "12",
+    "preferredLanguage": "en"
+  },
+  {
+    "__": "jXsfD0U3CmQZ_K",
+    "ZIP": "CF15 7TW",
+    "_id": "vLGcYikHXBSqq4:companyP/companyP",
+    "City": "Parc Nantgarw",
+    "_info": {
+      "clientsLookup": {
+        "rows": [
+          {
+            "_id": "HDTuiRXl7x4xZa:clientA/clientA",
+            "_settings": {
+              "_id": "ImG4GhYEohQwgO:hestia/document-types"
+            }
+          }
+        ]
+      },
+      "workActivities": {
+        "rows": [
+          {
+            "_id": "cpzHPv4z_GB-_C:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          }
+        ]
+      }
+    },
+    "email": "geraint.farley@alcumus.com",
+    "phone": "01234567891",
+    "$modes": {},
+    "$valid": true,
+    "SHARED": {},
+    "client": "rsihYJKKDVyaYN",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624568939612,
+        "documentCreated": 1624568939612
+      }
+    },
+    "_client": "vLGcYikHXBSqq4",
+    "address": "Axys House",
+    "country": "US",
+    "$created": true,
+    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
+    "$invalid": false,
+    "_created": 1624377588000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 52,
+    "province": [],
+    "__created": 1621769333591,
+    "__version": "GmG8PN_c_6Ta_E",
+    "_modified": 1625574905000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Saved"
+    },
+    "_components": {},
+    "companyName": "Gez Test 21",
+    "companySize": "Small Business",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Saved"
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Saved"
+      }
+    },
+    "contractorId": "",
+    "profileState": "Saved",
+    "clientsLookup": [
+      "HDTuiRXl7x4xZa:clientA/clientA"
+    ],
+    "classification": "",
+    "workActivities": [
+      "cpzHPv4z_GB-_C:workA/workA"
+    ],
+    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_stateChangedAt": 1621769339708,
+    "numberOfEmployees": "23",
+    "preferredLanguage": "en"
+  },
+  {
+    "__": "EI0xanl9JK1psM",
+    "ZIP": "CF15 7TW",
+    "_id": "0_2UJzWBlntTZa:companyP/companyP",
+    "City": "Cardiff",
+    "_info": {
+      "workActivities": {
+        "rows": [
+          {
+            "_id": "60D3-FcUNm3LiQ:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          }
+        ]
+      }
+    },
+    "email": "geraint.farley@alcumus.com",
+    "phone": "01234567891",
+    "$modes": {},
+    "$valid": true,
+    "SHARED": {},
+    "client": "rsihYJKKDVyaYN",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624568939792,
+        "documentCreated": 1624568939792
+      }
+    },
+    "_client": "0_2UJzWBlntTZa",
+    "address": "Axys House, Parc Nantgarw",
+    "country": "US",
+    "$created": true,
+    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
+    "$invalid": false,
+    "_created": 1624377588000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 52,
+    "province": [],
+    "__created": 1621845975308,
+    "__version": "GmG8PN_c_6Ta_E",
+    "_modified": 1625574905000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Saved"
+    },
+    "_components": {},
+    "companyName": "Gez Test 22",
+    "companySize": "Small Business",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Saved"
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Saved"
+      }
+    },
+    "contractorId": "",
+    "profileState": "New",
+    "clientsLookup": [],
+    "classification": "",
+    "workActivities": [
+      "60D3-FcUNm3LiQ:workA/workA"
+    ],
+    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_stateChangedAt": 1621845982623,
+    "numberOfEmployees": "23",
+    "preferredLanguage": "en"
+  },
+  {
+    "__": "WKYnNMMJ7qLqwY",
+    "ZIP": "CF15 7TW",
+    "_id": "5__XV2jc71F6H3:companyP/companyP",
+    "City": "Cardiff",
+    "_info": {
+      "workActivities": {
+        "rows": [
+          {
+            "_id": "1zgco_vwvH6Uat:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          }
+        ]
+      }
+    },
+    "email": "geraint.farley@alcumus.com",
+    "phone": "01234567891",
+    "$modes": {},
+    "$valid": true,
+    "SHARED": {},
+    "client": "rsihYJKKDVyaYN",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624568940221,
+        "documentCreated": 1624568940221
+      }
+    },
+    "_client": "5__XV2jc71F6H3",
+    "address": "Axys House, Parc Nantgarw",
+    "country": "US",
+    "$created": true,
+    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
+    "$invalid": false,
+    "_created": 1624377588000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 52,
+    "province": [],
+    "__created": 1621846379509,
+    "__version": "GmG8PN_c_6Ta_E",
+    "_modified": 1625574905000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Saved"
+    },
+    "_components": {},
+    "companyName": "Gez Test 23",
+    "companySize": "Small Business",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Saved"
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Saved"
+      }
+    },
+    "contractorId": "",
+    "profileState": "New",
+    "clientsLookup": [],
+    "classification": "",
+    "workActivities": [
+      "1zgco_vwvH6Uat:workA/workA"
+    ],
+    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_stateChangedAt": 1621846386968,
+    "numberOfEmployees": "11",
+    "preferredLanguage": "en"
+  },
+  {
+    "__": "6pEpEp7rV0Hnyt",
+    "ZIP": "CF15 7TW",
+    "_id": "gXICsHcVh5bVV-:companyP/companyP",
+    "City": "Cardiff",
+    "_info": {
+      "workActivities": {
+        "rows": [
+          {
+            "_id": "oK0e9hmJBqKl-J:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          }
+        ]
+      }
+    },
+    "email": "geraint.farley@alcumus.com",
+    "phone": "01234567891",
+    "$modes": {},
+    "$valid": true,
+    "SHARED": {},
+    "client": "rsihYJKKDVyaYN",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624568940446,
+        "documentCreated": 1624568940446
+      }
+    },
+    "_client": "gXICsHcVh5bVV-",
+    "address": "Axys House, Parc Nantgarw",
+    "country": "US",
+    "$created": true,
+    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
+    "$invalid": false,
+    "_created": 1624377589000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 52,
+    "province": [],
+    "__created": 1621846582479,
+    "__version": "GmG8PN_c_6Ta_E",
+    "_modified": 1625574905000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Saved"
+    },
+    "_components": {},
+    "companyName": "Gez Test 24",
+    "companySize": "Small Business",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Saved"
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Saved"
+      }
+    },
+    "contractorId": "",
+    "profileState": "New",
+    "clientsLookup": [],
+    "classification": "",
+    "workActivities": [
+      "oK0e9hmJBqKl-J:workA/workA"
+    ],
+    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_stateChangedAt": 1621846589949,
+    "numberOfEmployees": "22",
+    "preferredLanguage": "en"
+  },
+  {
+    "__": "MvNqEhaQoATSob",
+    "ZIP": "CF15 7TW",
+    "_id": "_BHxF1SGiJYhfZ:companyP/companyP",
+    "City": "Cardiff",
+    "_info": {
+      "clientsLookup": {
+        "rows": [
+          {
+            "_id": "8-DZ0dQ-ny8sF0:companyP/companyP",
+            "_settings": {
+              "_id": "WdoYmj-FOBFYri:hestia/document-types"
+            }
+          }
+        ]
+      },
+      "workActivities": {
+        "rows": [
+          {
+            "_id": "qmaPwMF5Kg3KTd:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          }
+        ]
+      }
+    },
+    "email": "geraint.farley@alcumus.com",
+    "phone": "01234567891",
+    "$modes": {},
+    "$valid": true,
+    "SHARED": {},
+    "client": "rsihYJKKDVyaYN",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624568940750,
+        "documentCreated": 1624568940750
+      }
+    },
+    "_client": "_BHxF1SGiJYhfZ",
+    "address": "Axys House, Parc Nantgarw",
+    "clients": [
+      "Agellan Capital Partners Inc"
+    ],
+    "country": [
+      "Canada"
+    ],
+    "$created": true,
+    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
+    "$invalid": false,
+    "_created": 1624377589000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 66,
+    "province": [
+      "Alberta"
+    ],
+    "__created": 1623422043859,
+    "__version": "GmG8PN_c_6Ta_E",
+    "_modified": 1625575185000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Saved"
+    },
+    "_components": {},
+    "companyName": "Gez Test 100",
+    "companySize": "Small Business",
+    "description": "",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Saved"
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Saved"
+      }
+    },
+    "contractorId": "",
+    "profileState": "",
+    "workActivity": [
+      "Ability to Subcontract"
+    ],
+    "clientsLookup": [
+      "8-DZ0dQ-ny8sF0:companyP/companyP"
+    ],
+    "doYouContract": "yes",
+    "classification": "",
+    "workActivities": [
+      "qmaPwMF5Kg3KTd:workA/workA"
+    ],
+    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_stateChangedAt": 1623422045035,
+    "headOfficeCountry": "",
+    "numberOfEmployees": "11",
+    "preferredLanguage": "en",
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "K-ApJ3cWe0wjKb",
+    "ZIP": "CF15 7TW",
+    "_id": "KacEkfEN5SmNlV:companyP/companyP",
+    "City": "Cardiff",
+    "_info": {
+      "clientsLookup": {
+        "rows": [
+          {
+            "_id": "trzCa9I4sMgRmV:contractorcheck/masterCompanyProfile",
+            "_settings": {
+              "_id": "UJns4BZ0dhGyw5:hestia/document-types"
+            }
+          },
+          {
+            "_id": "Mx20OTel7MWV4d:contractorcheck/masterCompanyProfile",
+            "_settings": {
+              "_id": "UJns4BZ0dhGyw5:hestia/document-types"
+            }
+          }
+        ]
+      },
+      "workActivities": {
+        "rows": [
+          {
+            "_id": "BpgE8d5PhIAKT8:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          }
+        ]
+      }
+    },
+    "email": "geraint.farley@alcumus.com",
+    "phone": "01234567891",
+    "$modes": {},
+    "$valid": true,
+    "SHARED": {},
+    "client": "rsihYJKKDVyaYN",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624371617706,
+        "documentCreated": 1624371617706
+      }
+    },
+    "_client": "KacEkfEN5SmNlV",
+    "address": "Axys House, Parc Nantgarw",
+    "clients": [
+      "Calgary Co-Operative Association Limited",
+      "Bimbo Canada (Canada Bread)"
+    ],
+    "country": [
+      "Canada"
+    ],
+    "$created": true,
+    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
+    "$invalid": false,
+    "_created": 1624377589000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 66,
+    "province": [
+      "British Columbia",
+      "New Brunswick",
+      "Northwest Territories"
+    ],
+    "__created": 1623759563085,
+    "__version": "GmG8PN_c_6Ta_E",
+    "_modified": 1625575185000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Saved"
+    },
+    "_components": {},
+    "companyName": "Mario Bros Plumbing",
+    "companySize": "Small Business",
+    "description": "",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Saved"
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Saved"
+      }
+    },
+    "contractorId": "",
+    "profileState": "",
+    "workActivity": [
+      "Plumbing"
+    ],
+    "clientsLookup": [
+      "trzCa9I4sMgRmV:contractorcheck/masterCompanyProfile",
+      "Mx20OTel7MWV4d:contractorcheck/masterCompanyProfile"
+    ],
+    "doYouContract": "yes",
+    "classification": "",
+    "workActivities": [
+      "BpgE8d5PhIAKT8:workA/workA"
+    ],
+    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_stateChangedAt": 1623759565644,
+    "headOfficeCountry": "",
+    "numberOfEmployees": "22",
+    "preferredLanguage": "en",
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "2lKwrci-ukHlER",
+    "_id": "8-DZ0dQ-ny8sF0:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280754564,
+        "documentCreated": 1624280754564
+      }
+    },
+    "_client": "8-DZ0dQ-ny8sF0",
+    "$created": true,
+    "_created": 1625231046000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 19,
+    "_modified": 1625651810000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "companyName": "Agellan Capital Partners Inc",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New"
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New"
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_stateChangedAt": 1622143948999,
     "doYouUseContractors": "yes"
   },
   {
@@ -6330,2400 +8549,8 @@
     "_stateChangedAt": 1625004506376,
     "headOfficeCountry": "",
     "numberOfEmployees": "",
-    "preferredLanguage": "",
+    "preferredLanguage": "fr",
     "doYouUseContractors": []
-  },
-  {
-    "__": "XpNEa8HBsjvQ1E",
-    "ZIP": "",
-    "_id": "C8-wSJhocl5C8D:companyP/companyP",
-    "City": "",
-    "_info": {
-      "clientsLookup": {
-        "rows": [
-          {
-            "_id": "8-DZ0dQ-ny8sF0:contractorcheck/masterCompanyProfile",
-            "_settings": {
-              "_id": "UJns4BZ0dhGyw5:hestia/document-types"
-            }
-          },
-          {
-            "_id": "Mx20OTel7MWV4d:contractorcheck/masterCompanyProfile",
-            "_settings": {
-              "_id": "UJns4BZ0dhGyw5:hestia/document-types"
-            }
-          }
-        ]
-      },
-      "workActivities": {
-        "rows": [
-          {
-            "_id": "qmaPwMF5Kg3KTd:workA/workA",
-            "_settings": {
-              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
-            }
-          },
-          {
-            "_id": "JgpbhOLqdNDhgP:workA/workA",
-            "_settings": {
-              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
-            }
-          },
-          {
-            "_id": "Y9eam4wtWr9ci3:workA/workA",
-            "_settings": {
-              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
-            }
-          }
-        ]
-      }
-    },
-    "email": "test@testcompany.com",
-    "phone": "",
-    "$modes": {},
-    "$valid": true,
-    "SHARED": {},
-    "client": "rsihYJKKDVyaYN",
-    "__chase": {
-      "Dee2r-Lb5_9MQZ": {
-        "pivotalDate": 1625642882163,
-        "documentCreated": 1625642882163
-      }
-    },
-    "_client": "C8-wSJhocl5C8D",
-    "address": "",
-    "clients": [
-      "Agellan Capital Partners Inc",
-      "Bimbo Canada (Canada Bread)"
-    ],
-    "country": [
-      "Canada",
-      "US"
-    ],
-    "$created": true,
-    "$creator": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-    "$invalid": false,
-    "_created": 1625639281000,
-    "_deleted": 0,
-    "_version": "Preferred Language",
-    "complete": 51,
-    "province": [
-      "Newfoundland and Labrador",
-      "Northwest Territories"
-    ],
-    "__created": 1625642880996,
-    "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625639281000,
-    "_settings": {
-      "$id": "WdoYmj-FOBFYri:hestia/document-types",
-      "$state": "Saved"
-    },
-    "_components": {},
-    "companyName": "Test Company 1",
-    "companySize": "Sole Proprietor",
-    "description": "",
-    "_updaterInfo": {
-      "-kkm4OhThVfEB2": {
-        "state": "Saved"
-      },
-      "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
-      },
-      "okFTMSwCgI9C4a": {
-        "state": "Saved"
-      }
-    },
-    "contractorId": "",
-    "profileState": "",
-    "tradingNames": "",
-    "workActivity": [
-      "Ability to Subcontract",
-      "Access Solutions - Roadways, Bridges, Rig Mats",
-      "Air Conditioning"
-    ],
-    "clientsLookup": [
-      "8-DZ0dQ-ny8sF0:contractorcheck/masterCompanyProfile",
-      "Mx20OTel7MWV4d:contractorcheck/masterCompanyProfile"
-    ],
-    "doYouContract": "yes",
-    "classification": "",
-    "workActivities": [
-      "qmaPwMF5Kg3KTd:workA/workA",
-      "JgpbhOLqdNDhgP:workA/workA",
-      "Y9eam4wtWr9ci3:workA/workA"
-    ],
-    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-    "_stateChangedAt": 1625642882162,
-    "headOfficeCountry": "",
-    "numberOfEmployees": "1",
-    "preferredLanguage": "en",
-    "workActivityFrench": [
-      "Possibilité de sous-traiter",
-      "Solutions d'accès - Chaussées, ponts, tapis de forage",
-      "Climatisation"
-    ],
-    "doYouUseContractors": []
-  },
-  {
-    "__": "CheRP6bl5IdgY9",
-    "_id": "debug-Company Profile-dev-YZVMe31SHiBlmk:companyP/companyP",
-    "$valid": true,
-    "client": "rsihYJKKDVyaYN",
-    "_client": "rsihYJKKDVyaYN",
-    "country": [],
-    "$creator": "3e424bc3-fb9a-47a1-93a1-056351146687",
-    "$invalid": false,
-    "_created": 1624568747478,
-    "_deleted": 0,
-    "_version": "Preferred Language",
-    "province": [],
-    "_modified": 1624568747478,
-    "_settings": {
-      "$id": "WdoYmj-FOBFYri:hestia/document-types",
-      "$state": "New"
-    },
-    "companySize": [],
-    "doYouContract": [],
-    "classification": [],
-    "preferredLanguage": [],
-    "doYouUseContractors": []
-  },
-  {
-    "__": "pWS2HEHLPtfzZu",
-    "_id": "debug-Company Profile-dev-URMWn682j_l9lk:companyP/companyP",
-    "$valid": true,
-    "client": "rsihYJKKDVyaYN",
-    "_client": "rsihYJKKDVyaYN",
-    "country": [],
-    "$creator": "3e424bc3-fb9a-47a1-93a1-056351146687",
-    "$invalid": false,
-    "_created": 1621508929000,
-    "_deleted": 0,
-    "_version": "Preferred Language",
-    "province": [],
-    "_modified": 1621856307000,
-    "_settings": {
-      "$id": "WdoYmj-FOBFYri:hestia/document-types",
-      "$state": "New"
-    },
-    "_components": {},
-    "companySize": [],
-    "__originalId": "debug-Company Profile-dev-URMWn682j_l9lk:companyP/companyP",
-    "classification": [],
-    "_lastModifiedBy": "fbfdc18c-a5b7-4a6f-a334-5da40cfdecd3",
-    "preferredLanguage": []
-  },
-  {
-    "__": "SsKDsnaEfd9UIs",
-    "_id": "debug-Company Profile-dev-G1YsSMZUpMpIBD:companyP/companyP",
-    "$valid": true,
-    "client": "rsihYJKKDVyaYN",
-    "_client": "rsihYJKKDVyaYN",
-    "country": [],
-    "$creator": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-    "$invalid": false,
-    "_created": 1621508930000,
-    "_deleted": 0,
-    "_version": "Preferred Language",
-    "province": [],
-    "_modified": 1621856307000,
-    "_settings": {
-      "$id": "WdoYmj-FOBFYri:hestia/document-types",
-      "$state": "New"
-    },
-    "_components": {},
-    "companySize": [],
-    "__originalId": "debug-Company Profile-dev-G1YsSMZUpMpIBD:companyP/companyP",
-    "classification": [],
-    "_lastModifiedBy": "fbfdc18c-a5b7-4a6f-a334-5da40cfdecd3",
-    "preferredLanguage": []
-  },
-  {
-    "__": "9YWQMxFs5qPnEj",
-    "ZIP": "CF15 7TW",
-    "_id": "zOU9pa9ST32-nR:companyP/companyP",
-    "City": "Cardiff",
-    "_info": {
-      "clientsLookup": {
-        "rows": [
-          {
-            "_id": "EozCwS7ACVj2Jw:clientA/clientA",
-            "_settings": {
-              "_id": "ImG4GhYEohQwgO:hestia/document-types"
-            }
-          }
-        ]
-      },
-      "workActivities": {
-        "rows": [
-          {
-            "_id": "cpzHPv4z_GB-_C:workA/workA",
-            "_settings": {
-              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
-            }
-          }
-        ]
-      }
-    },
-    "email": "geraint.farley@alcumus.com",
-    "phone": "01234567891",
-    "$modes": {},
-    "$valid": true,
-    "SHARED": {},
-    "client": "rsihYJKKDVyaYN",
-    "__chase": {
-      "Dee2r-Lb5_9MQZ": {
-        "pivotalDate": 1624568935700,
-        "documentCreated": 1624568935700
-      }
-    },
-    "_client": "zOU9pa9ST32-nR",
-    "address": "Axys House, Parc Nantgarw",
-    "country": "Canada",
-    "$created": true,
-    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
-    "$invalid": false,
-    "_created": 1624377587000,
-    "_deleted": 0,
-    "_version": "Preferred Language",
-    "complete": 52,
-    "province": [
-      "Alberta"
-    ],
-    "__created": 1621602703489,
-    "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
-    "_settings": {
-      "$id": "WdoYmj-FOBFYri:hestia/document-types",
-      "$state": "Saved"
-    },
-    "_components": {},
-    "companyName": "Gez Test 1",
-    "companySize": "Small Business",
-    "_updaterInfo": {
-      "-kkm4OhThVfEB2": {
-        "state": "Saved"
-      },
-      "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
-      },
-      "YF_aX-5R36pkDI": {
-        "state": "Saved"
-      },
-      "okFTMSwCgI9C4a": {
-        "state": "Saved"
-      }
-    },
-    "contractorId": "",
-    "profileState": "New",
-    "clientsLookup": [
-      "EozCwS7ACVj2Jw:clientA/clientA"
-    ],
-    "classification": "",
-    "workActivities": [
-      "cpzHPv4z_GB-_C:workA/workA"
-    ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
-    "_stateChangedAt": 1621602704054,
-    "numberOfEmployees": "24",
-    "preferredLanguage": "en"
-  },
-  {
-    "__": "94PcsCx05do3Vv",
-    "ZIP": "CF15 7TW",
-    "_id": "45kg61yCVgQqv9:companyP/companyP",
-    "City": "Cardiff",
-    "_info": {
-      "clientsLookup": {
-        "rows": [
-          {
-            "_id": "kA3HjK-C79sSsr:clientA/clientA",
-            "_settings": {
-              "_id": "ImG4GhYEohQwgO:hestia/document-types"
-            }
-          }
-        ]
-      },
-      "workActivities": {
-        "rows": [
-          {
-            "_id": "JgpbhOLqdNDhgP:workA/workA",
-            "_settings": {
-              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
-            }
-          }
-        ]
-      }
-    },
-    "email": "geraint.farley@alcumus.com",
-    "phone": "01234567891",
-    "$modes": {},
-    "$valid": true,
-    "SHARED": {},
-    "client": "rsihYJKKDVyaYN",
-    "__chase": {
-      "Dee2r-Lb5_9MQZ": {
-        "pivotalDate": 1624568935806,
-        "documentCreated": 1624568935806
-      }
-    },
-    "_client": "45kg61yCVgQqv9",
-    "address": "Axys House, Parc Nantgarw",
-    "country": "US",
-    "$created": true,
-    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
-    "$invalid": false,
-    "_created": 1624377587000,
-    "_deleted": 0,
-    "_version": "Preferred Language",
-    "complete": 52,
-    "province": [],
-    "__created": 1621604623711,
-    "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
-    "_settings": {
-      "$id": "WdoYmj-FOBFYri:hestia/document-types",
-      "$state": "Saved"
-    },
-    "_components": {},
-    "companyName": "Gez Test 3",
-    "companySize": "Small Business",
-    "_updaterInfo": {
-      "-kkm4OhThVfEB2": {
-        "state": "Saved"
-      },
-      "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
-      },
-      "YF_aX-5R36pkDI": {
-        "state": "Saved"
-      },
-      "okFTMSwCgI9C4a": {
-        "state": "Saved"
-      }
-    },
-    "contractorId": "",
-    "profileState": "New",
-    "clientsLookup": [
-      "kA3HjK-C79sSsr:clientA/clientA"
-    ],
-    "classification": "",
-    "workActivities": [
-      "JgpbhOLqdNDhgP:workA/workA"
-    ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
-    "_stateChangedAt": 1621604624290,
-    "numberOfEmployees": "5",
-    "preferredLanguage": "en"
-  },
-  {
-    "__": "LLPfFyZWBAyyr_",
-    "ZIP": "CF15 7TW",
-    "_id": "VcejLPJ_KHXUcw:companyP/companyP",
-    "City": "Cardiff",
-    "_info": {
-      "clientsLookup": {
-        "rows": [
-          {
-            "_id": "sAPyI76I6oKOJ0:clientA/clientA",
-            "_settings": {
-              "_id": "ImG4GhYEohQwgO:hestia/document-types"
-            }
-          }
-        ]
-      },
-      "workActivities": {
-        "rows": [
-          {
-            "_id": "qmaPwMF5Kg3KTd:workA/workA",
-            "_settings": {
-              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
-            }
-          }
-        ]
-      }
-    },
-    "email": "geraint.farley@alcumus.com",
-    "phone": "01234567891",
-    "$modes": {},
-    "$valid": true,
-    "SHARED": {},
-    "client": "rsihYJKKDVyaYN",
-    "__chase": {
-      "Dee2r-Lb5_9MQZ": {
-        "pivotalDate": 1624568935909,
-        "documentCreated": 1624568935909
-      }
-    },
-    "_client": "VcejLPJ_KHXUcw",
-    "address": "Axys House, Parc Nantgarw",
-    "country": "US",
-    "$created": true,
-    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
-    "$invalid": false,
-    "_created": 1624377587000,
-    "_deleted": 0,
-    "_version": "Preferred Language",
-    "complete": 52,
-    "province": [],
-    "__created": 1621607450682,
-    "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
-    "_settings": {
-      "$id": "WdoYmj-FOBFYri:hestia/document-types",
-      "$state": "Saved"
-    },
-    "_components": {},
-    "companyName": "Gez Test 4",
-    "companySize": "Small Business",
-    "_updaterInfo": {
-      "-kkm4OhThVfEB2": {
-        "state": "Saved"
-      },
-      "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
-      },
-      "YF_aX-5R36pkDI": {
-        "state": "Saved"
-      },
-      "okFTMSwCgI9C4a": {
-        "state": "Saved"
-      }
-    },
-    "contractorId": "",
-    "profileState": "New",
-    "clientsLookup": [
-      "sAPyI76I6oKOJ0:clientA/clientA"
-    ],
-    "classification": "",
-    "workActivities": [
-      "qmaPwMF5Kg3KTd:workA/workA"
-    ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
-    "_stateChangedAt": 1621607451302,
-    "numberOfEmployees": "11",
-    "preferredLanguage": "en"
-  },
-  {
-    "__": "A0muP2mqtUxeIl",
-    "ZIP": "CF15 7TW",
-    "_id": "tDaGHq5qLPJHe7:companyP/companyP",
-    "City": "Cardiff",
-    "_info": {
-      "clientsLookup": {
-        "rows": [
-          {
-            "_id": "WeBuL47xVFZ997:clientA/clientA",
-            "_settings": {
-              "_id": "ImG4GhYEohQwgO:hestia/document-types"
-            }
-          }
-        ]
-      },
-      "workActivities": {
-        "rows": [
-          {
-            "_id": "qmaPwMF5Kg3KTd:workA/workA",
-            "_settings": {
-              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
-            }
-          }
-        ]
-      }
-    },
-    "email": "geraint.farley@alcumus.com",
-    "phone": "01234567891",
-    "$modes": {},
-    "$valid": true,
-    "SHARED": {},
-    "client": "rsihYJKKDVyaYN",
-    "__chase": {
-      "Dee2r-Lb5_9MQZ": {
-        "pivotalDate": 1624568936228,
-        "documentCreated": 1624568936228
-      }
-    },
-    "_client": "tDaGHq5qLPJHe7",
-    "address": "Axys House, Parc Nantgarw",
-    "country": "US",
-    "$created": true,
-    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
-    "$invalid": false,
-    "_created": 1624377587000,
-    "_deleted": 0,
-    "_version": "Preferred Language",
-    "complete": 52,
-    "province": [],
-    "__created": 1621607761604,
-    "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
-    "_settings": {
-      "$id": "WdoYmj-FOBFYri:hestia/document-types",
-      "$state": "Saved"
-    },
-    "_components": {},
-    "companyName": "Gez Test 5",
-    "companySize": "Small Business",
-    "_updaterInfo": {
-      "-kkm4OhThVfEB2": {
-        "state": "Saved"
-      },
-      "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
-      },
-      "YF_aX-5R36pkDI": {
-        "state": "Saved"
-      },
-      "okFTMSwCgI9C4a": {
-        "state": "Saved"
-      }
-    },
-    "contractorId": "",
-    "profileState": "New",
-    "clientsLookup": [
-      "WeBuL47xVFZ997:clientA/clientA"
-    ],
-    "classification": "",
-    "workActivities": [
-      "qmaPwMF5Kg3KTd:workA/workA"
-    ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
-    "_stateChangedAt": 1621607762322,
-    "numberOfEmployees": "23",
-    "preferredLanguage": "en"
-  },
-  {
-    "__": "s-KSakNT2DOPA0",
-    "ZIP": "CF15 7TW",
-    "_id": "uFmnvFSyAkB0yl:companyP/companyP",
-    "City": "Cardiff",
-    "_info": {
-      "clientsLookup": {
-        "rows": [
-          {
-            "_id": "srx15qPN0SFkPw:clientA/clientA",
-            "_settings": {
-              "_id": "ImG4GhYEohQwgO:hestia/document-types"
-            }
-          }
-        ]
-      },
-      "workActivities": {
-        "rows": [
-          {
-            "_id": "2TPCmBI54Ak_4m:workA/workA",
-            "_settings": {
-              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
-            }
-          }
-        ]
-      }
-    },
-    "email": "geraint.farley@alcumus.com",
-    "phone": "01234567891",
-    "$modes": {},
-    "$valid": true,
-    "SHARED": {},
-    "client": "rsihYJKKDVyaYN",
-    "__chase": {
-      "Dee2r-Lb5_9MQZ": {
-        "pivotalDate": 1624568936387,
-        "documentCreated": 1624568936387
-      }
-    },
-    "_client": "uFmnvFSyAkB0yl",
-    "address": "Axys House, Parc Nantgarw",
-    "country": "US",
-    "$created": true,
-    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
-    "$invalid": false,
-    "_created": 1624377587000,
-    "_deleted": 0,
-    "_version": "Preferred Language",
-    "complete": 52,
-    "province": [],
-    "__created": 1621608437649,
-    "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
-    "_settings": {
-      "$id": "WdoYmj-FOBFYri:hestia/document-types",
-      "$state": "Saved"
-    },
-    "_components": {},
-    "companyName": "Gez Test 6",
-    "companySize": "Small Business",
-    "_updaterInfo": {
-      "-kkm4OhThVfEB2": {
-        "state": "Saved"
-      },
-      "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
-      },
-      "YF_aX-5R36pkDI": {
-        "state": "Saved"
-      },
-      "okFTMSwCgI9C4a": {
-        "state": "Saved"
-      }
-    },
-    "contractorId": "",
-    "profileState": "New",
-    "clientsLookup": [
-      "srx15qPN0SFkPw:clientA/clientA"
-    ],
-    "classification": "",
-    "workActivities": [
-      "2TPCmBI54Ak_4m:workA/workA"
-    ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
-    "_stateChangedAt": 1621608438471,
-    "numberOfEmployees": "23",
-    "preferredLanguage": "en"
-  },
-  {
-    "__": "lOjoij5MeIVlc3",
-    "ZIP": "CF15 7TW",
-    "_id": "4l8wiYhkN4aEjA:companyP/companyP",
-    "City": "Cardiff",
-    "_info": {
-      "clientsLookup": {
-        "rows": [
-          {
-            "_id": "jPkUJdhncIWw22:clientA/clientA",
-            "_settings": {
-              "_id": "ImG4GhYEohQwgO:hestia/document-types"
-            }
-          }
-        ]
-      },
-      "workActivities": {
-        "rows": [
-          {
-            "_id": "ic0ic66CJjkDC0:workA/workA",
-            "_settings": {
-              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
-            }
-          }
-        ]
-      }
-    },
-    "email": "geraint.farley@alcumus.com",
-    "phone": "01234567891",
-    "$modes": {},
-    "$valid": true,
-    "SHARED": {},
-    "client": "rsihYJKKDVyaYN",
-    "__chase": {
-      "Dee2r-Lb5_9MQZ": {
-        "pivotalDate": 1624568936417,
-        "documentCreated": 1624568936417
-      }
-    },
-    "_client": "4l8wiYhkN4aEjA",
-    "address": "Axys House, Parc Nantgarw",
-    "country": "US",
-    "$created": true,
-    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
-    "$invalid": false,
-    "_created": 1624377587000,
-    "_deleted": 0,
-    "_version": "Preferred Language",
-    "complete": 52,
-    "province": [],
-    "__created": 1621608819584,
-    "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
-    "_settings": {
-      "$id": "WdoYmj-FOBFYri:hestia/document-types",
-      "$state": "Saved"
-    },
-    "_components": {},
-    "companyName": "Gez Test 7",
-    "companySize": "Small Business",
-    "_updaterInfo": {
-      "-kkm4OhThVfEB2": {
-        "state": "Saved"
-      },
-      "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
-      },
-      "YF_aX-5R36pkDI": {
-        "state": "Saved"
-      },
-      "okFTMSwCgI9C4a": {
-        "state": "Saved"
-      }
-    },
-    "contractorId": "",
-    "profileState": "New",
-    "clientsLookup": [
-      "jPkUJdhncIWw22:clientA/clientA"
-    ],
-    "classification": "",
-    "workActivities": [
-      "ic0ic66CJjkDC0:workA/workA"
-    ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
-    "_stateChangedAt": 1621608820585,
-    "numberOfEmployees": "11",
-    "preferredLanguage": "en"
-  },
-  {
-    "__": "deAiyKv_KqM7Aa",
-    "ZIP": "CF15 7TW",
-    "_id": "Vtn804O67rD0KL:companyP/companyP",
-    "City": "Cardiff",
-    "_info": {
-      "clientsLookup": {
-        "rows": [
-          {
-            "_id": "EozCwS7ACVj2Jw:clientA/clientA",
-            "_settings": {
-              "_id": "ImG4GhYEohQwgO:hestia/document-types"
-            }
-          }
-        ]
-      },
-      "workActivities": {
-        "rows": [
-          {
-            "_id": "Zb5UkuGQwdKIZA:workA/workA",
-            "_settings": {
-              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
-            }
-          }
-        ]
-      }
-    },
-    "email": "geraint.farley@alcumus.com",
-    "phone": "01234567891",
-    "$modes": {},
-    "$valid": true,
-    "SHARED": {},
-    "client": "rsihYJKKDVyaYN",
-    "__chase": {
-      "Dee2r-Lb5_9MQZ": {
-        "pivotalDate": 1624568936647,
-        "documentCreated": 1624568936647
-      }
-    },
-    "_client": "Vtn804O67rD0KL",
-    "address": "Axys House, Parc Nantgarw",
-    "country": "US",
-    "$created": true,
-    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
-    "$invalid": false,
-    "_created": 1624377587000,
-    "_deleted": 0,
-    "_version": "Preferred Language",
-    "complete": 52,
-    "province": [],
-    "__created": 1621609343125,
-    "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
-    "_settings": {
-      "$id": "WdoYmj-FOBFYri:hestia/document-types",
-      "$state": "Saved"
-    },
-    "_components": {},
-    "companyName": "Gez Test 8",
-    "companySize": "Small Business",
-    "_updaterInfo": {
-      "-kkm4OhThVfEB2": {
-        "state": "Saved"
-      },
-      "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
-      },
-      "YF_aX-5R36pkDI": {
-        "state": "Saved"
-      },
-      "okFTMSwCgI9C4a": {
-        "state": "Saved"
-      }
-    },
-    "contractorId": "",
-    "profileState": "New",
-    "clientsLookup": [
-      "EozCwS7ACVj2Jw:clientA/clientA"
-    ],
-    "classification": "",
-    "workActivities": [
-      "Zb5UkuGQwdKIZA:workA/workA"
-    ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
-    "_stateChangedAt": 1621609344152,
-    "numberOfEmployees": "43",
-    "preferredLanguage": "en"
-  },
-  {
-    "__": "lIMZM2SJu2ps-V",
-    "ZIP": "CF15 7TW",
-    "_id": "1h9lpHFwl3Nmp2:companyP/companyP",
-    "City": "Cardiff",
-    "_info": {
-      "clientsLookup": {
-        "rows": [
-          {
-            "_id": "exfP3t2THcVObs:clientA/clientA",
-            "_settings": {
-              "_id": "ImG4GhYEohQwgO:hestia/document-types"
-            }
-          }
-        ]
-      },
-      "workActivities": {
-        "rows": [
-          {
-            "_id": "3GD6j7cH-8C_Xv:workA/workA",
-            "_settings": {
-              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
-            }
-          }
-        ]
-      }
-    },
-    "email": "geraint.farley@alcumus.com",
-    "phone": "01234567891",
-    "$modes": {},
-    "$valid": true,
-    "SHARED": {},
-    "client": "rsihYJKKDVyaYN",
-    "__chase": {
-      "Dee2r-Lb5_9MQZ": {
-        "pivotalDate": 1624568936856,
-        "documentCreated": 1624568936856
-      }
-    },
-    "_client": "1h9lpHFwl3Nmp2",
-    "address": "Axys House, Parc Nantgarw",
-    "country": "US",
-    "$created": true,
-    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
-    "$invalid": false,
-    "_created": 1624377587000,
-    "_deleted": 0,
-    "_version": "Preferred Language",
-    "complete": 52,
-    "province": [],
-    "__created": 1621609666336,
-    "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
-    "_settings": {
-      "$id": "WdoYmj-FOBFYri:hestia/document-types",
-      "$state": "Saved"
-    },
-    "_components": {},
-    "companyName": "Gez Test 9",
-    "companySize": "Small Business",
-    "_updaterInfo": {
-      "-kkm4OhThVfEB2": {
-        "state": "Saved"
-      },
-      "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
-      },
-      "YF_aX-5R36pkDI": {
-        "state": "Saved"
-      },
-      "okFTMSwCgI9C4a": {
-        "state": "Saved"
-      }
-    },
-    "contractorId": "",
-    "profileState": "New",
-    "clientsLookup": [
-      "exfP3t2THcVObs:clientA/clientA"
-    ],
-    "classification": "",
-    "workActivities": [
-      "3GD6j7cH-8C_Xv:workA/workA"
-    ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
-    "_stateChangedAt": 1621609667512,
-    "numberOfEmployees": "11",
-    "preferredLanguage": "en"
-  },
-  {
-    "__": "ZufC5Y7coXbJXv",
-    "ZIP": "CF15 7TW",
-    "_id": "2H5XyNJAugI7gP:companyP/companyP",
-    "City": "Cardiff",
-    "_info": {
-      "clientsLookup": {
-        "rows": [
-          {
-            "_id": "BpkPtZfCTQgD3T:clientA/clientA",
-            "_settings": {
-              "_id": "ImG4GhYEohQwgO:hestia/document-types"
-            }
-          }
-        ]
-      },
-      "workActivities": {
-        "rows": [
-          {
-            "_id": "60O7iNL_R6NO0g:workA/workA",
-            "_settings": {
-              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
-            }
-          }
-        ]
-      }
-    },
-    "email": "geraint.farley@alcumus.com",
-    "phone": "01234567891",
-    "$modes": {},
-    "$valid": true,
-    "SHARED": {},
-    "client": "rsihYJKKDVyaYN",
-    "__chase": {
-      "Dee2r-Lb5_9MQZ": {
-        "pivotalDate": 1624568937100,
-        "documentCreated": 1624568937100
-      }
-    },
-    "_client": "2H5XyNJAugI7gP",
-    "address": "Axys House, Parc Nantgarw",
-    "country": "US",
-    "$created": true,
-    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
-    "$invalid": false,
-    "_created": 1624377587000,
-    "_deleted": 0,
-    "_version": "Preferred Language",
-    "complete": 52,
-    "province": [],
-    "__created": 1621610453413,
-    "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
-    "_settings": {
-      "$id": "WdoYmj-FOBFYri:hestia/document-types",
-      "$state": "Saved"
-    },
-    "_components": {},
-    "companyName": "Gez Test 10",
-    "companySize": "Small Business",
-    "_updaterInfo": {
-      "-kkm4OhThVfEB2": {
-        "state": "Saved"
-      },
-      "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
-      },
-      "YF_aX-5R36pkDI": {
-        "state": "Saved"
-      },
-      "okFTMSwCgI9C4a": {
-        "state": "Saved"
-      }
-    },
-    "contractorId": "",
-    "profileState": "New",
-    "clientsLookup": [
-      "BpkPtZfCTQgD3T:clientA/clientA"
-    ],
-    "classification": "",
-    "workActivities": [
-      "60O7iNL_R6NO0g:workA/workA"
-    ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
-    "_stateChangedAt": 1621610454578,
-    "numberOfEmployees": "12",
-    "preferredLanguage": "en"
-  },
-  {
-    "__": "9DpWwr6gXK_e05",
-    "ZIP": "CF15 7TW",
-    "_id": "WsEPeCJaPyysFk:companyP/companyP",
-    "City": "Cardiff",
-    "_info": {
-      "clientsLookup": {
-        "rows": [
-          {
-            "_id": "8JPxjzzYCJ8rkd:clientA/clientA",
-            "_settings": {
-              "_id": "ImG4GhYEohQwgO:hestia/document-types"
-            }
-          }
-        ]
-      },
-      "workActivities": {
-        "rows": [
-          {
-            "_id": "BpgE8d5PhIAKT8:workA/workA",
-            "_settings": {
-              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
-            }
-          }
-        ]
-      }
-    },
-    "email": "geraint.farley@alcumus.com",
-    "phone": "01234567891",
-    "$modes": {},
-    "$valid": true,
-    "SHARED": {},
-    "client": "rsihYJKKDVyaYN",
-    "__chase": {
-      "Dee2r-Lb5_9MQZ": {
-        "pivotalDate": 1624568937289,
-        "documentCreated": 1624568937289
-      }
-    },
-    "_client": "WsEPeCJaPyysFk",
-    "address": "Axys House, Parc Nantgarw",
-    "country": "US",
-    "$created": true,
-    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
-    "$invalid": false,
-    "_created": 1624377588000,
-    "_deleted": 0,
-    "_version": "Preferred Language",
-    "complete": 52,
-    "province": [],
-    "__created": 1621610910661,
-    "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
-    "_settings": {
-      "$id": "WdoYmj-FOBFYri:hestia/document-types",
-      "$state": "Saved"
-    },
-    "_components": {},
-    "companyName": "Gez Test 11",
-    "companySize": "Small Business",
-    "_updaterInfo": {
-      "-kkm4OhThVfEB2": {
-        "state": "Saved"
-      },
-      "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
-      },
-      "YF_aX-5R36pkDI": {
-        "state": "Saved"
-      },
-      "okFTMSwCgI9C4a": {
-        "state": "Saved"
-      }
-    },
-    "contractorId": "",
-    "profileState": "New",
-    "clientsLookup": [
-      "8JPxjzzYCJ8rkd:clientA/clientA"
-    ],
-    "classification": "",
-    "workActivities": [
-      "BpgE8d5PhIAKT8:workA/workA"
-    ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
-    "_stateChangedAt": 1621610911845,
-    "numberOfEmployees": "34",
-    "preferredLanguage": "en"
-  },
-  {
-    "__": "Gpw0wPn-YaMB91",
-    "ZIP": "CF15 7TW",
-    "_id": "fMpQCbq8w7DUBg:companyP/companyP",
-    "City": "Cardiff",
-    "_info": {
-      "clientsLookup": {
-        "rows": [
-          {
-            "_id": "krFzG_aXgD_EDT:clientA/clientA",
-            "_settings": {
-              "_id": "ImG4GhYEohQwgO:hestia/document-types"
-            }
-          }
-        ]
-      },
-      "workActivities": {
-        "rows": [
-          {
-            "_id": "Z15Br9Y92bUpIJ:workA/workA",
-            "_settings": {
-              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
-            }
-          }
-        ]
-      }
-    },
-    "email": "geraint.farley@alcumus.com",
-    "phone": "01234567891",
-    "$modes": {},
-    "$valid": true,
-    "SHARED": {},
-    "client": "rsihYJKKDVyaYN",
-    "__chase": {
-      "Dee2r-Lb5_9MQZ": {
-        "pivotalDate": 1624568937542,
-        "documentCreated": 1624568937542
-      }
-    },
-    "_client": "fMpQCbq8w7DUBg",
-    "address": "Axys House, Parc Nantgarw",
-    "country": "US",
-    "$created": true,
-    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
-    "$invalid": false,
-    "_created": 1624377588000,
-    "_deleted": 0,
-    "_version": "Preferred Language",
-    "complete": 52,
-    "province": [],
-    "__created": 1621611303638,
-    "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
-    "_settings": {
-      "$id": "WdoYmj-FOBFYri:hestia/document-types",
-      "$state": "Saved"
-    },
-    "_components": {},
-    "companyName": "Gez Test 12",
-    "companySize": "Small Business",
-    "_updaterInfo": {
-      "-kkm4OhThVfEB2": {
-        "state": "Saved"
-      },
-      "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
-      },
-      "YF_aX-5R36pkDI": {
-        "state": "Saved"
-      },
-      "okFTMSwCgI9C4a": {
-        "state": "Saved"
-      }
-    },
-    "contractorId": "",
-    "profileState": "New",
-    "clientsLookup": [
-      "krFzG_aXgD_EDT:clientA/clientA"
-    ],
-    "classification": "",
-    "workActivities": [
-      "Z15Br9Y92bUpIJ:workA/workA"
-    ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
-    "_stateChangedAt": 1621611304861,
-    "numberOfEmployees": "55",
-    "preferredLanguage": "en"
-  },
-  {
-    "__": "Cd6ATVWTYJCXnJ",
-    "ZIP": "CF15 7TW",
-    "_id": "ZEQvBev8_-cZ2o:companyP/companyP",
-    "City": "Cardiff",
-    "_info": {
-      "clientsLookup": {
-        "rows": [
-          {
-            "_id": "CXvv4nM-_1AFXD:clientA/clientA",
-            "_settings": {
-              "_id": "ImG4GhYEohQwgO:hestia/document-types"
-            }
-          }
-        ]
-      },
-      "workActivities": {
-        "rows": [
-          {
-            "_id": "xxVMHkOquDqZK8:workA/workA",
-            "_settings": {
-              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
-            }
-          }
-        ]
-      }
-    },
-    "email": "geraint.farley@alcumus.com",
-    "phone": "01234567891",
-    "$modes": {},
-    "$valid": true,
-    "SHARED": {},
-    "client": "rsihYJKKDVyaYN",
-    "__chase": {
-      "Dee2r-Lb5_9MQZ": {
-        "pivotalDate": 1624568937650,
-        "documentCreated": 1624568937650
-      }
-    },
-    "_client": "ZEQvBev8_-cZ2o",
-    "address": "Axys House, Parc Nantgarw",
-    "country": "US",
-    "$created": true,
-    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
-    "$invalid": false,
-    "_created": 1624377588000,
-    "_deleted": 0,
-    "_version": "Preferred Language",
-    "complete": 52,
-    "province": [],
-    "__created": 1621611733918,
-    "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
-    "_settings": {
-      "$id": "WdoYmj-FOBFYri:hestia/document-types",
-      "$state": "Saved"
-    },
-    "_components": {},
-    "companyName": "Gez Test 13",
-    "companySize": "Small Business",
-    "_updaterInfo": {
-      "-kkm4OhThVfEB2": {
-        "state": "Saved"
-      },
-      "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
-      },
-      "YF_aX-5R36pkDI": {
-        "state": "Saved"
-      },
-      "okFTMSwCgI9C4a": {
-        "state": "Saved"
-      }
-    },
-    "contractorId": "",
-    "profileState": "New",
-    "clientsLookup": [
-      "CXvv4nM-_1AFXD:clientA/clientA"
-    ],
-    "classification": "",
-    "workActivities": [
-      "xxVMHkOquDqZK8:workA/workA"
-    ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
-    "_stateChangedAt": 1621611735450,
-    "numberOfEmployees": "22",
-    "preferredLanguage": "en"
-  },
-  {
-    "__": "z9Vw6NJ1sCz1o0",
-    "ZIP": "CF15 7TW",
-    "_id": "yUzY_OZCRe3Ll6:companyP/companyP",
-    "City": "Cardiff",
-    "_info": {
-      "clientsLookup": {
-        "rows": [
-          {
-            "_id": "i9u8yTmcWqX7F7:clientA/clientA",
-            "_settings": {
-              "_id": "ImG4GhYEohQwgO:hestia/document-types"
-            }
-          }
-        ]
-      },
-      "workActivities": {
-        "rows": [
-          {
-            "_id": "FnfnIcKgfYV2SP:workA/workA",
-            "_settings": {
-              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
-            }
-          }
-        ]
-      }
-    },
-    "email": "geraint.farley@alcumus.com",
-    "phone": "01234567891",
-    "$modes": {},
-    "$valid": true,
-    "SHARED": {},
-    "client": "rsihYJKKDVyaYN",
-    "__chase": {
-      "Dee2r-Lb5_9MQZ": {
-        "pivotalDate": 1624568938077,
-        "documentCreated": 1624568938077
-      }
-    },
-    "_client": "yUzY_OZCRe3Ll6",
-    "address": "Axys House, Parc Nantgarw",
-    "country": "US",
-    "$created": true,
-    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
-    "$invalid": false,
-    "_created": 1624377588000,
-    "_deleted": 0,
-    "_version": "Preferred Language",
-    "complete": 52,
-    "province": [],
-    "__created": 1621612862231,
-    "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
-    "_settings": {
-      "$id": "WdoYmj-FOBFYri:hestia/document-types",
-      "$state": "Saved"
-    },
-    "_components": {},
-    "companyName": "Gez Test 14",
-    "companySize": "Small Business",
-    "_updaterInfo": {
-      "-kkm4OhThVfEB2": {
-        "state": "Saved"
-      },
-      "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
-      },
-      "YF_aX-5R36pkDI": {
-        "state": "Saved"
-      },
-      "okFTMSwCgI9C4a": {
-        "state": "Saved"
-      }
-    },
-    "contractorId": "",
-    "profileState": "New",
-    "clientsLookup": [
-      "i9u8yTmcWqX7F7:clientA/clientA"
-    ],
-    "classification": "",
-    "workActivities": [
-      "FnfnIcKgfYV2SP:workA/workA"
-    ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
-    "_stateChangedAt": 1621612863588,
-    "numberOfEmployees": "2",
-    "preferredLanguage": "en"
-  },
-  {
-    "__": "m-0sjLaYeiOdH8",
-    "ZIP": "CF15 7TW",
-    "_id": "grV5IAnQhgdNm7:companyP/companyP",
-    "City": "Parc Nantgarw",
-    "_info": {
-      "workActivities": {
-        "rows": [
-          {
-            "_id": "tXjZb3-pXJFRPQ:workA/workA",
-            "_settings": {
-              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
-            }
-          }
-        ]
-      }
-    },
-    "email": "geraint.farley@alcumus.com",
-    "phone": "01234567891",
-    "$modes": {},
-    "$valid": true,
-    "SHARED": {},
-    "client": "rsihYJKKDVyaYN",
-    "__chase": {
-      "Dee2r-Lb5_9MQZ": {
-        "pivotalDate": 1624568938325,
-        "documentCreated": 1624568938325
-      }
-    },
-    "_client": "grV5IAnQhgdNm7",
-    "address": "Axys House",
-    "country": "US",
-    "$created": true,
-    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
-    "$invalid": false,
-    "_created": 1624377588000,
-    "_deleted": 0,
-    "_version": "Preferred Language",
-    "complete": 52,
-    "province": [],
-    "__created": 1621613296280,
-    "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
-    "_settings": {
-      "$id": "WdoYmj-FOBFYri:hestia/document-types",
-      "$state": "Saved"
-    },
-    "_components": {},
-    "companyName": "Gez Test 15",
-    "companySize": "Small Business",
-    "_updaterInfo": {
-      "-kkm4OhThVfEB2": {
-        "state": "Saved"
-      },
-      "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
-      },
-      "YF_aX-5R36pkDI": {
-        "state": "Saved"
-      },
-      "okFTMSwCgI9C4a": {
-        "state": "Saved"
-      }
-    },
-    "contractorId": "",
-    "profileState": "New",
-    "clientsLookup": [],
-    "classification": "",
-    "workActivities": [
-      "tXjZb3-pXJFRPQ:workA/workA"
-    ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
-    "_stateChangedAt": 1621613297802,
-    "numberOfEmployees": "32",
-    "preferredLanguage": "en"
-  },
-  {
-    "__": "glscV4W4zuQtBN",
-    "ZIP": "CF15 7TW",
-    "_id": "BcXfB9wR_6qteD:companyP/companyP",
-    "City": "Cardiff",
-    "_info": {
-      "clientsLookup": {
-        "rows": [
-          {
-            "_id": "kA3HjK-C79sSsr:clientA/clientA",
-            "_settings": {
-              "_id": "ImG4GhYEohQwgO:hestia/document-types"
-            }
-          },
-          {
-            "_id": "1U7C5aUY8IeEcn:clientA/clientA",
-            "_settings": {
-              "_id": "ImG4GhYEohQwgO:hestia/document-types"
-            }
-          }
-        ]
-      },
-      "workActivities": {
-        "rows": [
-          {
-            "_id": "ic0ic66CJjkDC0:workA/workA",
-            "_settings": {
-              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
-            }
-          }
-        ]
-      }
-    },
-    "email": "geraint.farley@alcumus.com",
-    "phone": "0976543211",
-    "$modes": {},
-    "$valid": true,
-    "SHARED": {},
-    "client": "rsihYJKKDVyaYN",
-    "__chase": {
-      "Dee2r-Lb5_9MQZ": {
-        "pivotalDate": 1624568938639,
-        "documentCreated": 1624568938639
-      }
-    },
-    "_client": "BcXfB9wR_6qteD",
-    "address": "Axys House, Parc Nantgarw",
-    "country": "US",
-    "$created": true,
-    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
-    "$invalid": false,
-    "_created": 1624377588000,
-    "_deleted": 0,
-    "_version": "Preferred Language",
-    "complete": 52,
-    "province": [],
-    "__created": 1621613670545,
-    "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
-    "_settings": {
-      "$id": "WdoYmj-FOBFYri:hestia/document-types",
-      "$state": "Saved"
-    },
-    "_components": {},
-    "companyName": "Gez Test 16",
-    "companySize": "Sole Proprietor",
-    "_updaterInfo": {
-      "-kkm4OhThVfEB2": {
-        "state": "Saved"
-      },
-      "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
-      },
-      "YF_aX-5R36pkDI": {
-        "state": "Saved"
-      },
-      "okFTMSwCgI9C4a": {
-        "state": "Saved"
-      }
-    },
-    "contractorId": "",
-    "profileState": "Saved",
-    "clientsLookup": [
-      "kA3HjK-C79sSsr:clientA/clientA",
-      "1U7C5aUY8IeEcn:clientA/clientA"
-    ],
-    "classification": "",
-    "workActivities": [
-      "ic0ic66CJjkDC0:workA/workA"
-    ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
-    "_stateChangedAt": 1621613672114,
-    "numberOfEmployees": "1",
-    "preferredLanguage": "en"
-  },
-  {
-    "__": "zo0MQMFESmwC_H",
-    "ZIP": "CF15 7TW",
-    "_id": "TTJ8uT30sBaw6S:companyP/companyP",
-    "City": "Cardiff",
-    "_info": {
-      "clientsLookup": {
-        "rows": [
-          {
-            "_id": "EozCwS7ACVj2Jw:clientA/clientA",
-            "_settings": {
-              "_id": "ImG4GhYEohQwgO:hestia/document-types"
-            }
-          }
-        ]
-      },
-      "workActivities": {
-        "rows": [
-          {
-            "_id": "qmaPwMF5Kg3KTd:workA/workA",
-            "_settings": {
-              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
-            }
-          }
-        ]
-      }
-    },
-    "email": "geraint.farley@alcumus.com",
-    "phone": "01234567891",
-    "$modes": {},
-    "$valid": true,
-    "SHARED": {},
-    "client": "rsihYJKKDVyaYN",
-    "__chase": {
-      "Dee2r-Lb5_9MQZ": {
-        "pivotalDate": 1624568938804,
-        "documentCreated": 1624568938804
-      }
-    },
-    "_client": "TTJ8uT30sBaw6S",
-    "address": "Axys House, Parc Nantgarw",
-    "country": "US",
-    "$created": true,
-    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
-    "$invalid": false,
-    "_created": 1624377588000,
-    "_deleted": 0,
-    "_version": "Preferred Language",
-    "complete": 52,
-    "province": [],
-    "__created": 1621614343664,
-    "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
-    "_settings": {
-      "$id": "WdoYmj-FOBFYri:hestia/document-types",
-      "$state": "Saved"
-    },
-    "_components": {},
-    "companyName": "Gez Test 17",
-    "companySize": "Small Business",
-    "_updaterInfo": {
-      "-kkm4OhThVfEB2": {
-        "state": "Saved"
-      },
-      "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
-      },
-      "YF_aX-5R36pkDI": {
-        "state": "Saved"
-      },
-      "okFTMSwCgI9C4a": {
-        "state": "Saved"
-      }
-    },
-    "contractorId": "",
-    "profileState": "New",
-    "clientsLookup": [
-      "EozCwS7ACVj2Jw:clientA/clientA"
-    ],
-    "classification": "",
-    "workActivities": [
-      "qmaPwMF5Kg3KTd:workA/workA"
-    ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
-    "_stateChangedAt": 1621614345230,
-    "numberOfEmployees": "22",
-    "preferredLanguage": "en"
-  },
-  {
-    "__": "rS54OQkQlyfndM",
-    "ZIP": "CF15 7TW",
-    "_id": "8NfQL63c7_EszH:companyP/companyP",
-    "City": "Cardiff",
-    "_info": {
-      "clientsLookup": {
-        "rows": [
-          {
-            "_id": "kA3HjK-C79sSsr:clientA/clientA",
-            "_settings": {
-              "_id": "ImG4GhYEohQwgO:hestia/document-types"
-            }
-          }
-        ]
-      },
-      "workActivities": {
-        "rows": [
-          {
-            "_id": "qmaPwMF5Kg3KTd:workA/workA",
-            "_settings": {
-              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
-            }
-          }
-        ]
-      }
-    },
-    "email": "geraint.farley@alcumusgroup.com",
-    "phone": "01234567891",
-    "$modes": {},
-    "$valid": true,
-    "SHARED": {},
-    "client": "rsihYJKKDVyaYN",
-    "__chase": {
-      "Dee2r-Lb5_9MQZ": {
-        "pivotalDate": 1624568938985,
-        "documentCreated": 1624568938985
-      }
-    },
-    "_client": "8NfQL63c7_EszH",
-    "address": "Axys House, Parc Nantgarw",
-    "country": "US",
-    "$created": true,
-    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
-    "$invalid": false,
-    "_created": 1624377588000,
-    "_deleted": 0,
-    "_version": "Preferred Language",
-    "complete": 52,
-    "province": [],
-    "__created": 1621767286051,
-    "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
-    "_settings": {
-      "$id": "WdoYmj-FOBFYri:hestia/document-types",
-      "$state": "Saved"
-    },
-    "_components": {},
-    "companyName": "Gez Test 18",
-    "companySize": "Small Business",
-    "_updaterInfo": {
-      "-kkm4OhThVfEB2": {
-        "state": "Saved"
-      },
-      "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
-      },
-      "YF_aX-5R36pkDI": {
-        "state": "Saved"
-      },
-      "okFTMSwCgI9C4a": {
-        "state": "Saved"
-      }
-    },
-    "contractorId": "",
-    "profileState": "New",
-    "clientsLookup": [
-      "kA3HjK-C79sSsr:clientA/clientA"
-    ],
-    "classification": "",
-    "workActivities": [
-      "qmaPwMF5Kg3KTd:workA/workA"
-    ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
-    "_stateChangedAt": 1621767292217,
-    "numberOfEmployees": "12",
-    "preferredLanguage": "en"
-  },
-  {
-    "__": "Ef3JNAHGUt1Jmf",
-    "ZIP": "CF15 7TW",
-    "_id": "C0kFEffsAocNpj:companyP/companyP",
-    "City": "Cardiff",
-    "_info": {
-      "workActivities": {
-        "rows": [
-          {
-            "_id": "JgpbhOLqdNDhgP:workA/workA",
-            "_settings": {
-              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
-            }
-          }
-        ]
-      }
-    },
-    "email": "geraint.farley@alcumus.com",
-    "phone": "01234567891",
-    "$modes": {},
-    "$valid": true,
-    "SHARED": {},
-    "client": "rsihYJKKDVyaYN",
-    "__chase": {
-      "Dee2r-Lb5_9MQZ": {
-        "pivotalDate": 1624568939240,
-        "documentCreated": 1624568939240
-      }
-    },
-    "_client": "C0kFEffsAocNpj",
-    "address": "Axys House, Parc Nantgarw",
-    "country": "US",
-    "$created": true,
-    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
-    "$invalid": false,
-    "_created": 1624377588000,
-    "_deleted": 0,
-    "_version": "Preferred Language",
-    "complete": 52,
-    "province": [],
-    "__created": 1621767467493,
-    "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
-    "_settings": {
-      "$id": "WdoYmj-FOBFYri:hestia/document-types",
-      "$state": "Saved"
-    },
-    "_components": {},
-    "companyName": "Gez Test 19",
-    "companySize": "Small Business",
-    "_updaterInfo": {
-      "-kkm4OhThVfEB2": {
-        "state": "Saved"
-      },
-      "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
-      },
-      "YF_aX-5R36pkDI": {
-        "state": "Saved"
-      },
-      "okFTMSwCgI9C4a": {
-        "state": "Saved"
-      }
-    },
-    "contractorId": "",
-    "profileState": "New",
-    "clientsLookup": [],
-    "classification": "",
-    "workActivities": [
-      "JgpbhOLqdNDhgP:workA/workA"
-    ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
-    "_stateChangedAt": 1621767473621,
-    "numberOfEmployees": "2",
-    "preferredLanguage": "en"
-  },
-  {
-    "__": "F7LAyvrqmfHJ3d",
-    "ZIP": "CF15 7TW",
-    "_id": "CQ_ZDIi5_PTSVv:companyP/companyP",
-    "City": "Cardiff",
-    "_info": {
-      "clientsLookup": {
-        "rows": [
-          {
-            "_id": "1U7C5aUY8IeEcn:clientA/clientA",
-            "_settings": {
-              "_id": "ImG4GhYEohQwgO:hestia/document-types"
-            }
-          }
-        ]
-      },
-      "workActivities": {
-        "rows": [
-          {
-            "_id": "p3aGtGgud-4ZbI:workA/workA",
-            "_settings": {
-              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
-            }
-          }
-        ]
-      }
-    },
-    "email": "geraint.farley@alcumus.com",
-    "phone": "0123456791",
-    "$modes": {},
-    "$valid": true,
-    "SHARED": {},
-    "client": "rsihYJKKDVyaYN",
-    "__chase": {
-      "Dee2r-Lb5_9MQZ": {
-        "pivotalDate": 1624568939546,
-        "documentCreated": 1624568939546
-      }
-    },
-    "_client": "CQ_ZDIi5_PTSVv",
-    "address": "Axys House, Parc Nantgarw",
-    "country": "US",
-    "$created": true,
-    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
-    "$invalid": false,
-    "_created": 1624377588000,
-    "_deleted": 0,
-    "_version": "Preferred Language",
-    "complete": 52,
-    "province": [],
-    "__created": 1621768144954,
-    "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
-    "_settings": {
-      "$id": "WdoYmj-FOBFYri:hestia/document-types",
-      "$state": "Saved"
-    },
-    "_components": {},
-    "companyName": "Gez Test 20",
-    "companySize": "Small Business",
-    "_updaterInfo": {
-      "-kkm4OhThVfEB2": {
-        "state": "Saved"
-      },
-      "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
-      },
-      "YF_aX-5R36pkDI": {
-        "state": "Saved"
-      },
-      "okFTMSwCgI9C4a": {
-        "state": "Saved"
-      }
-    },
-    "contractorId": "",
-    "profileState": "Saved",
-    "clientsLookup": [
-      "1U7C5aUY8IeEcn:clientA/clientA"
-    ],
-    "classification": "",
-    "workActivities": [
-      "p3aGtGgud-4ZbI:workA/workA"
-    ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
-    "_stateChangedAt": 1621768151037,
-    "numberOfEmployees": "12",
-    "preferredLanguage": "en"
-  },
-  {
-    "__": "jXsfD0U3CmQZ_K",
-    "ZIP": "CF15 7TW",
-    "_id": "vLGcYikHXBSqq4:companyP/companyP",
-    "City": "Parc Nantgarw",
-    "_info": {
-      "clientsLookup": {
-        "rows": [
-          {
-            "_id": "HDTuiRXl7x4xZa:clientA/clientA",
-            "_settings": {
-              "_id": "ImG4GhYEohQwgO:hestia/document-types"
-            }
-          }
-        ]
-      },
-      "workActivities": {
-        "rows": [
-          {
-            "_id": "cpzHPv4z_GB-_C:workA/workA",
-            "_settings": {
-              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
-            }
-          }
-        ]
-      }
-    },
-    "email": "geraint.farley@alcumus.com",
-    "phone": "01234567891",
-    "$modes": {},
-    "$valid": true,
-    "SHARED": {},
-    "client": "rsihYJKKDVyaYN",
-    "__chase": {
-      "Dee2r-Lb5_9MQZ": {
-        "pivotalDate": 1624568939612,
-        "documentCreated": 1624568939612
-      }
-    },
-    "_client": "vLGcYikHXBSqq4",
-    "address": "Axys House",
-    "country": "US",
-    "$created": true,
-    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
-    "$invalid": false,
-    "_created": 1624377588000,
-    "_deleted": 0,
-    "_version": "Preferred Language",
-    "complete": 52,
-    "province": [],
-    "__created": 1621769333591,
-    "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
-    "_settings": {
-      "$id": "WdoYmj-FOBFYri:hestia/document-types",
-      "$state": "Saved"
-    },
-    "_components": {},
-    "companyName": "Gez Test 21",
-    "companySize": "Small Business",
-    "_updaterInfo": {
-      "-kkm4OhThVfEB2": {
-        "state": "Saved"
-      },
-      "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
-      },
-      "YF_aX-5R36pkDI": {
-        "state": "Saved"
-      },
-      "okFTMSwCgI9C4a": {
-        "state": "Saved"
-      }
-    },
-    "contractorId": "",
-    "profileState": "Saved",
-    "clientsLookup": [
-      "HDTuiRXl7x4xZa:clientA/clientA"
-    ],
-    "classification": "",
-    "workActivities": [
-      "cpzHPv4z_GB-_C:workA/workA"
-    ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
-    "_stateChangedAt": 1621769339708,
-    "numberOfEmployees": "23",
-    "preferredLanguage": "en"
-  },
-  {
-    "__": "EI0xanl9JK1psM",
-    "ZIP": "CF15 7TW",
-    "_id": "0_2UJzWBlntTZa:companyP/companyP",
-    "City": "Cardiff",
-    "_info": {
-      "workActivities": {
-        "rows": [
-          {
-            "_id": "60D3-FcUNm3LiQ:workA/workA",
-            "_settings": {
-              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
-            }
-          }
-        ]
-      }
-    },
-    "email": "geraint.farley@alcumus.com",
-    "phone": "01234567891",
-    "$modes": {},
-    "$valid": true,
-    "SHARED": {},
-    "client": "rsihYJKKDVyaYN",
-    "__chase": {
-      "Dee2r-Lb5_9MQZ": {
-        "pivotalDate": 1624568939792,
-        "documentCreated": 1624568939792
-      }
-    },
-    "_client": "0_2UJzWBlntTZa",
-    "address": "Axys House, Parc Nantgarw",
-    "country": "US",
-    "$created": true,
-    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
-    "$invalid": false,
-    "_created": 1624377588000,
-    "_deleted": 0,
-    "_version": "Preferred Language",
-    "complete": 52,
-    "province": [],
-    "__created": 1621845975308,
-    "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
-    "_settings": {
-      "$id": "WdoYmj-FOBFYri:hestia/document-types",
-      "$state": "Saved"
-    },
-    "_components": {},
-    "companyName": "Gez Test 22",
-    "companySize": "Small Business",
-    "_updaterInfo": {
-      "-kkm4OhThVfEB2": {
-        "state": "Saved"
-      },
-      "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
-      },
-      "YF_aX-5R36pkDI": {
-        "state": "Saved"
-      },
-      "okFTMSwCgI9C4a": {
-        "state": "Saved"
-      }
-    },
-    "contractorId": "",
-    "profileState": "New",
-    "clientsLookup": [],
-    "classification": "",
-    "workActivities": [
-      "60D3-FcUNm3LiQ:workA/workA"
-    ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
-    "_stateChangedAt": 1621845982623,
-    "numberOfEmployees": "23",
-    "preferredLanguage": "en"
-  },
-  {
-    "__": "WKYnNMMJ7qLqwY",
-    "ZIP": "CF15 7TW",
-    "_id": "5__XV2jc71F6H3:companyP/companyP",
-    "City": "Cardiff",
-    "_info": {
-      "workActivities": {
-        "rows": [
-          {
-            "_id": "1zgco_vwvH6Uat:workA/workA",
-            "_settings": {
-              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
-            }
-          }
-        ]
-      }
-    },
-    "email": "geraint.farley@alcumus.com",
-    "phone": "01234567891",
-    "$modes": {},
-    "$valid": true,
-    "SHARED": {},
-    "client": "rsihYJKKDVyaYN",
-    "__chase": {
-      "Dee2r-Lb5_9MQZ": {
-        "pivotalDate": 1624568940221,
-        "documentCreated": 1624568940221
-      }
-    },
-    "_client": "5__XV2jc71F6H3",
-    "address": "Axys House, Parc Nantgarw",
-    "country": "US",
-    "$created": true,
-    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
-    "$invalid": false,
-    "_created": 1624377588000,
-    "_deleted": 0,
-    "_version": "Preferred Language",
-    "complete": 52,
-    "province": [],
-    "__created": 1621846379509,
-    "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
-    "_settings": {
-      "$id": "WdoYmj-FOBFYri:hestia/document-types",
-      "$state": "Saved"
-    },
-    "_components": {},
-    "companyName": "Gez Test 23",
-    "companySize": "Small Business",
-    "_updaterInfo": {
-      "-kkm4OhThVfEB2": {
-        "state": "Saved"
-      },
-      "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
-      },
-      "YF_aX-5R36pkDI": {
-        "state": "Saved"
-      },
-      "okFTMSwCgI9C4a": {
-        "state": "Saved"
-      }
-    },
-    "contractorId": "",
-    "profileState": "New",
-    "clientsLookup": [],
-    "classification": "",
-    "workActivities": [
-      "1zgco_vwvH6Uat:workA/workA"
-    ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
-    "_stateChangedAt": 1621846386968,
-    "numberOfEmployees": "11",
-    "preferredLanguage": "en"
-  },
-  {
-    "__": "6pEpEp7rV0Hnyt",
-    "ZIP": "CF15 7TW",
-    "_id": "gXICsHcVh5bVV-:companyP/companyP",
-    "City": "Cardiff",
-    "_info": {
-      "workActivities": {
-        "rows": [
-          {
-            "_id": "oK0e9hmJBqKl-J:workA/workA",
-            "_settings": {
-              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
-            }
-          }
-        ]
-      }
-    },
-    "email": "geraint.farley@alcumus.com",
-    "phone": "01234567891",
-    "$modes": {},
-    "$valid": true,
-    "SHARED": {},
-    "client": "rsihYJKKDVyaYN",
-    "__chase": {
-      "Dee2r-Lb5_9MQZ": {
-        "pivotalDate": 1624568940446,
-        "documentCreated": 1624568940446
-      }
-    },
-    "_client": "gXICsHcVh5bVV-",
-    "address": "Axys House, Parc Nantgarw",
-    "country": "US",
-    "$created": true,
-    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
-    "$invalid": false,
-    "_created": 1624377589000,
-    "_deleted": 0,
-    "_version": "Preferred Language",
-    "complete": 52,
-    "province": [],
-    "__created": 1621846582479,
-    "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
-    "_settings": {
-      "$id": "WdoYmj-FOBFYri:hestia/document-types",
-      "$state": "Saved"
-    },
-    "_components": {},
-    "companyName": "Gez Test 24",
-    "companySize": "Small Business",
-    "_updaterInfo": {
-      "-kkm4OhThVfEB2": {
-        "state": "Saved"
-      },
-      "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
-      },
-      "YF_aX-5R36pkDI": {
-        "state": "Saved"
-      },
-      "okFTMSwCgI9C4a": {
-        "state": "Saved"
-      }
-    },
-    "contractorId": "",
-    "profileState": "New",
-    "clientsLookup": [],
-    "classification": "",
-    "workActivities": [
-      "oK0e9hmJBqKl-J:workA/workA"
-    ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
-    "_stateChangedAt": 1621846589949,
-    "numberOfEmployees": "22",
-    "preferredLanguage": "en"
-  },
-  {
-    "__": "MvNqEhaQoATSob",
-    "ZIP": "CF15 7TW",
-    "_id": "_BHxF1SGiJYhfZ:companyP/companyP",
-    "City": "Cardiff",
-    "_info": {
-      "clientsLookup": {
-        "rows": [
-          {
-            "_id": "8-DZ0dQ-ny8sF0:companyP/companyP",
-            "_settings": {
-              "_id": "WdoYmj-FOBFYri:hestia/document-types"
-            }
-          }
-        ]
-      },
-      "workActivities": {
-        "rows": [
-          {
-            "_id": "qmaPwMF5Kg3KTd:workA/workA",
-            "_settings": {
-              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
-            }
-          }
-        ]
-      }
-    },
-    "email": "geraint.farley@alcumus.com",
-    "phone": "01234567891",
-    "$modes": {},
-    "$valid": true,
-    "SHARED": {},
-    "client": "rsihYJKKDVyaYN",
-    "__chase": {
-      "Dee2r-Lb5_9MQZ": {
-        "pivotalDate": 1624568940750,
-        "documentCreated": 1624568940750
-      }
-    },
-    "_client": "_BHxF1SGiJYhfZ",
-    "address": "Axys House, Parc Nantgarw",
-    "clients": [
-      "Agellan Capital Partners Inc"
-    ],
-    "country": [
-      "Canada"
-    ],
-    "$created": true,
-    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
-    "$invalid": false,
-    "_created": 1624377589000,
-    "_deleted": 0,
-    "_version": "Preferred Language",
-    "complete": 66,
-    "province": [
-      "Alberta"
-    ],
-    "__created": 1623422043859,
-    "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625575185000,
-    "_settings": {
-      "$id": "WdoYmj-FOBFYri:hestia/document-types",
-      "$state": "Saved"
-    },
-    "_components": {},
-    "companyName": "Gez Test 100",
-    "companySize": "Small Business",
-    "description": "",
-    "_updaterInfo": {
-      "-kkm4OhThVfEB2": {
-        "state": "Saved"
-      },
-      "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
-      },
-      "YF_aX-5R36pkDI": {
-        "state": "Saved"
-      },
-      "okFTMSwCgI9C4a": {
-        "state": "Saved"
-      }
-    },
-    "contractorId": "",
-    "profileState": "",
-    "workActivity": [
-      "Ability to Subcontract"
-    ],
-    "clientsLookup": [
-      "8-DZ0dQ-ny8sF0:companyP/companyP"
-    ],
-    "doYouContract": "yes",
-    "classification": "",
-    "workActivities": [
-      "qmaPwMF5Kg3KTd:workA/workA"
-    ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
-    "_stateChangedAt": 1623422045035,
-    "headOfficeCountry": "",
-    "numberOfEmployees": "11",
-    "preferredLanguage": "en",
-    "doYouUseContractors": "yes"
-  },
-  {
-    "__": "K-ApJ3cWe0wjKb",
-    "ZIP": "CF15 7TW",
-    "_id": "KacEkfEN5SmNlV:companyP/companyP",
-    "City": "Cardiff",
-    "_info": {
-      "clientsLookup": {
-        "rows": [
-          {
-            "_id": "trzCa9I4sMgRmV:contractorcheck/masterCompanyProfile",
-            "_settings": {
-              "_id": "UJns4BZ0dhGyw5:hestia/document-types"
-            }
-          },
-          {
-            "_id": "Mx20OTel7MWV4d:contractorcheck/masterCompanyProfile",
-            "_settings": {
-              "_id": "UJns4BZ0dhGyw5:hestia/document-types"
-            }
-          }
-        ]
-      },
-      "workActivities": {
-        "rows": [
-          {
-            "_id": "BpgE8d5PhIAKT8:workA/workA",
-            "_settings": {
-              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
-            }
-          }
-        ]
-      }
-    },
-    "email": "geraint.farley@alcumus.com",
-    "phone": "01234567891",
-    "$modes": {},
-    "$valid": true,
-    "SHARED": {},
-    "client": "rsihYJKKDVyaYN",
-    "__chase": {
-      "Dee2r-Lb5_9MQZ": {
-        "pivotalDate": 1624371617706,
-        "documentCreated": 1624371617706
-      }
-    },
-    "_client": "KacEkfEN5SmNlV",
-    "address": "Axys House, Parc Nantgarw",
-    "clients": [
-      "Calgary Co-Operative Association Limited",
-      "Bimbo Canada (Canada Bread)"
-    ],
-    "country": [
-      "Canada"
-    ],
-    "$created": true,
-    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
-    "$invalid": false,
-    "_created": 1624377589000,
-    "_deleted": 0,
-    "_version": "Preferred Language",
-    "complete": 66,
-    "province": [
-      "British Columbia",
-      "New Brunswick",
-      "Northwest Territories"
-    ],
-    "__created": 1623759563085,
-    "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625575185000,
-    "_settings": {
-      "$id": "WdoYmj-FOBFYri:hestia/document-types",
-      "$state": "Saved"
-    },
-    "_components": {},
-    "companyName": "Mario Bros Plumbing",
-    "companySize": "Small Business",
-    "description": "",
-    "_updaterInfo": {
-      "-kkm4OhThVfEB2": {
-        "state": "Saved"
-      },
-      "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
-      },
-      "YF_aX-5R36pkDI": {
-        "state": "Saved"
-      },
-      "okFTMSwCgI9C4a": {
-        "state": "Saved"
-      }
-    },
-    "contractorId": "",
-    "profileState": "",
-    "workActivity": [
-      "Plumbing"
-    ],
-    "clientsLookup": [
-      "trzCa9I4sMgRmV:contractorcheck/masterCompanyProfile",
-      "Mx20OTel7MWV4d:contractorcheck/masterCompanyProfile"
-    ],
-    "doYouContract": "yes",
-    "classification": "",
-    "workActivities": [
-      "BpgE8d5PhIAKT8:workA/workA"
-    ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
-    "_stateChangedAt": 1623759565644,
-    "headOfficeCountry": "",
-    "numberOfEmployees": "22",
-    "preferredLanguage": "en",
-    "doYouUseContractors": "yes"
   },
   {
     "__": "vDs7mQqC-D_tSK",
@@ -8814,9 +8641,9 @@
     "doYouUseContractors": "no"
   },
   {
-    "__": "FNshA9p7iUm1j_",
+    "__": "Hi1v8I57FYWfmw",
     "ZIP": "",
-    "_id": "SiG_Z8lm5Vrnk5:companyP/companyP",
+    "_id": "J38USr5Fw71lmi:companyP/companyP",
     "City": "",
     "_info": {
       "clientsLookup": {
@@ -8830,7 +8657,7 @@
         ]
       }
     },
-    "email": "ad_delete@mailhog.com",
+    "email": "",
     "phone": "",
     "$modes": {},
     "$valid": true,
@@ -8838,11 +8665,11 @@
     "client": "rsihYJKKDVyaYN",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
-        "pivotalDate": 1625837897330,
-        "documentCreated": 1625837897330
+        "pivotalDate": 1626089461541,
+        "documentCreated": 1626089461541
       }
     },
-    "_client": "SiG_Z8lm5Vrnk5",
+    "_client": "J38USr5Fw71lmi",
     "address": "",
     "clients": [
       "Agellan Capital Partners Inc"
@@ -8851,24 +8678,27 @@
     "$created": true,
     "$creator": "3e424bc3-fb9a-47a1-93a1-056351146687",
     "$invalid": false,
-    "_created": 1625834297000,
+    "_created": 1626085861000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 26,
+    "complete": 23,
     "province": [],
-    "__created": 1625837896614,
+    "__created": 1626089460873,
     "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625843272000,
+    "_modified": 1626085861000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
     },
     "_components": {},
-    "companyName": "ad_delete",
+    "companyName": "test",
     "companySize": "Sole Proprietor",
     "description": "",
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "5W2iA7W1ma2gWO": {
         "state": "Saved"
       },
       "Qi6ubuhBLjlkcx": {
@@ -8893,13 +8723,766 @@
     "complete_count": 16,
     "workActivities": [],
     "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
-    "_stateChangedAt": 1625837897329,
+    "_stateChangedAt": 1626089461541,
+    "complete_remain": 13,
+    "complete_complete": 3,
+    "headOfficeCountry": "",
+    "numberOfEmployees": "",
+    "preferredLanguage": "",
+    "workActivityFrench": [],
+    "doYouUseContractors": []
+  },
+  {
+    "__": "mpHpXg4rBVwWzj",
+    "ZIP": "",
+    "_id": "UOs30p_yPak_vW:companyP/companyP",
+    "City": "",
+    "_info": {
+      "clientsLookup": {
+        "rows": []
+      }
+    },
+    "email": "automation-contractor-1626092020057@mailhog.com",
+    "phone": "",
+    "SHARED": {},
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1626092020192,
+        "documentCreated": 1626092020192
+      }
+    },
+    "_client": "UOs30p_yPak_vW",
+    "address": "",
+    "clients": [
+      "Agellan Capital Partners Inc"
+    ],
+    "country": [],
+    "$created": true,
+    "_created": 1626088420000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "_modified": 1626088420000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Saved"
+    },
+    "companyName": "Automation Contractor 1626092020057",
+    "companySize": "Sole Proprietor",
+    "description": "",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Saved"
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Saved"
+      }
+    },
+    "contractorId": "",
+    "profileState": "",
+    "tradingNames": "",
+    "workActivity": [],
+    "clientsLookup": [
+      "8-DZ0dQ-ny8sF0:contractorcheck/masterCompanyProfile"
+    ],
+    "doYouContract": "yes",
+    "classification": "",
+    "complete_count": 16,
+    "workActivities": [],
+    "_lastModifiedBy": "9f5e0e15-e8c9-4de8-8606-b54703b81a1f",
+    "_stateChangedAt": 1626092039400,
+    "complete_remain": 11,
+    "complete_complete": 5,
+    "headOfficeCountry": "",
+    "numberOfEmployees": "",
+    "preferredLanguage": "",
+    "workActivityFrench": [],
+    "doYouUseContractors": "no"
+  },
+  {
+    "__": "4msveZ3xTDobK1",
+    "ZIP": "",
+    "_id": "xAryBS-Cx8RiG2:companyP/companyP",
+    "City": "",
+    "_info": {
+      "clientsLookup": {
+        "rows": []
+      }
+    },
+    "email": "automation-contractor-1626092086385@mailhog.com",
+    "phone": "",
+    "SHARED": {},
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1626092086509,
+        "documentCreated": 1626092086509
+      }
+    },
+    "_client": "xAryBS-Cx8RiG2",
+    "address": "",
+    "clients": [
+      "Agellan Capital Partners Inc"
+    ],
+    "country": [],
+    "$created": true,
+    "_created": 1626088486000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "_modified": 1626088486000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Saved"
+    },
+    "companyName": "Automation Contractor 1626092086385",
+    "companySize": "Sole Proprietor",
+    "description": "",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Saved"
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Saved"
+      }
+    },
+    "contractorId": "",
+    "profileState": "",
+    "tradingNames": "",
+    "workActivity": [],
+    "clientsLookup": [
+      "8-DZ0dQ-ny8sF0:contractorcheck/masterCompanyProfile"
+    ],
+    "doYouContract": "yes",
+    "classification": "",
+    "complete_count": 16,
+    "workActivities": [],
+    "_lastModifiedBy": "4021b8cf-fb53-4e84-aa10-c65da52d6808",
+    "_stateChangedAt": 1626092103949,
+    "complete_remain": 11,
+    "complete_complete": 5,
+    "headOfficeCountry": "",
+    "numberOfEmployees": "",
+    "preferredLanguage": "",
+    "workActivityFrench": [],
+    "doYouUseContractors": "no"
+  },
+  {
+    "__": "uDLh5hB466xLHw",
+    "ZIP": "",
+    "_id": "OMwqPOnX__Q4xO:companyP/companyP",
+    "City": "",
+    "_info": {
+      "clientsLookup": {
+        "rows": []
+      }
+    },
+    "email": "automation-contractor-1626093451254@mailhog.com",
+    "phone": "",
+    "SHARED": {},
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1626093451374,
+        "documentCreated": 1626093451374
+      }
+    },
+    "_client": "OMwqPOnX__Q4xO",
+    "address": "",
+    "clients": [
+      "Agellan Capital Partners Inc"
+    ],
+    "country": [],
+    "$created": true,
+    "_created": 1626089851000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "_modified": 1626089851000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Saved"
+    },
+    "companyName": "Automation Contractor 1626093451254",
+    "companySize": "Sole Proprietor",
+    "description": "",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Saved"
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Saved"
+      }
+    },
+    "contractorId": "",
+    "profileState": "",
+    "tradingNames": "",
+    "workActivity": [],
+    "clientsLookup": [
+      "8-DZ0dQ-ny8sF0:contractorcheck/masterCompanyProfile"
+    ],
+    "doYouContract": "yes",
+    "classification": "",
+    "complete_count": 16,
+    "workActivities": [],
+    "_lastModifiedBy": "76a1e967-ca08-47e9-a8b8-569563fcdd3c",
+    "_stateChangedAt": 1626093469722,
+    "complete_remain": 11,
+    "complete_complete": 5,
+    "headOfficeCountry": "",
+    "numberOfEmployees": "",
+    "preferredLanguage": "",
+    "workActivityFrench": [],
+    "doYouUseContractors": "no"
+  },
+  {
+    "__": "Xgv0w5j07t5zXL",
+    "ZIP": "",
+    "_id": "t6rpADJ6J6DQiK:companyP/companyP",
+    "City": "",
+    "_info": {
+      "clientsLookup": {
+        "rows": []
+      }
+    },
+    "email": "automation-contractor-1626093584063@mailhog.com",
+    "phone": "",
+    "SHARED": {},
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1626093584208,
+        "documentCreated": 1626093584208
+      }
+    },
+    "_client": "t6rpADJ6J6DQiK",
+    "address": "",
+    "clients": [
+      "Agellan Capital Partners Inc"
+    ],
+    "country": [],
+    "$created": true,
+    "_created": 1626089984000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "_modified": 1626089984000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Saved"
+    },
+    "companyName": "Automation Contractor 1626093584063",
+    "companySize": "Sole Proprietor",
+    "description": "",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Saved"
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Saved"
+      }
+    },
+    "contractorId": "",
+    "profileState": "",
+    "tradingNames": "",
+    "workActivity": [],
+    "clientsLookup": [
+      "8-DZ0dQ-ny8sF0:contractorcheck/masterCompanyProfile"
+    ],
+    "doYouContract": "yes",
+    "classification": "",
+    "complete_count": 16,
+    "workActivities": [],
+    "_lastModifiedBy": "e55817d2-bcb0-4765-9e19-e50381a99587",
+    "_stateChangedAt": 1626093601328,
+    "complete_remain": 11,
+    "complete_complete": 5,
+    "headOfficeCountry": "",
+    "numberOfEmployees": "",
+    "preferredLanguage": "",
+    "workActivityFrench": [],
+    "doYouUseContractors": "no"
+  },
+  {
+    "__": "a0pBgf53B-0cAC",
+    "ZIP": "",
+    "_id": "UVuAi7YrXEUT_w:companyP/companyP",
+    "City": "",
+    "_info": {
+      "clientsLookup": {
+        "rows": []
+      }
+    },
+    "email": "automation-contractor-1626094348634@mailhog.com",
+    "phone": "",
+    "SHARED": {},
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1626094348768,
+        "documentCreated": 1626094348768
+      }
+    },
+    "_client": "UVuAi7YrXEUT_w",
+    "address": "",
+    "clients": [
+      "Agellan Capital Partners Inc"
+    ],
+    "country": [],
+    "$created": true,
+    "_created": 1626090748000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "_modified": 1626090748000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Saved"
+    },
+    "companyName": "Automation Contractor 1626094348634",
+    "companySize": "Sole Proprietor",
+    "description": "",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Saved"
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Saved"
+      }
+    },
+    "contractorId": "",
+    "profileState": "",
+    "tradingNames": "",
+    "workActivity": [],
+    "clientsLookup": [
+      "8-DZ0dQ-ny8sF0:contractorcheck/masterCompanyProfile"
+    ],
+    "doYouContract": "yes",
+    "classification": "",
+    "complete_count": 16,
+    "workActivities": [],
+    "_lastModifiedBy": "c3fb4908-fb2f-42e2-a96c-e3aba782b86b",
+    "_stateChangedAt": 1626094367803,
+    "complete_remain": 11,
+    "complete_complete": 5,
+    "headOfficeCountry": "",
+    "numberOfEmployees": "",
+    "preferredLanguage": "",
+    "workActivityFrench": [],
+    "doYouUseContractors": "no"
+  },
+  {
+    "__": "3ts3d_V2LB2l2j",
+    "_id": "raeZhaVchCeGxa:companyP/companyP",
+    "email": "automation-contractor-1626094408690@mailhog.com",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1626094408799,
+        "documentCreated": 1626094408799
+      }
+    },
+    "_client": "raeZhaVchCeGxa",
+    "$created": true,
+    "_created": 1626090808000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 15,
+    "_modified": 1626090808000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "companyName": "Automation Contractor 1626094408690",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New"
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New"
+      }
+    },
+    "doYouContract": "yes",
+    "doYouUseContractors": "no"
+  },
+  {
+    "__": "qxkqeoVb2LivMF",
+    "_id": "RtH0IO9I-Hu2ia:companyP/companyP",
+    "email": "automation-contractor-1626094886956@mailhog.com",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1626094887085,
+        "documentCreated": 1626094887085
+      }
+    },
+    "_client": "RtH0IO9I-Hu2ia",
+    "$created": true,
+    "_created": 1626091287000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 15,
+    "_modified": 1626091287000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "companyName": "Automation Contractor 1626094886956",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New"
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New"
+      }
+    },
+    "doYouContract": "yes",
+    "doYouUseContractors": "no"
+  },
+  {
+    "__": "ln-FY_P23GbFWg",
+    "ZIP": "",
+    "_id": "PQwLLf0DdXYb90:companyP/companyP",
+    "City": "",
+    "email": "automation-contractor-1626095367275@mailhog.com",
+    "phone": "",
+    "SHARED": {},
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1626095367393,
+        "documentCreated": 1626095367393
+      }
+    },
+    "_client": "PQwLLf0DdXYb90",
+    "address": "",
+    "clients": [],
+    "country": [],
+    "$created": true,
+    "_created": 1626091767000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 23,
+    "_modified": 1626091767000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Saved"
+    },
+    "companyName": "Automation Contractor 1626095367275",
+    "companySize": "Sole Proprietor",
+    "description": "",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Saved"
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Saved"
+      }
+    },
+    "contractorId": "",
+    "profileState": "",
+    "tradingNames": "",
+    "workActivity": [],
+    "clientsLookup": [],
+    "doYouContract": "yes",
+    "classification": "",
+    "complete_count": 16,
+    "workActivities": [],
+    "_lastModifiedBy": "a6435ec1-c1d4-4482-9ff3-d6aa7cea0e42",
+    "_stateChangedAt": 1626095432988,
     "complete_remain": 12,
     "complete_complete": 4,
     "headOfficeCountry": "",
     "numberOfEmployees": "",
     "preferredLanguage": "",
     "workActivityFrench": [],
-    "doYouUseContractors": []
+    "doYouUseContractors": "no"
+  },
+  {
+    "__": "s_CbpkAziDWZT1",
+    "ZIP": "",
+    "_id": "IMqqdrif4PYqjO:companyP/companyP",
+    "City": "",
+    "_info": {
+      "clientsLookup": {
+        "rows": [
+          {
+            "_id": "8-DZ0dQ-ny8sF0:contractorcheck/masterCompanyProfile",
+            "_settings": {
+              "_id": "UJns4BZ0dhGyw5:hestia/document-types"
+            }
+          }
+        ]
+      }
+    },
+    "email": "automation-contractor-1626095536237@mailhog.com",
+    "phone": "",
+    "SHARED": {},
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1626095536360,
+        "documentCreated": 1626095536360
+      }
+    },
+    "_client": "IMqqdrif4PYqjO",
+    "address": "",
+    "clients": [
+      "Agellan Capital Partners Inc"
+    ],
+    "country": [],
+    "$created": true,
+    "_created": 1626091936000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "_modified": 1626091936000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Saved"
+    },
+    "companyName": "Automation Contractor 1626095536237",
+    "companySize": "Sole Proprietor",
+    "description": "",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Saved"
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Saved"
+      }
+    },
+    "contractorId": "",
+    "profileState": "",
+    "tradingNames": "",
+    "workActivity": [],
+    "clientsLookup": [
+      "8-DZ0dQ-ny8sF0:contractorcheck/masterCompanyProfile"
+    ],
+    "doYouContract": "yes",
+    "classification": "",
+    "complete_count": 16,
+    "workActivities": [],
+    "_lastModifiedBy": "f1fe9f40-be2b-4e84-9be8-80f74e7a5f8a",
+    "_stateChangedAt": 1626095585274,
+    "complete_remain": 11,
+    "complete_complete": 5,
+    "headOfficeCountry": "",
+    "numberOfEmployees": "",
+    "preferredLanguage": "",
+    "workActivityFrench": [],
+    "doYouUseContractors": "no"
+  },
+  {
+    "__": "8suMt9cPatOcS_",
+    "_id": "fDW0wNi4EIKfwb:companyP/companyP",
+    "email": "automation-contractor-1626095863189@mailhog.com",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1626095863304,
+        "documentCreated": 1626095863304
+      }
+    },
+    "_client": "fDW0wNi4EIKfwb",
+    "$created": true,
+    "_created": 1626092263000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 15,
+    "_modified": 1626092263000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "companyName": "Automation Contractor 1626095863189",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New"
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New"
+      }
+    },
+    "doYouContract": "yes",
+    "doYouUseContractors": "no"
+  },
+  {
+    "__": "Yyq0K68RZNfWvc",
+    "_id": "U5H5puMKoROTKz:companyP/companyP",
+    "email": "automation-contractor-1626095914694@mailhog.com",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1626095914784,
+        "documentCreated": 1626095914784
+      }
+    },
+    "_client": "U5H5puMKoROTKz",
+    "$created": true,
+    "_created": 1626092314000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 15,
+    "_modified": 1626092314000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "companyName": "Automation Contractor 1626095914694",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New"
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New"
+      }
+    },
+    "doYouContract": "yes",
+    "doYouUseContractors": "no"
+  },
+  {
+    "__": "U8cgOQCn_oJxeT",
+    "ZIP": "",
+    "_id": "wxvzabqwJ8HkVR:companyP/companyP",
+    "City": "",
+    "email": "automation-contractor-1626095965043@mailhog.com",
+    "phone": "",
+    "SHARED": {},
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1626095965144,
+        "documentCreated": 1626095965144
+      }
+    },
+    "_client": "wxvzabqwJ8HkVR",
+    "address": "",
+    "clients": [],
+    "country": [],
+    "$created": true,
+    "_created": 1626092365000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 23,
+    "_modified": 1626092365000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Saved"
+    },
+    "companyName": "Automation Contractor 1626095965043",
+    "companySize": "Sole Proprietor",
+    "description": "",
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved"
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved"
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Saved"
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Saved"
+      }
+    },
+    "contractorId": "",
+    "profileState": "",
+    "tradingNames": "",
+    "workActivity": [],
+    "clientsLookup": [],
+    "doYouContract": "yes",
+    "classification": "",
+    "complete_count": 16,
+    "workActivities": [],
+    "_lastModifiedBy": "79d06c6c-9a48-48c6-9c35-54e6f6c79b81",
+    "_stateChangedAt": 1626096025614,
+    "complete_remain": 12,
+    "complete_complete": 4,
+    "headOfficeCountry": "",
+    "numberOfEmployees": "",
+    "preferredLanguage": "",
+    "workActivityFrench": [],
+    "doYouUseContractors": "no"
   }
 ]
