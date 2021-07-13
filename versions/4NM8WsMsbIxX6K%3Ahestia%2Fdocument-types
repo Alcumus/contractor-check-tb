@@ -1,6 +1,6 @@
 [
   {
-    "__": "yA91uEoAplX4wD",
+    "__": "rgTZtuocskY0Yn",
     "_id": "4NM8WsMsbIxX6K-TLQOo4mQgq7yrJ:hestia/versions",
     "__id": "4NM8WsMsbIxX6K:hestia/document-types",
     "icon": "",
@@ -194,7 +194,7 @@
     "_deleted": 0,
     "database": "salesforce",
     "maxWidth": 1000,
-    "_modified": 1626181954000,
+    "_modified": 1626182479000,
     "components": "",
     "navigation": [],
     "_behaviours": {
@@ -306,7 +306,7 @@
           {
             "id": "7GH2rDI9YCaRCT",
             "name": "Update In SalesForce",
-            "sfID": "{SalesforceAccoutID}",
+            "sfID": "{SalesforceAccountID}",
             "onEnter": "",
             "inStates": [
               "New"
@@ -405,6 +405,7 @@
     "devices-allowed": "",
     "sideBarMinWidth": 150,
     "__hideBehaviours": true,
+    "__hidePublishing": true,
     "documentBackdrop": "#f4f4f4",
     "sidebarBackground": "#fff",
     "documentBackground": "#f4f4f4",

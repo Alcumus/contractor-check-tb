@@ -1,5 +1,5 @@
 {
-  "__": "yLuccNUgOh6mH9",
+  "__": "ur_RfBaTmzQDI9",
   "_id": "4NM8WsMsbIxX6K:hestia/document-types",
   "icon": "",
   "name": "SalesforceSyncTest",
@@ -196,13 +196,14 @@
     {
       "id": "TLQOo4mQgq7yrJ",
       "name": "1",
-      "time": 1626185703246,
+      "time": 1626186302096,
       "user": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
       "locked": false,
+      "_selectId": "ksy7Hls6YCrVmb",
       "parentVersion": ""
     }
   ],
-  "_modified": 1626182103000,
+  "_modified": 1626182716000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -314,7 +315,7 @@
         {
           "id": "7GH2rDI9YCaRCT",
           "name": "Update In SalesForce",
-          "sfID": "{SalesforceAccoutID}",
+          "sfID": "{SalesforceAccountID}",
           "onEnter": "",
           "inStates": [
             "New"
@@ -413,6 +414,7 @@
   "devices-allowed": "",
   "sideBarMinWidth": 150,
   "__hideBehaviours": true,
+  "__hidePublishing": true,
   "documentBackdrop": "#f4f4f4",
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
