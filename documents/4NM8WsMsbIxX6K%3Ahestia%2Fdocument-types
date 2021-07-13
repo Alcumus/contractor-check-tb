@@ -1,5 +1,5 @@
 {
-  "__": "xBngwc3xc2FeO-",
+  "__": "ZvpKqZLsuj0iQI",
   "_id": "4NM8WsMsbIxX6K:hestia/document-types",
   "icon": "",
   "name": "SalesforceSyncTest",
@@ -196,14 +196,14 @@
     {
       "id": "TLQOo4mQgq7yrJ",
       "name": "1",
-      "time": 1626186784736,
+      "time": 1626186838326,
       "user": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
       "locked": false,
-      "_selectId": "uYYMw9PtbPjsys",
+      "_selectId": "vlXQPYJP39D3Dn",
       "parentVersion": ""
     }
   ],
-  "_modified": 1626183185000,
+  "_modified": 1626183238000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -315,7 +315,7 @@
         {
           "id": "7GH2rDI9YCaRCT",
           "name": "Update In SalesForce",
-          "sfID": "{toBool(SalesforceAccountID)}",
+          "sfID": "{SalesforceAccountID}",
           "onEnter": "",
           "inStates": [
             "New"
@@ -325,12 +325,17 @@
             {
               "id": "KA_PzqGfzixBiC",
               "field": "Accreditation_Expired__c",
-              "value": "{AccreditationExpired}"
+              "value": [
+                "{AccreditationExpired}",
+                "{toBool(AccreditationExpired)}"
+              ]
             },
             {
               "id": "FklS9NaKbZ5RhW",
               "field": "ConractorCheck_ID__c",
-              "value": "{ContractorCheckID}"
+              "value": [
+                "{ContractorCheckID}"
+              ]
             },
             {
               "id": "jQGoEgbuVROETP",

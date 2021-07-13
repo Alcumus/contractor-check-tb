@@ -1,6 +1,6 @@
 [
   {
-    "__": "TNB6t7mPZkFxEg",
+    "__": "CdbCDnaGOLpJzR",
     "_id": "4NM8WsMsbIxX6K-TLQOo4mQgq7yrJ:hestia/versions",
     "__id": "4NM8WsMsbIxX6K:hestia/document-types",
     "icon": "",
@@ -306,7 +306,7 @@
           {
             "id": "7GH2rDI9YCaRCT",
             "name": "Update In SalesForce",
-            "sfID": "{toBool(SalesforceAccountID)}",
+            "sfID": "{SalesforceAccountID}",
             "onEnter": "",
             "inStates": [
               "New"
@@ -316,12 +316,17 @@
               {
                 "id": "KA_PzqGfzixBiC",
                 "field": "Accreditation_Expired__c",
-                "value": "{AccreditationExpired}"
+                "value": [
+                  "{AccreditationExpired}",
+                  "{toBool(AccreditationExpired)}"
+                ]
               },
               {
                 "id": "FklS9NaKbZ5RhW",
                 "field": "ConractorCheck_ID__c",
-                "value": "{ContractorCheckID}"
+                "value": [
+                  "{ContractorCheckID}"
+                ]
               },
               {
                 "id": "jQGoEgbuVROETP",
