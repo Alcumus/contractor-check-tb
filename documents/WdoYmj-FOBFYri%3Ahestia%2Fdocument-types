@@ -231,7 +231,6 @@
       "time": 1626096050208,
       "user": "3e424bc3-fb9a-47a1-93a1-056351146687",
       "locked": false,
-      "_selectId": "uHpoa2hWTX3wE6",
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
@@ -2091,6 +2090,7 @@
   "defaultState": "New",
   "sidebarColor": "#333",
   "tabsSelected": "#009fda",
+  "__hideRecords": true,
   "__warnReasons": [],
   "documentColor": "#333",
   "_activeVersion": "zk0gwNadHUfzTE",
@@ -2106,6 +2106,8 @@
   "defaultActivity": "x_5KNezQjHRN0v",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
+  "__hideBehaviours": false,
+  "__hidePublishing": false,
   "documentBackdrop": "#f4f4f4",
   "_updatersExpanded": true,
   "sidebarBackground": "#fff",
