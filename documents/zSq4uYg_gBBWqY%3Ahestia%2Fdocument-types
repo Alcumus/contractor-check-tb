@@ -1,5 +1,5 @@
 {
-  "__": "CSVuHTYYxik1VP",
+  "__": "bt5_PXhX-nFYw8",
   "_id": "zSq4uYg_gBBWqY:hestia/document-types",
   "icon": "",
   "name": "Anchor Request",
@@ -166,6 +166,7 @@
     "permanentTheme": ""
   },
   "$valid": true,
+  "client": "rsihYJKKDVyaYN",
   "gitHub": {
     "1J8739KZBOtzVQ": {
       "publishDocs": "",
@@ -196,13 +197,13 @@
     {
       "id": "RlnNXS8fP37e6b",
       "name": "1.0",
-      "time": 1626175752542,
+      "time": 1626189660437,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
       "parentVersion": ""
     }
   ],
-  "_modified": 1626172152000,
+  "_modified": 1626186060000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -293,62 +294,94 @@
                   "questionSpaceBefore": ""
                 },
                 {
-                  "id": "hCD1CG9nhHbm33",
+                  "id": "NaHXk-y1bGxozP",
                   "name": "contractorConfirms",
-                  "type": "boolean",
+                  "type": "choice",
                   "hints": {},
                   "choices": [
                     {
-                      "label": "Yes",
+                      "label": "requested",
+                      "value": "requested"
+                    },
+                    {
+                      "label": "yes",
                       "value": "yes"
                     },
                     {
-                      "label": "No",
+                      "label": "no",
                       "value": "no"
                     }
                   ],
                   "question": "",
-                  "_selectId": "qQq7MFFZ_s8yM7",
+                  "_selectId": "k7NFbrE3D9j85y",
                   "condition": "",
-                  "allowNullify": "",
+                  "inputLabel": "",
+                  "choiceOptions": {
+                    "no": {
+                      "icon": "",
+                      "colour": ""
+                    },
+                    "yes": {
+                      "icon": "",
+                      "colour": ""
+                    },
+                    "requested": {
+                      "icon": "",
+                      "colour": ""
+                    }
+                  },
+                  "defaultChoices": [],
                   "questionHeight": "",
-                  "trueInputLabel": "",
                   "clearIfDisabled": "",
-                  "falseInputLabel": "",
                   "questionLeftPad": "",
                   "questionRightPad": "",
                   "editableCondition": "",
-                  "questionSpaceBefore": "",
-                  "selectedDefaultValue": "-1"
+                  "questionSpaceBefore": ""
                 },
                 {
-                  "id": "9wdX420qH05u7u",
+                  "id": "ByMA43nU7tuYdh",
                   "name": "clientConfirms",
-                  "type": "boolean",
+                  "type": "choice",
                   "hints": {},
                   "choices": [
                     {
-                      "label": "Yes",
+                      "label": "requested",
+                      "value": "requested"
+                    },
+                    {
+                      "label": "yes",
                       "value": "yes"
                     },
                     {
-                      "label": "No",
+                      "label": "no",
                       "value": "no"
                     }
                   ],
                   "question": "",
-                  "_selectId": "lAX7fyAlRIo6z9",
+                  "_selectId": "MN-LfxxEuMzHA1",
                   "condition": "",
-                  "allowNullify": "",
+                  "inputLabel": "",
+                  "choiceOptions": {
+                    "no": {
+                      "icon": "",
+                      "colour": ""
+                    },
+                    "yes": {
+                      "icon": "",
+                      "colour": ""
+                    },
+                    "requested": {
+                      "icon": "",
+                      "colour": ""
+                    }
+                  },
+                  "defaultChoices": [],
                   "questionHeight": "",
-                  "trueInputLabel": "",
                   "clearIfDisabled": "",
-                  "falseInputLabel": "",
                   "questionLeftPad": "",
                   "questionRightPad": "",
                   "editableCondition": "",
-                  "questionSpaceBefore": "",
-                  "selectedDefaultValue": "-1"
+                  "questionSpaceBefore": ""
                 }
               ]
             }
