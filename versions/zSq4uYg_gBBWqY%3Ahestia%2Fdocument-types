@@ -1,6 +1,6 @@
 [
   {
-    "__": "LBmY07cwCSFDSB",
+    "__": "MsodXNKoIkwwU9",
     "_id": "zSq4uYg_gBBWqY-RlnNXS8fP37e6b:hestia/versions",
     "__id": "zSq4uYg_gBBWqY:hestia/document-types",
     "icon": "",
@@ -194,7 +194,7 @@
     "_deleted": 0,
     "database": "contractorcheck",
     "maxWidth": 1000,
-    "_modified": 1626100552000,
+    "_modified": 1626171894000,
     "components": "",
     "navigation": [],
     "_behaviours": {
@@ -358,15 +358,44 @@
             "forms": [
               {
                 "id": "UPkFoxJM5SCGZo",
-                "form": "01rd2KZ7vYF8jj"
+                "form": "01rd2KZ7vYF8jj",
+                "readOnly": "",
+                "_selectId": "dZyK8GamZFO84n"
               }
             ],
             "inline": true,
-            "actions": [],
+            "actions": [
+              {
+                "id": "zr7yY9OcZXkGZ_",
+                "blur": "",
+                "icon": "",
+                "color": "#fff",
+                "modal": {
+                  "enabled": false
+                },
+                "goBack": "",
+                "caption": "Submit",
+                "command": "setData",
+                "toState": "New",
+                "variant": "text",
+                "_selectId": "k0e5Z_WIxCEzlE",
+                "condition": "",
+                "endOfLine": "",
+                "navigateTo": "",
+                "properties": [],
+                "changeState": true,
+                "backgroundColor": "#03a9f4",
+                "visibleCondition": "",
+                "notificationToast": ""
+              }
+            ],
+            "storeIn": "",
             "_selectId": "TvXg1EdVTqJlGj",
+            "editDemands": [],
             "inputStates": [
               "New"
-            ]
+            ],
+            "visibleDemands": []
           }
         ]
       }
@@ -377,6 +406,7 @@
     "defaultState": "New",
     "sidebarColor": "#333",
     "tabsSelected": "#009fda",
+    "__hideRecords": true,
     "documentColor": "#333",
     "_activeVersion": "RlnNXS8fP37e6b",
     "_parentVersion": "",
@@ -392,8 +422,9 @@
     "devices-allowed": "",
     "sideBarMinWidth": 150,
     "__hideBehaviours": true,
-    "__hidePublishing": true,
+    "__hidePublishing": false,
     "documentBackdrop": "#f4f4f4",
+    "_updatersExpanded": false,
     "sidebarBackground": "#fff",
     "documentBackground": "#f4f4f4",
     "devices-allowed-html": ""
