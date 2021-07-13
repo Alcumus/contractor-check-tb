@@ -1,6 +1,6 @@
 [
   {
-    "__": "CdbCDnaGOLpJzR",
+    "__": "jHHKssXyL2rv5w",
     "_id": "4NM8WsMsbIxX6K-TLQOo4mQgq7yrJ:hestia/versions",
     "__id": "4NM8WsMsbIxX6K:hestia/document-types",
     "icon": "",
@@ -313,14 +313,6 @@
             ],
             "_selectId": "zxQgZYQJTB0eai",
             "properties": [
-              {
-                "id": "KA_PzqGfzixBiC",
-                "field": "Accreditation_Expired__c",
-                "value": [
-                  "{AccreditationExpired}",
-                  "{toBool(AccreditationExpired)}"
-                ]
-              },
               {
                 "id": "FklS9NaKbZ5RhW",
                 "field": "ConractorCheck_ID__c",
