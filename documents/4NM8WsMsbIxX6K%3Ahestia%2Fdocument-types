@@ -1,5 +1,5 @@
 {
-  "__": "gNrMsQb3Te15FD",
+  "__": "yLuccNUgOh6mH9",
   "_id": "4NM8WsMsbIxX6K:hestia/document-types",
   "icon": "",
   "name": "SalesforceSyncTest",
@@ -196,12 +196,13 @@
     {
       "id": "TLQOo4mQgq7yrJ",
       "name": "1",
-      "time": 1626185533987,
+      "time": 1626185703246,
       "user": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
-      "locked": false
+      "locked": false,
+      "parentVersion": ""
     }
   ],
-  "_modified": 1626181934000,
+  "_modified": 1626182103000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -219,19 +220,21 @@
               "condition": "",
               "questions": [
                 {
-                  "id": "mYGPhE7bzoJqO0",
-                  "name": "ContractorCheckID",
+                  "id": "Gtne1kU3FvnfNE",
+                  "name": "SalesforceAccountID",
                   "type": "text",
                   "hints": {},
                   "maxWidth": "",
                   "question": "",
-                  "_selectId": "BE1c2UQ8-4xL6V",
+                  "_selectId": "u7r6QGkIAjWzOj",
                   "condition": "",
                   "inputLabel": "",
                   "defaultValue": "",
                   "questionHeight": "",
+                  "clearIfDisabled": "",
                   "questionLeftPad": "",
                   "questionRightPad": "",
+                  "editableCondition": "",
                   "questionSpaceBefore": ""
                 },
                 {
@@ -240,8 +243,26 @@
                   "type": "text",
                   "hints": {},
                   "maxWidth": "",
-                  "question": "",
+                  "question": "<p>Account Name</p>\n",
                   "_selectId": "US3ZkvzxhCIWh6",
+                  "condition": "",
+                  "inputLabel": "",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "clearIfDisabled": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "editableCondition": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "mYGPhE7bzoJqO0",
+                  "name": "ContractorCheckID",
+                  "type": "text",
+                  "hints": {},
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "BE1c2UQ8-4xL6V",
                   "condition": "",
                   "inputLabel": "",
                   "defaultValue": "",
@@ -265,33 +286,19 @@
                       "value": "no"
                     }
                   ],
-                  "question": "",
+                  "question": "<p>Accreditation Expired</p>\n",
                   "_selectId": "xzohVrzhRGEp4f",
                   "condition": "",
                   "allowNullify": "",
                   "questionHeight": "",
                   "trueInputLabel": "",
+                  "clearIfDisabled": "",
                   "falseInputLabel": "",
                   "questionLeftPad": "",
                   "questionRightPad": "",
+                  "editableCondition": "",
                   "questionSpaceBefore": "",
                   "selectedDefaultValue": "-1"
-                },
-                {
-                  "id": "Gtne1kU3FvnfNE",
-                  "name": "SalesforceAccountID",
-                  "type": "text",
-                  "hints": {},
-                  "maxWidth": "",
-                  "question": "",
-                  "_selectId": "u7r6QGkIAjWzOj",
-                  "condition": "",
-                  "inputLabel": "",
-                  "defaultValue": "",
-                  "questionHeight": "",
-                  "questionLeftPad": "",
-                  "questionRightPad": "",
-                  "questionSpaceBefore": ""
                 }
               ],
               "description": ""
@@ -309,7 +316,9 @@
           "name": "Update In SalesForce",
           "sfID": "{SalesforceAccoutID}",
           "onEnter": "",
-          "inStates": "",
+          "inStates": [
+            "New"
+          ],
           "_selectId": "zxQgZYQJTB0eai",
           "properties": [
             {
@@ -388,6 +397,7 @@
   "defaultState": "New",
   "sidebarColor": "#333",
   "tabsSelected": "#009fda",
+  "__hideRecords": true,
   "documentColor": "#333",
   "_activeVersion": "6ayMpdsek8mQyv",
   "_parentVersion": "TLQOo4mQgq7yrJ",

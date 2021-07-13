@@ -1,6 +1,6 @@
 [
   {
-    "__": "fOcRHI7yLZFdoe",
+    "__": "yA91uEoAplX4wD",
     "_id": "4NM8WsMsbIxX6K-TLQOo4mQgq7yrJ:hestia/versions",
     "__id": "4NM8WsMsbIxX6K:hestia/document-types",
     "icon": "",
@@ -194,7 +194,7 @@
     "_deleted": 0,
     "database": "salesforce",
     "maxWidth": 1000,
-    "_modified": 1626181663000,
+    "_modified": 1626181954000,
     "components": "",
     "navigation": [],
     "_behaviours": {
@@ -212,19 +212,21 @@
                 "condition": "",
                 "questions": [
                   {
-                    "id": "mYGPhE7bzoJqO0",
-                    "name": "ContractorCheckID",
+                    "id": "Gtne1kU3FvnfNE",
+                    "name": "SalesforceAccountID",
                     "type": "text",
                     "hints": {},
                     "maxWidth": "",
                     "question": "",
-                    "_selectId": "BE1c2UQ8-4xL6V",
+                    "_selectId": "u7r6QGkIAjWzOj",
                     "condition": "",
                     "inputLabel": "",
                     "defaultValue": "",
                     "questionHeight": "",
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": ""
                   },
                   {
@@ -233,8 +235,26 @@
                     "type": "text",
                     "hints": {},
                     "maxWidth": "",
-                    "question": "",
+                    "question": "<p>Account Name</p>\n",
                     "_selectId": "US3ZkvzxhCIWh6",
+                    "condition": "",
+                    "inputLabel": "",
+                    "defaultValue": "",
+                    "questionHeight": "",
+                    "clearIfDisabled": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "editableCondition": "",
+                    "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "mYGPhE7bzoJqO0",
+                    "name": "ContractorCheckID",
+                    "type": "text",
+                    "hints": {},
+                    "maxWidth": "",
+                    "question": "",
+                    "_selectId": "BE1c2UQ8-4xL6V",
                     "condition": "",
                     "inputLabel": "",
                     "defaultValue": "",
@@ -258,33 +278,19 @@
                         "value": "no"
                       }
                     ],
-                    "question": "",
+                    "question": "<p>Accreditation Expired</p>\n",
                     "_selectId": "xzohVrzhRGEp4f",
                     "condition": "",
                     "allowNullify": "",
                     "questionHeight": "",
                     "trueInputLabel": "",
+                    "clearIfDisabled": "",
                     "falseInputLabel": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": "",
                     "selectedDefaultValue": "-1"
-                  },
-                  {
-                    "id": "Gtne1kU3FvnfNE",
-                    "name": "SalesforceAccountID",
-                    "type": "text",
-                    "hints": {},
-                    "maxWidth": "",
-                    "question": "",
-                    "_selectId": "u7r6QGkIAjWzOj",
-                    "condition": "",
-                    "inputLabel": "",
-                    "defaultValue": "",
-                    "questionHeight": "",
-                    "questionLeftPad": "",
-                    "questionRightPad": "",
-                    "questionSpaceBefore": ""
                   }
                 ],
                 "description": ""
@@ -302,7 +308,9 @@
             "name": "Update In SalesForce",
             "sfID": "{SalesforceAccoutID}",
             "onEnter": "",
-            "inStates": "",
+            "inStates": [
+              "New"
+            ],
             "_selectId": "zxQgZYQJTB0eai",
             "properties": [
               {
@@ -381,8 +389,10 @@
     "defaultState": "New",
     "sidebarColor": "#333",
     "tabsSelected": "#009fda",
+    "__hideRecords": true,
     "documentColor": "#333",
-    "_activeVersion": "6ayMpdsek8mQyv",
+    "_activeVersion": "TLQOo4mQgq7yrJ",
+    "_parentVersion": "",
     "currentVersion": {
       "live": "1",
       "testing": "1",
