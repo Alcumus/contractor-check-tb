@@ -1,6 +1,6 @@
 [
   {
-    "__": "igmY_Ab3f4Cc_Z",
+    "__": "JtLXGJZzrFlvj0",
     "_id": "4NM8WsMsbIxX6K-TLQOo4mQgq7yrJ:hestia/versions",
     "__id": "4NM8WsMsbIxX6K:hestia/document-types",
     "icon": "",
@@ -349,7 +349,7 @@
               },
               {
                 "id": "5pWZ9TUfRbpvtR",
-                "field": "Accreditation_Expired__c",
+                "field": "Global_Exemption__c",
                 "value": "{toBool(AccreditationExpired)}"
               },
               {

@@ -1,5 +1,5 @@
 {
-  "__": "-B2vQKOlnMnYgA",
+  "__": "dJLFXMEJy2bwMe",
   "_id": "4NM8WsMsbIxX6K:hestia/document-types",
   "icon": "",
   "name": "SalesforceSyncTest",
@@ -196,14 +196,14 @@
     {
       "id": "TLQOo4mQgq7yrJ",
       "name": "1",
-      "time": 1626259398132,
+      "time": 1626264387818,
       "user": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
       "locked": false,
-      "_selectId": "_r-kiqm7ETp_MM",
+      "_selectId": "f4KTcnt_RRpiBu",
       "parentVersion": ""
     }
   ],
-  "_modified": 1626255798000,
+  "_modified": 1626260788000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -358,7 +358,7 @@
             },
             {
               "id": "5pWZ9TUfRbpvtR",
-              "field": "Accreditation_Expired__c",
+              "field": "Global_Exemption__c",
               "value": "{toBool(AccreditationExpired)}"
             },
             {
