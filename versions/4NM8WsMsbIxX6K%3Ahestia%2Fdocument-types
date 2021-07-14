@@ -1,6 +1,6 @@
 [
   {
-    "__": "7L0h7Bq0U9zmLE",
+    "__": "0B9qfkri3-BzVb",
     "_id": "4NM8WsMsbIxX6K-TLQOo4mQgq7yrJ:hestia/versions",
     "__id": "4NM8WsMsbIxX6K:hestia/document-types",
     "icon": "",
@@ -293,6 +293,24 @@
                     "editableCondition": "",
                     "questionSpaceBefore": "",
                     "selectedDefaultValue": "-1"
+                  },
+                  {
+                    "id": "K3cvPHtWknBKMY",
+                    "name": "Employees",
+                    "type": "number",
+                    "hints": {},
+                    "question": "",
+                    "_selectId": "vNYwZT3ru198RC",
+                    "condition": "",
+                    "inputLabel": "",
+                    "defaultValue": "",
+                    "maximumValue": "",
+                    "minimumValue": "",
+                    "decimalPlaces": "",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
                   }
                 ],
                 "description": ""
@@ -333,6 +351,11 @@
                 "id": "5pWZ9TUfRbpvtR",
                 "field": "Accreditation_Expired__c",
                 "value": "{toBool(AccreditationExpired)}"
+              },
+              {
+                "id": "C0nj1ETezTEHFh",
+                "field": "NumberOfEmployees",
+                "value": "{Employees}"
               }
             ],
             "targetType": "",
