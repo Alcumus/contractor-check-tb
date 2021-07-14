@@ -1,6 +1,6 @@
 [
   {
-    "__": "VTN-QGlW5rvkrL",
+    "__": "nOjxFn4WmO5tDN",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -203,7 +203,7 @@
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1626274840000,
+    "_modified": 1626275224000,
     "components": "navigation,relationship",
     "isLockedBy": null,
     "navigation": [],
@@ -1214,11 +1214,65 @@
                     "hints": {},
                     "question": "<p>The relationships you have with contractors</p>\n",
                     "_selectId": "lNU_5IBqK2_wYv",
-                    "condition": "",
+                    "condition": "doYouUseContractors=yes",
                     "questionHeight": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
                     "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "OIv2x-gR5QL1Eh",
+                    "name": "",
+                    "type": "relationship",
+                    "hints": {},
+                    "manyType": "zSq4uYg_gBBWqY:hestia/document-types",
+                    "question": "",
+                    "_selectId": "EOCNHNR2UacIWC",
+                    "condition": "doYouUseContractors=yes",
+                    "linkField": "client",
+                    "remoteView": "tO-6DxodJdqI_0",
+                    "description": "",
+                    "pendingText": "Pending",
+                    "relatedType": "WdoYmj-FOBFYri:hestia/document-types",
+                    "remoteField": "contractor",
+                    "remoteQuery": {
+                      "$and": [
+                        {
+                          "doYouContract": {
+                            "$in": [
+                              "yes"
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    "confirmField": "clientConfirms",
+                    "manyTypeName": "Anchor Request",
+                    "pendingColor": "#444444",
+                    "rejectedText": "Rejected",
+                    "buttonCaption": "+ Add",
+                    "confirmedText": "Confirmed",
+                    "rejectedColor": "#ffffff",
+                    "requestedText": "Requested",
+                    "confirmedColor": "#ffffff",
+                    "requestedColor": "#ffffff",
+                    "relatedTypeName": "Company Profile",
+                    "remoteNameField": "companyName",
+                    "remoteSortField": "companyName",
+                    "remoteView_name": "Name",
+                    "youRejectedText": "You Rejected",
+                    "bothRejectedText": "Both Rejected",
+                    "youRejectedColor": "#444444",
+                    "bothRejectedColor": "#444444",
+                    "cancelConfirmation": "Are you sure you want to remove the link?",
+                    "remoteConfirmField": "contractorConfirms",
+                    "remoteSearchFields": "",
+                    "pendingBackgroundColor": "#fbd6a3",
+                    "rejectedBackgroundColor": "#f50057",
+                    "confirmedBackgroundColor": "#679861",
+                    "requestedBackgroundColor": "#00b5f5",
+                    "youRejectedBackgroundColor": "#ffeda8",
+                    "bothRejectedBackgroundColor": "#ffeda8"
                   },
                   {
                     "id": "iI93pS9Uml0Vnu",
