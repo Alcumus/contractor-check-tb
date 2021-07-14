@@ -1,5 +1,5 @@
 {
-  "__": "Knk-t_kM0VhPji",
+  "__": "botx_9qGMmFCxu",
   "_id": "PMW2x8gydP1Gq7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -210,19 +210,14 @@
     {
       "id": "tV6rqmkixtZSUh",
       "name": "1",
-      "time": 1626085265522,
-      "user": "64467393-61e5-45fe-a026-45aed6419337",
+      "time": 1625815627261,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "q6s2y1eLqK-bni",
+      "_selectId": "9HUIcaxNxy4P0H",
       "parentVersion": ""
     }
   ],
-  "webhooks": {
-    "WMtcQZgZTSiui1": {
-      "exposeWebhooks": ""
-    }
-  },
-  "_modified": 1626092130000,
+  "_modified": 1626276081000,
   "components": "verification,localisation,hint-text",
   "isLockedBy": null,
   "navigation": [],
@@ -278,19 +273,21 @@
                   "defaultValue": "",
                   "dialogHeader": "Help",
                   "questionHeight": "",
+                  "clearIfDisabled": "",
                   "questionLeftPad": "",
                   "questionRightPad": "",
+                  "editableCondition": "",
                   "questionSpaceBefore": ""
                 },
                 {
-                  "id": "fit6Mun2A8l-5U",
+                  "id": "clJso5hIqohqqr",
                   "name": "qcAcceptedDate",
                   "type": "date",
                   "hints": {
                     "hidden": true
                   },
                   "question": "",
-                  "_selectId": "mT_ZElvulVenri",
+                  "_selectId": "YLV1JveX8N9IbU",
                   "condition": "",
                   "inputLabel": "",
                   "localFormat": "",
@@ -9856,7 +9853,6 @@
                   "hints": {},
                   "formName": "General",
                   "question": "",
-                  "_selectId": "LftXJHTBec9Pgv",
                   "condition": "valueEquals(\"assessmentType\", \"general\")"
                 },
                 {
@@ -9866,7 +9862,6 @@
                   "hints": {},
                   "formName": "Agellan Capital Partners Inc",
                   "question": "",
-                  "_selectId": "27NleaHXijBqOy",
                   "condition": "valueEquals(\"assessmentType\", \"Agellan Capital Partners Inc\")"
                 },
                 {
@@ -9876,7 +9871,6 @@
                   "hints": {},
                   "formName": "Bimbo Canada (Canada Bread)",
                   "question": "",
-                  "_selectId": "f-FtF4cZyj1S4C",
                   "condition": "valueEquals(\"assessmentType\", \"Bimbo Canada (Canada Bread)\")"
                 },
                 {
@@ -9886,7 +9880,6 @@
                   "hints": {},
                   "formName": "Bird Construction (Client)",
                   "question": "",
-                  "_selectId": "evLGotfWNSPXoW",
                   "condition": "valueEquals(\"assessmentType\", \"Bird Construction (Client)\")"
                 },
                 {
@@ -9896,7 +9889,6 @@
                   "hints": {},
                   "formName": "Bouygues Energies & Services",
                   "question": "",
-                  "_selectId": "JalqD7xatWFe2I",
                   "condition": "valueEquals(\"assessmentType\", \"Bouygues Energies & Services\")"
                 },
                 {
@@ -9906,7 +9898,6 @@
                   "hints": {},
                   "formName": "Branksome Hall",
                   "question": "",
-                  "_selectId": "Ru2Dm3A2o78zne",
                   "condition": "valueEquals(\"assessmentType\", \"Branksome Hall\")"
                 },
                 {
@@ -9916,7 +9907,6 @@
                   "hints": {},
                   "formName": "BURNCO Rock Products Ltd - Client",
                   "question": "",
-                  "_selectId": "y6EYQZLqERxYg-",
                   "condition": "valueEquals(\"assessmentType\", \"BURNCO Rock Products Ltd - Client\")"
                 },
                 {
@@ -9926,7 +9916,6 @@
                   "hints": {},
                   "formName": "Cadillac Fairview Corporation Limited",
                   "question": "",
-                  "_selectId": "HQTTgutPAHI6q0",
                   "condition": "valueEquals(\"assessmentType\", \"Cadillac Fairview Corporation Limited\")"
                 },
                 {
@@ -9936,7 +9925,6 @@
                   "hints": {},
                   "formName": "Calgary Co-Operative Association Limited",
                   "question": "",
-                  "_selectId": "pUdFk0wr_hhMCv",
                   "condition": "valueEquals(\"assessmentType\", \"Calgary Co-Operative Association Limited\")"
                 },
                 {
@@ -9946,7 +9934,6 @@
                   "hints": {},
                   "formName": "Canada General Documents",
                   "question": "",
-                  "_selectId": "x4miL5AnkHJeLA",
                   "condition": "valueEquals(\"assessmentType\", \"Canada General Documents\")"
                 },
                 {
@@ -9956,7 +9943,6 @@
                   "hints": {},
                   "formName": "CBRE (Alberta) Client",
                   "question": "",
-                  "_selectId": "4hdV7FEMqAgyAL",
                   "condition": "valueEquals(\"assessmentType\", \"CBRE (Alberta) Client\")"
                 },
                 {
@@ -9966,7 +9952,6 @@
                   "hints": {},
                   "formName": "CBRE Limited (Client)",
                   "question": "",
-                  "_selectId": "kx_herHddPH3lH",
                   "condition": "valueEquals(\"assessmentType\", \"CBRE Limited (Client)\")"
                 },
                 {
@@ -9976,7 +9961,6 @@
                   "hints": {},
                   "formName": "Choice Properties - Industrial & Office",
                   "question": "",
-                  "_selectId": "-H-8wl6fpy8VsV",
                   "condition": "valueEquals(\"assessmentType\", \"Choice Properties - Industrial & Office\")"
                 },
                 {
@@ -9986,7 +9970,6 @@
                   "hints": {},
                   "formName": "Choice Properties REIT",
                   "question": "",
-                  "_selectId": "_pAi-136MMKfJU",
                   "condition": "valueEquals(\"assessmentType\", \"Choice Properties REIT\")"
                 },
                 {
@@ -9996,7 +9979,6 @@
                   "hints": {},
                   "formName": "Cineplex Inc. (Client)",
                   "question": "",
-                  "_selectId": "0rAyFSxTcvwkML",
                   "condition": "valueEquals(\"assessmentType\", \"Cineplex Inc. (Client)\")"
                 },
                 {
@@ -10006,7 +9988,6 @@
                   "hints": {},
                   "formName": "Conseil Scolaire Viamonde",
                   "question": "",
-                  "_selectId": "5aq6aNIAkgwWGk",
                   "condition": "valueEquals(\"assessmentType\", \"Conseil Scolaire Viamonde\")"
                 },
                 {
@@ -10016,7 +9997,6 @@
                   "hints": {},
                   "formName": "Crown Property Management Inc.",
                   "question": "",
-                  "_selectId": "RyY93d3LYbeZDT",
                   "condition": "valueEquals(\"assessmentType\", \"Crown Property Management Inc.\")"
                 },
                 {
@@ -10026,7 +10006,6 @@
                   "hints": {},
                   "formName": "Cushman & Wakefield (20 VIC Management Inc) (Client)",
                   "question": "",
-                  "_selectId": "j-IWkMPZ_U0_9R",
                   "condition": "valueEquals(\"assessmentType\", \"Cushman & Wakefield (20 VIC Management Inc) (Client)\")"
                 },
                 {
@@ -10036,7 +10015,6 @@
                   "hints": {},
                   "formName": "Dream Unlimited Corp",
                   "question": "",
-                  "_selectId": "mU3iHevSGiIQqS",
                   "condition": "valueEquals(\"assessmentType\", \"Dream Unlimited Corp\")"
                 },
                 {
@@ -10046,7 +10024,6 @@
                   "hints": {},
                   "formName": "Enwave Energy Corporation (Client)",
                   "question": "",
-                  "_selectId": "DO9G2Vo0S1WY67",
                   "condition": "valueEquals(\"assessmentType\", \"Enwave Energy Corporation (Client)\")"
                 },
                 {
@@ -10056,7 +10033,6 @@
                   "hints": {},
                   "formName": "EPIC Investment Services (Client)",
                   "question": "",
-                  "_selectId": "0OtWLs4DEuAAUM",
                   "condition": "valueEquals(\"assessmentType\", \"EPIC Investment Services (Client)\")"
                 },
                 {
@@ -10066,7 +10042,6 @@
                   "hints": {},
                   "formName": "First Capital - REIT",
                   "question": "",
-                  "_selectId": "piKyAwtvyvfNq6",
                   "condition": "valueEquals(\"assessmentType\", \"First Capital - REIT\")"
                 },
                 {
@@ -10076,7 +10051,6 @@
                   "hints": {},
                   "formName": "First Gulf (Client)",
                   "question": "",
-                  "_selectId": "xiVTQAXSv1VtU_",
                   "condition": "valueEquals(\"assessmentType\", \"First Gulf (Client)\")"
                 },
                 {
@@ -10086,7 +10060,6 @@
                   "hints": {},
                   "formName": "Give and Go Prepared Foods Corp",
                   "question": "",
-                  "_selectId": "KqM9ViU7qYE4KO",
                   "condition": "valueEquals(\"assessmentType\", \"Give and Go Prepared Foods Corp\")"
                 },
                 {
@@ -10096,7 +10069,6 @@
                   "hints": {},
                   "formName": "Holt Renfrew (Client)",
                   "question": "",
-                  "_selectId": "obigP7tYxWriSX",
                   "condition": "valueEquals(\"assessmentType\", \"Holt Renfrew (Client)\")"
                 },
                 {
@@ -10106,7 +10078,6 @@
                   "hints": {},
                   "formName": "Ivanhoe Cambridge Inc.",
                   "question": "",
-                  "_selectId": "fYXSt-rvO-u_GX",
                   "condition": "valueEquals(\"assessmentType\", \"Ivanhoe Cambridge Inc.\")"
                 },
                 {
@@ -10116,7 +10087,6 @@
                   "hints": {},
                   "formName": "K-Line Group",
                   "question": "",
-                  "_selectId": "jqykDRSliriDcX",
                   "condition": "valueEquals(\"assessmentType\", \"K-Line Group\")"
                 },
                 {
@@ -10126,7 +10096,6 @@
                   "hints": {},
                   "formName": "Labbe - Leech Interiors Ltd (Client)",
                   "question": "",
-                  "_selectId": "90XAiEnjxwMZYK",
                   "condition": "valueEquals(\"assessmentType\", \"Labbe - Leech Interiors Ltd (Client)\")"
                 },
                 {
@@ -10136,7 +10105,6 @@
                   "hints": {},
                   "formName": "Loblaw Group of Companies",
                   "question": "",
-                  "_selectId": "8ZcHyZuOCUbvtv",
                   "condition": "valueEquals(\"assessmentType\", \"Loblaw Group of Companies\")"
                 },
                 {
@@ -10146,7 +10114,6 @@
                   "hints": {},
                   "formName": "Longo Brothers Fruit Markets Inc.",
                   "question": "",
-                  "_selectId": "oiIp3zEV3jolwX",
                   "condition": "valueEquals(\"assessmentType\", \"Longo Brothers Fruit Markets Inc.\")"
                 },
                 {
@@ -10156,7 +10123,6 @@
                   "hints": {},
                   "formName": "Maple Leaf Foods Inc. (Client)",
                   "question": "",
-                  "_selectId": "xDEbnE6TgySAq7",
                   "condition": "valueEquals(\"assessmentType\", \"Maple Leaf Foods Inc. (Client)\")"
                 },
                 {
@@ -10166,7 +10132,6 @@
                   "hints": {},
                   "formName": "Maple Leaf Property Management (MLPM) (Client)",
                   "question": "",
-                  "_selectId": "xjzXu99yZSy-GP",
                   "condition": "valueEquals(\"assessmentType\", \"Maple Leaf Property Management (MLPM) (Client)\")"
                 },
                 {
@@ -10176,7 +10141,6 @@
                   "hints": {},
                   "formName": "Maple Leaf Sports and Entertainment Partnerships (MLSE)",
                   "question": "",
-                  "_selectId": "FwdiQWza2AKLuF",
                   "condition": "valueEquals(\"assessmentType\", \"Maple Leaf Sports and Entertainment Partnerships (MLSE)\")"
                 },
                 {
@@ -10186,7 +10150,6 @@
                   "hints": {},
                   "formName": "Menkes Property Management Services Ltd (HOOPP Properties)",
                   "question": "",
-                  "_selectId": "piauNpZ4B3oV_8",
                   "condition": "valueEquals(\"assessmentType\", \"Menkes Property Management Services Ltd (HOOPP Properties)\")"
                 },
                 {
@@ -10196,7 +10159,6 @@
                   "hints": {},
                   "formName": "MenRes Property Management Inc.",
                   "question": "",
-                  "_selectId": "4uWSY8cRplHxhD",
                   "condition": "valueEquals(\"assessmentType\", \"MenRes Property Management Inc.\")"
                 },
                 {
@@ -10206,7 +10168,6 @@
                   "hints": {},
                   "formName": "Metro Ontario Inc.",
                   "question": "",
-                  "_selectId": "G3EAJb33PUqcgz",
                   "condition": "valueEquals(\"assessmentType\", \"Metro Ontario Inc.\")"
                 },
                 {
@@ -10216,7 +10177,6 @@
                   "hints": {},
                   "formName": "Metro Quebec Inc.",
                   "question": "",
-                  "_selectId": "-ARwpO9Fxq07TW",
                   "condition": "valueEquals(\"assessmentType\", \"Metro Quebec Inc.\")"
                 },
                 {
@@ -10226,7 +10186,6 @@
                   "hints": {},
                   "formName": "Ontario Clean Water Agency",
                   "question": "",
-                  "_selectId": "BWiVGN2lb0hKd_",
                   "condition": "valueEquals(\"assessmentType\", \"Ontario Clean Water Agency\")"
                 },
                 {
@@ -10236,7 +10195,6 @@
                   "hints": {},
                   "formName": "Oxford Properties Group (Client)",
                   "question": "",
-                  "_selectId": "oSZy2kIXnqTaGb",
                   "condition": "valueEquals(\"assessmentType\", \"Oxford Properties Group (Client)\")"
                 },
                 {
@@ -10246,7 +10204,6 @@
                   "hints": {},
                   "formName": "Plan Group Inc. (Client)",
                   "question": "",
-                  "_selectId": "RKSA18PxuIyMPc",
                   "condition": "valueEquals(\"assessmentType\", \"Plan Group Inc. (Client)\")"
                 },
                 {
@@ -10256,7 +10213,6 @@
                   "hints": {},
                   "formName": "Port of Halifax",
                   "question": "",
-                  "_selectId": "Hva6RNYaYNTTjO",
                   "condition": "valueEquals(\"assessmentType\", \"Port of Halifax\")"
                 },
                 {
@@ -10266,7 +10222,6 @@
                   "hints": {},
                   "formName": "Providence Healthcare",
                   "question": "",
-                  "_selectId": "qff7Ur-544Umut",
                   "condition": "valueEquals(\"assessmentType\", \"Providence Healthcare\")"
                 },
                 {
@@ -10276,7 +10231,6 @@
                   "hints": {},
                   "formName": "Purdue Pharma Canada",
                   "question": "",
-                  "_selectId": "klkG_jylykXnQs",
                   "condition": "valueEquals(\"assessmentType\", \"Purdue Pharma Canada\")"
                 },
                 {
@@ -10286,7 +10240,6 @@
                   "hints": {},
                   "formName": "RiskCheck Inc. (Client)",
                   "question": "",
-                  "_selectId": "Gq87uBiQ1R7tMO",
                   "condition": "valueEquals(\"assessmentType\", \"RiskCheck Inc. (Client)\")"
                 },
                 {
@@ -10296,7 +10249,6 @@
                   "hints": {},
                   "formName": "Rogers Industrial",
                   "question": "",
-                  "_selectId": "z6_cc_aMEzV5va",
                   "condition": "valueEquals(\"assessmentType\", \"Rogers Industrial\")"
                 },
                 {
@@ -10306,7 +10258,6 @@
                   "hints": {},
                   "formName": "Schindler Elevator Corporation (Client)",
                   "question": "",
-                  "_selectId": "7VfMbrWl96S2EJ",
                   "condition": "valueEquals(\"assessmentType\", \"Schindler Elevator Corporation (Client)\")"
                 },
                 {
@@ -10316,7 +10267,6 @@
                   "hints": {},
                   "formName": "Shoppers Drug Mart Loss Prevention",
                   "question": "",
-                  "_selectId": "iQWFJ-kWEJjqpC",
                   "condition": "valueEquals(\"assessmentType\", \"Shoppers Drug Mart Loss Prevention\")"
                 },
                 {
@@ -10326,7 +10276,6 @@
                   "hints": {},
                   "formName": "St. Michael's Hospital",
                   "question": "",
-                  "_selectId": "6gTt4t4Zwtr7gW",
                   "condition": "valueEquals(\"assessmentType\", \"St. Michael's Hospital\")"
                 },
                 {
@@ -10336,7 +10285,6 @@
                   "hints": {},
                   "formName": "Strathmore Landscape Contractors (Client)",
                   "question": "",
-                  "_selectId": "_t_hdQ13VBfFcz",
                   "condition": "valueEquals(\"assessmentType\", \"Strathmore Landscape Contractors (Client)\")"
                 },
                 {
@@ -10346,7 +10294,6 @@
                   "hints": {},
                   "formName": "Sun Life (US)",
                   "question": "",
-                  "_selectId": "N0bmoEHUNwEk7z",
                   "condition": "valueEquals(\"assessmentType\", \"Sun Life (US)\")"
                 },
                 {
@@ -10356,7 +10303,6 @@
                   "hints": {},
                   "formName": "Sun Life Canada",
                   "question": "",
-                  "_selectId": "NKRCDeTEphPOg7",
                   "condition": "valueEquals(\"assessmentType\", \"Sun Life Canada\")"
                 },
                 {
@@ -10366,7 +10312,6 @@
                   "hints": {},
                   "formName": "The Badminton And Racquet Club of Toronto",
                   "question": "",
-                  "_selectId": "1fJIoXCbFTqqpF",
                   "condition": "valueEquals(\"assessmentType\", \"The Badminton And Racquet Club of Toronto\")"
                 },
                 {
@@ -10376,7 +10321,6 @@
                   "hints": {},
                   "formName": "Thyssenkrupp Elevator (Canada) Limited (Client)",
                   "question": "",
-                  "_selectId": "O2yZaMUJCkVJNy",
                   "condition": "valueEquals(\"assessmentType\", \"Thyssenkrupp Elevator (Canada) Limited (Client)\")"
                 },
                 {
@@ -10386,7 +10330,6 @@
                   "hints": {},
                   "formName": "TJ Construction Management Ltd. (Client)",
                   "question": "",
-                  "_selectId": "pWTHPLjqWeawNS",
                   "condition": "valueEquals(\"assessmentType\", \"TJ Construction Management Ltd. (Client)\")"
                 },
                 {
@@ -10396,7 +10339,6 @@
                   "hints": {},
                   "formName": "Trinity College School",
                   "question": "",
-                  "_selectId": "P5kt5aM1dzNahg",
                   "condition": "valueEquals(\"assessmentType\", \"Trinity College School\")"
                 },
                 {
@@ -10406,7 +10348,6 @@
                   "hints": {},
                   "formName": "Triovest Realty Advisors Inc.",
                   "question": "",
-                  "_selectId": "KCo11534LWalyS",
                   "condition": "valueEquals(\"assessmentType\", \"Triovest Realty Advisors Inc.\")"
                 },
                 {
@@ -10416,7 +10357,6 @@
                   "hints": {},
                   "formName": "US General Documents",
                   "question": "",
-                  "_selectId": "mGh7vYjwKtQHV4",
                   "condition": "valueEquals(\"assessmentType\", \"US General Documents\")"
                 },
                 {
@@ -10426,7 +10366,6 @@
                   "hints": {},
                   "formName": "US TEST CLIENT",
                   "question": "",
-                  "_selectId": "vmrUlwnt-iosNQ",
                   "condition": "valueEquals(\"assessmentType\", \"US TEST CLIENT\")"
                 },
                 {
@@ -10436,7 +10375,6 @@
                   "hints": {},
                   "formName": "Vancouver Fraser Port Authority",
                   "question": "",
-                  "_selectId": "ri83MO3eSKDC4c",
                   "condition": "valueEquals(\"assessmentType\", \"Vancouver Fraser Port Authority\")"
                 },
                 {
@@ -10446,18 +10384,7 @@
                   "hints": {},
                   "formName": "Wittington Properties Limited",
                   "question": "",
-                  "_selectId": "vjenSXn7No1BYz",
                   "condition": "valueEquals(\"assessmentType\", \"Wittington Properties Limited\")"
-                },
-                {
-                  "id": "nxfc_QfQz1KnhL",
-                  "form": "8yvqXXKGfMNcH6",
-                  "name": "",
-                  "type": "useForm",
-                  "hints": {},
-                  "question": "",
-                  "_selectId": "0EReh36tcT6ywR",
-                  "condition": "valueEquals(\"assessmentType\", \"Sea Breeze Ventilation\")"
                 }
               ],
               "description": ""
@@ -25972,220 +25899,6 @@
           "condition": "",
           "description": "",
           "duplicateNames": {}
-        },
-        {
-          "id": "8yvqXXKGfMNcH6",
-          "name": "Sea Breeze Ventilation",
-          "sections": [
-            {
-              "id": "1626082141679-SjuYOB-l-TDZPI",
-              "_id": "1626082141679-SjuYOB-l-TDZPI:hestia/form-sections",
-              "name": "Questions",
-              "_expanded": true,
-              "_selectId": "QLa5Bcx_VIJMzh",
-              "condition": "",
-              "questions": [
-                {
-                  "id": "Y2CTF19SylTCmq",
-                  "name": "",
-                  "type": "card",
-                  "color": "",
-                  "hints": {},
-                  "title": "",
-                  "question": "",
-                  "_selectId": "yVBILiSpfR4c0f",
-                  "condition": "",
-                  "elevation": "",
-                  "topMargin": "",
-                  "background": "",
-                  "leftMargin": "",
-                  "collapsible": "",
-                  "rightMargin": "",
-                  "bottomMargin": ""
-                },
-                {
-                  "id": "XuCRAZZoyFLoad",
-                  "name": "ventilationInsurance",
-                  "type": "boolean",
-                  "hints": {},
-                  "choices": [
-                    {
-                      "label": "Yes",
-                      "value": "yes"
-                    },
-                    {
-                      "label": "No",
-                      "value": "no"
-                    }
-                  ],
-                  "question": "<p>Do you have ventilation insurance?</p>\n",
-                  "_selectId": "QDfu3T7deHGNQI",
-                  "condition": "",
-                  "allowNullify": "",
-                  "questionHeight": "",
-                  "trueInputLabel": "<p>Yes</p>\n",
-                  "falseInputLabel": "<p>No</p>\n",
-                  "questionLeftPad": "",
-                  "questionRightPad": "",
-                  "questionSpaceBefore": "",
-                  "selectedDefaultValue": "-1"
-                },
-                {
-                  "id": "g4bDboHfcSvJ_9",
-                  "icon": "AiOutlineCloudUpload",
-                  "name": "ventilationInsuranceUpload",
-                  "type": "file",
-                  "color": "#ffffff",
-                  "hints": {
-                    "dragAndDrop": true
-                  },
-                  "modal": {
-                    "enabled": false
-                  },
-                  "variant": "contained",
-                  "question": "<p>Please upload your insurance documentation.</p>\n",
-                  "_selectId": "LzaQmr5YoS2M8H",
-                  "condition": "valueEquals(\"ventilationInsurance\", \"Yes\")",
-                  "extensions": [
-                    "pdf",
-                    "png"
-                  ],
-                  "inputLabel": "UPLOAD",
-                  "maximumSize": "1000000",
-                  "maximumFiles": 99999,
-                  "minimumFiles": 0,
-                  "buttonCaption": "",
-                  "disableDelete": "",
-                  "uploadCaption": "Uploading & Virus Scanning:",
-                  "disablePreview": "",
-                  "offlineCapable": "",
-                  "questionHeight": "",
-                  "backgroundColor": "#0a599a",
-                  "clearIfDisabled": "",
-                  "disableDownload": "",
-                  "questionLeftPad": "",
-                  "questionRightPad": "",
-                  "_autoCheckOptions": [],
-                  "editableCondition": "",
-                  "questionSpaceBefore": ""
-                },
-                {
-                  "id": "y9FozDUhxob3Ps",
-                  "name": "",
-                  "type": "stop",
-                  "hints": {},
-                  "question": "",
-                  "stopWhat": [
-                    "card"
-                  ],
-                  "_selectId": "cfCMV3jtcwBDmI",
-                  "condition": ""
-                },
-                {
-                  "id": "H7SNa8ph401NFH",
-                  "name": "",
-                  "type": "card",
-                  "color": "",
-                  "hints": {},
-                  "title": "",
-                  "question": "",
-                  "_selectId": "2a3O3auMpKAjEr",
-                  "condition": "",
-                  "elevation": "",
-                  "topMargin": "",
-                  "background": "",
-                  "leftMargin": "",
-                  "collapsible": "",
-                  "rightMargin": "",
-                  "bottomMargin": ""
-                },
-                {
-                  "id": "kv-_O0rf_ICfbC",
-                  "name": "ventilationWorkDescription",
-                  "type": "text",
-                  "hints": {},
-                  "maxWidth": "",
-                  "question": "<p>Please provide a description of the work you perform.</p>\n",
-                  "_selectId": "4uxS4405OKq4O-",
-                  "condition": "",
-                  "inputLabel": "",
-                  "defaultValue": "",
-                  "questionHeight": "",
-                  "clearIfDisabled": "",
-                  "questionLeftPad": "",
-                  "questionRightPad": "",
-                  "editableCondition": "",
-                  "questionSpaceBefore": ""
-                },
-                {
-                  "id": "FVsnSGGoqq8ZbO",
-                  "name": "",
-                  "type": "stop",
-                  "hints": {},
-                  "question": "",
-                  "stopWhat": [
-                    "card"
-                  ],
-                  "_selectId": "6etw5VKcS9XNgq",
-                  "condition": ""
-                },
-                {
-                  "id": "ciMLImG5AQaUfl",
-                  "name": "",
-                  "type": "card",
-                  "color": "",
-                  "hints": {},
-                  "title": "",
-                  "question": "",
-                  "_selectId": "4EnpL7QzaIq-to",
-                  "condition": "",
-                  "elevation": "",
-                  "topMargin": "",
-                  "background": "",
-                  "leftMargin": "",
-                  "collapsible": "",
-                  "rightMargin": "",
-                  "bottomMargin": ""
-                },
-                {
-                  "id": "QcyqJLqzopgsCU",
-                  "name": "ventilationCIMembeshipDate",
-                  "type": "date",
-                  "hints": {
-                    "future_only": true
-                  },
-                  "question": "<p>Please input the date your membership from the Chartered Institiute of Hot Air Blowers expires.</p>\n",
-                  "_selectId": "hvtn401AbK0P0S",
-                  "condition": "",
-                  "inputLabel": "",
-                  "localFormat": "",
-                  "useMaterialUI": "",
-                  "preventNullify": "",
-                  "questionHeight": "",
-                  "questionLeftPad": "",
-                  "questionRightPad": "",
-                  "questionSpaceBefore": ""
-                },
-                {
-                  "id": "I-T6pMqm7Mdsnq",
-                  "name": "",
-                  "type": "stop",
-                  "hints": {},
-                  "question": "",
-                  "stopWhat": [
-                    "card"
-                  ],
-                  "_selectId": "id8t3fFdjdZPNr",
-                  "condition": ""
-                }
-              ],
-              "description": ""
-            }
-          ],
-          "_selectId": "pQBET7yvkuUw8o",
-          "condition": "",
-          "description": "",
-          "duplicateNames": {}
         }
       ],
       "styled": [
@@ -32023,7 +31736,20 @@
               "_dispatchInstances": null,
               "_dispatchListeners": null
             },
-            "g4bDboHfcSvJ_9": {
+            "clJso5hIqohqqr": {
+              "helpText": "",
+              "viewTypes": "",
+              "helpTextTso": "",
+              "isAuditable": true,
+              "actionsTypes": "",
+              "isYesNowDisplay": true,
+              "isNoScoreAssessed": "",
+              "questionScoreSteps": "1",
+              "questionScoreOffset": "0",
+              "questionValidScores": "",
+              "questionMaximumScore": null
+            },
+            "fruUAmLSuFNX9L": {
               "helpText": "",
               "viewTypes": "",
               "helpTextTso": "",
@@ -40205,6 +39931,7 @@
   "defaultActivity": "xSkC0pR6hZ1H2U",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
+  "__hideBehaviours": true,
   "documentBackdrop": "#f4f4f4",
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
