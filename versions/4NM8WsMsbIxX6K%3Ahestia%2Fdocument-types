@@ -1,6 +1,6 @@
 [
   {
-    "__": "jHHKssXyL2rv5w",
+    "__": "IDFMCNhCFe8nKR",
     "_id": "4NM8WsMsbIxX6K-TLQOo4mQgq7yrJ:hestia/versions",
     "__id": "4NM8WsMsbIxX6K:hestia/document-types",
     "icon": "",
@@ -194,7 +194,7 @@
     "_deleted": 0,
     "database": "salesforce",
     "maxWidth": 1000,
-    "_modified": 1626182479000,
+    "_modified": 1626184273000,
     "components": "",
     "navigation": [],
     "_behaviours": {
@@ -267,7 +267,9 @@
                     "id": "1u1dSovHnC7xm6",
                     "name": "AccreditationExpired",
                     "type": "boolean",
-                    "hints": {},
+                    "hints": {
+                      "icon_buttons": true
+                    },
                     "choices": [
                       {
                         "label": "Yes",
@@ -324,6 +326,14 @@
                 "id": "jQGoEgbuVROETP",
                 "field": "Name",
                 "value": "{AccountName}"
+              },
+              {
+                "id": "-wZHZEs_0O0a2T",
+                "field": "Accreditation_Expired__c",
+                "value": [
+                  "{AccreditationExpired}",
+                  "{toBool(AccreditationExpired)}"
+                ]
               }
             ],
             "targetType": "",

@@ -1,5 +1,5 @@
 {
-  "__": "KBmCUAyRD-RB3x",
+  "__": "Dq05RV5GrJZpK3",
   "_id": "4NM8WsMsbIxX6K:hestia/document-types",
   "icon": "",
   "name": "SalesforceSyncTest",
@@ -196,14 +196,14 @@
     {
       "id": "TLQOo4mQgq7yrJ",
       "name": "1",
-      "time": 1626187873323,
+      "time": 1626256857821,
       "user": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
       "locked": false,
-      "_selectId": "o5ky0W75D4FlAR",
+      "_selectId": "4S5CL9p3jXajKP",
       "parentVersion": ""
     }
   ],
-  "_modified": 1626184273000,
+  "_modified": 1626253258000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -276,7 +276,9 @@
                   "id": "1u1dSovHnC7xm6",
                   "name": "AccreditationExpired",
                   "type": "boolean",
-                  "hints": {},
+                  "hints": {
+                    "icon_buttons": true
+                  },
                   "choices": [
                     {
                       "label": "Yes",
@@ -333,6 +335,14 @@
               "id": "jQGoEgbuVROETP",
               "field": "Name",
               "value": "{AccountName}"
+            },
+            {
+              "id": "-wZHZEs_0O0a2T",
+              "field": "Accreditation_Expired__c",
+              "value": [
+                "{AccreditationExpired}",
+                "{toBool(AccreditationExpired)}"
+              ]
             }
           ],
           "targetType": "",
