@@ -1,6 +1,6 @@
 [
   {
-    "__": "f-Vho0HtwA3Kie",
+    "__": "w2uninGkjhqYr7",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -199,7 +199,7 @@
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1626254193000,
+    "_modified": 1626254566000,
     "components": "navigation,relationship",
     "isLockedBy": null,
     "navigation": [],
@@ -1577,16 +1577,26 @@
                     },
                     "confirmField": "contractorConfirms",
                     "manyTypeName": "Anchor Request",
+                    "pendingColor": "#444444",
                     "rejectedText": "Rejected",
                     "buttonCaption": "+ Add",
                     "confirmedText": "Confirmed",
+                    "rejectedColor": "#ffffff",
+                    "confirmedColor": "#ffffff",
                     "relatedTypeName": "Company Profile",
                     "remoteNameField": "companyName",
                     "remoteSortField": "companyName",
                     "remoteView_name": "Name",
                     "youRejectedText": "You Rejected",
                     "bothRejectedText": "Both Rejected",
-                    "remoteConfirmField": "clientConfirms"
+                    "youRejectedColor": "#444444",
+                    "bothRejectedColor": "#444444",
+                    "remoteConfirmField": "clientConfirms",
+                    "pendingBackgroundColor": "#dd8800",
+                    "rejectedBackgroundColor": "#cc0000",
+                    "confirmedBackgroundColor": "#00cc00",
+                    "youRejectedBackgroundColor": "#cc8888",
+                    "bothRejectedBackgroundColor": "#cc8888"
                   }
                 ],
                 "description": ""
