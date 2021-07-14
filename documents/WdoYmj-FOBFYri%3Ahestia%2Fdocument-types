@@ -1,5 +1,5 @@
 {
-  "__": "FlVIpO7eVuMBX6",
+  "__": "x6Mol257HovEmr",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -232,13 +232,13 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1626278440365,
+      "time": 1626278824446,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1626274840000,
+  "_modified": 1626275224000,
   "components": "navigation,relationship",
   "isLockedBy": null,
   "navigation": [],
@@ -1034,6 +1034,60 @@
                   "questionSpaceBefore": ""
                 },
                 {
+                  "id": "YoXe-9R5grjehV",
+                  "name": "",
+                  "type": "relationship",
+                  "hints": {},
+                  "manyType": "zSq4uYg_gBBWqY:hestia/document-types",
+                  "question": "",
+                  "_selectId": "a0nyiKf6ZypXnU",
+                  "condition": "",
+                  "linkField": "contractor",
+                  "remoteView": "tO-6DxodJdqI_0",
+                  "description": "",
+                  "pendingText": "Pending",
+                  "relatedType": "WdoYmj-FOBFYri:hestia/document-types",
+                  "remoteField": "client",
+                  "remoteQuery": {
+                    "$and": [
+                      {
+                        "doYouUseContractors": {
+                          "$in": [
+                            "yes"
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  "confirmField": "contractorConfirms",
+                  "manyTypeName": "Anchor Request",
+                  "pendingColor": "#444444",
+                  "rejectedText": "Rejected",
+                  "buttonCaption": "+ Add",
+                  "confirmedText": "Confirmed",
+                  "rejectedColor": "#ffffff",
+                  "requestedText": "Requested",
+                  "confirmedColor": "#ffffff",
+                  "requestedColor": "#ffffff",
+                  "relatedTypeName": "Company Profile",
+                  "remoteNameField": "companyName",
+                  "remoteSortField": "companyName",
+                  "remoteView_name": "Name",
+                  "youRejectedText": "You Rejected",
+                  "bothRejectedText": "Both Rejected",
+                  "youRejectedColor": "#444444",
+                  "bothRejectedColor": "#444444",
+                  "cancelConfirmation": "Are you sure you want to remove the link?",
+                  "remoteConfirmField": "clientConfirms",
+                  "remoteSearchFields": "",
+                  "pendingBackgroundColor": "#fbd6a3",
+                  "rejectedBackgroundColor": "#f50057",
+                  "confirmedBackgroundColor": "#679861",
+                  "requestedBackgroundColor": "#00b5f5",
+                  "youRejectedBackgroundColor": "#ffeda8",
+                  "bothRejectedBackgroundColor": "#ffeda8"
+                },
+                {
                   "id": "XXxbtBKiMa8V-j",
                   "name": "workActivity",
                   "type": "relatedField",
@@ -1607,78 +1661,6 @@
           "condition": "",
           "description": "",
           "duplicateNames": {}
-        },
-        {
-          "id": "SiPyE1YCzPORGz",
-          "name": "Relationships",
-          "sections": [
-            {
-              "id": "1626188570096-HbRd6txC2Bg3zx",
-              "_id": "1626188570096-HbRd6txC2Bg3zx:hestia/form-sections",
-              "name": "...",
-              "_expanded": true,
-              "_selectId": "twzf7fQg5TKgtk",
-              "condition": "",
-              "questions": [
-                {
-                  "id": "8pR1rWbDgrHBnE",
-                  "name": "",
-                  "type": "relationship",
-                  "hints": {},
-                  "manyType": "zSq4uYg_gBBWqY:hestia/document-types",
-                  "question": "",
-                  "_selectId": "KU--5UHdYCn1Ms",
-                  "condition": "",
-                  "linkField": "contractor",
-                  "remoteView": "tO-6DxodJdqI_0",
-                  "pendingText": "Pending",
-                  "relatedType": "WdoYmj-FOBFYri:hestia/document-types",
-                  "remoteField": "client",
-                  "remoteQuery": {
-                    "$and": [
-                      {
-                        "doYouUseContractors": {
-                          "$in": [
-                            "yes"
-                          ]
-                        }
-                      }
-                    ]
-                  },
-                  "confirmField": "contractorConfirms",
-                  "manyTypeName": "Anchor Request",
-                  "pendingColor": "#444444",
-                  "rejectedText": "Rejected",
-                  "buttonCaption": "+ Add",
-                  "confirmedText": "Confirmed",
-                  "rejectedColor": "#ffffff",
-                  "requestedText": "Requested",
-                  "confirmedColor": "#ffffff",
-                  "requestedColor": "#ffffff",
-                  "relatedTypeName": "Company Profile",
-                  "remoteNameField": "companyName",
-                  "remoteSortField": "companyName",
-                  "remoteView_name": "Name",
-                  "youRejectedText": "You Rejected",
-                  "bothRejectedText": "Both Rejected",
-                  "youRejectedColor": "#444444",
-                  "bothRejectedColor": "#444444",
-                  "cancelConfirmation": "Are you sure you want to remove the link?",
-                  "remoteConfirmField": "clientConfirms",
-                  "pendingBackgroundColor": "#fbd6a3",
-                  "rejectedBackgroundColor": "#f50057",
-                  "confirmedBackgroundColor": "#679861",
-                  "requestedBackgroundColor": "#00b5f5",
-                  "youRejectedBackgroundColor": "#ffeda8",
-                  "bothRejectedBackgroundColor": "#ffeda8"
-                }
-              ],
-              "description": ""
-            }
-          ],
-          "_selectId": "xyCAgtsQhDEYoa",
-          "condition": "",
-          "description": ""
         }
       ],
       "chase": [
@@ -1951,12 +1933,6 @@
           "name": "Main",
           "forms": [
             {
-              "id": "nVTAVi6ojqHViu",
-              "form": "SiPyE1YCzPORGz",
-              "readOnly": false,
-              "_selectId": "LMjEvWB1fQCqgZ"
-            },
-            {
               "id": "Vnj9k_3Mot8ZB0",
               "form": "QBK3L2kW3hNl0_",
               "readOnly": "",
@@ -2008,12 +1984,6 @@
           "id": "FPrVUGkb9dKHqZ",
           "name": "Assessed",
           "forms": [
-            {
-              "id": "lQ8vXCOz4O_1xd",
-              "form": "SiPyE1YCzPORGz",
-              "readOnly": false,
-              "_selectId": "KG37R8Ee5osW2Q"
-            },
             {
               "id": "uc2TDSSSoyIaaY",
               "form": "QBK3L2kW3hNl0_",
