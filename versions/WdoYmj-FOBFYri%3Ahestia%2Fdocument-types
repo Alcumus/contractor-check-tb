@@ -1,6 +1,6 @@
 [
   {
-    "__": "6bd1dTgtD_aUW2",
+    "__": "f-Vho0HtwA3Kie",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -199,7 +199,7 @@
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1626253847000,
+    "_modified": 1626254193000,
     "components": "navigation,relationship",
     "isLockedBy": null,
     "navigation": [],
@@ -1561,6 +1561,7 @@
                     "condition": "",
                     "linkField": "contractor",
                     "remoteView": "tO-6DxodJdqI_0",
+                    "pendingText": "Pending",
                     "relatedType": "WdoYmj-FOBFYri:hestia/document-types",
                     "remoteField": "client",
                     "remoteQuery": {
@@ -1576,11 +1577,15 @@
                     },
                     "confirmField": "contractorConfirms",
                     "manyTypeName": "Anchor Request",
+                    "rejectedText": "Rejected",
                     "buttonCaption": "+ Add",
+                    "confirmedText": "Confirmed",
                     "relatedTypeName": "Company Profile",
                     "remoteNameField": "companyName",
                     "remoteSortField": "companyName",
                     "remoteView_name": "Name",
+                    "youRejectedText": "You Rejected",
+                    "bothRejectedText": "Both Rejected",
                     "remoteConfirmField": "clientConfirms"
                   }
                 ],
