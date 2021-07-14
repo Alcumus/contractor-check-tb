@@ -1,6 +1,6 @@
 [
   {
-    "__": "JtLXGJZzrFlvj0",
+    "__": "UoXMja8UC7VEtj",
     "_id": "4NM8WsMsbIxX6K-TLQOo4mQgq7yrJ:hestia/versions",
     "__id": "4NM8WsMsbIxX6K:hestia/document-types",
     "icon": "",
@@ -194,7 +194,7 @@
     "_deleted": 0,
     "database": "salesforce",
     "maxWidth": 1000,
-    "_modified": 1626255070000,
+    "_modified": 1626260788000,
     "components": "",
     "navigation": [],
     "_behaviours": {
@@ -336,21 +336,21 @@
               {
                 "id": "FklS9NaKbZ5RhW",
                 "field": "ConractorCheck_ID__c",
-                "value": [
-                  "{ContractorCheckID}"
-                ]
+                "value": "{ContractorCheckID}"
               },
               {
                 "id": "jQGoEgbuVROETP",
                 "field": "Name",
                 "value": [
-                  "{AccountName} is the name"
+                  "{AccountName}"
                 ]
               },
               {
                 "id": "5pWZ9TUfRbpvtR",
                 "field": "Global_Exemption__c",
-                "value": "{toBool(AccreditationExpired)}"
+                "value": [
+                  "{toBool(AccreditationExpired)}"
+                ]
               },
               {
                 "id": "C0nj1ETezTEHFh",

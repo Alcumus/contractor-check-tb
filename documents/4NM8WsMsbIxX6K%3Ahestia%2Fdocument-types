@@ -1,5 +1,5 @@
 {
-  "__": "dJLFXMEJy2bwMe",
+  "__": "Sy0ZijNXWOa2P5",
   "_id": "4NM8WsMsbIxX6K:hestia/document-types",
   "icon": "",
   "name": "SalesforceSyncTest",
@@ -196,14 +196,14 @@
     {
       "id": "TLQOo4mQgq7yrJ",
       "name": "1",
-      "time": 1626264387818,
+      "time": 1626264698487,
       "user": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
       "locked": false,
-      "_selectId": "f4KTcnt_RRpiBu",
+      "_selectId": "AWnjyUa2oldSbY",
       "parentVersion": ""
     }
   ],
-  "_modified": 1626260788000,
+  "_modified": 1626261098000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -345,21 +345,21 @@
             {
               "id": "FklS9NaKbZ5RhW",
               "field": "ConractorCheck_ID__c",
-              "value": [
-                "{ContractorCheckID}"
-              ]
+              "value": "{ContractorCheckID}"
             },
             {
               "id": "jQGoEgbuVROETP",
               "field": "Name",
               "value": [
-                "{AccountName} is the name"
+                "{AccountName}"
               ]
             },
             {
               "id": "5pWZ9TUfRbpvtR",
               "field": "Global_Exemption__c",
-              "value": "{toBool(AccreditationExpired)}"
+              "value": [
+                "{toBool(AccreditationExpired)}"
+              ]
             },
             {
               "id": "C0nj1ETezTEHFh",
