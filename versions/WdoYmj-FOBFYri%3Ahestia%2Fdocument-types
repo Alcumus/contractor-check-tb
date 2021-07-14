@@ -1,6 +1,6 @@
 [
   {
-    "__": "2c1ZzDrY0dj-g7",
+    "__": "tCWWDgHjklUnUI",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -199,7 +199,7 @@
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1626265127000,
+    "_modified": 1626271090000,
     "components": "navigation,relationship",
     "isLockedBy": null,
     "navigation": [],
@@ -935,6 +935,7 @@
                     "name": "clientsLookup",
                     "type": "lookup",
                     "hints": {
+                      "hidden": true,
                       "choose_multiple": true
                     },
                     "lines": 1,
@@ -979,6 +980,73 @@
                     "questionRightPad": "",
                     "editableCondition": "",
                     "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "6JhxopQpPV-hdm",
+                    "name": "",
+                    "type": "information",
+                    "hints": {},
+                    "question": "<p>The relationships you have with clients</p>\n",
+                    "_selectId": "JEgPdusNybfQla",
+                    "condition": "",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "hWsyqtDdFax9FL",
+                    "name": "",
+                    "type": "relationship",
+                    "hints": {},
+                    "manyType": "zSq4uYg_gBBWqY:hestia/document-types",
+                    "question": "",
+                    "_selectId": "uKn16hRgw_GVHc",
+                    "condition": "",
+                    "linkField": "contractor",
+                    "remoteView": "tO-6DxodJdqI_0",
+                    "description": "",
+                    "pendingText": "Pending",
+                    "relatedType": "WdoYmj-FOBFYri:hestia/document-types",
+                    "remoteField": "client",
+                    "remoteQuery": {
+                      "$and": [
+                        {
+                          "doYouUseContractors": {
+                            "$in": [
+                              "yes"
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    "confirmField": "contractorConfirms",
+                    "manyTypeName": "Anchor Request",
+                    "pendingColor": "#444444",
+                    "rejectedText": "Rejected",
+                    "buttonCaption": "+ Add",
+                    "confirmedText": "Confirmed",
+                    "rejectedColor": "#ffffff",
+                    "requestedText": "Requested",
+                    "confirmedColor": "#ffffff",
+                    "requestedColor": "#ffffff",
+                    "relatedTypeName": "Company Profile",
+                    "remoteNameField": "companyName",
+                    "remoteSortField": "companyName",
+                    "remoteView_name": "Name",
+                    "youRejectedText": "You Rejected",
+                    "bothRejectedText": "Both Rejected",
+                    "youRejectedColor": "#444444",
+                    "bothRejectedColor": "#444444",
+                    "cancelConfirmation": "Are you sure you want to remove the link?",
+                    "remoteConfirmField": "clientConfirms",
+                    "remoteSearchFields": "companyName\ntradingNames\nemail\nphone\nzip",
+                    "pendingBackgroundColor": "#fbd6a3",
+                    "rejectedBackgroundColor": "#f50057",
+                    "confirmedBackgroundColor": "#679861",
+                    "requestedBackgroundColor": "#00b5f5",
+                    "youRejectedBackgroundColor": "#ffeda8",
+                    "bothRejectedBackgroundColor": "#ffeda8"
                   },
                   {
                     "id": "XXxbtBKiMa8V-j",
@@ -1136,6 +1204,73 @@
                     "deselectedHoverBackgroundColor": "#1C9DD41F"
                   },
                   {
+                    "id": "UskCz8NWGyyoVe",
+                    "name": "",
+                    "type": "information",
+                    "hints": {},
+                    "question": "<p>The relationships you have with contractors</p>\n",
+                    "_selectId": "lNU_5IBqK2_wYv",
+                    "condition": "",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "6oAMfLhKmJjLRP",
+                    "name": "",
+                    "type": "relationship",
+                    "hints": {},
+                    "manyType": "zSq4uYg_gBBWqY:hestia/document-types",
+                    "question": "",
+                    "_selectId": "slR7aQc0x2ZYbf",
+                    "condition": "",
+                    "linkField": "client",
+                    "remoteView": "tO-6DxodJdqI_0",
+                    "description": "",
+                    "pendingText": "Pending",
+                    "relatedType": "WdoYmj-FOBFYri:hestia/document-types",
+                    "remoteField": "contractor",
+                    "remoteQuery": {
+                      "$and": [
+                        {
+                          "doYouContract": {
+                            "$in": [
+                              "yes"
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    "confirmField": "clientConfirms",
+                    "manyTypeName": "Anchor Request",
+                    "pendingColor": "#444444",
+                    "rejectedText": "Rejected",
+                    "buttonCaption": "+ Add",
+                    "confirmedText": "Confirmed",
+                    "rejectedColor": "#ffffff",
+                    "requestedText": "Requested",
+                    "confirmedColor": "#ffffff",
+                    "requestedColor": "#ffffff",
+                    "relatedTypeName": "Company Profile",
+                    "remoteNameField": "companyName",
+                    "remoteSortField": "companyName",
+                    "remoteView_name": "Name",
+                    "youRejectedText": "You Rejected",
+                    "bothRejectedText": "Both Rejected",
+                    "youRejectedColor": "#444444",
+                    "bothRejectedColor": "#444444",
+                    "cancelConfirmation": "Are you sure you want to remove the link?",
+                    "remoteConfirmField": "contractorConfirms",
+                    "remoteSearchFields": "companyName\ntradingNames\nemail\nphone\nzip",
+                    "pendingBackgroundColor": "#fbd6a3",
+                    "rejectedBackgroundColor": "#f50057",
+                    "confirmedBackgroundColor": "#679861",
+                    "requestedBackgroundColor": "#00b5f5",
+                    "youRejectedBackgroundColor": "#ffeda8",
+                    "bothRejectedBackgroundColor": "#ffeda8"
+                  },
+                  {
                     "id": "iI93pS9Uml0Vnu",
                     "name": "classification",
                     "type": "choice",
@@ -1263,16 +1398,20 @@
                       "id": "UVxygrF9sqVrgJ",
                       "name": "companyName",
                       "type": "text",
-                      "hints": {},
+                      "hints": {
+                        "not_editable": true
+                      },
                       "maxWidth": "",
                       "question": "",
                       "_selectId": "EwKg0PNptp3x9I",
-                      "condition": "",
+                      "condition": "valueNotEquals(\"$state\",New)",
                       "inputLabel": "",
                       "defaultValue": "",
                       "questionHeight": "",
+                      "clearIfDisabled": "",
                       "questionLeftPad": "",
                       "questionRightPad": "",
+                      "editableCondition": "",
                       "questionSpaceBefore": ""
                     },
                     "questionRightPad": "",
