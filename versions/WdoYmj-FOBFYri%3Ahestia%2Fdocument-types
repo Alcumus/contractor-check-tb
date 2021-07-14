@@ -1,6 +1,6 @@
 [
   {
-    "__": "XNWNHQWXpquWKL",
+    "__": "6fMfkvAnZ0VxoL",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -182,7 +182,7 @@
         "gitHubPublish": true
       },
       "c5NB8L8axiOpyP": {
-        "publishDocs": "",
+        "publishDocs": true,
         "gitHubPublish": true
       }
     },
@@ -203,7 +203,7 @@
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1626272208000,
+    "_modified": 1626273588000,
     "components": "navigation,relationship",
     "isLockedBy": null,
     "navigation": [],
