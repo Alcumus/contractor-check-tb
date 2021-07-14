@@ -1,6 +1,6 @@
 [
   {
-    "__": "E6B4VNLl7U8rI9",
+    "__": "eTGVI-sNgPxasF",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -199,7 +199,7 @@
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1626247714000,
+    "_modified": 1626248007000,
     "components": "navigation,relationship",
     "isLockedBy": null,
     "navigation": [],
@@ -1576,8 +1576,10 @@
                     },
                     "confirmField": "contractorConfirms",
                     "manyTypeName": "Anchor Request",
+                    "buttonCaption": "+ Add",
                     "relatedTypeName": "Company Profile",
                     "remoteNameField": "companyName",
+                    "remoteSortField": "companyName",
                     "remoteView_name": "Name",
                     "remoteConfirmField": "clientConfirms"
                   }
