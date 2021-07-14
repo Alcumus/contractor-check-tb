@@ -1,5 +1,5 @@
 {
-  "__": "bsx-8GWRy8djrN",
+  "__": "wM1Pg2DG5TgGyp",
   "_id": "4NM8WsMsbIxX6K:hestia/document-types",
   "icon": "",
   "name": "SalesforceSyncTest",
@@ -196,14 +196,14 @@
     {
       "id": "TLQOo4mQgq7yrJ",
       "name": "1",
-      "time": 1626264776695,
+      "time": 1626269620188,
       "user": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
       "locked": false,
-      "_selectId": "ONGPIJmHuoprBr",
+      "_selectId": "AJ_C7ppoBCfrYF",
       "parentVersion": ""
     }
   ],
-  "_modified": 1626261177000,
+  "_modified": 1626266031000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -345,7 +345,9 @@
             {
               "id": "FklS9NaKbZ5RhW",
               "field": "ConractorCheck_ID__c",
-              "value": "{ContractorCheckID}"
+              "value": [
+                "{ContractorCheckID}"
+              ]
             },
             {
               "id": "jQGoEgbuVROETP",
@@ -369,7 +371,7 @@
           ],
           "targetType": "",
           "sfObjectType": "Account",
-          "salesforceConnection": "HkDxaF-7PyAskf"
+          "salesforceConnection": "salesforce-contractorcheck:hestia/datasources"
         }
       ],
       "formAction": [
@@ -445,6 +447,7 @@
   "__hideBehaviours": true,
   "__hidePublishing": true,
   "documentBackdrop": "#f4f4f4",
+  "_updatersExpanded": true,
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
   "devices-allowed-html": ""
