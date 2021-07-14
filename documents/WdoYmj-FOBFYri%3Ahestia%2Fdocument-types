@@ -1,5 +1,5 @@
 {
-  "__": "aSTmRALJff4Ptn",
+  "__": "wyJJ7JD2vhwS-a",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -228,13 +228,13 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1626268727539,
+      "time": 1626270427854,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1626265127000,
+  "_modified": 1626266828000,
   "components": "navigation,relationship",
   "isLockedBy": null,
   "navigation": [],
@@ -1617,7 +1617,9 @@
                   "buttonCaption": "+ Add",
                   "confirmedText": "Confirmed",
                   "rejectedColor": "#ffffff",
+                  "requestedText": "Requested",
                   "confirmedColor": "#ffffff",
+                  "requestedColor": "#ffffff",
                   "relatedTypeName": "Company Profile",
                   "remoteNameField": "companyName",
                   "remoteSortField": "companyName",
@@ -1631,6 +1633,7 @@
                   "pendingBackgroundColor": "#fbd6a3",
                   "rejectedBackgroundColor": "#f50057",
                   "confirmedBackgroundColor": "#679861",
+                  "requestedBackgroundColor": "#00b5f5",
                   "youRejectedBackgroundColor": "#ffeda8",
                   "bothRejectedBackgroundColor": "#ffeda8"
                 }

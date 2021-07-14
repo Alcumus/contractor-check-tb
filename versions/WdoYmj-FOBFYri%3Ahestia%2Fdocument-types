@@ -1,6 +1,6 @@
 [
   {
-    "__": "9CVzrNs7EGnpqU",
+    "__": "2c1ZzDrY0dj-g7",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -199,7 +199,7 @@
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1626265059000,
+    "_modified": 1626265127000,
     "components": "navigation,relationship",
     "isLockedBy": null,
     "navigation": [],
@@ -1582,7 +1582,9 @@
                     "buttonCaption": "+ Add",
                     "confirmedText": "Confirmed",
                     "rejectedColor": "#ffffff",
+                    "requestedText": "Requested",
                     "confirmedColor": "#ffffff",
+                    "requestedColor": "#ffffff",
                     "relatedTypeName": "Company Profile",
                     "remoteNameField": "companyName",
                     "remoteSortField": "companyName",
@@ -1596,6 +1598,7 @@
                     "pendingBackgroundColor": "#fbd6a3",
                     "rejectedBackgroundColor": "#f50057",
                     "confirmedBackgroundColor": "#679861",
+                    "requestedBackgroundColor": "#00b5f5",
                     "youRejectedBackgroundColor": "#ffeda8",
                     "bothRejectedBackgroundColor": "#ffeda8"
                   }
