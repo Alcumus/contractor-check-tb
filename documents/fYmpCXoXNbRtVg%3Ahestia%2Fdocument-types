@@ -1,5 +1,5 @@
 {
-  "__": "DmBLEcvu2m1W99",
+  "__": "3p-jGK1QoghCiR",
   "_id": "fYmpCXoXNbRtVg:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -201,14 +201,13 @@
     {
       "id": "D57acZ-uIHF-Tx",
       "name": "1.0",
-      "time": 1626085456976,
-      "user": "64467393-61e5-45fe-a026-45aed6419337",
+      "time": 1626187550094,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "f6oCfPJs5a33xi",
       "parentVersion": ""
     }
   ],
-  "_modified": 1626085458000,
+  "_modified": 1626276202000,
   "components": "verification,helptext,navigation,formprogress,localisation",
   "isLockedBy": null,
   "navigation": [],
@@ -574,7 +573,7 @@
                   "name": "",
                   "type": "information",
                   "hints": {},
-                  "question": "<p><span style=\"color: rgb(0,97,131);font-size: 24px;\"><strong>Health and Safety Accreditation Complete {qcAcceptedDate:date=medium} - Read Only</strong></span></p>\n<p></p>\n",
+                  "question": "<p><span style=\"color: rgb(0,97,131);font-size: 24px;\"><strong>Health and Safety Accreditation Completion on {qcAcceptedDate:date=medium} - Read Only</strong></span></p>\n<p></p>\n",
                   "_selectId": "3ScKVhFYDIxio6",
                   "condition": "",
                   "questionHeight": "10em",
@@ -1063,6 +1062,105 @@
           "createMergeRecord": false,
           "uniqueMergeRecords": false,
           "updateTargetDocumentState": ""
+        },
+        {
+          "id": "7f9LXj_ER0kc2K",
+          "name": "Update Assessor Record On Resubmitted",
+          "onEnter": "",
+          "inStates": [
+            "Resubmitted"
+          ],
+          "mergeAll": true,
+          "_selectId": "apn2G2TV87uPtH",
+          "properties": [
+            {
+              "id": "a6aOTV90EU6JRh",
+              "field": "submittedDate",
+              "value": "{$now}",
+              "defaultValue": ""
+            },
+            {
+              "id": "973I0UL11heLmR",
+              "field": "emailHeader",
+              "value": [
+                "",
+                "-"
+              ],
+              "defaultValue": ""
+            },
+            {
+              "id": "-SE76IpRP8g1Df",
+              "field": "emailFooter",
+              "value": [
+                "",
+                "-"
+              ],
+              "defaultValue": ""
+            }
+          ],
+          "specificId": "",
+          "targetType": "R720NeuU8vOWuo:hestia/document-types",
+          "updateState": "Reassessing",
+          "updateClient": "",
+          "recordChanges": "",
+          "$behaviourType": "updater",
+          "targetTypeName": "Assessor Questionnaire",
+          "createMergeRecord": "",
+          "updateTargetDocumentState": true
+        },
+        {
+          "id": "XPzaucqJxCv9yl",
+          "name": "Audit Resubmitted",
+          "onEnter": true,
+          "inStates": [
+            "Resubmitted"
+          ],
+          "mergeAll": false,
+          "_selectId": "NH_MCS8RvQuQOR",
+          "properties": [
+            {
+              "id": "P3Z3dZ8NOaw7Ma",
+              "field": "activity",
+              "value": "Resubmitted response",
+              "defaultValue": ""
+            },
+            {
+              "id": "eKKMqox-hsnRxH",
+              "field": "employee",
+              "value": "{$currentUser.Employees._id}",
+              "defaultValue": ""
+            },
+            {
+              "id": "pUL2QiK0uLU5am",
+              "field": "profile",
+              "value": "{profile}",
+              "defaultValue": ""
+            },
+            {
+              "id": "INAqEBu-E1DqFi",
+              "field": "time",
+              "value": "{$now}",
+              "defaultValue": ""
+            },
+            {
+              "id": "jyxJO50CDUUAZs",
+              "field": "assessment",
+              "value": "{_uniqueId}:contractorcheck/contractorAnswers",
+              "defaultValue": ""
+            }
+          ],
+          "specificId": false,
+          "targetType": "j0P98w9sl6QXZo:hestia/document-types",
+          "updateState": "",
+          "updateClient": true,
+          "recordChanges": "details",
+          "$behaviourType": "updater",
+          "targetTypeName": "Audit Trail",
+          "updateRecordId": "",
+          "updateToClient": "rsihYJKKDVyaYN",
+          "createMergeRecord": true,
+          "uniqueMergeRecords": true,
+          "updateTargetDocumentState": false
         }
       ],
       "derivation": [
@@ -1260,7 +1358,8 @@
           "_selectId": "zAb0mgmTlrEoAH",
           "editDemands": [],
           "inputStates": [
-            "Submitted"
+            "Submitted",
+            "Resubmitted"
           ],
           "visibleDemands": []
         },
@@ -1574,6 +1673,8 @@
               "icon": "",
               "color": "#0a599a",
               "modal": {
+                "icon": "",
+                "color": "",
                 "title": "Submit Form",
                 "cancel": "Cancel",
                 "enabled": true,
@@ -1588,7 +1689,7 @@
               "goBack": "",
               "caption": "Submit",
               "command": "setData",
-              "toState": "Submitted",
+              "toState": "Resubmitted",
               "variant": "text",
               "allForms": true,
               "useForms": [],
@@ -2443,6 +2544,7 @@
   "defaultState": "New",
   "sidebarColor": "#333",
   "tabsSelected": "#009fda",
+  "__hideRecords": false,
   "__warnReasons": [],
   "documentColor": "#333",
   "linkedProfile": "undefined",
@@ -2459,8 +2561,9 @@
   "defaultActivity": null,
   "devices-allowed": "",
   "sideBarMinWidth": 150,
+  "__hideBehaviours": true,
   "documentBackdrop": "#f4f4f4",
-  "_updatersExpanded": false,
+  "_updatersExpanded": true,
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
   "devices-allowed-html": "",
