@@ -1,5 +1,5 @@
 {
-  "__": "Ah7tlivgi6S1IB",
+  "__": "aU6NTF_6F3siAX",
   "_id": "4NM8WsMsbIxX6K:hestia/document-types",
   "icon": "",
   "name": "SalesforceSyncTest",
@@ -196,14 +196,14 @@
     {
       "id": "TLQOo4mQgq7yrJ",
       "name": "1",
-      "time": 1626258571975,
+      "time": 1626258670258,
       "user": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
       "locked": false,
-      "_selectId": "xtasgb981r5CXt",
+      "_selectId": "CRCEkMmmEijMJU",
       "parentVersion": ""
     }
   ],
-  "_modified": 1626254972000,
+  "_modified": 1626255070000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -363,7 +363,7 @@
             },
             {
               "id": "C0nj1ETezTEHFh",
-              "field": "NumberOfEmployees",
+              "field": "Full_time_Employees__c",
               "value": "{Employees}"
             }
           ],
