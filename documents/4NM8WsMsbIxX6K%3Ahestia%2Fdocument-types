@@ -1,5 +1,5 @@
 {
-  "__": "R7GaX-hfwFYB4N",
+  "__": "gVrkfXemusC_Xa",
   "_id": "4NM8WsMsbIxX6K:hestia/document-types",
   "icon": "",
   "name": "SalesforceSyncTest",
@@ -196,14 +196,14 @@
     {
       "id": "TLQOo4mQgq7yrJ",
       "name": "1",
-      "time": 1626257730068,
+      "time": 1626257793313,
       "user": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
       "locked": false,
-      "_selectId": "mXKaPF1wU0GYHa",
+      "_selectId": "XRDCZ7HBrCbywi",
       "parentVersion": ""
     }
   ],
-  "_modified": 1626254130000,
+  "_modified": 1626254193000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -334,7 +334,9 @@
             {
               "id": "jQGoEgbuVROETP",
               "field": "Name",
-              "value": "{AccountName} etc"
+              "value": [
+                "{AccountName} is the name"
+              ]
             },
             {
               "id": "5pWZ9TUfRbpvtR",
