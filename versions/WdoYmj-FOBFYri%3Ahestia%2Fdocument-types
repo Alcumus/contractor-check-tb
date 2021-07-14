@@ -1,6 +1,6 @@
 [
   {
-    "__": "67COGvLrujt_ln",
+    "__": "wi-IL6-VK2QLTF",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -195,11 +195,11 @@
       }
     },
     "$invalid": false,
-    "_created": 1622205077000,
+    "_created": 1621461152000,
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1626092307000,
+    "_modified": 1626188650000,
     "components": "navigation",
     "isLockedBy": null,
     "navigation": [],
@@ -1537,6 +1537,57 @@
             "condition": "",
             "description": "",
             "duplicateNames": {}
+          },
+          {
+            "id": "SiPyE1YCzPORGz",
+            "name": "Relationships",
+            "sections": [
+              {
+                "id": "1626188570096-HbRd6txC2Bg3zx",
+                "_id": "1626188570096-HbRd6txC2Bg3zx:hestia/form-sections",
+                "name": "...",
+                "_expanded": true,
+                "_selectId": "twzf7fQg5TKgtk",
+                "condition": "",
+                "questions": [
+                  {
+                    "id": "8pR1rWbDgrHBnE",
+                    "name": "",
+                    "type": "relationship",
+                    "hints": {},
+                    "manyType": "zSq4uYg_gBBWqY:hestia/document-types",
+                    "question": "",
+                    "_selectId": "KU--5UHdYCn1Ms",
+                    "condition": "",
+                    "linkField": "contractor",
+                    "remoteView": "tO-6DxodJdqI_0",
+                    "relatedType": "WdoYmj-FOBFYri:hestia/document-types",
+                    "remoteField": "client",
+                    "remoteQuery": {
+                      "$and": [
+                        {
+                          "doYouUseContractors": {
+                            "$in": [
+                              "yes"
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    "confirmField": "contractorConfirms",
+                    "manyTypeName": "Anchor Request",
+                    "relatedTypeName": "Company Profile",
+                    "remoteNameField": "companyName",
+                    "remoteView_name": "Name",
+                    "remoteConfirmField": "clientConfirms"
+                  }
+                ],
+                "description": ""
+              }
+            ],
+            "_selectId": "xyCAgtsQhDEYoa",
+            "condition": "",
+            "description": ""
           }
         ],
         "chase": [
@@ -1809,6 +1860,12 @@
             "name": "Main",
             "forms": [
               {
+                "id": "nVTAVi6ojqHViu",
+                "form": "SiPyE1YCzPORGz",
+                "readOnly": false,
+                "_selectId": "LMjEvWB1fQCqgZ"
+              },
+              {
                 "id": "Vnj9k_3Mot8ZB0",
                 "form": "QBK3L2kW3hNl0_",
                 "readOnly": "",
@@ -2054,6 +2111,7 @@
     "defaultState": "New",
     "sidebarColor": "#333",
     "tabsSelected": "#009fda",
+    "__hideRecords": false,
     "__warnReasons": [],
     "documentColor": "#333",
     "_activeVersion": "GmG8PN_c_6Ta_E",
@@ -2065,12 +2123,14 @@
     },
     "tabsBackground": "#f4f4f4",
     "tabsForeground": "#555",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "defaultActivity": "x_5KNezQjHRN0v",
     "devices-allowed": "",
     "sideBarMinWidth": 150,
+    "__hideBehaviours": true,
+    "__hidePublishing": false,
     "documentBackdrop": "#f4f4f4",
-    "_updatersExpanded": true,
+    "_updatersExpanded": false,
     "sidebarBackground": "#fff",
     "documentBackground": "#f4f4f4",
     "devices-allowed-html": "",
@@ -2248,7 +2308,7 @@
     },
     "$valid": true,
     "__warn": false,
-    "client": "mAlQ6JUvniLqBk",
+    "client": "rsihYJKKDVyaYN",
     "gitHub": {
       "1J8739KZBOtzVQ": {
         "publishDocs": "",
@@ -2260,7 +2320,7 @@
       }
     },
     "locked": false,
-    "_client": "mAlQ6JUvniLqBk",
+    "_client": "rsihYJKKDVyaYN",
     "demands": [],
     "graphQL": {
       "6g4mciY7jkfOUo": {
