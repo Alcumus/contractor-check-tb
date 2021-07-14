@@ -1,5 +1,5 @@
 {
-  "__": "Sy0ZijNXWOa2P5",
+  "__": "bsx-8GWRy8djrN",
   "_id": "4NM8WsMsbIxX6K:hestia/document-types",
   "icon": "",
   "name": "SalesforceSyncTest",
@@ -196,14 +196,14 @@
     {
       "id": "TLQOo4mQgq7yrJ",
       "name": "1",
-      "time": 1626264698487,
+      "time": 1626264776695,
       "user": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
       "locked": false,
-      "_selectId": "AWnjyUa2oldSbY",
+      "_selectId": "ONGPIJmHuoprBr",
       "parentVersion": ""
     }
   ],
-  "_modified": 1626261098000,
+  "_modified": 1626261177000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -274,7 +274,7 @@
                 },
                 {
                   "id": "1u1dSovHnC7xm6",
-                  "name": "AccreditationExpired",
+                  "name": "GlobalExemption",
                   "type": "boolean",
                   "hints": {
                     "icon_buttons": true
@@ -289,7 +289,7 @@
                       "value": "no"
                     }
                   ],
-                  "question": "<p>Accreditation Expired</p>\n",
+                  "question": "<p>Global Exemption</p>\n",
                   "_selectId": "xzohVrzhRGEp4f",
                   "condition": "",
                   "allowNullify": "",
@@ -357,14 +357,14 @@
             {
               "id": "5pWZ9TUfRbpvtR",
               "field": "Global_Exemption__c",
-              "value": [
-                "{toBool(AccreditationExpired)}"
-              ]
+              "value": "{toBool(GlobalExemption)}"
             },
             {
               "id": "C0nj1ETezTEHFh",
               "field": "Full_time_Employees__c",
-              "value": "{Employees}"
+              "value": [
+                "{Employees}"
+              ]
             }
           ],
           "targetType": "",

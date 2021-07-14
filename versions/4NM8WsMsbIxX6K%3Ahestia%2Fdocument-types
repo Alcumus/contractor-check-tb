@@ -1,6 +1,6 @@
 [
   {
-    "__": "UoXMja8UC7VEtj",
+    "__": "t_r9dAw3VrV80E",
     "_id": "4NM8WsMsbIxX6K-TLQOo4mQgq7yrJ:hestia/versions",
     "__id": "4NM8WsMsbIxX6K:hestia/document-types",
     "icon": "",
@@ -265,7 +265,7 @@
                   },
                   {
                     "id": "1u1dSovHnC7xm6",
-                    "name": "AccreditationExpired",
+                    "name": "GlobalExemption",
                     "type": "boolean",
                     "hints": {
                       "icon_buttons": true
@@ -280,7 +280,7 @@
                         "value": "no"
                       }
                     ],
-                    "question": "<p>Accreditation Expired</p>\n",
+                    "question": "<p>Global Exemption</p>\n",
                     "_selectId": "xzohVrzhRGEp4f",
                     "condition": "",
                     "allowNullify": "",
@@ -348,14 +348,14 @@
               {
                 "id": "5pWZ9TUfRbpvtR",
                 "field": "Global_Exemption__c",
-                "value": [
-                  "{toBool(AccreditationExpired)}"
-                ]
+                "value": "{toBool(GlobalExemption)}"
               },
               {
                 "id": "C0nj1ETezTEHFh",
                 "field": "Full_time_Employees__c",
-                "value": "{Employees}"
+                "value": [
+                  "{Employees}"
+                ]
               }
             ],
             "targetType": "",
