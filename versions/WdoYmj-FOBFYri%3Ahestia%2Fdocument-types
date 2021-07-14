@@ -1,6 +1,6 @@
 [
   {
-    "__": "SgiOGtfm6dkMTm",
+    "__": "n9AgKYNpavb4Mv",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -199,7 +199,7 @@
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1626255730000,
+    "_modified": 1626255754000,
     "components": "navigation,relationship",
     "isLockedBy": null,
     "navigation": [],
@@ -1591,6 +1591,7 @@
                     "bothRejectedText": "Both Rejected",
                     "youRejectedColor": "#444444",
                     "bothRejectedColor": "#444444",
+                    "cancelConfirmation": "Are you sure you want to remove the link?",
                     "remoteConfirmField": "clientConfirms",
                     "pendingBackgroundColor": "#fbd6a3",
                     "rejectedBackgroundColor": "#f50057",

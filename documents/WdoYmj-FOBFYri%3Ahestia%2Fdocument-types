@@ -1,5 +1,5 @@
 {
-  "__": "LAivhDDxZkRGF5",
+  "__": "9NBDQW-T-X584Z",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -228,13 +228,13 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1626259353961,
+      "time": 1626260547545,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1626255754000,
+  "_modified": 1626256947000,
   "components": "navigation,relationship",
   "isLockedBy": null,
   "navigation": [],
@@ -1626,6 +1626,7 @@
                   "bothRejectedText": "Both Rejected",
                   "youRejectedColor": "#444444",
                   "bothRejectedColor": "#444444",
+                  "cancelConfirmation": "Are you sure you want to remove the link?",
                   "remoteConfirmField": "clientConfirms",
                   "pendingBackgroundColor": "#fbd6a3",
                   "rejectedBackgroundColor": "#f50057",
