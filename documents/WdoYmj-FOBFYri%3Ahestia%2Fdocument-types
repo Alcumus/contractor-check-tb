@@ -1,5 +1,5 @@
 {
-  "__": "_EXa8LoSIa8huw",
+  "__": "lLF1E32nsF9kiP",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -228,13 +228,13 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1626259155121,
+      "time": 1626259330009,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1626255555000,
+  "_modified": 1626255730000,
   "components": "navigation,relationship",
   "isLockedBy": null,
   "navigation": [],
@@ -1627,11 +1627,11 @@
                   "youRejectedColor": "#444444",
                   "bothRejectedColor": "#444444",
                   "remoteConfirmField": "clientConfirms",
-                  "pendingBackgroundColor": "#dd8800",
-                  "rejectedBackgroundColor": "#cc0000",
-                  "confirmedBackgroundColor": "#00cc00",
-                  "youRejectedBackgroundColor": "#cc8888",
-                  "bothRejectedBackgroundColor": "#cc8888"
+                  "pendingBackgroundColor": "#fbd6a3",
+                  "rejectedBackgroundColor": "#f50057",
+                  "confirmedBackgroundColor": "#679861",
+                  "youRejectedBackgroundColor": "#ffeda8",
+                  "bothRejectedBackgroundColor": "#ffeda8"
                 }
               ],
               "description": ""

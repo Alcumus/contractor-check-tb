@@ -1,6 +1,6 @@
 [
   {
-    "__": "w2uninGkjhqYr7",
+    "__": "6r1DoFYJckeGGk",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -199,7 +199,7 @@
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1626254566000,
+    "_modified": 1626255642000,
     "components": "navigation,relationship",
     "isLockedBy": null,
     "navigation": [],
@@ -1592,11 +1592,11 @@
                     "youRejectedColor": "#444444",
                     "bothRejectedColor": "#444444",
                     "remoteConfirmField": "clientConfirms",
-                    "pendingBackgroundColor": "#dd8800",
-                    "rejectedBackgroundColor": "#cc0000",
-                    "confirmedBackgroundColor": "#00cc00",
-                    "youRejectedBackgroundColor": "#cc8888",
-                    "bothRejectedBackgroundColor": "#cc8888"
+                    "pendingBackgroundColor": "#fbd6a3",
+                    "rejectedBackgroundColor": "#f50057",
+                    "confirmedBackgroundColor": "#679861",
+                    "youRejectedBackgroundColor": "#ffeda8",
+                    "bothRejectedBackgroundColor": "#ffeda8"
                   }
                 ],
                 "description": ""
