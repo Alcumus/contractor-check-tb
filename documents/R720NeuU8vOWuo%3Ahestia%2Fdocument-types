@@ -1,5 +1,5 @@
 {
-  "__": "-tnosXX8TjlA02",
+  "__": "z2C0lCRcjfo39s",
   "_id": "R720NeuU8vOWuo:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -213,13 +213,13 @@
     {
       "id": "sTNP-VH3hEzwdP",
       "name": "1.0",
-      "time": 1626255706855,
+      "time": 1626256778331,
       "user": "64467393-61e5-45fe-a026-45aed6419337",
       "locked": false,
       "parentVersion": ""
     }
   ],
-  "_modified": 1626255707000,
+  "_modified": 1626256779000,
   "components": "verification,navigation,richtext",
   "isLockedBy": null,
   "navigation": [],
