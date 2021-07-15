@@ -1,5 +1,5 @@
 {
-  "__": "EKSphI5kofZCOP",
+  "__": "0PCzgiu4gmG8BH",
   "_id": "UJns4BZ0dhGyw5:hestia/document-types",
   "icon": "",
   "name": "Master List Company Profile",
@@ -172,6 +172,10 @@
       "publishDocs": true,
       "gitHubPublish": true
     },
+    "OfBr_ul5Jv0b_l": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
     "aV8boSk1D6q6YG": {
       "publishDocs": true,
       "gitHubPublish": true
@@ -186,10 +190,17 @@
       "exposeAPI": true,
       "readDemands": [],
       "writeDemands": []
+    },
+    "ykQO6Osmv0pwBG": {
+      "read": true,
+      "write": true,
+      "exposeAPI": true,
+      "readDemands": [],
+      "writeDemands": []
     }
   },
   "$invalid": false,
-  "_created": 1624016930000,
+  "_created": 1625480264000,
   "_deleted": 0,
   "database": "contractorcheck",
   "maxWidth": 1000,
@@ -197,19 +208,74 @@
     {
       "id": "8eXUnVjk2o1gFo",
       "name": "1.0",
-      "time": 1624494892380,
-      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "time": 1626349899109,
+      "user": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
       "locked": false,
-      "_selectId": "pYNcNXK8f99HQd",
       "parentVersion": ""
     }
   ],
-  "_modified": 1624491292000,
+  "_modified": 1626346299000,
   "components": "",
   "navigation": [],
   "_behaviours": {
     "_state": "",
     "instances": {
+      "form": [
+        {
+          "id": "aniP7ivNuI84qd",
+          "name": "Data",
+          "sections": [
+            {
+              "id": "1625489706564-9Mbe_TXSG-wTNR",
+              "_id": "1625489706564-9Mbe_TXSG-wTNR:hestia/form-sections",
+              "name": "...",
+              "_expanded": true,
+              "_selectId": "L9rUvKxwEzX_Yk",
+              "condition": "",
+              "questions": [
+                {
+                  "id": "jjsKrmYKuBq7yt",
+                  "name": "profile",
+                  "type": "lookup",
+                  "hints": {},
+                  "lines": 1,
+                  "groups": [],
+                  "question": "",
+                  "_selectId": "8HNv-Spr1tTHpr",
+                  "condition": "",
+                  "popupView": "tO-6DxodJdqI_0",
+                  "inputLabel": "",
+                  "lookupType": "WdoYmj-FOBFYri:hestia/document-types",
+                  "sortFields": [],
+                  "displayView": "tO-6DxodJdqI_0",
+                  "linesMobile": 1,
+                  "defaultValue": "",
+                  "searchFields": [],
+                  "popupQuestion": "",
+                  "addButtonLabel": "",
+                  "lookupTypeName": "Company Profile",
+                  "popupView_name": "Name",
+                  "questionHeight": "",
+                  "requiredFields": [
+                    "companyName"
+                  ],
+                  "clearIfDisabled": "",
+                  "questionLeftPad": "",
+                  "displayView_name": "Name",
+                  "questionRightPad": "",
+                  "editableCondition": "",
+                  "questionSpaceBefore": ""
+                }
+              ],
+              "description": ""
+            }
+          ],
+          "_selectId": "RcwuVHMC6CHx_k",
+          "condition": "",
+          "description": "",
+          "duplicateNames": {}
+        }
+      ],
       "derivation": [
         {
           "id": "mMfdmRZjjsPOUb",
@@ -223,6 +289,33 @@
             "x_5KNezQjHRN0v": {}
           },
           "derivedFromName": "Company Profile"
+        }
+      ],
+      "formAction": [
+        {
+          "id": "EPHA20xLUChyzm",
+          "name": "Back Link",
+          "forms": [
+            {
+              "id": "jwoZ_pL7wKb4i7",
+              "form": "aniP7ivNuI84qd",
+              "readOnly": false,
+              "_selectId": "diHGZuIAMaLAhr"
+            }
+          ],
+          "inline": true,
+          "actions": [],
+          "storeIn": "",
+          "_selectId": "eeYm2MyqJhuhxT",
+          "editDemands": [],
+          "inputStates": [
+            "New",
+            "Saved",
+            "Assessed",
+            "Approved",
+            "Stored"
+          ],
+          "visibleDemands": []
         }
       ],
       "viewAsText": [
@@ -260,7 +353,7 @@
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+  "_lastModifiedBy": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
   "defaultActivity": "TfKhoFBqWSHFbB",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
