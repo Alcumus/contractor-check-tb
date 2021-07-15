@@ -1,5 +1,5 @@
 {
-  "__": "ChZhMtHv0QVTVx",
+  "__": "wgkgCvEUr5wHPS",
   "_id": "j0P98w9sl6QXZo:hestia/document-types",
   "icon": "",
   "name": "Audit Trail",
@@ -204,13 +204,14 @@
     {
       "id": "PlkNsC6NXRUcX4",
       "name": "1.0",
-      "time": 1626349835506,
+      "time": 1626349845063,
       "user": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
       "locked": false,
+      "_selectId": "te8CYgC0NerGf2",
       "parentVersion": ""
     }
   ],
-  "_modified": 1626346236000,
+  "_modified": 1626346245000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -414,6 +415,7 @@
   "defaultActivity": "Vj7pWcB7wLiQHo",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
+  "__hidePublishing": true,
   "documentBackdrop": "#f4f4f4",
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",

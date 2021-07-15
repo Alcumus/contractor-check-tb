@@ -1,6 +1,6 @@
 [
   {
-    "__": "Ir8uvwCWKf7R5V",
+    "__": "h6AzLSLS8jOx8p",
     "_id": "j0P98w9sl6QXZo-PlkNsC6NXRUcX4:hestia/versions",
     "__id": "j0P98w9sl6QXZo:hestia/document-types",
     "icon": "",
@@ -406,6 +406,7 @@
     "defaultActivity": "Vj7pWcB7wLiQHo",
     "devices-allowed": "",
     "sideBarMinWidth": 150,
+    "__hidePublishing": true,
     "documentBackdrop": "#f4f4f4",
     "sidebarBackground": "#fff",
     "documentBackground": "#f4f4f4",
