@@ -1,6 +1,6 @@
 [
   {
-    "__": "2Q1OhVQ3qOtr6j",
+    "__": "rwf8LL4tbEMs-s",
     "_id": "0pBBN3JGvJXvK6-UXlXJ3hYoZG3bS:hestia/versions",
     "__id": "0pBBN3JGvJXvK6:hestia/document-types",
     "icon": "",
@@ -164,13 +164,17 @@
           }
         }
       },
-      "theme": "Alcumus",
+      "theme": "Standard",
       "permanentTheme": ""
     },
     "$valid": true,
     "client": "rsihYJKKDVyaYN",
     "gitHub": {
       "1J8739KZBOtzVQ": {
+        "publishDocs": "",
+        "gitHubPublish": true
+      },
+      "OfBr_ul5Jv0b_l": {
         "publishDocs": "",
         "gitHubPublish": true
       },
@@ -188,14 +192,21 @@
         "exposeAPI": true,
         "readDemands": [],
         "writeDemands": []
+      },
+      "ykQO6Osmv0pwBG": {
+        "read": true,
+        "write": true,
+        "exposeAPI": true,
+        "readDemands": [],
+        "writeDemands": []
       }
     },
     "$invalid": false,
-    "_created": 1623942180000,
+    "_created": 1625480259000,
     "_deleted": 0,
     "database": "contractorcheck",
     "maxWidth": 1000,
-    "_modified": 1624451409000,
+    "_modified": 1626340971000,
     "components": "",
     "navigation": [],
     "_behaviours": {
@@ -210,7 +221,39 @@
                 "name": "Main",
                 "_expanded": true,
                 "_selectId": "HRI6QKd44WdtPe",
+                "condition": "",
                 "questions": [
+                  {
+                    "id": "48j-ArhJrBQ72r",
+                    "name": "",
+                    "type": "information",
+                    "hints": {},
+                    "question": "<p>&nbsp;</p>\n",
+                    "_selectId": "EA7F5MkboIpAvs",
+                    "condition": "",
+                    "questionHeight": "2em",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "Ze_Tr9ylYuOqdp",
+                    "name": "",
+                    "type": "card",
+                    "color": "",
+                    "hints": {},
+                    "title": "Your Details",
+                    "question": "",
+                    "_selectId": "FDt4JWYCVJq5N-",
+                    "condition": "",
+                    "elevation": 2,
+                    "topMargin": "",
+                    "background": "",
+                    "leftMargin": "",
+                    "collapsible": "",
+                    "rightMargin": "",
+                    "bottomMargin": ""
+                  },
                   {
                     "id": "XCjM57ig_ZrjC_",
                     "name": "givenName",
@@ -353,8 +396,59 @@
                     "questionRightPad": "",
                     "editableCondition": "",
                     "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "G4d3h2z9L3ooL3",
+                    "name": "",
+                    "type": "stop",
+                    "hints": {},
+                    "question": "",
+                    "stopWhat": [],
+                    "_selectId": "ndly5lR7I5A_5X",
+                    "condition": ""
+                  },
+                  {
+                    "id": "GWtVWhgslhK86z",
+                    "name": "",
+                    "type": "disableActions",
+                    "hints": {},
+                    "question": "",
+                    "_selectId": "bSIvwpi9MXtINR",
+                    "condition": ""
+                  },
+                  {
+                    "id": "wqZDEBJ5KNIeQn",
+                    "name": "",
+                    "side": "bottom",
+                    "type": "navigation",
+                    "color": "",
+                    "hints": {},
+                    "width": "",
+                    "maxWidth": "",
+                    "question": "",
+                    "_selectId": "4a72K9FUzlpPi8",
+                    "condition": "",
+                    "permanent": "",
+                    "background": "",
+                    "middleSlot": {
+                      "id": "9zmm_oRQ0zPoNl",
+                      "name": "",
+                      "type": "embedAction",
+                      "hints": {},
+                      "action": "ldGCKGmuoLACAb",
+                      "variant": "outlined",
+                      "question": "",
+                      "_selectId": "JYEoWyTvDOQQRp",
+                      "condition": "",
+                      "_actionName": "Save (Main)",
+                      "questionHeight": "",
+                      "questionLeftPad": "",
+                      "questionRightPad": "",
+                      "questionSpaceBefore": ""
+                    }
                   }
-                ]
+                ],
+                "description": ""
               }
             ],
             "_selectId": "X8NMlc6XmqLMGg",
@@ -385,8 +479,8 @@
                 "modal": {
                   "enabled": false
                 },
-                "goBack": "",
-                "caption": "Save",
+                "goBack": true,
+                "caption": "Submit",
                 "command": "setData",
                 "toState": "New",
                 "variant": "text",
@@ -396,7 +490,7 @@
                 "navigateTo": "",
                 "properties": [],
                 "changeState": true,
-                "backgroundColor": "#03a9f4",
+                "backgroundColor": "#0a599a",
                 "visibleCondition": "",
                 "notificationToast": ""
               }
@@ -425,6 +519,20 @@
             ],
             "_selectId": "yiPH6pAL0EFSiZ"
           }
+        ],
+        "localization": [
+          {
+            "id": "rGNSUbYo9CI8Q8",
+            "__init": true,
+            "locale": "french,fr",
+            "_selectId": "t6XnYQDWDLpLgD",
+            "textOverride": {
+              "Submit": "Soumettre",
+              "Given Name": "Prénom",
+              "Family Name": "Nom de famille",
+              "Your Details": "Vos détails"
+            }
+          }
         ]
       }
     },
@@ -444,7 +552,7 @@
     },
     "tabsBackground": "#f4f4f4",
     "tabsForeground": "#555",
-    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_lastModifiedBy": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
     "defaultActivity": "wLkWrCLCMvU21P",
     "devices-allowed": "",
     "sideBarMinWidth": 150,
