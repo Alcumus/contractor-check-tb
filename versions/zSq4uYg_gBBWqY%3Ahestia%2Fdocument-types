@@ -1,6 +1,6 @@
 [
   {
-    "__": "P9XY93goFwS8lC",
+    "__": "af7obMqizJk1oc",
     "_id": "zSq4uYg_gBBWqY-RlnNXS8fP37e6b:hestia/versions",
     "__id": "zSq4uYg_gBBWqY:hestia/document-types",
     "icon": "",
@@ -199,7 +199,7 @@
     "_deleted": 0,
     "database": "contractorcheck",
     "maxWidth": 1000,
-    "_modified": 1626335548000,
+    "_modified": 1626335835000,
     "components": "",
     "navigation": [],
     "_behaviours": {
@@ -450,7 +450,7 @@
             "recordChanges": "",
             "targetTypeName": "Anchor Request",
             "updateRecordId": "{_id}",
-            "updateToClient": "rsihYJKKDVyaYN",
+            "updateToClient": "Z0Pd-6PY1h",
             "createMergeRecord": false,
             "uniqueMergeRecords": false,
             "updateTargetDocumentState": ""
