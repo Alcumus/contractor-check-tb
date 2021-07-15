@@ -1,5 +1,5 @@
 {
-  "__": "8TtUFa5bfyrKNR",
+  "__": "kb_q6kEjrcAkU4",
   "_id": "zSq4uYg_gBBWqY:hestia/document-types",
   "icon": "",
   "name": "Anchor Request",
@@ -203,11 +203,21 @@
       "name": "1.0",
       "time": 1626341061378,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-      "locked": false,
+      "locked": true,
+      "_selectId": "k-SzB41w4T1TEL",
       "parentVersion": ""
+    },
+    {
+      "id": "OcknhHIFsFhidR",
+      "name": "1.1",
+      "time": 1626341073489,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": false,
+      "_selectId": "FD4Hrn-nEcxwoa",
+      "parentVersion": "RlnNXS8fP37e6b"
     }
   ],
-  "_modified": 1626337461000,
+  "_modified": 1626337473000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -526,12 +536,12 @@
   "__hideRecords": true,
   "clientProfile": ":companyP/companyP",
   "documentColor": "#333",
-  "_activeVersion": "OcknhHIFsFhidR",
-  "_parentVersion": "RlnNXS8fP37e6b",
+  "_activeVersion": "BqzmfotvseMBI9",
+  "_parentVersion": "OcknhHIFsFhidR",
   "currentVersion": {
-    "live": "1.0",
-    "testing": "1.0",
-    "development": "1.0"
+    "live": "1.1",
+    "testing": "1.1",
+    "development": "1.1"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
@@ -540,7 +550,7 @@
   "devices-allowed": "",
   "sideBarMinWidth": 150,
   "__hideBehaviours": true,
-  "__hidePublishing": false,
+  "__hidePublishing": true,
   "documentBackdrop": "#f4f4f4",
   "masterListClient": ":contractorcheck/masterCompanyProfile",
   "_updatersExpanded": false,
