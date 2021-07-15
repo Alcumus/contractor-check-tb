@@ -1,5 +1,5 @@
 {
-  "__": "qRAjhZfh2mUI27",
+  "__": "uhRHWw-aQ0gXms",
   "_id": "DB_f1fuVIK7FWT:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -175,16 +175,12 @@
       "publishDocs": "",
       "gitHubPublish": true
     },
-    "1rr4bM4EH-AQP9": {
-      "publishDocs": true,
+    "OfBr_ul5Jv0b_l": {
+      "publishDocs": "",
       "gitHubPublish": true
     },
     "aV8boSk1D6q6YG": {
       "publishDocs": true,
-      "gitHubPublish": true
-    },
-    "zHYkrrsjUcXvCT": {
-      "publishDocs": "",
       "gitHubPublish": true
     }
   },
@@ -195,7 +191,7 @@
     "6g4mciY7jkfOUo": {
       "exposeAPI": ""
     },
-    "aZ5t8g0t4u8p6D": {
+    "ykQO6Osmv0pwBG": {
       "read": true,
       "write": true,
       "exposeAPI": true,
@@ -204,7 +200,7 @@
     }
   },
   "$invalid": false,
-  "_created": 1622205074000,
+  "_created": 1625480259000,
   "_deleted": 0,
   "database": "Teams",
   "maxWidth": 1000,
@@ -212,32 +208,13 @@
     {
       "id": "lMgkcEhQ5ngx9H",
       "name": "Teams",
-      "time": 1621742375029,
-      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-      "locked": true,
-      "_selectId": "IBb4DhoAFfuiy4",
-      "parentVersion": ""
-    },
-    {
-      "id": "WU65N1_qIn410U",
-      "name": "1.0.1",
-      "time": 1624367960008,
-      "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
-      "locked": true,
-      "_selectId": "fD8HKq3V9O_G6e",
-      "parentVersion": "lMgkcEhQ5ngx9H"
-    },
-    {
-      "id": "atSFOEnYdOyURT",
-      "name": "1.1.0",
-      "time": 1624379030847,
-      "user": "3e424bc3-fb9a-47a1-93a1-056351146687",
+      "time": 1626350107027,
+      "user": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
       "locked": false,
-      "_selectId": "UUciOkFTBjWZyN",
-      "parentVersion": "WU65N1_qIn410U"
+      "parentVersion": ""
     }
   ],
-  "_modified": 1624375431000,
+  "_modified": 1626346507000,
   "components": "card 2.0",
   "isLockedBy": null,
   "navigation": [],
@@ -253,6 +230,7 @@
               "name": "Main",
               "_expanded": true,
               "_selectId": "idfmT07tuJSi5n",
+              "condition": "",
               "questions": [
                 {
                   "id": "wwxqx81RecF7bp",
@@ -269,8 +247,27 @@
                   "questionLeftPad": "",
                   "questionRightPad": "",
                   "questionSpaceBefore": ""
+                },
+                {
+                  "id": "pjh7uZXN6xOlg4",
+                  "name": "fundamental",
+                  "type": "text",
+                  "hints": {},
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "dXjUFOn9BvbIp5",
+                  "condition": "",
+                  "inputLabel": "",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "clearIfDisabled": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "editableCondition": "",
+                  "questionSpaceBefore": ""
                 }
-              ]
+              ],
+              "description": ""
             }
           ],
           "_selectId": "prazY60lTjyyXk",
@@ -354,16 +351,16 @@
   "tabsSelected": "#009fda",
   "__warnReasons": [],
   "documentColor": "#333",
-  "_activeVersion": "1JzCOqgxeeAbfM",
-  "_parentVersion": "atSFOEnYdOyURT",
+  "_activeVersion": "WU65N1_qIn410U",
+  "_parentVersion": "lMgkcEhQ5ngx9H",
   "currentVersion": {
-    "live": "1.1.0",
-    "testing": "1.1.0",
-    "development": "1.1.0"
+    "live": "Teams",
+    "testing": "Teams",
+    "development": "Teams"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+  "_lastModifiedBy": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
   "defaultActivity": "kDe-e2LVJKEqg2",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
