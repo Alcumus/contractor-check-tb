@@ -1,6 +1,6 @@
 [
   {
-    "__": "RQhILJipx04JJo",
+    "__": "MNO0XzjlZjJhkv",
     "_id": "R720NeuU8vOWuo-sTNP-VH3hEzwdP:hestia/versions",
     "__id": "R720NeuU8vOWuo:hestia/document-types",
     "__ok": true,
@@ -215,7 +215,7 @@
     "_deleted": 0,
     "database": "contractorcheck",
     "maxWidth": 1000,
-    "_modified": 1626343903000,
+    "_modified": 1626343925000,
     "components": "verification,navigation,richtext",
     "isLockedBy": null,
     "navigation": [],
@@ -1697,7 +1697,7 @@
               {
                 "id": "d4JYms0P6diPuI",
                 "form": "allForms",
-                "readOnly": false,
+                "readOnly": true,
                 "_selectId": "bGkOhqq-4KqZ6g"
               },
               {
