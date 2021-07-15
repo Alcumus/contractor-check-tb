@@ -1,5 +1,5 @@
 {
-  "__": "clKuFYJgURc6FB",
+  "__": "aOEXcNlfuQXI9r",
   "_id": "zSq4uYg_gBBWqY:hestia/document-types",
   "icon": "",
   "name": "Anchor Request",
@@ -175,6 +175,10 @@
     "aV8boSk1D6q6YG": {
       "publishDocs": "",
       "gitHubPublish": true
+    },
+    "c5NB8L8axiOpyP": {
+      "publishDocs": "",
+      "gitHubPublish": true
     }
   },
   "_client": "rsihYJKKDVyaYN",
@@ -197,13 +201,13 @@
     {
       "id": "RlnNXS8fP37e6b",
       "name": "1.0",
-      "time": 1626339148043,
+      "time": 1626339435469,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
       "parentVersion": ""
     }
   ],
-  "_modified": 1626335548000,
+  "_modified": 1626335835000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -436,6 +440,30 @@
           "duplicateNames": {}
         }
       ],
+      "updater": [
+        {
+          "id": "7r93xZ3_VcfCAB",
+          "name": "Update to universal client",
+          "onEnter": "",
+          "inStates": [
+            "New"
+          ],
+          "mergeAll": "",
+          "_selectId": "Vq8av1ZWccUoZP",
+          "properties": [],
+          "specificId": true,
+          "targetType": "zSq4uYg_gBBWqY:hestia/document-types",
+          "forValuesOf": "",
+          "updateClient": true,
+          "recordChanges": "",
+          "targetTypeName": "Anchor Request",
+          "updateRecordId": "{_id}",
+          "updateToClient": "rsihYJKKDVyaYN",
+          "createMergeRecord": false,
+          "uniqueMergeRecords": false,
+          "updateTargetDocumentState": ""
+        }
+      ],
       "formAction": [
         {
           "id": "-la3L7w11q3oAM",
@@ -509,8 +537,10 @@
   "__hideBehaviours": true,
   "__hidePublishing": false,
   "documentBackdrop": "#f4f4f4",
+  "masterListClient": ":contractorcheck/masterCompanyProfile",
   "_updatersExpanded": false,
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
-  "devices-allowed-html": ""
+  "devices-allowed-html": "",
+  "masterListContractor": ":contractorcheck/masterCompanyProfile"
 }

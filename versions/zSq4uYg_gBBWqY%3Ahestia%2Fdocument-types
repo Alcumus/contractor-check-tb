@@ -1,6 +1,6 @@
 [
   {
-    "__": "99UuiQcv6IBQwV",
+    "__": "P9XY93goFwS8lC",
     "_id": "zSq4uYg_gBBWqY-RlnNXS8fP37e6b:hestia/versions",
     "__id": "zSq4uYg_gBBWqY:hestia/document-types",
     "icon": "",
@@ -177,6 +177,10 @@
       "aV8boSk1D6q6YG": {
         "publishDocs": "",
         "gitHubPublish": true
+      },
+      "c5NB8L8axiOpyP": {
+        "publishDocs": "",
+        "gitHubPublish": true
       }
     },
     "_client": "rsihYJKKDVyaYN",
@@ -195,7 +199,7 @@
     "_deleted": 0,
     "database": "contractorcheck",
     "maxWidth": 1000,
-    "_modified": 1626186060000,
+    "_modified": 1626335548000,
     "components": "",
     "navigation": [],
     "_behaviours": {
@@ -428,6 +432,30 @@
             "duplicateNames": {}
           }
         ],
+        "updater": [
+          {
+            "id": "7r93xZ3_VcfCAB",
+            "name": "Update to universal client",
+            "onEnter": "",
+            "inStates": [
+              "New"
+            ],
+            "mergeAll": "",
+            "_selectId": "Vq8av1ZWccUoZP",
+            "properties": [],
+            "specificId": true,
+            "targetType": "zSq4uYg_gBBWqY:hestia/document-types",
+            "forValuesOf": "",
+            "updateClient": true,
+            "recordChanges": "",
+            "targetTypeName": "Anchor Request",
+            "updateRecordId": "{_id}",
+            "updateToClient": "rsihYJKKDVyaYN",
+            "createMergeRecord": false,
+            "uniqueMergeRecords": false,
+            "updateTargetDocumentState": ""
+          }
+        ],
         "formAction": [
           {
             "id": "-la3L7w11q3oAM",
@@ -501,9 +529,11 @@
     "__hideBehaviours": true,
     "__hidePublishing": false,
     "documentBackdrop": "#f4f4f4",
+    "masterListClient": ":contractorcheck/masterCompanyProfile",
     "_updatersExpanded": false,
     "sidebarBackground": "#fff",
     "documentBackground": "#f4f4f4",
-    "devices-allowed-html": ""
+    "devices-allowed-html": "",
+    "masterListContractor": ":contractorcheck/masterCompanyProfile"
   }
 ]
