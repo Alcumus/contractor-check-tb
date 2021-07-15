@@ -1,5 +1,5 @@
 {
-  "__": "Kqa8wv93YEQuPF",
+  "__": "gnzmmbCzypTxqU",
   "_id": "Hfqzb-gWFBvgaC:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -175,16 +175,12 @@
       "publishDocs": "",
       "gitHubPublish": true
     },
-    "1rr4bM4EH-AQP9": {
-      "publishDocs": true,
+    "OfBr_ul5Jv0b_l": {
+      "publishDocs": "",
       "gitHubPublish": true
     },
     "aV8boSk1D6q6YG": {
       "publishDocs": true,
-      "gitHubPublish": true
-    },
-    "zHYkrrsjUcXvCT": {
-      "publishDocs": "",
       "gitHubPublish": true
     }
   },
@@ -199,7 +195,7 @@
       "readDemands": [],
       "writeDemands": []
     },
-    "aZ5t8g0t4u8p6D": {
+    "ykQO6Osmv0pwBG": {
       "read": true,
       "write": true,
       "exposeAPI": true,
@@ -208,7 +204,7 @@
     }
   },
   "$invalid": false,
-  "_created": 1622205075000,
+  "_created": 1625480260000,
   "_deleted": 0,
   "database": "employees",
   "maxWidth": 1000,
@@ -216,32 +212,14 @@
     {
       "id": "YJW3Dk3mqjtsXR",
       "name": "Employees",
-      "time": 1623329265313,
-      "user": "3e424bc3-fb9a-47a1-93a1-056351146687",
-      "locked": true,
-      "_selectId": "gaaAMABYLwsU1B",
-      "parentVersion": ""
-    },
-    {
-      "id": "4w4Iz8cY-JOkOd",
-      "name": "1.0.1",
-      "time": 1624367960000,
-      "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
-      "locked": true,
-      "_selectId": "Mf-l2dl3CfuSnm",
-      "parentVersion": "YJW3Dk3mqjtsXR"
-    },
-    {
-      "id": "_akUJyXrK76c26",
-      "name": "1.1",
-      "time": 1624379040476,
-      "user": "3e424bc3-fb9a-47a1-93a1-056351146687",
+      "time": 1626349882234,
+      "user": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
       "locked": false,
-      "_selectId": "WdRWPQ3KvAjiXp",
-      "parentVersion": "4w4Iz8cY-JOkOd"
+      "_selectId": "-woPdE0NZiTOnC",
+      "parentVersion": ""
     }
   ],
-  "_modified": 1624375440000,
+  "_modified": 1626346282000,
   "components": "card 2.0",
   "isLockedBy": null,
   "navigation": [],
@@ -462,21 +440,23 @@
   "defaultState": "New",
   "sidebarColor": "#333",
   "tabsSelected": "#009fda",
+  "__hideRecords": true,
   "__warnReasons": [],
   "documentColor": "#333",
-  "_activeVersion": "hH_iWXylvcTC-5",
-  "_parentVersion": "_akUJyXrK76c26",
+  "_activeVersion": "4w4Iz8cY-JOkOd",
+  "_parentVersion": "YJW3Dk3mqjtsXR",
   "currentVersion": {
-    "live": "1.1",
-    "testing": "1.1",
-    "development": "1.1"
+    "live": "Employees",
+    "testing": "Employees",
+    "development": "Employees"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+  "_lastModifiedBy": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
   "defaultActivity": "B1nGalSvcwX7ea",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
+  "__hidePublishing": true,
   "documentBackdrop": "#f4f4f4",
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
