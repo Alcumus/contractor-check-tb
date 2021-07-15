@@ -1,5 +1,5 @@
 {
-  "__": "Gj4qVlAWuYKe-r",
+  "__": "EEHl5Z7NyIhLem",
   "_id": "rsihYJKKDVyaYN:hestia/project",
   "name": "Project",
   "$valid": true,
@@ -8,7 +8,7 @@
   "$invalid": false,
   "_created": 1625474108000,
   "_deleted": 0,
-  "_modified": 1625480880000,
+  "_modified": 1626261372000,
   "components": "graph-ql",
   "_behaviours": {
     "instances": {
@@ -18,12 +18,12 @@
           "name": "Contractor Check",
           "__init": true,
           "branch": "mike",
-          "publish": true,
+          "publish": false,
           "_selectId": "kXt05PM8SXjVtT",
           "Repository": "Alcumus/contractor-check-tb",
-          "publishThemes": true,
-          "publishTopics": true,
-          "publishProject": true
+          "publishThemes": false,
+          "publishTopics": false,
+          "publishProject": false
         },
         {
           "id": "1J8739KZBOtzVQ",
@@ -52,20 +52,34 @@
       ],
       "graphQLApi": [
         {
-          "id": "6g4mciY7jkfOUo",
-          "name": "localtest",
+          "id": "ykQO6Osmv0pwBG",
+          "name": "ccgraphql",
           "__init": true,
-          "basePath": "/localtest",
-          "_selectId": "yci2Re31GMIyfu",
-          "subscriptionPort": 4001
+          "basePath": "/ccgraphql",
+          "_selectId": "oEsPvSWmHTPyus"
+        }
+      ],
+      "salesforceQuery": [
+        {
+          "id": "AiBkkq7Z50_5yF",
+          "name": "",
+          "query": "SELECT  QualifiedApiName FROM EntityDefinition order by QualifiedApiName ",
+          "__init": true,
+          "endpoint": "",
+          "password": "2Bdtsct%",
+          "username": "errbit@errbit.example.com",
+          "_selectId": "IM659rOFFkomX4",
+          "description": "",
+          "documentType": ""
         }
       ]
     },
     "_state": ""
   },
   "_lastModifiedBy": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
+  "__hideBehaviours": true,
   "_original": {
-    "__": "Gj4qVlAWuYKe-r",
+    "__": "EEHl5Z7NyIhLem",
     "_id": "rsihYJKKDVyaYN:hestia/project",
     "name": "Project",
     "$valid": true,
@@ -74,7 +88,7 @@
     "$invalid": false,
     "_created": 1625474108000,
     "_deleted": 0,
-    "_modified": 1625480880000,
+    "_modified": 1626261372000,
     "components": "graph-ql",
     "_behaviours": {
       "_state": "",
@@ -85,12 +99,12 @@
             "name": "Contractor Check",
             "__init": true,
             "branch": "mike",
-            "publish": true,
+            "publish": false,
             "_selectId": "kXt05PM8SXjVtT",
             "Repository": "Alcumus/contractor-check-tb",
-            "publishThemes": true,
-            "publishTopics": true,
-            "publishProject": true
+            "publishThemes": false,
+            "publishTopics": false,
+            "publishProject": false
           },
           {
             "id": "1J8739KZBOtzVQ",
@@ -119,16 +133,30 @@
         ],
         "graphQLApi": [
           {
-            "id": "6g4mciY7jkfOUo",
-            "name": "localtest",
+            "id": "ykQO6Osmv0pwBG",
+            "name": "ccgraphql",
             "__init": true,
-            "basePath": "/localtest",
-            "_selectId": "yci2Re31GMIyfu",
-            "subscriptionPort": 4001
+            "basePath": "/ccgraphql",
+            "_selectId": "oEsPvSWmHTPyus"
+          }
+        ],
+        "salesforceQuery": [
+          {
+            "id": "AiBkkq7Z50_5yF",
+            "name": "",
+            "query": "SELECT  QualifiedApiName FROM EntityDefinition order by QualifiedApiName ",
+            "__init": true,
+            "endpoint": "",
+            "password": "2Bdtsct%",
+            "username": "errbit@errbit.example.com",
+            "_selectId": "IM659rOFFkomX4",
+            "description": "",
+            "documentType": ""
           }
         ]
       }
     },
-    "_lastModifiedBy": "b04cbf69-0ea0-4859-a9e1-131503cf9033"
+    "_lastModifiedBy": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
+    "__hideBehaviours": true
   }
 }
