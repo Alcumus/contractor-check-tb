@@ -1,5 +1,5 @@
 {
-  "__": "fhNAtsFBHQQiq0",
+  "__": "y-R4N_tUqa0qFR",
   "_id": "R720NeuU8vOWuo:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -176,7 +176,11 @@
       "gitHubPublish": true
     },
     "1rr4bM4EH-AQP9": {
-      "publishDocs": true,
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
+    "OfBr_ul5Jv0b_l": {
+      "publishDocs": "",
       "gitHubPublish": true
     },
     "aV8boSk1D6q6YG": {
@@ -203,16 +207,16 @@
       "readDemands": [],
       "writeDemands": []
     },
-    "aZ5t8g0t4u8p6D": {
+    "ykQO6Osmv0pwBG": {
       "read": true,
-      "write": false,
+      "write": true,
       "exposeAPI": true,
       "readDemands": [],
       "writeDemands": []
     }
   },
   "$invalid": false,
-  "_created": 1622205077000,
+  "_created": 1625480263000,
   "_deleted": 0,
   "database": "contractorcheck",
   "maxWidth": 1000,
@@ -220,32 +224,13 @@
     {
       "id": "sTNP-VH3hEzwdP",
       "name": "1.0",
-      "time": 1623759820880,
-      "user": "64467393-61e5-45fe-a026-45aed6419337",
-      "locked": true,
-      "_selectId": "SqEGblmOptRCCD",
-      "parentVersion": ""
-    },
-    {
-      "id": "vlDXNbqvv_2SA_",
-      "name": "1.0.1",
-      "time": 1624367959907,
-      "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
-      "locked": true,
-      "_selectId": "Lcj7ejcHR9kIna",
-      "parentVersion": "sTNP-VH3hEzwdP"
-    },
-    {
-      "id": "ILPcxTbq4OqK52",
-      "name": "1.1",
-      "time": 1624379022128,
-      "user": "3e424bc3-fb9a-47a1-93a1-056351146687",
+      "time": 1626349905143,
+      "user": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
       "locked": false,
-      "_selectId": "oJnTbLjZWXKove",
-      "parentVersion": "vlDXNbqvv_2SA_"
+      "parentVersion": ""
     }
   ],
-  "_modified": 1624375422000,
+  "_modified": 1626346306000,
   "components": "verification,navigation,richtext",
   "isLockedBy": null,
   "navigation": [],
@@ -975,6 +960,35 @@
           "condition": "",
           "description": "",
           "duplicateNames": {}
+        },
+        {
+          "id": "ZpKpfXvUfAMY6c",
+          "name": "Disable Action Buttons",
+          "sections": [
+            {
+              "id": "1626255129402-Pv0ZDvTCkouSVc",
+              "_id": "1626255129402-Pv0ZDvTCkouSVc:hestia/form-sections",
+              "name": "...",
+              "_expanded": true,
+              "_selectId": "5Hq5bGSyK4LBA1",
+              "condition": "",
+              "questions": [
+                {
+                  "id": "ZiS7vHd3pxGmtp",
+                  "name": "",
+                  "type": "disableActions",
+                  "hints": {},
+                  "question": "",
+                  "_selectId": "nL7XxFER1_yP44",
+                  "condition": ""
+                }
+              ],
+              "description": ""
+            }
+          ],
+          "_selectId": "AAzBj8knMeIrqK",
+          "condition": "",
+          "description": ""
         }
       ],
       "updater": [
@@ -1037,7 +1051,7 @@
         {
           "id": "ZhbzXcIBj7ZnE4",
           "name": "Audit Assessing",
-          "onEnter": "",
+          "onEnter": true,
           "inStates": [
             "Assessing"
           ],
@@ -1078,10 +1092,12 @@
           "specificId": false,
           "targetType": "j0P98w9sl6QXZo:hestia/document-types",
           "updateState": "",
+          "updateClient": true,
           "recordChanges": "details",
           "$behaviourType": "updater",
           "targetTypeName": "Audit Trail",
           "updateRecordId": "",
+          "updateToClient": "rsihYJKKDVyaYN",
           "createMergeRecord": true,
           "uniqueMergeRecords": true,
           "updateTargetDocumentState": false
@@ -1089,7 +1105,7 @@
         {
           "id": "KaAhQE8R8CcYNK",
           "name": "Audit Quality Control",
-          "onEnter": "",
+          "onEnter": true,
           "inStates": [
             "Quality Control"
           ],
@@ -1130,13 +1146,129 @@
           "specificId": false,
           "targetType": "j0P98w9sl6QXZo:hestia/document-types",
           "updateState": "",
+          "updateClient": true,
           "recordChanges": "details",
           "$behaviourType": "updater",
           "targetTypeName": "Audit Trail",
           "updateRecordId": "",
+          "updateToClient": "rsihYJKKDVyaYN",
           "createMergeRecord": true,
           "uniqueMergeRecords": true,
           "updateTargetDocumentState": false
+        },
+        {
+          "id": "FIBgx5sOUVQDQT",
+          "name": "Update The Questionnaire Status",
+          "onEnter": false,
+          "inStates": [
+            "Assessing",
+            "Quality Control"
+          ],
+          "mergeAll": "",
+          "_selectId": "GSsbysKWkalAqZ",
+          "properties": [
+            {
+              "id": "Kjzi8638Ykn_pN",
+              "field": "status",
+              "value": "{$state}",
+              "defaultValue": ""
+            }
+          ],
+          "specificId": true,
+          "targetType": "bGO68EY31sb1Wn:hestia/document-types",
+          "updateClient": true,
+          "recordChanges": "",
+          "targetTypeName": "Questionnaire Status",
+          "updateRecordId": "{resolveId(_id)}:contractorcheck/status",
+          "updateToClient": "rsihYJKKDVyaYN",
+          "createMergeRecord": false,
+          "uniqueMergeRecords": false,
+          "updateTargetDocumentState": ""
+        },
+        {
+          "id": "CuSdJ1sYtQcIFY",
+          "name": "Update QC User",
+          "onEnter": true,
+          "inStates": [
+            "Assessor Reject"
+          ],
+          "mergeAll": "",
+          "_selectId": "-oa0Nlnd0I9GPQ",
+          "properties": [
+            {
+              "id": "i5OGgtgtyudjqR",
+              "field": "qualityControlUser",
+              "value": "{$currentUser.Employee._id}",
+              "defaultValue": ""
+            }
+          ],
+          "specificId": true,
+          "targetType": "R720NeuU8vOWuo:hestia/document-types",
+          "updateClient": "",
+          "recordChanges": "",
+          "targetTypeName": "Assessor Questionnaire",
+          "updateRecordId": "{_id}",
+          "createMergeRecord": false,
+          "uniqueMergeRecords": false,
+          "updateTargetDocumentState": ""
+        },
+        {
+          "id": "kY2BjuxTwn0Afu",
+          "name": "Update QC User when approved",
+          "onEnter": true,
+          "inStates": [
+            "Master List"
+          ],
+          "mergeAll": "",
+          "_selectId": "5NlSyiKaT2m7ZL",
+          "properties": [
+            {
+              "id": "_iajeYrmx0sRO-",
+              "field": "qualityControlUser",
+              "value": "master",
+              "defaultValue": ""
+            }
+          ],
+          "specificId": true,
+          "targetType": "R720NeuU8vOWuo:hestia/document-types",
+          "updateClient": "",
+          "recordChanges": "",
+          "targetTypeName": "Assessor Questionnaire",
+          "updateRecordId": "{_id}",
+          "createMergeRecord": false,
+          "uniqueMergeRecords": false,
+          "updateTargetDocumentState": ""
+        },
+        {
+          "id": "qBB84tuwI2zrS9",
+          "name": "Update To Reassessing If There Is An Allocated User",
+          "query": {
+            "$and": [
+              {
+                "assessingUser": {
+                  "$ne": "NULL"
+                }
+              }
+            ]
+          },
+          "onEnter": "",
+          "inStates": [
+            "New"
+          ],
+          "mergeAll": "",
+          "_selectId": "JPenPoKc3POYu_",
+          "properties": [],
+          "specificId": true,
+          "targetType": "R720NeuU8vOWuo:hestia/document-types",
+          "forValuesOf": "",
+          "updateState": "Reassessing",
+          "updateClient": "",
+          "recordChanges": "",
+          "targetTypeName": "Assessor Questionnaire",
+          "updateRecordId": "{_id}",
+          "createMergeRecord": false,
+          "uniqueMergeRecords": false,
+          "updateTargetDocumentState": true
         }
       ],
       "derivation": [
@@ -1242,6 +1374,12 @@
               "form": "Z2qfcK_DREYEil",
               "readOnly": false,
               "_selectId": "EtXUyKQlT0G4db"
+            },
+            {
+              "id": "ZudrY5gTjt9uMa",
+              "form": "T_UckRyYF2bjL-",
+              "readOnly": false,
+              "_selectId": "wj5jYUZRltJ2HG"
             }
           ],
           "inline": true,
@@ -1534,12 +1672,48 @@
             {
               "id": "W9lnsbJ6yTxWV8",
               "form": "khydm5NOHNXIGn",
-              "readOnly": false,
+              "readOnly": true,
               "_selectId": "Hgq-WBYv7MgfsF"
+            },
+            {
+              "id": "d4JYms0P6diPuI",
+              "form": "allForms",
+              "readOnly": true,
+              "_selectId": "bGkOhqq-4KqZ6g"
+            },
+            {
+              "id": "m5tCM4RC_SpdTD",
+              "form": "ZpKpfXvUfAMY6c",
+              "readOnly": false,
+              "_selectId": "xLYgTxzSeHgNt0"
             }
           ],
           "inline": true,
-          "actions": [],
+          "actions": [
+            {
+              "id": "P8GSyXKoIodGj3",
+              "blur": "",
+              "icon": "",
+              "color": "#fff",
+              "modal": {
+                "enabled": false
+              },
+              "goBack": "",
+              "caption": "Reassess",
+              "command": "setData",
+              "toState": "Reassessing",
+              "variant": "text",
+              "_selectId": "9rmyKuShwtlPoq",
+              "condition": "",
+              "endOfLine": "",
+              "navigateTo": "",
+              "properties": [],
+              "changeState": true,
+              "backgroundColor": "#03a9f4",
+              "visibleCondition": "",
+              "notificationToast": ""
+            }
+          ],
           "storeIn": "",
           "_selectId": "UABUpGzd1X4dpk",
           "editDemands": [],
@@ -1591,6 +1765,140 @@
           "inputStates": [
             "Assessor Reject"
           ],
+          "visibleDemands": []
+        },
+        {
+          "id": "TUnys-HhGrwqJP",
+          "name": "Reassessing",
+          "forms": [
+            {
+              "id": "-KD-zryl7qclWt",
+              "form": "0JWxAMgsVWjGW_",
+              "readOnly": false,
+              "_selectId": "R13uk_hEaCC3RK"
+            },
+            {
+              "id": "Grq66t264bvIdv",
+              "form": "allForms",
+              "readOnly": false,
+              "_selectId": "lmi_b45iYB1WgU"
+            },
+            {
+              "id": "TQuIGBzDY1JNe-",
+              "form": "w7GjXlxsQ53W2i",
+              "readOnly": false,
+              "_selectId": "VfzAL0JcitS_ke"
+            },
+            {
+              "id": "WQwq_jliWX7_Ky",
+              "form": "Z2qfcK_DREYEil",
+              "readOnly": false,
+              "_selectId": "EtXUyKQlT0G4db"
+            },
+            {
+              "id": "ZudrY5gTjt9uMa",
+              "form": "T_UckRyYF2bjL-",
+              "readOnly": false,
+              "_selectId": "wj5jYUZRltJ2HG"
+            }
+          ],
+          "inline": true,
+          "actions": [
+            {
+              "id": "Bd-SAKEYEYm9XH",
+              "blur": "",
+              "icon": "",
+              "color": "#1da7e0",
+              "modal": {
+                "title": "Submit To Master List",
+                "cancel": "Cancel",
+                "enabled": true,
+                "message": "Are you sure you want to submit the questionnaire response to the master list?",
+                "cancelColor": "",
+                "toggleOrder": "",
+                "confirmColor": "#f5f5f5",
+                "confirmation": "Ok",
+                "cancelBackgroundColor": "",
+                "confirmBackgroundColor": "#0081af"
+              },
+              "goBack": "",
+              "caption": "Accept",
+              "command": "setData",
+              "toState": "Quality Control",
+              "variant": "text",
+              "_selectId": "Tz1HKfqngFTU5n",
+              "condition": "allMax",
+              "endOfLine": "",
+              "navigateTo": "",
+              "properties": [],
+              "changeState": true,
+              "backgroundColor": "#f5f5f5",
+              "visibleCondition": "",
+              "notificationToast": ""
+            },
+            {
+              "id": "xu1pdevRePcm86",
+              "blur": "",
+              "icon": "",
+              "color": "#fff",
+              "modal": {
+                "title": "Reject Questionnaire?",
+                "cancel": "Cancel",
+                "enabled": true,
+                "message": "Are you sure you want to reject the questionnaire and return it to the contractor?",
+                "cancelColor": "",
+                "toggleOrder": "",
+                "confirmColor": "",
+                "confirmation": "Ok",
+                "cancelBackgroundColor": "",
+                "confirmBackgroundColor": ""
+              },
+              "goBack": "",
+              "caption": "Reject",
+              "command": "setData",
+              "toState": "Rejected",
+              "variant": "text",
+              "_selectId": "1g1C0p7hhRS8BE",
+              "condition": "someRejected",
+              "endOfLine": "",
+              "navigateTo": "",
+              "properties": [],
+              "changeState": true,
+              "backgroundColor": "#f50057",
+              "visibleCondition": "",
+              "notificationToast": ""
+            },
+            {
+              "id": "6ZJIoruKfYvMvx",
+              "blur": "",
+              "icon": "",
+              "color": "#fff",
+              "modal": {
+                "enabled": false
+              },
+              "goBack": "",
+              "caption": "Save",
+              "command": "setData",
+              "toState": "Reassessing",
+              "variant": "text",
+              "_selectId": "Oa1EVXUFP3oEG8",
+              "condition": "",
+              "endOfLine": "",
+              "navigateTo": "",
+              "properties": [],
+              "changeState": true,
+              "backgroundColor": "#03a9f4",
+              "visibleCondition": "",
+              "notificationToast": ""
+            }
+          ],
+          "storeIn": "",
+          "_selectId": "TSHmtTfNuz0VXG",
+          "editDemands": [],
+          "inputStates": [
+            "Reassessing"
+          ],
+          "$behaviourType": "formAction",
           "visibleDemands": []
         }
       ],
@@ -1669,22 +1977,26 @@
   "defaultState": "New",
   "sidebarColor": "#333",
   "tabsSelected": "#009fda",
+  "__hideRecords": false,
   "__warnReasons": [],
   "documentColor": "#333",
-  "_activeVersion": "__kreznl9WgbWU",
-  "_parentVersion": "ILPcxTbq4OqK52",
+  "_activeVersion": "vlDXNbqvv_2SA_",
+  "_parentVersion": "sTNP-VH3hEzwdP",
   "currentVersion": {
-    "live": "1.1",
-    "testing": "1.1",
-    "development": "1.1"
+    "live": "1.0",
+    "testing": "1.0",
+    "development": "1.0"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+  "_lastModifiedBy": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
   "defaultActivity": null,
   "devices-allowed": "",
   "sideBarMinWidth": 150,
+  "__hideBehaviours": false,
+  "__hidePublishing": false,
   "documentBackdrop": "#f4f4f4",
+  "_updatersExpanded": false,
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
   "devices-allowed-html": "",
