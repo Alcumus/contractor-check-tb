@@ -1,6 +1,6 @@
 [
   {
-    "__": "nOjxFn4WmO5tDN",
+    "__": "UypbJlNvIfKery",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -203,7 +203,7 @@
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1626275224000,
+    "_modified": 1626368833000,
     "components": "navigation,relationship",
     "isLockedBy": null,
     "navigation": [],
@@ -1423,26 +1423,6 @@
                     "questionSpaceBefore": ""
                   },
                   {
-                    "id": "uMr2SEckmsm-vS",
-                    "name": "contractorId",
-                    "type": "text",
-                    "hints": {
-                      "hidden": true
-                    },
-                    "maxWidth": "",
-                    "question": "",
-                    "_selectId": "GI73Vnj5tPxccj",
-                    "condition": "",
-                    "inputLabel": "",
-                    "defaultValue": "",
-                    "questionHeight": "",
-                    "clearIfDisabled": "",
-                    "questionLeftPad": "",
-                    "questionRightPad": "",
-                    "editableCondition": "",
-                    "questionSpaceBefore": ""
-                  },
-                  {
                     "id": "4LTQX1HZmNCQ4h",
                     "name": "profileState",
                     "type": "text",
@@ -1597,6 +1577,46 @@
                     "clearIfDisabled": "",
                     "startLabelColor": "#000",
                     "editableCondition": ""
+                  },
+                  {
+                    "id": "cXwGXtVDWDeGzt",
+                    "name": "latitude",
+                    "type": "text",
+                    "hints": {
+                      "hidden": true
+                    },
+                    "maxWidth": "",
+                    "question": "",
+                    "_selectId": "jyVOMnR2V2Ig-W",
+                    "condition": "",
+                    "inputLabel": "",
+                    "defaultValue": "",
+                    "questionHeight": "",
+                    "clearIfDisabled": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "editableCondition": "",
+                    "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "jznJM0vfeSdUSr",
+                    "name": "longitude",
+                    "type": "text",
+                    "hints": {
+                      "hidden": true
+                    },
+                    "maxWidth": "",
+                    "question": "",
+                    "_selectId": "f0mUCVU0YFGRqd",
+                    "condition": "",
+                    "inputLabel": "",
+                    "defaultValue": "",
+                    "questionHeight": "",
+                    "clearIfDisabled": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "editableCondition": "",
+                    "questionSpaceBefore": ""
                   }
                 ],
                 "description": ""
@@ -1643,43 +1663,6 @@
             "condition": "",
             "description": "",
             "duplicateNames": {}
-          },
-          {
-            "id": "r0d2U2DYXRkFBi",
-            "name": "Trading Details",
-            "sections": [
-              {
-                "id": "1624997140247-9Fh1-eraY3wuDx",
-                "_id": "1624997140247-9Fh1-eraY3wuDx:hestia/form-sections",
-                "name": "...",
-                "_expanded": true,
-                "_selectId": "USM_r2kBLky68o",
-                "condition": "",
-                "questions": [
-                  {
-                    "id": "C_InByHmWQETbL",
-                    "name": "tradingName",
-                    "type": "text",
-                    "hints": {},
-                    "maxWidth": "",
-                    "question": "",
-                    "_selectId": "5Ui2Fpxad-gS5s",
-                    "condition": "",
-                    "inputLabel": "",
-                    "defaultValue": "",
-                    "questionHeight": "",
-                    "questionLeftPad": "",
-                    "questionRightPad": "",
-                    "questionSpaceBefore": ""
-                  }
-                ],
-                "description": ""
-              }
-            ],
-            "_selectId": "TjQGOex9-rTgR8",
-            "condition": "",
-            "description": "",
-            "duplicateNames": {}
           }
         ],
         "chase": [
@@ -1721,6 +1704,42 @@
             "css": ".title {\n    border-radius: 205px;\n    margin: 4px;\n    \n}\n\n.title [class*=h1-] {\n    font-size: 20px !important;\n}",
             "_init": true,
             "_selectId": "8bxlAvIOfisovH"
+          }
+        ],
+        "geocode": [
+          {
+            "id": "Gy195qKK_utUgI",
+            "__init": true,
+            "address": [
+              {
+                "id": "Pm_JdjcKlYb2Nv",
+                "field": "companyName",
+                "defaultValue": ""
+              },
+              {
+                "id": "Zu5QtPdWACXuPZ",
+                "field": "address",
+                "defaultValue": ""
+              },
+              {
+                "id": "ZX5TyxQilcJ1Z_",
+                "field": "City",
+                "defaultValue": ""
+              },
+              {
+                "id": "79eWoFfxnSl-YI",
+                "field": "ZIP",
+                "defaultValue": ""
+              },
+              {
+                "id": "lGK4pQAX4BOa-U",
+                "field": "headOfficeCountry",
+                "defaultValue": ""
+              }
+            ],
+            "latitude": "latitude",
+            "_selectId": "juRD65XMIkRZbr",
+            "longitude": "longitude"
           }
         ],
         "updater": [

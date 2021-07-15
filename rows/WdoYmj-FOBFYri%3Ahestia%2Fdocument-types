@@ -1,6 +1,6 @@
 [
   {
-    "__": "PEg3B-N5JFFWip",
+    "__": "PNpCO9W67VO8lC",
     "ZIP": "999",
     "_id": "1621266694681:companyP/companyP",
     "City": "Racoon City",
@@ -149,17 +149,17 @@
     "$created": true,
     "$creator": "64467393-61e5-45fe-a026-45aed6419337",
     "$invalid": false,
-    "_created": 1622205082000,
+    "_created": 1621461167000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 88,
+    "complete": 92,
     "province": [
       "New Brunswick",
       "Northwest Territories",
       "Alberta",
       "British Columbia"
     ],
-    "_modified": 1625651810000,
+    "_modified": 1626338831000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Assessed"
@@ -172,16 +172,33 @@
     "__originalId": "1621266694681:companyP/companyP",
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Assessed"
+        "state": "Assessed",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Assessed"
+        "state": "Assessed",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "Assessed"
+        "state": "Assessed",
+        "previousValues": [
+          "Bimbo Canada (Canada Bread)",
+          "Bird Construction (Client)",
+          "Bouygues Energies & Services",
+          "Crown Property Management Inc.",
+          "First Gulf (Client)",
+          "Agellan Capital Partners Inc"
+        ]
       },
       "okFTMSwCgI9C4a": {
-        "state": "Assessed"
+        "state": "Assessed",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "1621266694681",
@@ -206,6 +223,7 @@
     ],
     "doYouContract": "yes",
     "classification": "Maintenance",
+    "complete_count": 16,
     "workActivities": [
       "hZ_qK7iOHgS-FA:workA/workA",
       "1zgco_vwvH6Uat:workA/workA",
@@ -215,8 +233,10 @@
       "4AALZ6jd6nPmFT:workA/workA",
       "Y9eam4wtWr9ci3:workA/workA"
     ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1625579818264,
+    "complete_remain": 0,
+    "complete_complete": 16,
     "headOfficeCountry": "US",
     "numberOfEmployees": "0",
     "preferredLanguage": "en",
@@ -873,10 +893,15 @@
     "doYouUseContractors": "yes"
   },
   {
-    "__": "VvrxVYjIxpvyDQ",
+    "__": "e_u06NP52DsSK_",
     "ZIP": "1234",
     "_id": "Mx20OTel7MWV4d:companyP/companyP",
     "City": "Sometown",
+    "_info": {
+      "workActivities": {
+        "rows": []
+      }
+    },
     "email": "mike@bimbobread.com",
     "phone": "",
     "SHARED": {},
@@ -888,12 +913,20 @@
     },
     "_client": "Mx20OTel7MWV4d",
     "address": "Some street",
+    "clients": [],
+    "country": [
+      "Canada"
+    ],
     "$created": true,
-    "_created": 1622205082000,
+    "_created": 1622140349000,
     "_deleted": 0,
     "_version": "Preferred Language",
     "complete": 52,
-    "_modified": 1625651810000,
+    "province": [
+      "Alberta",
+      "British Columbia"
+    ],
+    "_modified": 1626355205000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
@@ -903,28 +936,57 @@
     "description": "",
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "",
     "profileState": "",
     "tradingNames": "",
+    "workActivity": [
+      "Air Conditioning"
+    ],
+    "clientsLookup": [],
     "doYouContract": "no",
     "classification": "",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "complete_count": 13,
+    "workActivities": [
+      "Y9eam4wtWr9ci3:workA/workA"
+    ],
+    "_lastModifiedBy": "fc4b391a-42c9-4cbc-8ea2-a716c7c8997c",
     "_stateChangedAt": 1624963992108,
+    "complete_remain": 4,
+    "complete_complete": 9,
     "headOfficeCountry": "US",
     "numberOfEmployees": "",
     "preferredLanguage": "en",
+    "workActivityFrench": [
+      "Climatisation"
+    ],
     "doYouUseContractors": "yes"
   },
   {
@@ -1128,8 +1190,13 @@
     "doYouUseContractors": "yes"
   },
   {
-    "__": "sKo0jLdsCstdxP",
+    "__": "X85E1N920NJbxt",
+    "ZIP": "1212321",
     "_id": "o9F45eoXN7sntB:companyP/companyP",
+    "City": "Toronto",
+    "email": "",
+    "phone": "+448837773333",
+    "SHARED": {},
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
         "pivotalDate": 1624280759433,
@@ -1137,34 +1204,60 @@
       }
     },
     "_client": "o9F45eoXN7sntB",
+    "address": "101 Avenue Drive",
     "$created": true,
-    "_created": 1622205082000,
+    "_created": 1622140350000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651811000,
+    "complete": 52,
+    "_modified": 1625843659000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
-      "$state": "New"
+      "$state": "Saved"
     },
     "companyName": "Cadillac Fairview Corporation Limited",
+    "companySize": "Sole Proprietor",
+    "description": "We make things",
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "New"
+        "state": "Saved"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "Saved",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       }
     },
+    "contractorId": "",
+    "profileState": "",
+    "tradingNames": "",
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
-    "_stateChangedAt": 1622143950612,
+    "classification": "",
+    "complete_count": 13,
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1626362839280,
+    "complete_remain": 4,
+    "complete_complete": 9,
+    "headOfficeCountry": "Canada",
+    "numberOfEmployees": "",
+    "preferredLanguage": "",
     "doYouUseContractors": "yes"
   },
   {
