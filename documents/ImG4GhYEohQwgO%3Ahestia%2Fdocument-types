@@ -1,5 +1,5 @@
 {
-  "__": "Rd1QHDSmr67Abv",
+  "__": "ma0cw_C4UUzJ2p",
   "_id": "ImG4GhYEohQwgO:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -175,16 +175,12 @@
       "publishDocs": "",
       "gitHubPublish": true
     },
-    "1rr4bM4EH-AQP9": {
+    "OfBr_ul5Jv0b_l": {
       "publishDocs": "",
       "gitHubPublish": true
     },
     "aV8boSk1D6q6YG": {
       "publishDocs": true,
-      "gitHubPublish": true
-    },
-    "zHYkrrsjUcXvCT": {
-      "publishDocs": "",
       "gitHubPublish": true
     }
   },
@@ -202,7 +198,7 @@
     "T2nfZg0x_mHGRo": {
       "exposeWebhooks": true
     },
-    "aZ5t8g0t4u8p6D": {
+    "ykQO6Osmv0pwBG": {
       "read": true,
       "write": true,
       "exposeAPI": true,
@@ -211,7 +207,7 @@
     }
   },
   "$invalid": false,
-  "_created": 1622205075000,
+  "_created": 1625480260000,
   "_deleted": 0,
   "database": "clientA",
   "maxWidth": 1000,
@@ -246,29 +242,10 @@
     {
       "id": "YAsc-hxBglasCu",
       "name": "1.0",
-      "time": 1623831291625,
+      "time": 1626349992560,
       "user": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
-      "locked": true,
-      "_selectId": "WQC3hpGLlXFFCH",
-      "parentVersion": "tzg4n_Tc9y7XG7"
-    },
-    {
-      "id": "yDkAUUYkv3srRO",
-      "name": "1.0.1",
-      "time": 1624367959985,
-      "user": "7360895b-2e38-4601-baf6-16af027bf7ae",
-      "locked": true,
-      "_selectId": "RiZmM40xxvTdeP",
-      "parentVersion": "YAsc-hxBglasCu"
-    },
-    {
-      "id": "dtc91t1AN2-Rm8",
-      "name": "1.1",
-      "time": 1624379062854,
-      "user": "3e424bc3-fb9a-47a1-93a1-056351146687",
       "locked": false,
-      "_selectId": "w0CEoqTsVnrjmS",
-      "parentVersion": "yDkAUUYkv3srRO"
+      "parentVersion": "tzg4n_Tc9y7XG7"
     }
   ],
   "webhooks": {
@@ -277,7 +254,7 @@
       "exposeWebhooks": true
     }
   },
-  "_modified": 1624375463000,
+  "_modified": 1626346393000,
   "components": "",
   "isLockedBy": null,
   "navigation": [],
@@ -508,16 +485,16 @@
   "tabsSelected": "#009fda",
   "__warnReasons": [],
   "documentColor": "#333",
-  "_activeVersion": "5_nfr4uq9NFuMn",
-  "_parentVersion": "dtc91t1AN2-Rm8",
+  "_activeVersion": "yDkAUUYkv3srRO",
+  "_parentVersion": "YAsc-hxBglasCu",
   "currentVersion": {
-    "live": "1.1",
-    "testing": "1.1",
-    "development": "1.1"
+    "live": "1.0",
+    "testing": "1.0",
+    "development": "1.0"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+  "_lastModifiedBy": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
   "defaultActivity": "hF5Rhx8eIzgMD-",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
