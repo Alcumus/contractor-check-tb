@@ -1,5 +1,5 @@
 {
-  "__": "V9Vnq6EvBzmrPX",
+  "__": "TGt1Yl0030LLqv",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -195,13 +195,6 @@
       "readDemands": [],
       "writeDemands": []
     },
-    "Jnsp1ibsJcl687": {
-      "read": true,
-      "write": true,
-      "exposeAPI": true,
-      "readDemands": [],
-      "writeDemands": []
-    },
     "ykQO6Osmv0pwBG": {
       "read": true,
       "write": true,
@@ -246,14 +239,14 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1626096536680,
+      "time": 1626349947966,
       "user": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
       "locked": false,
-      "_selectId": "vi4N0uWOD9e0zD",
+      "_selectId": "dgQYfKC0-Gdyp8",
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1626092937000,
+  "_modified": 1626346357000,
   "components": "navigation",
   "isLockedBy": null,
   "navigation": [],
@@ -324,7 +317,25 @@
                   "maxWidth": "",
                   "question": "",
                   "_selectId": "EwKg0PNptp3x9I",
-                  "condition": "",
+                  "condition": "valueNotEquals(\"$state\",New)",
+                  "inputLabel": "",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "clearIfDisabled": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "editableCondition": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "zfPXLXQ8S_uCZU",
+                  "name": "companyName",
+                  "type": "text",
+                  "hints": {},
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "Al0QiGcqs4rtKA",
+                  "condition": "$state=New",
                   "inputLabel": "",
                   "defaultValue": "",
                   "questionHeight": "",
@@ -1701,17 +1712,15 @@
               "defaultValue": ""
             }
           ],
-          "specificId": false,
+          "specificId": "",
           "targetType": "UJns4BZ0dhGyw5:hestia/document-types",
-          "forValuesOf": "",
           "updateState": "Stored",
           "updateClient": true,
           "recordChanges": "",
           "targetTypeName": "Master List Company Profile",
-          "updateRecordId": "",
           "updateToClient": "rsihYJKKDVyaYN",
           "createMergeRecord": false,
-          "uniqueMergeRecords": false,
+          "uniqueMergeRecords": "",
           "updateTargetDocumentState": true
         },
         {
@@ -1746,14 +1755,99 @@
           "createMergeRecord": false,
           "uniqueMergeRecords": false,
           "updateTargetDocumentState": false
-        }
-      ],
-      "sfupdater": [
+        },
         {
-          "id": "qHJ1vqXJ44rcnx",
-          "name": "New Salesforce Updater",
-          "_selectId": "uatbWva_tOcKhN",
-          "targetType": ""
+          "id": "YF_aX-5R36pkDI",
+          "name": "Add Questionnaire Based on Client Anchor",
+          "query": {
+            "$and": []
+          },
+          "onEnter": "",
+          "inStates": [
+            "New",
+            "Saved",
+            "Assessed",
+            "Approved",
+            "Stored"
+          ],
+          "mergeAll": "",
+          "_selectId": "FtGtizbn8zxRgc",
+          "properties": [
+            {
+              "id": "jy2T-6x6jhbLpH",
+              "field": "profile",
+              "value": "{_id}",
+              "defaultValue": ""
+            },
+            {
+              "id": "UJ2V9qjktdZsEE",
+              "field": "linkedProfile",
+              "value": "{_id}",
+              "defaultValue": ""
+            },
+            {
+              "id": "ee237Aa7DeDqAP",
+              "field": "assessmentType",
+              "value": "{$value}",
+              "defaultValue": ""
+            }
+          ],
+          "specificId": true,
+          "targetType": "fYmpCXoXNbRtVg:hestia/document-types",
+          "forValuesOf": true,
+          "iterateOver": "clients",
+          "updateState": "New",
+          "updateClient": false,
+          "recordChanges": "",
+          "targetTypeName": "Contractor Questionnaire",
+          "updateRecordId": "{resolveId(_id)}-{makeIdFrom(\"$value\")}:contractorcheck/contractorAnswers",
+          "createMergeRecord": false,
+          "uniqueMergeRecords": false,
+          "updateTargetDocumentState": true
+        },
+        {
+          "id": "5W2iA7W1ma2gWO",
+          "name": "Create H&S questionnaire on New",
+          "onEnter": "",
+          "inStates": [
+            "Saved",
+            "New"
+          ],
+          "mergeAll": "",
+          "_selectId": "lT6i9FqOTpK7uw",
+          "properties": [
+            {
+              "id": "RZ6GM_2spJAAjA",
+              "field": "profile",
+              "value": "{_id}",
+              "defaultValue": ""
+            },
+            {
+              "id": "8TqFDdaMLcG7WG",
+              "field": "linkedProfile",
+              "value": "{_id}",
+              "defaultValue": ""
+            },
+            {
+              "id": "8Ou05hf40YVaWK",
+              "field": "assessmentType",
+              "value": [
+                "general"
+              ],
+              "defaultValue": ""
+            }
+          ],
+          "specificId": true,
+          "targetType": "fYmpCXoXNbRtVg:hestia/document-types",
+          "forValuesOf": "",
+          "updateState": "New",
+          "updateClient": false,
+          "recordChanges": "",
+          "targetTypeName": "Contractor Questionnaire",
+          "updateRecordId": "{resolveId(_id)}-general:contractorcheck/contractorAnswers",
+          "createMergeRecord": false,
+          "uniqueMergeRecords": false,
+          "updateTargetDocumentState": true
         }
       ],
       "formAction": [
@@ -2008,6 +2102,7 @@
   "defaultState": "New",
   "sidebarColor": "#333",
   "tabsSelected": "#009fda",
+  "__hideRecords": false,
   "__warnReasons": [],
   "documentColor": "#333",
   "_activeVersion": "zk0gwNadHUfzTE",
@@ -2023,8 +2118,10 @@
   "defaultActivity": "x_5KNezQjHRN0v",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
+  "__hideBehaviours": false,
+  "__hidePublishing": true,
   "documentBackdrop": "#f4f4f4",
-  "_updatersExpanded": true,
+  "_updatersExpanded": false,
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
   "devices-allowed-html": "",
