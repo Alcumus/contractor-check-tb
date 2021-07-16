@@ -1,6 +1,6 @@
 [
   {
-    "__": "hPHqyUhnvrZvEj",
+    "__": "BtiYwcNnf6-N7F",
     "_id": "4NM8WsMsbIxX6K-TLQOo4mQgq7yrJ:hestia/versions",
     "__id": "4NM8WsMsbIxX6K:hestia/document-types",
     "icon": "",
@@ -198,7 +198,7 @@
     "_deleted": 0,
     "database": "salesforce",
     "maxWidth": 1000,
-    "_modified": 1626439246000,
+    "_modified": 1626439478000,
     "components": "",
     "navigation": [],
     "_behaviours": {
@@ -335,6 +335,24 @@
                     "questionLeftPad": "",
                     "questionRightPad": "",
                     "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "cuq7YH_kJp69xu",
+                    "name": "description",
+                    "type": "text",
+                    "hints": {},
+                    "maxWidth": "",
+                    "question": "",
+                    "_selectId": "yxWSrj-IRupGpA",
+                    "condition": "",
+                    "inputLabel": "",
+                    "defaultValue": "",
+                    "questionHeight": "",
+                    "clearIfDisabled": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "editableCondition": "",
+                    "questionSpaceBefore": ""
                   }
                 ],
                 "description": ""
@@ -381,6 +399,11 @@
                 "id": "IszlKF91tpT28V",
                 "field": "Phone",
                 "value": "{phone}"
+              },
+              {
+                "id": "IN2OrFPyWKeCCV",
+                "field": "Description",
+                "value": "{description}"
               }
             ],
             "targetType": "",

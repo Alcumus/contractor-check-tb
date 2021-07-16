@@ -1,5 +1,5 @@
 {
-  "__": "w3nPN75_WceFAW",
+  "__": "KcqQDrCfmUXUu8",
   "_id": "4NM8WsMsbIxX6K:hestia/document-types",
   "icon": "",
   "name": "SalesforceSyncTest",
@@ -200,13 +200,13 @@
     {
       "id": "TLQOo4mQgq7yrJ",
       "name": "1",
-      "time": 1626442870588,
+      "time": 1626443148714,
       "user": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
       "locked": false,
       "parentVersion": ""
     }
   ],
-  "_modified": 1626439270000,
+  "_modified": 1626439548000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -343,6 +343,24 @@
                   "questionLeftPad": "",
                   "questionRightPad": "",
                   "questionSpaceBefore": ""
+                },
+                {
+                  "id": "cuq7YH_kJp69xu",
+                  "name": "description",
+                  "type": "text",
+                  "hints": {},
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "yxWSrj-IRupGpA",
+                  "condition": "",
+                  "inputLabel": "",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "clearIfDisabled": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "editableCondition": "",
+                  "questionSpaceBefore": ""
                 }
               ],
               "description": ""
@@ -389,6 +407,11 @@
               "id": "IszlKF91tpT28V",
               "field": "Phone",
               "value": "{phone}"
+            },
+            {
+              "id": "IN2OrFPyWKeCCV",
+              "field": "Description",
+              "value": "{description}"
             }
           ],
           "targetType": "",
