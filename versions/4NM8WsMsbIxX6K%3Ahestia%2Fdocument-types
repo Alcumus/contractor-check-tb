@@ -1,6 +1,6 @@
 [
   {
-    "__": "-Kr2B5BLD640ND",
+    "__": "rEcSvJgqxbd895",
     "_id": "4NM8WsMsbIxX6K-TLQOo4mQgq7yrJ:hestia/versions",
     "__id": "4NM8WsMsbIxX6K:hestia/document-types",
     "icon": "",
@@ -198,7 +198,7 @@
     "_deleted": 0,
     "database": "salesforce",
     "maxWidth": 1000,
-    "_modified": 1626430959000,
+    "_modified": 1626438538000,
     "components": "",
     "navigation": [],
     "_behaviours": {
@@ -217,7 +217,7 @@
                 "questions": [
                   {
                     "id": "Gtne1kU3FvnfNE",
-                    "name": "SalesforceAccountID",
+                    "name": "salesforceAccountID",
                     "type": "text",
                     "hints": {},
                     "maxWidth": "",
@@ -235,7 +235,7 @@
                   },
                   {
                     "id": "KsmP739b1R3vXp",
-                    "name": "AccountName",
+                    "name": "accountName",
                     "type": "text",
                     "hints": {},
                     "maxWidth": "",
@@ -253,7 +253,7 @@
                   },
                   {
                     "id": "mYGPhE7bzoJqO0",
-                    "name": "ContractorCheckID",
+                    "name": "contractorCheckID",
                     "type": "text",
                     "hints": {},
                     "maxWidth": "",
@@ -263,13 +263,15 @@
                     "inputLabel": "",
                     "defaultValue": "",
                     "questionHeight": "",
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": ""
                   },
                   {
                     "id": "1u1dSovHnC7xm6",
-                    "name": "GlobalExemption",
+                    "name": "globalExemption",
                     "type": "boolean",
                     "hints": {
                       "icon_buttons": true
@@ -300,7 +302,7 @@
                   },
                   {
                     "id": "K3cvPHtWknBKMY",
-                    "name": "Employees",
+                    "name": "employees",
                     "type": "number",
                     "hints": {},
                     "question": "",
@@ -312,8 +314,10 @@
                     "minimumValue": "",
                     "decimalPlaces": "",
                     "questionHeight": "",
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": ""
                   }
                 ],
@@ -340,28 +344,22 @@
               {
                 "id": "FklS9NaKbZ5RhW",
                 "field": "ConractorCheck_ID__c",
-                "value": [
-                  "{ContractorCheckID}"
-                ]
+                "value": "{contractorCheckID}"
               },
               {
                 "id": "jQGoEgbuVROETP",
                 "field": "Name",
-                "value": [
-                  "{AccountName}"
-                ]
+                "value": "{accountName}"
               },
               {
                 "id": "5pWZ9TUfRbpvtR",
                 "field": "Global_Exemption__c",
-                "value": "{toBool(GlobalExemption)}"
+                "value": "{toBool(globalExemption)}"
               },
               {
                 "id": "C0nj1ETezTEHFh",
                 "field": "Full_time_Employees__c",
-                "value": [
-                  "{Employees}"
-                ]
+                "value": "{employees}"
               }
             ],
             "targetType": "",
