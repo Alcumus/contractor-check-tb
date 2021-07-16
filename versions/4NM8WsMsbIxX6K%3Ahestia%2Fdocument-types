@@ -1,6 +1,6 @@
 [
   {
-    "__": "MAZcJsp3m63g0K",
+    "__": "-Kr2B5BLD640ND",
     "_id": "4NM8WsMsbIxX6K-TLQOo4mQgq7yrJ:hestia/versions",
     "__id": "4NM8WsMsbIxX6K:hestia/document-types",
     "icon": "",
@@ -186,7 +186,11 @@
     "demands": [],
     "graphQL": {
       "ykQO6Osmv0pwBG": {
-        "exposeAPI": ""
+        "read": true,
+        "write": true,
+        "exposeAPI": true,
+        "readDemands": [],
+        "writeDemands": []
       }
     },
     "$invalid": false,
@@ -194,7 +198,7 @@
     "_deleted": 0,
     "database": "salesforce",
     "maxWidth": 1000,
-    "_modified": 1626264989000,
+    "_modified": 1626430959000,
     "components": "",
     "navigation": [],
     "_behaviours": {
@@ -325,7 +329,7 @@
         "sfupdater": [
           {
             "id": "7GH2rDI9YCaRCT",
-            "name": "Update In SalesForce",
+            "name": "Update Record In SalesForce",
             "sfID": "{SalesforceAccountID}",
             "onEnter": "",
             "inStates": [

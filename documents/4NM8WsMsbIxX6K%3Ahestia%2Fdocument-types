@@ -1,5 +1,5 @@
 {
-  "__": "wM1Pg2DG5TgGyp",
+  "__": "I1T2Eyg2LQnRV8",
   "_id": "4NM8WsMsbIxX6K:hestia/document-types",
   "icon": "",
   "name": "SalesforceSyncTest",
@@ -184,7 +184,11 @@
   "demands": [],
   "graphQL": {
     "ykQO6Osmv0pwBG": {
-      "exposeAPI": ""
+      "read": true,
+      "write": true,
+      "exposeAPI": true,
+      "readDemands": [],
+      "writeDemands": []
     }
   },
   "$invalid": false,
@@ -196,14 +200,14 @@
     {
       "id": "TLQOo4mQgq7yrJ",
       "name": "1",
-      "time": 1626269620188,
+      "time": 1626439122428,
       "user": "b04cbf69-0ea0-4859-a9e1-131503cf9033",
       "locked": false,
-      "_selectId": "AJ_C7ppoBCfrYF",
+      "_selectId": "-EUbzKeiwv1Lx-",
       "parentVersion": ""
     }
   ],
-  "_modified": 1626266031000,
+  "_modified": 1626435522000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -334,7 +338,7 @@
       "sfupdater": [
         {
           "id": "7GH2rDI9YCaRCT",
-          "name": "Update In SalesForce",
+          "name": "Update Record In SalesForce",
           "sfID": "{SalesforceAccountID}",
           "onEnter": "",
           "inStates": [
