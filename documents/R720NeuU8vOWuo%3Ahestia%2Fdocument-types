@@ -1,5 +1,5 @@
 {
-  "__": "vsCbZVrEdzrK_R",
+  "__": "0liU89R61Nz6BG",
   "_id": "R720NeuU8vOWuo:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -213,13 +213,13 @@
     {
       "id": "sTNP-VH3hEzwdP",
       "name": "1.0",
-      "time": 1625588167977,
-      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "time": 1626424052131,
+      "user": "64467393-61e5-45fe-a026-45aed6419337",
       "locked": false,
       "parentVersion": ""
     }
   ],
-  "_modified": 1625584568000,
+  "_modified": 1626256779000,
   "components": "verification,navigation,richtext",
   "isLockedBy": null,
   "navigation": [],
@@ -978,6 +978,40 @@
           "_selectId": "AAzBj8knMeIrqK",
           "condition": "",
           "description": ""
+        },
+        {
+          "id": "L7OmV1GvcKMtSt",
+          "name": "Disable Verification Component",
+          "sections": [
+            {
+              "id": "1626424014408-cBxJAMCRQ9QzG8",
+              "_id": "1626424014408-cBxJAMCRQ9QzG8:hestia/form-sections",
+              "name": "...",
+              "_expanded": true,
+              "_selectId": "SVoKXEycDJnBNR",
+              "condition": "",
+              "questions": [
+                {
+                  "id": "O-lipVFrGYMuik",
+                  "name": "",
+                  "type": "disableAudit",
+                  "hints": {},
+                  "question": "",
+                  "_selectId": "vwgludXqnRWZ5U",
+                  "condition": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                }
+              ],
+              "description": ""
+            }
+          ],
+          "_selectId": "nmIJ5usiybKLP4",
+          "condition": "",
+          "description": "",
+          "duplicateNames": {}
         }
       ],
       "updater": [
@@ -1675,6 +1709,12 @@
               "form": "ZpKpfXvUfAMY6c",
               "readOnly": false,
               "_selectId": "xLYgTxzSeHgNt0"
+            },
+            {
+              "id": "hMij8z4GtQRwQk",
+              "form": "L7OmV1GvcKMtSt",
+              "readOnly": false,
+              "_selectId": "ehxKpkmWoVSZB0"
             }
           ],
           "inline": true,
