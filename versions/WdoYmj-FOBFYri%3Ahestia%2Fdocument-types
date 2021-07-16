@@ -1,6 +1,6 @@
 [
   {
-    "__": "UypbJlNvIfKery",
+    "__": "-S5EGitXdY8X_Y",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -203,7 +203,7 @@
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1626368833000,
+    "_modified": 1626421329000,
     "components": "navigation,relationship",
     "isLockedBy": null,
     "navigation": [],
@@ -1701,6 +1701,7 @@
         ],
         "styled": [
           {
+            "id": "ybr6QklcIcPhKp",
             "css": ".title {\n    border-radius: 205px;\n    margin: 4px;\n    \n}\n\n.title [class*=h1-] {\n    font-size: 20px !important;\n}",
             "_init": true,
             "_selectId": "8bxlAvIOfisovH"
@@ -1709,7 +1710,9 @@
         "geocode": [
           {
             "id": "Gy195qKK_utUgI",
+            "name": "",
             "__init": true,
+            "region": "",
             "address": [
               {
                 "id": "Pm_JdjcKlYb2Nv",
@@ -1739,6 +1742,7 @@
             ],
             "latitude": "latitude",
             "_selectId": "juRD65XMIkRZbr",
+            "indexName": "ContractorCheck",
             "longitude": "longitude"
           }
         ],
@@ -2238,6 +2242,9 @@
     "_updatersExpanded": false,
     "sidebarBackground": "#fff",
     "documentBackground": "#f4f4f4",
+    "__behaviourCollapse": {
+      "geocode": false
+    },
     "devices-allowed-html": "",
     "isLockedByCurrentUser": false
   },

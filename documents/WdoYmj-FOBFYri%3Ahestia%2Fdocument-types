@@ -1,5 +1,5 @@
 {
-  "__": "ow11vXs5SSVKS6",
+  "__": "Zmo_PF9R5IEnlp",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -232,13 +232,13 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1626372593553,
+      "time": 1626425959420,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1626368993000,
+  "_modified": 1626422360000,
   "components": "navigation,relationship",
   "isLockedBy": null,
   "navigation": [],
@@ -1736,6 +1736,7 @@
       ],
       "styled": [
         {
+          "id": "ybr6QklcIcPhKp",
           "css": ".title {\n    border-radius: 205px;\n    margin: 4px;\n    \n}\n\n.title [class*=h1-] {\n    font-size: 20px !important;\n}",
           "_init": true,
           "_selectId": "8bxlAvIOfisovH"
@@ -1744,7 +1745,9 @@
       "geocode": [
         {
           "id": "Gy195qKK_utUgI",
+          "name": "",
           "__init": true,
+          "region": "",
           "address": [
             {
               "id": "Pm_JdjcKlYb2Nv",
@@ -1774,6 +1777,7 @@
           ],
           "latitude": "latitude",
           "_selectId": "juRD65XMIkRZbr",
+          "indexName": "ContractorCheck",
           "longitude": "longitude"
         }
       ],
@@ -2274,6 +2278,9 @@
   "_updatersExpanded": false,
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
+  "__behaviourCollapse": {
+    "geocode": false
+  },
   "devices-allowed-html": "",
   "isLockedByCurrentUser": false
 }
