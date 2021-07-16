@@ -1,5 +1,5 @@
 {
-  "__": "8Msr3Kcme7Ff_x",
+  "__": "fxLV_iUY-7eWBf",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -232,13 +232,13 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1626446076258,
+      "time": 1626446548547,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1626442476000,
+  "_modified": 1626442948000,
   "components": "navigation,relationship",
   "isLockedBy": null,
   "navigation": [],
@@ -1079,6 +1079,7 @@
                   "manyTypeName": "Anchor Request",
                   "pendingColor": "#444444",
                   "rejectedText": "Rejected",
+                  "remoteRecord": "masterListClient",
                   "buttonCaption": "+ Add",
                   "confirmedText": "Confirmed",
                   "rejectedColor": "#ffffff",
@@ -1301,6 +1302,7 @@
                   "manyTypeName": "Anchor Request",
                   "pendingColor": "#444444",
                   "rejectedText": "Rejected",
+                  "remoteRecord": "masterListContractor",
                   "buttonCaption": "+ Add",
                   "confirmedText": "Confirmed",
                   "rejectedColor": "#ffffff",
