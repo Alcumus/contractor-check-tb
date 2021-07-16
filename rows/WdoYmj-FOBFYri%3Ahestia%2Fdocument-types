@@ -1,6 +1,6 @@
 [
   {
-    "__": "vovPgpWsVpaAXk",
+    "__": "FJ9_FuQf8rVkUU",
     "ZIP": "M5C 1S2",
     "_id": "1621266694681:companyP/companyP",
     "City": "Toronto",
@@ -152,20 +152,20 @@
     "_created": 1621461167000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 85,
-    "latitude": "",
+    "complete": 92,
+    "latitude": -79.37446,
     "province": [
       "New Brunswick",
       "Northwest Territories",
       "Alberta",
       "British Columbia"
     ],
-    "_modified": 1626422505000,
+    "_modified": 1626423828000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Assessed"
     },
-    "longitude": "",
+    "longitude": 43.65323,
     "__sourceId": "1621266694681-general:contractorcheck/contractorAnswers",
     "_components": {},
     "companyName": "Bill Smithereen Contracting",

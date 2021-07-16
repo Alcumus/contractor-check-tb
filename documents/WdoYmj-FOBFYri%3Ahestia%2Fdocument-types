@@ -1,5 +1,5 @@
 {
-  "__": "vgOiEEK5eZvb3W",
+  "__": "-sgEiGiVlsNWjZ",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -232,13 +232,13 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1626426225166,
+      "time": 1626427981293,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1626422625000,
+  "_modified": 1626424381000,
   "components": "navigation,relationship",
   "isLockedBy": null,
   "navigation": [],
@@ -548,6 +548,22 @@
                   "questionLeftPad": "",
                   "questionRightPad": "",
                   "editableCondition": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "pdbvGkuRipGo6c",
+                  "name": "state",
+                  "type": "text",
+                  "hints": {},
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "7B9pzFLoVgdRCS",
+                  "condition": "",
+                  "inputLabel": "",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
                   "questionSpaceBefore": ""
                 },
                 {
@@ -1765,6 +1781,11 @@
               "defaultValue": ""
             },
             {
+              "id": "nVgcEPeR-jcKSC",
+              "field": "state",
+              "defaultValue": ""
+            },
+            {
               "id": "79eWoFfxnSl-YI",
               "field": "ZIP",
               "defaultValue": ""
@@ -2280,7 +2301,9 @@
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
   "__behaviourCollapse": {
-    "geocode": false
+    "views": false,
+    "geocode": false,
+    "updater": false
   },
   "devices-allowed-html": "",
   "isLockedByCurrentUser": false
