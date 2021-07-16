@@ -1,5 +1,5 @@
 {
-  "__": "-sgEiGiVlsNWjZ",
+  "__": "4HGcnCraS9Jy65",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -232,13 +232,13 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1626427981293,
+      "time": 1626445376531,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1626424381000,
+  "_modified": 1626441776000,
   "components": "navigation,relationship",
   "isLockedBy": null,
   "navigation": [],
@@ -1062,7 +1062,7 @@
                   "remoteView": "tO-6DxodJdqI_0",
                   "description": "",
                   "pendingText": "Pending",
-                  "relatedType": "WdoYmj-FOBFYri:hestia/document-types",
+                  "relatedType": "UJns4BZ0dhGyw5:hestia/document-types",
                   "remoteField": "client",
                   "remoteQuery": {
                     "$and": [
@@ -1085,7 +1085,7 @@
                   "requestedText": "Requested",
                   "confirmedColor": "#ffffff",
                   "requestedColor": "#ffffff",
-                  "relatedTypeName": "Company Profile",
+                  "relatedTypeName": "Master List Company Profile",
                   "remoteNameField": "companyName",
                   "remoteSortField": "companyName",
                   "remoteView_name": "Name",
@@ -1895,7 +1895,7 @@
           "recordChanges": "",
           "targetTypeName": "Master List Company Profile",
           "updateToClient": "rsihYJKKDVyaYN",
-          "createMergeRecord": false,
+          "createMergeRecord": true,
           "uniqueMergeRecords": "",
           "updateTargetDocumentState": true
         },

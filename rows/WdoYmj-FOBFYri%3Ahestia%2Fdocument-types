@@ -1,6 +1,6 @@
 [
   {
-    "__": "FJ9_FuQf8rVkUU",
+    "__": "k3Dak3aLsrxI2v",
     "ZIP": "M5C 1S2",
     "_id": "1621266694681:companyP/companyP",
     "City": "Toronto",
@@ -152,7 +152,7 @@
     "_created": 1621461167000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 92,
+    "complete": 89,
     "latitude": -79.37446,
     "province": [
       "New Brunswick",
@@ -160,7 +160,7 @@
       "Alberta",
       "British Columbia"
     ],
-    "_modified": 1626423828000,
+    "_modified": 1626423856000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Assessed"
@@ -175,6 +175,15 @@
       "Gy195qKK_utUgI": {}
     },
     "__originalId": "1621266694681:companyP/companyP",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "M5C 1S2",
+        "City": "Toronto",
+        "address": "111 Queen Street E",
+        "companyName": "Bill Smithereen Contracting",
+        "headOfficeCountry": "Canada"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
         "state": "Assessed",
@@ -261,8 +270,8 @@
     ]
   },
   {
-    "__": "NKQZVyS6V7ueXD",
-    "ZIP": "32323",
+    "__": "FGOi456FfRwVbT",
+    "ZIP": "",
     "_id": "1621268379734:companyP/companyP",
     "City": "Toronto",
     "_info": {
@@ -272,6 +281,7 @@
     },
     "email": "jim.smith@harford.com",
     "phone": "07737222388",
+    "state": "ON",
     "$valid": true,
     "SHARED": {},
     "client": "rsihYJKKDVyaYN",
@@ -282,7 +292,7 @@
       }
     },
     "_client": "1621268379734",
-    "address": "The Cabin\n12 Lake Drive",
+    "address": "55 Dupont Street",
     "clients": [],
     "country": [
       "Canada"
@@ -290,42 +300,74 @@
     "$created": true,
     "$creator": "64467393-61e5-45fe-a026-45aed6419337",
     "$invalid": false,
-    "_created": 1622205082000,
+    "_created": 1621461168000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 74,
+    "complete": 75,
+    "latitude": -79.39924,
     "province": [
       "Ontario",
       "Prince Edward Island",
       "Quebec"
     ],
-    "_modified": 1625651810000,
+    "_modified": 1626425880000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
     },
+    "longitude": 43.67657,
     "__sourceId": "tcG4p5GKFuZJ1p:applications/Contractor Check-JChJ76vPTnXeyQ",
     "_components": {},
     "companyName": "Harfords Arborist Services",
     "companySize": "Small Business",
     "description": "Just your run of the saw mill tree surgeon",
+    "geoCodeData": {
+      "Gy195qKK_utUgI": {}
+    },
     "__originalId": "1621268379734:companyP/companyP",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "",
+        "City": "Toronto",
+        "state": "ON",
+        "address": "55 Dupont Street",
+        "companyName": "Harfords Arborist Services",
+        "headOfficeCountry": "Canada"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "1621268379734",
     "profileState": "Saved",
+    "tradingNames": "",
     "workActivity": [
       "Arborist/Tree Services",
       "Land Surveyor"
@@ -333,15 +375,22 @@
     "clientsLookup": [],
     "doYouContract": "yes",
     "classification": "Maintenance",
+    "complete_count": 17,
     "workActivities": [
       "Zb5UkuGQwdKIZA:workA/workA",
       "xxVMHkOquDqZK8:workA/workA"
     ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1621268411531,
+    "complete_remain": 3,
+    "complete_complete": 14,
     "headOfficeCountry": "Canada",
     "numberOfEmployees": 55,
     "preferredLanguage": "",
+    "workActivityFrench": [
+      "Arboriculteur/Services d'arbres",
+      "Arpenteur-géomètre"
+    ],
     "doYouUseContractors": "no",
     "workActivitiesLookup": [
       "p3aGtGgud-4ZbI:workA/workA",
@@ -351,7 +400,7 @@
     ]
   },
   {
-    "__": "ELlmFZpUKsLb4P",
+    "__": "ivxIpjP3ZToDA6",
     "ZIP": "",
     "_id": "1621327241644:companyP/companyP",
     "City": "Toronto",
@@ -419,6 +468,7 @@
     },
     "email": "contact@windward.com",
     "phone": "+448838892323",
+    "state": "ON",
     "$valid": true,
     "SHARED": {},
     "client": "rsihYJKKDVyaYN",
@@ -429,7 +479,7 @@
       }
     },
     "_client": "1621327241644",
-    "address": "",
+    "address": "120 Keele Street",
     "clients": [
       "Ivanhoe Cambridge Inc.",
       "Enwave Energy Corporation (Client)",
@@ -443,41 +493,72 @@
     "$created": true,
     "$creator": "64467393-61e5-45fe-a026-45aed6419337",
     "$invalid": false,
-    "_created": 1622205082000,
+    "_created": 1621461170000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 77,
+    "complete": 86,
+    "latitude": -79.48425,
     "province": [
       "Quebec",
       "Saskatchewan",
       "Ontario"
     ],
-    "_modified": 1625651810000,
+    "_modified": 1626425921000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Assessed"
     },
+    "longitude": 43.73601,
     "__sourceId": "1621327241644-general:contractorcheck/contractorAnswers",
     "_components": {},
     "companyName": "Windward Teams",
     "companySize": "Small Business",
     "description": "Sub contractors for any job",
+    "geoCodeData": {
+      "Gy195qKK_utUgI": {}
+    },
     "recordCache": {
       "98453gUyyYYtgR:workA/workA": {}
     },
     "__originalId": "1621327241644:companyP/companyP",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "",
+        "City": "Toronto",
+        "state": "ON",
+        "address": "120 Keele Street",
+        "companyName": "Windward Teams",
+        "headOfficeCountry": "Canada"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Assessed"
+        "state": "Assessed",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Assessed"
+        "state": "Assessed",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "Assessed"
+        "state": "Assessed",
+        "previousValues": [
+          "Ivanhoe Cambridge Inc.",
+          "Enwave Energy Corporation (Client)",
+          "Longo Brothers Fruit Markets Inc.",
+          "K-Line Group",
+          "BURNCO Rock Products Ltd - Client"
+        ]
       },
       "okFTMSwCgI9C4a": {
-        "state": "Assessed"
+        "state": "Assessed",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "1621327241644",
@@ -495,11 +576,14 @@
     ],
     "doYouContract": "yes",
     "classification": "Construction",
+    "complete_count": 17,
     "workActivities": [
       "ulG_R7NkaQh6dD:workA/workA"
     ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1625579818272,
+    "complete_remain": 2,
+    "complete_complete": 15,
     "headOfficeCountry": "Canada",
     "numberOfEmployees": 59,
     "preferredLanguage": "en",
@@ -509,10 +593,10 @@
     "doYouUseContractors": "no"
   },
   {
-    "__": "d_VLZLkvAKldio",
-    "ZIP": "666",
+    "__": "oZl7AvRR5PGkto",
+    "ZIP": "",
     "_id": "1621330978348:companyP/companyP",
-    "City": "Slough",
+    "City": "Vancouver",
     "_info": {
       "clientsLookup": {
         "rows": [
@@ -555,6 +639,7 @@
     },
     "email": "richard.roberts@sitedesign.com",
     "phone": "+44837744423",
+    "state": "BC",
     "$valid": true,
     "SHARED": {},
     "client": "rsihYJKKDVyaYN",
@@ -565,7 +650,7 @@
       }
     },
     "_client": "1621330978348",
-    "address": "The Office",
+    "address": "90 Barclay Street",
     "clients": [
       "Bimbo Canada (Canada Bread)",
       "First Gulf (Client)"
@@ -576,42 +661,70 @@
     "$created": true,
     "$creator": "64467393-61e5-45fe-a026-45aed6419337",
     "$invalid": false,
-    "_created": 1622205082000,
+    "_created": 1621461172000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 84,
+    "complete": 85,
+    "latitude": -123.13341,
     "province": [
       "Nunavut",
       "Newfoundland and Labrador"
     ],
-    "_modified": 1625651810000,
+    "_modified": 1626426108000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Assessed"
     },
+    "longitude": 49.28736,
     "__sourceId": "1621330978348-general:contractorcheck/contractorAnswers",
     "_components": {},
     "companyName": "Site Design Contractors",
     "companySize": "Small Business",
     "description": "The business you want to design your buildings and dole out the money",
+    "geoCodeData": {
+      "Gy195qKK_utUgI": {}
+    },
     "recordCache": {
       "98453gUyyYYtgR:workA/workA": {
         "workActivity": "Air Conditioning"
       }
     },
     "__originalId": "1621330978348:companyP/companyP",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "",
+        "City": "Vancouver",
+        "state": "BC",
+        "address": "90 Barclay Street",
+        "companyName": "Site Design Contractors",
+        "headOfficeCountry": "Canada"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Assessed"
+        "state": "Assessed",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Assessed"
+        "state": "Assessed",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "Assessed"
+        "state": "Assessed",
+        "previousValues": [
+          "Bimbo Canada (Canada Bread)",
+          "First Gulf (Client)"
+        ]
       },
       "okFTMSwCgI9C4a": {
-        "state": "Assessed"
+        "state": "Assessed",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "1621330978348",
@@ -628,14 +741,17 @@
     ],
     "doYouContract": "yes",
     "classification": "Maintenance",
+    "complete_count": 16,
     "workActivities": [
       "cpzHPv4z_GB-_C:workA/workA",
       "2TPCmBI54Ak_4m:workA/workA",
       "KSoRD4ak6jh6RI:workA/workA"
     ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1625579818268,
-    "headOfficeCountry": "US",
+    "complete_remain": 2,
+    "complete_complete": 14,
+    "headOfficeCountry": "Canada",
     "numberOfEmployees": 155,
     "preferredLanguage": "en",
     "workActivityFrench": [
@@ -646,10 +762,10 @@
     "doYouUseContractors": "no"
   },
   {
-    "__": "rPasyL1vwv8Lwu",
+    "__": "TldPJ_7h4nNYeM",
     "ZIP": "",
     "_id": "1621430770419:companyP/companyP",
-    "City": "",
+    "City": "Quebec City",
     "_info": {
       "clients": {
         "rows": [
@@ -732,6 +848,7 @@
     },
     "email": "mike.talbot@alcumusgroup.com",
     "phone": "+447974932396",
+    "state": "QC",
     "$valid": true,
     "SHARED": {},
     "client": "rsihYJKKDVyaYN",
@@ -742,83 +859,98 @@
       }
     },
     "_client": "1621430770419",
-    "address": "",
-    "clients": [
-      "Agellan Capital Partners Inc",
-      "Cadillac Fairview Corporation Limited",
-      "BURNCO Rock Products Ltd - Client",
-      "Bouygues Energies & Services",
-      "Cineplex Inc. (Client)",
-      "Choice Properties - Industrial & Office",
-      "Longo Brothers Fruit Markets Inc.",
-      "Loblaw Group of Companies"
-    ],
+    "address": "84 Nolin Street",
+    "clients": [],
     "country": [
       "US"
     ],
     "$created": true,
     "$creator": "3e424bc3-fb9a-47a1-93a1-056351146687",
     "$invalid": false,
-    "_created": 1622205082000,
+    "_created": 1621461173000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 61,
-    "_modified": 1625651810000,
+    "complete": 75,
+    "latitude": -71.21849,
+    "_modified": 1626426100000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Assessed"
     },
+    "longitude": 46.81277,
     "__sourceId": "1621430770419-general:contractorcheck/contractorAnswers",
     "_components": {},
     "companyName": "Master Contractors USA",
     "companySize": "Large Business",
     "description": "We are a really cool company full of really cool people",
+    "geoCodeData": {
+      "Gy195qKK_utUgI": {}
+    },
     "__originalId": "1621430770419:companyP/companyP",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "",
+        "City": "Quebec City",
+        "state": "QC",
+        "address": "84 Nolin Street",
+        "companyName": "Master Contractors USA",
+        "headOfficeCountry": "Canada"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Assessed"
+        "state": "Assessed",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Assessed"
+        "state": "Assessed",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "Assessed"
+        "state": "Assessed",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "Assessed"
+        "state": "Assessed",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "1621430770419",
     "profileState": "Saved",
+    "tradingNames": "",
     "workActivity": [
       "Access Solutions - Roadways, Bridges, Rig Mats",
       "Arborist/Tree Services"
     ],
-    "clientsLookup": [
-      "8-DZ0dQ-ny8sF0:companyP/companyP",
-      "o9F45eoXN7sntB:companyP/companyP",
-      "2Jb4IVFL3hrjMQ:companyP/companyP",
-      "lcdBsxkACkPCHQ:companyP/companyP",
-      "hEg9ziyMZRbQVl:companyP/companyP",
-      "-wousIdvBUDgIc:companyP/companyP",
-      "YdKkWf7FpjkwsV:companyP/companyP",
-      "U039vw8bd3vmHh:companyP/companyP"
-    ],
+    "clientsLookup": [],
     "doYouContract": "yes",
     "classification": "Construction",
+    "complete_count": 16,
     "workActivities": [
       "JgpbhOLqdNDhgP:workA/workA",
       "Zb5UkuGQwdKIZA:workA/workA"
     ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1625579818260,
-    "headOfficeCountry": "",
+    "complete_remain": 3,
+    "complete_complete": 13,
+    "headOfficeCountry": "Canada",
     "numberOfEmployees": 1225,
     "preferredLanguage": "",
+    "workActivityFrench": [
+      "Solutions d'accès - Chaussées, ponts, tapis de forage",
+      "Arboriculteur/Services d'arbres"
+    ],
     "doYouUseContractors": "no"
   },
   {
-    "__": "2lKwrci-ukHlER",
+    "__": "oYvdkWEHHAT55l",
     "_id": "8-DZ0dQ-ny8sF0:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -828,37 +960,57 @@
     },
     "_client": "8-DZ0dQ-ny8sF0",
     "$created": true,
-    "_created": 1625231046000,
+    "_created": 1622140349000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651810000,
+    "complete": 26,
+    "latitude": -79.38423,
+    "_modified": 1625843665000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 43.64515,
     "companyName": "Agellan Capital Partners Inc",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Agellan Capital Partners Inc"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143948999,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "k2ZbDgxo74KXiT",
+    "__": "rTK0Je3_vzehgD",
     "_id": "2Jb4IVFL3hrjMQ:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -868,37 +1020,57 @@
     },
     "_client": "2Jb4IVFL3hrjMQ",
     "$created": true,
-    "_created": 1622205082000,
+    "_created": 1622140349000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651810000,
+    "complete": 26,
+    "latitude": -119.5971,
+    "_modified": 1625843659000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 49.86057,
     "companyName": "BURNCO Rock Products Ltd - Client",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "BURNCO Rock Products Ltd - Client"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143949189,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "e_u06NP52DsSK_",
+    "__": "yfD-wCNsaZQP1r",
     "ZIP": "1234",
     "_id": "Mx20OTel7MWV4d:companyP/companyP",
     "City": "Sometown",
@@ -926,19 +1098,30 @@
     "_created": 1622140349000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 52,
+    "complete": 56,
+    "latitude": -97.16817,
     "province": [
       "Alberta",
       "British Columbia"
     ],
-    "_modified": 1626355205000,
+    "_modified": 1626356445000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
     },
+    "longitude": 49.88587,
     "companyName": "Bimbo Canada (Canada Bread)",
     "companySize": "Sole Proprietor",
     "description": "",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "1234",
+        "City": "Sometown",
+        "address": "Some street",
+        "companyName": "Bimbo Canada (Canada Bread)",
+        "headOfficeCountry": "US"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
         "state": "Saved",
@@ -982,7 +1165,7 @@
     "workActivities": [
       "Y9eam4wtWr9ci3:workA/workA"
     ],
-    "_lastModifiedBy": "fc4b391a-42c9-4cbc-8ea2-a716c7c8997c",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1624963992108,
     "complete_remain": 4,
     "complete_complete": 9,
@@ -995,7 +1178,7 @@
     "doYouUseContractors": "yes"
   },
   {
-    "__": "-8BO6f6jgF7i0_",
+    "__": "IE0V6fjiIfHMb4",
     "_id": "0pVu0Ed45F96oN:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -1005,37 +1188,57 @@
     },
     "_client": "0pVu0Ed45F96oN",
     "$created": true,
-    "_created": 1622205082000,
+    "_created": 1622140349000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651810000,
+    "complete": 26,
+    "latitude": -1.00675,
+    "_modified": 1625843659000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 52.65245,
     "companyName": "Bird Construction (Client)",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Bird Construction (Client)"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143949577,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "UqHocdHyiBCFVd",
+    "__": "SgH_js7JGpNOYM",
     "_id": "lcdBsxkACkPCHQ:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -1045,37 +1248,57 @@
     },
     "_client": "lcdBsxkACkPCHQ",
     "$created": true,
-    "_created": 1622205082000,
+    "_created": 1622140349000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651810000,
+    "complete": 26,
+    "latitude": 1.51617,
+    "_modified": 1625843659000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 43.64794,
     "companyName": "Bouygues Energies & Services",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Bouygues Energies & Services"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143949790,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "Sof6BZ2Zt6cM55",
+    "__": "zlo0-M9klXsUso",
     "_id": "aDQEUTeZ5XXY8n:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -1085,37 +1308,57 @@
     },
     "_client": "aDQEUTeZ5XXY8n",
     "$created": true,
-    "_created": 1622205082000,
+    "_created": 1622140350000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651810000,
+    "complete": 26,
+    "latitude": -79.37997,
+    "_modified": 1625843659000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 43.67496,
     "companyName": "Branksome Hall",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Branksome Hall"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143949999,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "e4m5bixfWXBTUR",
+    "__": "bt7io8nVwaijGB",
     "_id": "yX3iTKf69fG_Pl:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -1125,37 +1368,57 @@
     },
     "_client": "yX3iTKf69fG_Pl",
     "$created": true,
-    "_created": 1622205082000,
+    "_created": 1622140350000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651810000,
+    "complete": 26,
+    "latitude": -110.18894,
+    "_modified": 1625843659000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 54.47018,
     "companyName": "CBRE (Alberta) Client",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "CBRE (Alberta) Client"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143950236,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "RV2v3sO8-ObxPn",
+    "__": "uDyt6s4Cl0jyOc",
     "_id": "3Ob7yOFe2186wl:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -1165,37 +1428,57 @@
     },
     "_client": "3Ob7yOFe2186wl",
     "$created": true,
-    "_created": 1622205082000,
+    "_created": 1622140350000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651810000,
+    "complete": 26,
+    "latitude": -2.07213,
+    "_modified": 1625843659000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 51.87727,
     "companyName": "CBRE Limited (Client)",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "CBRE Limited (Client)"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143950427,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "X85E1N920NJbxt",
+    "__": "88lSkugHQpArxF",
     "ZIP": "1212321",
     "_id": "o9F45eoXN7sntB:companyP/companyP",
     "City": "Toronto",
@@ -1214,15 +1497,26 @@
     "_created": 1622140350000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 52,
-    "_modified": 1625843659000,
+    "complete": 56,
+    "latitude": -79.38038,
+    "_modified": 1626359239000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
     },
+    "longitude": 43.65349,
     "companyName": "Cadillac Fairview Corporation Limited",
     "companySize": "Sole Proprietor",
     "description": "We make things",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "1212321",
+        "City": "Toronto",
+        "address": "101 Avenue Drive",
+        "companyName": "Cadillac Fairview Corporation Limited",
+        "headOfficeCountry": "Canada"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
         "state": "Saved",
@@ -1266,7 +1560,7 @@
     "doYouUseContractors": "yes"
   },
   {
-    "__": "mYh4n1N5kNbH-j",
+    "__": "Ax_toCDODanHNj",
     "_id": "trzCa9I4sMgRmV:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -1276,37 +1570,57 @@
     },
     "_client": "trzCa9I4sMgRmV",
     "$created": true,
-    "_created": 1622205082000,
+    "_created": 1622140350000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651811000,
+    "complete": 26,
+    "latitude": -114.15947,
+    "_modified": 1625843659000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 51.01877,
     "companyName": "Calgary Co-Operative Association Limited",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Calgary Co-Operative Association Limited"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143950805,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "PBO_fVOkNBkllH",
+    "__": "FLEmTeQqJclMfT",
     "_id": "Olg52uy5jOquEi:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -1316,37 +1630,57 @@
     },
     "_client": "Olg52uy5jOquEi",
     "$created": true,
-    "_created": 1622205082000,
+    "_created": 1622140351000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651811000,
+    "complete": 26,
+    "latitude": -77.14306,
+    "_modified": 1625843659000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 39.02782,
     "companyName": "Canada General Documents",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Canada General Documents"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143951056,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "-1KCq_VlKOhC3o",
+    "__": "zOpjtQW9rSaLth",
     "_id": "-wousIdvBUDgIc:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -1356,37 +1690,57 @@
     },
     "_client": "-wousIdvBUDgIc",
     "$created": true,
-    "_created": 1622205082000,
+    "_created": 1622140351000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651811000,
+    "complete": 26,
+    "latitude": -77.31252,
+    "_modified": 1625843659000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 38.82491,
     "companyName": "Choice Properties - Industrial & Office",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Choice Properties - Industrial & Office"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143951296,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "pga66XbGjXm88-",
+    "__": "UNZwUExVHuxTkk",
     "_id": "-abIxAbyQhrtlj:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -1396,37 +1750,57 @@
     },
     "_client": "-abIxAbyQhrtlj",
     "$created": true,
-    "_created": 1622205083000,
+    "_created": 1622140351000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651811000,
+    "complete": 26,
+    "latitude": 76.35581,
+    "_modified": 1625843659000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 10.05346,
     "companyName": "Choice Properties REIT",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Choice Properties REIT"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143951486,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "xp0NW37DxEaGku",
+    "__": "IdWUAlC_Fm_7J-",
     "_id": "hEg9ziyMZRbQVl:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -1436,37 +1810,57 @@
     },
     "_client": "hEg9ziyMZRbQVl",
     "$created": true,
-    "_created": 1622205083000,
+    "_created": 1622140351000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651811000,
+    "complete": 26,
+    "latitude": -73.74179,
+    "_modified": 1625843660000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 45.56386,
     "companyName": "Cineplex Inc. (Client)",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Cineplex Inc. (Client)"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143951675,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "fVgograb_wREYA",
+    "__": "krmybKASWjNy_t",
     "_id": "ShW3tRn7ua_nrB:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -1476,37 +1870,57 @@
     },
     "_client": "ShW3tRn7ua_nrB",
     "$created": true,
-    "_created": 1622205083000,
+    "_created": 1622140351000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651811000,
+    "complete": 26,
+    "latitude": -79.47549,
+    "_modified": 1625843660000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 43.71783,
     "companyName": "Conseil Scolaire Viamonde",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Conseil Scolaire Viamonde"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143951867,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "YdKGy4_C_IzQYy",
+    "__": "rRAt6dDI4qfTLD",
     "_id": "aNnsZjYxexfOY0:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -1516,37 +1930,57 @@
     },
     "_client": "aNnsZjYxexfOY0",
     "$created": true,
-    "_created": 1622205083000,
+    "_created": 1622140352000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651811000,
+    "complete": 26,
+    "latitude": -79.36456,
+    "_modified": 1625843660000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 43.85036,
     "companyName": "Crown Property Management Inc.",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Crown Property Management Inc."
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143952063,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "Afonmdzc-MjM5G",
+    "__": "liGPDk38aPsNb3",
     "_id": "5y98eL_gIdNhC2:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -1556,37 +1990,57 @@
     },
     "_client": "5y98eL_gIdNhC2",
     "$created": true,
-    "_created": 1622205083000,
+    "_created": 1622140352000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651811000,
+    "complete": 26,
+    "latitude": -63.58092,
+    "_modified": 1625843660000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 44.69832,
     "companyName": "Cushman & Wakefield (20 VIC Management Inc) (Client)",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Cushman & Wakefield (20 VIC Management Inc) (Client)"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143952250,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "nMMXfa3sKmHNh1",
+    "__": "45loUfJLmYU_Nl",
     "_id": "XjjpwWQXoFlddC:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -1596,37 +2050,57 @@
     },
     "_client": "XjjpwWQXoFlddC",
     "$created": true,
-    "_created": 1622205083000,
+    "_created": 1622140352000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651811000,
+    "complete": 26,
+    "latitude": 77.07872,
+    "_modified": 1625843660000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 28.46157,
     "companyName": "Dream Unlimited Corp",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Dream Unlimited Corp"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143952430,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "iW9EvFEBTTeX41",
+    "__": "wq0tv25zt_9odo",
     "_id": "iawY_HehQF-ZBu:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -1636,37 +2110,57 @@
     },
     "_client": "iawY_HehQF-ZBu",
     "$created": true,
-    "_created": 1622205083000,
+    "_created": 1622140352000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651811000,
+    "complete": 26,
+    "latitude": -86.80099,
+    "_modified": 1625843660000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 35.96112,
     "companyName": "EPIC Investment Services (Client)",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "EPIC Investment Services (Client)"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143952626,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "j2H-DNr4qQR85U",
+    "__": "bWntOhEoPhZHQN",
     "_id": "8c5KGaMb3gHxgE:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -1676,37 +2170,57 @@
     },
     "_client": "8c5KGaMb3gHxgE",
     "$created": true,
-    "_created": 1622205083000,
+    "_created": 1622140352000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651811000,
+    "complete": 26,
+    "latitude": 32.3,
+    "_modified": 1625843660000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 31.2667,
     "companyName": "Enwave Energy Corporation (Client)",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Enwave Energy Corporation (Client)"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143952814,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "NvoQ6T2gBRsfUL",
+    "__": "T8t8nyoZNkNQad",
     "_id": "k7edZG8PkJSqaj:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -1716,37 +2230,57 @@
     },
     "_client": "k7edZG8PkJSqaj",
     "$created": true,
-    "_created": 1622205083000,
+    "_created": 1622140353000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651811000,
+    "complete": 26,
+    "latitude": 120.98511,
+    "_modified": 1625843660000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 14.60056,
     "companyName": "First Capital - REIT",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "First Capital - REIT"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143953033,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "0N62SbvpvTcvc2",
+    "__": "rydebBD4Dzm4jL",
     "_id": "4ZOTyeDJ12zt7K:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -1756,37 +2290,57 @@
     },
     "_client": "4ZOTyeDJ12zt7K",
     "$created": true,
-    "_created": 1622205083000,
+    "_created": 1622140353000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651811000,
+    "complete": 26,
+    "latitude": -6.29887,
+    "_modified": 1625843660000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 53.31452,
     "companyName": "First Gulf (Client)",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "First Gulf (Client)"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143953212,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "4qJANmma0SyEdg",
+    "__": "sXMPyY2Nzlt7x3",
     "_id": "ws5k0bhwqHwiqV:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -1796,37 +2350,57 @@
     },
     "_client": "ws5k0bhwqHwiqV",
     "$created": true,
-    "_created": 1622205083000,
+    "_created": 1622140353000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651811000,
+    "complete": 26,
+    "latitude": -79.60721,
+    "_modified": 1625843660000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 43.73485,
     "companyName": "Give and Go Prepared Foods Corp",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Give and Go Prepared Foods Corp"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143953396,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "mNxFVXPYm_G4XG",
+    "__": "QA7EbVCQ3Wnbff",
     "_id": "mMLy_0yFik8UGu:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -1836,37 +2410,57 @@
     },
     "_client": "mMLy_0yFik8UGu",
     "$created": true,
-    "_created": 1622205083000,
+    "_created": 1622140353000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651811000,
+    "complete": 26,
+    "latitude": -79.38827,
+    "_modified": 1625843660000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 43.67038,
     "companyName": "Holt Renfrew (Client)",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Holt Renfrew (Client)"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143953585,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "mIe2mgs9Rkc6Ge",
+    "__": "-uy7frO94mKrfM",
     "_id": "LPFyKe_7BTUWJ-:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -1876,37 +2470,57 @@
     },
     "_client": "LPFyKe_7BTUWJ-",
     "$created": true,
-    "_created": 1622205083000,
+    "_created": 1622140353000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651811000,
+    "complete": 26,
+    "latitude": -79.38209,
+    "_modified": 1625843660000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 43.64645,
     "companyName": "Ivanhoe Cambridge Inc.",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Ivanhoe Cambridge Inc."
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143953790,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "a042L5QzHtiG1C",
+    "__": "qGTsq9RbJ6Zf2z",
     "_id": "5Qs5Ptp-z8jP5G:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -1916,37 +2530,57 @@
     },
     "_client": "5Qs5Ptp-z8jP5G",
     "$created": true,
-    "_created": 1622205083000,
+    "_created": 1622140353000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651811000,
+    "complete": 26,
+    "latitude": 17.02117,
+    "_modified": 1625843660000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 52.08557,
     "companyName": "K-Line Group",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "K-Line Group"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143953982,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "l5ifxZGbRiR9BA",
+    "__": "T8BPBo-5BOUrKB",
     "_id": "xXuDOsdhO-b6Xe:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -1956,37 +2590,57 @@
     },
     "_client": "xXuDOsdhO-b6Xe",
     "$created": true,
-    "_created": 1622205083000,
+    "_created": 1622140354000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651811000,
+    "complete": 26,
+    "latitude": -114.03267,
+    "_modified": 1625843660000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 51.03098,
     "companyName": "Labbe - Leech Interiors Ltd (Client)",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Labbe - Leech Interiors Ltd (Client)"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143954167,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "62NpfME5XhwOgw",
+    "__": "ubyRiKYFIUA_BH",
     "_id": "U039vw8bd3vmHh:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -1996,37 +2650,57 @@
     },
     "_client": "U039vw8bd3vmHh",
     "$created": true,
-    "_created": 1622205083000,
+    "_created": 1622140354000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651811000,
+    "complete": 26,
+    "latitude": 28.3039,
+    "_modified": 1625843660000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": -26.20643,
     "companyName": "Loblaw Group of Companies",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Loblaw Group of Companies"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143954358,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "r8WmSctyWjEjho",
+    "__": "1dnbk0SjF2NZFM",
     "_id": "YdKkWf7FpjkwsV:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -2036,37 +2710,57 @@
     },
     "_client": "YdKkWf7FpjkwsV",
     "$created": true,
-    "_created": 1622205083000,
+    "_created": 1622140354000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651811000,
+    "complete": 26,
+    "latitude": -79.38464,
+    "_modified": 1625843660000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 43.65484,
     "companyName": "Longo Brothers Fruit Markets Inc.",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Longo Brothers Fruit Markets Inc."
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143954557,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "yQNR1DIRmDUV3p",
+    "__": "qJYUI2Td-1rqhc",
     "_id": "-vianTXtMfYGk1:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -2076,37 +2770,57 @@
     },
     "_client": "-vianTXtMfYGk1",
     "$created": true,
-    "_created": 1622205083000,
+    "_created": 1622140354000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651811000,
+    "complete": 26,
+    "latitude": -78.95625,
+    "_modified": 1625843660000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 44.1015,
     "companyName": "Maple Leaf Foods Inc. (Client)",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Maple Leaf Foods Inc. (Client)"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143954785,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "VzL2LUMm3HE6Gp",
+    "__": "tORSOYgsH-fn5j",
     "_id": "yK8cjlZVttVW6E:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -2116,37 +2830,57 @@
     },
     "_client": "yK8cjlZVttVW6E",
     "$created": true,
-    "_created": 1622205083000,
+    "_created": 1622140355000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651811000,
+    "complete": 26,
+    "latitude": -79.41287,
+    "_modified": 1625843660000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 43.76336,
     "companyName": "Maple Leaf Property Management (MLPM) (Client)",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Maple Leaf Property Management (MLPM) (Client)"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143954986,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "jm8EsLdd4-4RyE",
+    "__": "i5Ioh31YKBMFZg",
     "_id": "FvbDscz6jMGylY:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -2156,37 +2890,57 @@
     },
     "_client": "FvbDscz6jMGylY",
     "$created": true,
-    "_created": 1622205083000,
+    "_created": 1622140355000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651811000,
+    "complete": 26,
+    "latitude": -79.37889,
+    "_modified": 1625843660000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 43.64396,
     "companyName": "Maple Leaf Sports and Entertainment Partnerships (MLSE)",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Maple Leaf Sports and Entertainment Partnerships (MLSE)"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143955186,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "RLpqP6KBhkcach",
+    "__": "gqaNdlzl21QPvF",
     "_id": "nRF8L4bYeTqQQE:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -2196,37 +2950,57 @@
     },
     "_client": "nRF8L4bYeTqQQE",
     "$created": true,
-    "_created": 1622205083000,
+    "_created": 1622140355000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651811000,
+    "complete": 26,
+    "latitude": -79.3811,
+    "_modified": 1625843660000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 43.86208,
     "companyName": "MenRes Property Management Inc.",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "MenRes Property Management Inc."
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143955402,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "n3s8S0stopeqUz",
+    "__": "NWbuCCFS7FqC2b",
     "_id": "uHRHFZlkbSAnOd:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -2236,37 +3010,57 @@
     },
     "_client": "uHRHFZlkbSAnOd",
     "$created": true,
-    "_created": 1622205083000,
+    "_created": 1622140355000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651811000,
+    "complete": 26,
+    "latitude": -79.40983,
+    "_modified": 1625843660000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 43.75963,
     "companyName": "Menkes Property Management Services Ltd (HOOPP Properties)",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Menkes Property Management Services Ltd (HOOPP Properties)"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143955602,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "OpxaxdOhRUAWCV",
+    "__": "zvDsqggLfN7uwU",
     "_id": "mdk5p0dH4iLGcS:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -2276,37 +3070,57 @@
     },
     "_client": "mdk5p0dH4iLGcS",
     "$created": true,
-    "_created": 1622205083000,
+    "_created": 1622140355000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651812000,
+    "complete": 26,
+    "latitude": -80.59199,
+    "_modified": 1625843660000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 43.47198,
     "companyName": "Metro Ontario Inc.",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Metro Ontario Inc."
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143955798,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "Kef5g1aw2ADAxa",
+    "__": "7pPqxMCiZC3e_g",
     "_id": "WgbFTjqchfJo45:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -2316,37 +3130,57 @@
     },
     "_client": "WgbFTjqchfJo45",
     "$created": true,
-    "_created": 1622205083000,
+    "_created": 1622140356000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651812000,
+    "complete": 26,
+    "latitude": -73.57671,
+    "_modified": 1625843661000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 45.45527,
     "companyName": "Metro Quebec Inc.",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Metro Quebec Inc."
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143956031,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "RBAuPxKCLTSIRA",
+    "__": "JyrUNLoun-NMWw",
     "_id": "NtUXSyzJb1hAc8:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -2356,37 +3190,57 @@
     },
     "_client": "NtUXSyzJb1hAc8",
     "$created": true,
-    "_created": 1622205083000,
+    "_created": 1622140356000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651812000,
+    "complete": 26,
+    "latitude": -75.23872,
+    "_modified": 1625843661000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 45.10272,
     "companyName": "Ontario Clean Water Agency",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Ontario Clean Water Agency"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143956274,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "9EVvnbENM_Aec0",
+    "__": "h1RGQRpfJB-Fy6",
     "_id": "VkI2juqAmzA6n0:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -2396,37 +3250,57 @@
     },
     "_client": "VkI2juqAmzA6n0",
     "$created": true,
-    "_created": 1622205083000,
+    "_created": 1622140356000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651812000,
+    "complete": 26,
+    "latitude": -79.62637,
+    "_modified": 1625843661000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 43.76681,
     "companyName": "Oxford Properties Group (Client)",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Oxford Properties Group (Client)"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143956478,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "fpXWqliLUDDADq",
+    "__": "NUGVSnBG5pCI7v",
     "_id": "NgPUnt2z5010lJ:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -2436,37 +3310,57 @@
     },
     "_client": "NgPUnt2z5010lJ",
     "$created": true,
-    "_created": 1622205083000,
+    "_created": 1622140356000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651812000,
+    "complete": 26,
+    "latitude": -80.52764,
+    "_modified": 1625843661000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 43.50565,
     "companyName": "Plan Group Inc. (Client)",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Plan Group Inc. (Client)"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143956690,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "6ygCuzkuqCD-PO",
+    "__": "RliOQWpIv1b9VL",
     "_id": "rWkjX20hZnnKAA:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -2476,37 +3370,57 @@
     },
     "_client": "rWkjX20hZnnKAA",
     "$created": true,
-    "_created": 1622205083000,
+    "_created": 1622140356000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651812000,
+    "complete": 26,
+    "latitude": -63.56644,
+    "_modified": 1625843661000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 44.64145,
     "companyName": "Port of Halifax",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Port of Halifax"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143956889,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "PVedPPrYLv-jWV",
+    "__": "P4Wk2AvZDCIsHL",
     "_id": "7QaNvIRWv_q2XK:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -2516,37 +3430,57 @@
     },
     "_client": "7QaNvIRWv_q2XK",
     "$created": true,
-    "_created": 1622205083000,
+    "_created": 1622140357000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651812000,
+    "complete": 26,
+    "latitude": -79.28386,
+    "_modified": 1625843661000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 43.71159,
     "companyName": "Providence Healthcare",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Providence Healthcare"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143957093,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "GeurGBp_r-6a3V",
+    "__": "ktNmBp2db6jS5v",
     "_id": "bS7mDLQXmRhYb5:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -2556,37 +3490,57 @@
     },
     "_client": "bS7mDLQXmRhYb5",
     "$created": true,
-    "_created": 1622205083000,
+    "_created": 1622140357000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651812000,
+    "complete": 26,
+    "latitude": -79.11909,
+    "_modified": 1625843661000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 43.81013,
     "companyName": "Purdue Pharma Canada",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Purdue Pharma Canada"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143957284,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "OvPT23NQuI2tNh",
+    "__": "fO6GCryDrq-VUv",
     "_id": "iQeiWstN61wNB4:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -2596,37 +3550,57 @@
     },
     "_client": "iQeiWstN61wNB4",
     "$created": true,
-    "_created": 1622205083000,
+    "_created": 1622140357000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651812000,
+    "complete": 26,
+    "latitude": -6.29887,
+    "_modified": 1625843661000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 53.31452,
     "companyName": "RiskCheck Inc. (Client)",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "RiskCheck Inc. (Client)"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143957474,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "ERmsGS5FQwmSJY",
+    "__": "4dLtWbgD9w4Q4D",
     "_id": "Q_USiV6d98LIJP:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -2636,37 +3610,57 @@
     },
     "_client": "Q_USiV6d98LIJP",
     "$created": true,
-    "_created": 1622205083000,
+    "_created": 1622140357000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651812000,
+    "complete": 26,
+    "latitude": -75.89582,
+    "_modified": 1625843661000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 42.09857,
     "companyName": "Rogers Industrial",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Rogers Industrial"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143957670,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "9JcdOrGdcPYhW2",
+    "__": "sXCJONuzsNj7eT",
     "_id": "k5iFGd-sL7NCcV:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -2676,37 +3670,57 @@
     },
     "_client": "k5iFGd-sL7NCcV",
     "$created": true,
-    "_created": 1622205084000,
+    "_created": 1622140357000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651812000,
+    "complete": 26,
+    "latitude": -86.78981,
+    "_modified": 1625843661000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 33.51187,
     "companyName": "Schindler Elevator Corporation (Client)",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Schindler Elevator Corporation (Client)"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143957862,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "fRcrVGJ1mOtCU2",
+    "__": "MyT5EqD-7OUom0",
     "_id": "TdbartnOlFrgv3:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -2716,37 +3730,57 @@
     },
     "_client": "TdbartnOlFrgv3",
     "$created": true,
-    "_created": 1622205084000,
+    "_created": 1622140358000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651812000,
+    "complete": 26,
+    "latitude": -113.9938,
+    "_modified": 1625843661000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 51.20288,
     "companyName": "Shoppers Drug Mart Loss Prevention",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Shoppers Drug Mart Loss Prevention"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143958078,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "Wq7xfqqQeUnN91",
+    "__": "7QpbMRQjEXYTTM",
     "_id": "HShrERD586k7Qx:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -2756,37 +3790,57 @@
     },
     "_client": "HShrERD586k7Qx",
     "$created": true,
-    "_created": 1622205084000,
+    "_created": 1622140358000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651812000,
+    "complete": 26,
+    "latitude": 0.54103,
+    "_modified": 1625843661000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 51.87976,
     "companyName": "St. Michael's Hospital",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "St. Michael's Hospital"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143958276,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "uOCi8ZdyMArFid",
+    "__": "oVAR6dzCsF7P5S",
     "_id": "VjQGLTaf_cNH2E:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -2796,37 +3850,57 @@
     },
     "_client": "VjQGLTaf_cNH2E",
     "$created": true,
-    "_created": 1622205084000,
+    "_created": 1622140358000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651812000,
+    "complete": 26,
+    "latitude": -74.52065,
+    "_modified": 1625843661000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 40.56781,
     "companyName": "Strathmore Landscape Contractors (Client)",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Strathmore Landscape Contractors (Client)"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143958489,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "Y87Q3RB4NPXovP",
+    "__": "eqMZvC9vQuyla4",
     "_id": "wQOTY1eFVIG6fW:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -2836,37 +3910,57 @@
     },
     "_client": "wQOTY1eFVIG6fW",
     "$created": true,
-    "_created": 1622205084000,
+    "_created": 1622140358000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651812000,
+    "complete": 26,
+    "latitude": -80.88284,
+    "_modified": 1625843661000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 36.33815,
     "companyName": "Sun Life (US)",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Sun Life (US)"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143958733,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "z38kXgncByY3Ai",
+    "__": "WeEgJZ0JHOKLsp",
     "_id": "ATCBdGqn3olf8I:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -2876,37 +3970,57 @@
     },
     "_client": "ATCBdGqn3olf8I",
     "$created": true,
-    "_created": 1622205084000,
+    "_created": 1622140359000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651812000,
+    "complete": 26,
+    "latitude": -81.58002,
+    "_modified": 1625843661000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 30.24316,
     "companyName": "Sun Life Canada",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Sun Life Canada"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143958999,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "NPNxvfoxKl6Pkt",
+    "__": "1o5i12vIIppZzZ",
     "_id": "KyrUBBhpZTdZrq:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -2916,37 +4030,57 @@
     },
     "_client": "KyrUBBhpZTdZrq",
     "$created": true,
-    "_created": 1622205084000,
+    "_created": 1622140359000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651812000,
+    "complete": 26,
+    "latitude": -79.57085,
+    "_modified": 1625843661000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 43.7798,
     "companyName": "TJ Construction Management Ltd. (Client)",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "TJ Construction Management Ltd. (Client)"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143959252,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "AvyEIbJ0hK4vzt",
+    "__": "OYv1VvPn0H29o4",
     "_id": "H7HvbzMs-0_0VD:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -2956,37 +4090,57 @@
     },
     "_client": "H7HvbzMs-0_0VD",
     "$created": true,
-    "_created": 1622205084000,
+    "_created": 1622140359000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651812000,
+    "complete": 26,
+    "latitude": -79.39466,
+    "_modified": 1625843661000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 43.68713,
     "companyName": "The Badminton And Racquet Club of Toronto",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "The Badminton And Racquet Club of Toronto"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143959495,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "8qb_FiMOpW9DAU",
+    "__": "-CziJnS9uviEAD",
     "_id": "MuUSXd19CzYmAG:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -2996,37 +4150,57 @@
     },
     "_client": "MuUSXd19CzYmAG",
     "$created": true,
-    "_created": 1622205084000,
+    "_created": 1622140359000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651812000,
+    "complete": 26,
+    "latitude": -122.98822,
+    "_modified": 1625843661000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 49.26258,
     "companyName": "Thyssenkrupp Elevator (Canada) Limited (Client)",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Thyssenkrupp Elevator (Canada) Limited (Client)"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143959766,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "umDHIq5v3dJFC2",
+    "__": "Xi4yGdQdKtdN0X",
     "_id": "lMjmgtYXDIRiVY:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -3036,37 +4210,57 @@
     },
     "_client": "lMjmgtYXDIRiVY",
     "$created": true,
-    "_created": 1622205084000,
+    "_created": 1622140360000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651812000,
+    "complete": 26,
+    "latitude": -78.28708,
+    "_modified": 1625843661000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 43.96095,
     "companyName": "Trinity College School",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Trinity College School"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143960033,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "frbScMZSnQNWG4",
+    "__": "5a26-j167sHqnR",
     "_id": "XljQUk5fW3y45k:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -3076,37 +4270,57 @@
     },
     "_client": "XljQUk5fW3y45k",
     "$created": true,
-    "_created": 1622205084000,
+    "_created": 1622140360000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651812000,
+    "complete": 26,
+    "latitude": -79.39136,
+    "_modified": 1625843661000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 43.64454,
     "companyName": "Triovest Realty Advisors Inc.",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Triovest Realty Advisors Inc."
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143960321,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "z30Q_gF70LbdOB",
+    "__": "tJo9KwNtrjjYkY",
     "_id": "5pbvHnuQYpUfnd:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -3116,37 +4330,57 @@
     },
     "_client": "5pbvHnuQYpUfnd",
     "$created": true,
-    "_created": 1622205084000,
+    "_created": 1622140360000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651812000,
+    "complete": 26,
+    "latitude": -77.14306,
+    "_modified": 1625843661000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 39.02782,
     "companyName": "US General Documents",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "US General Documents"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143960592,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "o7KzbJLYZgeXj8",
+    "__": "fqjhDITphJ2vQ-",
     "_id": "A8DbLTLbNuHqfF:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -3156,37 +4390,57 @@
     },
     "_client": "A8DbLTLbNuHqfF",
     "$created": true,
-    "_created": 1622205084000,
+    "_created": 1622140360000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651812000,
+    "complete": 26,
+    "latitude": -77.03196,
+    "_modified": 1625843661000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 38.89037,
     "companyName": "US TEST CLIENT",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "US TEST CLIENT"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143960828,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "VlCSc3T_2PiyQh",
+    "__": "xtWvzB5TabilZr",
     "_id": "Ep2MltATKsgLig:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -3196,37 +4450,57 @@
     },
     "_client": "Ep2MltATKsgLig",
     "$created": true,
-    "_created": 1622205084000,
+    "_created": 1622140361000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651812000,
+    "complete": 26,
+    "latitude": -123.11487,
+    "_modified": 1625843661000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 49.28813,
     "companyName": "Vancouver Fraser Port Authority",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Vancouver Fraser Port Authority"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143961372,
     "doYouUseContractors": "yes"
   },
   {
-    "__": "fYN3gWFllwLq0G",
+    "__": "01tfxKLj_uPjjK",
     "_id": "YhkaW21g7LzVM3:companyP/companyP",
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -3236,32 +4510,52 @@
     },
     "_client": "YhkaW21g7LzVM3",
     "$created": true,
-    "_created": 1622205084000,
+    "_created": 1622140361000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 19,
-    "_modified": 1625651812000,
+    "complete": 26,
+    "latitude": -79.39312,
+    "_modified": 1625843661000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 43.68853,
     "companyName": "Wittington Properties Limited",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Wittington Properties Limited"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "New"
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "no",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1622143961612,
     "doYouUseContractors": "yes"
   },
@@ -6390,7 +7684,7 @@
     "doYouUseContractors": []
   },
   {
-    "__": "XpNEa8HBsjvQ1E",
+    "__": "eWk-GCiSpX8uQ_",
     "ZIP": "",
     "_id": "C8-wSJhocl5C8D:companyP/companyP",
     "City": "",
@@ -6462,31 +7756,64 @@
     "_created": 1625639281000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 51,
+    "complete": 55,
+    "latitude": 136.49626,
     "province": [
       "Newfoundland and Labrador",
       "Northwest Territories"
     ],
     "__created": 1625642880996,
     "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625639281000,
+    "_modified": 1625639282000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
     },
+    "longitude": 35.97844,
     "_components": {},
     "companyName": "Test Company 1",
     "companySize": "Sole Proprietor",
     "description": "",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "",
+        "City": "",
+        "address": "",
+        "companyName": "Test Company 1",
+        "headOfficeCountry": ""
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Saved",
+        "previousValues": [
+          "Agellan Capital Partners Inc",
+          "Bimbo Canada (Canada Bread)"
+        ]
       },
       "okFTMSwCgI9C4a": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "",
@@ -6595,7 +7922,7 @@
     "preferredLanguage": []
   },
   {
-    "__": "9YWQMxFs5qPnEj",
+    "__": "j3JxBKPzhTTQ-9",
     "ZIP": "CF15 7TW",
     "_id": "zOU9pa9ST32-nR:companyP/companyP",
     "City": "Cardiff",
@@ -6639,35 +7966,61 @@
     "$created": true,
     "$creator": "64467393-61e5-45fe-a026-45aed6419337",
     "$invalid": false,
-    "_created": 1624377587000,
+    "_created": 1625843662000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 52,
+    "complete": 56,
+    "latitude": -3.27306,
     "province": [
       "Alberta"
     ],
     "__created": 1621602703489,
     "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
+    "_modified": 1625843662000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
     },
+    "longitude": 51.56335,
     "_components": {},
     "companyName": "Gez Test 1",
     "companySize": "Small Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "CF15 7TW",
+        "City": "Cardiff",
+        "address": "Axys House, Parc Nantgarw",
+        "companyName": "Gez Test 1"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "",
@@ -6679,13 +8032,13 @@
     "workActivities": [
       "cpzHPv4z_GB-_C:workA/workA"
     ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1621602704054,
     "numberOfEmployees": "24",
     "preferredLanguage": "en"
   },
   {
-    "__": "94PcsCx05do3Vv",
+    "__": "LxbJlsoz4O46_6",
     "ZIP": "CF15 7TW",
     "_id": "45kg61yCVgQqv9:companyP/companyP",
     "City": "Cardiff",
@@ -6729,33 +8082,59 @@
     "$created": true,
     "$creator": "64467393-61e5-45fe-a026-45aed6419337",
     "$invalid": false,
-    "_created": 1624377587000,
+    "_created": 1625843662000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 52,
+    "complete": 56,
+    "latitude": -3.27306,
     "province": [],
     "__created": 1621604623711,
     "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
+    "_modified": 1625843662000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
     },
+    "longitude": 51.56335,
     "_components": {},
     "companyName": "Gez Test 3",
     "companySize": "Small Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "CF15 7TW",
+        "City": "Cardiff",
+        "address": "Axys House, Parc Nantgarw",
+        "companyName": "Gez Test 3"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "",
@@ -6767,13 +8146,13 @@
     "workActivities": [
       "JgpbhOLqdNDhgP:workA/workA"
     ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1621604624290,
     "numberOfEmployees": "5",
     "preferredLanguage": "en"
   },
   {
-    "__": "LLPfFyZWBAyyr_",
+    "__": "aJVpyCRWfXevYa",
     "ZIP": "CF15 7TW",
     "_id": "VcejLPJ_KHXUcw:companyP/companyP",
     "City": "Cardiff",
@@ -6817,33 +8196,59 @@
     "$created": true,
     "$creator": "64467393-61e5-45fe-a026-45aed6419337",
     "$invalid": false,
-    "_created": 1624377587000,
+    "_created": 1625843662000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 52,
+    "complete": 56,
+    "latitude": -3.27415,
     "province": [],
     "__created": 1621607450682,
     "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
+    "_modified": 1625843662000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
     },
+    "longitude": 51.56377,
     "_components": {},
     "companyName": "Gez Test 4",
     "companySize": "Small Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "CF15 7TW",
+        "City": "Cardiff",
+        "address": "Axys House, Parc Nantgarw",
+        "companyName": "Gez Test 4"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "",
@@ -6855,13 +8260,13 @@
     "workActivities": [
       "qmaPwMF5Kg3KTd:workA/workA"
     ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1621607451302,
     "numberOfEmployees": "11",
     "preferredLanguage": "en"
   },
   {
-    "__": "A0muP2mqtUxeIl",
+    "__": "bLJtPFjbIfQpK1",
     "ZIP": "CF15 7TW",
     "_id": "tDaGHq5qLPJHe7:companyP/companyP",
     "City": "Cardiff",
@@ -6905,33 +8310,59 @@
     "$created": true,
     "$creator": "64467393-61e5-45fe-a026-45aed6419337",
     "$invalid": false,
-    "_created": 1624377587000,
+    "_created": 1625843662000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 52,
+    "complete": 56,
+    "latitude": -3.27306,
     "province": [],
     "__created": 1621607761604,
     "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
+    "_modified": 1625843662000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
     },
+    "longitude": 51.56335,
     "_components": {},
     "companyName": "Gez Test 5",
     "companySize": "Small Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "CF15 7TW",
+        "City": "Cardiff",
+        "address": "Axys House, Parc Nantgarw",
+        "companyName": "Gez Test 5"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "",
@@ -6943,13 +8374,13 @@
     "workActivities": [
       "qmaPwMF5Kg3KTd:workA/workA"
     ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1621607762322,
     "numberOfEmployees": "23",
     "preferredLanguage": "en"
   },
   {
-    "__": "s-KSakNT2DOPA0",
+    "__": "xywVrrtEvLQRfH",
     "ZIP": "CF15 7TW",
     "_id": "uFmnvFSyAkB0yl:companyP/companyP",
     "City": "Cardiff",
@@ -6993,33 +8424,59 @@
     "$created": true,
     "$creator": "64467393-61e5-45fe-a026-45aed6419337",
     "$invalid": false,
-    "_created": 1624377587000,
+    "_created": 1625843662000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 52,
+    "complete": 56,
+    "latitude": -3.27306,
     "province": [],
     "__created": 1621608437649,
     "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
+    "_modified": 1625843662000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
     },
+    "longitude": 51.56335,
     "_components": {},
     "companyName": "Gez Test 6",
     "companySize": "Small Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "CF15 7TW",
+        "City": "Cardiff",
+        "address": "Axys House, Parc Nantgarw",
+        "companyName": "Gez Test 6"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "",
@@ -7031,13 +8488,13 @@
     "workActivities": [
       "2TPCmBI54Ak_4m:workA/workA"
     ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1621608438471,
     "numberOfEmployees": "23",
     "preferredLanguage": "en"
   },
   {
-    "__": "lOjoij5MeIVlc3",
+    "__": "njYyrRhExr36_R",
     "ZIP": "CF15 7TW",
     "_id": "4l8wiYhkN4aEjA:companyP/companyP",
     "City": "Cardiff",
@@ -7081,33 +8538,59 @@
     "$created": true,
     "$creator": "64467393-61e5-45fe-a026-45aed6419337",
     "$invalid": false,
-    "_created": 1624377587000,
+    "_created": 1625843662000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 52,
+    "complete": 56,
+    "latitude": -3.27306,
     "province": [],
     "__created": 1621608819584,
     "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
+    "_modified": 1625843662000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
     },
+    "longitude": 51.56335,
     "_components": {},
     "companyName": "Gez Test 7",
     "companySize": "Small Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "CF15 7TW",
+        "City": "Cardiff",
+        "address": "Axys House, Parc Nantgarw",
+        "companyName": "Gez Test 7"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "",
@@ -7119,13 +8602,13 @@
     "workActivities": [
       "ic0ic66CJjkDC0:workA/workA"
     ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1621608820585,
     "numberOfEmployees": "11",
     "preferredLanguage": "en"
   },
   {
-    "__": "deAiyKv_KqM7Aa",
+    "__": "5jR2B9PXi4YF5x",
     "ZIP": "CF15 7TW",
     "_id": "Vtn804O67rD0KL:companyP/companyP",
     "City": "Cardiff",
@@ -7169,33 +8652,59 @@
     "$created": true,
     "$creator": "64467393-61e5-45fe-a026-45aed6419337",
     "$invalid": false,
-    "_created": 1624377587000,
+    "_created": 1625843663000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 52,
+    "complete": 56,
+    "latitude": -3.27306,
     "province": [],
     "__created": 1621609343125,
     "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
+    "_modified": 1625843663000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
     },
+    "longitude": 51.56335,
     "_components": {},
     "companyName": "Gez Test 8",
     "companySize": "Small Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "CF15 7TW",
+        "City": "Cardiff",
+        "address": "Axys House, Parc Nantgarw",
+        "companyName": "Gez Test 8"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "",
@@ -7207,13 +8716,13 @@
     "workActivities": [
       "Zb5UkuGQwdKIZA:workA/workA"
     ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1621609344152,
     "numberOfEmployees": "43",
     "preferredLanguage": "en"
   },
   {
-    "__": "lIMZM2SJu2ps-V",
+    "__": "BZzmHjmLzVhyDa",
     "ZIP": "CF15 7TW",
     "_id": "1h9lpHFwl3Nmp2:companyP/companyP",
     "City": "Cardiff",
@@ -7257,33 +8766,59 @@
     "$created": true,
     "$creator": "64467393-61e5-45fe-a026-45aed6419337",
     "$invalid": false,
-    "_created": 1624377587000,
+    "_created": 1625843663000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 52,
+    "complete": 56,
+    "latitude": -3.27415,
     "province": [],
     "__created": 1621609666336,
     "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
+    "_modified": 1625843663000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
     },
+    "longitude": 51.56377,
     "_components": {},
     "companyName": "Gez Test 9",
     "companySize": "Small Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "CF15 7TW",
+        "City": "Cardiff",
+        "address": "Axys House, Parc Nantgarw",
+        "companyName": "Gez Test 9"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "",
@@ -7295,13 +8830,13 @@
     "workActivities": [
       "3GD6j7cH-8C_Xv:workA/workA"
     ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1621609667512,
     "numberOfEmployees": "11",
     "preferredLanguage": "en"
   },
   {
-    "__": "ZufC5Y7coXbJXv",
+    "__": "BJN7yH2WnQFPRf",
     "ZIP": "CF15 7TW",
     "_id": "2H5XyNJAugI7gP:companyP/companyP",
     "City": "Cardiff",
@@ -7345,33 +8880,59 @@
     "$created": true,
     "$creator": "64467393-61e5-45fe-a026-45aed6419337",
     "$invalid": false,
-    "_created": 1624377587000,
+    "_created": 1625843663000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 52,
+    "complete": 56,
+    "latitude": -3.27306,
     "province": [],
     "__created": 1621610453413,
     "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
+    "_modified": 1625843663000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
     },
+    "longitude": 51.56335,
     "_components": {},
     "companyName": "Gez Test 10",
     "companySize": "Small Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "CF15 7TW",
+        "City": "Cardiff",
+        "address": "Axys House, Parc Nantgarw",
+        "companyName": "Gez Test 10"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "",
@@ -7383,13 +8944,13 @@
     "workActivities": [
       "60O7iNL_R6NO0g:workA/workA"
     ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1621610454578,
     "numberOfEmployees": "12",
     "preferredLanguage": "en"
   },
   {
-    "__": "9DpWwr6gXK_e05",
+    "__": "CwDkOg7rQ4rc4J",
     "ZIP": "CF15 7TW",
     "_id": "WsEPeCJaPyysFk:companyP/companyP",
     "City": "Cardiff",
@@ -7433,33 +8994,59 @@
     "$created": true,
     "$creator": "64467393-61e5-45fe-a026-45aed6419337",
     "$invalid": false,
-    "_created": 1624377588000,
+    "_created": 1625843663000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 52,
+    "complete": 56,
+    "latitude": -3.27306,
     "province": [],
     "__created": 1621610910661,
     "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
+    "_modified": 1625843663000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
     },
+    "longitude": 51.56335,
     "_components": {},
     "companyName": "Gez Test 11",
     "companySize": "Small Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "CF15 7TW",
+        "City": "Cardiff",
+        "address": "Axys House, Parc Nantgarw",
+        "companyName": "Gez Test 11"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "",
@@ -7471,13 +9058,13 @@
     "workActivities": [
       "BpgE8d5PhIAKT8:workA/workA"
     ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1621610911845,
     "numberOfEmployees": "34",
     "preferredLanguage": "en"
   },
   {
-    "__": "Gpw0wPn-YaMB91",
+    "__": "rWFuLi2NfW9Myt",
     "ZIP": "CF15 7TW",
     "_id": "fMpQCbq8w7DUBg:companyP/companyP",
     "City": "Cardiff",
@@ -7521,33 +9108,59 @@
     "$created": true,
     "$creator": "64467393-61e5-45fe-a026-45aed6419337",
     "$invalid": false,
-    "_created": 1624377588000,
+    "_created": 1625843663000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 52,
+    "complete": 56,
+    "latitude": -3.27306,
     "province": [],
     "__created": 1621611303638,
     "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
+    "_modified": 1625843663000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
     },
+    "longitude": 51.56335,
     "_components": {},
     "companyName": "Gez Test 12",
     "companySize": "Small Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "CF15 7TW",
+        "City": "Cardiff",
+        "address": "Axys House, Parc Nantgarw",
+        "companyName": "Gez Test 12"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "",
@@ -7559,13 +9172,13 @@
     "workActivities": [
       "Z15Br9Y92bUpIJ:workA/workA"
     ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1621611304861,
     "numberOfEmployees": "55",
     "preferredLanguage": "en"
   },
   {
-    "__": "Cd6ATVWTYJCXnJ",
+    "__": "U4c-zHF_9AlZQy",
     "ZIP": "CF15 7TW",
     "_id": "ZEQvBev8_-cZ2o:companyP/companyP",
     "City": "Cardiff",
@@ -7609,33 +9222,59 @@
     "$created": true,
     "$creator": "64467393-61e5-45fe-a026-45aed6419337",
     "$invalid": false,
-    "_created": 1624377588000,
+    "_created": 1625843663000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 52,
+    "complete": 56,
+    "latitude": -3.27415,
     "province": [],
     "__created": 1621611733918,
     "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
+    "_modified": 1625843663000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
     },
+    "longitude": 51.56377,
     "_components": {},
     "companyName": "Gez Test 13",
     "companySize": "Small Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "CF15 7TW",
+        "City": "Cardiff",
+        "address": "Axys House, Parc Nantgarw",
+        "companyName": "Gez Test 13"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "",
@@ -7647,13 +9286,13 @@
     "workActivities": [
       "xxVMHkOquDqZK8:workA/workA"
     ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1621611735450,
     "numberOfEmployees": "22",
     "preferredLanguage": "en"
   },
   {
-    "__": "z9Vw6NJ1sCz1o0",
+    "__": "ErZ73Of32VpaPP",
     "ZIP": "CF15 7TW",
     "_id": "yUzY_OZCRe3Ll6:companyP/companyP",
     "City": "Cardiff",
@@ -7697,33 +9336,59 @@
     "$created": true,
     "$creator": "64467393-61e5-45fe-a026-45aed6419337",
     "$invalid": false,
-    "_created": 1624377588000,
+    "_created": 1625843663000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 52,
+    "complete": 56,
+    "latitude": -3.27306,
     "province": [],
     "__created": 1621612862231,
     "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
+    "_modified": 1625843663000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
     },
+    "longitude": 51.56335,
     "_components": {},
     "companyName": "Gez Test 14",
     "companySize": "Small Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "CF15 7TW",
+        "City": "Cardiff",
+        "address": "Axys House, Parc Nantgarw",
+        "companyName": "Gez Test 14"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "",
@@ -7735,13 +9400,13 @@
     "workActivities": [
       "FnfnIcKgfYV2SP:workA/workA"
     ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1621612863588,
     "numberOfEmployees": "2",
     "preferredLanguage": "en"
   },
   {
-    "__": "m-0sjLaYeiOdH8",
+    "__": "8ckuzDFFnX9_y8",
     "ZIP": "CF15 7TW",
     "_id": "grV5IAnQhgdNm7:companyP/companyP",
     "City": "Parc Nantgarw",
@@ -7775,33 +9440,59 @@
     "$created": true,
     "$creator": "64467393-61e5-45fe-a026-45aed6419337",
     "$invalid": false,
-    "_created": 1624377588000,
+    "_created": 1625843663000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 52,
+    "complete": 56,
+    "latitude": -3.27415,
     "province": [],
     "__created": 1621613296280,
     "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
+    "_modified": 1625843663000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
     },
+    "longitude": 51.56377,
     "_components": {},
     "companyName": "Gez Test 15",
     "companySize": "Small Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "CF15 7TW",
+        "City": "Parc Nantgarw",
+        "address": "Axys House",
+        "companyName": "Gez Test 15"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "",
@@ -7811,13 +9502,13 @@
     "workActivities": [
       "tXjZb3-pXJFRPQ:workA/workA"
     ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1621613297802,
     "numberOfEmployees": "32",
     "preferredLanguage": "en"
   },
   {
-    "__": "glscV4W4zuQtBN",
+    "__": "qYHhto1Z0NykAP",
     "ZIP": "CF15 7TW",
     "_id": "BcXfB9wR_6qteD:companyP/companyP",
     "City": "Cardiff",
@@ -7867,33 +9558,59 @@
     "$created": true,
     "$creator": "64467393-61e5-45fe-a026-45aed6419337",
     "$invalid": false,
-    "_created": 1624377588000,
+    "_created": 1625843664000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 52,
+    "complete": 56,
+    "latitude": -3.27415,
     "province": [],
     "__created": 1621613670545,
     "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
+    "_modified": 1625843664000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
     },
+    "longitude": 51.56377,
     "_components": {},
     "companyName": "Gez Test 16",
     "companySize": "Sole Proprietor",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "CF15 7TW",
+        "City": "Cardiff",
+        "address": "Axys House, Parc Nantgarw",
+        "companyName": "Gez Test 16"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "",
@@ -7906,13 +9623,13 @@
     "workActivities": [
       "ic0ic66CJjkDC0:workA/workA"
     ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1621613672114,
     "numberOfEmployees": "1",
     "preferredLanguage": "en"
   },
   {
-    "__": "zo0MQMFESmwC_H",
+    "__": "x1fZXqwDuNe2fR",
     "ZIP": "CF15 7TW",
     "_id": "TTJ8uT30sBaw6S:companyP/companyP",
     "City": "Cardiff",
@@ -7956,33 +9673,59 @@
     "$created": true,
     "$creator": "64467393-61e5-45fe-a026-45aed6419337",
     "$invalid": false,
-    "_created": 1624377588000,
+    "_created": 1625843664000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 52,
+    "complete": 56,
+    "latitude": -3.27306,
     "province": [],
     "__created": 1621614343664,
     "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
+    "_modified": 1625843664000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
     },
+    "longitude": 51.56335,
     "_components": {},
     "companyName": "Gez Test 17",
     "companySize": "Small Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "CF15 7TW",
+        "City": "Cardiff",
+        "address": "Axys House, Parc Nantgarw",
+        "companyName": "Gez Test 17"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "",
@@ -7994,13 +9737,13 @@
     "workActivities": [
       "qmaPwMF5Kg3KTd:workA/workA"
     ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1621614345230,
     "numberOfEmployees": "22",
     "preferredLanguage": "en"
   },
   {
-    "__": "rS54OQkQlyfndM",
+    "__": "NUK_FytEykZ76O",
     "ZIP": "CF15 7TW",
     "_id": "8NfQL63c7_EszH:companyP/companyP",
     "City": "Cardiff",
@@ -8044,33 +9787,59 @@
     "$created": true,
     "$creator": "64467393-61e5-45fe-a026-45aed6419337",
     "$invalid": false,
-    "_created": 1624377588000,
+    "_created": 1625843664000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 52,
+    "complete": 56,
+    "latitude": -3.27306,
     "province": [],
     "__created": 1621767286051,
     "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
+    "_modified": 1625843664000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
     },
+    "longitude": 51.56335,
     "_components": {},
     "companyName": "Gez Test 18",
     "companySize": "Small Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "CF15 7TW",
+        "City": "Cardiff",
+        "address": "Axys House, Parc Nantgarw",
+        "companyName": "Gez Test 18"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "",
@@ -8082,13 +9851,13 @@
     "workActivities": [
       "qmaPwMF5Kg3KTd:workA/workA"
     ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1621767292217,
     "numberOfEmployees": "12",
     "preferredLanguage": "en"
   },
   {
-    "__": "Ef3JNAHGUt1Jmf",
+    "__": "47y005E7dsx860",
     "ZIP": "CF15 7TW",
     "_id": "C0kFEffsAocNpj:companyP/companyP",
     "City": "Cardiff",
@@ -8122,33 +9891,59 @@
     "$created": true,
     "$creator": "64467393-61e5-45fe-a026-45aed6419337",
     "$invalid": false,
-    "_created": 1624377588000,
+    "_created": 1625843664000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 52,
+    "complete": 56,
+    "latitude": -3.27306,
     "province": [],
     "__created": 1621767467493,
     "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
+    "_modified": 1625843664000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
     },
+    "longitude": 51.56335,
     "_components": {},
     "companyName": "Gez Test 19",
     "companySize": "Small Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "CF15 7TW",
+        "City": "Cardiff",
+        "address": "Axys House, Parc Nantgarw",
+        "companyName": "Gez Test 19"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "",
@@ -8158,13 +9953,13 @@
     "workActivities": [
       "JgpbhOLqdNDhgP:workA/workA"
     ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1621767473621,
     "numberOfEmployees": "2",
     "preferredLanguage": "en"
   },
   {
-    "__": "F7LAyvrqmfHJ3d",
+    "__": "-qhm4fq6dVJduL",
     "ZIP": "CF15 7TW",
     "_id": "CQ_ZDIi5_PTSVv:companyP/companyP",
     "City": "Cardiff",
@@ -8208,33 +10003,59 @@
     "$created": true,
     "$creator": "64467393-61e5-45fe-a026-45aed6419337",
     "$invalid": false,
-    "_created": 1624377588000,
+    "_created": 1625843664000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 52,
+    "complete": 56,
+    "latitude": -3.27415,
     "province": [],
     "__created": 1621768144954,
     "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
+    "_modified": 1625843664000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
     },
+    "longitude": 51.56377,
     "_components": {},
     "companyName": "Gez Test 20",
     "companySize": "Small Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "CF15 7TW",
+        "City": "Cardiff",
+        "address": "Axys House, Parc Nantgarw",
+        "companyName": "Gez Test 20"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "",
@@ -8246,13 +10067,13 @@
     "workActivities": [
       "p3aGtGgud-4ZbI:workA/workA"
     ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1621768151037,
     "numberOfEmployees": "12",
     "preferredLanguage": "en"
   },
   {
-    "__": "jXsfD0U3CmQZ_K",
+    "__": "DHBZ5gAC_6xjRq",
     "ZIP": "CF15 7TW",
     "_id": "vLGcYikHXBSqq4:companyP/companyP",
     "City": "Parc Nantgarw",
@@ -8296,33 +10117,59 @@
     "$created": true,
     "$creator": "64467393-61e5-45fe-a026-45aed6419337",
     "$invalid": false,
-    "_created": 1624377588000,
+    "_created": 1625843664000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 52,
+    "complete": 56,
+    "latitude": -3.27415,
     "province": [],
     "__created": 1621769333591,
     "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
+    "_modified": 1625843664000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
     },
+    "longitude": 51.56377,
     "_components": {},
     "companyName": "Gez Test 21",
     "companySize": "Small Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "CF15 7TW",
+        "City": "Parc Nantgarw",
+        "address": "Axys House",
+        "companyName": "Gez Test 21"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "",
@@ -8334,13 +10181,13 @@
     "workActivities": [
       "cpzHPv4z_GB-_C:workA/workA"
     ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1621769339708,
     "numberOfEmployees": "23",
     "preferredLanguage": "en"
   },
   {
-    "__": "EI0xanl9JK1psM",
+    "__": "gsaG8lFMQr8Ra6",
     "ZIP": "CF15 7TW",
     "_id": "0_2UJzWBlntTZa:companyP/companyP",
     "City": "Cardiff",
@@ -8374,33 +10221,59 @@
     "$created": true,
     "$creator": "64467393-61e5-45fe-a026-45aed6419337",
     "$invalid": false,
-    "_created": 1624377588000,
+    "_created": 1625843664000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 52,
+    "complete": 56,
+    "latitude": -3.27306,
     "province": [],
     "__created": 1621845975308,
     "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
+    "_modified": 1625843664000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
     },
+    "longitude": 51.56335,
     "_components": {},
     "companyName": "Gez Test 22",
     "companySize": "Small Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "CF15 7TW",
+        "City": "Cardiff",
+        "address": "Axys House, Parc Nantgarw",
+        "companyName": "Gez Test 22"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "",
@@ -8410,13 +10283,13 @@
     "workActivities": [
       "60D3-FcUNm3LiQ:workA/workA"
     ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1621845982623,
     "numberOfEmployees": "23",
     "preferredLanguage": "en"
   },
   {
-    "__": "WKYnNMMJ7qLqwY",
+    "__": "DVikJy_N2TeJ8U",
     "ZIP": "CF15 7TW",
     "_id": "5__XV2jc71F6H3:companyP/companyP",
     "City": "Cardiff",
@@ -8450,33 +10323,59 @@
     "$created": true,
     "$creator": "64467393-61e5-45fe-a026-45aed6419337",
     "$invalid": false,
-    "_created": 1624377588000,
+    "_created": 1625843665000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 52,
+    "complete": 56,
+    "latitude": -3.27306,
     "province": [],
     "__created": 1621846379509,
     "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
+    "_modified": 1625843665000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
     },
+    "longitude": 51.56335,
     "_components": {},
     "companyName": "Gez Test 23",
     "companySize": "Small Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "CF15 7TW",
+        "City": "Cardiff",
+        "address": "Axys House, Parc Nantgarw",
+        "companyName": "Gez Test 23"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "",
@@ -8486,13 +10385,13 @@
     "workActivities": [
       "1zgco_vwvH6Uat:workA/workA"
     ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1621846386968,
     "numberOfEmployees": "11",
     "preferredLanguage": "en"
   },
   {
-    "__": "6pEpEp7rV0Hnyt",
+    "__": "DgY9f7KDLLgfoC",
     "ZIP": "CF15 7TW",
     "_id": "gXICsHcVh5bVV-:companyP/companyP",
     "City": "Cardiff",
@@ -8526,33 +10425,59 @@
     "$created": true,
     "$creator": "64467393-61e5-45fe-a026-45aed6419337",
     "$invalid": false,
-    "_created": 1624377589000,
+    "_created": 1625843665000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 52,
+    "complete": 56,
+    "latitude": -3.27306,
     "province": [],
     "__created": 1621846582479,
     "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625574905000,
+    "_modified": 1625843665000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
     },
+    "longitude": 51.56335,
     "_components": {},
     "companyName": "Gez Test 24",
     "companySize": "Small Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "CF15 7TW",
+        "City": "Cardiff",
+        "address": "Axys House, Parc Nantgarw",
+        "companyName": "Gez Test 24"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "",
@@ -8562,13 +10487,13 @@
     "workActivities": [
       "oK0e9hmJBqKl-J:workA/workA"
     ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1621846589949,
     "numberOfEmployees": "22",
     "preferredLanguage": "en"
   },
   {
-    "__": "MvNqEhaQoATSob",
+    "__": "K2UycfFyD5Llm9",
     "ZIP": "CF15 7TW",
     "_id": "_BHxF1SGiJYhfZ:companyP/companyP",
     "City": "Cardiff",
@@ -8617,36 +10542,65 @@
     "$created": true,
     "$creator": "64467393-61e5-45fe-a026-45aed6419337",
     "$invalid": false,
-    "_created": 1624377589000,
+    "_created": 1625843665000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 66,
+    "complete": 68,
+    "latitude": -3.27415,
     "province": [
       "Alberta"
     ],
     "__created": 1623422043859,
     "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625575185000,
+    "_modified": 1625843665000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
     },
+    "longitude": 51.56377,
     "_components": {},
     "companyName": "Gez Test 100",
     "companySize": "Small Business",
     "description": "",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "CF15 7TW",
+        "City": "Cardiff",
+        "address": "Axys House, Parc Nantgarw",
+        "companyName": "Gez Test 100",
+        "headOfficeCountry": ""
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          "Agellan Capital Partners Inc"
+        ]
       },
       "okFTMSwCgI9C4a": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "",
@@ -8662,7 +10616,7 @@
     "workActivities": [
       "qmaPwMF5Kg3KTd:workA/workA"
     ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1623422045035,
     "headOfficeCountry": "",
     "numberOfEmployees": "11",
@@ -8670,7 +10624,7 @@
     "doYouUseContractors": "yes"
   },
   {
-    "__": "K-ApJ3cWe0wjKb",
+    "__": "q0WcL82gx_kwa3",
     "ZIP": "CF15 7TW",
     "_id": "KacEkfEN5SmNlV:companyP/companyP",
     "City": "Cardiff",
@@ -8726,10 +10680,11 @@
     "$created": true,
     "$creator": "64467393-61e5-45fe-a026-45aed6419337",
     "$invalid": false,
-    "_created": 1624377589000,
+    "_created": 1625843665000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 66,
+    "complete": 68,
+    "latitude": -3.27306,
     "province": [
       "British Columbia",
       "New Brunswick",
@@ -8737,27 +10692,56 @@
     ],
     "__created": 1623759563085,
     "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625575185000,
+    "_modified": 1625843665000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
     },
+    "longitude": 51.56335,
     "_components": {},
     "companyName": "Mario Bros Plumbing",
     "companySize": "Small Business",
     "description": "",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "CF15 7TW",
+        "City": "Cardiff",
+        "address": "Axys House, Parc Nantgarw",
+        "companyName": "Mario Bros Plumbing",
+        "headOfficeCountry": ""
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          "Calgary Co-Operative Association Limited",
+          "Bimbo Canada (Canada Bread)"
+        ]
       },
       "okFTMSwCgI9C4a": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "",
@@ -8774,7 +10758,7 @@
     "workActivities": [
       "BpgE8d5PhIAKT8:workA/workA"
     ],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1623759565644,
     "headOfficeCountry": "",
     "numberOfEmployees": "22",
@@ -8782,7 +10766,7 @@
     "doYouUseContractors": "yes"
   },
   {
-    "__": "vDs7mQqC-D_tSK",
+    "__": "aAPlXUUan11PxK",
     "ZIP": "",
     "_id": "2hCGZajLX3TyfE:companyP/companyP",
     "City": "",
@@ -8821,30 +10805,60 @@
     ],
     "country": [],
     "$created": true,
-    "_created": 1625833490000,
+    "_created": 1625843665000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 30,
-    "_modified": 1625833927000,
+    "complete": 35,
+    "latitude": -83.75986,
+    "_modified": 1625843665000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
     },
+    "longitude": 43.06341,
     "companyName": "Automation Contractor 1625837090054",
     "companySize": "Sole Proprietor",
     "description": "",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "",
+        "City": "",
+        "address": "",
+        "companyName": "Automation Contractor 1625837090054",
+        "headOfficeCountry": ""
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          "Metro Ontario Inc.",
+          "Metro Quebec Inc."
+        ]
       },
       "okFTMSwCgI9C4a": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "",
@@ -8859,7 +10873,7 @@
     "classification": "",
     "complete_count": 16,
     "workActivities": [],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1625837437211,
     "complete_remain": 11,
     "complete_complete": 5,
@@ -8870,7 +10884,7 @@
     "doYouUseContractors": "no"
   },
   {
-    "__": "FNshA9p7iUm1j_",
+    "__": "X-CGxHfceC1kBR",
     "ZIP": "",
     "_id": "SiG_Z8lm5Vrnk5:companyP/companyP",
     "City": "",
@@ -8907,34 +10921,63 @@
     "$created": true,
     "$creator": "3e424bc3-fb9a-47a1-93a1-056351146687",
     "$invalid": false,
-    "_created": 1625834297000,
+    "_created": 1625843665000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 26,
+    "complete": 32,
+    "latitude": -91.39219,
     "province": [],
     "__created": 1625837896614,
     "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1625843272000,
+    "_modified": 1625843665000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
     },
+    "longitude": 44.55036,
     "_components": {},
     "companyName": "ad_delete",
     "companySize": "Sole Proprietor",
     "description": "",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "",
+        "City": "",
+        "address": "",
+        "companyName": "ad_delete",
+        "headOfficeCountry": ""
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          "Agellan Capital Partners Inc"
+        ]
       },
       "okFTMSwCgI9C4a": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "",
@@ -8948,7 +10991,7 @@
     "classification": "",
     "complete_count": 16,
     "workActivities": [],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1625837897329,
     "complete_remain": 12,
     "complete_complete": 4,
@@ -8959,7 +11002,7 @@
     "doYouUseContractors": []
   },
   {
-    "__": "Hi1v8I57FYWfmw",
+    "__": "yb_IieuD2fBc9U",
     "ZIP": "",
     "_id": "J38USr5Fw71lmi:companyP/companyP",
     "City": "",
@@ -8996,37 +11039,60 @@
     "$created": true,
     "$creator": "3e424bc3-fb9a-47a1-93a1-056351146687",
     "$invalid": false,
-    "_created": 1626085861000,
+    "_created": 1626184568000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 23,
+    "complete": 28,
+    "latitude": -0.03015,
     "province": [],
     "__created": 1626089460873,
     "__version": "GmG8PN_c_6Ta_E",
-    "_modified": 1626085861000,
+    "_modified": 1626184568000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
     },
+    "longitude": 51.4803,
     "_components": {},
     "companyName": "test",
     "companySize": "Sole Proprietor",
     "description": "",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "",
+        "City": "",
+        "address": "",
+        "companyName": "test",
+        "headOfficeCountry": ""
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "5W2iA7W1ma2gWO": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
         "state": "Saved"
       },
       "YF_aX-5R36pkDI": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          "Agellan Capital Partners Inc"
+        ]
       },
       "okFTMSwCgI9C4a": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "",
@@ -9040,7 +11106,7 @@
     "classification": "",
     "complete_count": 16,
     "workActivities": [],
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1626089461541,
     "complete_remain": 13,
     "complete_complete": 3,
@@ -9051,7 +11117,7 @@
     "doYouUseContractors": []
   },
   {
-    "__": "mpHpXg4rBVwWzj",
+    "__": "a5Yxc9HQgeuCL7",
     "ZIP": "",
     "_id": "UOs30p_yPak_vW:companyP/companyP",
     "City": "",
@@ -9076,33 +11142,59 @@
     ],
     "country": [],
     "$created": true,
-    "_created": 1626088420000,
+    "_created": 1626184568000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 30,
-    "_modified": 1626088420000,
+    "complete": 35,
+    "latitude": 73.91651,
+    "_modified": 1626184568000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
     },
+    "longitude": 18.51041,
     "companyName": "Automation Contractor 1626092020057",
     "companySize": "Sole Proprietor",
     "description": "",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "",
+        "City": "",
+        "address": "",
+        "companyName": "Automation Contractor 1626092020057",
+        "headOfficeCountry": ""
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "5W2iA7W1ma2gWO": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          "Agellan Capital Partners Inc"
+        ]
       },
       "okFTMSwCgI9C4a": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "",
@@ -9116,7 +11208,7 @@
     "classification": "",
     "complete_count": 16,
     "workActivities": [],
-    "_lastModifiedBy": "9f5e0e15-e8c9-4de8-8606-b54703b81a1f",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1626092039400,
     "complete_remain": 11,
     "complete_complete": 5,
@@ -9127,7 +11219,7 @@
     "doYouUseContractors": "no"
   },
   {
-    "__": "4msveZ3xTDobK1",
+    "__": "VW4xHE2_hksQzH",
     "ZIP": "",
     "_id": "xAryBS-Cx8RiG2:companyP/companyP",
     "City": "",
@@ -9152,33 +11244,59 @@
     ],
     "country": [],
     "$created": true,
-    "_created": 1626088486000,
+    "_created": 1626184568000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 30,
-    "_modified": 1626088486000,
+    "complete": 35,
+    "latitude": -83.75986,
+    "_modified": 1626184568000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
     },
+    "longitude": 43.06341,
     "companyName": "Automation Contractor 1626092086385",
     "companySize": "Sole Proprietor",
     "description": "",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "",
+        "City": "",
+        "address": "",
+        "companyName": "Automation Contractor 1626092086385",
+        "headOfficeCountry": ""
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "5W2iA7W1ma2gWO": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          "Agellan Capital Partners Inc"
+        ]
       },
       "okFTMSwCgI9C4a": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "",
@@ -9192,7 +11310,7 @@
     "classification": "",
     "complete_count": 16,
     "workActivities": [],
-    "_lastModifiedBy": "4021b8cf-fb53-4e84-aa10-c65da52d6808",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1626092103949,
     "complete_remain": 11,
     "complete_complete": 5,
@@ -9203,7 +11321,7 @@
     "doYouUseContractors": "no"
   },
   {
-    "__": "uDLh5hB466xLHw",
+    "__": "dbzTIWQHKhfkRL",
     "ZIP": "",
     "_id": "OMwqPOnX__Q4xO:companyP/companyP",
     "City": "",
@@ -9228,33 +11346,59 @@
     ],
     "country": [],
     "$created": true,
-    "_created": 1626089851000,
+    "_created": 1626184568000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 30,
-    "_modified": 1626089851000,
+    "complete": 35,
+    "latitude": -83.75986,
+    "_modified": 1626184568000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
     },
+    "longitude": 43.06341,
     "companyName": "Automation Contractor 1626093451254",
     "companySize": "Sole Proprietor",
     "description": "",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "",
+        "City": "",
+        "address": "",
+        "companyName": "Automation Contractor 1626093451254",
+        "headOfficeCountry": ""
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "5W2iA7W1ma2gWO": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          "Agellan Capital Partners Inc"
+        ]
       },
       "okFTMSwCgI9C4a": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "",
@@ -9268,7 +11412,7 @@
     "classification": "",
     "complete_count": 16,
     "workActivities": [],
-    "_lastModifiedBy": "76a1e967-ca08-47e9-a8b8-569563fcdd3c",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1626093469722,
     "complete_remain": 11,
     "complete_complete": 5,
@@ -9279,7 +11423,7 @@
     "doYouUseContractors": "no"
   },
   {
-    "__": "Xgv0w5j07t5zXL",
+    "__": "Z8_gyab_Jk4-Pu",
     "ZIP": "",
     "_id": "t6rpADJ6J6DQiK:companyP/companyP",
     "City": "",
@@ -9304,33 +11448,59 @@
     ],
     "country": [],
     "$created": true,
-    "_created": 1626089984000,
+    "_created": 1626184568000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 30,
-    "_modified": 1626089984000,
+    "complete": 35,
+    "latitude": 73.91651,
+    "_modified": 1626184568000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
     },
+    "longitude": 18.51041,
     "companyName": "Automation Contractor 1626093584063",
     "companySize": "Sole Proprietor",
     "description": "",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "",
+        "City": "",
+        "address": "",
+        "companyName": "Automation Contractor 1626093584063",
+        "headOfficeCountry": ""
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "5W2iA7W1ma2gWO": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          "Agellan Capital Partners Inc"
+        ]
       },
       "okFTMSwCgI9C4a": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "",
@@ -9344,7 +11514,7 @@
     "classification": "",
     "complete_count": 16,
     "workActivities": [],
-    "_lastModifiedBy": "e55817d2-bcb0-4765-9e19-e50381a99587",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1626093601328,
     "complete_remain": 11,
     "complete_complete": 5,
@@ -9355,7 +11525,7 @@
     "doYouUseContractors": "no"
   },
   {
-    "__": "a0pBgf53B-0cAC",
+    "__": "227xa-PQxVaqFr",
     "ZIP": "",
     "_id": "UVuAi7YrXEUT_w:companyP/companyP",
     "City": "",
@@ -9380,33 +11550,59 @@
     ],
     "country": [],
     "$created": true,
-    "_created": 1626090748000,
+    "_created": 1626184568000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 30,
-    "_modified": 1626090748000,
+    "complete": 35,
+    "latitude": -83.75986,
+    "_modified": 1626184568000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
     },
+    "longitude": 43.06341,
     "companyName": "Automation Contractor 1626094348634",
     "companySize": "Sole Proprietor",
     "description": "",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "",
+        "City": "",
+        "address": "",
+        "companyName": "Automation Contractor 1626094348634",
+        "headOfficeCountry": ""
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "5W2iA7W1ma2gWO": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          "Agellan Capital Partners Inc"
+        ]
       },
       "okFTMSwCgI9C4a": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "",
@@ -9420,7 +11616,7 @@
     "classification": "",
     "complete_count": 16,
     "workActivities": [],
-    "_lastModifiedBy": "c3fb4908-fb2f-42e2-a96c-e3aba782b86b",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1626094367803,
     "complete_remain": 11,
     "complete_complete": 5,
@@ -9431,7 +11627,7 @@
     "doYouUseContractors": "no"
   },
   {
-    "__": "3ts3d_V2LB2l2j",
+    "__": "ntlukc_9KduDVa",
     "_id": "raeZhaVchCeGxa:companyP/companyP",
     "email": "automation-contractor-1626094408690@mailhog.com",
     "__chase": {
@@ -9442,35 +11638,59 @@
     },
     "_client": "raeZhaVchCeGxa",
     "$created": true,
-    "_created": 1626090808000,
+    "_created": 1626184569000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 15,
-    "_modified": 1626090808000,
+    "complete": 25,
+    "latitude": -83.75986,
+    "_modified": 1626184569000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 43.06341,
     "companyName": "Automation Contractor 1626094408690",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Automation Contractor 1626094408690"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "yes",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "doYouUseContractors": "no"
   },
   {
-    "__": "qxkqeoVb2LivMF",
+    "__": "X1MmOGnnd3GXBs",
     "_id": "RtH0IO9I-Hu2ia:companyP/companyP",
     "email": "automation-contractor-1626094886956@mailhog.com",
     "__chase": {
@@ -9481,35 +11701,59 @@
     },
     "_client": "RtH0IO9I-Hu2ia",
     "$created": true,
-    "_created": 1626091287000,
+    "_created": 1626184569000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 15,
-    "_modified": 1626091287000,
+    "complete": 25,
+    "latitude": -83.75986,
+    "_modified": 1626184569000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 43.06341,
     "companyName": "Automation Contractor 1626094886956",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Automation Contractor 1626094886956"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "yes",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "doYouUseContractors": "no"
   },
   {
-    "__": "ln-FY_P23GbFWg",
+    "__": "9z15KtkHEct2_9",
     "ZIP": "",
     "_id": "PQwLLf0DdXYb90:companyP/companyP",
     "City": "",
@@ -9527,33 +11771,57 @@
     "clients": [],
     "country": [],
     "$created": true,
-    "_created": 1626091767000,
+    "_created": 1626184569000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 23,
-    "_modified": 1626091767000,
+    "complete": 28,
+    "latitude": -83.75986,
+    "_modified": 1626184569000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
     },
+    "longitude": 43.06341,
     "companyName": "Automation Contractor 1626095367275",
     "companySize": "Sole Proprietor",
     "description": "",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "",
+        "City": "",
+        "address": "",
+        "companyName": "Automation Contractor 1626095367275",
+        "headOfficeCountry": ""
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "5W2iA7W1ma2gWO": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "",
@@ -9565,7 +11833,7 @@
     "classification": "",
     "complete_count": 16,
     "workActivities": [],
-    "_lastModifiedBy": "a6435ec1-c1d4-4482-9ff3-d6aa7cea0e42",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1626095432988,
     "complete_remain": 12,
     "complete_complete": 4,
@@ -9576,7 +11844,7 @@
     "doYouUseContractors": "no"
   },
   {
-    "__": "s_CbpkAziDWZT1",
+    "__": "OQOV6WWaztbchy",
     "ZIP": "",
     "_id": "IMqqdrif4PYqjO:companyP/companyP",
     "City": "",
@@ -9608,33 +11876,59 @@
     ],
     "country": [],
     "$created": true,
-    "_created": 1626091936000,
+    "_created": 1626184569000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 30,
-    "_modified": 1626091936000,
+    "complete": 35,
+    "latitude": -83.75986,
+    "_modified": 1626184569000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
     },
+    "longitude": 43.06341,
     "companyName": "Automation Contractor 1626095536237",
     "companySize": "Sole Proprietor",
     "description": "",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "",
+        "City": "",
+        "address": "",
+        "companyName": "Automation Contractor 1626095536237",
+        "headOfficeCountry": ""
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "5W2iA7W1ma2gWO": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          "Agellan Capital Partners Inc"
+        ]
       },
       "okFTMSwCgI9C4a": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "",
@@ -9648,7 +11942,7 @@
     "classification": "",
     "complete_count": 16,
     "workActivities": [],
-    "_lastModifiedBy": "f1fe9f40-be2b-4e84-9be8-80f74e7a5f8a",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1626095585274,
     "complete_remain": 11,
     "complete_complete": 5,
@@ -9659,7 +11953,7 @@
     "doYouUseContractors": "no"
   },
   {
-    "__": "8suMt9cPatOcS_",
+    "__": "kLwmIefTac9GRE",
     "_id": "fDW0wNi4EIKfwb:companyP/companyP",
     "email": "automation-contractor-1626095863189@mailhog.com",
     "__chase": {
@@ -9670,35 +11964,59 @@
     },
     "_client": "fDW0wNi4EIKfwb",
     "$created": true,
-    "_created": 1626092263000,
+    "_created": 1626184569000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 15,
-    "_modified": 1626092263000,
+    "complete": 25,
+    "latitude": -83.75986,
+    "_modified": 1626184569000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 43.06341,
     "companyName": "Automation Contractor 1626095863189",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Automation Contractor 1626095863189"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "yes",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "doYouUseContractors": "no"
   },
   {
-    "__": "Yyq0K68RZNfWvc",
+    "__": "4q3BNRbeo4TFQt",
     "_id": "U5H5puMKoROTKz:companyP/companyP",
     "email": "automation-contractor-1626095914694@mailhog.com",
     "__chase": {
@@ -9709,35 +12027,59 @@
     },
     "_client": "U5H5puMKoROTKz",
     "$created": true,
-    "_created": 1626092314000,
+    "_created": 1626184569000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 15,
-    "_modified": 1626092314000,
+    "complete": 25,
+    "latitude": -83.75986,
+    "_modified": 1626184569000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "New"
     },
+    "longitude": 43.06341,
     "companyName": "Automation Contractor 1626095914694",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Automation Contractor 1626095914694"
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "New"
+        "state": "New",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "New"
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "doYouContract": "yes",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "doYouUseContractors": "no"
   },
   {
-    "__": "U8cgOQCn_oJxeT",
+    "__": "bPRsSnIANghBT6",
     "ZIP": "",
     "_id": "wxvzabqwJ8HkVR:companyP/companyP",
     "City": "",
@@ -9755,33 +12097,57 @@
     "clients": [],
     "country": [],
     "$created": true,
-    "_created": 1626092365000,
+    "_created": 1626184569000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 23,
-    "_modified": 1626092365000,
+    "complete": 28,
+    "latitude": 73.91651,
+    "_modified": 1626184569000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
     },
+    "longitude": 18.51041,
     "companyName": "Automation Contractor 1626095965043",
     "companySize": "Sole Proprietor",
     "description": "",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "",
+        "City": "",
+        "address": "",
+        "companyName": "Automation Contractor 1626095965043",
+        "headOfficeCountry": ""
+      }
+    },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "5W2iA7W1ma2gWO": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       },
       "YF_aX-5R36pkDI": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": []
       },
       "okFTMSwCgI9C4a": {
-        "state": "Saved"
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
       }
     },
     "contractorId": "",
@@ -9793,7 +12159,7 @@
     "classification": "",
     "complete_count": 16,
     "workActivities": [],
-    "_lastModifiedBy": "79d06c6c-9a48-48c6-9c35-54e6f6c79b81",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1626096025614,
     "complete_remain": 12,
     "complete_complete": 4,
