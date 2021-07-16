@@ -1,9 +1,9 @@
 [
   {
-    "__": "PNpCO9W67VO8lC",
-    "ZIP": "999",
+    "__": "vovPgpWsVpaAXk",
+    "ZIP": "M5C 1S2",
     "_id": "1621266694681:companyP/companyP",
-    "City": "Racoon City",
+    "City": "Toronto",
     "Ville": "",
     "_info": {
       "clientsLookup": {
@@ -105,7 +105,7 @@
       }
     },
     "_client": "1621266694681",
-    "address": "The Hive",
+    "address": "111 Queen Street E",
     "clients": [
       "Bimbo Canada (Canada Bread)",
       "Bird Construction (Client)",
@@ -152,23 +152,28 @@
     "_created": 1621461167000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 92,
+    "complete": 85,
+    "latitude": "",
     "province": [
       "New Brunswick",
       "Northwest Territories",
       "Alberta",
       "British Columbia"
     ],
-    "_modified": 1626338831000,
+    "_modified": 1626422505000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Assessed"
     },
+    "longitude": "",
     "__sourceId": "1621266694681-general:contractorcheck/contractorAnswers",
     "_components": {},
     "companyName": "Bill Smithereen Contracting",
     "companySize": "Sole Proprietor",
     "description": "An expert in everything construction great!\n",
+    "geoCodeData": {
+      "Gy195qKK_utUgI": {}
+    },
     "__originalId": "1621266694681:companyP/companyP",
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
@@ -237,7 +242,7 @@
     "_stateChangedAt": 1625579818264,
     "complete_remain": 0,
     "complete_complete": 16,
-    "headOfficeCountry": "US",
+    "headOfficeCountry": "Canada",
     "numberOfEmployees": "0",
     "preferredLanguage": "en",
     "workActivityFrench": [

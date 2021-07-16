@@ -1,6 +1,6 @@
 [
   {
-    "__": "-S5EGitXdY8X_Y",
+    "__": "6w2YgKDt9v6kil",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -203,7 +203,7 @@
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1626421329000,
+    "_modified": 1626422360000,
     "components": "navigation,relationship",
     "isLockedBy": null,
     "navigation": [],
@@ -1712,7 +1712,7 @@
             "id": "Gy195qKK_utUgI",
             "name": "",
             "__init": true,
-            "region": "",
+            "region": "eu-west-1",
             "address": [
               {
                 "id": "Pm_JdjcKlYb2Nv",
@@ -1743,7 +1743,8 @@
             "latitude": "latitude",
             "_selectId": "juRD65XMIkRZbr",
             "indexName": "ContractorCheck",
-            "longitude": "longitude"
+            "longitude": "longitude",
+            "countryCodes": ""
           }
         ],
         "updater": [
