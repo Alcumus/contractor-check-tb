@@ -1,5 +1,5 @@
 {
-  "__": "0liU89R61Nz6BG",
+  "__": "MW9Uo-BgmjSbI0",
   "_id": "R720NeuU8vOWuo:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -179,6 +179,14 @@
       "publishDocs": "",
       "gitHubPublish": true
     },
+    "DQfTSudK5gLq9v": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
+    "Zfwu2WZuQaOxzR": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
     "aV8boSk1D6q6YG": {
       "publishDocs": "",
       "gitHubPublish": true
@@ -202,10 +210,17 @@
       "exposeAPI": true,
       "readDemands": [],
       "writeDemands": []
+    },
+    "eDHNaz82vcc7g4": {
+      "read": true,
+      "write": true,
+      "exposeAPI": true,
+      "readDemands": [],
+      "writeDemands": []
     }
   },
   "$invalid": false,
-  "_created": 1621508919000,
+  "_created": 1626732784000,
   "_deleted": 0,
   "database": "contractorcheck",
   "maxWidth": 1000,
@@ -213,13 +228,13 @@
     {
       "id": "sTNP-VH3hEzwdP",
       "name": "1.0",
-      "time": 1626424052131,
-      "user": "64467393-61e5-45fe-a026-45aed6419337",
+      "time": 1626737472453,
+      "user": "1d28121a-fa44-4def-9e68-23984dfb6a62",
       "locked": false,
       "parentVersion": ""
     }
   ],
-  "_modified": 1626256779000,
+  "_modified": 1626733872000,
   "components": "verification,navigation,richtext",
   "isLockedBy": null,
   "navigation": [],
@@ -1999,6 +2014,7 @@
       ]
     }
   },
+  "_components": true,
   "createOnNew": false,
   "description": "",
   "displayName": "Assessor Questionnaire",
@@ -2018,7 +2034,7 @@
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "64467393-61e5-45fe-a026-45aed6419337",
+  "_lastModifiedBy": "1d28121a-fa44-4def-9e68-23984dfb6a62",
   "defaultActivity": null,
   "devices-allowed": "",
   "sideBarMinWidth": 150,
@@ -2028,6 +2044,7 @@
   "_updatersExpanded": true,
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
+  "__behaviourCollapse": {},
   "devices-allowed-html": "",
   "isLockedByCurrentUser": false
 }
