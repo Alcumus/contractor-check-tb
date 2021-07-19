@@ -1,5 +1,5 @@
 {
-  "__": "Bvx2N6N0z2-Z6G",
+  "__": "Kjjk4QdQF_LnPp",
   "_id": "0pBBN3JGvJXvK6:hestia/document-types",
   "icon": "",
   "name": "Contact",
@@ -172,6 +172,14 @@
       "publishDocs": "",
       "gitHubPublish": true
     },
+    "DQfTSudK5gLq9v": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
+    "Zfwu2WZuQaOxzR": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
     "aV8boSk1D6q6YG": {
       "publishDocs": "",
       "gitHubPublish": true
@@ -186,10 +194,17 @@
       "exposeAPI": true,
       "readDemands": [],
       "writeDemands": []
+    },
+    "eDHNaz82vcc7g4": {
+      "read": true,
+      "write": true,
+      "exposeAPI": true,
+      "readDemands": [],
+      "writeDemands": []
     }
   },
   "$invalid": false,
-  "_created": 1623942180000,
+  "_created": 1626732780000,
   "_deleted": 0,
   "database": "contractorcheck",
   "maxWidth": 1000,
@@ -197,14 +212,13 @@
     {
       "id": "UXlXJ3hYoZG3bS",
       "name": "1.0",
-      "time": 1625230874064,
-      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "time": 1626737608282,
+      "user": "1d28121a-fa44-4def-9e68-23984dfb6a62",
       "locked": false,
-      "_selectId": "6bIY2sknPGsdAF",
       "parentVersion": ""
     }
   ],
-  "_modified": 1625227274000,
+  "_modified": 1626734008000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -534,6 +548,7 @@
       ]
     }
   },
+  "_components": true,
   "createOnNew": false,
   "description": "",
   "displayName": "Contact",
@@ -550,12 +565,13 @@
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+  "_lastModifiedBy": "1d28121a-fa44-4def-9e68-23984dfb6a62",
   "defaultActivity": "wLkWrCLCMvU21P",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
   "documentBackdrop": "#f4f4f4",
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
+  "__behaviourCollapse": {},
   "devices-allowed-html": ""
 }
