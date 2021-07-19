@@ -1,6 +1,6 @@
 [
   {
-    "__": "pphT4MUXZB08wK",
+    "__": "3hEx-pf-B38799",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -203,7 +203,7 @@
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1626443005000,
+    "_modified": 1626684467000,
     "components": "navigation,relationship",
     "isLockedBy": null,
     "navigation": [],
@@ -2267,9 +2267,14 @@
     "sidebarBackground": "#fff",
     "documentBackground": "#f4f4f4",
     "__behaviourCollapse": {
-      "views": false,
+      "chase": true,
+      "forms": false,
+      "views": true,
+      "styled": true,
       "geocode": false,
-      "updater": false
+      "updater": false,
+      "formAction": false,
+      "localization": false
     },
     "devices-allowed-html": "",
     "isLockedByCurrentUser": false
