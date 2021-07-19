@@ -1,5 +1,5 @@
 {
-  "__": "id031-hLC4MGrf",
+  "__": "8s-55YXUdLg2NY",
   "_id": "LC17HKj7mFfilk:hestia/document-types",
   "icon": "",
   "name": "icw",
@@ -172,6 +172,14 @@
       "publishDocs": "",
       "gitHubPublish": true
     },
+    "DQfTSudK5gLq9v": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
+    "Zfwu2WZuQaOxzR": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
     "aV8boSk1D6q6YG": {
       "publishDocs": "",
       "gitHubPublish": true
@@ -182,10 +190,17 @@
   "graphQL": {
     "6g4mciY7jkfOUo": {
       "exposeAPI": ""
+    },
+    "eDHNaz82vcc7g4": {
+      "read": true,
+      "write": true,
+      "exposeAPI": true,
+      "readDemands": [],
+      "writeDemands": []
     }
   },
   "$invalid": false,
-  "_created": 1624267512000,
+  "_created": 1626732782000,
   "_deleted": 0,
   "database": "icw",
   "maxWidth": 1000,
@@ -202,10 +217,9 @@
     {
       "id": "WyAd3Ai3vQ-kL_",
       "name": "1.1",
-      "time": 1626094010303,
-      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "time": 1626737502323,
+      "user": "1d28121a-fa44-4def-9e68-23984dfb6a62",
       "locked": false,
-      "_selectId": "ocaoNAgs3fmkHp",
       "parentVersion": "Cq7AGYj1lrSL72"
     }
   ],
@@ -215,7 +229,7 @@
       "exposeWebhooks": true
     }
   },
-  "_modified": 1626090410000,
+  "_modified": 1626733902000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -422,6 +436,7 @@
       ]
     }
   },
+  "_components": true,
   "createOnNew": false,
   "description": "",
   "displayName": "icw",
@@ -438,7 +453,7 @@
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+  "_lastModifiedBy": "1d28121a-fa44-4def-9e68-23984dfb6a62",
   "defaultActivity": "ajGAR1Lo6Vsk36",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
@@ -446,5 +461,6 @@
   "documentBackdrop": "#f4f4f4",
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
+  "__behaviourCollapse": {},
   "devices-allowed-html": ""
 }
