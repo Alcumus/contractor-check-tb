@@ -1,5 +1,5 @@
 {
-  "__": "27dVD0QW8TAy9V",
+  "__": "PSDDokNNje7C91",
   "_id": "jD9jg1lpLekww9:hestia/document-types",
   "icon": "",
   "name": "SalesForceAccounts",
@@ -172,6 +172,14 @@
       "publishDocs": "",
       "gitHubPublish": true
     },
+    "DQfTSudK5gLq9v": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
+    "Zfwu2WZuQaOxzR": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
     "aV8boSk1D6q6YG": {
       "publishDocs": "",
       "gitHubPublish": true
@@ -190,10 +198,17 @@
       "exposeAPI": true,
       "readDemands": [],
       "writeDemands": []
+    },
+    "eDHNaz82vcc7g4": {
+      "read": true,
+      "write": true,
+      "exposeAPI": true,
+      "readDemands": [],
+      "writeDemands": []
     }
   },
   "$invalid": false,
-  "_created": 1624267525000,
+  "_created": 1626732788000,
   "_deleted": 0,
   "database": "salesforce",
   "maxWidth": 1000,
@@ -201,10 +216,9 @@
     {
       "id": "2yfOBIKlh8W31B",
       "name": "1",
-      "time": 1624618031589,
-      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "time": 1626737652557,
+      "user": "1d28121a-fa44-4def-9e68-23984dfb6a62",
       "locked": false,
-      "_selectId": "Fo3rQyxVTAwPkW",
       "parentVersion": ""
     }
   ],
@@ -213,7 +227,7 @@
       "exposeWebhooks": ""
     }
   },
-  "_modified": 1624614431000,
+  "_modified": 1626734052000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -339,6 +353,7 @@
       ]
     }
   },
+  "_components": true,
   "createOnNew": false,
   "description": "",
   "displayName": "Salesforce Accounts",
@@ -355,12 +370,13 @@
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+  "_lastModifiedBy": "1d28121a-fa44-4def-9e68-23984dfb6a62",
   "defaultActivity": "UmSH7vPTuW2IU4",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
   "documentBackdrop": "#f4f4f4",
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
+  "__behaviourCollapse": {},
   "devices-allowed-html": ""
 }
