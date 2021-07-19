@@ -1,5 +1,5 @@
 {
-  "__": "vsCbZVrEdzrK_R",
+  "__": "WGELKiwKlpBRFw",
   "_id": "R720NeuU8vOWuo:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -183,6 +183,10 @@
       "publishDocs": "",
       "gitHubPublish": true
     },
+    "c5NB8L8axiOpyP": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
     "hVWU8Lx-bizSIx": {
       "publishDocs": "",
       "gitHubPublish": true
@@ -205,7 +209,7 @@
     }
   },
   "$invalid": false,
-  "_created": 1621508919000,
+  "_created": 1621454010000,
   "_deleted": 0,
   "database": "contractorcheck",
   "maxWidth": 1000,
@@ -213,13 +217,13 @@
     {
       "id": "sTNP-VH3hEzwdP",
       "name": "1.0",
-      "time": 1625588167977,
+      "time": 1626347674302,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
       "parentVersion": ""
     }
   ],
-  "_modified": 1625584568000,
+  "_modified": 1626344074000,
   "components": "verification,navigation,richtext",
   "isLockedBy": null,
   "navigation": [],
@@ -978,6 +982,40 @@
           "_selectId": "AAzBj8knMeIrqK",
           "condition": "",
           "description": ""
+        },
+        {
+          "id": "wiHd4XbAGnN_QG",
+          "name": "Disable Auditing",
+          "sections": [
+            {
+              "id": "1626347308110-EqHAqSN1rK3Eje",
+              "_id": "1626347308110-EqHAqSN1rK3Eje:hestia/form-sections",
+              "name": "...",
+              "_expanded": true,
+              "_selectId": "0VmGHlhBDeGvGP",
+              "condition": "",
+              "questions": [
+                {
+                  "id": "hdGdoGt05-MyU_",
+                  "name": "",
+                  "type": "disableAudit",
+                  "hints": {},
+                  "question": "",
+                  "_selectId": "QzS3rzwlg5h0kl",
+                  "condition": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                }
+              ],
+              "description": ""
+            }
+          ],
+          "_selectId": "TI-YJhcWN06tOB",
+          "condition": "",
+          "description": "",
+          "duplicateNames": {}
         }
       ],
       "updater": [
@@ -1675,6 +1713,12 @@
               "form": "ZpKpfXvUfAMY6c",
               "readOnly": false,
               "_selectId": "xLYgTxzSeHgNt0"
+            },
+            {
+              "id": "8Y6kUNFJTyGTsM",
+              "form": "wiHd4XbAGnN_QG",
+              "readOnly": false,
+              "_selectId": "xd7j1rhNd166Qm"
             }
           ],
           "inline": true,
@@ -1966,7 +2010,7 @@
   "defaultState": "New",
   "sidebarColor": "#333",
   "tabsSelected": "#009fda",
-  "__hideRecords": false,
+  "__hideRecords": true,
   "__warnReasons": [],
   "documentColor": "#333",
   "_activeVersion": "vlDXNbqvv_2SA_",
@@ -1978,14 +2022,14 @@
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "64467393-61e5-45fe-a026-45aed6419337",
+  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
   "defaultActivity": null,
   "devices-allowed": "",
   "sideBarMinWidth": 150,
-  "__hideBehaviours": false,
+  "__hideBehaviours": true,
   "__hidePublishing": false,
   "documentBackdrop": "#f4f4f4",
-  "_updatersExpanded": true,
+  "_updatersExpanded": false,
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
   "devices-allowed-html": "",
