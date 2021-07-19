@@ -1,5 +1,5 @@
 {
-  "__": "foSsDYgWvJ0mOg",
+  "__": "xgtLk2mQANOVEz",
   "_id": "WwdiDwh2djKCCh:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -175,6 +175,14 @@
       "publishDocs": "",
       "gitHubPublish": true
     },
+    "DQfTSudK5gLq9v": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
+    "Zfwu2WZuQaOxzR": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
     "aV8boSk1D6q6YG": {
       "publishDocs": "",
       "gitHubPublish": true
@@ -190,10 +198,17 @@
       "exposeAPI": true,
       "readDemands": [],
       "writeDemands": []
+    },
+    "eDHNaz82vcc7g4": {
+      "read": true,
+      "write": true,
+      "exposeAPI": true,
+      "readDemands": [],
+      "writeDemands": []
     }
   },
   "$invalid": false,
-  "_created": 1621454620000,
+  "_created": 1626732786000,
   "_deleted": 0,
   "database": "contractorCheck",
   "maxWidth": 1000,
@@ -210,14 +225,13 @@
     {
       "id": "g0kqLgJQJ13MRT",
       "name": "1.1",
-      "time": 1625588177667,
-      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "time": 1626737567652,
+      "user": "1d28121a-fa44-4def-9e68-23984dfb6a62",
       "locked": false,
-      "_selectId": "mBqjsvaG4QuCfg",
       "parentVersion": "pmgndWqtbw5UAv"
     }
   ],
-  "_modified": 1625584579000,
+  "_modified": 1626733967000,
   "components": "",
   "isLockedBy": null,
   "navigation": [],
@@ -515,6 +529,7 @@
       ]
     }
   },
+  "_components": true,
   "createOnNew": false,
   "description": "",
   "displayName": "Master List",
@@ -533,13 +548,14 @@
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+  "_lastModifiedBy": "1d28121a-fa44-4def-9e68-23984dfb6a62",
   "defaultActivity": "6NjIL2Z7jEbrem",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
   "documentBackdrop": "#f4f4f4",
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
+  "__behaviourCollapse": {},
   "devices-allowed-html": "",
   "isLockedByCurrentUser": false
 }
