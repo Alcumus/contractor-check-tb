@@ -1,5 +1,5 @@
 {
-  "__": "Hg6_zdCH4WFoWD",
+  "__": "S1oXsF3DlNJ_Kq",
   "_id": "DB_f1fuVIK7FWT:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -175,6 +175,14 @@
       "publishDocs": "",
       "gitHubPublish": true
     },
+    "DQfTSudK5gLq9v": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
+    "Zfwu2WZuQaOxzR": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
     "aV8boSk1D6q6YG": {
       "publishDocs": true,
       "gitHubPublish": true
@@ -186,10 +194,17 @@
   "graphQL": {
     "6g4mciY7jkfOUo": {
       "exposeAPI": ""
+    },
+    "eDHNaz82vcc7g4": {
+      "read": true,
+      "write": true,
+      "exposeAPI": true,
+      "readDemands": [],
+      "writeDemands": []
     }
   },
   "$invalid": false,
-  "_created": 1621461164000,
+  "_created": 1626732781000,
   "_deleted": 0,
   "database": "Teams",
   "maxWidth": 1000,
@@ -197,14 +212,13 @@
     {
       "id": "lMgkcEhQ5ngx9H",
       "name": "Teams",
-      "time": 1625664175420,
-      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "time": 1626737516757,
+      "user": "1d28121a-fa44-4def-9e68-23984dfb6a62",
       "locked": false,
-      "_selectId": "q-YIb-yFLsSkxv",
       "parentVersion": ""
     }
   ],
-  "_modified": 1625660575000,
+  "_modified": 1626733916000,
   "components": "card 2.0",
   "isLockedBy": null,
   "navigation": [],
@@ -332,6 +346,7 @@
       ]
     }
   },
+  "_components": true,
   "createOnNew": false,
   "description": "",
   "displayName": "Teams",
@@ -350,13 +365,14 @@
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+  "_lastModifiedBy": "1d28121a-fa44-4def-9e68-23984dfb6a62",
   "defaultActivity": "kDe-e2LVJKEqg2",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
   "documentBackdrop": "#f4f4f4",
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
+  "__behaviourCollapse": {},
   "devices-allowed-html": "",
   "isLockedByCurrentUser": false
 }

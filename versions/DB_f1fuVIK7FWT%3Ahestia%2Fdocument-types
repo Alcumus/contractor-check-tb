@@ -1,6 +1,6 @@
 [
   {
-    "__": "DRdAMq6L2cv4A6",
+    "__": "LT8z-y8xJ6qDqN",
     "_id": "DB_f1fuVIK7FWT-lMgkcEhQ5ngx9H:hestia/versions",
     "__id": "DB_f1fuVIK7FWT:hestia/document-types",
     "__ok": true,
@@ -177,6 +177,14 @@
         "publishDocs": "",
         "gitHubPublish": true
       },
+      "DQfTSudK5gLq9v": {
+        "publishDocs": "",
+        "gitHubPublish": true
+      },
+      "Zfwu2WZuQaOxzR": {
+        "publishDocs": "",
+        "gitHubPublish": true
+      },
       "aV8boSk1D6q6YG": {
         "publishDocs": true,
         "gitHubPublish": true
@@ -188,14 +196,21 @@
     "graphQL": {
       "6g4mciY7jkfOUo": {
         "exposeAPI": ""
+      },
+      "eDHNaz82vcc7g4": {
+        "read": true,
+        "write": true,
+        "exposeAPI": true,
+        "readDemands": [],
+        "writeDemands": []
       }
     },
     "$invalid": false,
-    "_created": 1621461164000,
+    "_created": 1626732781000,
     "_deleted": 0,
     "database": "Teams",
     "maxWidth": 1000,
-    "_modified": 1624614381000,
+    "_modified": 1626732781000,
     "components": "card 2.0",
     "isLockedBy": null,
     "navigation": [],
@@ -323,6 +338,7 @@
         ]
       }
     },
+    "_components": true,
     "createOnNew": false,
     "description": "",
     "displayName": "Teams",
@@ -348,6 +364,7 @@
     "documentBackdrop": "#f4f4f4",
     "sidebarBackground": "#fff",
     "documentBackground": "#f4f4f4",
+    "__behaviourCollapse": {},
     "devices-allowed-html": "",
     "isLockedByCurrentUser": false
   }
