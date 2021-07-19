@@ -170,9 +170,9 @@
       "permanentTheme": ""
     },
     "__warn": false,
-    "client": "@WORK",
+    "client": "rsihYJKKDVyaYN",
     "locked": false,
-    "_client": "@WORK",
+    "_client": "rsihYJKKDVyaYN",
     "demands": [],
     "_created": 1621432264000,
     "_deleted": 0,
@@ -392,7 +392,7 @@
     "isLockedByCurrentUser": false
   },
   {
-    "__": "44ab6sZcv_p026",
+    "__": "R-5CVkhUR2LDio",
     "_id": "rH6EL6EJjx3vGG-ur734zai3McGV7:hestia/versions",
     "__id": "rH6EL6EJjx3vGG:hestia/document-types",
     "__ok": true,
@@ -569,6 +569,14 @@
         "publishDocs": "",
         "gitHubPublish": true
       },
+      "DQfTSudK5gLq9v": {
+        "publishDocs": "",
+        "gitHubPublish": true
+      },
+      "Zfwu2WZuQaOxzR": {
+        "publishDocs": "",
+        "gitHubPublish": true
+      },
       "aV8boSk1D6q6YG": {
         "publishDocs": true,
         "gitHubPublish": true
@@ -580,14 +588,21 @@
     "graphQL": {
       "6g4mciY7jkfOUo": {
         "exposeAPI": ""
+      },
+      "eDHNaz82vcc7g4": {
+        "read": true,
+        "write": true,
+        "exposeAPI": true,
+        "readDemands": [],
+        "writeDemands": []
       }
     },
     "$invalid": false,
-    "_created": 1621461164000,
+    "_created": 1626732789000,
     "_deleted": 0,
     "database": "workA",
     "maxWidth": 1000,
-    "_modified": 1625184971000,
+    "_modified": 1626732789000,
     "components": "",
     "isLockedBy": null,
     "navigation": [],
@@ -726,6 +741,7 @@
         ]
       }
     },
+    "_components": true,
     "createOnNew": false,
     "description": "",
     "displayName": "Work Activities",
@@ -751,6 +767,7 @@
     "documentBackdrop": "#f4f4f4",
     "sidebarBackground": "#fff",
     "documentBackground": "#f4f4f4",
+    "__behaviourCollapse": {},
     "devices-allowed-html": "",
     "isLockedByCurrentUser": false
   }
