@@ -1,5 +1,5 @@
 {
-  "__": "-Jgrn3uPCBMZh_",
+  "__": "eU-jKOCax7otoJ",
   "_id": "il4DOKblMlfzkw:hestia/document-types",
   "icon": "",
   "name": "Trading Identity",
@@ -166,8 +166,17 @@
     "permanentTheme": ""
   },
   "$valid": true,
+  "client": "rsihYJKKDVyaYN",
   "gitHub": {
     "1J8739KZBOtzVQ": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
+    "DQfTSudK5gLq9v": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
+    "Zfwu2WZuQaOxzR": {
       "publishDocs": "",
       "gitHubPublish": true
     },
@@ -181,10 +190,17 @@
   "graphQL": {
     "6g4mciY7jkfOUo": {
       "exposeAPI": ""
+    },
+    "eDHNaz82vcc7g4": {
+      "read": true,
+      "write": true,
+      "exposeAPI": true,
+      "readDemands": [],
+      "writeDemands": []
     }
   },
   "$invalid": false,
-  "_created": 1625000636000,
+  "_created": 1626732788000,
   "_deleted": 0,
   "database": "contractorcheck",
   "maxWidth": 1000,
@@ -192,14 +208,13 @@
     {
       "id": "PN-xFeWB01IZeJ",
       "name": "1.0",
-      "time": 1625004665799,
-      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "time": 1626737629128,
+      "user": "1d28121a-fa44-4def-9e68-23984dfb6a62",
       "locked": false,
-      "_selectId": "gS0kznXKZsyY0Y",
       "parentVersion": ""
     }
   ],
-  "_modified": 1625001066000,
+  "_modified": 1626734029000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -345,6 +360,7 @@
       ]
     }
   },
+  "_components": true,
   "createOnNew": false,
   "description": "",
   "displayName": "Trading Identity",
@@ -361,12 +377,13 @@
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+  "_lastModifiedBy": "1d28121a-fa44-4def-9e68-23984dfb6a62",
   "defaultActivity": "2dib8ki1St2E5b",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
   "documentBackdrop": "#f4f4f4",
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
+  "__behaviourCollapse": {},
   "devices-allowed-html": ""
 }
