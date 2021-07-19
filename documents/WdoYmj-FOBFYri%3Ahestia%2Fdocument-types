@@ -1,5 +1,5 @@
 {
-  "__": "vEsfTnDdMV33ap",
+  "__": "G8ZiuCgkWPW_1i",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -232,13 +232,13 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1626688674591,
+      "time": 1626688825793,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1626685074000,
+  "_modified": 1626685226000,
   "components": "navigation,relationship",
   "isLockedBy": null,
   "navigation": [],
@@ -1890,15 +1890,17 @@
               "defaultValue": ""
             }
           ],
-          "specificId": "",
+          "specificId": true,
           "targetType": "UJns4BZ0dhGyw5:hestia/document-types",
+          "forValuesOf": "",
           "updateState": "Stored",
           "updateClient": true,
           "recordChanges": "",
           "targetTypeName": "Master List Company Profile",
+          "updateRecordId": "{resolveId(_id)}:contractorCheck/masterCompanyProfile",
           "updateToClient": "rsihYJKKDVyaYN",
-          "createMergeRecord": true,
-          "uniqueMergeRecords": "",
+          "createMergeRecord": false,
+          "uniqueMergeRecords": false,
           "updateTargetDocumentState": true
         },
         {
