@@ -1,6 +1,6 @@
 [
   {
-    "__": "An6Eb0OqGhF4MF",
+    "__": "IHQwgRb9P_2SA1",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -203,7 +203,7 @@
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1626685226000,
+    "_modified": 1626710877000,
     "components": "navigation,relationship",
     "isLockedBy": null,
     "navigation": [],
@@ -1770,6 +1770,81 @@
             "countryCodes": ""
           }
         ],
+        "indexer": [
+          {
+            "id": "UcgJ00vF12E8Av",
+            "__init": true,
+            "address": [
+              {
+                "id": "K04OteGYSfp6dZ",
+                "type": "fulltext",
+                "field": "companyName",
+                "defaultValue": ""
+              },
+              {
+                "id": "x0o-PfLTjUDcpf",
+                "type": "fulltext",
+                "field": "address",
+                "defaultValue": ""
+              },
+              {
+                "id": "Uk5Qa6NTJihauU",
+                "type": "fulltext",
+                "field": "country",
+                "defaultValue": ""
+              },
+              {
+                "id": "HpnK8hiCST0EKy",
+                "type": "fulltext",
+                "field": "City",
+                "defaultValue": ""
+              },
+              {
+                "id": "3HG5xW8Hlixo1K",
+                "type": "fulltext",
+                "field": "ZIP",
+                "defaultValue": ""
+              },
+              {
+                "id": "-n3er-9YdRcZs6",
+                "type": "fulltext",
+                "field": "headOfficeCountry",
+                "defaultValue": ""
+              },
+              {
+                "id": "-B-LJoW48jYp2N",
+                "type": "normal",
+                "field": "doYouContract",
+                "defaultValue": ""
+              },
+              {
+                "id": "sK7D_uV0IZVCc0",
+                "type": "normal",
+                "field": "doYouUseContractors",
+                "defaultValue": ""
+              },
+              {
+                "id": "-9V0m6TxA7dMW8",
+                "type": "fulltext",
+                "field": "tradingNames",
+                "defaultValue": ""
+              },
+              {
+                "id": "tFFgrjlU_UTl0m",
+                "type": "normal",
+                "field": "classification",
+                "defaultValue": ""
+              },
+              {
+                "id": "KxmO_nTSF5iJp9",
+                "type": "normal",
+                "field": "numberOfEmployees",
+                "defaultValue": ""
+              }
+            ],
+            "_selectId": "Zci_RZbvl8E1u3"
+          }
+        ],
         "updater": [
           {
             "id": "Qi6ubuhBLjlkcx",
@@ -2239,6 +2314,7 @@
         ]
       }
     },
+    "_components": true,
     "createOnNew": false,
     "description": "<p></p>\n",
     "displayName": "companyProfile",
@@ -2271,7 +2347,7 @@
     "__behaviourCollapse": {
       "chase": true,
       "forms": false,
-      "views": true,
+      "views": false,
       "styled": true,
       "geocode": false,
       "updater": false,
