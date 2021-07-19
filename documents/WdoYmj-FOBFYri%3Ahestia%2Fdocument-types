@@ -1,5 +1,5 @@
 {
-  "__": "ncUkqifVCmcNqO",
+  "__": "BYU3VhBqoGLvb4",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -232,13 +232,13 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1626730360862,
+      "time": 1626730451796,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1626726761000,
+  "_modified": 1626726852000,
   "components": "navigation,relationship",
   "isLockedBy": null,
   "navigation": [],
@@ -1811,6 +1811,12 @@
           "__init": true,
           "address": [
             {
+              "id": "bWvYt4FItacQ94",
+              "type": "array",
+              "field": "workActivity",
+              "defaultValue": ""
+            },
+            {
               "id": "K04OteGYSfp6dZ",
               "type": "fulltext",
               "field": "companyName",
@@ -1874,12 +1880,6 @@
               "id": "KxmO_nTSF5iJp9",
               "type": "normal",
               "field": "numberOfEmployees",
-              "defaultValue": ""
-            },
-            {
-              "id": "bWvYt4FItacQ94",
-              "type": "array",
-              "field": "workActivity",
               "defaultValue": ""
             }
           ],

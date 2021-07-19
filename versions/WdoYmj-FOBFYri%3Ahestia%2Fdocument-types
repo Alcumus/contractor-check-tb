@@ -1,6 +1,6 @@
 [
   {
-    "__": "xRXuflbmG2EhTn",
+    "__": "FyQP4slNEGU27w",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -1776,6 +1776,12 @@
             "__init": true,
             "address": [
               {
+                "id": "bWvYt4FItacQ94",
+                "type": "array",
+                "field": "workActivity",
+                "defaultValue": ""
+              },
+              {
                 "id": "K04OteGYSfp6dZ",
                 "type": "fulltext",
                 "field": "companyName",
@@ -1839,12 +1845,6 @@
                 "id": "KxmO_nTSF5iJp9",
                 "type": "normal",
                 "field": "numberOfEmployees",
-                "defaultValue": ""
-              },
-              {
-                "id": "bWvYt4FItacQ94",
-                "type": "array",
-                "field": "workActivity",
                 "defaultValue": ""
               }
             ],
