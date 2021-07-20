@@ -1,5 +1,5 @@
 {
-  "__": "3lER_0Y3uVigaP",
+  "__": "gHK6VLDfgkc3VU",
   "_id": "WsUrgq6UpEhjn6:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -171,6 +171,10 @@
   "__warn": false,
   "client": "rsihYJKKDVyaYN",
   "gitHub": {
+    "1J8739KZBOtzVQ": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
     "aV8boSk1D6q6YG": {
       "publishDocs": "",
       "gitHubPublish": true
@@ -185,7 +189,7 @@
     }
   },
   "$invalid": false,
-  "_created": 1624359795000,
+  "_created": 1626732786000,
   "_deleted": 0,
   "database": "test",
   "maxWidth": 1000,
@@ -205,10 +209,20 @@
       "time": 1624368525104,
       "user": "ff79dada-c9af-494d-9025-39ccae118cea",
       "locked": true,
+      "_selectId": "hbGKGDnZF5AWoB",
       "parentVersion": "sJIU9jkKJCV2jl"
+    },
+    {
+      "id": "zBtgz3OdJSmNIi",
+      "name": "1.1",
+      "time": 1626744156741,
+      "user": "1d28121a-fa44-4def-9e68-23984dfb6a62",
+      "locked": false,
+      "_selectId": "_O_DHMEmm6DIpG",
+      "parentVersion": "lRFQs-wkHoRhuT"
     }
   ],
-  "_modified": 1624368531000,
+  "_modified": 1626740557000,
   "components": "",
   "isLockedBy": null,
   "navigation": [],
@@ -1116,6 +1130,7 @@
       ]
     }
   },
+  "_components": true,
   "createOnNew": false,
   "description": "",
   "displayName": "Profile",
@@ -1125,21 +1140,24 @@
   "tabsSelected": "#009fda",
   "__warnReasons": [],
   "documentColor": "#333",
-  "_activeVersion": "zBtgz3OdJSmNIi",
-  "_parentVersion": "lRFQs-wkHoRhuT",
+  "_activeVersion": "XYUxZGqcCxiX6g",
+  "_parentVersion": "zBtgz3OdJSmNIi",
   "currentVersion": {
-    "live": "1.0.1",
-    "development": "1.0.1"
+    "live": "1.1",
+    "testing": "1.1",
+    "development": "1.1"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "ff79dada-c9af-494d-9025-39ccae118cea",
+  "_lastModifiedBy": "1d28121a-fa44-4def-9e68-23984dfb6a62",
   "defaultActivity": "ge6a9wfLdYkLEM",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
+  "__hidePublishing": true,
   "documentBackdrop": "#f4f4f4",
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
+  "__behaviourCollapse": {},
   "devices-allowed-html": "",
   "isLockedByCurrentUser": false
 }
