@@ -1,6 +1,6 @@
 [
   {
-    "__": "FyQP4slNEGU27w",
+    "__": "FG3ikyq3g8Pr7f",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -199,11 +199,11 @@
       }
     },
     "$invalid": false,
-    "_created": 1621461152000,
+    "_created": 1626732785000,
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1626712736000,
+    "_modified": 1626737072000,
     "components": "navigation,relationship",
     "isLockedBy": null,
     "navigation": [],
@@ -1776,12 +1776,6 @@
             "__init": true,
             "address": [
               {
-                "id": "bWvYt4FItacQ94",
-                "type": "array",
-                "field": "workActivity",
-                "defaultValue": ""
-              },
-              {
                 "id": "K04OteGYSfp6dZ",
                 "type": "fulltext",
                 "field": "companyName",
@@ -1795,7 +1789,7 @@
               },
               {
                 "id": "Uk5Qa6NTJihauU",
-                "type": "array",
+                "type": "fulltext",
                 "field": "country",
                 "defaultValue": ""
               },
