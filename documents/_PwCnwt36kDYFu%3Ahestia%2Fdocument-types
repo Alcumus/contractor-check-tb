@@ -1,5 +1,5 @@
 {
-  "__": "zSSzj7IVsPMSiW",
+  "__": "RmuFiVAqzzja7V",
   "_id": "_PwCnwt36kDYFu:hestia/document-types",
   "icon": "",
   "name": "DemoCompanyRecord",
@@ -202,6 +202,15 @@
       "locked": true,
       "_selectId": "-3_I2CuyGKPvbq",
       "parentVersion": ""
+    },
+    {
+      "id": "AFJ_YDOABQ3zPH",
+      "name": "1.1",
+      "time": 1626744205717,
+      "user": "1d28121a-fa44-4def-9e68-23984dfb6a62",
+      "locked": false,
+      "_selectId": "vuIE7VqASHnDSw",
+      "parentVersion": "7KiZdDrgmYmC58"
     }
   ],
   "webhooks": {
@@ -209,7 +218,7 @@
       "exposeWebhooks": ""
     }
   },
-  "_modified": 1626740602000,
+  "_modified": 1626740606000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -362,12 +371,12 @@
   "sidebarColor": "#333",
   "tabsSelected": "#009fda",
   "documentColor": "#333",
-  "_activeVersion": "AFJ_YDOABQ3zPH",
-  "_parentVersion": "7KiZdDrgmYmC58",
+  "_activeVersion": "rrIbQtwTypfbj2",
+  "_parentVersion": "AFJ_YDOABQ3zPH",
   "currentVersion": {
-    "live": "1",
-    "testing": "1",
-    "development": "1"
+    "live": "1.1",
+    "testing": "1.1",
+    "development": "1.1"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
