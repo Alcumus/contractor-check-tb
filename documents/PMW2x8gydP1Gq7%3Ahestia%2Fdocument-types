@@ -1,5 +1,5 @@
 {
-  "__": "sgenKGiiVNhFC9",
+  "__": "vyQdgGHKXZm7-h",
   "_id": "PMW2x8gydP1Gq7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -210,10 +210,9 @@
     {
       "id": "tV6rqmkixtZSUh",
       "name": "1",
-      "time": 1625815627261,
-      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "time": 1626943750762,
+      "user": "8fa3969a-8f88-46fd-b3bf-6dcb7df5f2b9",
       "locked": false,
-      "_selectId": "9HUIcaxNxy4P0H",
       "parentVersion": ""
     }
   ],
@@ -222,7 +221,7 @@
       "exposeWebhooks": ""
     }
   },
-  "_modified": 1626943738000,
+  "_modified": 1626949248000,
   "components": "verification,localisation,hint-text",
   "isLockedBy": null,
   "navigation": [],
@@ -26079,7 +26078,7 @@
                   "variant": "text",
                   "question": "<p>Please upload your insurance documents.</p>\n",
                   "_selectId": "ZBMGWmuHXfW6li",
-                  "condition": "",
+                  "condition": "valueEquals(\"acInsuranceChoice\", \"Yes\")",
                   "extensions": [
                     "pdf",
                     "png"
@@ -32047,7 +32046,7 @@
               "questionScoreSteps": "1",
               "questionScoreOffset": "0",
               "questionValidScores": "",
-              "questionMaximumScore": null
+              "questionMaximumScore": ""
             },
             "clJso5hIqohqqr": {
               "helpText": "",
