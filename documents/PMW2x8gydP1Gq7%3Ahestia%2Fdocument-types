@@ -1,5 +1,5 @@
 {
-  "__": "o-uSNjjRrM_Ps7",
+  "__": "q-B8nrK2uc4if1",
   "_id": "PMW2x8gydP1Gq7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -210,7 +210,7 @@
     {
       "id": "tV6rqmkixtZSUh",
       "name": "1",
-      "time": 1626949267716,
+      "time": 1626949783966,
       "user": "8fa3969a-8f88-46fd-b3bf-6dcb7df5f2b9",
       "locked": false,
       "parentVersion": ""
@@ -221,7 +221,7 @@
       "exposeWebhooks": ""
     }
   },
-  "_modified": 1626949781000,
+  "_modified": 1626950111000,
   "components": "verification,localisation,hint-text",
   "isLockedBy": null,
   "navigation": [],
@@ -32064,7 +32064,7 @@
               "isNoScoreAssessed": "",
               "questionScoreSteps": "1",
               "questionScoreOffset": "0",
-              "questionValidScores": "",
+              "questionValidScores": "0,1",
               "questionMaximumScore": ""
             },
             "HLKN0oA63_XPHL": {
@@ -32077,7 +32077,7 @@
               "isNoScoreAssessed": "",
               "questionScoreSteps": "1",
               "questionScoreOffset": "0",
-              "questionValidScores": "",
+              "questionValidScores": "0,1",
               "questionMaximumScore": ""
             },
             "HucmP84H_KczDz": {
@@ -32090,7 +32090,7 @@
               "isNoScoreAssessed": "",
               "questionScoreSteps": "1",
               "questionScoreOffset": "0",
-              "questionValidScores": "",
+              "questionValidScores": "0,1",
               "questionMaximumScore": ""
             },
             "clJso5hIqohqqr": {
