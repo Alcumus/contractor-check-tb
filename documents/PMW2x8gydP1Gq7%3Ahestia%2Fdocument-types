@@ -1,5 +1,5 @@
 {
-  "__": "vyQdgGHKXZm7-h",
+  "__": "o-uSNjjRrM_Ps7",
   "_id": "PMW2x8gydP1Gq7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -210,7 +210,7 @@
     {
       "id": "tV6rqmkixtZSUh",
       "name": "1",
-      "time": 1626943750762,
+      "time": 1626949267716,
       "user": "8fa3969a-8f88-46fd-b3bf-6dcb7df5f2b9",
       "locked": false,
       "parentVersion": ""
@@ -221,7 +221,7 @@
       "exposeWebhooks": ""
     }
   },
-  "_modified": 1626949248000,
+  "_modified": 1626949781000,
   "components": "verification,localisation,hint-text",
   "isLockedBy": null,
   "navigation": [],
@@ -26005,6 +26005,20 @@
                   "questionSpaceBefore": ""
                 },
                 {
+                  "id": "oMNZGyXCs3cEY2",
+                  "hint": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>\n<p></p>\n<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,</p>\n",
+                  "icon": "MdInfo",
+                  "name": "",
+                  "type": "hintText",
+                  "hints": {},
+                  "title": "Helpful Tips",
+                  "question": "",
+                  "_selectId": "YTlOXeTeJ_LxqD",
+                  "condition": "",
+                  "iconColor": "#0A599A",
+                  "expandByDefault": true
+                },
+                {
                   "id": "LN54mgeP_4tSUJ",
                   "name": "",
                   "type": "stop",
@@ -26038,7 +26052,9 @@
                   "id": "dCMSf0RKPxMbYn",
                   "name": "acInsuranceChoice",
                   "type": "boolean",
-                  "hints": {},
+                  "hints": {
+                    "required": true
+                  },
                   "choices": [
                     {
                       "label": "Yes",
@@ -26103,6 +26119,20 @@
                   "questionSpaceBefore": ""
                 },
                 {
+                  "id": "07yUsyftEdX2do",
+                  "hint": "<p><span style=\"color: #679861;\">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</span></p>\n<p></p>\n<p><span style=\"color: #679861;\">Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,</span></p>\n",
+                  "icon": "MdInfo",
+                  "name": "",
+                  "type": "hintText",
+                  "hints": {},
+                  "title": "Helpful Tips",
+                  "question": "",
+                  "_selectId": "fxa2v5KUH6cLLf",
+                  "condition": "",
+                  "iconColor": "#0A599A",
+                  "expandByDefault": true
+                },
+                {
                   "id": "hF03RTHydh3Y7K",
                   "name": "",
                   "type": "stop",
@@ -26137,6 +26167,7 @@
                   "name": "acDateOfIncorporation",
                   "type": "date",
                   "hints": {
+                    "required": true,
                     "past_only": true
                   },
                   "question": "<p>Please provide your date of incorporation.</p>\n",
@@ -26152,6 +26183,20 @@
                   "questionRightPad": "",
                   "editableCondition": "",
                   "questionSpaceBefore": ""
+                },
+                {
+                  "id": "ucgI-rKfWtjLDQ",
+                  "hint": "<p><span style=\"color: #167DA8;\">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</span></p>\n<p></p>\n<p><em>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,</em></p>\n",
+                  "icon": "MdInfo",
+                  "name": "",
+                  "type": "hintText",
+                  "hints": {},
+                  "title": "Helpful Tips",
+                  "question": "",
+                  "_selectId": "mNzLl2AvAZJzMR",
+                  "condition": "",
+                  "iconColor": "#0A599A",
+                  "expandByDefault": true
                 },
                 {
                   "id": "5k1l2jEQRv75QQ",
@@ -32020,7 +32065,7 @@
               "questionScoreSteps": "1",
               "questionScoreOffset": "0",
               "questionValidScores": "",
-              "questionMaximumScore": null
+              "questionMaximumScore": ""
             },
             "HLKN0oA63_XPHL": {
               "helpText": "",
@@ -32033,7 +32078,7 @@
               "questionScoreSteps": "1",
               "questionScoreOffset": "0",
               "questionValidScores": "",
-              "questionMaximumScore": null
+              "questionMaximumScore": ""
             },
             "HucmP84H_KczDz": {
               "helpText": "",
@@ -32065,14 +32110,14 @@
               "helpText": "",
               "viewTypes": "",
               "helpTextTso": "",
-              "isAuditable": true,
+              "isAuditable": false,
               "actionsTypes": "",
               "isYesNowDisplay": true,
               "isNoScoreAssessed": "",
               "questionScoreSteps": "1",
               "questionScoreOffset": "0",
               "questionValidScores": "",
-              "questionMaximumScore": null
+              "questionMaximumScore": ""
             },
             "fruUAmLSuFNX9L": {
               "helpText": "",
