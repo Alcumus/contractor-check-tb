@@ -543,7 +543,7 @@
     "masterListContractor": ":contractorcheck/masterCompanyProfile"
   },
   {
-    "__": "3opXrC3gSkPoxe",
+    "__": "CziNh6V9CzwpEQ",
     "_id": "zSq4uYg_gBBWqY-OcknhHIFsFhidR:hestia/versions",
     "__id": "zSq4uYg_gBBWqY:hestia/document-types",
     "icon": "",
@@ -742,7 +742,7 @@
     "_deleted": 0,
     "database": "contractorcheck",
     "maxWidth": 1000,
-    "_modified": 1626337595000,
+    "_modified": 1627039947000,
     "components": "",
     "navigation": [],
     "_behaviours": {
@@ -1001,6 +1001,53 @@
             "createMergeRecord": false,
             "uniqueMergeRecords": false,
             "updateTargetDocumentState": ""
+          },
+          {
+            "id": "sC7dJ5KsPcXOh4",
+            "name": "Add Client Questoinnaire",
+            "onEnter": "",
+            "inStates": [
+              "New"
+            ],
+            "mergeAll": "",
+            "_selectId": "8LhLqXZv_xEe7G",
+            "properties": [
+              {
+                "id": "WvkHrqi4Ake6Ax",
+                "field": "assessmentType",
+                "value": "{client.companyName}",
+                "defaultValue": ""
+              },
+              {
+                "id": "sj0nKuCspje0X8",
+                "field": "linkedProfile",
+                "value": "{contractor}",
+                "defaultValue": ""
+              },
+              {
+                "id": "cring8bnzyO9jg",
+                "field": "profile",
+                "value": "{contractor}",
+                "defaultValue": ""
+              },
+              {
+                "id": "YHNLUWxFzKxz2h",
+                "field": "_client",
+                "value": "{resolveId(contractor)}",
+                "defaultValue": ""
+              }
+            ],
+            "specificId": true,
+            "targetType": "fYmpCXoXNbRtVg:hestia/document-types",
+            "forValuesOf": "",
+            "updateState": "New",
+            "updateClient": false,
+            "recordChanges": "",
+            "targetTypeName": "Contractor Questionnaire",
+            "updateRecordId": "{resolveId(contractor)}-{resolveId(client)}:{$target}",
+            "createMergeRecord": false,
+            "uniqueMergeRecords": false,
+            "updateTargetDocumentState": true
           }
         ],
         "formAction": [
@@ -1052,6 +1099,7 @@
         ]
       }
     },
+    "_components": true,
     "createOnNew": false,
     "description": "",
     "displayName": "Anchor Request",
@@ -1082,6 +1130,7 @@
     "contractorProfile": ":companyP/companyP",
     "sidebarBackground": "#fff",
     "documentBackground": "#f4f4f4",
+    "__behaviourCollapse": {},
     "devices-allowed-html": "",
     "masterListContractor": ":contractorcheck/masterCompanyProfile"
   }
