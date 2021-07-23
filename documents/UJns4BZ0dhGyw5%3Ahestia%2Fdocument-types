@@ -1,5 +1,5 @@
 {
-  "__": "sz6JLoJAAfeZPM",
+  "__": "By9Esalu1rFB0U",
   "_id": "UJns4BZ0dhGyw5:hestia/document-types",
   "icon": "",
   "name": "Master List Company Profile",
@@ -172,8 +172,16 @@
       "publishDocs": true,
       "gitHubPublish": true
     },
+    "9VqPEdogImm6lc": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
     "aV8boSk1D6q6YG": {
       "publishDocs": true,
+      "gitHubPublish": true
+    },
+    "jwvuqNLwtn1nAi": {
+      "publishDocs": "",
       "gitHubPublish": true
     }
   },
@@ -189,7 +197,7 @@
     }
   },
   "$invalid": false,
-  "_created": 1624016930000,
+  "_created": 1627042741000,
   "_deleted": 0,
   "database": "contractorcheck",
   "maxWidth": 1000,
@@ -197,14 +205,14 @@
     {
       "id": "8eXUnVjk2o1gFo",
       "name": "1.0",
-      "time": 1625588145353,
-      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "time": 1627047417137,
+      "user": "7T073N8bOpmR2t",
       "locked": false,
-      "_selectId": "TQt0YMu-kGc3Fa",
+      "_selectId": "Az5tTb4S_hJz5p",
       "parentVersion": ""
     }
   ],
-  "_modified": 1625584545000,
+  "_modified": 1627043817000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -327,6 +335,7 @@
       ]
     }
   },
+  "_components": true,
   "createOnNew": false,
   "description": "",
   "displayName": "Master List Company Profile",
@@ -343,12 +352,14 @@
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+  "_lastModifiedBy": "7T073N8bOpmR2t",
   "defaultActivity": "TfKhoFBqWSHFbB",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
+  "__hidePublishing": true,
   "documentBackdrop": "#f4f4f4",
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
+  "__behaviourCollapse": {},
   "devices-allowed-html": ""
 }
