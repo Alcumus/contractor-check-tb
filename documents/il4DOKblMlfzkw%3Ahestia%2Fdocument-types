@@ -1,5 +1,5 @@
 {
-  "__": "-Jgrn3uPCBMZh_",
+  "__": "9ZI-R5m8nwmw7n",
   "_id": "il4DOKblMlfzkw:hestia/document-types",
   "icon": "",
   "name": "Trading Identity",
@@ -166,12 +166,21 @@
     "permanentTheme": ""
   },
   "$valid": true,
+  "client": "rsihYJKKDVyaYN",
   "gitHub": {
     "1J8739KZBOtzVQ": {
       "publishDocs": "",
       "gitHubPublish": true
     },
+    "9VqPEdogImm6lc": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
     "aV8boSk1D6q6YG": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
+    "jwvuqNLwtn1nAi": {
       "publishDocs": "",
       "gitHubPublish": true
     }
@@ -184,7 +193,7 @@
     }
   },
   "$invalid": false,
-  "_created": 1625000636000,
+  "_created": 1627042745000,
   "_deleted": 0,
   "database": "contractorcheck",
   "maxWidth": 1000,
@@ -192,14 +201,14 @@
     {
       "id": "PN-xFeWB01IZeJ",
       "name": "1.0",
-      "time": 1625004665799,
-      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "time": 1627047377648,
+      "user": "7T073N8bOpmR2t",
       "locked": false,
-      "_selectId": "gS0kznXKZsyY0Y",
+      "_selectId": "Wc2982mxkKQbMi",
       "parentVersion": ""
     }
   ],
-  "_modified": 1625001066000,
+  "_modified": 1627043777000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -345,6 +354,7 @@
       ]
     }
   },
+  "_components": true,
   "createOnNew": false,
   "description": "",
   "displayName": "Trading Identity",
@@ -361,12 +371,14 @@
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+  "_lastModifiedBy": "7T073N8bOpmR2t",
   "defaultActivity": "2dib8ki1St2E5b",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
+  "__hidePublishing": true,
   "documentBackdrop": "#f4f4f4",
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
+  "__behaviourCollapse": {},
   "devices-allowed-html": ""
 }

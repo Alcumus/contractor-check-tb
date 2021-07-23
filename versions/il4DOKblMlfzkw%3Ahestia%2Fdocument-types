@@ -1,6 +1,6 @@
 [
   {
-    "__": "UZGi_EArbnnjNF",
+    "__": "ZOgn82E_yUvDF0",
     "_id": "il4DOKblMlfzkw-PN-xFeWB01IZeJ:hestia/versions",
     "__id": "il4DOKblMlfzkw:hestia/document-types",
     "icon": "",
@@ -168,12 +168,21 @@
       "permanentTheme": ""
     },
     "$valid": true,
+    "client": "rsihYJKKDVyaYN",
     "gitHub": {
       "1J8739KZBOtzVQ": {
         "publishDocs": "",
         "gitHubPublish": true
       },
+      "9VqPEdogImm6lc": {
+        "publishDocs": "",
+        "gitHubPublish": true
+      },
       "aV8boSk1D6q6YG": {
+        "publishDocs": "",
+        "gitHubPublish": true
+      },
+      "jwvuqNLwtn1nAi": {
         "publishDocs": "",
         "gitHubPublish": true
       }
@@ -186,11 +195,11 @@
       }
     },
     "$invalid": false,
-    "_created": 1625000636000,
+    "_created": 1627036992000,
     "_deleted": 0,
     "database": "contractorcheck",
     "maxWidth": 1000,
-    "_modified": 1625000636000,
+    "_modified": 1627036992000,
     "components": "",
     "navigation": [],
     "_behaviours": {
@@ -336,6 +345,7 @@
         ]
       }
     },
+    "_components": true,
     "createOnNew": false,
     "description": "",
     "displayName": "Trading Identity",
@@ -352,13 +362,15 @@
     },
     "tabsBackground": "#f4f4f4",
     "tabsForeground": "#555",
-    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_lastModifiedBy": "7T073N8bOpmR2t",
     "defaultActivity": "2dib8ki1St2E5b",
     "devices-allowed": "",
     "sideBarMinWidth": 150,
+    "__hidePublishing": true,
     "documentBackdrop": "#f4f4f4",
     "sidebarBackground": "#fff",
     "documentBackground": "#f4f4f4",
+    "__behaviourCollapse": {},
     "devices-allowed-html": ""
   }
 ]
