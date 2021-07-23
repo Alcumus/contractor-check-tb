@@ -1,6 +1,6 @@
 [
   {
-    "__": "F30Ez4-gBIC_wN",
+    "__": "oMhQD9Txc-m6nM",
     "_id": "fYmpCXoXNbRtVg-D57acZ-uIHF-Tx:hestia/versions",
     "__id": "fYmpCXoXNbRtVg:hestia/document-types",
     "__ok": true,
@@ -177,7 +177,15 @@
         "publishDocs": "",
         "gitHubPublish": true
       },
+      "9VqPEdogImm6lc": {
+        "publishDocs": "",
+        "gitHubPublish": true
+      },
       "aV8boSk1D6q6YG": {
+        "publishDocs": "",
+        "gitHubPublish": true
+      },
+      "jwvuqNLwtn1nAi": {
         "publishDocs": "",
         "gitHubPublish": true
       }
@@ -195,11 +203,11 @@
       }
     },
     "$invalid": false,
-    "_created": 1621508921000,
+    "_created": 1627036991000,
     "_deleted": 0,
     "database": "contractorcheck",
     "maxWidth": 1000,
-    "_modified": 1626208048000,
+    "_modified": 1627036991000,
     "components": "verification,helptext,navigation,formprogress,localisation",
     "isLockedBy": null,
     "navigation": [],
@@ -685,6 +693,7 @@
         ],
         "styled": [
           {
+            "id": "omKncsGoyG_9rT",
             "css": ".progressbar > div {\n    height: initial !important;\n    margin: 0 !important;\n    line-height: 1.7;\n}\n\n.title {\n    border-radius: 4px;\n    padding-bottom: 20px;\n}\n\n",
             "_init": true,
             "_selectId": "6EMy8mLv9RKokA"
@@ -2529,6 +2538,7 @@
         ]
       }
     },
+    "_components": true,
     "createOnNew": false,
     "description": "",
     "displayName": "Contractor Check",
@@ -2549,7 +2559,7 @@
     },
     "tabsBackground": "#f4f4f4",
     "tabsForeground": "#555",
-    "_lastModifiedBy": "64467393-61e5-45fe-a026-45aed6419337",
+    "_lastModifiedBy": "7T073N8bOpmR2t",
     "defaultActivity": null,
     "devices-allowed": "",
     "sideBarMinWidth": 150,
@@ -2558,6 +2568,7 @@
     "_updatersExpanded": true,
     "sidebarBackground": "#fff",
     "documentBackground": "#f4f4f4",
+    "__behaviourCollapse": {},
     "devices-allowed-html": "",
     "isLockedByCurrentUser": false
   },
