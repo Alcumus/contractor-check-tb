@@ -543,7 +543,7 @@
     "masterListContractor": ":contractorcheck/masterCompanyProfile"
   },
   {
-    "__": "CziNh6V9CzwpEQ",
+    "__": "lNQ6_IUOCaZLkx",
     "_id": "zSq4uYg_gBBWqY-OcknhHIFsFhidR:hestia/versions",
     "__id": "zSq4uYg_gBBWqY:hestia/document-types",
     "icon": "",
@@ -1044,7 +1044,7 @@
             "updateClient": false,
             "recordChanges": "",
             "targetTypeName": "Contractor Questionnaire",
-            "updateRecordId": "{resolveId(contractor)}-{resolveId(client)}:{$target}",
+            "updateRecordId": "{resolveId(contractor)}-{makeIdFrom(client.companyName)}:{$target}",
             "createMergeRecord": false,
             "uniqueMergeRecords": false,
             "updateTargetDocumentState": true
