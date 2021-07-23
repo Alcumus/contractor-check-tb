@@ -1,6 +1,6 @@
 [
   {
-    "__": "FG3ikyq3g8Pr7f",
+    "__": "iLYMV_RfVDB7ik",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -199,11 +199,11 @@
       }
     },
     "$invalid": false,
-    "_created": 1626732785000,
+    "_created": 1621461152000,
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1626737072000,
+    "_modified": 1627039998000,
     "components": "navigation,relationship",
     "isLockedBy": null,
     "navigation": [],
@@ -1977,55 +1977,6 @@
             "updateTargetDocumentState": false
           },
           {
-            "id": "YF_aX-5R36pkDI",
-            "name": "Add Questionnaire Based on Client Anchor",
-            "query": {
-              "$and": []
-            },
-            "onEnter": "",
-            "inStates": [
-              "New",
-              "Saved",
-              "Assessed",
-              "Approved",
-              "Stored"
-            ],
-            "mergeAll": "",
-            "_selectId": "FtGtizbn8zxRgc",
-            "properties": [
-              {
-                "id": "jy2T-6x6jhbLpH",
-                "field": "profile",
-                "value": "{_id}",
-                "defaultValue": ""
-              },
-              {
-                "id": "UJ2V9qjktdZsEE",
-                "field": "linkedProfile",
-                "value": "{_id}",
-                "defaultValue": ""
-              },
-              {
-                "id": "ee237Aa7DeDqAP",
-                "field": "assessmentType",
-                "value": "{$value}",
-                "defaultValue": ""
-              }
-            ],
-            "specificId": true,
-            "targetType": "fYmpCXoXNbRtVg:hestia/document-types",
-            "forValuesOf": true,
-            "iterateOver": "clients",
-            "updateState": "New",
-            "updateClient": false,
-            "recordChanges": "",
-            "targetTypeName": "Contractor Questionnaire",
-            "updateRecordId": "{resolveId(_id)}-{makeIdFrom(\"$value\")}:contractorcheck/contractorAnswers",
-            "createMergeRecord": false,
-            "uniqueMergeRecords": false,
-            "updateTargetDocumentState": true
-          },
-          {
             "id": "5W2iA7W1ma2gWO",
             "name": "Create H&S questionnaire on New",
             "onEnter": "",
@@ -2334,7 +2285,7 @@
     },
     "tabsBackground": "#f4f4f4",
     "tabsForeground": "#555",
-    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_lastModifiedBy": "1d28121a-fa44-4def-9e68-23984dfb6a62",
     "defaultActivity": "x_5KNezQjHRN0v",
     "devices-allowed": "",
     "sideBarMinWidth": 150,
