@@ -1,5 +1,5 @@
 {
-  "__": "id031-hLC4MGrf",
+  "__": "ILW1zZ3lDI3w--",
   "_id": "LC17HKj7mFfilk:hestia/document-types",
   "icon": "",
   "name": "icw",
@@ -172,7 +172,15 @@
       "publishDocs": "",
       "gitHubPublish": true
     },
+    "9VqPEdogImm6lc": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
     "aV8boSk1D6q6YG": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
+    "jwvuqNLwtn1nAi": {
       "publishDocs": "",
       "gitHubPublish": true
     }
@@ -185,7 +193,7 @@
     }
   },
   "$invalid": false,
-  "_created": 1624267512000,
+  "_created": 1627042735000,
   "_deleted": 0,
   "database": "icw",
   "maxWidth": 1000,
@@ -202,10 +210,10 @@
     {
       "id": "WyAd3Ai3vQ-kL_",
       "name": "1.1",
-      "time": 1626094010303,
-      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "time": 1627047443359,
+      "user": "7T073N8bOpmR2t",
       "locked": false,
-      "_selectId": "ocaoNAgs3fmkHp",
+      "_selectId": "QrKnA3MlcWur-Z",
       "parentVersion": "Cq7AGYj1lrSL72"
     }
   ],
@@ -215,7 +223,7 @@
       "exposeWebhooks": true
     }
   },
-  "_modified": 1626090410000,
+  "_modified": 1627043843000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -422,6 +430,7 @@
       ]
     }
   },
+  "_components": true,
   "createOnNew": false,
   "description": "",
   "displayName": "icw",
@@ -438,13 +447,15 @@
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+  "_lastModifiedBy": "7T073N8bOpmR2t",
   "defaultActivity": "ajGAR1Lo6Vsk36",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
   "__hideBehaviours": false,
+  "__hidePublishing": true,
   "documentBackdrop": "#f4f4f4",
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
+  "__behaviourCollapse": {},
   "devices-allowed-html": ""
 }
