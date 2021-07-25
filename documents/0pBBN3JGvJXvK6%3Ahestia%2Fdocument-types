@@ -1,5 +1,5 @@
 {
-  "__": "Bvx2N6N0z2-Z6G",
+  "__": "HPGirN06bVFKRT",
   "_id": "0pBBN3JGvJXvK6:hestia/document-types",
   "icon": "",
   "name": "Contact",
@@ -175,6 +175,10 @@
     "aV8boSk1D6q6YG": {
       "publishDocs": "",
       "gitHubPublish": true
+    },
+    "c5NB8L8axiOpyP": {
+      "publishDocs": "",
+      "gitHubPublish": true
     }
   },
   "_client": "rsihYJKKDVyaYN",
@@ -197,14 +201,13 @@
     {
       "id": "UXlXJ3hYoZG3bS",
       "name": "1.0",
-      "time": 1625230874064,
+      "time": 1627232283313,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "6bIY2sknPGsdAF",
       "parentVersion": ""
     }
   ],
-  "_modified": 1625227274000,
+  "_modified": 1627228683000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -534,12 +537,14 @@
       ]
     }
   },
+  "_components": true,
   "createOnNew": false,
   "description": "",
   "displayName": "Contact",
   "defaultState": "New",
   "sidebarColor": "#333",
   "tabsSelected": "#009fda",
+  "__hideRecords": true,
   "documentColor": "#333",
   "_activeVersion": "iIKtVL2XxyM3qJ",
   "_parentVersion": "UXlXJ3hYoZG3bS",
@@ -554,8 +559,10 @@
   "defaultActivity": "wLkWrCLCMvU21P",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
+  "__hideBehaviours": true,
   "documentBackdrop": "#f4f4f4",
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
+  "__behaviourCollapse": {},
   "devices-allowed-html": ""
 }
