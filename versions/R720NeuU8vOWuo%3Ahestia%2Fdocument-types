@@ -1,6 +1,6 @@
 [
   {
-    "__": "SEfmSWz_3KtX8Q",
+    "__": "oDLdbPT_Vl_JTN",
     "_id": "R720NeuU8vOWuo-sTNP-VH3hEzwdP:hestia/versions",
     "__id": "R720NeuU8vOWuo:hestia/document-types",
     "__ok": true,
@@ -173,6 +173,10 @@
     "__warn": false,
     "client": "rsihYJKKDVyaYN",
     "gitHub": {
+      "1CVUkaSvIKpoae": {
+        "publishDocs": "",
+        "gitHubPublish": true
+      },
       "1J8739KZBOtzVQ": {
         "publishDocs": "",
         "gitHubPublish": true
@@ -182,10 +186,6 @@
         "gitHubPublish": true
       },
       "aV8boSk1D6q6YG": {
-        "publishDocs": "",
-        "gitHubPublish": true
-      },
-      "c5NB8L8axiOpyP": {
         "publishDocs": "",
         "gitHubPublish": true
       },
@@ -211,11 +211,11 @@
       }
     },
     "$invalid": false,
-    "_created": 1621454010000,
+    "_created": 1627286354000,
     "_deleted": 0,
     "database": "contractorcheck",
     "maxWidth": 1000,
-    "_modified": 1626343987000,
+    "_modified": 1627286354000,
     "components": "verification,navigation,richtext",
     "isLockedBy": null,
     "navigation": [],
@@ -976,24 +976,24 @@
             "description": ""
           },
           {
-            "id": "wiHd4XbAGnN_QG",
-            "name": "Disable Auditing",
+            "id": "L7OmV1GvcKMtSt",
+            "name": "Disable Verification Component",
             "sections": [
               {
-                "id": "1626347308110-EqHAqSN1rK3Eje",
-                "_id": "1626347308110-EqHAqSN1rK3Eje:hestia/form-sections",
+                "id": "1626424014408-cBxJAMCRQ9QzG8",
+                "_id": "1626424014408-cBxJAMCRQ9QzG8:hestia/form-sections",
                 "name": "...",
                 "_expanded": true,
-                "_selectId": "0VmGHlhBDeGvGP",
+                "_selectId": "SVoKXEycDJnBNR",
                 "condition": "",
                 "questions": [
                   {
-                    "id": "hdGdoGt05-MyU_",
+                    "id": "O-lipVFrGYMuik",
                     "name": "",
                     "type": "disableAudit",
                     "hints": {},
                     "question": "",
-                    "_selectId": "QzS3rzwlg5h0kl",
+                    "_selectId": "vwgludXqnRWZ5U",
                     "condition": "",
                     "questionHeight": "",
                     "questionLeftPad": "",
@@ -1004,7 +1004,7 @@
                 "description": ""
               }
             ],
-            "_selectId": "TI-YJhcWN06tOB",
+            "_selectId": "nmIJ5usiybKLP4",
             "condition": "",
             "description": "",
             "duplicateNames": {}
@@ -1707,10 +1707,10 @@
                 "_selectId": "xLYgTxzSeHgNt0"
               },
               {
-                "id": "8Y6kUNFJTyGTsM",
-                "form": "wiHd4XbAGnN_QG",
+                "id": "hMij8z4GtQRwQk",
+                "form": "L7OmV1GvcKMtSt",
                 "readOnly": false,
-                "_selectId": "xd7j1rhNd166Qm"
+                "_selectId": "ehxKpkmWoVSZB0"
               }
             ],
             "inline": true,
@@ -1995,6 +1995,7 @@
         ]
       }
     },
+    "_components": true,
     "createOnNew": false,
     "description": "",
     "displayName": "Assessor Questionnaire",
@@ -2002,7 +2003,7 @@
     "defaultState": "New",
     "sidebarColor": "#333",
     "tabsSelected": "#009fda",
-    "__hideRecords": true,
+    "__hideRecords": false,
     "__warnReasons": [],
     "documentColor": "#333",
     "_activeVersion": "sTNP-VH3hEzwdP",
@@ -2014,16 +2015,17 @@
     },
     "tabsBackground": "#f4f4f4",
     "tabsForeground": "#555",
-    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_lastModifiedBy": "yRZ81Qp9q_eG14",
     "defaultActivity": null,
     "devices-allowed": "",
     "sideBarMinWidth": 150,
-    "__hideBehaviours": true,
-    "__hidePublishing": false,
+    "__hideBehaviours": false,
+    "__hidePublishing": true,
     "documentBackdrop": "#f4f4f4",
-    "_updatersExpanded": false,
+    "_updatersExpanded": true,
     "sidebarBackground": "#fff",
     "documentBackground": "#f4f4f4",
+    "__behaviourCollapse": {},
     "devices-allowed-html": "",
     "isLockedByCurrentUser": false
   },
