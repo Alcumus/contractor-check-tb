@@ -526,7 +526,7 @@
     "isLockedByCurrentUser": false
   },
   {
-    "__": "GHWH7zyhmdJx6e",
+    "__": "Tkjc8kcS4KWyoa",
     "_id": "WwdiDwh2djKCCh-g0kqLgJQJ13MRT:hestia/versions",
     "__id": "WwdiDwh2djKCCh:hestia/document-types",
     "__ok": true,
@@ -729,7 +729,7 @@
     "_deleted": 0,
     "database": "contractorCheck",
     "maxWidth": 1000,
-    "_modified": 1625584579000,
+    "_modified": 1627333338000,
     "components": "",
     "isLockedBy": null,
     "navigation": [],
@@ -883,6 +883,33 @@
             "condition": "",
             "description": "",
             "$behaviourType": "form"
+          }
+        ],
+        "indexer": [
+          {
+            "id": "OkRvEI4ulrX6e4",
+            "__init": true,
+            "address": [
+              {
+                "id": "rdqF-nwFoU4RIb",
+                "type": "normal",
+                "field": "assessmentType",
+                "defaultValue": ""
+              },
+              {
+                "id": "ertrQT8lDillOG",
+                "type": "normal",
+                "field": "linkedMasterListProfile",
+                "defaultValue": ""
+              },
+              {
+                "id": "K1tjbR_xlqR8Tt",
+                "type": "normal",
+                "field": "linkedProfile",
+                "defaultValue": ""
+              }
+            ],
+            "_selectId": "Ng8Eanu9wJnkiM"
           }
         ],
         "updater": [
@@ -1058,6 +1085,7 @@
     "defaultState": "New",
     "sidebarColor": "#333",
     "tabsSelected": "#009fda",
+    "__hideRecords": true,
     "__warnReasons": [],
     "documentColor": "#333",
     "_activeVersion": "g0kqLgJQJ13MRT",
