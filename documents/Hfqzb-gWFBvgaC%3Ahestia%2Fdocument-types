@@ -1,5 +1,5 @@
 {
-  "__": "m31v1VTrsibUBJ",
+  "__": "jOpeq2RXAkM98A",
   "_id": "Hfqzb-gWFBvgaC:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -205,14 +205,14 @@
     {
       "id": "YJW3Dk3mqjtsXR",
       "name": "Employees",
-      "time": 1624617999961,
-      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "time": 1627302134854,
+      "user": "yRZ81Qp9q_eG14",
       "locked": false,
-      "_selectId": "8PtojvAuYH3w4-",
+      "_selectId": "fhtkS8C7njAa-k",
       "parentVersion": ""
     }
   ],
-  "_modified": 1627292753000,
+  "_modified": 1627302137000,
   "components": "card 2.0",
   "isLockedBy": null,
   "navigation": [],
@@ -449,7 +449,7 @@
   "defaultActivity": "B1nGalSvcwX7ea",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
-  "__hidePublishing": true,
+  "__hidePublishing": false,
   "documentBackdrop": "#f4f4f4",
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
