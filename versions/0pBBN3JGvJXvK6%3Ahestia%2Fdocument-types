@@ -1,9 +1,9 @@
 [
   {
-    "__": "_bYwcUEYd5Yw5p",
+    "__": "Fl-KXgFQCDLdDs",
     "_id": "0pBBN3JGvJXvK6-UXlXJ3hYoZG3bS:hestia/versions",
     "__id": "0pBBN3JGvJXvK6:hestia/document-types",
-    "icon": "",
+    "icon": "BiAbacus",
     "name": "Contact",
     "tags": [],
     "table": "contact",
@@ -551,6 +551,7 @@
     "defaultActivity": "wLkWrCLCMvU21P",
     "devices-allowed": "",
     "sideBarMinWidth": 150,
+    "__hideBehaviours": true,
     "__hidePublishing": true,
     "documentBackdrop": "#f4f4f4",
     "sidebarBackground": "#fff",

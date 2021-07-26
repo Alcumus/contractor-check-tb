@@ -1,7 +1,7 @@
 {
-  "__": "CX_haRQMw9khyU",
+  "__": "DhLBieukHew8gw",
   "_id": "0pBBN3JGvJXvK6:hestia/document-types",
-  "icon": "",
+  "icon": "BiAbacus",
   "name": "Contact",
   "tags": [],
   "table": "contact",
@@ -201,14 +201,14 @@
     {
       "id": "UXlXJ3hYoZG3bS",
       "name": "1.0",
-      "time": 1627305060308,
+      "time": 1627305095224,
       "user": "yRZ81Qp9q_eG14",
       "locked": false,
-      "_selectId": "FlwNqxmwgb_Fxi",
+      "_selectId": "rITnbs99OJvggO",
       "parentVersion": ""
     }
   ],
-  "_modified": 1627305060000,
+  "_modified": 1627305095000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -560,6 +560,7 @@
   "defaultActivity": "wLkWrCLCMvU21P",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
+  "__hideBehaviours": true,
   "__hidePublishing": true,
   "documentBackdrop": "#f4f4f4",
   "sidebarBackground": "#fff",
