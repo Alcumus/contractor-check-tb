@@ -1,6 +1,6 @@
 [
   {
-    "__": "DRdAMq6L2cv4A6",
+    "__": "zRdJmCtAXqoBaI",
     "_id": "DB_f1fuVIK7FWT-lMgkcEhQ5ngx9H:hestia/versions",
     "__id": "DB_f1fuVIK7FWT:hestia/document-types",
     "__ok": true,
@@ -173,6 +173,10 @@
     "__warn": false,
     "client": "rsihYJKKDVyaYN",
     "gitHub": {
+      "1CVUkaSvIKpoae": {
+        "publishDocs": "",
+        "gitHubPublish": true
+      },
       "1J8739KZBOtzVQ": {
         "publishDocs": "",
         "gitHubPublish": true
@@ -187,15 +191,19 @@
     "demands": [],
     "graphQL": {
       "6g4mciY7jkfOUo": {
-        "exposeAPI": ""
+        "read": true,
+        "write": true,
+        "exposeAPI": true,
+        "readDemands": [],
+        "writeDemands": []
       }
     },
     "$invalid": false,
-    "_created": 1621461164000,
+    "_created": 1627286346000,
     "_deleted": 0,
     "database": "Teams",
     "maxWidth": 1000,
-    "_modified": 1624614381000,
+    "_modified": 1627286346000,
     "components": "card 2.0",
     "isLockedBy": null,
     "navigation": [],
@@ -323,6 +331,7 @@
         ]
       }
     },
+    "_components": true,
     "createOnNew": false,
     "description": "",
     "displayName": "Teams",
@@ -341,13 +350,15 @@
     },
     "tabsBackground": "#f4f4f4",
     "tabsForeground": "#555",
-    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_lastModifiedBy": "yRZ81Qp9q_eG14",
     "defaultActivity": "kDe-e2LVJKEqg2",
     "devices-allowed": "",
     "sideBarMinWidth": 150,
+    "__hidePublishing": true,
     "documentBackdrop": "#f4f4f4",
     "sidebarBackground": "#fff",
     "documentBackground": "#f4f4f4",
+    "__behaviourCollapse": {},
     "devices-allowed-html": "",
     "isLockedByCurrentUser": false
   }
