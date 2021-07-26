@@ -1,13 +1,14 @@
 {
-  "__": "HVC0G3AU-oZN9f",
+  "__": "6V32Kcuy9RleRP",
   "_id": "rsihYJKKDVyaYN:hestia/project",
   "name": "Project",
   "$valid": true,
+  "client": "rsihYJKKDVyaYN",
   "_client": "rsihYJKKDVyaYN",
   "$invalid": false,
   "_created": 1621327545000,
   "_deleted": 0,
-  "_modified": 1626917325000,
+  "_modified": 1627298970000,
   "components": "graph-ql",
   "_behaviours": {
     "instances": {
@@ -76,17 +77,42 @@
                   "generateTypeName": "Audit Trail"
                 },
                 {
-                  "id": "eFdeiYk0sQ_CWp",
-                  "type": "list",
-                  "field": "workActivities",
-                  "choice": true,
+                  "id": "Q-YMPo0jIVe4Zh",
+                  "type": "random",
+                  "faked": "{fake.company.companyName} {fake.company.companySuffix}",
+                  "field": "companyName",
                   "choices": "",
-                  "maximum": "4",
-                  "minimum": "2",
-                  "multiple": true,
+                  "maxText": 1,
+                  "minText": 1,
+                  "textType": "word",
                   "_expanded": false,
-                  "fieldType": "lookup",
-                  "generateType": "rH6EL6EJjx3vGG:hestia/document-types"
+                  "maxNumber": 100,
+                  "minNumber": 1,
+                  "randomType": "text",
+                  "generateType": "WdoYmj-FOBFYri:hestia/document-types",
+                  "generateTypeName": "Company Profile"
+                },
+                {
+                  "id": "AUkWTeQ1S3RAj2",
+                  "type": "random",
+                  "faked": "",
+                  "field": "description",
+                  "maxText": "2",
+                  "minText": 1,
+                  "textType": "paragraph",
+                  "_expanded": false,
+                  "randomType": "words"
+                },
+                {
+                  "id": "qe2-rl73OV3Pdc",
+                  "type": "random",
+                  "faked": "{fake.address.streetAddress}",
+                  "field": "address",
+                  "choices": "",
+                  "multiple": false,
+                  "_expanded": false,
+                  "fieldType": "text",
+                  "randomType": "text"
                 },
                 {
                   "id": "aefWI_5Yr38zLw",
@@ -103,20 +129,53 @@
                   "randomType": "text"
                 },
                 {
-                  "id": "Q-YMPo0jIVe4Zh",
+                  "id": "cEDhAo9xWTvbBx",
                   "type": "random",
-                  "faked": "{fake.company.companyName} {fake.company.companySuffix}",
-                  "field": "companyName",
-                  "choices": "",
-                  "maxText": 1,
-                  "minText": 1,
-                  "textType": "word",
+                  "faked": "{fake.address.stateAbbr}",
+                  "field": "state",
                   "_expanded": false,
-                  "maxNumber": 100,
-                  "minNumber": 1,
+                  "randomType": "text"
+                },
+                {
+                  "id": "j7jUn_DT3RsVWU",
+                  "type": "random",
+                  "faked": "{fake.address.zipCode}",
+                  "field": "ZIP",
+                  "_expanded": false,
+                  "randomType": "text"
+                },
+                {
+                  "id": "T-FpcL2EgNmECc",
+                  "type": "random",
+                  "faked": "Canada",
+                  "field": "headOfficeCountry",
+                  "choice": true,
+                  "choices": "",
+                  "multiple": false,
+                  "_expanded": false,
+                  "fieldType": "choice",
                   "randomType": "text",
-                  "generateType": "WdoYmj-FOBFYri:hestia/document-types",
-                  "generateTypeName": "Company Profile"
+                  "fieldChoices": [
+                    {
+                      "label": "Canada",
+                      "value": "Canada"
+                    },
+                    {
+                      "label": "US",
+                      "value": "US"
+                    }
+                  ]
+                },
+                {
+                  "id": "G4-InzdC-wujZI",
+                  "type": "random",
+                  "faked": "{fake.internet.email}",
+                  "field": "email",
+                  "choices": "",
+                  "multiple": false,
+                  "_expanded": false,
+                  "fieldType": "text",
+                  "randomType": "text"
                 },
                 {
                   "id": "fC7GsaTef843dv",
@@ -141,37 +200,6 @@
                   ]
                 },
                 {
-                  "id": "T-FpcL2EgNmECc",
-                  "type": "list",
-                  "field": "headOfficeCountry",
-                  "choice": true,
-                  "choices": "",
-                  "multiple": false,
-                  "_expanded": false,
-                  "fieldType": "choice",
-                  "fieldChoices": [
-                    {
-                      "label": "Canada",
-                      "value": "Canada"
-                    },
-                    {
-                      "label": "US",
-                      "value": "US"
-                    }
-                  ]
-                },
-                {
-                  "id": "G4-InzdC-wujZI",
-                  "type": "random",
-                  "faked": "{fake.internet.email}",
-                  "field": "email",
-                  "choices": "",
-                  "multiple": false,
-                  "_expanded": false,
-                  "fieldType": "text",
-                  "randomType": "text"
-                },
-                {
                   "id": "o33w1gYoWIP8qv",
                   "type": "random",
                   "faked": "",
@@ -189,15 +217,17 @@
                   "generateType": "rH6EL6EJjx3vGG:hestia/document-types"
                 },
                 {
-                  "id": "qe2-rl73OV3Pdc",
-                  "type": "random",
-                  "faked": "{fake.address.streetAddress}",
-                  "field": "address",
+                  "id": "eFdeiYk0sQ_CWp",
+                  "type": "list",
+                  "field": "workActivities",
+                  "choice": true,
                   "choices": "",
-                  "multiple": false,
+                  "maximum": "4",
+                  "minimum": "2",
+                  "multiple": true,
                   "_expanded": false,
-                  "fieldType": "text",
-                  "randomType": "text"
+                  "fieldType": "lookup",
+                  "generateType": "rH6EL6EJjx3vGG:hestia/document-types"
                 },
                 {
                   "id": "tKdZL4aq7rFT0S",
@@ -242,12 +272,159 @@
                   ]
                 }
               ],
-              "children": [],
+              "children": [
+                {
+                  "id": "HRCYMPQxzFlNeL",
+                  "type": "zSq4uYg_gBBWqY:hestia/document-types",
+                  "fields": [
+                    {
+                      "id": "WDd0cAFckXa7NV",
+                      "type": "random",
+                      "faked": "",
+                      "field": "client",
+                      "_expanded": false,
+                      "randomType": "record",
+                      "generateType": "WdoYmj-FOBFYri:hestia/document-types",
+                      "generateFilter": {
+                        "$and": [
+                          {
+                            "doYouUseContractors": {
+                              "$in": [
+                                "yes"
+                              ]
+                            }
+                          }
+                        ]
+                      },
+                      "generateTypeName": "Company Profile"
+                    },
+                    {
+                      "id": "8g6sGfXrwinhCv",
+                      "type": "random",
+                      "faked": "{$companyProfile}",
+                      "field": "contractor",
+                      "_expanded": false,
+                      "randomType": "text"
+                    },
+                    {
+                      "id": "LmDz2jZUllPsLc",
+                      "type": "list",
+                      "faked": "",
+                      "field": "contractorConfirms",
+                      "choice": false,
+                      "choices": "yes\nyes\nyes\nyes\nyes\nno\nrequested\nrequested",
+                      "multiple": false,
+                      "_expanded": false,
+                      "fieldType": "choice",
+                      "randomType": "text",
+                      "fieldChoices": [
+                        {
+                          "label": "requested",
+                          "value": "requested"
+                        },
+                        {
+                          "label": "yes",
+                          "value": "yes"
+                        },
+                        {
+                          "label": "no",
+                          "value": "no"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Azuwrp_C0JHppU",
+                      "type": "list",
+                      "faked": "",
+                      "field": "clientConfirms",
+                      "choice": "",
+                      "choices": "yes\nyes\nyes\nyes\nyes\nno\nrequested\nrequested",
+                      "multiple": false,
+                      "_expanded": false,
+                      "fieldType": "choice",
+                      "randomType": "text",
+                      "fieldChoices": [
+                        {
+                          "label": "requested",
+                          "value": "requested"
+                        },
+                        {
+                          "label": "yes",
+                          "value": "yes"
+                        },
+                        {
+                          "label": "no",
+                          "value": "no"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "bYpKdqLJ4rWG0f",
+                      "type": "random",
+                      "faked": "{if(and(compare(contractorConfirms eq \"requested\"), compare(clientConfirms eq \"requested\")) yes:raw clientConfirms)}",
+                      "field": "clientConfirms",
+                      "_expanded": false,
+                      "randomType": "text"
+                    },
+                    {
+                      "id": "kG0381ylSqof6Y",
+                      "type": "random",
+                      "faked": "{resolveId(client)}",
+                      "field": "__temp1",
+                      "_expanded": false,
+                      "randomType": "text"
+                    },
+                    {
+                      "id": "-myiKw3907Z2Fk",
+                      "type": "random",
+                      "faked": "{resolveId(contractor)}",
+                      "field": "__temp2",
+                      "_expanded": false,
+                      "randomType": "text"
+                    },
+                    {
+                      "id": "npP1aeSXTsqxq8",
+                      "type": "random",
+                      "faked": "{if(compare(__temp1 lt __temp2), __temp1, __temp2)}",
+                      "field": "__temp3",
+                      "_expanded": false,
+                      "randomType": "text"
+                    },
+                    {
+                      "id": "VM5vG_J_4jjr0W",
+                      "type": "random",
+                      "faked": "{if(compare(__temp1 ge __temp2), __temp1, __temp2)}",
+                      "field": "__temp4",
+                      "_expanded": false,
+                      "randomType": "text"
+                    },
+                    {
+                      "id": "E2t9dssxo70ZQK",
+                      "type": "random",
+                      "faked": "{__temp3}-{__temp4}:{$target}",
+                      "field": "_id",
+                      "_expanded": true,
+                      "randomType": "text"
+                    }
+                  ],
+                  "children": [],
+                  "recordId": "{$generatedId}:{$target}",
+                  "typeName": "Anchor Request",
+                  "_expanded": true,
+                  "fakerLocale": "en_CA",
+                  "consequences": [],
+                  "createMaxDocuments": "4",
+                  "createMinDocuments": "1"
+                }
+              ],
               "recordId": "{$generatedId}:{$target}",
               "typeName": "Company Profile",
               "_expanded": true,
-              "createMaxDocuments": "2000",
-              "createMinDocuments": "2000"
+              "fakerLocale": "en_CA",
+              "consequences": [],
+              "_fieldsCollapsed": false,
+              "createMaxDocuments": "1",
+              "createMinDocuments": "1"
             }
           ],
           "__init": true,
@@ -274,15 +451,16 @@
   "__hideBehaviours": true,
   "__behaviourCollapse": {},
   "_original": {
-    "__": "HVC0G3AU-oZN9f",
+    "__": "6V32Kcuy9RleRP",
     "_id": "rsihYJKKDVyaYN:hestia/project",
     "name": "Project",
     "$valid": true,
+    "client": "rsihYJKKDVyaYN",
     "_client": "rsihYJKKDVyaYN",
     "$invalid": false,
     "_created": 1621327545000,
     "_deleted": 0,
-    "_modified": 1626917325000,
+    "_modified": 1627298970000,
     "components": "graph-ql",
     "_behaviours": {
       "_state": "",
@@ -352,17 +530,42 @@
                     "generateTypeName": "Audit Trail"
                   },
                   {
-                    "id": "eFdeiYk0sQ_CWp",
-                    "type": "list",
-                    "field": "workActivities",
-                    "choice": true,
+                    "id": "Q-YMPo0jIVe4Zh",
+                    "type": "random",
+                    "faked": "{fake.company.companyName} {fake.company.companySuffix}",
+                    "field": "companyName",
                     "choices": "",
-                    "maximum": "4",
-                    "minimum": "2",
-                    "multiple": true,
+                    "maxText": 1,
+                    "minText": 1,
+                    "textType": "word",
                     "_expanded": false,
-                    "fieldType": "lookup",
-                    "generateType": "rH6EL6EJjx3vGG:hestia/document-types"
+                    "maxNumber": 100,
+                    "minNumber": 1,
+                    "randomType": "text",
+                    "generateType": "WdoYmj-FOBFYri:hestia/document-types",
+                    "generateTypeName": "Company Profile"
+                  },
+                  {
+                    "id": "AUkWTeQ1S3RAj2",
+                    "type": "random",
+                    "faked": "",
+                    "field": "description",
+                    "maxText": "2",
+                    "minText": 1,
+                    "textType": "paragraph",
+                    "_expanded": false,
+                    "randomType": "words"
+                  },
+                  {
+                    "id": "qe2-rl73OV3Pdc",
+                    "type": "random",
+                    "faked": "{fake.address.streetAddress}",
+                    "field": "address",
+                    "choices": "",
+                    "multiple": false,
+                    "_expanded": false,
+                    "fieldType": "text",
+                    "randomType": "text"
                   },
                   {
                     "id": "aefWI_5Yr38zLw",
@@ -379,20 +582,53 @@
                     "randomType": "text"
                   },
                   {
-                    "id": "Q-YMPo0jIVe4Zh",
+                    "id": "cEDhAo9xWTvbBx",
                     "type": "random",
-                    "faked": "{fake.company.companyName} {fake.company.companySuffix}",
-                    "field": "companyName",
-                    "choices": "",
-                    "maxText": 1,
-                    "minText": 1,
-                    "textType": "word",
+                    "faked": "{fake.address.stateAbbr}",
+                    "field": "state",
                     "_expanded": false,
-                    "maxNumber": 100,
-                    "minNumber": 1,
+                    "randomType": "text"
+                  },
+                  {
+                    "id": "j7jUn_DT3RsVWU",
+                    "type": "random",
+                    "faked": "{fake.address.zipCode}",
+                    "field": "ZIP",
+                    "_expanded": false,
+                    "randomType": "text"
+                  },
+                  {
+                    "id": "T-FpcL2EgNmECc",
+                    "type": "random",
+                    "faked": "Canada",
+                    "field": "headOfficeCountry",
+                    "choice": true,
+                    "choices": "",
+                    "multiple": false,
+                    "_expanded": false,
+                    "fieldType": "choice",
                     "randomType": "text",
-                    "generateType": "WdoYmj-FOBFYri:hestia/document-types",
-                    "generateTypeName": "Company Profile"
+                    "fieldChoices": [
+                      {
+                        "label": "Canada",
+                        "value": "Canada"
+                      },
+                      {
+                        "label": "US",
+                        "value": "US"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "G4-InzdC-wujZI",
+                    "type": "random",
+                    "faked": "{fake.internet.email}",
+                    "field": "email",
+                    "choices": "",
+                    "multiple": false,
+                    "_expanded": false,
+                    "fieldType": "text",
+                    "randomType": "text"
                   },
                   {
                     "id": "fC7GsaTef843dv",
@@ -417,37 +653,6 @@
                     ]
                   },
                   {
-                    "id": "T-FpcL2EgNmECc",
-                    "type": "list",
-                    "field": "headOfficeCountry",
-                    "choice": true,
-                    "choices": "",
-                    "multiple": false,
-                    "_expanded": false,
-                    "fieldType": "choice",
-                    "fieldChoices": [
-                      {
-                        "label": "Canada",
-                        "value": "Canada"
-                      },
-                      {
-                        "label": "US",
-                        "value": "US"
-                      }
-                    ]
-                  },
-                  {
-                    "id": "G4-InzdC-wujZI",
-                    "type": "random",
-                    "faked": "{fake.internet.email}",
-                    "field": "email",
-                    "choices": "",
-                    "multiple": false,
-                    "_expanded": false,
-                    "fieldType": "text",
-                    "randomType": "text"
-                  },
-                  {
                     "id": "o33w1gYoWIP8qv",
                     "type": "random",
                     "faked": "",
@@ -465,15 +670,17 @@
                     "generateType": "rH6EL6EJjx3vGG:hestia/document-types"
                   },
                   {
-                    "id": "qe2-rl73OV3Pdc",
-                    "type": "random",
-                    "faked": "{fake.address.streetAddress}",
-                    "field": "address",
+                    "id": "eFdeiYk0sQ_CWp",
+                    "type": "list",
+                    "field": "workActivities",
+                    "choice": true,
                     "choices": "",
-                    "multiple": false,
+                    "maximum": "4",
+                    "minimum": "2",
+                    "multiple": true,
                     "_expanded": false,
-                    "fieldType": "text",
-                    "randomType": "text"
+                    "fieldType": "lookup",
+                    "generateType": "rH6EL6EJjx3vGG:hestia/document-types"
                   },
                   {
                     "id": "tKdZL4aq7rFT0S",
@@ -518,12 +725,159 @@
                     ]
                   }
                 ],
-                "children": [],
+                "children": [
+                  {
+                    "id": "HRCYMPQxzFlNeL",
+                    "type": "zSq4uYg_gBBWqY:hestia/document-types",
+                    "fields": [
+                      {
+                        "id": "WDd0cAFckXa7NV",
+                        "type": "random",
+                        "faked": "",
+                        "field": "client",
+                        "_expanded": false,
+                        "randomType": "record",
+                        "generateType": "WdoYmj-FOBFYri:hestia/document-types",
+                        "generateFilter": {
+                          "$and": [
+                            {
+                              "doYouUseContractors": {
+                                "$in": [
+                                  "yes"
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        "generateTypeName": "Company Profile"
+                      },
+                      {
+                        "id": "8g6sGfXrwinhCv",
+                        "type": "random",
+                        "faked": "{$companyProfile}",
+                        "field": "contractor",
+                        "_expanded": false,
+                        "randomType": "text"
+                      },
+                      {
+                        "id": "LmDz2jZUllPsLc",
+                        "type": "list",
+                        "faked": "",
+                        "field": "contractorConfirms",
+                        "choice": false,
+                        "choices": "yes\nyes\nyes\nyes\nyes\nno\nrequested\nrequested",
+                        "multiple": false,
+                        "_expanded": false,
+                        "fieldType": "choice",
+                        "randomType": "text",
+                        "fieldChoices": [
+                          {
+                            "label": "requested",
+                            "value": "requested"
+                          },
+                          {
+                            "label": "yes",
+                            "value": "yes"
+                          },
+                          {
+                            "label": "no",
+                            "value": "no"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "Azuwrp_C0JHppU",
+                        "type": "list",
+                        "faked": "",
+                        "field": "clientConfirms",
+                        "choice": "",
+                        "choices": "yes\nyes\nyes\nyes\nyes\nno\nrequested\nrequested",
+                        "multiple": false,
+                        "_expanded": false,
+                        "fieldType": "choice",
+                        "randomType": "text",
+                        "fieldChoices": [
+                          {
+                            "label": "requested",
+                            "value": "requested"
+                          },
+                          {
+                            "label": "yes",
+                            "value": "yes"
+                          },
+                          {
+                            "label": "no",
+                            "value": "no"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "bYpKdqLJ4rWG0f",
+                        "type": "random",
+                        "faked": "{if(and(compare(contractorConfirms eq \"requested\"), compare(clientConfirms eq \"requested\")) yes:raw clientConfirms)}",
+                        "field": "clientConfirms",
+                        "_expanded": false,
+                        "randomType": "text"
+                      },
+                      {
+                        "id": "kG0381ylSqof6Y",
+                        "type": "random",
+                        "faked": "{resolveId(client)}",
+                        "field": "__temp1",
+                        "_expanded": false,
+                        "randomType": "text"
+                      },
+                      {
+                        "id": "-myiKw3907Z2Fk",
+                        "type": "random",
+                        "faked": "{resolveId(contractor)}",
+                        "field": "__temp2",
+                        "_expanded": false,
+                        "randomType": "text"
+                      },
+                      {
+                        "id": "npP1aeSXTsqxq8",
+                        "type": "random",
+                        "faked": "{if(compare(__temp1 lt __temp2), __temp1, __temp2)}",
+                        "field": "__temp3",
+                        "_expanded": false,
+                        "randomType": "text"
+                      },
+                      {
+                        "id": "VM5vG_J_4jjr0W",
+                        "type": "random",
+                        "faked": "{if(compare(__temp1 ge __temp2), __temp1, __temp2)}",
+                        "field": "__temp4",
+                        "_expanded": false,
+                        "randomType": "text"
+                      },
+                      {
+                        "id": "E2t9dssxo70ZQK",
+                        "type": "random",
+                        "faked": "{__temp3}-{__temp4}:{$target}",
+                        "field": "_id",
+                        "_expanded": true,
+                        "randomType": "text"
+                      }
+                    ],
+                    "children": [],
+                    "recordId": "{$generatedId}:{$target}",
+                    "typeName": "Anchor Request",
+                    "_expanded": true,
+                    "fakerLocale": "en_CA",
+                    "consequences": [],
+                    "createMaxDocuments": "4",
+                    "createMinDocuments": "1"
+                  }
+                ],
                 "recordId": "{$generatedId}:{$target}",
                 "typeName": "Company Profile",
                 "_expanded": true,
-                "createMaxDocuments": "2000",
-                "createMinDocuments": "2000"
+                "fakerLocale": "en_CA",
+                "consequences": [],
+                "_fieldsCollapsed": false,
+                "createMaxDocuments": "1",
+                "createMinDocuments": "1"
               }
             ],
             "__init": true,
