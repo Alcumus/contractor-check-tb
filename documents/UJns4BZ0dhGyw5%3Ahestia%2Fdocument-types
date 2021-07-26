@@ -1,5 +1,5 @@
 {
-  "__": "sz6JLoJAAfeZPM",
+  "__": "RqzNXEPSSvOqk4",
   "_id": "UJns4BZ0dhGyw5:hestia/document-types",
   "icon": "",
   "name": "Master List Company Profile",
@@ -168,6 +168,10 @@
   "$valid": true,
   "client": "rsihYJKKDVyaYN",
   "gitHub": {
+    "1CVUkaSvIKpoae": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
     "1J8739KZBOtzVQ": {
       "publishDocs": true,
       "gitHubPublish": true
@@ -197,14 +201,14 @@
     {
       "id": "8eXUnVjk2o1gFo",
       "name": "1.0",
-      "time": 1625588145353,
-      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "time": 1627302064279,
+      "user": "yRZ81Qp9q_eG14",
       "locked": false,
-      "_selectId": "TQt0YMu-kGc3Fa",
+      "_selectId": "T2dwm_GC2Cq66b",
       "parentVersion": ""
     }
   ],
-  "_modified": 1627286354000,
+  "_modified": 1627302064000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -327,6 +331,7 @@
       ]
     }
   },
+  "_components": true,
   "createOnNew": false,
   "description": "",
   "displayName": "Master List Company Profile",
@@ -343,12 +348,14 @@
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+  "_lastModifiedBy": "yRZ81Qp9q_eG14",
   "defaultActivity": "TfKhoFBqWSHFbB",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
+  "__hidePublishing": true,
   "documentBackdrop": "#f4f4f4",
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
+  "__behaviourCollapse": {},
   "devices-allowed-html": ""
 }

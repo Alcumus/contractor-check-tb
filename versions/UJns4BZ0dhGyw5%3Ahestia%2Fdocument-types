@@ -1,6 +1,6 @@
 [
   {
-    "__": "a1L0QFUMPfYWYx",
+    "__": "Q_PTJz4EzupR3p",
     "_id": "UJns4BZ0dhGyw5-8eXUnVjk2o1gFo:hestia/versions",
     "__id": "UJns4BZ0dhGyw5:hestia/document-types",
     "icon": "",
@@ -170,6 +170,10 @@
     "$valid": true,
     "client": "rsihYJKKDVyaYN",
     "gitHub": {
+      "1CVUkaSvIKpoae": {
+        "publishDocs": "",
+        "gitHubPublish": true
+      },
       "1J8739KZBOtzVQ": {
         "publishDocs": true,
         "gitHubPublish": true
@@ -191,11 +195,11 @@
       }
     },
     "$invalid": false,
-    "_created": 1624016930000,
+    "_created": 1627286354000,
     "_deleted": 0,
     "database": "contractorcheck",
     "maxWidth": 1000,
-    "_modified": 1625575822000,
+    "_modified": 1627286354000,
     "components": "",
     "navigation": [],
     "_behaviours": {
@@ -318,6 +322,7 @@
         ]
       }
     },
+    "_components": true,
     "createOnNew": false,
     "description": "",
     "displayName": "Master List Company Profile",
@@ -334,13 +339,15 @@
     },
     "tabsBackground": "#f4f4f4",
     "tabsForeground": "#555",
-    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_lastModifiedBy": "yRZ81Qp9q_eG14",
     "defaultActivity": "TfKhoFBqWSHFbB",
     "devices-allowed": "",
     "sideBarMinWidth": 150,
+    "__hidePublishing": true,
     "documentBackdrop": "#f4f4f4",
     "sidebarBackground": "#fff",
     "documentBackground": "#f4f4f4",
+    "__behaviourCollapse": {},
     "devices-allowed-html": ""
   }
 ]
