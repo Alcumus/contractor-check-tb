@@ -1,5 +1,5 @@
 {
-  "__": "3p-jGK1QoghCiR",
+  "__": "21dfyo_PiDxMAE",
   "_id": "fYmpCXoXNbRtVg:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -171,6 +171,10 @@
   "__warn": false,
   "client": "rsihYJKKDVyaYN",
   "gitHub": {
+    "1CVUkaSvIKpoae": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
     "1J8739KZBOtzVQ": {
       "publishDocs": "",
       "gitHubPublish": true
@@ -193,7 +197,7 @@
     }
   },
   "$invalid": false,
-  "_created": 1621508921000,
+  "_created": 1627286361000,
   "_deleted": 0,
   "database": "contractorcheck",
   "maxWidth": 1000,
@@ -201,13 +205,14 @@
     {
       "id": "D57acZ-uIHF-Tx",
       "name": "1.0",
-      "time": 1626187550094,
-      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "time": 1627295245321,
+      "user": "yRZ81Qp9q_eG14",
       "locked": false,
+      "_selectId": "yXrh0qvj1NqlgN",
       "parentVersion": ""
     }
   ],
-  "_modified": 1626276202000,
+  "_modified": 1627295247000,
   "components": "verification,helptext,navigation,formprogress,localisation",
   "isLockedBy": null,
   "navigation": [],
@@ -693,6 +698,7 @@
       ],
       "styled": [
         {
+          "id": "CJzEmPIbvtZhT1",
           "css": ".progressbar > div {\n    height: initial !important;\n    margin: 0 !important;\n    line-height: 1.7;\n}\n\n.title {\n    border-radius: 4px;\n    padding-bottom: 20px;\n}\n\n",
           "_init": true,
           "_selectId": "6EMy8mLv9RKokA"
@@ -2537,6 +2543,7 @@
       ]
     }
   },
+  "_components": true,
   "createOnNew": false,
   "description": "",
   "displayName": "Contractor Check",
@@ -2557,15 +2564,17 @@
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "64467393-61e5-45fe-a026-45aed6419337",
+  "_lastModifiedBy": "yRZ81Qp9q_eG14",
   "defaultActivity": null,
   "devices-allowed": "",
   "sideBarMinWidth": 150,
   "__hideBehaviours": true,
+  "__hidePublishing": true,
   "documentBackdrop": "#f4f4f4",
   "_updatersExpanded": true,
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
+  "__behaviourCollapse": {},
   "devices-allowed-html": "",
   "isLockedByCurrentUser": false
 }
