@@ -526,7 +526,7 @@
     "isLockedByCurrentUser": false
   },
   {
-    "__": "sIZVvqN5U738X-",
+    "__": "GHWH7zyhmdJx6e",
     "_id": "WwdiDwh2djKCCh-g0kqLgJQJ13MRT:hestia/versions",
     "__id": "WwdiDwh2djKCCh:hestia/document-types",
     "__ok": true,
@@ -706,6 +706,10 @@
       "aV8boSk1D6q6YG": {
         "publishDocs": "",
         "gitHubPublish": true
+      },
+      "c5NB8L8axiOpyP": {
+        "publishDocs": "",
+        "gitHubPublish": true
       }
     },
     "locked": false,
@@ -725,7 +729,7 @@
     "_deleted": 0,
     "database": "contractorCheck",
     "maxWidth": 1000,
-    "_modified": 1625490857000,
+    "_modified": 1625584579000,
     "components": "",
     "isLockedBy": null,
     "navigation": [],
@@ -898,6 +902,29 @@
             "targetTypeName": "Contractor Questionnaire",
             "createMergeRecord": "",
             "updateTargetDocumentState": true
+          },
+          {
+            "id": "fqum_2NsCgy8pS",
+            "name": "Set Client To Master Client",
+            "onEnter": "",
+            "inStates": [
+              "New",
+              "Expired"
+            ],
+            "mergeAll": "",
+            "_selectId": "PmYHEzy3qZrH4i",
+            "properties": [],
+            "specificId": true,
+            "targetType": "WwdiDwh2djKCCh:hestia/document-types",
+            "forValuesOf": "",
+            "updateClient": true,
+            "recordChanges": "",
+            "targetTypeName": "Master List Questionnaire",
+            "updateRecordId": "{_id}",
+            "updateToClient": "rsihYJKKDVyaYN",
+            "createMergeRecord": false,
+            "uniqueMergeRecords": false,
+            "updateTargetDocumentState": ""
           }
         ],
         "schedule": [
@@ -1023,6 +1050,7 @@
         ]
       }
     },
+    "_components": true,
     "createOnNew": false,
     "description": "",
     "displayName": "Master List",
@@ -1045,9 +1073,12 @@
     "defaultActivity": "6NjIL2Z7jEbrem",
     "devices-allowed": "",
     "sideBarMinWidth": 150,
+    "__hideBehaviours": true,
     "documentBackdrop": "#f4f4f4",
+    "_updatersExpanded": true,
     "sidebarBackground": "#fff",
     "documentBackground": "#f4f4f4",
+    "__behaviourCollapse": {},
     "devices-allowed-html": "",
     "isLockedByCurrentUser": false
   }

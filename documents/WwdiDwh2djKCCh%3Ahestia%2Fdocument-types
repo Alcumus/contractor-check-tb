@@ -1,5 +1,5 @@
 {
-  "__": "foSsDYgWvJ0mOg",
+  "__": "xdkx-PvvLC_OTc",
   "_id": "WwdiDwh2djKCCh:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -178,6 +178,10 @@
     "aV8boSk1D6q6YG": {
       "publishDocs": "",
       "gitHubPublish": true
+    },
+    "c5NB8L8axiOpyP": {
+      "publishDocs": "",
+      "gitHubPublish": true
     }
   },
   "locked": false,
@@ -193,7 +197,7 @@
     }
   },
   "$invalid": false,
-  "_created": 1627286358000,
+  "_created": 1621454620000,
   "_deleted": 0,
   "database": "contractorCheck",
   "maxWidth": 1000,
@@ -210,14 +214,13 @@
     {
       "id": "g0kqLgJQJ13MRT",
       "name": "1.1",
-      "time": 1625588177667,
+      "time": 1627336930010,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "mBqjsvaG4QuCfg",
       "parentVersion": "pmgndWqtbw5UAv"
     }
   ],
-  "_modified": 1627286358000,
+  "_modified": 1627333330000,
   "components": "",
   "isLockedBy": null,
   "navigation": [],
@@ -390,6 +393,29 @@
           "targetTypeName": "Contractor Questionnaire",
           "createMergeRecord": "",
           "updateTargetDocumentState": true
+        },
+        {
+          "id": "fqum_2NsCgy8pS",
+          "name": "Set Client To Master Client",
+          "onEnter": "",
+          "inStates": [
+            "New",
+            "Expired"
+          ],
+          "mergeAll": "",
+          "_selectId": "PmYHEzy3qZrH4i",
+          "properties": [],
+          "specificId": true,
+          "targetType": "WwdiDwh2djKCCh:hestia/document-types",
+          "forValuesOf": "",
+          "updateClient": true,
+          "recordChanges": "",
+          "targetTypeName": "Master List Questionnaire",
+          "updateRecordId": "{_id}",
+          "updateToClient": "rsihYJKKDVyaYN",
+          "createMergeRecord": false,
+          "uniqueMergeRecords": false,
+          "updateTargetDocumentState": ""
         }
       ],
       "schedule": [
@@ -515,6 +541,7 @@
       ]
     }
   },
+  "_components": true,
   "createOnNew": false,
   "description": "",
   "displayName": "Master List",
@@ -537,9 +564,12 @@
   "defaultActivity": "6NjIL2Z7jEbrem",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
+  "__hideBehaviours": true,
   "documentBackdrop": "#f4f4f4",
+  "_updatersExpanded": true,
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
+  "__behaviourCollapse": {},
   "devices-allowed-html": "",
   "isLockedByCurrentUser": false
 }
