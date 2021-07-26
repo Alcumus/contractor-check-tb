@@ -1,5 +1,5 @@
 {
-  "__": "sz6JLoJAAfeZPM",
+  "__": "PtfpZ4snuW7nfK",
   "_id": "UJns4BZ0dhGyw5:hestia/document-types",
   "icon": "",
   "name": "Master List Company Profile",
@@ -175,6 +175,10 @@
     "aV8boSk1D6q6YG": {
       "publishDocs": true,
       "gitHubPublish": true
+    },
+    "c5NB8L8axiOpyP": {
+      "publishDocs": "",
+      "gitHubPublish": true
     }
   },
   "_client": "rsihYJKKDVyaYN",
@@ -189,7 +193,7 @@
     }
   },
   "$invalid": false,
-  "_created": 1627286354000,
+  "_created": 1624016930000,
   "_deleted": 0,
   "database": "contractorcheck",
   "maxWidth": 1000,
@@ -197,14 +201,13 @@
     {
       "id": "8eXUnVjk2o1gFo",
       "name": "1.0",
-      "time": 1625588145353,
+      "time": 1627334677990,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "TQt0YMu-kGc3Fa",
       "parentVersion": ""
     }
   ],
-  "_modified": 1627286354000,
+  "_modified": 1627331078000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -264,6 +267,83 @@
           "condition": "",
           "description": "",
           "duplicateNames": {}
+        }
+      ],
+      "indexer": [
+        {
+          "id": "yKZ2kQ9AVeqz_A",
+          "name": "Copy of \"\"",
+          "__init": true,
+          "address": [
+            {
+              "id": "K04OteGYSfp6dZ",
+              "type": "fulltext",
+              "field": "companyName",
+              "defaultValue": ""
+            },
+            {
+              "id": "x0o-PfLTjUDcpf",
+              "type": "fulltext",
+              "field": "address",
+              "defaultValue": ""
+            },
+            {
+              "id": "Uk5Qa6NTJihauU",
+              "type": "fulltext",
+              "field": "country",
+              "defaultValue": ""
+            },
+            {
+              "id": "HpnK8hiCST0EKy",
+              "type": "fulltext",
+              "field": "City",
+              "defaultValue": ""
+            },
+            {
+              "id": "3HG5xW8Hlixo1K",
+              "type": "fulltext",
+              "field": "ZIP",
+              "defaultValue": ""
+            },
+            {
+              "id": "-n3er-9YdRcZs6",
+              "type": "fulltext",
+              "field": "headOfficeCountry",
+              "defaultValue": ""
+            },
+            {
+              "id": "-B-LJoW48jYp2N",
+              "type": "normal",
+              "field": "doYouContract",
+              "defaultValue": ""
+            },
+            {
+              "id": "sK7D_uV0IZVCc0",
+              "type": "normal",
+              "field": "doYouUseContractors",
+              "defaultValue": ""
+            },
+            {
+              "id": "-9V0m6TxA7dMW8",
+              "type": "fulltext",
+              "field": "tradingNames",
+              "defaultValue": ""
+            },
+            {
+              "id": "tFFgrjlU_UTl0m",
+              "type": "normal",
+              "field": "classification",
+              "defaultValue": ""
+            },
+            {
+              "id": "KxmO_nTSF5iJp9",
+              "type": "normal",
+              "field": "numberOfEmployees",
+              "defaultValue": ""
+            }
+          ],
+          "_selectId": "OQAbR8zkdQcMrI",
+          "$behaviourType": "indexer"
         }
       ],
       "derivation": [
@@ -327,12 +407,14 @@
       ]
     }
   },
+  "_components": true,
   "createOnNew": false,
   "description": "",
   "displayName": "Master List Company Profile",
   "defaultState": "New",
   "sidebarColor": "#333",
   "tabsSelected": "#009fda",
+  "__hideRecords": true,
   "documentColor": "#333",
   "_activeVersion": "zj8LEt7EOU-k4m",
   "_parentVersion": "8eXUnVjk2o1gFo",
@@ -347,8 +429,11 @@
   "defaultActivity": "TfKhoFBqWSHFbB",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
+  "__hideBehaviours": true,
   "documentBackdrop": "#f4f4f4",
+  "_updatersExpanded": true,
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
+  "__behaviourCollapse": {},
   "devices-allowed-html": ""
 }
