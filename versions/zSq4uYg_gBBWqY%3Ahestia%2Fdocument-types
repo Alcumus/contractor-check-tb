@@ -543,7 +543,7 @@
     "masterListContractor": ":contractorcheck/masterCompanyProfile"
   },
   {
-    "__": "lNQ6_IUOCaZLkx",
+    "__": "-JFGBBKDkScWRF",
     "_id": "zSq4uYg_gBBWqY-OcknhHIFsFhidR:hestia/versions",
     "__id": "zSq4uYg_gBBWqY:hestia/document-types",
     "icon": "",
@@ -742,7 +742,7 @@
     "_deleted": 0,
     "database": "contractorcheck",
     "maxWidth": 1000,
-    "_modified": 1627039947000,
+    "_modified": 1627040230000,
     "components": "",
     "navigation": [],
     "_behaviours": {
@@ -977,6 +977,27 @@
             "condition": "",
             "description": "",
             "duplicateNames": {}
+          }
+        ],
+        "indexer": [
+          {
+            "id": "jJc-rxlXsb2yPf",
+            "__init": true,
+            "address": [
+              {
+                "id": "4qCYGrz6I9s_gu",
+                "type": "normal",
+                "field": "clientProfile",
+                "defaultValue": ""
+              },
+              {
+                "id": "JUgrmgXzYclz4z",
+                "type": "normal",
+                "field": "contractorProfile",
+                "defaultValue": ""
+              }
+            ],
+            "_selectId": "VZ3o2SkL7eg-8E"
           }
         ],
         "updater": [
