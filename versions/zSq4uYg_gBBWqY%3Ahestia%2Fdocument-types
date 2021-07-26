@@ -543,7 +543,7 @@
     "masterListContractor": ":contractorcheck/masterCompanyProfile"
   },
   {
-    "__": "-yXDmapajG2c31",
+    "__": "dZjlPqGw3EeK8s",
     "_id": "zSq4uYg_gBBWqY-OcknhHIFsFhidR:hestia/versions",
     "__id": "zSq4uYg_gBBWqY:hestia/document-types",
     "icon": "",
@@ -1018,6 +1018,18 @@
                 "id": "S8r1xJkJAfhDSS",
                 "type": "normal",
                 "field": "contractor",
+                "defaultValue": ""
+              },
+              {
+                "id": "UqatBqG6zocRWh",
+                "type": "normal",
+                "field": "clientConfirms",
+                "defaultValue": ""
+              },
+              {
+                "id": "jNQFUBC1creVyg",
+                "type": "normal",
+                "field": "contractorConfirms",
                 "defaultValue": ""
               }
             ],

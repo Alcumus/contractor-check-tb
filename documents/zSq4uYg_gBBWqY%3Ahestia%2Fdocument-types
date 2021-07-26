@@ -1,5 +1,5 @@
 {
-  "__": "ojsor06Mxrh-Jr",
+  "__": "BQsIFB97K84OEk",
   "_id": "zSq4uYg_gBBWqY:hestia/document-types",
   "icon": "",
   "name": "Anchor Request",
@@ -210,14 +210,14 @@
     {
       "id": "OcknhHIFsFhidR",
       "name": "1.1",
-      "time": 1627333434149,
+      "time": 1627333486394,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "RIjvC9EOVqleq-",
+      "_selectId": "EO-1Tx9hPH5hHf",
       "parentVersion": "RlnNXS8fP37e6b"
     }
   ],
-  "_modified": 1627329834000,
+  "_modified": 1627329886000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -493,6 +493,18 @@
               "id": "S8r1xJkJAfhDSS",
               "type": "normal",
               "field": "contractor",
+              "defaultValue": ""
+            },
+            {
+              "id": "UqatBqG6zocRWh",
+              "type": "normal",
+              "field": "clientConfirms",
+              "defaultValue": ""
+            },
+            {
+              "id": "jNQFUBC1creVyg",
+              "type": "normal",
+              "field": "contractorConfirms",
               "defaultValue": ""
             }
           ],
