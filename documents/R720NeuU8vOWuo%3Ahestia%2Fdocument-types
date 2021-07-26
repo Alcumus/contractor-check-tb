@@ -1,5 +1,5 @@
 {
-  "__": "yp3i6PSuXkjFPu",
+  "__": "J4ik7yKzXZ1h-3",
   "_id": "R720NeuU8vOWuo:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -224,7 +224,7 @@
       "parentVersion": ""
     }
   ],
-  "_modified": 1627295260000,
+  "_modified": 1627302232000,
   "components": "verification,navigation,richtext",
   "isLockedBy": null,
   "navigation": [],
@@ -2029,9 +2029,9 @@
   "devices-allowed": "",
   "sideBarMinWidth": 150,
   "__hideBehaviours": false,
-  "__hidePublishing": true,
+  "__hidePublishing": false,
   "documentBackdrop": "#f4f4f4",
-  "_updatersExpanded": true,
+  "_updatersExpanded": false,
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
   "__behaviourCollapse": {},
