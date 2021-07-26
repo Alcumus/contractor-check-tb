@@ -1,6 +1,6 @@
 [
   {
-    "__": "WdRMHE9t_YyYPu",
+    "__": "qGPMI05BbVFYPT",
     "_id": "fYmpCXoXNbRtVg-D57acZ-uIHF-Tx:hestia/versions",
     "__id": "fYmpCXoXNbRtVg:hestia/document-types",
     "__ok": true,
@@ -173,6 +173,10 @@
     "__warn": false,
     "client": "rsihYJKKDVyaYN",
     "gitHub": {
+      "1CVUkaSvIKpoae": {
+        "publishDocs": "",
+        "gitHubPublish": true
+      },
       "1J8739KZBOtzVQ": {
         "publishDocs": "",
         "gitHubPublish": true
@@ -195,11 +199,11 @@
       }
     },
     "$invalid": false,
-    "_created": 1621508921000,
+    "_created": 1627286361000,
     "_deleted": 0,
     "database": "contractorcheck",
     "maxWidth": 1000,
-    "_modified": 1626106636000,
+    "_modified": 1627286361000,
     "components": "verification,helptext,navigation,formprogress,localisation",
     "isLockedBy": null,
     "navigation": [],
@@ -565,7 +569,7 @@
                     "name": "",
                     "type": "information",
                     "hints": {},
-                    "question": "<p><span style=\"color: rgb(0,97,131);font-size: 24px;\"><strong>Health and Safety Accreditation Complete {qcAcceptedDate:date=medium} - Read Only</strong></span></p>\n<p></p>\n",
+                    "question": "<p><span style=\"color: rgb(0,97,131);font-size: 24px;\"><strong>Health and Safety Accreditation Completion on {qcAcceptedDate:date=medium} - Read Only</strong></span></p>\n<p></p>\n",
                     "_selectId": "3ScKVhFYDIxio6",
                     "condition": "",
                     "questionHeight": "10em",
@@ -685,6 +689,7 @@
         ],
         "styled": [
           {
+            "id": "CJzEmPIbvtZhT1",
             "css": ".progressbar > div {\n    height: initial !important;\n    margin: 0 !important;\n    line-height: 1.7;\n}\n\n.title {\n    border-radius: 4px;\n    padding-bottom: 20px;\n}\n\n",
             "_init": true,
             "_selectId": "6EMy8mLv9RKokA"
@@ -2529,6 +2534,7 @@
         ]
       }
     },
+    "_components": true,
     "createOnNew": false,
     "description": "",
     "displayName": "Contractor Check",
@@ -2549,14 +2555,17 @@
     },
     "tabsBackground": "#f4f4f4",
     "tabsForeground": "#555",
-    "_lastModifiedBy": "64467393-61e5-45fe-a026-45aed6419337",
+    "_lastModifiedBy": "yRZ81Qp9q_eG14",
     "defaultActivity": null,
     "devices-allowed": "",
     "sideBarMinWidth": 150,
+    "__hideBehaviours": true,
+    "__hidePublishing": true,
     "documentBackdrop": "#f4f4f4",
-    "_updatersExpanded": false,
+    "_updatersExpanded": true,
     "sidebarBackground": "#fff",
     "documentBackground": "#f4f4f4",
+    "__behaviourCollapse": {},
     "devices-allowed-html": "",
     "isLockedByCurrentUser": false
   },
