@@ -1,5 +1,5 @@
 {
-  "__": "6V32Kcuy9RleRP",
+  "__": "mwLYE6I7UWPD7D",
   "_id": "rsihYJKKDVyaYN:hestia/project",
   "name": "Project",
   "$valid": true,
@@ -8,7 +8,7 @@
   "$invalid": false,
   "_created": 1621327545000,
   "_deleted": 0,
-  "_modified": 1627298970000,
+  "_modified": 1627305897000,
   "components": "graph-ql",
   "_behaviours": {
     "instances": {
@@ -403,7 +403,7 @@
                       "type": "random",
                       "faked": "{__temp3}-{__temp4}:{$target}",
                       "field": "_id",
-                      "_expanded": true,
+                      "_expanded": false,
                       "randomType": "text"
                     }
                   ],
@@ -412,7 +412,73 @@
                   "typeName": "Anchor Request",
                   "_expanded": true,
                   "fakerLocale": "en_CA",
-                  "consequences": [],
+                  "consequences": [
+                    {
+                      "id": "GsMOmOw4EZ6nAy",
+                      "type": "fYmpCXoXNbRtVg:hestia/document-types",
+                      "fields": [
+                        {
+                          "id": "Y2DqFYCveAd1pI",
+                          "type": "list",
+                          "faked": "",
+                          "field": "$state",
+                          "choices": "New\nNew\nSubmitted\nSubmitted\nSubmitted\nSubmitted\nSubmitted",
+                          "multiple": false,
+                          "_expanded": true,
+                          "fieldType": "State name",
+                          "randomType": "text"
+                        }
+                      ],
+                      "matchId": "",
+                      "children": [],
+                      "typeName": "Contractor Questionnaire",
+                      "_expanded": false,
+                      "matchQuery": {
+                        "$and": [
+                          {
+                            "assessmentType": {
+                              "$ne": "general"
+                            }
+                          }
+                        ]
+                      },
+                      "consequences": [
+                        {
+                          "id": "yKIaOoMcHc7NEQ",
+                          "type": "R720NeuU8vOWuo:hestia/document-types",
+                          "fields": [
+                            {
+                              "id": "RT27-YIVMynhOB",
+                              "type": "list",
+                              "faked": "",
+                              "field": "$state",
+                              "choices": "New\nMaster List\nMaster List\nMaster List",
+                              "multiple": false,
+                              "_expanded": true,
+                              "fieldType": "State name",
+                              "randomType": "text"
+                            }
+                          ],
+                          "matchId": "",
+                          "children": [],
+                          "typeName": "Assessor Questionnaire",
+                          "_expanded": true,
+                          "matchQuery": {
+                            "$and": [
+                              {
+                                "assessmentType": {
+                                  "$ne": "general"
+                                }
+                              }
+                            ]
+                          },
+                          "consequences": [],
+                          "_fieldsCollapsed": true
+                        }
+                      ]
+                    }
+                  ],
+                  "_fieldsCollapsed": true,
                   "createMaxDocuments": "4",
                   "createMinDocuments": "1"
                 }
@@ -421,10 +487,74 @@
               "typeName": "Company Profile",
               "_expanded": true,
               "fakerLocale": "en_CA",
-              "consequences": [],
-              "_fieldsCollapsed": false,
-              "createMaxDocuments": "1",
-              "createMinDocuments": "1"
+              "consequences": [
+                {
+                  "id": "lSZYukQErvjNNd",
+                  "type": "fYmpCXoXNbRtVg:hestia/document-types",
+                  "fields": [
+                    {
+                      "id": "drjTzfUS9AAAtW",
+                      "type": "list",
+                      "faked": "",
+                      "field": "$state",
+                      "choices": "New\nSubmitted\nSubmitted\nSubmitted\nSubmitted\nSubmitted\nSubmitted",
+                      "multiple": false,
+                      "_expanded": false,
+                      "fieldType": "State name",
+                      "randomType": "text"
+                    }
+                  ],
+                  "matchId": "",
+                  "children": [],
+                  "typeName": "Contractor Questionnaire",
+                  "_expanded": true,
+                  "matchQuery": {
+                    "$and": [
+                      {
+                        "assessmentType": {
+                          "$eq": "general"
+                        }
+                      }
+                    ]
+                  },
+                  "consequences": [
+                    {
+                      "id": "1oxVkOikjsgkut",
+                      "type": "R720NeuU8vOWuo:hestia/document-types",
+                      "fields": [
+                        {
+                          "id": "I-AgctMrorbGd_",
+                          "type": "list",
+                          "faked": "",
+                          "field": "$state",
+                          "choices": "New\nMaster List\nMaster List\nMaster List\nMaster List\nMaster List",
+                          "multiple": false,
+                          "_expanded": false,
+                          "fieldType": "State name",
+                          "randomType": "text"
+                        }
+                      ],
+                      "matchId": "",
+                      "children": [],
+                      "typeName": "Assessor Questionnaire",
+                      "_expanded": true,
+                      "matchQuery": {
+                        "$and": [
+                          {
+                            "assessmentType": {
+                              "$eq": "general"
+                            }
+                          }
+                        ]
+                      },
+                      "consequences": []
+                    }
+                  ]
+                }
+              ],
+              "_fieldsCollapsed": true,
+              "createMaxDocuments": "200",
+              "createMinDocuments": "200"
             }
           ],
           "__init": true,
@@ -451,7 +581,7 @@
   "__hideBehaviours": true,
   "__behaviourCollapse": {},
   "_original": {
-    "__": "6V32Kcuy9RleRP",
+    "__": "mwLYE6I7UWPD7D",
     "_id": "rsihYJKKDVyaYN:hestia/project",
     "name": "Project",
     "$valid": true,
@@ -460,7 +590,7 @@
     "$invalid": false,
     "_created": 1621327545000,
     "_deleted": 0,
-    "_modified": 1627298970000,
+    "_modified": 1627305897000,
     "components": "graph-ql",
     "_behaviours": {
       "_state": "",
@@ -856,7 +986,7 @@
                         "type": "random",
                         "faked": "{__temp3}-{__temp4}:{$target}",
                         "field": "_id",
-                        "_expanded": true,
+                        "_expanded": false,
                         "randomType": "text"
                       }
                     ],
@@ -865,7 +995,73 @@
                     "typeName": "Anchor Request",
                     "_expanded": true,
                     "fakerLocale": "en_CA",
-                    "consequences": [],
+                    "consequences": [
+                      {
+                        "id": "GsMOmOw4EZ6nAy",
+                        "type": "fYmpCXoXNbRtVg:hestia/document-types",
+                        "fields": [
+                          {
+                            "id": "Y2DqFYCveAd1pI",
+                            "type": "list",
+                            "faked": "",
+                            "field": "$state",
+                            "choices": "New\nNew\nSubmitted\nSubmitted\nSubmitted\nSubmitted\nSubmitted",
+                            "multiple": false,
+                            "_expanded": true,
+                            "fieldType": "State name",
+                            "randomType": "text"
+                          }
+                        ],
+                        "matchId": "",
+                        "children": [],
+                        "typeName": "Contractor Questionnaire",
+                        "_expanded": false,
+                        "matchQuery": {
+                          "$and": [
+                            {
+                              "assessmentType": {
+                                "$ne": "general"
+                              }
+                            }
+                          ]
+                        },
+                        "consequences": [
+                          {
+                            "id": "yKIaOoMcHc7NEQ",
+                            "type": "R720NeuU8vOWuo:hestia/document-types",
+                            "fields": [
+                              {
+                                "id": "RT27-YIVMynhOB",
+                                "type": "list",
+                                "faked": "",
+                                "field": "$state",
+                                "choices": "New\nMaster List\nMaster List\nMaster List",
+                                "multiple": false,
+                                "_expanded": true,
+                                "fieldType": "State name",
+                                "randomType": "text"
+                              }
+                            ],
+                            "matchId": "",
+                            "children": [],
+                            "typeName": "Assessor Questionnaire",
+                            "_expanded": true,
+                            "matchQuery": {
+                              "$and": [
+                                {
+                                  "assessmentType": {
+                                    "$ne": "general"
+                                  }
+                                }
+                              ]
+                            },
+                            "consequences": [],
+                            "_fieldsCollapsed": true
+                          }
+                        ]
+                      }
+                    ],
+                    "_fieldsCollapsed": true,
                     "createMaxDocuments": "4",
                     "createMinDocuments": "1"
                   }
@@ -874,10 +1070,74 @@
                 "typeName": "Company Profile",
                 "_expanded": true,
                 "fakerLocale": "en_CA",
-                "consequences": [],
-                "_fieldsCollapsed": false,
-                "createMaxDocuments": "1",
-                "createMinDocuments": "1"
+                "consequences": [
+                  {
+                    "id": "lSZYukQErvjNNd",
+                    "type": "fYmpCXoXNbRtVg:hestia/document-types",
+                    "fields": [
+                      {
+                        "id": "drjTzfUS9AAAtW",
+                        "type": "list",
+                        "faked": "",
+                        "field": "$state",
+                        "choices": "New\nSubmitted\nSubmitted\nSubmitted\nSubmitted\nSubmitted\nSubmitted",
+                        "multiple": false,
+                        "_expanded": false,
+                        "fieldType": "State name",
+                        "randomType": "text"
+                      }
+                    ],
+                    "matchId": "",
+                    "children": [],
+                    "typeName": "Contractor Questionnaire",
+                    "_expanded": true,
+                    "matchQuery": {
+                      "$and": [
+                        {
+                          "assessmentType": {
+                            "$eq": "general"
+                          }
+                        }
+                      ]
+                    },
+                    "consequences": [
+                      {
+                        "id": "1oxVkOikjsgkut",
+                        "type": "R720NeuU8vOWuo:hestia/document-types",
+                        "fields": [
+                          {
+                            "id": "I-AgctMrorbGd_",
+                            "type": "list",
+                            "faked": "",
+                            "field": "$state",
+                            "choices": "New\nMaster List\nMaster List\nMaster List\nMaster List\nMaster List",
+                            "multiple": false,
+                            "_expanded": false,
+                            "fieldType": "State name",
+                            "randomType": "text"
+                          }
+                        ],
+                        "matchId": "",
+                        "children": [],
+                        "typeName": "Assessor Questionnaire",
+                        "_expanded": true,
+                        "matchQuery": {
+                          "$and": [
+                            {
+                              "assessmentType": {
+                                "$eq": "general"
+                              }
+                            }
+                          ]
+                        },
+                        "consequences": []
+                      }
+                    ]
+                  }
+                ],
+                "_fieldsCollapsed": true,
+                "createMaxDocuments": "200",
+                "createMinDocuments": "200"
               }
             ],
             "__init": true,
