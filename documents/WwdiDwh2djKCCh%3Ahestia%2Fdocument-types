@@ -1,5 +1,5 @@
 {
-  "__": "foSsDYgWvJ0mOg",
+  "__": "PBlRSy2o8Q3dku",
   "_id": "WwdiDwh2djKCCh:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -171,6 +171,10 @@
   "__warn": false,
   "client": "rsihYJKKDVyaYN",
   "gitHub": {
+    "1CVUkaSvIKpoae": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
     "1J8739KZBOtzVQ": {
       "publishDocs": "",
       "gitHubPublish": true
@@ -210,14 +214,14 @@
     {
       "id": "g0kqLgJQJ13MRT",
       "name": "1.1",
-      "time": 1625588177667,
-      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "time": 1627302072943,
+      "user": "yRZ81Qp9q_eG14",
       "locked": false,
-      "_selectId": "mBqjsvaG4QuCfg",
+      "_selectId": "-GbJHZ6Wx5-yT3",
       "parentVersion": "pmgndWqtbw5UAv"
     }
   ],
-  "_modified": 1627286358000,
+  "_modified": 1627302073000,
   "components": "",
   "isLockedBy": null,
   "navigation": [],
@@ -515,6 +519,7 @@
       ]
     }
   },
+  "_components": true,
   "createOnNew": false,
   "description": "",
   "displayName": "Master List",
@@ -533,13 +538,15 @@
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+  "_lastModifiedBy": "yRZ81Qp9q_eG14",
   "defaultActivity": "6NjIL2Z7jEbrem",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
+  "__hidePublishing": true,
   "documentBackdrop": "#f4f4f4",
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
+  "__behaviourCollapse": {},
   "devices-allowed-html": "",
   "isLockedByCurrentUser": false
 }

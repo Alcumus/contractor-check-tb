@@ -526,7 +526,7 @@
     "isLockedByCurrentUser": false
   },
   {
-    "__": "sIZVvqN5U738X-",
+    "__": "ESetY-p3sb_WKx",
     "_id": "WwdiDwh2djKCCh-g0kqLgJQJ13MRT:hestia/versions",
     "__id": "WwdiDwh2djKCCh:hestia/document-types",
     "__ok": true,
@@ -699,6 +699,10 @@
     "__warn": false,
     "client": "rsihYJKKDVyaYN",
     "gitHub": {
+      "1CVUkaSvIKpoae": {
+        "publishDocs": "",
+        "gitHubPublish": true
+      },
       "1J8739KZBOtzVQ": {
         "publishDocs": "",
         "gitHubPublish": true
@@ -721,11 +725,11 @@
       }
     },
     "$invalid": false,
-    "_created": 1621454620000,
+    "_created": 1627286358000,
     "_deleted": 0,
     "database": "contractorCheck",
     "maxWidth": 1000,
-    "_modified": 1625490857000,
+    "_modified": 1627286358000,
     "components": "",
     "isLockedBy": null,
     "navigation": [],
@@ -1023,6 +1027,7 @@
         ]
       }
     },
+    "_components": true,
     "createOnNew": false,
     "description": "",
     "displayName": "Master List",
@@ -1041,13 +1046,15 @@
     },
     "tabsBackground": "#f4f4f4",
     "tabsForeground": "#555",
-    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_lastModifiedBy": "yRZ81Qp9q_eG14",
     "defaultActivity": "6NjIL2Z7jEbrem",
     "devices-allowed": "",
     "sideBarMinWidth": 150,
+    "__hidePublishing": true,
     "documentBackdrop": "#f4f4f4",
     "sidebarBackground": "#fff",
     "documentBackground": "#f4f4f4",
+    "__behaviourCollapse": {},
     "devices-allowed-html": "",
     "isLockedByCurrentUser": false
   }
