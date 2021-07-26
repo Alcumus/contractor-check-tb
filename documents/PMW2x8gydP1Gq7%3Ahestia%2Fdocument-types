@@ -1,5 +1,5 @@
 {
-  "__": "q-B8nrK2uc4if1",
+  "__": "botx_9qGMmFCxu",
   "_id": "PMW2x8gydP1Gq7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -202,7 +202,7 @@
   },
   "profile": "undefined",
   "$invalid": false,
-  "_created": 1621508921000,
+  "_created": 1627286353000,
   "_deleted": 0,
   "database": "test",
   "maxWidth": 1000,
@@ -210,9 +210,10 @@
     {
       "id": "tV6rqmkixtZSUh",
       "name": "1",
-      "time": 1626949783966,
-      "user": "8fa3969a-8f88-46fd-b3bf-6dcb7df5f2b9",
+      "time": 1625815627261,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
+      "_selectId": "9HUIcaxNxy4P0H",
       "parentVersion": ""
     }
   ],
@@ -221,7 +222,7 @@
       "exposeWebhooks": ""
     }
   },
-  "_modified": 1626950111000,
+  "_modified": 1627286353000,
   "components": "verification,localisation,hint-text",
   "isLockedBy": null,
   "navigation": [],
@@ -9857,7 +9858,6 @@
                   "hints": {},
                   "formName": "General",
                   "question": "",
-                  "_selectId": "l3HtyoEqdzJHNw",
                   "condition": "valueEquals(\"assessmentType\", \"general\")"
                 },
                 {
@@ -9867,18 +9867,7 @@
                   "hints": {},
                   "formName": "Agellan Capital Partners Inc",
                   "question": "",
-                  "_selectId": "KltKQG1Q8UNKxr",
                   "condition": "valueEquals(\"assessmentType\", \"Agellan Capital Partners Inc\")"
-                },
-                {
-                  "id": "s4b4AfspGu8aaI",
-                  "form": "IQpd_98k8ksKGb",
-                  "name": "",
-                  "type": "useForm",
-                  "hints": {},
-                  "question": "",
-                  "_selectId": "0Gx6YHD_xKZ-ud",
-                  "condition": "valueEquals(\"assessmentType\", \"Ace Air Conditioning\")"
                 },
                 {
                   "id": "d9rqnl-MNi3t6F",
@@ -9887,7 +9876,6 @@
                   "hints": {},
                   "formName": "Bimbo Canada (Canada Bread)",
                   "question": "",
-                  "_selectId": "e5zDN1XIMwuLEB",
                   "condition": "valueEquals(\"assessmentType\", \"Bimbo Canada (Canada Bread)\")"
                 },
                 {
@@ -9897,7 +9885,6 @@
                   "hints": {},
                   "formName": "Bird Construction (Client)",
                   "question": "",
-                  "_selectId": "-axsqP3xRifHni",
                   "condition": "valueEquals(\"assessmentType\", \"Bird Construction (Client)\")"
                 },
                 {
@@ -9907,7 +9894,6 @@
                   "hints": {},
                   "formName": "Bouygues Energies & Services",
                   "question": "",
-                  "_selectId": "ACRmR8gZSpWXE_",
                   "condition": "valueEquals(\"assessmentType\", \"Bouygues Energies & Services\")"
                 },
                 {
@@ -9917,7 +9903,6 @@
                   "hints": {},
                   "formName": "Branksome Hall",
                   "question": "",
-                  "_selectId": "z1X-BIghZhDibn",
                   "condition": "valueEquals(\"assessmentType\", \"Branksome Hall\")"
                 },
                 {
@@ -9927,7 +9912,6 @@
                   "hints": {},
                   "formName": "BURNCO Rock Products Ltd - Client",
                   "question": "",
-                  "_selectId": "sD7tKe0ebEWkST",
                   "condition": "valueEquals(\"assessmentType\", \"BURNCO Rock Products Ltd - Client\")"
                 },
                 {
@@ -9937,7 +9921,6 @@
                   "hints": {},
                   "formName": "Cadillac Fairview Corporation Limited",
                   "question": "",
-                  "_selectId": "gQx-sNAhg_HqF8",
                   "condition": "valueEquals(\"assessmentType\", \"Cadillac Fairview Corporation Limited\")"
                 },
                 {
@@ -9947,7 +9930,6 @@
                   "hints": {},
                   "formName": "Calgary Co-Operative Association Limited",
                   "question": "",
-                  "_selectId": "6AfZOyul1GZj70",
                   "condition": "valueEquals(\"assessmentType\", \"Calgary Co-Operative Association Limited\")"
                 },
                 {
@@ -9957,7 +9939,6 @@
                   "hints": {},
                   "formName": "Canada General Documents",
                   "question": "",
-                  "_selectId": "wVjU1XLWEfd5nu",
                   "condition": "valueEquals(\"assessmentType\", \"Canada General Documents\")"
                 },
                 {
@@ -9967,7 +9948,6 @@
                   "hints": {},
                   "formName": "CBRE (Alberta) Client",
                   "question": "",
-                  "_selectId": "YhehtBmT-UFJqF",
                   "condition": "valueEquals(\"assessmentType\", \"CBRE (Alberta) Client\")"
                 },
                 {
@@ -9977,7 +9957,6 @@
                   "hints": {},
                   "formName": "CBRE Limited (Client)",
                   "question": "",
-                  "_selectId": "bcS6avb_R9gNIK",
                   "condition": "valueEquals(\"assessmentType\", \"CBRE Limited (Client)\")"
                 },
                 {
@@ -9987,7 +9966,6 @@
                   "hints": {},
                   "formName": "Choice Properties - Industrial & Office",
                   "question": "",
-                  "_selectId": "evsBj2qDDI20Vj",
                   "condition": "valueEquals(\"assessmentType\", \"Choice Properties - Industrial & Office\")"
                 },
                 {
@@ -13396,15 +13374,12 @@
             {
               "id": "Main",
               "name": "Questions",
-              "_expanded": true,
               "_selectId": "7iyX4xLuRPSzjK",
-              "condition": "",
               "questions": [
                 {
                   "id": "a1S3m000009DJxpCard",
                   "type": "card",
                   "hints": {},
-                  "_selectId": "RhHOJu6sB-JU6h",
                   "condition": "",
                   "elevation": 0
                 },
@@ -13416,18 +13391,9 @@
                     "required": true,
                     "multi_line": true
                   },
-                  "maxWidth": "",
                   "question": "Choice Properties (Industrial & Office) has requested that you provide us with a Clearance Certificate/Letter from Workers' Compensation in the provinces where you work for this client and your Head Office location, if they differ. On or before the provincial expiry date, ensure we are provided with a renewed Clearance every 45, 60 or 90 days depending on the province. Please list these provinces in your answer and confirm by uploading the Clearances for each province listed. Click the following link to download your WCB/CSST: <a target=\"_blank\" href=\"https://contractorcheck.force.com/contractorportal/s/files\">https://contractorcheck.force.com/contractorportal/s/files</a>",
-                  "_selectId": "Ib6HU4wzvvWp5d",
                   "condition": "",
-                  "inputLabel": " ",
-                  "defaultValue": "",
-                  "questionHeight": "",
-                  "clearIfDisabled": "",
-                  "questionLeftPad": "",
-                  "questionRightPad": "",
-                  "editableCondition": "",
-                  "questionSpaceBefore": ""
+                  "inputLabel": " "
                 },
                 {
                   "id": "a1S3m000009DJxpFile",
@@ -13437,7 +13403,6 @@
                     "dragAndDrop": true
                   },
                   "question": "<h5>Required Evidence</h5>",
-                  "_selectId": "6_fitxbxJPL8sv",
                   "condition": "",
                   "extensions": [
                     "docx",
@@ -13462,20 +13427,17 @@
                   "type": "hintText",
                   "hints": {},
                   "title": "Helpful Tips",
-                  "_selectId": "zYmvgtD7GBwZGr",
                   "expandByDefault": true
                 },
                 {
                   "id": "a1S3m000009DJxpEnd",
                   "type": "stop",
-                  "hints": {},
-                  "_selectId": "mKrwvgPZuZ7bA6"
+                  "hints": {}
                 },
                 {
                   "id": "a1S3m000009DJm4Card",
                   "type": "card",
                   "hints": {},
-                  "_selectId": "K6dEQ-AWiOUfGr",
                   "condition": "",
                   "elevation": 0
                 },
@@ -13488,7 +13450,6 @@
                     "multi_line": true
                   },
                   "question": "Choice Properties (Industrial & Office) has requested that you provide us with a Certificate of Insurance. You will find attached, in the link below, the insurance requirements to be submitted to your insurance representative. Upon receipt of your Certificate(s) of Insurance, please upload for our review. Keeping a current Certificate of Insurance on your ContractorCheck account is required by the client. Please confirm that you have uploaded a Certificate of Insurance.",
-                  "_selectId": "L8n5QKSvQC85Et",
                   "condition": "",
                   "inputLabel": " "
                 },
@@ -13500,7 +13461,6 @@
                     "dragAndDrop": true
                   },
                   "question": "<h5>Required Evidence</h5>",
-                  "_selectId": "3JqjYbinvjpfKZ",
                   "condition": "",
                   "extensions": [
                     "docx",
@@ -13525,20 +13485,17 @@
                   "type": "hintText",
                   "hints": {},
                   "title": "Helpful Tips",
-                  "_selectId": "LcDOAlVcPFqLF6",
                   "expandByDefault": true
                 },
                 {
                   "id": "a1S3m000009DJm4End",
                   "type": "stop",
-                  "hints": {},
-                  "_selectId": "-QpLxY6EPtdN1Y"
+                  "hints": {}
                 },
                 {
                   "id": "a1S3m000009DJy9Card",
                   "type": "card",
                   "hints": {},
-                  "_selectId": "xNY4qwdV9CqEab",
                   "condition": "",
                   "elevation": 0
                 },
@@ -13551,7 +13508,6 @@
                     "multi_line": true
                   },
                   "question": "Choice Properties has requested you provide us with a signed and dated Choice Properties - REIT Pandemic Acknowledgement Form. You will find attached, in the link below, the Pandemic Acknowledgement Form. Once completed, please upload into the ContractorCheck portal. This will be an annual requirement. <a target=\"_blank\" href=\"https://contractorcheck--c.na116.content.force.com/sfc/dist/version/renditionDownload?rendition=SVGZ&versionId=0683m00000GDh2u&operationContext=DELIVERY&contentId=05T3m00000wtdmq&page=0&d=/a/3m000000JAbD/VmY51MivVDSRQ8XcY8i_.pLs1JIeFJZCQDu2tIPw4C8&oid=00D1N000002qkp5&dpt=null&viewId=\">https://contractorcheck--c.na116.content.force.com/sfc/dist/version/renditionDownload?rendition=SVGZ&versionId=0683m00000GDh2u&operationContext=DELIVERY&contentId=05T3m00000wtdmq&page=0&d=/a/3m000000JAbD/VmY51MivVDSRQ8XcY8i_.pLs1JIeFJZCQDu2tIPw4C8&oid=00D1N000002qkp5&dpt=null&viewId=</a>",
-                  "_selectId": "nGY5j9RP-wBVan",
                   "condition": "",
                   "inputLabel": " "
                 },
@@ -13563,7 +13519,6 @@
                     "dragAndDrop": true
                   },
                   "question": "<h5>Required Evidence</h5>",
-                  "_selectId": "8JoCX7da-lXJZB",
                   "condition": "",
                   "extensions": [
                     "docx",
@@ -13595,13 +13550,10 @@
                   "type": "stop",
                   "hints": {}
                 }
-              ],
-              "description": ""
+              ]
             }
           ],
-          "_selectId": "mI-uBZUjYZvEqb",
-          "condition": "",
-          "duplicateNames": {}
+          "_selectId": "mI-uBZUjYZvEqb"
         },
         {
           "id": "choicePropertiesReit",
@@ -25952,271 +25904,6 @@
           "condition": "",
           "description": "",
           "duplicateNames": {}
-        },
-        {
-          "id": "IQpd_98k8ksKGb",
-          "name": "Ace Air Conditioning",
-          "sections": [
-            {
-              "id": "1626943225566-Lq1OLOTeCgSNTt",
-              "_id": "1626943225566-Lq1OLOTeCgSNTt:hestia/form-sections",
-              "name": "Questions",
-              "_expanded": true,
-              "_selectId": "fS25RmnQ3gQZiJ",
-              "condition": "",
-              "questions": [
-                {
-                  "id": "07ryIvGukKiP38",
-                  "name": "",
-                  "type": "card",
-                  "color": "",
-                  "hints": {},
-                  "title": "",
-                  "question": "",
-                  "_selectId": "2Dyj-0w8Kavcit",
-                  "condition": "",
-                  "elevation": "",
-                  "topMargin": "",
-                  "background": "",
-                  "leftMargin": "",
-                  "collapsible": "",
-                  "rightMargin": "",
-                  "bottomMargin": ""
-                },
-                {
-                  "id": "HLKN0oA63_XPHL",
-                  "name": "airConditioningServices",
-                  "type": "text",
-                  "hints": {
-                    "required": true,
-                    "multi_line": true
-                  },
-                  "maxWidth": "",
-                  "question": "<p>Please describe the air conditioning services you provide.</p>\n",
-                  "_selectId": "xHXYjpA6msBACN",
-                  "condition": "",
-                  "inputLabel": "",
-                  "defaultValue": "",
-                  "questionHeight": "",
-                  "clearIfDisabled": "",
-                  "questionLeftPad": "",
-                  "questionRightPad": "",
-                  "editableCondition": "",
-                  "questionSpaceBefore": ""
-                },
-                {
-                  "id": "oMNZGyXCs3cEY2",
-                  "hint": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>\n<p></p>\n<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,</p>\n",
-                  "icon": "MdInfo",
-                  "name": "",
-                  "type": "hintText",
-                  "hints": {},
-                  "title": "Helpful Tips",
-                  "question": "",
-                  "_selectId": "YTlOXeTeJ_LxqD",
-                  "condition": "",
-                  "iconColor": "#0A599A",
-                  "expandByDefault": true
-                },
-                {
-                  "id": "LN54mgeP_4tSUJ",
-                  "name": "",
-                  "type": "stop",
-                  "hints": {},
-                  "question": "",
-                  "stopWhat": [
-                    "card"
-                  ],
-                  "_selectId": "sDlh_Yx5jvdYy-",
-                  "condition": ""
-                },
-                {
-                  "id": "_eXY5yBVHPFGw_",
-                  "name": "",
-                  "type": "card",
-                  "color": "",
-                  "hints": {},
-                  "title": "",
-                  "question": "",
-                  "_selectId": "8eWN8_x3Ambt21",
-                  "condition": "",
-                  "elevation": "",
-                  "topMargin": "",
-                  "background": "",
-                  "leftMargin": "",
-                  "collapsible": "",
-                  "rightMargin": "",
-                  "bottomMargin": ""
-                },
-                {
-                  "id": "dCMSf0RKPxMbYn",
-                  "name": "acInsuranceChoice",
-                  "type": "boolean",
-                  "hints": {
-                    "required": true
-                  },
-                  "choices": [
-                    {
-                      "label": "Yes",
-                      "value": "yes"
-                    },
-                    {
-                      "label": "No",
-                      "value": "no"
-                    }
-                  ],
-                  "question": "<p>Do you have any insurance?</p>\n",
-                  "_selectId": "xYoi-spbo6gymg",
-                  "condition": "",
-                  "allowNullify": "",
-                  "questionHeight": "",
-                  "trueInputLabel": "<p>Yes</p>\n",
-                  "clearIfDisabled": "",
-                  "falseInputLabel": "<p>No</p>\n",
-                  "questionLeftPad": "",
-                  "questionRightPad": "",
-                  "editableCondition": "",
-                  "questionSpaceBefore": "",
-                  "selectedDefaultValue": "-1"
-                },
-                {
-                  "id": "HucmP84H_KczDz",
-                  "icon": "",
-                  "name": "acInsuranceUpload",
-                  "type": "file",
-                  "color": "",
-                  "hints": {
-                    "dragAndDrop": true
-                  },
-                  "modal": {
-                    "enabled": false
-                  },
-                  "variant": "text",
-                  "question": "<p>Please upload your insurance documents.</p>\n",
-                  "_selectId": "ZBMGWmuHXfW6li",
-                  "condition": "valueEquals(\"acInsuranceChoice\", \"Yes\")",
-                  "extensions": [
-                    "pdf",
-                    "png"
-                  ],
-                  "inputLabel": "",
-                  "maximumSize": "1000000",
-                  "maximumFiles": 99999,
-                  "minimumFiles": 0,
-                  "buttonCaption": "UPLOAD",
-                  "disableDelete": "",
-                  "uploadCaption": "Uploading & Virus Scanning:",
-                  "disablePreview": "",
-                  "offlineCapable": "",
-                  "questionHeight": "",
-                  "backgroundColor": "",
-                  "clearIfDisabled": "",
-                  "disableDownload": "",
-                  "questionLeftPad": "",
-                  "questionRightPad": "",
-                  "_autoCheckOptions": [],
-                  "editableCondition": "",
-                  "questionSpaceBefore": ""
-                },
-                {
-                  "id": "07yUsyftEdX2do",
-                  "hint": "<p><span style=\"color: #679861;\">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</span></p>\n<p></p>\n<p><span style=\"color: #679861;\">Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,</span></p>\n",
-                  "icon": "MdInfo",
-                  "name": "",
-                  "type": "hintText",
-                  "hints": {},
-                  "title": "Helpful Tips",
-                  "question": "",
-                  "_selectId": "fxa2v5KUH6cLLf",
-                  "condition": "",
-                  "iconColor": "#0A599A",
-                  "expandByDefault": true
-                },
-                {
-                  "id": "hF03RTHydh3Y7K",
-                  "name": "",
-                  "type": "stop",
-                  "hints": {},
-                  "question": "",
-                  "stopWhat": [
-                    "card"
-                  ],
-                  "_selectId": "TxMqq0Q6Jfypu7",
-                  "condition": ""
-                },
-                {
-                  "id": "VCDgkcPrhSbIpR",
-                  "name": "",
-                  "type": "card",
-                  "color": "",
-                  "hints": {},
-                  "title": "",
-                  "question": "",
-                  "_selectId": "hMUjtmWAbppgYL",
-                  "condition": "",
-                  "elevation": "",
-                  "topMargin": "",
-                  "background": "",
-                  "leftMargin": "",
-                  "collapsible": "",
-                  "rightMargin": "",
-                  "bottomMargin": ""
-                },
-                {
-                  "id": "0w8mUOk9Fdbx4a",
-                  "name": "acDateOfIncorporation",
-                  "type": "date",
-                  "hints": {
-                    "required": true,
-                    "past_only": true
-                  },
-                  "question": "<p>Please provide your date of incorporation.</p>\n",
-                  "_selectId": "tv9ks_TlEv1ClY",
-                  "condition": "",
-                  "inputLabel": "",
-                  "localFormat": "",
-                  "useMaterialUI": "",
-                  "preventNullify": "",
-                  "questionHeight": "",
-                  "clearIfDisabled": "",
-                  "questionLeftPad": "",
-                  "questionRightPad": "",
-                  "editableCondition": "",
-                  "questionSpaceBefore": ""
-                },
-                {
-                  "id": "ucgI-rKfWtjLDQ",
-                  "hint": "<p><span style=\"color: #167DA8;\">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</span></p>\n<p></p>\n<p><em>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,</em></p>\n",
-                  "icon": "MdInfo",
-                  "name": "",
-                  "type": "hintText",
-                  "hints": {},
-                  "title": "Helpful Tips",
-                  "question": "",
-                  "_selectId": "mNzLl2AvAZJzMR",
-                  "condition": "",
-                  "iconColor": "#0A599A",
-                  "expandByDefault": true
-                },
-                {
-                  "id": "5k1l2jEQRv75QQ",
-                  "name": "",
-                  "type": "stop",
-                  "hints": {},
-                  "question": "",
-                  "stopWhat": [
-                    "card"
-                  ],
-                  "_selectId": "be0-kfVXXgWFy-",
-                  "condition": ""
-                }
-              ],
-              "description": ""
-            }
-          ],
-          "condition": "",
-          "description": "",
-          "duplicateNames": {}
         }
       ],
       "styled": [
@@ -32054,45 +31741,6 @@
               "_dispatchInstances": null,
               "_dispatchListeners": null
             },
-            "0w8mUOk9Fdbx4a": {
-              "helpText": "",
-              "viewTypes": "",
-              "helpTextTso": "",
-              "isAuditable": true,
-              "actionsTypes": "",
-              "isYesNowDisplay": true,
-              "isNoScoreAssessed": "",
-              "questionScoreSteps": "1",
-              "questionScoreOffset": "0",
-              "questionValidScores": "0,1",
-              "questionMaximumScore": ""
-            },
-            "HLKN0oA63_XPHL": {
-              "helpText": "",
-              "viewTypes": "",
-              "helpTextTso": "",
-              "isAuditable": true,
-              "actionsTypes": "",
-              "isYesNowDisplay": true,
-              "isNoScoreAssessed": "",
-              "questionScoreSteps": "1",
-              "questionScoreOffset": "0",
-              "questionValidScores": "0,1",
-              "questionMaximumScore": ""
-            },
-            "HucmP84H_KczDz": {
-              "helpText": "",
-              "viewTypes": "",
-              "helpTextTso": "",
-              "isAuditable": true,
-              "actionsTypes": "",
-              "isYesNowDisplay": true,
-              "isNoScoreAssessed": "",
-              "questionScoreSteps": "1",
-              "questionScoreOffset": "0",
-              "questionValidScores": "0,1",
-              "questionMaximumScore": ""
-            },
             "clJso5hIqohqqr": {
               "helpText": "",
               "viewTypes": "",
@@ -32105,19 +31753,6 @@
               "questionScoreOffset": "0",
               "questionValidScores": "",
               "questionMaximumScore": null
-            },
-            "dCMSf0RKPxMbYn": {
-              "helpText": "",
-              "viewTypes": "",
-              "helpTextTso": "",
-              "isAuditable": false,
-              "actionsTypes": "",
-              "isYesNowDisplay": true,
-              "isNoScoreAssessed": "",
-              "questionScoreSteps": "1",
-              "questionScoreOffset": "0",
-              "questionValidScores": "",
-              "questionMaximumScore": ""
             },
             "fruUAmLSuFNX9L": {
               "helpText": "",
@@ -40243,17 +39878,14 @@
               "questionMaximumScore": null
             },
             "a1S3m000009DJxpText": {
-              "helpText": "",
               "viewTypes": "",
-              "helpTextTso": "",
               "isAuditable": true,
               "actionsTypes": "",
               "isYesNowDisplay": true,
-              "isNoScoreAssessed": "",
               "questionScoreSteps": "1",
               "questionScoreOffset": "0",
               "questionValidScores": "0,1",
-              "questionMaximumScore": ""
+              "questionMaximumScore": null
             },
             "a1S3m000009DJy9File": {
               "viewTypes": "",
@@ -40300,7 +39932,7 @@
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "8fa3969a-8f88-46fd-b3bf-6dcb7df5f2b9",
+  "_lastModifiedBy": "64467393-61e5-45fe-a026-45aed6419337",
   "defaultActivity": "xSkC0pR6hZ1H2U",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
