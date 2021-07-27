@@ -1,6 +1,6 @@
 [
   {
-    "__": "oDLdbPT_Vl_JTN",
+    "__": "fDHMUzrjgkHq19",
     "_id": "R720NeuU8vOWuo-sTNP-VH3hEzwdP:hestia/versions",
     "__id": "R720NeuU8vOWuo:hestia/document-types",
     "__ok": true,
@@ -211,11 +211,11 @@
       }
     },
     "$invalid": false,
-    "_created": 1627286354000,
+    "_created": 1621508919000,
     "_deleted": 0,
     "database": "contractorcheck",
     "maxWidth": 1000,
-    "_modified": 1627286354000,
+    "_modified": 1626424030000,
     "components": "verification,navigation,richtext",
     "isLockedBy": null,
     "navigation": [],
@@ -1925,6 +1925,140 @@
             ],
             "$behaviourType": "formAction",
             "visibleDemands": []
+          },
+          {
+            "id": "TUnys-HhGrwqJP",
+            "name": "Reassessing",
+            "forms": [
+              {
+                "id": "-KD-zryl7qclWt",
+                "form": "0JWxAMgsVWjGW_",
+                "readOnly": false,
+                "_selectId": "R13uk_hEaCC3RK"
+              },
+              {
+                "id": "Grq66t264bvIdv",
+                "form": "allForms",
+                "readOnly": false,
+                "_selectId": "lmi_b45iYB1WgU"
+              },
+              {
+                "id": "TQuIGBzDY1JNe-",
+                "form": "w7GjXlxsQ53W2i",
+                "readOnly": false,
+                "_selectId": "VfzAL0JcitS_ke"
+              },
+              {
+                "id": "WQwq_jliWX7_Ky",
+                "form": "Z2qfcK_DREYEil",
+                "readOnly": false,
+                "_selectId": "EtXUyKQlT0G4db"
+              },
+              {
+                "id": "ZudrY5gTjt9uMa",
+                "form": "T_UckRyYF2bjL-",
+                "readOnly": false,
+                "_selectId": "wj5jYUZRltJ2HG"
+              }
+            ],
+            "inline": true,
+            "actions": [
+              {
+                "id": "Bd-SAKEYEYm9XH",
+                "blur": "",
+                "icon": "",
+                "color": "#1da7e0",
+                "modal": {
+                  "title": "Submit To Master List",
+                  "cancel": "Cancel",
+                  "enabled": true,
+                  "message": "Are you sure you want to submit the questionnaire response to the master list?",
+                  "cancelColor": "",
+                  "toggleOrder": "",
+                  "confirmColor": "#f5f5f5",
+                  "confirmation": "Ok",
+                  "cancelBackgroundColor": "",
+                  "confirmBackgroundColor": "#0081af"
+                },
+                "goBack": "",
+                "caption": "Accept",
+                "command": "setData",
+                "toState": "Quality Control",
+                "variant": "text",
+                "_selectId": "Tz1HKfqngFTU5n",
+                "condition": "allMax",
+                "endOfLine": "",
+                "navigateTo": "",
+                "properties": [],
+                "changeState": true,
+                "backgroundColor": "#f5f5f5",
+                "visibleCondition": "",
+                "notificationToast": ""
+              },
+              {
+                "id": "xu1pdevRePcm86",
+                "blur": "",
+                "icon": "",
+                "color": "#fff",
+                "modal": {
+                  "title": "Reject Questionnaire?",
+                  "cancel": "Cancel",
+                  "enabled": true,
+                  "message": "Are you sure you want to reject the questionnaire and return it to the contractor?",
+                  "cancelColor": "",
+                  "toggleOrder": "",
+                  "confirmColor": "",
+                  "confirmation": "Ok",
+                  "cancelBackgroundColor": "",
+                  "confirmBackgroundColor": ""
+                },
+                "goBack": "",
+                "caption": "Reject",
+                "command": "setData",
+                "toState": "Rejected",
+                "variant": "text",
+                "_selectId": "1g1C0p7hhRS8BE",
+                "condition": "someRejected",
+                "endOfLine": "",
+                "navigateTo": "",
+                "properties": [],
+                "changeState": true,
+                "backgroundColor": "#f50057",
+                "visibleCondition": "",
+                "notificationToast": ""
+              },
+              {
+                "id": "6ZJIoruKfYvMvx",
+                "blur": "",
+                "icon": "",
+                "color": "#fff",
+                "modal": {
+                  "enabled": false
+                },
+                "goBack": "",
+                "caption": "Save",
+                "command": "setData",
+                "toState": "Reassessing",
+                "variant": "text",
+                "_selectId": "Oa1EVXUFP3oEG8",
+                "condition": "",
+                "endOfLine": "",
+                "navigateTo": "",
+                "properties": [],
+                "changeState": true,
+                "backgroundColor": "#03a9f4",
+                "visibleCondition": "",
+                "notificationToast": ""
+              }
+            ],
+            "storeIn": "",
+            "_selectId": "TSHmtTfNuz0VXG",
+            "editDemands": [],
+            "inputStates": [
+              "Reassessing"
+            ],
+            "$behaviourType": "formAction",
+            "visibleDemands": []
           }
         ],
         "confirmation": [
@@ -2015,7 +2149,7 @@
     },
     "tabsBackground": "#f4f4f4",
     "tabsForeground": "#555",
-    "_lastModifiedBy": "yRZ81Qp9q_eG14",
+    "_lastModifiedBy": "64467393-61e5-45fe-a026-45aed6419337",
     "defaultActivity": null,
     "devices-allowed": "",
     "sideBarMinWidth": 150,
