@@ -149,5 +149,55 @@
         }
       }
     }
+  },
+  {
+    "__": "tP6z4cWwu8uw2X",
+    "_id": "eVCo024qTtDPew:hestia/topics",
+    "name": "Corporate Structure",
+    "_client": "rsihYJKKDVyaYN",
+    "_created": 1627397337000,
+    "_deleted": 0,
+    "concerns": [
+      {
+        "id": "5WH__oJ9L96ed-",
+        "name": "Company",
+        "table": "contractorcheck/masterCompanyProfile",
+        "fields": [],
+        "recursive": true,
+        "detailView": "TwE9lX50LCjAz3",
+        "sortFields": [
+          "companyName"
+        ],
+        "defaultType": "UJns4BZ0dhGyw5:hestia/document-types",
+        "defaultView": "TwE9lX50LCjAz3",
+        "searchFields": [
+          "companyName",
+          "City",
+          "description",
+          "address",
+          "email",
+          "phone"
+        ],
+        "detailView_name": "Master List Name",
+        "defaultView_name": "Master List Name"
+      }
+    ],
+    "_modified": 1627397634000,
+    "relationships": {
+      "types": {
+        "UJns4BZ0dhGyw5:hestia/document-types": {
+          "field": "_id",
+          "mapsTo": "",
+          "contextMapping": [],
+          "relatedMapping": []
+        },
+        "WdoYmj-FOBFYri:hestia/document-types": {
+          "field": "_id",
+          "mapsTo": "",
+          "contextMapping": [],
+          "relatedMapping": []
+        }
+      }
+    }
   }
 ]
