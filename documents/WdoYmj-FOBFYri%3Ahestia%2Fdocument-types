@@ -1,5 +1,5 @@
 {
-  "__": "pPheXynZTImoFC",
+  "__": "pqEYaOKYQKvVQn",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -241,13 +241,13 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1627401310344,
+      "time": 1627413454080,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1627397710000,
+  "_modified": 1627409854000,
   "components": "navigation,relationship",
   "isLockedBy": null,
   "navigation": [],
@@ -1696,7 +1696,7 @@
                 {
                   "id": "fnzT4MYYWer7Q0",
                   "mode": "specific",
-                  "name": "owner",
+                  "name": "parentCompany",
                   "type": "topic",
                   "hints": {},
                   "topic": "eVCo024qTtDPew:hestia/topics",
