@@ -1,5 +1,5 @@
 {
-  "__": "ZbZWza8RTvUQg4",
+  "__": "CIL2hnkEC-lESE",
   "_id": "zSq4uYg_gBBWqY:hestia/document-types",
   "icon": "",
   "name": "Anchor Request",
@@ -210,14 +210,14 @@
     {
       "id": "OcknhHIFsFhidR",
       "name": "1.1",
-      "time": 1627378885364,
+      "time": 1627380522909,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "da2FbxLHZ0814q",
+      "_selectId": "CNYFOQ1OHY1ztJ",
       "parentVersion": "RlnNXS8fP37e6b"
     }
   ],
-  "_modified": 1627375285000,
+  "_modified": 1627376923000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -610,9 +610,7 @@
           "id": "sC7dJ5KsPcXOh4",
           "name": "Add Client Questoinnaire",
           "onEnter": "",
-          "inStates": [
-            "New"
-          ],
+          "inStates": [],
           "mergeAll": "",
           "_selectId": "8LhLqXZv_xEe7G",
           "properties": [
