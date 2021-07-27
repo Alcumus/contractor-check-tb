@@ -1,0 +1,4519 @@
+[
+  {
+    "__": "2O33NLVevBCgg_",
+    "ZIP": "M5C 1S2",
+    "_id": "1621266694681:companyP/companyP",
+    "City": "Toronto",
+    "Ville": "",
+    "_info": {
+      "clientsLookup": {
+        "rows": [
+          {
+            "_id": "Mx20OTel7MWV4d:contractorcheck/masterCompanyProfile",
+            "_settings": {
+              "_id": "UJns4BZ0dhGyw5:hestia/document-types"
+            }
+          },
+          {
+            "_id": "0pVu0Ed45F96oN:contractorcheck/masterCompanyProfile",
+            "_settings": {
+              "_id": "UJns4BZ0dhGyw5:hestia/document-types"
+            }
+          },
+          {
+            "_id": "lcdBsxkACkPCHQ:contractorcheck/masterCompanyProfile",
+            "_settings": {
+              "_id": "UJns4BZ0dhGyw5:hestia/document-types"
+            }
+          },
+          {
+            "_id": "aNnsZjYxexfOY0:contractorcheck/masterCompanyProfile",
+            "_settings": {
+              "_id": "UJns4BZ0dhGyw5:hestia/document-types"
+            }
+          },
+          {
+            "_id": "4ZOTyeDJ12zt7K:contractorcheck/masterCompanyProfile",
+            "_settings": {
+              "_id": "UJns4BZ0dhGyw5:hestia/document-types"
+            }
+          },
+          {
+            "_id": "8-DZ0dQ-ny8sF0:contractorcheck/masterCompanyProfile",
+            "_settings": {
+              "_id": "UJns4BZ0dhGyw5:hestia/document-types"
+            }
+          }
+        ]
+      },
+      "workActivities": {
+        "rows": [
+          {
+            "_id": "hZ_qK7iOHgS-FA:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          },
+          {
+            "_id": "1zgco_vwvH6Uat:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          },
+          {
+            "_id": "tXjZb3-pXJFRPQ:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          },
+          {
+            "_id": "0SL-HHTURQQEZf:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          },
+          {
+            "_id": "1J2eLs8b1pARUz:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          },
+          {
+            "_id": "4AALZ6jd6nPmFT:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          },
+          {
+            "_id": "Y9eam4wtWr9ci3:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          }
+        ]
+      }
+    },
+    "email": "bill@smithereen.com",
+    "phone": "07979333322",
+    "$valid": true,
+    "SHARED": {},
+    "client": "rsihYJKKDVyaYN",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280749878,
+        "documentCreated": 1624280749878
+      }
+    },
+    "_client": "1621266694681",
+    "address": "111 Queen Street E",
+    "clients": [
+      "Bimbo Canada (Canada Bread)",
+      "Bird Construction (Client)",
+      "Bouygues Energies & Services",
+      "Crown Property Management Inc.",
+      "First Gulf (Client)",
+      "Agellan Capital Partners Inc"
+    ],
+    "country": [
+      "Canada",
+      "US"
+    ],
+    "trading": [
+      {
+        "id": "IXcuuxOn94juD-",
+        "_id": "GxIkMfj9tLHHHk",
+        "complete": 92,
+        "_lookupId": "1621266694681:companyP/companyP",
+        "tradingName": "Fruitbat"
+      },
+      {
+        "id": "UUxHlBCFN6KXvK",
+        "_id": "OlByyz4VzX_AAw",
+        "complete": 92,
+        "_lookupId": "1621266694681:companyP/companyP",
+        "tradingName": "Funding"
+      },
+      {
+        "id": "YtPV9TTB95i8dc",
+        "_id": "QoYzWnjk2xPLsG",
+        "complete": 92,
+        "_lookupId": "1621266694681:companyP/companyP",
+        "tradingName": "Banana"
+      },
+      "T6bRBn87d8YX3u:contractorcheck/tradingIdentity",
+      "2cK2aQEqriS2As:contractorcheck/tradingIdentity",
+      "m3aM9eiIvgjXbQ:contractorcheck/tradingIdentity",
+      "uet6TCUIznmiTd:contractorcheck/tradingIdentity",
+      "59PyffjVebgRfZ:contractorcheck/tradingIdentity"
+    ],
+    "$created": true,
+    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
+    "$invalid": false,
+    "_created": 1621461167000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 89,
+    "latitude": 43.65323,
+    "province": [
+      "New Brunswick",
+      "Northwest Territories",
+      "Alberta",
+      "British Columbia"
+    ],
+    "_modified": 1627380606000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Assessed"
+    },
+    "longitude": -79.37446,
+    "__sourceId": "1621266694681-general:contractorcheck/contractorAnswers",
+    "_components": {},
+    "companyName": "Bill Smithereen Contracting",
+    "companySize": "Sole Proprietor",
+    "description": "An expert in everything construction great!\n",
+    "geoCodeData": {
+      "Gy195qKK_utUgI": {}
+    },
+    "__originalId": "1621266694681:companyP/companyP",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "M5C 1S2",
+        "City": "Toronto",
+        "address": "111 Queen Street E",
+        "companyName": "Bill Smithereen Contracting",
+        "headOfficeCountry": "Canada"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Assessed",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Assessed",
+        "previousValues": [
+          ""
+        ]
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Assessed",
+        "previousValues": [
+          "Bimbo Canada (Canada Bread)",
+          "Bird Construction (Client)",
+          "Bouygues Energies & Services",
+          "Crown Property Management Inc.",
+          "First Gulf (Client)",
+          "Agellan Capital Partners Inc"
+        ]
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Assessed",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "contractorId": "1621266694681",
+    "profileState": "Saved",
+    "tradingNames": "Bill's Commercial Diving\nBill's Sparky Services",
+    "workActivity": [
+      "Audio and Visual Systems - Installation, Maintenance",
+      "Construction Management",
+      "Cooling Tower Maintenance",
+      "Commercial Diving",
+      "Electrical Heating Systems - Installation, Maintenance",
+      "Electrical Work - Installation, Maintenance(below 600V)",
+      "Air Conditioning"
+    ],
+    "clientsLookup": [
+      "Mx20OTel7MWV4d:contractorcheck/masterCompanyProfile",
+      "0pVu0Ed45F96oN:contractorcheck/masterCompanyProfile",
+      "lcdBsxkACkPCHQ:contractorcheck/masterCompanyProfile",
+      "aNnsZjYxexfOY0:contractorcheck/masterCompanyProfile",
+      "4ZOTyeDJ12zt7K:contractorcheck/masterCompanyProfile",
+      "8-DZ0dQ-ny8sF0:contractorcheck/masterCompanyProfile"
+    ],
+    "doYouContract": "yes",
+    "classification": "Maintenance",
+    "complete_count": 16,
+    "workActivities": [
+      "hZ_qK7iOHgS-FA:workA/workA",
+      "1zgco_vwvH6Uat:workA/workA",
+      "tXjZb3-pXJFRPQ:workA/workA",
+      "0SL-HHTURQQEZf:workA/workA",
+      "1J2eLs8b1pARUz:workA/workA",
+      "4AALZ6jd6nPmFT:workA/workA",
+      "Y9eam4wtWr9ci3:workA/workA"
+    ],
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1627381463043,
+    "complete_remain": 0,
+    "complete_complete": 16,
+    "headOfficeCountry": "Canada",
+    "numberOfEmployees": "0",
+    "preferredLanguage": "en",
+    "workActivityFrench": [
+      "Systèmes Audio et Visuels - Installation, Maintenance",
+      "Gestion de la construction",
+      "Entretien des tours de refroidissement",
+      "Plongée commerciale",
+      "Systèmes de chauffage électrique - Installation, entretien",
+      "Travaux électriques - Installation, Maintenance (inférieure à 600V)",
+      "Climatisation"
+    ],
+    "doYouUseContractors": "no",
+    "workActivitiesLookup": [
+      "JgpbhOLqdNDhgP:workA/workA",
+      "qmaPwMF5Kg3KTd:workA/workA"
+    ]
+  },
+  {
+    "__": "rAXPbJwUk2MQS0",
+    "ZIP": "",
+    "_id": "1621268379734:companyP/companyP",
+    "City": "Toronto",
+    "_info": {
+      "clientsLookup": {
+        "rows": []
+      }
+    },
+    "email": "jim.smith@harford.com",
+    "phone": "07737222388",
+    "state": "ON",
+    "$valid": true,
+    "SHARED": {},
+    "client": "rsihYJKKDVyaYN",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280750390,
+        "documentCreated": 1624280750390
+      }
+    },
+    "_client": "1621268379734",
+    "address": "55 Dupont Street",
+    "clients": [],
+    "country": [
+      "Canada"
+    ],
+    "$created": true,
+    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
+    "$invalid": false,
+    "_created": 1621461168000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 75,
+    "latitude": 43.67657,
+    "province": [
+      "Ontario",
+      "Prince Edward Island",
+      "Quebec"
+    ],
+    "_modified": 1627344842000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Saved"
+    },
+    "longitude": -79.39924,
+    "__sourceId": "tcG4p5GKFuZJ1p:applications/Contractor Check-JChJ76vPTnXeyQ",
+    "_components": {},
+    "companyName": "Harfords Arborist Services",
+    "companySize": "Small Business",
+    "description": "Just your run of the saw mill tree surgeon",
+    "geoCodeData": {
+      "Gy195qKK_utUgI": {}
+    },
+    "__originalId": "1621268379734:companyP/companyP",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "",
+        "City": "Toronto",
+        "state": "ON",
+        "address": "55 Dupont Street",
+        "companyName": "Harfords Arborist Services",
+        "headOfficeCountry": "Canada"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Saved",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "contractorId": "1621268379734",
+    "profileState": "Saved",
+    "tradingNames": "",
+    "workActivity": [
+      "Arborist/Tree Services",
+      "Land Surveyor"
+    ],
+    "clientsLookup": [],
+    "doYouContract": "yes",
+    "classification": "Maintenance",
+    "complete_count": 17,
+    "workActivities": [
+      "Zb5UkuGQwdKIZA:workA/workA",
+      "xxVMHkOquDqZK8:workA/workA"
+    ],
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1621268411531,
+    "complete_remain": 3,
+    "complete_complete": 14,
+    "headOfficeCountry": "Canada",
+    "numberOfEmployees": 55,
+    "preferredLanguage": "",
+    "workActivityFrench": [
+      "Arboriculteur/Services d'arbres",
+      "Arpenteur-géomètre"
+    ],
+    "doYouUseContractors": "no",
+    "workActivitiesLookup": [
+      "p3aGtGgud-4ZbI:workA/workA",
+      "3Inu5bLDzSagko:workA/workA",
+      "uCayQl4HI_wJZw:workA/workA",
+      "60O7iNL_R6NO0g:workA/workA"
+    ]
+  },
+  {
+    "__": "kfHlfY8IGxrNKF",
+    "ZIP": "",
+    "_id": "1621327241644:companyP/companyP",
+    "City": "Toronto",
+    "_info": {
+      "clients": {
+        "rows": [
+          {
+            "_id": "R-Z5yeIDz9rNkk:clientA/clientA",
+            "_settings": {
+              "_id": "ImG4GhYEohQwgO:hestia/document-types"
+            }
+          }
+        ]
+      },
+      "clientsLookup": {
+        "rows": [
+          {
+            "_id": "LPFyKe_7BTUWJ-:contractorcheck/masterCompanyProfile",
+            "_settings": {
+              "_id": "UJns4BZ0dhGyw5:hestia/document-types"
+            }
+          },
+          {
+            "_id": "8c5KGaMb3gHxgE:contractorcheck/masterCompanyProfile",
+            "_settings": {
+              "_id": "UJns4BZ0dhGyw5:hestia/document-types"
+            }
+          },
+          {
+            "_id": "YdKkWf7FpjkwsV:contractorcheck/masterCompanyProfile",
+            "_settings": {
+              "_id": "UJns4BZ0dhGyw5:hestia/document-types"
+            }
+          },
+          {
+            "_id": "5Qs5Ptp-z8jP5G:contractorcheck/masterCompanyProfile",
+            "_settings": {
+              "_id": "UJns4BZ0dhGyw5:hestia/document-types"
+            }
+          },
+          {
+            "_id": "2Jb4IVFL3hrjMQ:contractorcheck/masterCompanyProfile",
+            "_settings": {
+              "_id": "UJns4BZ0dhGyw5:hestia/document-types"
+            }
+          }
+        ]
+      },
+      "workActivities": {
+        "rows": [
+          {
+            "_id": "98453gUyyYYtgR:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          },
+          {
+            "_id": "ulG_R7NkaQh6dD:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          }
+        ]
+      }
+    },
+    "email": "contact@windward.com",
+    "phone": "+448838892323",
+    "state": "ON",
+    "$valid": true,
+    "SHARED": {},
+    "client": "rsihYJKKDVyaYN",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624022448308,
+        "documentCreated": 1624022448308
+      }
+    },
+    "_client": "1621327241644",
+    "address": "120 Keele Street",
+    "clients": [
+      "Ivanhoe Cambridge Inc.",
+      "Enwave Energy Corporation (Client)",
+      "Longo Brothers Fruit Markets Inc.",
+      "K-Line Group",
+      "BURNCO Rock Products Ltd - Client"
+    ],
+    "country": [
+      "Canada"
+    ],
+    "$created": true,
+    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
+    "$invalid": false,
+    "_created": 1621461170000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 86,
+    "latitude": 43.73601,
+    "province": [
+      "Quebec",
+      "Saskatchewan",
+      "Ontario"
+    ],
+    "_modified": 1627344842000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Assessed"
+    },
+    "longitude": -79.48425,
+    "__sourceId": "1621327241644-general:contractorcheck/contractorAnswers",
+    "_components": {},
+    "companyName": "Windward Teams",
+    "companySize": "Small Business",
+    "description": "Sub contractors for any job",
+    "geoCodeData": {
+      "Gy195qKK_utUgI": {}
+    },
+    "recordCache": {
+      "98453gUyyYYtgR:workA/workA": {}
+    },
+    "__originalId": "1621327241644:companyP/companyP",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "",
+        "City": "Toronto",
+        "state": "ON",
+        "address": "120 Keele Street",
+        "companyName": "Windward Teams",
+        "headOfficeCountry": "Canada"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Assessed",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Assessed",
+        "previousValues": [
+          ""
+        ]
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Assessed",
+        "previousValues": [
+          "Ivanhoe Cambridge Inc.",
+          "Enwave Energy Corporation (Client)",
+          "Longo Brothers Fruit Markets Inc.",
+          "K-Line Group",
+          "BURNCO Rock Products Ltd - Client"
+        ]
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Assessed",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "contractorId": "1621327241644",
+    "profileState": "Saved",
+    "tradingNames": "",
+    "workActivity": [
+      "Steamfitter"
+    ],
+    "clientsLookup": [
+      "LPFyKe_7BTUWJ-:contractorcheck/masterCompanyProfile",
+      "8c5KGaMb3gHxgE:contractorcheck/masterCompanyProfile",
+      "YdKkWf7FpjkwsV:contractorcheck/masterCompanyProfile",
+      "5Qs5Ptp-z8jP5G:contractorcheck/masterCompanyProfile",
+      "2Jb4IVFL3hrjMQ:contractorcheck/masterCompanyProfile"
+    ],
+    "doYouContract": "yes",
+    "classification": "Construction",
+    "complete_count": 17,
+    "workActivities": [
+      "ulG_R7NkaQh6dD:workA/workA"
+    ],
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1627310004751,
+    "complete_remain": 2,
+    "complete_complete": 15,
+    "headOfficeCountry": "Canada",
+    "numberOfEmployees": 59,
+    "preferredLanguage": "en",
+    "workActivityFrench": [
+      "Monteur de vapeur"
+    ],
+    "doYouUseContractors": "no"
+  },
+  {
+    "__": "zC39Bb1LRBG3aA",
+    "ZIP": "",
+    "_id": "1621330978348:companyP/companyP",
+    "City": "Vancouver",
+    "_info": {
+      "clientsLookup": {
+        "rows": [
+          {
+            "_id": "Mx20OTel7MWV4d:contractorcheck/masterCompanyProfile",
+            "_settings": {
+              "_id": "UJns4BZ0dhGyw5:hestia/document-types"
+            }
+          },
+          {
+            "_id": "4ZOTyeDJ12zt7K:contractorcheck/masterCompanyProfile",
+            "_settings": {
+              "_id": "UJns4BZ0dhGyw5:hestia/document-types"
+            }
+          }
+        ]
+      },
+      "workActivities": {
+        "rows": [
+          {
+            "_id": "cpzHPv4z_GB-_C:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          },
+          {
+            "_id": "2TPCmBI54Ak_4m:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          },
+          {
+            "_id": "KSoRD4ak6jh6RI:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          }
+        ]
+      }
+    },
+    "email": "richard.roberts@sitedesign.com",
+    "phone": "+44837744423",
+    "state": "BC",
+    "$valid": true,
+    "SHARED": {},
+    "client": "rsihYJKKDVyaYN",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624022185512,
+        "documentCreated": 1624022185512
+      }
+    },
+    "_client": "1621330978348",
+    "address": "90 Barclay Street",
+    "clients": [
+      "Bimbo Canada (Canada Bread)",
+      "First Gulf (Client)"
+    ],
+    "country": [
+      "US"
+    ],
+    "$created": true,
+    "$creator": "64467393-61e5-45fe-a026-45aed6419337",
+    "$invalid": false,
+    "_created": 1621461172000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 85,
+    "latitude": 49.28736,
+    "province": [
+      "Nunavut",
+      "Newfoundland and Labrador"
+    ],
+    "_modified": 1627344842000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Assessed"
+    },
+    "longitude": -123.13341,
+    "__sourceId": "1621330978348-general:contractorcheck/contractorAnswers",
+    "_components": {},
+    "companyName": "Site Design Contractors",
+    "companySize": "Small Business",
+    "description": "The business you want to design your buildings and dole out the money",
+    "geoCodeData": {
+      "Gy195qKK_utUgI": {}
+    },
+    "recordCache": {
+      "98453gUyyYYtgR:workA/workA": {
+        "workActivity": "Air Conditioning"
+      }
+    },
+    "__originalId": "1621330978348:companyP/companyP",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "",
+        "City": "Vancouver",
+        "state": "BC",
+        "address": "90 Barclay Street",
+        "companyName": "Site Design Contractors",
+        "headOfficeCountry": "Canada"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Assessed",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Assessed",
+        "previousValues": [
+          ""
+        ]
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Assessed",
+        "previousValues": [
+          "Bimbo Canada (Canada Bread)",
+          "First Gulf (Client)"
+        ]
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Assessed",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "contractorId": "1621330978348",
+    "profileState": "Saved",
+    "tradingNames": "",
+    "workActivity": [
+      "Architect",
+      "Armoured Car Services",
+      "Wind, Fire, Water Disaster Cleanup and Restoration"
+    ],
+    "clientsLookup": [
+      "Mx20OTel7MWV4d:contractorcheck/masterCompanyProfile",
+      "4ZOTyeDJ12zt7K:contractorcheck/masterCompanyProfile"
+    ],
+    "doYouContract": "yes",
+    "classification": "Maintenance",
+    "complete_count": 16,
+    "workActivities": [
+      "cpzHPv4z_GB-_C:workA/workA",
+      "2TPCmBI54Ak_4m:workA/workA",
+      "KSoRD4ak6jh6RI:workA/workA"
+    ],
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1625579818268,
+    "complete_remain": 2,
+    "complete_complete": 14,
+    "headOfficeCountry": "Canada",
+    "numberOfEmployees": 155,
+    "preferredLanguage": "en",
+    "workActivityFrench": [
+      "Architecte",
+      "Services de véhicules blindés",
+      "Nettoyage et restauration des catastrophes liées au vent, au feu et à l'eau"
+    ],
+    "doYouUseContractors": "no"
+  },
+  {
+    "__": "W3gMEVoI0Ue6Op",
+    "ZIP": "",
+    "_id": "1621430770419:companyP/companyP",
+    "City": "Quebec City",
+    "_info": {
+      "clients": {
+        "rows": [
+          {
+            "_id": "UReha1X_GKP2q_:clientA/clientA",
+            "_settings": {
+              "_id": "ImG4GhYEohQwgO:hestia/document-types"
+            }
+          }
+        ]
+      },
+      "clientsLookup": {
+        "rows": [
+          {
+            "_id": "8-DZ0dQ-ny8sF0:companyP/companyP",
+            "_settings": {
+              "_id": "WdoYmj-FOBFYri:hestia/document-types"
+            }
+          },
+          {
+            "_id": "o9F45eoXN7sntB:companyP/companyP",
+            "_settings": {
+              "_id": "WdoYmj-FOBFYri:hestia/document-types"
+            }
+          },
+          {
+            "_id": "2Jb4IVFL3hrjMQ:companyP/companyP",
+            "_settings": {
+              "_id": "WdoYmj-FOBFYri:hestia/document-types"
+            }
+          },
+          {
+            "_id": "lcdBsxkACkPCHQ:companyP/companyP",
+            "_settings": {
+              "_id": "WdoYmj-FOBFYri:hestia/document-types"
+            }
+          },
+          {
+            "_id": "hEg9ziyMZRbQVl:companyP/companyP",
+            "_settings": {
+              "_id": "WdoYmj-FOBFYri:hestia/document-types"
+            }
+          },
+          {
+            "_id": "-wousIdvBUDgIc:companyP/companyP",
+            "_settings": {
+              "_id": "WdoYmj-FOBFYri:hestia/document-types"
+            }
+          },
+          {
+            "_id": "YdKkWf7FpjkwsV:companyP/companyP",
+            "_settings": {
+              "_id": "WdoYmj-FOBFYri:hestia/document-types"
+            }
+          },
+          {
+            "_id": "U039vw8bd3vmHh:companyP/companyP",
+            "_settings": {
+              "_id": "WdoYmj-FOBFYri:hestia/document-types"
+            }
+          }
+        ]
+      },
+      "workActivities": {
+        "rows": [
+          {
+            "_id": "JgpbhOLqdNDhgP:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          },
+          {
+            "_id": "Zb5UkuGQwdKIZA:workA/workA",
+            "_settings": {
+              "_id": "rH6EL6EJjx3vGG:hestia/document-types"
+            }
+          }
+        ]
+      }
+    },
+    "email": "mike.talbot@alcumusgroup.com",
+    "phone": "+447974932396",
+    "state": "QC",
+    "$valid": true,
+    "SHARED": {},
+    "client": "rsihYJKKDVyaYN",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624021722496,
+        "documentCreated": 1624021722496
+      }
+    },
+    "_client": "1621430770419",
+    "address": "84 Nolin Street",
+    "clients": [],
+    "country": [
+      "US"
+    ],
+    "$created": true,
+    "$creator": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "$invalid": false,
+    "_created": 1621461173000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 75,
+    "latitude": 46.81277,
+    "_modified": 1627344842000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Assessed"
+    },
+    "longitude": -71.21849,
+    "__sourceId": "1621430770419-general:contractorcheck/contractorAnswers",
+    "_components": {},
+    "companyName": "Master Contractors USA",
+    "companySize": "Large Business",
+    "description": "We are a really cool company full of really cool people",
+    "geoCodeData": {
+      "Gy195qKK_utUgI": {}
+    },
+    "__originalId": "1621430770419:companyP/companyP",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "",
+        "City": "Quebec City",
+        "state": "QC",
+        "address": "84 Nolin Street",
+        "companyName": "Master Contractors USA",
+        "headOfficeCountry": "Canada"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Assessed",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Assessed",
+        "previousValues": [
+          ""
+        ]
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Assessed",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Assessed",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "contractorId": "1621430770419",
+    "profileState": "Saved",
+    "tradingNames": "",
+    "workActivity": [
+      "Access Solutions - Roadways, Bridges, Rig Mats",
+      "Arborist/Tree Services"
+    ],
+    "clientsLookup": [],
+    "doYouContract": "yes",
+    "classification": "Construction",
+    "complete_count": 16,
+    "workActivities": [
+      "JgpbhOLqdNDhgP:workA/workA",
+      "Zb5UkuGQwdKIZA:workA/workA"
+    ],
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1627310046901,
+    "complete_remain": 3,
+    "complete_complete": 13,
+    "headOfficeCountry": "Canada",
+    "numberOfEmployees": 1225,
+    "preferredLanguage": "",
+    "workActivityFrench": [
+      "Solutions d'accès - Chaussées, ponts, tapis de forage",
+      "Arboriculteur/Services d'arbres"
+    ],
+    "doYouUseContractors": "no"
+  },
+  {
+    "__": "n9KpPKYRI0MZaL",
+    "_id": "8-DZ0dQ-ny8sF0:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280754564,
+        "documentCreated": 1624280754564
+      }
+    },
+    "_client": "8-DZ0dQ-ny8sF0",
+    "$created": true,
+    "_created": 1622140349000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 43.64515,
+    "_modified": 1627343422000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -79.38423,
+    "companyName": "Agellan Capital Partners Inc",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Agellan Capital Partners Inc"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143948999,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "Ip67Q9FA7aQyYT",
+    "_id": "2Jb4IVFL3hrjMQ:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280755193,
+        "documentCreated": 1624280755193
+      }
+    },
+    "_client": "2Jb4IVFL3hrjMQ",
+    "$created": true,
+    "_created": 1622140349000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 49.86057,
+    "_modified": 1627343422000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -119.5971,
+    "companyName": "BURNCO Rock Products Ltd - Client",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "BURNCO Rock Products Ltd - Client"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143949189,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "9PHOR6Kfe07pjZ",
+    "ZIP": "1234",
+    "_id": "Mx20OTel7MWV4d:companyP/companyP",
+    "City": "Sometown",
+    "_info": {
+      "workActivities": {
+        "rows": []
+      }
+    },
+    "email": "mike@bimbobread.com",
+    "phone": "",
+    "SHARED": {},
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280755551,
+        "documentCreated": 1624280755551
+      }
+    },
+    "_client": "Mx20OTel7MWV4d",
+    "address": "Some street",
+    "clients": [],
+    "country": [
+      "Canada"
+    ],
+    "$created": true,
+    "_created": 1622140349000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 56,
+    "latitude": 49.88587,
+    "province": [
+      "Alberta",
+      "British Columbia"
+    ],
+    "_modified": 1627343422000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Saved"
+    },
+    "longitude": -97.16817,
+    "companyName": "Bimbo Canada (Canada Bread)",
+    "companySize": "Sole Proprietor",
+    "description": "",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "1234",
+        "City": "Sometown",
+        "address": "Some street",
+        "companyName": "Bimbo Canada (Canada Bread)",
+        "headOfficeCountry": "US"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Saved",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "contractorId": "",
+    "profileState": "",
+    "tradingNames": "",
+    "workActivity": [
+      "Air Conditioning"
+    ],
+    "clientsLookup": [],
+    "doYouContract": "no",
+    "classification": "",
+    "complete_count": 13,
+    "workActivities": [
+      "Y9eam4wtWr9ci3:workA/workA"
+    ],
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1624963992108,
+    "complete_remain": 4,
+    "complete_complete": 9,
+    "headOfficeCountry": "US",
+    "numberOfEmployees": "",
+    "preferredLanguage": "en",
+    "workActivityFrench": [
+      "Climatisation"
+    ],
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "EaC3VmrS6lvMnI",
+    "_id": "0pVu0Ed45F96oN:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280755927,
+        "documentCreated": 1624280755927
+      }
+    },
+    "_client": "0pVu0Ed45F96oN",
+    "$created": true,
+    "_created": 1622140349000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 52.65245,
+    "_modified": 1627343422000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -1.00675,
+    "companyName": "Bird Construction (Client)",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Bird Construction (Client)"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143949577,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "qfBEgtdOiymi_T",
+    "_id": "lcdBsxkACkPCHQ:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280756356,
+        "documentCreated": 1624280756356
+      }
+    },
+    "_client": "lcdBsxkACkPCHQ",
+    "$created": true,
+    "_created": 1622140349000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 43.64794,
+    "_modified": 1627343422000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": 1.51617,
+    "companyName": "Bouygues Energies & Services",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Bouygues Energies & Services"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143949790,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "QkOOz9IOjODl2b",
+    "_id": "aDQEUTeZ5XXY8n:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280758229,
+        "documentCreated": 1624280758229
+      }
+    },
+    "_client": "aDQEUTeZ5XXY8n",
+    "$created": true,
+    "_created": 1622140350000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 43.67496,
+    "_modified": 1627343422000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -79.37997,
+    "companyName": "Branksome Hall",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Branksome Hall"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143949999,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "wENG9ChjAw8NJ8",
+    "_id": "yX3iTKf69fG_Pl:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280758696,
+        "documentCreated": 1624280758696
+      }
+    },
+    "_client": "yX3iTKf69fG_Pl",
+    "$created": true,
+    "_created": 1622140350000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 54.47018,
+    "_modified": 1627343423000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -110.18894,
+    "companyName": "CBRE (Alberta) Client",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "CBRE (Alberta) Client"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143950236,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "WIRiMzLSAEwFAL",
+    "_id": "3Ob7yOFe2186wl:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280759044,
+        "documentCreated": 1624280759044
+      }
+    },
+    "_client": "3Ob7yOFe2186wl",
+    "$created": true,
+    "_created": 1622140350000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 51.87727,
+    "_modified": 1627343423000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -2.07213,
+    "companyName": "CBRE Limited (Client)",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "CBRE Limited (Client)"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143950427,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "dKYpx4T1ukkw_0",
+    "ZIP": "1212321",
+    "_id": "o9F45eoXN7sntB:companyP/companyP",
+    "City": "Toronto",
+    "email": "",
+    "phone": "+448837773333",
+    "SHARED": {},
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280759433,
+        "documentCreated": 1624280759433
+      }
+    },
+    "_client": "o9F45eoXN7sntB",
+    "address": "101 Avenue Drive",
+    "$created": true,
+    "_created": 1622140350000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 56,
+    "latitude": 43.65349,
+    "_modified": 1627343423000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Saved"
+    },
+    "longitude": -79.38038,
+    "companyName": "Cadillac Fairview Corporation Limited",
+    "companySize": "Sole Proprietor",
+    "description": "We make things",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "1212321",
+        "City": "Toronto",
+        "address": "101 Avenue Drive",
+        "companyName": "Cadillac Fairview Corporation Limited",
+        "headOfficeCountry": "Canada"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "Saved",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "contractorId": "",
+    "profileState": "",
+    "tradingNames": "",
+    "doYouContract": "no",
+    "classification": "",
+    "complete_count": 13,
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1626362839280,
+    "complete_remain": 4,
+    "complete_complete": 9,
+    "headOfficeCountry": "Canada",
+    "numberOfEmployees": "",
+    "preferredLanguage": "",
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "NMb0oTLMPNR9jY",
+    "_id": "trzCa9I4sMgRmV:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280759874,
+        "documentCreated": 1624280759874
+      }
+    },
+    "_client": "trzCa9I4sMgRmV",
+    "$created": true,
+    "_created": 1622140350000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 51.01877,
+    "_modified": 1627343423000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -114.15947,
+    "companyName": "Calgary Co-Operative Association Limited",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Calgary Co-Operative Association Limited"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143950805,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "HhcCUaOE93PkQV",
+    "_id": "Olg52uy5jOquEi:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280762328,
+        "documentCreated": 1624280762328
+      }
+    },
+    "_client": "Olg52uy5jOquEi",
+    "$created": true,
+    "_created": 1622140351000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 39.02782,
+    "_modified": 1627343423000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -77.14306,
+    "companyName": "Canada General Documents",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Canada General Documents"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143951056,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "7ibblXeCv4otYC",
+    "_id": "-wousIdvBUDgIc:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280762762,
+        "documentCreated": 1624280762762
+      }
+    },
+    "_client": "-wousIdvBUDgIc",
+    "$created": true,
+    "_created": 1622140351000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 38.82491,
+    "_modified": 1627343423000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -77.31252,
+    "companyName": "Choice Properties - Industrial & Office",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Choice Properties - Industrial & Office"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143951296,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "HPB-5ZpKwiLABi",
+    "_id": "-abIxAbyQhrtlj:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280763123,
+        "documentCreated": 1624280763123
+      }
+    },
+    "_client": "-abIxAbyQhrtlj",
+    "$created": true,
+    "_created": 1622140351000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 10.05346,
+    "_modified": 1627343423000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": 76.35581,
+    "companyName": "Choice Properties REIT",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Choice Properties REIT"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143951486,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "9PTpQdSUgNOcNo",
+    "_id": "hEg9ziyMZRbQVl:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280763564,
+        "documentCreated": 1624280763564
+      }
+    },
+    "_client": "hEg9ziyMZRbQVl",
+    "$created": true,
+    "_created": 1622140351000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 45.56386,
+    "_modified": 1627343423000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -73.74179,
+    "companyName": "Cineplex Inc. (Client)",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Cineplex Inc. (Client)"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143951675,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "m2eWGkdA4h2xJy",
+    "_id": "ShW3tRn7ua_nrB:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280763978,
+        "documentCreated": 1624280763978
+      }
+    },
+    "_client": "ShW3tRn7ua_nrB",
+    "$created": true,
+    "_created": 1622140351000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 43.71783,
+    "_modified": 1627343423000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -79.47549,
+    "companyName": "Conseil Scolaire Viamonde",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Conseil Scolaire Viamonde"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143951867,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "-19LQVsmFiCZav",
+    "_id": "aNnsZjYxexfOY0:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280766593,
+        "documentCreated": 1624280766593
+      }
+    },
+    "_client": "aNnsZjYxexfOY0",
+    "$created": true,
+    "_created": 1622140352000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 43.85036,
+    "_modified": 1627343424000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -79.36456,
+    "companyName": "Crown Property Management Inc.",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Crown Property Management Inc."
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143952063,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "8dHWt_BnKctAn8",
+    "_id": "5y98eL_gIdNhC2:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280767029,
+        "documentCreated": 1624280767029
+      }
+    },
+    "_client": "5y98eL_gIdNhC2",
+    "$created": true,
+    "_created": 1622140352000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 44.69832,
+    "_modified": 1627343424000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -63.58092,
+    "companyName": "Cushman & Wakefield (20 VIC Management Inc) (Client)",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Cushman & Wakefield (20 VIC Management Inc) (Client)"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143952250,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "FlTuPiYDOkNo3O",
+    "_id": "XjjpwWQXoFlddC:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280767726,
+        "documentCreated": 1624280767726
+      }
+    },
+    "_client": "XjjpwWQXoFlddC",
+    "$created": true,
+    "_created": 1622140352000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 28.46157,
+    "_modified": 1627343424000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": 77.07872,
+    "companyName": "Dream Unlimited Corp",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Dream Unlimited Corp"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143952430,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "T_wO5NpAv6aJ8h",
+    "ZIP": "",
+    "_id": "iawY_HehQF-ZBu:companyP/companyP",
+    "City": "",
+    "email": "",
+    "phone": "",
+    "state": "",
+    "SHARED": {},
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280767966,
+        "documentCreated": 1624280767966
+      }
+    },
+    "_client": "iawY_HehQF-ZBu",
+    "address": "",
+    "$created": true,
+    "_created": 1622140352000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 35.96112,
+    "_modified": 1627344844000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "Saved"
+    },
+    "longitude": -86.80099,
+    "companyName": "EPIC Investment Services (Client)",
+    "companySize": "Sole Proprietor",
+    "description": "",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "ZIP": "",
+        "City": "",
+        "state": "",
+        "address": "",
+        "companyName": "EPIC Investment Services (Client)",
+        "headOfficeCountry": ""
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "Saved"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "Saved",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "profileState": "",
+    "tradingNames": "",
+    "doYouContract": "no",
+    "classification": "",
+    "complete_count": 14,
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1627384931865,
+    "complete_remain": 11,
+    "complete_complete": 3,
+    "headOfficeCountry": "",
+    "numberOfEmployees": "",
+    "preferredLanguage": "",
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "ZNdc8mfUfEnWm5",
+    "_id": "8c5KGaMb3gHxgE:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280768502,
+        "documentCreated": 1624280768502
+      }
+    },
+    "_client": "8c5KGaMb3gHxgE",
+    "$created": true,
+    "_created": 1622140352000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 31.2667,
+    "_modified": 1627343424000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": 32.3,
+    "companyName": "Enwave Energy Corporation (Client)",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Enwave Energy Corporation (Client)"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143952814,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "ejHhjnKZYOx0hq",
+    "_id": "k7edZG8PkJSqaj:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280770502,
+        "documentCreated": 1624280770502
+      }
+    },
+    "_client": "k7edZG8PkJSqaj",
+    "$created": true,
+    "_created": 1622140353000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 14.60056,
+    "_modified": 1627343424000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": 120.98511,
+    "companyName": "First Capital - REIT",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "First Capital - REIT"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143953033,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "6AGVmBH2C2Z5uK",
+    "_id": "4ZOTyeDJ12zt7K:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280770937,
+        "documentCreated": 1624280770937
+      }
+    },
+    "_client": "4ZOTyeDJ12zt7K",
+    "$created": true,
+    "_created": 1622140353000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 53.31452,
+    "_modified": 1627343424000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -6.29887,
+    "companyName": "First Gulf (Client)",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "First Gulf (Client)"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143953212,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "bxlAH2lJHixh4q",
+    "_id": "ws5k0bhwqHwiqV:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280771354,
+        "documentCreated": 1624280771354
+      }
+    },
+    "_client": "ws5k0bhwqHwiqV",
+    "$created": true,
+    "_created": 1622140353000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 43.73485,
+    "_modified": 1627343424000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -79.60721,
+    "companyName": "Give and Go Prepared Foods Corp",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Give and Go Prepared Foods Corp"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143953396,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "XL0QrO9F96ymFI",
+    "_id": "mMLy_0yFik8UGu:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280771859,
+        "documentCreated": 1624280771859
+      }
+    },
+    "_client": "mMLy_0yFik8UGu",
+    "$created": true,
+    "_created": 1622140353000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 43.67038,
+    "_modified": 1627343424000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -79.38827,
+    "companyName": "Holt Renfrew (Client)",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Holt Renfrew (Client)"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143953585,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "tSsBkLWabW4wis",
+    "_id": "LPFyKe_7BTUWJ-:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280772151,
+        "documentCreated": 1624280772151
+      }
+    },
+    "_client": "LPFyKe_7BTUWJ-",
+    "$created": true,
+    "_created": 1622140353000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 43.64645,
+    "_modified": 1627343424000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -79.38209,
+    "companyName": "Ivanhoe Cambridge Inc.",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Ivanhoe Cambridge Inc."
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143953790,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "STtHeTyopwuMXU",
+    "_id": "5Qs5Ptp-z8jP5G:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280774236,
+        "documentCreated": 1624280774236
+      }
+    },
+    "_client": "5Qs5Ptp-z8jP5G",
+    "$created": true,
+    "_created": 1622140353000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 52.08557,
+    "_modified": 1627343424000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": 17.02117,
+    "companyName": "K-Line Group",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "K-Line Group"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143953982,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "FH-K-OkvUpHMwI",
+    "_id": "xXuDOsdhO-b6Xe:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280774679,
+        "documentCreated": 1624280774679
+      }
+    },
+    "_client": "xXuDOsdhO-b6Xe",
+    "$created": true,
+    "_created": 1622140354000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 51.03098,
+    "_modified": 1627343424000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -114.03267,
+    "companyName": "Labbe - Leech Interiors Ltd (Client)",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Labbe - Leech Interiors Ltd (Client)"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143954167,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "F6oF4aKKeCIcDk",
+    "_id": "U039vw8bd3vmHh:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280774972,
+        "documentCreated": 1624280774972
+      }
+    },
+    "_client": "U039vw8bd3vmHh",
+    "$created": true,
+    "_created": 1622140354000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": -26.20643,
+    "_modified": 1627343424000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": 28.3039,
+    "companyName": "Loblaw Group of Companies",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Loblaw Group of Companies"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143954358,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "dP4fDym8E6t1Qc",
+    "_id": "YdKkWf7FpjkwsV:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280775549,
+        "documentCreated": 1624280775549
+      }
+    },
+    "_client": "YdKkWf7FpjkwsV",
+    "$created": true,
+    "_created": 1622140354000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 43.65484,
+    "_modified": 1627343425000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -79.38464,
+    "companyName": "Longo Brothers Fruit Markets Inc.",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Longo Brothers Fruit Markets Inc."
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143954557,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "-eadU4bdBGbo9_",
+    "_id": "-vianTXtMfYGk1:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280776203,
+        "documentCreated": 1624280776203
+      }
+    },
+    "_client": "-vianTXtMfYGk1",
+    "$created": true,
+    "_created": 1622140354000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 44.1015,
+    "_modified": 1627343425000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -78.95625,
+    "companyName": "Maple Leaf Foods Inc. (Client)",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Maple Leaf Foods Inc. (Client)"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143954785,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "RxEqeqdJ39v5nX",
+    "_id": "yK8cjlZVttVW6E:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280778056,
+        "documentCreated": 1624280778056
+      }
+    },
+    "_client": "yK8cjlZVttVW6E",
+    "$created": true,
+    "_created": 1622140355000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 43.76336,
+    "_modified": 1627343425000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -79.41287,
+    "companyName": "Maple Leaf Property Management (MLPM) (Client)",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Maple Leaf Property Management (MLPM) (Client)"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143954986,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "gYKNXAUmAp5e0Z",
+    "_id": "FvbDscz6jMGylY:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280778588,
+        "documentCreated": 1624280778588
+      }
+    },
+    "_client": "FvbDscz6jMGylY",
+    "$created": true,
+    "_created": 1622140355000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 43.64396,
+    "_modified": 1627343425000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -79.37889,
+    "companyName": "Maple Leaf Sports and Entertainment Partnerships (MLSE)",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Maple Leaf Sports and Entertainment Partnerships (MLSE)"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143955186,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "rlyddd7jyarN2N",
+    "_id": "nRF8L4bYeTqQQE:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280779019,
+        "documentCreated": 1624280779019
+      }
+    },
+    "_client": "nRF8L4bYeTqQQE",
+    "$created": true,
+    "_created": 1622140355000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 43.86208,
+    "_modified": 1627343425000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -79.3811,
+    "companyName": "MenRes Property Management Inc.",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "MenRes Property Management Inc."
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143955402,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "dqTmglvPSzyk8l",
+    "_id": "uHRHFZlkbSAnOd:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280779489,
+        "documentCreated": 1624280779489
+      }
+    },
+    "_client": "uHRHFZlkbSAnOd",
+    "$created": true,
+    "_created": 1622140355000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 43.75963,
+    "_modified": 1627343425000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -79.40983,
+    "companyName": "Menkes Property Management Services Ltd (HOOPP Properties)",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Menkes Property Management Services Ltd (HOOPP Properties)"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143955602,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "mCKNa8YgK4QJIF",
+    "_id": "mdk5p0dH4iLGcS:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280779961,
+        "documentCreated": 1624280779961
+      }
+    },
+    "_client": "mdk5p0dH4iLGcS",
+    "$created": true,
+    "_created": 1622140355000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 43.47198,
+    "_modified": 1627343425000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -80.59199,
+    "companyName": "Metro Ontario Inc.",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Metro Ontario Inc."
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143955798,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "7aHzT-I6GoP0LI",
+    "_id": "WgbFTjqchfJo45:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280782476,
+        "documentCreated": 1624280782476
+      }
+    },
+    "_client": "WgbFTjqchfJo45",
+    "$created": true,
+    "_created": 1622140356000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 45.45527,
+    "_modified": 1627343425000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -73.57671,
+    "companyName": "Metro Quebec Inc.",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Metro Quebec Inc."
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143956031,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "udv0KtIHd07Oi9",
+    "_id": "NtUXSyzJb1hAc8:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280783082,
+        "documentCreated": 1624280783082
+      }
+    },
+    "_client": "NtUXSyzJb1hAc8",
+    "$created": true,
+    "_created": 1622140356000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 45.10272,
+    "_modified": 1627343425000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -75.23872,
+    "companyName": "Ontario Clean Water Agency",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Ontario Clean Water Agency"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143956274,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "QGuagnIs-_QQxe",
+    "_id": "VkI2juqAmzA6n0:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624443534545,
+        "documentCreated": 1624443534545
+      }
+    },
+    "_client": "VkI2juqAmzA6n0",
+    "$created": true,
+    "_created": 1622140356000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 43.76681,
+    "_modified": 1627343425000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -79.62637,
+    "companyName": "Oxford Properties Group (Client)",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Oxford Properties Group (Client)"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143956478,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "JxPp7MRD_VpEP2",
+    "_id": "NgPUnt2z5010lJ:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280784217,
+        "documentCreated": 1624280784217
+      }
+    },
+    "_client": "NgPUnt2z5010lJ",
+    "$created": true,
+    "_created": 1622140356000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 43.50565,
+    "_modified": 1627343425000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -80.52764,
+    "companyName": "Plan Group Inc. (Client)",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Plan Group Inc. (Client)"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143956690,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "6M55g5WexMKHhY",
+    "_id": "rWkjX20hZnnKAA:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280784786,
+        "documentCreated": 1624280784786
+      }
+    },
+    "_client": "rWkjX20hZnnKAA",
+    "$created": true,
+    "_created": 1622140356000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 44.64145,
+    "_modified": 1627343425000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -63.56644,
+    "companyName": "Port of Halifax",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Port of Halifax"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143956889,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "h2DXdOP2cGDzrC",
+    "_id": "7QaNvIRWv_q2XK:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280787036,
+        "documentCreated": 1624280787036
+      }
+    },
+    "_client": "7QaNvIRWv_q2XK",
+    "$created": true,
+    "_created": 1622140357000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 43.71159,
+    "_modified": 1627343426000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -79.28386,
+    "companyName": "Providence Healthcare",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Providence Healthcare"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143957093,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "T7Csy-vP6AZ9S2",
+    "_id": "bS7mDLQXmRhYb5:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280787628,
+        "documentCreated": 1624280787628
+      }
+    },
+    "_client": "bS7mDLQXmRhYb5",
+    "$created": true,
+    "_created": 1622140357000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 43.81013,
+    "_modified": 1627343426000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -79.11909,
+    "companyName": "Purdue Pharma Canada",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Purdue Pharma Canada"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143957284,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "Y4NTjWtkSaSCop",
+    "_id": "iQeiWstN61wNB4:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280788168,
+        "documentCreated": 1624280788168
+      }
+    },
+    "_client": "iQeiWstN61wNB4",
+    "$created": true,
+    "_created": 1622140357000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 53.31452,
+    "_modified": 1627343426000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -6.29887,
+    "companyName": "RiskCheck Inc. (Client)",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "RiskCheck Inc. (Client)"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143957474,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "--XJFd3pdVbY_D",
+    "_id": "Q_USiV6d98LIJP:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280788607,
+        "documentCreated": 1624280788607
+      }
+    },
+    "_client": "Q_USiV6d98LIJP",
+    "$created": true,
+    "_created": 1622140357000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 42.09857,
+    "_modified": 1627343426000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -75.89582,
+    "companyName": "Rogers Industrial",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Rogers Industrial"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143957670,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "0_jztFhQkC7y4E",
+    "_id": "k5iFGd-sL7NCcV:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280789302,
+        "documentCreated": 1624280789302
+      }
+    },
+    "_client": "k5iFGd-sL7NCcV",
+    "$created": true,
+    "_created": 1622140357000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 33.51187,
+    "_modified": 1627343426000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -86.78981,
+    "companyName": "Schindler Elevator Corporation (Client)",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Schindler Elevator Corporation (Client)"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143957862,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "WrJpYgUDfQvMzG",
+    "_id": "TdbartnOlFrgv3:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624443541600,
+        "documentCreated": 1624443541600
+      }
+    },
+    "_client": "TdbartnOlFrgv3",
+    "$created": true,
+    "_created": 1622140358000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 51.20288,
+    "_modified": 1627343426000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -113.9938,
+    "companyName": "Shoppers Drug Mart Loss Prevention",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Shoppers Drug Mart Loss Prevention"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143958078,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "leJIUChZgop0KP",
+    "_id": "HShrERD586k7Qx:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280791330,
+        "documentCreated": 1624280791330
+      }
+    },
+    "_client": "HShrERD586k7Qx",
+    "$created": true,
+    "_created": 1622140358000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 51.87976,
+    "_modified": 1627343426000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": 0.54103,
+    "companyName": "St. Michael's Hospital",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "St. Michael's Hospital"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143958276,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "FJ6a7JXrS6hBLZ",
+    "_id": "VjQGLTaf_cNH2E:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280791727,
+        "documentCreated": 1624280791727
+      }
+    },
+    "_client": "VjQGLTaf_cNH2E",
+    "$created": true,
+    "_created": 1622140358000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 40.56781,
+    "_modified": 1627343426000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -74.52065,
+    "companyName": "Strathmore Landscape Contractors (Client)",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Strathmore Landscape Contractors (Client)"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143958489,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "Thift_Gsoq1RAi",
+    "_id": "wQOTY1eFVIG6fW:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280792136,
+        "documentCreated": 1624280792136
+      }
+    },
+    "_client": "wQOTY1eFVIG6fW",
+    "$created": true,
+    "_created": 1622140358000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 36.33815,
+    "_modified": 1627343426000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -80.88284,
+    "companyName": "Sun Life (US)",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Sun Life (US)"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143958733,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "QoL_9mrelEf_s2",
+    "_id": "ATCBdGqn3olf8I:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280792561,
+        "documentCreated": 1624280792561
+      }
+    },
+    "_client": "ATCBdGqn3olf8I",
+    "$created": true,
+    "_created": 1622140359000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 30.24316,
+    "_modified": 1627343426000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -81.58002,
+    "companyName": "Sun Life Canada",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Sun Life Canada"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143958999,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "se6C6HqJT2UJRx",
+    "_id": "KyrUBBhpZTdZrq:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280794387,
+        "documentCreated": 1624280794387
+      }
+    },
+    "_client": "KyrUBBhpZTdZrq",
+    "$created": true,
+    "_created": 1622140359000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 43.7798,
+    "_modified": 1627343427000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -79.57085,
+    "companyName": "TJ Construction Management Ltd. (Client)",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "TJ Construction Management Ltd. (Client)"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143959252,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "ABhLK8sbGY666m",
+    "_id": "H7HvbzMs-0_0VD:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280794787,
+        "documentCreated": 1624280794787
+      }
+    },
+    "_client": "H7HvbzMs-0_0VD",
+    "$created": true,
+    "_created": 1622140359000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 43.68713,
+    "_modified": 1627343427000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -79.39466,
+    "companyName": "The Badminton And Racquet Club of Toronto",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "The Badminton And Racquet Club of Toronto"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143959495,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "eXzDSrAy1JEGyK",
+    "_id": "MuUSXd19CzYmAG:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280795648,
+        "documentCreated": 1624280795648
+      }
+    },
+    "_client": "MuUSXd19CzYmAG",
+    "$created": true,
+    "_created": 1622140359000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 49.26258,
+    "_modified": 1627343427000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -122.98822,
+    "companyName": "Thyssenkrupp Elevator (Canada) Limited (Client)",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Thyssenkrupp Elevator (Canada) Limited (Client)"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143959766,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "87tmclNm4f60tC",
+    "_id": "lMjmgtYXDIRiVY:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280795960,
+        "documentCreated": 1624280795960
+      }
+    },
+    "_client": "lMjmgtYXDIRiVY",
+    "$created": true,
+    "_created": 1622140360000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 43.96095,
+    "_modified": 1627343427000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -78.28708,
+    "companyName": "Trinity College School",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Trinity College School"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143960033,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "YKo8VxYi8RONVj",
+    "_id": "XljQUk5fW3y45k:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280796805,
+        "documentCreated": 1624280796805
+      }
+    },
+    "_client": "XljQUk5fW3y45k",
+    "$created": true,
+    "_created": 1622140360000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 43.64454,
+    "_modified": 1627343427000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -79.39136,
+    "companyName": "Triovest Realty Advisors Inc.",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "Triovest Realty Advisors Inc."
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143960321,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "m_VORbl4KQWNH5",
+    "_id": "5pbvHnuQYpUfnd:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280801210,
+        "documentCreated": 1624280801210
+      }
+    },
+    "_client": "5pbvHnuQYpUfnd",
+    "$created": true,
+    "_created": 1622140360000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 39.02782,
+    "_modified": 1627343427000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -77.14306,
+    "companyName": "US General Documents",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "US General Documents"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143960592,
+    "doYouUseContractors": "yes"
+  },
+  {
+    "__": "zywsXftr3NCwId",
+    "_id": "A8DbLTLbNuHqfF:companyP/companyP",
+    "__chase": {
+      "Dee2r-Lb5_9MQZ": {
+        "pivotalDate": 1624280800790,
+        "documentCreated": 1624280800790
+      }
+    },
+    "_client": "A8DbLTLbNuHqfF",
+    "$created": true,
+    "_created": 1622140360000,
+    "_deleted": 0,
+    "_version": "Preferred Language",
+    "complete": 30,
+    "latitude": 38.89037,
+    "_modified": 1627343427000,
+    "_settings": {
+      "$id": "WdoYmj-FOBFYri:hestia/document-types",
+      "$state": "New"
+    },
+    "longitude": -77.03196,
+    "companyName": "US TEST CLIENT",
+    "companySize": "Large Business",
+    "_geoCodeData": {
+      "Gy195qKK_utUgI": {
+        "companyName": "US TEST CLIENT"
+      }
+    },
+    "_updaterInfo": {
+      "-kkm4OhThVfEB2": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "5W2iA7W1ma2gWO": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      },
+      "Qi6ubuhBLjlkcx": {
+        "state": "New"
+      },
+      "YF_aX-5R36pkDI": {
+        "state": "New",
+        "previousValues": []
+      },
+      "okFTMSwCgI9C4a": {
+        "state": "New",
+        "previousValues": [
+          ""
+        ]
+      }
+    },
+    "doYouContract": "no",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_stateChangedAt": 1622143960828,
+    "doYouUseContractors": "yes"
+  }
+]
