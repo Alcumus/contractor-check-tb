@@ -1,6 +1,6 @@
 [
   {
-    "__": "FXcJikSVSRBJLf",
+    "__": "uWIrdnkx1LAW1l",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -203,7 +203,7 @@
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1627305937000,
+    "_modified": 1627344069000,
     "components": "navigation,relationship",
     "isLockedBy": null,
     "navigation": [],
@@ -1051,6 +1051,7 @@
                     "requestedText": "Requested",
                     "confirmedColor": "#ffffff",
                     "requestedColor": "#ffffff",
+                    "queryMatchField": "contractorProfile",
                     "relatedTypeName": "Master List Company Profile",
                     "remoteNameField": "companyName",
                     "remoteSortField": "companyName",
@@ -1274,6 +1275,7 @@
                     "requestedText": "Requested",
                     "confirmedColor": "#ffffff",
                     "requestedColor": "#ffffff",
+                    "queryMatchField": "clientProfile",
                     "relatedTypeName": "Company Profile",
                     "remoteNameField": "companyName",
                     "remoteSortField": "companyName",
