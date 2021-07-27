@@ -1,5 +1,5 @@
 {
-  "__": "yT9Wd4GQY0_bkK",
+  "__": "IjS_iMFcs1-Bl2",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -232,13 +232,13 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1627043938696,
+      "time": 1627347000986,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1627040339000,
+  "_modified": 1627343405000,
   "components": "navigation,relationship",
   "isLockedBy": null,
   "navigation": [],
@@ -1875,6 +1875,18 @@
               "type": "normal",
               "field": "numberOfEmployees",
               "defaultValue": ""
+            },
+            {
+              "id": "crs6__I-zDZ_hp",
+              "type": "array",
+              "field": "workActivity",
+              "defaultValue": ""
+            },
+            {
+              "id": "9ZgM69RzEcRlp8",
+              "type": "array",
+              "field": "workActivityFrench",
+              "defaultValue": ""
             }
           ],
           "_selectId": "Zci_RZbvl8E1u3"
@@ -2331,9 +2343,9 @@
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
   "__behaviourCollapse": {
-    "chase": true,
+    "chase": false,
     "forms": false,
-    "views": false,
+    "views": true,
     "styled": true,
     "geocode": false,
     "updater": false,

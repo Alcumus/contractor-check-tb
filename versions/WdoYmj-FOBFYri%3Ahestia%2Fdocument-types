@@ -1,6 +1,6 @@
 [
   {
-    "__": "iLYMV_RfVDB7ik",
+    "__": "FXcJikSVSRBJLf",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -203,7 +203,7 @@
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1627039998000,
+    "_modified": 1627305937000,
     "components": "navigation,relationship",
     "isLockedBy": null,
     "navigation": [],
@@ -1840,6 +1840,18 @@
                 "type": "normal",
                 "field": "numberOfEmployees",
                 "defaultValue": ""
+              },
+              {
+                "id": "crs6__I-zDZ_hp",
+                "type": "array",
+                "field": "workActivity",
+                "defaultValue": ""
+              },
+              {
+                "id": "9ZgM69RzEcRlp8",
+                "type": "array",
+                "field": "workActivityFrench",
+                "defaultValue": ""
               }
             ],
             "_selectId": "Zci_RZbvl8E1u3"
@@ -2285,7 +2297,7 @@
     },
     "tabsBackground": "#f4f4f4",
     "tabsForeground": "#555",
-    "_lastModifiedBy": "1d28121a-fa44-4def-9e68-23984dfb6a62",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "defaultActivity": "x_5KNezQjHRN0v",
     "devices-allowed": "",
     "sideBarMinWidth": 150,
@@ -2296,9 +2308,9 @@
     "sidebarBackground": "#fff",
     "documentBackground": "#f4f4f4",
     "__behaviourCollapse": {
-      "chase": true,
+      "chase": false,
       "forms": false,
-      "views": false,
+      "views": true,
       "styled": true,
       "geocode": false,
       "updater": false,
