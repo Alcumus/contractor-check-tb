@@ -543,7 +543,7 @@
     "masterListContractor": ":contractorcheck/masterCompanyProfile"
   },
   {
-    "__": "WXqs0bFCiEblLk",
+    "__": "QoaGquLqMFcbgA",
     "_id": "zSq4uYg_gBBWqY-OcknhHIFsFhidR:hestia/versions",
     "__id": "zSq4uYg_gBBWqY:hestia/document-types",
     "icon": "",
@@ -742,7 +742,7 @@
     "_deleted": 0,
     "database": "contractorcheck",
     "maxWidth": 1000,
-    "_modified": 1627375285000,
+    "_modified": 1627376923000,
     "components": "",
     "navigation": [],
     "_behaviours": {
@@ -1135,7 +1135,9 @@
             "id": "sC7dJ5KsPcXOh4",
             "name": "Add Client Questoinnaire",
             "onEnter": "",
-            "inStates": [],
+            "inStates": [
+              "New"
+            ],
             "mergeAll": "",
             "_selectId": "8LhLqXZv_xEe7G",
             "properties": [
