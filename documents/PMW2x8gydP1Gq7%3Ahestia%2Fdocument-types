@@ -1,5 +1,5 @@
 {
-  "__": "botx_9qGMmFCxu",
+  "__": "F6NZ0PvajtUMhY",
   "_id": "PMW2x8gydP1Gq7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -171,6 +171,10 @@
   "__warn": false,
   "client": "rsihYJKKDVyaYN",
   "gitHub": {
+    "1CVUkaSvIKpoae": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
     "1J8739KZBOtzVQ": {
       "publishDocs": "",
       "gitHubPublish": true
@@ -210,10 +214,10 @@
     {
       "id": "tV6rqmkixtZSUh",
       "name": "1",
-      "time": 1625815627261,
-      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "time": 1627295104427,
+      "user": "yRZ81Qp9q_eG14",
       "locked": false,
-      "_selectId": "9HUIcaxNxy4P0H",
+      "_selectId": "j11RQh0tGrwk1k",
       "parentVersion": ""
     }
   ],
@@ -222,7 +226,7 @@
       "exposeWebhooks": ""
     }
   },
-  "_modified": 1627286353000,
+  "_modified": 1627381301000,
   "components": "verification,localisation,hint-text",
   "isLockedBy": null,
   "navigation": [],
@@ -25904,10 +25908,284 @@
           "condition": "",
           "description": "",
           "duplicateNames": {}
+        },
+        {
+          "id": "9zgL_LRM28k_kI",
+          "name": "Grey Contracting",
+          "sections": [
+            {
+              "id": "1627379186473-QL9Boi-zLzK9s3",
+              "_id": "1627379186473-QL9Boi-zLzK9s3:hestia/form-sections",
+              "name": "...",
+              "_expanded": true,
+              "_selectId": "yKGqCOoo3Dt1Ds",
+              "condition": "",
+              "questions": [
+                {
+                  "id": "ddIF6Nt3lYwSLq",
+                  "name": "",
+                  "type": "card",
+                  "color": "",
+                  "hints": {},
+                  "title": "",
+                  "question": "",
+                  "_selectId": "nu2jFlnsCgjna4",
+                  "condition": "",
+                  "elevation": "",
+                  "topMargin": "",
+                  "background": "",
+                  "leftMargin": "",
+                  "collapsible": "",
+                  "rightMargin": "",
+                  "bottomMargin": ""
+                },
+                {
+                  "id": "HogOfHG_Ltiz17",
+                  "name": "whatIsYourName",
+                  "type": "choice",
+                  "hints": {
+                    "required": true
+                  },
+                  "choices": [
+                    {
+                      "label": "King Arthur",
+                      "value": "King Arthur"
+                    },
+                    {
+                      "label": "Sir Lancelot",
+                      "value": "Sir Lancelot"
+                    },
+                    {
+                      "label": "Sir Robin",
+                      "value": "Sir Robin"
+                    }
+                  ],
+                  "question": "<p>What is your name?</p>\n",
+                  "_selectId": "W_KkvMmK9h8k4D",
+                  "condition": "",
+                  "inputLabel": "",
+                  "choiceOptions": {
+                    "Sir Robin": {
+                      "icon": "",
+                      "colour": ""
+                    },
+                    "King Arthur": {
+                      "icon": "",
+                      "colour": ""
+                    },
+                    "Sir Lancelot": {
+                      "icon": "",
+                      "colour": ""
+                    }
+                  },
+                  "defaultChoices": [],
+                  "questionHeight": "",
+                  "clearIfDisabled": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "editableCondition": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "FiHHmJ_rMctLYE",
+                  "name": "",
+                  "type": "stop",
+                  "hints": {},
+                  "question": "",
+                  "stopWhat": [
+                    "card"
+                  ],
+                  "_selectId": "b3_zdRkLz_zJ-y",
+                  "condition": ""
+                },
+                {
+                  "id": "ORl6oTeUBHc3h2",
+                  "name": "",
+                  "type": "card",
+                  "color": "",
+                  "hints": {},
+                  "title": "",
+                  "question": "",
+                  "_selectId": "95Zu3EVU9LGsH8",
+                  "condition": "",
+                  "elevation": "",
+                  "topMargin": "",
+                  "background": "",
+                  "leftMargin": "",
+                  "collapsible": "",
+                  "rightMargin": "",
+                  "bottomMargin": ""
+                },
+                {
+                  "id": "ZeMQTrJBE6XxS_",
+                  "name": "whatIsYourQuest",
+                  "type": "text",
+                  "hints": {
+                    "required": true,
+                    "multi_line": true
+                  },
+                  "maxWidth": "",
+                  "question": "<p>What is your quest?</p>\n",
+                  "_selectId": "bS25HwDkN-7EJB",
+                  "condition": "",
+                  "inputLabel": "",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "clearIfDisabled": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "editableCondition": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "7OWE8mItnb-lQW",
+                  "name": "",
+                  "type": "stop",
+                  "hints": {},
+                  "question": "",
+                  "stopWhat": [
+                    "card"
+                  ],
+                  "_selectId": "PLhAWWd1Wg_b5J",
+                  "condition": ""
+                },
+                {
+                  "id": "03hByUPQ85D4F0",
+                  "name": "",
+                  "type": "card",
+                  "color": "",
+                  "hints": {},
+                  "title": "",
+                  "question": "",
+                  "_selectId": "q8zx4aLYdVxbKd",
+                  "condition": "",
+                  "elevation": "",
+                  "topMargin": "",
+                  "background": "",
+                  "leftMargin": "",
+                  "collapsible": "",
+                  "rightMargin": "",
+                  "bottomMargin": ""
+                },
+                {
+                  "id": "qp9GDQCwIoE4Rz",
+                  "name": "whatIsYourFavouriteColour",
+                  "type": "choice",
+                  "hints": {
+                    "addOption": true
+                  },
+                  "choices": [
+                    {
+                      "label": "Red",
+                      "value": "Red"
+                    },
+                    {
+                      "label": "Orange",
+                      "value": "Orange"
+                    },
+                    {
+                      "label": "Yellow",
+                      "value": "Yellow"
+                    },
+                    {
+                      "label": "Blue",
+                      "value": "Blue"
+                    },
+                    {
+                      "label": "Green",
+                      "value": "Green"
+                    },
+                    {
+                      "label": "Purple",
+                      "value": "Purple"
+                    }
+                  ],
+                  "question": "<p>What is your favourite colour?</p>\n",
+                  "_selectId": "9XEx0ifOPubqwu",
+                  "condition": "valueNotEquals(\"whatIsYourName\", \"Sir Robin\")",
+                  "inputLabel": "",
+                  "addOptionText": "Other",
+                  "choiceOptions": {
+                    "Red": {
+                      "icon": "",
+                      "colour": ""
+                    },
+                    "Blue": {
+                      "icon": "",
+                      "colour": ""
+                    },
+                    "Green": {
+                      "icon": "",
+                      "colour": ""
+                    },
+                    "Orange": {
+                      "icon": "",
+                      "colour": ""
+                    },
+                    "Purple": {
+                      "icon": "",
+                      "colour": ""
+                    },
+                    "Yellow": {
+                      "icon": "",
+                      "colour": ""
+                    }
+                  },
+                  "defaultChoices": [],
+                  "questionHeight": "",
+                  "clearIfDisabled": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "editableCondition": "",
+                  "questionSpaceBefore": "",
+                  "addOptionDialogTitle": "Favourite Colour",
+                  "addOptionInstructions": "<p>Please input your favourite colour</p>\n"
+                },
+                {
+                  "id": "yS54t138pkG43V",
+                  "name": "whatIsTheCapitalOfAssyria",
+                  "type": "text",
+                  "hints": {
+                    "required": true
+                  },
+                  "maxWidth": "",
+                  "question": "<p>What is the captial of Assyria?</p>\n",
+                  "_selectId": "yW3BBCeD6HG5KX",
+                  "condition": "valueEquals(\"whatIsYourName\", \"Sir Robin\")",
+                  "inputLabel": "",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "clearIfDisabled": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "editableCondition": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "iAzwSBs3WYoPnc",
+                  "name": "",
+                  "type": "stop",
+                  "hints": {},
+                  "question": "",
+                  "stopWhat": [
+                    "card"
+                  ],
+                  "_selectId": "t-ULEvEoTGmBl5",
+                  "condition": ""
+                }
+              ],
+              "description": ""
+            }
+          ],
+          "_selectId": "5_ukQZGnJSC52G",
+          "condition": "",
+          "description": "",
+          "duplicateNames": {}
         }
       ],
       "styled": [
         {
+          "id": "_XzfDhjrXyBT85",
           "css": "* {\n    font-family: Arial;\n}\n\nsmall {\n    padding-top: 9px;\n    display: inline-block;\n    text-transform: uppercase;\n    font-size: 12px;\n}\n\nh5 {\n    margin-bottom: -10px;   \n}\n\n.card {\n    margin-bottom: 24px;\n}",
           "_init": true,
           "_selectId": "NLY2NocxuOJULv"
@@ -31741,6 +32019,71 @@
               "_dispatchInstances": null,
               "_dispatchListeners": null
             },
+            "9Sp-IM7Ht_dXRK": {
+              "helpText": "",
+              "viewTypes": "",
+              "helpTextTso": "",
+              "isAuditable": true,
+              "actionsTypes": "",
+              "isYesNowDisplay": true,
+              "isNoScoreAssessed": "",
+              "questionScoreSteps": "1",
+              "questionScoreOffset": "0",
+              "questionValidScores": "",
+              "questionMaximumScore": null
+            },
+            "HogOfHG_Ltiz17": {
+              "helpText": "",
+              "viewTypes": "",
+              "helpTextTso": "",
+              "isAuditable": true,
+              "actionsTypes": "",
+              "isYesNowDisplay": true,
+              "isNoScoreAssessed": "",
+              "questionScoreSteps": "1",
+              "questionScoreOffset": "0",
+              "questionValidScores": "0,1",
+              "questionMaximumScore": null
+            },
+            "PeP7ReQNbhKb9e": {
+              "helpText": "",
+              "viewTypes": "",
+              "helpTextTso": "",
+              "isAuditable": true,
+              "actionsTypes": "",
+              "isYesNowDisplay": true,
+              "isNoScoreAssessed": "",
+              "questionScoreSteps": "1",
+              "questionScoreOffset": "0",
+              "questionValidScores": "0,1",
+              "questionMaximumScore": null
+            },
+            "ZeMQTrJBE6XxS_": {
+              "helpText": "",
+              "viewTypes": "",
+              "helpTextTso": "",
+              "isAuditable": true,
+              "actionsTypes": "",
+              "isYesNowDisplay": true,
+              "isNoScoreAssessed": "",
+              "questionScoreSteps": "1",
+              "questionScoreOffset": "0",
+              "questionValidScores": "0,1",
+              "questionMaximumScore": null
+            },
+            "biQSdmy6UCAMhI": {
+              "helpText": "",
+              "viewTypes": "",
+              "helpTextTso": "",
+              "isAuditable": true,
+              "actionsTypes": "",
+              "isYesNowDisplay": true,
+              "isNoScoreAssessed": "",
+              "questionScoreSteps": "1",
+              "questionScoreOffset": "0",
+              "questionValidScores": "",
+              "questionMaximumScore": null
+            },
             "clJso5hIqohqqr": {
               "helpText": "",
               "viewTypes": "",
@@ -31765,6 +32108,58 @@
               "questionScoreSteps": "1",
               "questionScoreOffset": "0",
               "questionValidScores": "",
+              "questionMaximumScore": null
+            },
+            "qp9GDQCwIoE4Rz": {
+              "helpText": "",
+              "viewTypes": "",
+              "helpTextTso": "",
+              "isAuditable": true,
+              "actionsTypes": "",
+              "isYesNowDisplay": true,
+              "isNoScoreAssessed": "",
+              "questionScoreSteps": "1",
+              "questionScoreOffset": "0",
+              "questionValidScores": "0,1",
+              "questionMaximumScore": null
+            },
+            "wA-MxJihXioVzG": {
+              "helpText": "",
+              "viewTypes": "",
+              "helpTextTso": "",
+              "isAuditable": false,
+              "actionsTypes": "",
+              "isYesNowDisplay": true,
+              "isNoScoreAssessed": "",
+              "questionScoreSteps": "1",
+              "questionScoreOffset": "0",
+              "questionValidScores": "",
+              "questionMaximumScore": null
+            },
+            "wBMxYCWRrBy9W7": {
+              "helpText": "",
+              "viewTypes": "",
+              "helpTextTso": "",
+              "isAuditable": true,
+              "actionsTypes": "",
+              "isYesNowDisplay": true,
+              "isNoScoreAssessed": "",
+              "questionScoreSteps": "1",
+              "questionScoreOffset": "0",
+              "questionValidScores": "0,1",
+              "questionMaximumScore": null
+            },
+            "yS54t138pkG43V": {
+              "helpText": "",
+              "viewTypes": "",
+              "helpTextTso": "<p>The answer is Assur</p>\n",
+              "isAuditable": true,
+              "actionsTypes": "",
+              "isYesNowDisplay": true,
+              "isNoScoreAssessed": "",
+              "questionScoreSteps": "1",
+              "questionScoreOffset": "0",
+              "questionValidScores": "0,1",
               "questionMaximumScore": null
             },
             "a1S1N000005WjLxFile": {
@@ -39913,6 +40308,7 @@
       ]
     }
   },
+  "_components": true,
   "createOnNew": false,
   "description": "",
   "displayName": "test",
@@ -39932,14 +40328,16 @@
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "64467393-61e5-45fe-a026-45aed6419337",
+  "_lastModifiedBy": "jg4V0kegqPNCf1",
   "defaultActivity": "xSkC0pR6hZ1H2U",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
   "__hideBehaviours": true,
+  "__hidePublishing": true,
   "documentBackdrop": "#f4f4f4",
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
+  "__behaviourCollapse": {},
   "devices-allowed-html": "",
   "isLockedByCurrentUser": false,
   "linkedMasterListProfile": ":contractorcheck/masterCompanyProfile"
