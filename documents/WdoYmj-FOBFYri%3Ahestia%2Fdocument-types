@@ -1,5 +1,5 @@
 {
-  "__": "FmK2rGrRg2bUR1",
+  "__": "TNYCGxBNnqyYC4",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -232,13 +232,13 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1627378209249,
+      "time": 1627379172015,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1627374609000,
+  "_modified": 1627375573000,
   "components": "navigation,relationship",
   "isLockedBy": null,
   "navigation": [],
@@ -1089,7 +1089,7 @@
                   "queryMatchField": "contractorProfile",
                   "relatedTypeName": "Master List Company Profile",
                   "remoteNameField": "companyName",
-                  "remoteSortField": "companyName",
+                  "remoteSortField": "clientName",
                   "remoteView_name": "Name",
                   "youRejectedText": "You Rejected",
                   "bothRejectedText": "Both Rejected",
@@ -1313,7 +1313,7 @@
                   "queryMatchField": "clientProfile",
                   "relatedTypeName": "Company Profile",
                   "remoteNameField": "companyName",
-                  "remoteSortField": "companyName",
+                  "remoteSortField": "contractorName",
                   "remoteView_name": "Name",
                   "youRejectedText": "You Rejected",
                   "bothRejectedText": "Both Rejected",
