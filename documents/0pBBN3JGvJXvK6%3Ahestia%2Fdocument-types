@@ -1,5 +1,5 @@
 {
-  "__": "eGSe4xbh6eSCA3",
+  "__": "8YECAQy0pir0o2",
   "_id": "0pBBN3JGvJXvK6:hestia/document-types",
   "icon": "",
   "name": "Contact",
@@ -168,15 +168,15 @@
   "$valid": true,
   "client": "rsihYJKKDVyaYN",
   "gitHub": {
-    "1CVUkaSvIKpoae": {
-      "publishDocs": "",
-      "gitHubPublish": true
-    },
     "1J8739KZBOtzVQ": {
       "publishDocs": "",
       "gitHubPublish": true
     },
     "aV8boSk1D6q6YG": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
+    "c5NB8L8axiOpyP": {
       "publishDocs": "",
       "gitHubPublish": true
     }
@@ -193,7 +193,7 @@
     }
   },
   "$invalid": false,
-  "_created": 1627286346000,
+  "_created": 1623942180000,
   "_deleted": 0,
   "database": "contractorcheck",
   "maxWidth": 1000,
@@ -201,14 +201,13 @@
     {
       "id": "UXlXJ3hYoZG3bS",
       "name": "1.0",
-      "time": 1627295305200,
-      "user": "yRZ81Qp9q_eG14",
+      "time": 1627484221579,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "_yFsWEsrogR3qh",
       "parentVersion": ""
     }
   ],
-  "_modified": 1627295305000,
+  "_modified": 1627480621000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -535,6 +534,44 @@
             "Your Details": "Vos détails"
           }
         }
+      ],
+      "accessGrantor": [
+        {
+          "id": "7SwuKByN5MjwKL",
+          "types": [],
+          "__init": true,
+          "caption": "Grant Client Access",
+          "question": {
+            "id": "fnzT4MYYWer7Q0",
+            "mode": "specific",
+            "name": "parentCompany",
+            "type": "topic",
+            "hints": {},
+            "topic": "eVCo024qTtDPew:hestia/topics",
+            "groups": [],
+            "concern": [
+              "Company"
+            ],
+            "question": "",
+            "_selectId": "WA-iGsdUvBhq5d",
+            "condition": "",
+            "topicName": "Corporate Structure",
+            "inputLabel": "",
+            "linkedField": "",
+            "popupQuestion": "",
+            "questionHeight": "",
+            "clearIfDisabled": "",
+            "questionLeftPad": "",
+            "questionRightPad": "",
+            "editableCondition": "",
+            "questionSpaceBefore": ""
+          },
+          "_selectId": "MioA_rYLDQzlT1",
+          "companyId": "{resolveId(_id)}",
+          "relatedType": "WdoYmj-FOBFYri:hestia/document-types",
+          "relatedTypeName": "Company Profile",
+          "parentDesignator": "parentCompany"
+        }
       ]
     }
   },
@@ -545,6 +582,7 @@
   "defaultState": "New",
   "sidebarColor": "#333",
   "tabsSelected": "#009fda",
+  "__hideRecords": true,
   "documentColor": "#333",
   "_activeVersion": "iIKtVL2XxyM3qJ",
   "_parentVersion": "UXlXJ3hYoZG3bS",
@@ -555,11 +593,11 @@
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "yRZ81Qp9q_eG14",
+  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
   "defaultActivity": "wLkWrCLCMvU21P",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
-  "__hidePublishing": true,
+  "__hideBehaviours": true,
   "documentBackdrop": "#f4f4f4",
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
