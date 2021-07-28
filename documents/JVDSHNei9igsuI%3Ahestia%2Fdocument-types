@@ -1,5 +1,5 @@
 {
-  "__": "4V1F5qaIrcKBtl",
+  "__": "NK6TZR6mEqe1Ba",
   "_id": "JVDSHNei9igsuI:hestia/document-types",
   "icon": "",
   "name": "Tags",
@@ -198,13 +198,13 @@
     {
       "id": "RNxAHCxRRbyvs9",
       "name": "1.0",
-      "time": 1627494201909,
+      "time": 1627494376040,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
       "parentVersion": ""
     }
   ],
-  "_modified": 1627490602000,
+  "_modified": 1627490776000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -323,10 +323,101 @@
         {
           "id": "WGD_zrKxiu5Cmv",
           "tag": "tag",
+          "_tag": {
+            "id": "r_Tr9YXyPnbFtZ",
+            "name": "tag",
+            "type": "text",
+            "hints": {},
+            "maxWidth": "",
+            "question": "",
+            "_selectId": "RcXCfj2-0Kejat",
+            "condition": "",
+            "inputLabel": "",
+            "defaultValue": "",
+            "questionHeight": "",
+            "questionLeftPad": "",
+            "questionRightPad": "",
+            "questionSpaceBefore": ""
+          },
           "key1": "contractor",
           "key2": "client",
+          "_key1": {
+            "id": "X8VUfVHVtNbInk",
+            "name": "contractor",
+            "type": "lookup",
+            "hints": {},
+            "lines": 1,
+            "groups": [],
+            "question": "",
+            "_selectId": "dGg1DvW1pXOM5L",
+            "condition": "",
+            "popupView": "TwE9lX50LCjAz3",
+            "inputLabel": "",
+            "lookupType": "UJns4BZ0dhGyw5:hestia/document-types",
+            "sortFields": [
+              "companyName"
+            ],
+            "displayView": "TwE9lX50LCjAz3",
+            "linesMobile": 1,
+            "defaultValue": "",
+            "searchFields": [
+              "companyName"
+            ],
+            "popupQuestion": "",
+            "addButtonLabel": "",
+            "lookupTypeName": "Master List Company Profile",
+            "popupView_name": "Master List Name",
+            "questionHeight": "",
+            "requiredFields": [
+              "companyName"
+            ],
+            "clearIfDisabled": "",
+            "questionLeftPad": "",
+            "displayView_name": "Master List Name",
+            "questionRightPad": "",
+            "editableCondition": "",
+            "questionSpaceBefore": ""
+          },
+          "_key2": {
+            "id": "Jkh0cyEtNrbg2z",
+            "name": "client",
+            "type": "lookup",
+            "hints": {},
+            "lines": 1,
+            "groups": [],
+            "question": "",
+            "_selectId": "L7SJ32Py6eTX3L",
+            "condition": "",
+            "popupView": "TwE9lX50LCjAz3",
+            "inputLabel": "",
+            "lookupType": "UJns4BZ0dhGyw5:hestia/document-types",
+            "sortFields": [
+              "companyName"
+            ],
+            "displayView": "TwE9lX50LCjAz3",
+            "linesMobile": 1,
+            "defaultValue": "",
+            "searchFields": [
+              "companyName"
+            ],
+            "popupQuestion": "",
+            "addButtonLabel": "",
+            "lookupTypeName": "Master List Company Profile",
+            "popupView_name": "Master List Name",
+            "questionHeight": "",
+            "requiredFields": [
+              "companyName"
+            ],
+            "clearIfDisabled": "",
+            "questionLeftPad": "",
+            "displayView_name": "Master List Name",
+            "questionRightPad": "",
+            "editableCondition": "",
+            "questionSpaceBefore": ""
+          },
           "__init": true,
           "caption": "Basic tag configuration",
+          "tagName": "tags",
           "_selectId": "F0tSqjtA0nlv1w"
         }
       ],
