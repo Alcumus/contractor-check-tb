@@ -1,5 +1,5 @@
 {
-  "__": "5kl59QjfE3AGia",
+  "__": "PIUNw0SlW3KClX",
   "_id": "JVDSHNei9igsuI:hestia/document-types",
   "icon": "",
   "name": "Tags",
@@ -198,12 +198,13 @@
     {
       "id": "RNxAHCxRRbyvs9",
       "name": "1.0",
-      "time": 1627490372203,
+      "time": 1627490433788,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-      "locked": false
+      "locked": false,
+      "parentVersion": ""
     }
   ],
-  "_modified": 1627486772000,
+  "_modified": 1627486834000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -336,15 +337,44 @@
           "forms": [
             {
               "id": "nHvzXYYtvzhGEw",
-              "form": "2BbWDBjlin-oXR"
+              "form": "2BbWDBjlin-oXR",
+              "readOnly": "",
+              "_selectId": "S0WSKPVqIrAsCf"
             }
           ],
           "inline": true,
-          "actions": [],
+          "actions": [
+            {
+              "id": "wGb64_nJL7zU0y",
+              "blur": "",
+              "icon": "",
+              "color": "#fff",
+              "modal": {
+                "enabled": false
+              },
+              "goBack": "",
+              "caption": "Submit",
+              "command": "setData",
+              "toState": "New",
+              "variant": "text",
+              "_selectId": "u-OxnQx7MhEVQu",
+              "condition": "",
+              "endOfLine": "",
+              "navigateTo": "",
+              "properties": [],
+              "changeState": true,
+              "backgroundColor": "#03a9f4",
+              "visibleCondition": "",
+              "notificationToast": ""
+            }
+          ],
+          "storeIn": "",
           "_selectId": "PtwBe_Jyfl10P6",
+          "editDemands": [],
           "inputStates": [
             "New"
-          ]
+          ],
+          "visibleDemands": []
         }
       ]
     }
@@ -372,6 +402,7 @@
   "devices-allowed": "",
   "sideBarMinWidth": 150,
   "__hideBehaviours": true,
+  "__hidePublishing": false,
   "documentBackdrop": "#f4f4f4",
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",

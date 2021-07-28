@@ -1,6 +1,6 @@
 [
   {
-    "__": "IbzxemsmarFIW3",
+    "__": "TGBvDJisonYSAz",
     "_id": "JVDSHNei9igsuI-RNxAHCxRRbyvs9:hestia/versions",
     "__id": "JVDSHNei9igsuI:hestia/document-types",
     "icon": "",
@@ -329,15 +329,44 @@
             "forms": [
               {
                 "id": "nHvzXYYtvzhGEw",
-                "form": "2BbWDBjlin-oXR"
+                "form": "2BbWDBjlin-oXR",
+                "readOnly": "",
+                "_selectId": "S0WSKPVqIrAsCf"
               }
             ],
             "inline": true,
-            "actions": [],
+            "actions": [
+              {
+                "id": "wGb64_nJL7zU0y",
+                "blur": "",
+                "icon": "",
+                "color": "#fff",
+                "modal": {
+                  "enabled": false
+                },
+                "goBack": "",
+                "caption": "Submit",
+                "command": "setData",
+                "toState": "New",
+                "variant": "text",
+                "_selectId": "u-OxnQx7MhEVQu",
+                "condition": "",
+                "endOfLine": "",
+                "navigateTo": "",
+                "properties": [],
+                "changeState": true,
+                "backgroundColor": "#03a9f4",
+                "visibleCondition": "",
+                "notificationToast": ""
+              }
+            ],
+            "storeIn": "",
             "_selectId": "PtwBe_Jyfl10P6",
+            "editDemands": [],
             "inputStates": [
               "New"
-            ]
+            ],
+            "visibleDemands": []
           }
         ]
       }
@@ -351,7 +380,8 @@
     "tabsSelected": "#009fda",
     "__hideRecords": true,
     "documentColor": "#333",
-    "_activeVersion": "YulluBMkOepgz5",
+    "_activeVersion": "RNxAHCxRRbyvs9",
+    "_parentVersion": "",
     "currentVersion": {
       "live": "1.0",
       "testing": "1.0",
@@ -364,6 +394,7 @@
     "devices-allowed": "",
     "sideBarMinWidth": 150,
     "__hideBehaviours": true,
+    "__hidePublishing": false,
     "documentBackdrop": "#f4f4f4",
     "sidebarBackground": "#fff",
     "documentBackground": "#f4f4f4",
