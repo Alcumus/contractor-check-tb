@@ -1,5 +1,5 @@
 {
-  "__": "cP9664yVQevJu6",
+  "__": "-qb3rj1mx3JKjR",
   "_id": "iKcL-uuE6l6yoA:hestia/document-types",
   "icon": "",
   "name": "Note Link",
@@ -196,13 +196,13 @@
     {
       "id": "7eXqGU0be9-37H",
       "name": "1.0",
-      "time": 1627554605679,
+      "time": 1627556132916,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
       "parentVersion": ""
     }
   ],
-  "_modified": 1627551005000,
+  "_modified": 1627552533000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -478,15 +478,44 @@
           "forms": [
             {
               "id": "QDFXoeCaDNXtMu",
-              "form": "Tcy_Gxit-c8Qi6"
+              "form": "Tcy_Gxit-c8Qi6",
+              "readOnly": "",
+              "_selectId": "7zP-PJISHkzPDs"
             }
           ],
           "inline": true,
-          "actions": [],
+          "actions": [
+            {
+              "id": "y7OPS97xaAwIt6",
+              "blur": "",
+              "icon": "",
+              "color": "#fff",
+              "modal": {
+                "enabled": false
+              },
+              "goBack": "",
+              "caption": "Submit",
+              "command": "setData",
+              "toState": "New",
+              "variant": "text",
+              "_selectId": "p1GlRpk_MH2nHH",
+              "condition": "",
+              "endOfLine": "",
+              "navigateTo": "",
+              "properties": [],
+              "changeState": true,
+              "backgroundColor": "#03a9f4",
+              "visibleCondition": "",
+              "notificationToast": ""
+            }
+          ],
+          "storeIn": "",
           "_selectId": "d1BwmhGL01-IzE",
+          "editDemands": [],
           "inputStates": [
             "New"
-          ]
+          ],
+          "visibleDemands": []
         }
       ]
     }
