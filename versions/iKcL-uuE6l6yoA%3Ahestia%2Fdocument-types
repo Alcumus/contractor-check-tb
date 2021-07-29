@@ -1,6 +1,6 @@
 [
   {
-    "__": "yOALui7XF0mq_P",
+    "__": "nCbn_RR8qIpt4l",
     "_id": "iKcL-uuE6l6yoA-7eXqGU0be9-37H:hestia/versions",
     "__id": "iKcL-uuE6l6yoA:hestia/document-types",
     "icon": "",
@@ -194,7 +194,7 @@
     "_deleted": 0,
     "database": "contractorcheck",
     "maxWidth": 1000,
-    "_modified": 1627550642000,
+    "_modified": 1627550805000,
     "components": "",
     "navigation": [],
     "_behaviours": {
@@ -335,6 +335,134 @@
             "duplicateNames": {}
           }
         ],
+        "tags": [
+          {
+            "id": "lxXUDqKyBt08Ps",
+            "tag": "note",
+            "_tag": {
+              "id": "iKPtCr2kQGct65",
+              "name": "note",
+              "type": "lookup",
+              "hints": {},
+              "lines": 1,
+              "groups": [],
+              "question": "",
+              "_selectId": "LErVgeurW5kV7K",
+              "condition": "",
+              "popupView": "YHQEy_tCouuHjM",
+              "inputLabel": "",
+              "lookupType": "qeavC6oOb4Zp_d:hestia/document-types",
+              "sortFields": [
+                "title"
+              ],
+              "displayView": "YHQEy_tCouuHjM",
+              "linesMobile": 1,
+              "defaultValue": "",
+              "searchFields": [
+                "title",
+                "note"
+              ],
+              "popupQuestion": "",
+              "addButtonLabel": "",
+              "lookupTypeName": "Note",
+              "popupView_name": "Title",
+              "questionHeight": "",
+              "requiredFields": [
+                "title"
+              ],
+              "clearIfDisabled": "",
+              "questionLeftPad": "",
+              "displayView_name": "Title",
+              "questionRightPad": "",
+              "editableCondition": "",
+              "questionSpaceBefore": ""
+            },
+            "key1": "client",
+            "key2": "contractor",
+            "_key1": {
+              "id": "JSCcS8G1dI1EEt",
+              "name": "client",
+              "type": "lookup",
+              "hints": {},
+              "lines": 1,
+              "groups": [],
+              "question": "",
+              "_selectId": "yvNTgbajqg4-0y",
+              "condition": "",
+              "popupView": "TwE9lX50LCjAz3",
+              "inputLabel": "",
+              "lookupType": "UJns4BZ0dhGyw5:hestia/document-types",
+              "sortFields": [
+                "companyName"
+              ],
+              "displayView": "TwE9lX50LCjAz3",
+              "linesMobile": 1,
+              "defaultValue": "",
+              "searchFields": [
+                "companyName",
+                "address",
+                "email"
+              ],
+              "popupQuestion": "",
+              "addButtonLabel": "",
+              "lookupTypeName": "Master List Company Profile",
+              "popupView_name": "Master List Name",
+              "questionHeight": "",
+              "requiredFields": [
+                "companyName"
+              ],
+              "clearIfDisabled": "",
+              "questionLeftPad": "",
+              "displayView_name": "Master List Name",
+              "questionRightPad": "",
+              "editableCondition": "",
+              "questionSpaceBefore": ""
+            },
+            "_key2": {
+              "id": "7UGaEkRyo2gDF3",
+              "name": "contractor",
+              "type": "lookup",
+              "hints": {},
+              "lines": 1,
+              "groups": [],
+              "question": "",
+              "_selectId": "43QsrMDsb2jiK4",
+              "condition": "",
+              "popupView": "TwE9lX50LCjAz3",
+              "inputLabel": "",
+              "lookupType": "UJns4BZ0dhGyw5:hestia/document-types",
+              "sortFields": [
+                "companyName"
+              ],
+              "displayView": "TwE9lX50LCjAz3",
+              "linesMobile": 1,
+              "defaultValue": "",
+              "searchFields": [
+                "companyName",
+                "address",
+                "email"
+              ],
+              "popupQuestion": "",
+              "addButtonLabel": "",
+              "lookupTypeName": "Master List Company Profile",
+              "popupView_name": "Master List Name",
+              "questionHeight": "",
+              "requiredFields": [
+                "companyName"
+              ],
+              "clearIfDisabled": "",
+              "questionLeftPad": "",
+              "displayView_name": "Master List Name",
+              "questionRightPad": "",
+              "editableCondition": "",
+              "questionSpaceBefore": ""
+            },
+            "__init": true,
+            "caption": "Contractor note to client link",
+            "tagName": "noteLink",
+            "_selectId": "2GjZrCJLSaf_jE"
+          }
+        ],
         "formAction": [
           {
             "id": "2CirmVaKvYwb2z",
@@ -363,7 +491,8 @@
     "sidebarColor": "#333",
     "tabsSelected": "#009fda",
     "documentColor": "#333",
-    "_activeVersion": "yaWKdbirGLtr8t",
+    "_activeVersion": "7eXqGU0be9-37H",
+    "_parentVersion": "",
     "currentVersion": {
       "live": "1.0",
       "testing": "1.0",
