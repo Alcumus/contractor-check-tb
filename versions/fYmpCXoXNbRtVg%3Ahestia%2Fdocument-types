@@ -1,6 +1,6 @@
 [
   {
-    "__": "F30Ez4-gBIC_wN",
+    "__": "TfKaUTlynVxWk7",
     "_id": "fYmpCXoXNbRtVg-D57acZ-uIHF-Tx:hestia/versions",
     "__id": "fYmpCXoXNbRtVg:hestia/document-types",
     "__ok": true,
@@ -184,6 +184,10 @@
       "aV8boSk1D6q6YG": {
         "publishDocs": "",
         "gitHubPublish": true
+      },
+      "c5NB8L8axiOpyP": {
+        "publishDocs": "",
+        "gitHubPublish": true
       }
     },
     "locked": false,
@@ -199,11 +203,11 @@
       }
     },
     "$invalid": false,
-    "_created": 1627286361000,
+    "_created": 1621447468000,
     "_deleted": 0,
     "database": "contractorcheck",
     "maxWidth": 1000,
-    "_modified": 1626208048000,
+    "_modified": 1627566520000,
     "components": "verification,helptext,navigation,formprogress,localisation",
     "isLockedBy": null,
     "navigation": [],
@@ -693,6 +697,33 @@
             "css": ".progressbar > div {\n    height: initial !important;\n    margin: 0 !important;\n    line-height: 1.7;\n}\n\n.title {\n    border-radius: 4px;\n    padding-bottom: 20px;\n}\n\n",
             "_init": true,
             "_selectId": "6EMy8mLv9RKokA"
+          }
+        ],
+        "indexer": [
+          {
+            "id": "1NUfHbcu5M0w40",
+            "__init": true,
+            "address": [
+              {
+                "id": "CnqZX60k9t_V_2",
+                "type": "normal",
+                "field": "assessmentType",
+                "defaultValue": ""
+              },
+              {
+                "id": "WZU6s5C_ysf6bV",
+                "type": "normal",
+                "field": "linkedMasterListProfile",
+                "defaultValue": ""
+              },
+              {
+                "id": "-v_8k15xRs8iZ5",
+                "type": "normal",
+                "field": "linkedProfile",
+                "defaultValue": ""
+              }
+            ],
+            "_selectId": "uhk2Qqqp_HIkdV"
           }
         ],
         "updater": [
@@ -2542,7 +2573,7 @@
     "defaultState": "New",
     "sidebarColor": "#333",
     "tabsSelected": "#009fda",
-    "__hideRecords": false,
+    "__hideRecords": true,
     "__warnReasons": [],
     "documentColor": "#333",
     "linkedProfile": "undefined",
@@ -2560,6 +2591,7 @@
     "devices-allowed": "",
     "sideBarMinWidth": 150,
     "__hideBehaviours": true,
+    "__hidePublishing": true,
     "documentBackdrop": "#f4f4f4",
     "_updatersExpanded": true,
     "sidebarBackground": "#fff",
