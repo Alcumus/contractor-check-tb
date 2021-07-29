@@ -1,5 +1,5 @@
 {
-  "__": "BffwD0-wZ858Rc",
+  "__": "pUEdCsyqOy5R3l",
   "_id": "qeavC6oOb4Zp_d:hestia/document-types",
   "icon": "",
   "name": "Note",
@@ -184,7 +184,11 @@
   "demands": [],
   "graphQL": {
     "6g4mciY7jkfOUo": {
-      "exposeAPI": ""
+      "read": true,
+      "write": true,
+      "exposeAPI": true,
+      "readDemands": [],
+      "writeDemands": []
     }
   },
   "$invalid": false,
@@ -196,12 +200,13 @@
     {
       "id": "5EmjwyJHUDBaFk",
       "name": "1.0",
-      "time": 1627554327262,
+      "time": 1627556087113,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-      "locked": false
+      "locked": false,
+      "parentVersion": ""
     }
   ],
-  "_modified": 1627550727000,
+  "_modified": 1627552487000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -267,15 +272,44 @@
           "forms": [
             {
               "id": "ARsoRC3HFKwlDT",
-              "form": "wz_0c11PEt_RLb"
+              "form": "wz_0c11PEt_RLb",
+              "readOnly": "",
+              "_selectId": "kBGjhibmKLQtsW"
             }
           ],
           "inline": true,
-          "actions": [],
+          "actions": [
+            {
+              "id": "YTCmdHZmVMQ72F",
+              "blur": "",
+              "icon": "",
+              "color": "#fff",
+              "modal": {
+                "enabled": false
+              },
+              "goBack": "",
+              "caption": "Submit",
+              "command": "setData",
+              "toState": "New",
+              "variant": "text",
+              "_selectId": "o1s_-Q8johguuW",
+              "condition": "",
+              "endOfLine": "",
+              "navigateTo": "",
+              "properties": [],
+              "changeState": true,
+              "backgroundColor": "#03a9f4",
+              "visibleCondition": "",
+              "notificationToast": ""
+            }
+          ],
+          "storeIn": "",
           "_selectId": "zyg6DrSSvNw3fv",
+          "editDemands": [],
           "inputStates": [
             "New"
-          ]
+          ],
+          "visibleDemands": []
         }
       ],
       "viewAsText": [
@@ -304,6 +338,7 @@
   "defaultState": "New",
   "sidebarColor": "#333",
   "tabsSelected": "#009fda",
+  "__hideRecords": true,
   "documentColor": "#333",
   "_activeVersion": "r7un2LeQLo3SXW",
   "_parentVersion": "5EmjwyJHUDBaFk",
