@@ -1,5 +1,5 @@
 {
-  "__": "-qb3rj1mx3JKjR",
+  "__": "W2nuJb0iv7VMJz",
   "_id": "iKcL-uuE6l6yoA:hestia/document-types",
   "icon": "",
   "name": "Note Link",
@@ -196,13 +196,13 @@
     {
       "id": "7eXqGU0be9-37H",
       "name": "1.0",
-      "time": 1627556132916,
+      "time": 1627557675990,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
       "parentVersion": ""
     }
   ],
-  "_modified": 1627552533000,
+  "_modified": 1627554076000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -471,6 +471,33 @@
           "_selectId": "2GjZrCJLSaf_jE"
         }
       ],
+      "indexer": [
+        {
+          "id": "F5wj0QbJXQJ8-x",
+          "__init": true,
+          "address": [
+            {
+              "id": "eRV9wM2nPkjbSt",
+              "type": "normal",
+              "field": "client",
+              "defaultValue": ""
+            },
+            {
+              "id": "x_Iatc6gqxLuaG",
+              "type": "normal",
+              "field": "contractor",
+              "defaultValue": ""
+            },
+            {
+              "id": "UiJ4M9RpEKMpKC",
+              "type": "normal",
+              "field": "note",
+              "defaultValue": ""
+            }
+          ],
+          "_selectId": "oAJwOlLFW1e6IW"
+        }
+      ],
       "formAction": [
         {
           "id": "2CirmVaKvYwb2z",
@@ -527,6 +554,7 @@
   "defaultState": "New",
   "sidebarColor": "#333",
   "tabsSelected": "#009fda",
+  "__hideRecords": true,
   "documentColor": "#333",
   "_activeVersion": "yaWKdbirGLtr8t",
   "_parentVersion": "7eXqGU0be9-37H",
