@@ -1,6 +1,6 @@
 [
   {
-    "__": "MkdgoxORkAbOH7",
+    "__": "g7_rBDt10W-z0X",
     "_id": "R720NeuU8vOWuo-sTNP-VH3hEzwdP:hestia/versions",
     "__id": "R720NeuU8vOWuo:hestia/document-types",
     "__ok": true,
@@ -219,7 +219,7 @@
     "_deleted": 0,
     "database": "contractorcheck",
     "maxWidth": 1000,
-    "_modified": 1627566516000,
+    "_modified": 1627577530000,
     "components": "verification,navigation,richtext",
     "isLockedBy": null,
     "navigation": [],
@@ -2036,7 +2036,7 @@
     "defaultState": "New",
     "sidebarColor": "#333",
     "tabsSelected": "#009fda",
-    "__hideRecords": false,
+    "__hideRecords": true,
     "__warnReasons": [],
     "documentColor": "#333",
     "_activeVersion": "sTNP-VH3hEzwdP",
