@@ -1,5 +1,5 @@
 {
-  "__": "pqEYaOKYQKvVQn",
+  "__": "vSjlUfgGOYGOUM",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -241,13 +241,13 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1627413454080,
+      "time": 1627645425726,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1627409854000,
+  "_modified": 1627641826000,
   "components": "navigation,relationship",
   "isLockedBy": null,
   "navigation": [],
@@ -1094,6 +1094,7 @@
                   "rejectedColor": "#ffffff",
                   "requestedText": "Requested",
                   "confirmedColor": "#ffffff",
+                  "popupSortField": "companyName",
                   "requestedColor": "#ffffff",
                   "queryMatchField": "contractorProfile",
                   "relatedTypeName": "Master List Company Profile",
@@ -1318,6 +1319,7 @@
                   "rejectedColor": "#ffffff",
                   "requestedText": "Requested",
                   "confirmedColor": "#ffffff",
+                  "popupSortField": "companyName",
                   "requestedColor": "#ffffff",
                   "queryMatchField": "clientProfile",
                   "relatedTypeName": "Company Profile",
