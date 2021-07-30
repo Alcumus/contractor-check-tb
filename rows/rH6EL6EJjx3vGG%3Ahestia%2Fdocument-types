@@ -1,25 +1,5 @@
 [
   {
-    "__": "AXxXunSL4lvy8f",
-    "_id": "debug-Work  Activities-dev-G1YsSMZUpMpIBD:workA/workA",
-    "$valid": true,
-    "client": "@WORK",
-    "_client": "rsihYJKKDVyaYN",
-    "$creator": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-    "$invalid": false,
-    "_created": 1621461378000,
-    "_deleted": 0,
-    "_version": "1.0",
-    "_modified": 1621547505000,
-    "_settings": {
-      "$id": "rH6EL6EJjx3vGG:hestia/document-types",
-      "$state": "New"
-    },
-    "_components": {},
-    "__originalId": "debug-Work  Activities-dev-G1YsSMZUpMpIBD:workA/workA",
-    "_lastModifiedBy": "fbfdc18c-a5b7-4a6f-a334-5da40cfdecd3"
-  },
-  {
     "__": "zXKmJRcJvTyijm",
     "_id": "qmaPwMF5Kg3KTd:workA/workA",
     "$valid": true,
