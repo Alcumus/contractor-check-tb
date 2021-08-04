@@ -1,6 +1,6 @@
 [
   {
-    "__": "vXcKhLG-NsbkJ_",
+    "__": "UCKLY3fq7YSxOz",
     "ZIP": "M5C 1S2",
     "_id": "1621266694681:companyP/companyP",
     "City": "Toronto",
@@ -98,11 +98,6 @@
     "$valid": true,
     "SHARED": {},
     "client": "rsihYJKKDVyaYN",
-    "$cursor": [
-      "iGZbWoV-i84JIl",
-      5,
-      56
-    ],
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
         "pivotalDate": 1624280749878,
@@ -157,7 +152,7 @@
     "_created": 1621461167000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": null,
+    "complete": 86,
     "latitude": 43.65323,
     "province": [
       "New Brunswick",
@@ -165,7 +160,7 @@
       "Alberta",
       "British Columbia"
     ],
-    "_modified": 1627831616000,
+    "_modified": 1627566523000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Assessed"
@@ -191,13 +186,13 @@
     },
     "_updaterInfo": {
       "-kkm4OhThVfEB2": {
-        "state": "Approved",
+        "state": "Assessed",
         "previousValues": [
           ""
         ]
       },
       "Qi6ubuhBLjlkcx": {
-        "state": "Approved",
+        "state": "Assessed",
         "previousValues": [
           ""
         ]
@@ -214,7 +209,7 @@
         ]
       },
       "okFTMSwCgI9C4a": {
-        "state": "Approved",
+        "state": "Assessed",
         "previousValues": [
           ""
         ]
@@ -253,7 +248,7 @@
       "Y9eam4wtWr9ci3:workA/workA"
     ],
     "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-    "_stateChangedAt": 1627835222666,
+    "_stateChangedAt": 1627381463043,
     "complete_remain": 0,
     "complete_complete": 16,
     "headOfficeCountry": "Canada",

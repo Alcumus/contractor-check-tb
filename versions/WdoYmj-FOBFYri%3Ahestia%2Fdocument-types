@@ -1,6 +1,6 @@
 [
   {
-    "__": "qtpqiT5ZLvXbTW",
+    "__": "c2YJAtlZ5N2Y1f",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -212,7 +212,7 @@
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1628075686030,
+    "_modified": 1628072299000,
     "components": "navigation,relationship",
     "isLockedBy": null,
     "navigation": [],
@@ -1033,7 +1033,7 @@
                     "_selectId": "a0nyiKf6ZypXnU",
                     "condition": "",
                     "linkField": "contractor",
-                    "remoteView": "TwE9lX50LCjAz3",
+                    "remoteView": "tO-6DxodJdqI_0",
                     "description": "",
                     "pendingText": "Pending",
                     "relatedType": "UJns4BZ0dhGyw5:hestia/document-types",
@@ -1065,7 +1065,7 @@
                     "relatedTypeName": "Master List Company Profile",
                     "remoteNameField": "companyName",
                     "remoteSortField": "clientName",
-                    "remoteView_name": "Master List Name",
+                    "remoteView_name": "Name",
                     "youRejectedText": "You Rejected",
                     "bothRejectedText": "Both Rejected",
                     "youRejectedColor": "#444444",
@@ -1653,13 +1653,52 @@
                 "description": ""
               },
               {
-                "id": "1628075677674-SSbJ0JBFALzsio",
-                "_id": "1628075677674-SSbJ0JBFALzsio:hestia/form-sections",
+                "id": "1628075929602-lahTOphnRzQIyp",
+                "_id": "1628075929602-lahTOphnRzQIyp:hestia/form-sections",
                 "name": "Tags",
                 "_expanded": true,
-                "_selectId": "rue7pUWBjynhIc",
+                "_selectId": "zc9tXFoOSP5XCC",
                 "condition": "",
-                "questions": [],
+                "questions": [
+                  {
+                    "id": "4s0AU2OfELr79G",
+                    "name": "",
+                    "type": "card",
+                    "color": "",
+                    "hints": {},
+                    "title": "Tags",
+                    "question": "",
+                    "_selectId": "85-nxAQRCm2MfQ",
+                    "condition": "",
+                    "elevation": 3,
+                    "topMargin": "",
+                    "background": "",
+                    "leftMargin": "",
+                    "collapsible": true,
+                    "rightMargin": "",
+                    "bottomMargin": "",
+                    "defaultExpanded": false
+                  },
+                  {
+                    "id": "9qQr8VbhSB0my6",
+                    "name": "availableTags",
+                    "type": "text",
+                    "hints": {
+                      "multi_line": true,
+                      "splitLinesIntoArray": true
+                    },
+                    "maxWidth": "",
+                    "question": "",
+                    "_selectId": "aEtTu9nm0lVrq1",
+                    "condition": "",
+                    "inputLabel": "",
+                    "defaultValue": "",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  }
+                ],
                 "description": ""
               },
               {
@@ -2374,7 +2413,7 @@
     "__behaviourCollapse": {
       "chase": false,
       "forms": false,
-      "views": false,
+      "views": true,
       "styled": true,
       "geocode": false,
       "updater": false,
