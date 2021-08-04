@@ -1,6 +1,6 @@
 [
   {
-    "__": "JUzsQujefVjvHg",
+    "__": "qtpqiT5ZLvXbTW",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -212,7 +212,7 @@
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1627649536221,
+    "_modified": 1628075686030,
     "components": "navigation,relationship",
     "isLockedBy": null,
     "navigation": [],
@@ -1653,10 +1653,20 @@
                 "description": ""
               },
               {
+                "id": "1628075677674-SSbJ0JBFALzsio",
+                "_id": "1628075677674-SSbJ0JBFALzsio:hestia/form-sections",
+                "name": "Tags",
+                "_expanded": true,
+                "_selectId": "rue7pUWBjynhIc",
+                "condition": "",
+                "questions": [],
+                "description": ""
+              },
+              {
                 "id": "1627401106635-cKn6Fx4UpkAM9z",
                 "_id": "1627401106635-cKn6Fx4UpkAM9z:hestia/form-sections",
                 "name": "Topics",
-                "_expanded": true,
+                "_expanded": false,
                 "_selectId": "aMOMwJJY-sh2HE",
                 "condition": "",
                 "questions": [
@@ -2364,7 +2374,7 @@
     "__behaviourCollapse": {
       "chase": false,
       "forms": false,
-      "views": true,
+      "views": false,
       "styled": true,
       "geocode": false,
       "updater": false,
