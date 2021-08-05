@@ -1,5 +1,5 @@
 {
-  "__": "HQVxmbOD8TxIOc",
+  "__": "p7kr_hd9DMcAfF",
   "_id": "JVDSHNei9igsuI:hestia/document-types",
   "icon": "",
   "name": "Tags",
@@ -200,13 +200,13 @@
     {
       "id": "RNxAHCxRRbyvs9",
       "name": "1.0",
-      "time": 1628175062098,
+      "time": 1628175297866,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
       "parentVersion": ""
     }
   ],
-  "_modified": 1628171462000,
+  "_modified": 1628171698000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -222,6 +222,22 @@
               "_expanded": true,
               "_selectId": "9OlgytKKDdNl_V",
               "questions": [
+                {
+                  "id": "YUUDHm4-gBorg8",
+                  "name": "newField",
+                  "type": "text",
+                  "hints": {},
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "D9VQZGtyW1SK5G",
+                  "condition": "",
+                  "inputLabel": "",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
                 {
                   "id": "X8VUfVHVtNbInk",
                   "name": "contractor",
@@ -304,22 +320,6 @@
                   "maxWidth": "",
                   "question": "",
                   "_selectId": "RcXCfj2-0Kejat",
-                  "condition": "",
-                  "inputLabel": "",
-                  "defaultValue": "",
-                  "questionHeight": "",
-                  "questionLeftPad": "",
-                  "questionRightPad": "",
-                  "questionSpaceBefore": ""
-                },
-                {
-                  "id": "YUUDHm4-gBorg8",
-                  "name": "newField",
-                  "type": "text",
-                  "hints": {},
-                  "maxWidth": "",
-                  "question": "",
-                  "_selectId": "D9VQZGtyW1SK5G",
                   "condition": "",
                   "inputLabel": "",
                   "defaultValue": "",
