@@ -1,6 +1,6 @@
 [
   {
-    "__": "T1tciEhWmYMz06",
+    "__": "4aJt5RnhBuwOxZ",
     "_id": "JVDSHNei9igsuI-RNxAHCxRRbyvs9:hestia/versions",
     "__id": "JVDSHNei9igsuI:hestia/document-types",
     "icon": "",
@@ -198,7 +198,7 @@
     "_deleted": 0,
     "database": "contractorcheck",
     "maxWidth": 1000,
-    "_modified": 1628169421185,
+    "_modified": 1628173584156,
     "components": "",
     "navigation": [],
     "_behaviours": {
@@ -296,6 +296,22 @@
                     "maxWidth": "",
                     "question": "",
                     "_selectId": "RcXCfj2-0Kejat",
+                    "condition": "",
+                    "inputLabel": "",
+                    "defaultValue": "",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "YUUDHm4-gBorg8",
+                    "name": "newField",
+                    "type": "text",
+                    "hints": {},
+                    "maxWidth": "",
+                    "question": "",
+                    "_selectId": "D9VQZGtyW1SK5G",
                     "condition": "",
                     "inputLabel": "",
                     "defaultValue": "",
