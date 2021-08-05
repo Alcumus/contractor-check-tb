@@ -1072,17 +1072,19 @@
     "doYouUseContractors": "yes"
   },
   {
-    "__": "9PHOR6Kfe07pjZ",
+    "__": "TEUmIAD-qjYPDT",
     "ZIP": "1234",
     "_id": "Mx20OTel7MWV4d:companyP/companyP",
     "City": "Sometown",
     "_info": {
+      "fnzT4MYYWer7Q0": {},
       "workActivities": {
         "rows": []
       }
     },
     "email": "mike@bimbobread.com",
     "phone": "",
+    "state": "",
     "SHARED": {},
     "__chase": {
       "Dee2r-Lb5_9MQZ": {
@@ -1106,7 +1108,7 @@
       "Alberta",
       "British Columbia"
     ],
-    "_modified": 1627343422000,
+    "_modified": 1628151191000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Saved"
@@ -1119,6 +1121,7 @@
       "Gy195qKK_utUgI": {
         "ZIP": "1234",
         "City": "Sometown",
+        "state": "",
         "address": "Some street",
         "companyName": "Bimbo Canada (Canada Bread)",
         "headOfficeCountry": "US"
@@ -1160,17 +1163,24 @@
     "workActivity": [
       "Air Conditioning"
     ],
+    "availableTags": [
+      "Major construction projects",
+      "Refurbishment",
+      "Project Alpha",
+      "Andy's tag",
+      "Banana"
+    ],
     "clientsLookup": [],
     "doYouContract": "no",
     "classification": "",
-    "complete_count": 13,
+    "complete_count": 24,
     "workActivities": [
       "Y9eam4wtWr9ci3:workA/workA"
     ],
-    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_lastModifiedBy": "fc4b391a-42c9-4cbc-8ea2-a716c7c8997c",
     "_stateChangedAt": 1624963992108,
-    "complete_remain": 4,
-    "complete_complete": 9,
+    "complete_remain": 10,
+    "complete_complete": 14,
     "headOfficeCountry": "US",
     "numberOfEmployees": "",
     "preferredLanguage": "en",
