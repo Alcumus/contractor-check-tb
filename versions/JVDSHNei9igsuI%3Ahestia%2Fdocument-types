@@ -1,6 +1,6 @@
 [
   {
-    "__": "ji0DEn7pehCjPY",
+    "__": "YXd8XgWeAwkjun",
     "_id": "JVDSHNei9igsuI-RNxAHCxRRbyvs9:hestia/versions",
     "__id": "JVDSHNei9igsuI:hestia/document-types",
     "icon": "",
@@ -214,22 +214,6 @@
                 "_expanded": true,
                 "_selectId": "9OlgytKKDdNl_V",
                 "questions": [
-                  {
-                    "id": "YUUDHm4-gBorg8",
-                    "name": "newField",
-                    "type": "text",
-                    "hints": {},
-                    "maxWidth": "",
-                    "question": "",
-                    "_selectId": "D9VQZGtyW1SK5G",
-                    "condition": "",
-                    "inputLabel": "",
-                    "defaultValue": "",
-                    "questionHeight": "",
-                    "questionLeftPad": "",
-                    "questionRightPad": "",
-                    "questionSpaceBefore": ""
-                  },
                   {
                     "id": "X8VUfVHVtNbInk",
                     "name": "contractor",
