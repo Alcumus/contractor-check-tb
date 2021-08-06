@@ -1,5 +1,5 @@
 {
-  "__": "8YECAQy0pir0o2",
+  "__": "lfl28hrAiEDoWu",
   "_id": "0pBBN3JGvJXvK6:hestia/document-types",
   "icon": "",
   "name": "Contact",
@@ -201,13 +201,13 @@
     {
       "id": "UXlXJ3hYoZG3bS",
       "name": "1.0",
-      "time": 1627484221579,
+      "time": 1628256865931,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
       "parentVersion": ""
     }
   ],
-  "_modified": 1627480621000,
+  "_modified": 1628253266000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -456,6 +456,14 @@
           "condition": "",
           "description": "",
           "duplicateNames": {}
+        }
+      ],
+      "userMaker": [
+        {
+          "id": "OlS3Go4GnBRKLq",
+          "name": "Make users from email address",
+          "email": "email",
+          "_selectId": "kW5GI8As6tXZNo"
         }
       ],
       "formAction": [
