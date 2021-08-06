@@ -1,6 +1,6 @@
 [
   {
-    "__": "O3XR3PwrfkgN6f",
+    "__": "dNKIiblwNVOqDu",
     "_id": "0pBBN3JGvJXvK6-UXlXJ3hYoZG3bS:hestia/versions",
     "__id": "0pBBN3JGvJXvK6:hestia/document-types",
     "icon": "",
@@ -199,7 +199,7 @@
     "_deleted": 0,
     "database": "contractorcheck",
     "maxWidth": 1000,
-    "_modified": 1627480513000,
+    "_modified": 1628249446000,
     "components": "",
     "navigation": [],
     "_behaviours": {
@@ -448,6 +448,14 @@
             "condition": "",
             "description": "",
             "duplicateNames": {}
+          }
+        ],
+        "userMaker": [
+          {
+            "id": "OlS3Go4GnBRKLq",
+            "name": "Make users from email address",
+            "email": "email",
+            "_selectId": "kW5GI8As6tXZNo"
           }
         ],
         "formAction": [
