@@ -1,5 +1,5 @@
 {
-  "__": "lfl28hrAiEDoWu",
+  "__": "C67tnh-R1uXwv3",
   "_id": "0pBBN3JGvJXvK6:hestia/document-types",
   "icon": "",
   "name": "Contact",
@@ -201,13 +201,13 @@
     {
       "id": "UXlXJ3hYoZG3bS",
       "name": "1.0",
-      "time": 1628256865931,
+      "time": 1628594716075,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
       "parentVersion": ""
     }
   ],
-  "_modified": 1628253266000,
+  "_modified": 1628591116000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -367,9 +367,7 @@
                   "id": "OmQGuc38LQeTC-",
                   "name": "company",
                   "type": "lookup",
-                  "hints": {
-                    "hidden": true
-                  },
+                  "hints": {},
                   "lines": 1,
                   "groups": [],
                   "question": "",
