@@ -1,6 +1,6 @@
 [
   {
-    "__": "3sb9Ho6GenDFMf",
+    "__": "q4c7REkRwgEnu4",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -208,11 +208,11 @@
       }
     },
     "$invalid": false,
-    "_created": 1621461152000,
+    "_created": 1627286355000,
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1628072412000,
+    "_modified": 1628256912000,
     "components": "navigation,relationship",
     "isLockedBy": null,
     "navigation": [],
@@ -614,7 +614,7 @@
                 "id": "1622143260114-KWwh6Pe9Z8-ctC",
                 "_id": "1622143260114-KWwh6Pe9Z8-ctC:hestia/form-sections",
                 "name": "...",
-                "_expanded": true,
+                "_expanded": false,
                 "_selectId": "2187T3VgELg9BQ",
                 "condition": "",
                 "questions": [
@@ -758,7 +758,7 @@
                 "id": "1622143342634-kvQqHZSmhsd-oD",
                 "_id": "1622143342634-kvQqHZSmhsd-oD:hestia/form-sections",
                 "name": "...",
-                "_expanded": true,
+                "_expanded": false,
                 "_selectId": "AiiqN2e49u1A2H",
                 "condition": "doYouContract=yes",
                 "questions": [
@@ -1163,7 +1163,7 @@
                 "id": "1622143327962-G2JHlv1eMNx7vA",
                 "_id": "1622143327962-G2JHlv1eMNx7vA:hestia/form-sections",
                 "name": "...",
-                "_expanded": true,
+                "_expanded": false,
                 "_selectId": "MuQp7FGvpdu1xy",
                 "condition": "",
                 "questions": [
@@ -1717,7 +1717,7 @@
                 "id": "1627401106635-cKn6Fx4UpkAM9z",
                 "_id": "1627401106635-cKn6Fx4UpkAM9z:hestia/form-sections",
                 "name": "Topics",
-                "_expanded": false,
+                "_expanded": true,
                 "_selectId": "aMOMwJJY-sh2HE",
                 "condition": "",
                 "questions": [
@@ -1738,7 +1738,7 @@
                     "topicName": "Corporate Structure",
                     "inputLabel": "",
                     "linkedField": "",
-                    "popupQuestion": "",
+                    "popupQuestion": "What is your parent company?",
                     "questionHeight": "",
                     "clearIfDisabled": "",
                     "questionLeftPad": "",
@@ -2036,12 +2036,7 @@
             "id": "-kkm4OhThVfEB2",
             "name": "Update Master List",
             "onEnter": "",
-            "inStates": [
-              "New",
-              "Saved",
-              "Approved",
-              "Assessed"
-            ],
+            "inStates": [],
             "mergeAll": true,
             "_selectId": "EpcP3VL3bVD7zn",
             "properties": [
@@ -2074,12 +2069,7 @@
             "id": "okFTMSwCgI9C4a",
             "name": "Make My Client My Id",
             "onEnter": "",
-            "inStates": [
-              "New",
-              "Saved",
-              "Assessed",
-              "Approved"
-            ],
+            "inStates": [],
             "mergeAll": "",
             "_selectId": "Lu3YphSV1lI0sS",
             "properties": [
@@ -2094,6 +2084,7 @@
             ],
             "specificId": true,
             "targetType": "WdoYmj-FOBFYri:hestia/document-types",
+            "forValuesOf": "",
             "updateState": "",
             "updateClient": "",
             "recordChanges": "",
@@ -2107,10 +2098,7 @@
             "id": "5W2iA7W1ma2gWO",
             "name": "Create H&S questionnaire on New",
             "onEnter": "",
-            "inStates": [
-              "Saved",
-              "New"
-            ],
+            "inStates": [],
             "mergeAll": "",
             "_selectId": "lT6i9FqOTpK7uw",
             "properties": [
@@ -2145,7 +2133,7 @@
             "updateRecordId": "{resolveId(_id)}-general:contractorcheck/contractorAnswers",
             "createMergeRecord": false,
             "uniqueMergeRecords": false,
-            "updateTargetDocumentState": true
+            "updateTargetDocumentState": false
           }
         ],
         "formAction": [
@@ -2412,7 +2400,7 @@
     },
     "tabsBackground": "#f4f4f4",
     "tabsForeground": "#555",
-    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_lastModifiedBy": "yRZ81Qp9q_eG14",
     "defaultActivity": "x_5KNezQjHRN0v",
     "devices-allowed": "",
     "sideBarMinWidth": 150,
