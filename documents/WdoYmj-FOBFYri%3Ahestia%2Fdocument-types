@@ -1,5 +1,5 @@
 {
-  "__": "k9pCNLm8Wx-wIQ",
+  "__": "0Zdln4yavp3J7_",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -241,13 +241,13 @@
     {
       "id": "GmG8PN_c_6Ta_E",
       "name": "Preferred Language",
-      "time": 1628595590989,
+      "time": 1628595851468,
       "user": "yRZ81Qp9q_eG14",
       "locked": false,
       "parentVersion": "Bx_OD0XlxHBKQx"
     }
   ],
-  "_modified": 1628595591000,
+  "_modified": 1628595852000,
   "components": "navigation,relationship",
   "isLockedBy": null,
   "navigation": [],
@@ -2071,7 +2071,12 @@
           "id": "-kkm4OhThVfEB2",
           "name": "Update Master List",
           "onEnter": "",
-          "inStates": [],
+          "inStates": [
+            "New",
+            "Saved",
+            "Assessed",
+            "Approved"
+          ],
           "mergeAll": true,
           "_selectId": "EpcP3VL3bVD7zn",
           "properties": [
@@ -2104,7 +2109,12 @@
           "id": "okFTMSwCgI9C4a",
           "name": "Make My Client My Id",
           "onEnter": "",
-          "inStates": [],
+          "inStates": [
+            "New",
+            "Saved",
+            "Assessed",
+            "Approved"
+          ],
           "mergeAll": "",
           "_selectId": "Lu3YphSV1lI0sS",
           "properties": [
@@ -2133,7 +2143,10 @@
           "id": "5W2iA7W1ma2gWO",
           "name": "Create H&S questionnaire on New",
           "onEnter": "",
-          "inStates": [],
+          "inStates": [
+            "Saved",
+            "New"
+          ],
           "mergeAll": "",
           "_selectId": "lT6i9FqOTpK7uw",
           "properties": [

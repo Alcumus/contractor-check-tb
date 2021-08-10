@@ -1,6 +1,6 @@
 [
   {
-    "__": "q4c7REkRwgEnu4",
+    "__": "tGQf_IxbRtuacC",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -212,7 +212,7 @@
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1628256912000,
+    "_modified": 1628595591537,
     "components": "navigation,relationship",
     "isLockedBy": null,
     "navigation": [],
@@ -2036,7 +2036,12 @@
             "id": "-kkm4OhThVfEB2",
             "name": "Update Master List",
             "onEnter": "",
-            "inStates": [],
+            "inStates": [
+              "New",
+              "Saved",
+              "Assessed",
+              "Approved"
+            ],
             "mergeAll": true,
             "_selectId": "EpcP3VL3bVD7zn",
             "properties": [
@@ -2069,7 +2074,12 @@
             "id": "okFTMSwCgI9C4a",
             "name": "Make My Client My Id",
             "onEnter": "",
-            "inStates": [],
+            "inStates": [
+              "New",
+              "Saved",
+              "Assessed",
+              "Approved"
+            ],
             "mergeAll": "",
             "_selectId": "Lu3YphSV1lI0sS",
             "properties": [
@@ -2098,7 +2108,10 @@
             "id": "5W2iA7W1ma2gWO",
             "name": "Create H&S questionnaire on New",
             "onEnter": "",
-            "inStates": [],
+            "inStates": [
+              "Saved",
+              "New"
+            ],
             "mergeAll": "",
             "_selectId": "lT6i9FqOTpK7uw",
             "properties": [
