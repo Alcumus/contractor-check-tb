@@ -1,6 +1,6 @@
 [
   {
-    "__": "dNKIiblwNVOqDu",
+    "__": "OC2D-5_sKQBOVB",
     "_id": "0pBBN3JGvJXvK6-UXlXJ3hYoZG3bS:hestia/versions",
     "__id": "0pBBN3JGvJXvK6:hestia/document-types",
     "icon": "",
@@ -199,7 +199,7 @@
     "_deleted": 0,
     "database": "contractorcheck",
     "maxWidth": 1000,
-    "_modified": 1628249446000,
+    "_modified": 1628253266000,
     "components": "",
     "navigation": [],
     "_behaviours": {
@@ -359,9 +359,7 @@
                     "id": "OmQGuc38LQeTC-",
                     "name": "company",
                     "type": "lookup",
-                    "hints": {
-                      "hidden": true
-                    },
+                    "hints": {},
                     "lines": 1,
                     "groups": [],
                     "question": "",
