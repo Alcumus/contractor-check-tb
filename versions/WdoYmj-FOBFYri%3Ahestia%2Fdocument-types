@@ -1,6 +1,10 @@
 [
   {
+<<<<<<< HEAD
     "__": "65OAqwHkPGbmml",
+=======
+    "__": "tGQf_IxbRtuacC",
+>>>>>>> server
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -208,11 +212,15 @@
       }
     },
     "$invalid": false,
-    "_created": 1621461152000,
+    "_created": 1627286355000,
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
+<<<<<<< HEAD
     "_modified": 1628669560200,
+=======
+    "_modified": 1628595591537,
+>>>>>>> server
     "components": "navigation,relationship",
     "isLockedBy": null,
     "navigation": [],
@@ -614,7 +622,7 @@
                 "id": "1622143260114-KWwh6Pe9Z8-ctC",
                 "_id": "1622143260114-KWwh6Pe9Z8-ctC:hestia/form-sections",
                 "name": "...",
-                "_expanded": true,
+                "_expanded": false,
                 "_selectId": "2187T3VgELg9BQ",
                 "condition": "",
                 "questions": [
@@ -758,7 +766,7 @@
                 "id": "1622143342634-kvQqHZSmhsd-oD",
                 "_id": "1622143342634-kvQqHZSmhsd-oD:hestia/form-sections",
                 "name": "...",
-                "_expanded": true,
+                "_expanded": false,
                 "_selectId": "AiiqN2e49u1A2H",
                 "condition": "doYouContract=yes",
                 "questions": [
@@ -1163,7 +1171,7 @@
                 "id": "1622143327962-G2JHlv1eMNx7vA",
                 "_id": "1622143327962-G2JHlv1eMNx7vA:hestia/form-sections",
                 "name": "...",
-                "_expanded": true,
+                "_expanded": false,
                 "_selectId": "MuQp7FGvpdu1xy",
                 "condition": "",
                 "questions": [
@@ -1656,7 +1664,11 @@
                 "id": "1628075929602-lahTOphnRzQIyp",
                 "_id": "1628075929602-lahTOphnRzQIyp:hestia/form-sections",
                 "name": "Tags",
+<<<<<<< HEAD
                 "_expanded": false,
+=======
+                "_expanded": true,
+>>>>>>> server
                 "_selectId": "zc9tXFoOSP5XCC",
                 "condition": "",
                 "questions": [
@@ -2057,8 +2069,8 @@
             "inStates": [
               "New",
               "Saved",
-              "Approved",
-              "Assessed"
+              "Assessed",
+              "Approved"
             ],
             "mergeAll": true,
             "_selectId": "EpcP3VL3bVD7zn",
@@ -2112,6 +2124,7 @@
             ],
             "specificId": true,
             "targetType": "WdoYmj-FOBFYri:hestia/document-types",
+            "forValuesOf": "",
             "updateState": "",
             "updateClient": "",
             "recordChanges": "",
@@ -2163,7 +2176,7 @@
             "updateRecordId": "{resolveId(_id)}-general:contractorcheck/contractorAnswers",
             "createMergeRecord": false,
             "uniqueMergeRecords": false,
-            "updateTargetDocumentState": true
+            "updateTargetDocumentState": false
           }
         ],
         "formAction": [
@@ -2430,7 +2443,7 @@
     },
     "tabsBackground": "#f4f4f4",
     "tabsForeground": "#555",
-    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+    "_lastModifiedBy": "yRZ81Qp9q_eG14",
     "defaultActivity": "x_5KNezQjHRN0v",
     "devices-allowed": "",
     "sideBarMinWidth": 150,

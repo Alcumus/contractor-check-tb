@@ -1,5 +1,5 @@
 {
-  "__": "pP_kWAQN8vGkuv",
+  "__": "90RsaNIgnKb3Jv",
   "_id": "R720NeuU8vOWuo:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -213,7 +213,7 @@
     }
   },
   "$invalid": false,
-  "_created": 1621454010000,
+  "_created": 1627286354000,
   "_deleted": 0,
   "database": "contractorcheck",
   "maxWidth": 1000,
@@ -221,13 +221,13 @@
     {
       "id": "sTNP-VH3hEzwdP",
       "name": "1.0",
-      "time": 1627597510323,
-      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "time": 1629132278342,
+      "user": "S8AaM7wD97Mh2V",
       "locked": false,
       "parentVersion": ""
     }
   ],
-  "_modified": 1627593910000,
+  "_modified": 1629132279000,
   "components": "verification,navigation,richtext",
   "isLockedBy": null,
   "navigation": [],
@@ -409,7 +409,166 @@
           "description": "",
           "duplicateNames": {
             "assessmentType": true
-          }
+          },
+          "__baseQuestions": [
+            {
+              "id": "RBjqwsO8d5Ptqb",
+              "name": "assessingUser",
+              "type": "lookup",
+              "hints": {
+                "hidden": true
+              },
+              "lines": 1,
+              "groups": [],
+              "question": "",
+              "_selectId": "gDpTGcDaCEbHuB",
+              "condition": "",
+              "popupView": "M8JWtHWOohsCFK",
+              "inputLabel": "",
+              "lookupType": "Hfqzb-gWFBvgaC:hestia/document-types",
+              "sortFields": [
+                "name"
+              ],
+              "displayView": "M8JWtHWOohsCFK",
+              "iconOffsetX": "",
+              "iconOffsetY": "",
+              "linesMobile": 1,
+              "defaultValue": "",
+              "dialogHeader": "Help",
+              "searchFields": [
+                "name",
+                "email"
+              ],
+              "popupQuestion": "",
+              "addButtonLabel": "",
+              "lookupTypeName": "Employees",
+              "popupView_name": "Name",
+              "questionHeight": "",
+              "requiredFields": [
+                "name"
+              ],
+              "questionLeftPad": "",
+              "displayView_name": "Name",
+              "questionRightPad": "",
+              "questionSpaceBefore": ""
+            },
+            {
+              "id": "9l8BWxR7B40DjS",
+              "name": "qualityControlUser",
+              "type": "lookup",
+              "hints": {
+                "hidden": true
+              },
+              "lines": 1,
+              "groups": [],
+              "question": "",
+              "_selectId": "8XBTKmUjRXGAqe",
+              "condition": "",
+              "popupView": "M8JWtHWOohsCFK",
+              "inputLabel": "",
+              "lookupType": "Hfqzb-gWFBvgaC:hestia/document-types",
+              "sortFields": [
+                "name"
+              ],
+              "displayView": "M8JWtHWOohsCFK",
+              "iconOffsetX": "",
+              "iconOffsetY": "",
+              "linesMobile": 1,
+              "defaultValue": "",
+              "dialogHeader": "Help",
+              "searchFields": [
+                "name",
+                "email"
+              ],
+              "popupQuestion": "",
+              "addButtonLabel": "",
+              "lookupTypeName": "Employees",
+              "popupView_name": "Name",
+              "questionHeight": "",
+              "requiredFields": [
+                "name"
+              ],
+              "questionLeftPad": "",
+              "displayView_name": "Name",
+              "questionRightPad": "",
+              "questionSpaceBefore": ""
+            },
+            {
+              "id": "9suQrdsQPTQVP2",
+              "name": "profile",
+              "type": "lookup",
+              "hints": {
+                "hidden": true
+              },
+              "lines": 1,
+              "groups": [],
+              "question": "",
+              "_selectId": "jRoQehaaAxKuP2",
+              "condition": "",
+              "popupView": "",
+              "inputLabel": "",
+              "lookupType": "WdoYmj-FOBFYri:hestia/document-types",
+              "sortFields": [],
+              "displayView": "",
+              "iconOffsetX": "",
+              "iconOffsetY": "",
+              "linesMobile": 1,
+              "defaultValue": "",
+              "dialogHeader": "Help",
+              "searchFields": [],
+              "popupQuestion": "",
+              "addButtonLabel": "",
+              "lookupTypeName": "Company Profile",
+              "questionHeight": "",
+              "questionLeftPad": "",
+              "questionRightPad": "",
+              "questionSpaceBefore": ""
+            },
+            {
+              "id": "i-RJxivimeY2ul",
+              "name": "submittedDate",
+              "type": "date",
+              "hints": {
+                "hidden": true
+              },
+              "question": "",
+              "_selectId": "bUO52_2Riy4LdY",
+              "condition": "",
+              "inputLabel": "",
+              "iconOffsetX": "",
+              "iconOffsetY": "",
+              "localFormat": "",
+              "dialogHeader": "Help",
+              "useMaterialUI": "",
+              "preventNullify": "",
+              "questionHeight": "",
+              "questionLeftPad": "",
+              "questionRightPad": "",
+              "questionSpaceBefore": ""
+            },
+            {
+              "id": "CL2czJZ8yExmHk",
+              "name": "acceptedDate",
+              "type": "date",
+              "hints": {
+                "hidden": true
+              },
+              "question": "",
+              "_selectId": "VAczdCpqFSrZq2",
+              "condition": "",
+              "inputLabel": "",
+              "iconOffsetX": "",
+              "iconOffsetY": "",
+              "localFormat": "",
+              "dialogHeader": "Help",
+              "useMaterialUI": "",
+              "preventNullify": "",
+              "questionHeight": "",
+              "questionLeftPad": "",
+              "questionRightPad": "",
+              "questionSpaceBefore": ""
+            }
+          ]
         },
         {
           "id": "0JWxAMgsVWjGW_",
@@ -502,7 +661,81 @@
           "_selectId": "yUU7HvMiqHmHtJ",
           "condition": "",
           "description": "",
-          "duplicateNames": {}
+          "duplicateNames": {},
+          "__baseQuestions": [
+            {
+              "id": "Kk0tQA6DOWaqQ8",
+              "name": "",
+              "type": "disableActions",
+              "hints": {},
+              "question": "",
+              "_selectId": "-a7NF2VNhzIKfu",
+              "condition": ""
+            },
+            {
+              "id": "QVag4D_G8I3-7Z",
+              "name": "",
+              "side": "bottom",
+              "type": "navigation",
+              "color": "",
+              "hints": {},
+              "width": "",
+              "leftSlot": {
+                "id": "ayIJ40AFnKhdl-",
+                "name": "",
+                "type": "embedAction",
+                "hints": {},
+                "action": "xu1pdevRePcm86",
+                "variant": "outlined",
+                "question": "",
+                "_selectId": "hwY4xQzg9Yeu8O",
+                "condition": "",
+                "_actionName": "Reject",
+                "questionHeight": "",
+                "questionLeftPad": "",
+                "questionRightPad": "",
+                "questionSpaceBefore": ""
+              },
+              "maxWidth": "",
+              "question": "",
+              "_selectId": "JjqarKa1ZuXH10",
+              "condition": "",
+              "permanent": "",
+              "rightSlot": {
+                "id": "aWlr4g1AWQc979",
+                "name": "",
+                "type": "embedAction",
+                "hints": {},
+                "action": "Bd-SAKEYEYm9XH",
+                "variant": "contained",
+                "question": "",
+                "_selectId": "edVxBO8DkogAmo",
+                "condition": "",
+                "_actionName": "Accept",
+                "questionHeight": "",
+                "questionLeftPad": "",
+                "questionRightPad": "",
+                "questionSpaceBefore": ""
+              },
+              "background": "",
+              "middleSlot": {
+                "id": "wCfetRM8uizOZn",
+                "name": "",
+                "type": "embedAction",
+                "hints": {},
+                "action": "6ZJIoruKfYvMvx",
+                "variant": "outlined",
+                "question": "",
+                "_selectId": "Ec_FhPkNEJub3G",
+                "condition": "",
+                "_actionName": "Save",
+                "questionHeight": "",
+                "questionLeftPad": "",
+                "questionRightPad": "",
+                "questionSpaceBefore": ""
+              }
+            }
+          ]
         },
         {
           "id": "iL7Y7MIfx_PdEh",
@@ -611,7 +844,97 @@
           "_selectId": "5ya3koAqxx2HU2",
           "condition": "",
           "description": "",
-          "duplicateNames": {}
+          "duplicateNames": {},
+          "__baseQuestions": [
+            {
+              "id": "XyofoafQjoLGC1",
+              "name": "",
+              "type": "disableActions",
+              "hints": {},
+              "question": "",
+              "_selectId": "2wFMH8nQ7A7OJh",
+              "condition": ""
+            },
+            {
+              "id": "C8U6kL9N4MPPdw",
+              "name": "",
+              "side": "bottom",
+              "type": "navigation",
+              "color": "",
+              "hints": {},
+              "width": "",
+              "leftSlot": {
+                "id": "uEA60-Ohahc3Mq",
+                "name": "",
+                "type": "embedAction",
+                "hints": {},
+                "action": "UiWYng6RsgB6k4",
+                "variant": "contained",
+                "question": "",
+                "_selectId": "5IzDKfaCunq-36",
+                "condition": "",
+                "_actionName": "RejectQC",
+                "questionHeight": "",
+                "questionLeftPad": "",
+                "questionRightPad": "",
+                "questionSpaceBefore": ""
+              },
+              "maxWidth": "",
+              "question": "",
+              "_selectId": "hyAlOaIvA-viNX",
+              "condition": "mode(userType,\"qc\")",
+              "permanent": "",
+              "rightSlot": {
+                "id": "vwCrnzkd3YzjfL",
+                "name": "",
+                "type": "embedAction",
+                "hints": {},
+                "action": "yoibNzDTY3lNJB",
+                "variant": "outlined",
+                "question": "",
+                "_selectId": "yHVtZEDqKcbsd7",
+                "condition": "",
+                "_actionName": "AcceptQC",
+                "questionHeight": "",
+                "questionLeftPad": "",
+                "questionRightPad": "",
+                "questionSpaceBefore": ""
+              },
+              "background": "",
+              "middleSlot": {
+                "id": "apzR0l0x2KPn9h",
+                "name": "",
+                "type": "embedAction",
+                "hints": {},
+                "action": "wFiAsbIwK9iwLR",
+                "variant": "outlined",
+                "question": "",
+                "_selectId": "b2BugSaJyArW4o",
+                "condition": "",
+                "_actionName": "SaveQC",
+                "questionHeight": "",
+                "questionLeftPad": "",
+                "questionRightPad": "",
+                "questionSpaceBefore": ""
+              },
+              "leftMiddleSlot": {
+                "id": "UVbs0ef8pYotG3",
+                "name": "",
+                "type": "embedAction",
+                "hints": {},
+                "action": "0n0s4jlWwM9ywl",
+                "variant": "outlined",
+                "question": "",
+                "_selectId": "jSTZmQJTq4JphH",
+                "condition": "",
+                "_actionName": "Back To Assessor",
+                "questionHeight": "",
+                "questionLeftPad": "",
+                "questionRightPad": "",
+                "questionSpaceBefore": ""
+              }
+            }
+          ]
         },
         {
           "id": "Z2qfcK_DREYEil",
@@ -645,7 +968,22 @@
           "_selectId": "BxKk2dOtGV1eS-",
           "condition": "",
           "description": "",
-          "duplicateNames": {}
+          "duplicateNames": {},
+          "__baseQuestions": [
+            {
+              "id": "5vYAPEFk8w_GDo",
+              "name": "",
+              "type": "information",
+              "hints": {},
+              "question": "<p></p>\n<p></p>\n<p></p>\n<p></p>\n<p></p>\n<p></p>\n<p>&nbsp;</p>\n",
+              "_selectId": "NT4OkAKd-e3nI2",
+              "condition": "",
+              "questionHeight": "20em",
+              "questionLeftPad": "",
+              "questionRightPad": "",
+              "questionSpaceBefore": ""
+            }
+          ]
         },
         {
           "id": "khydm5NOHNXIGn",
@@ -679,7 +1017,22 @@
           "_selectId": "OtoOZrHTzV8ocl",
           "condition": "",
           "description": "",
-          "duplicateNames": {}
+          "duplicateNames": {},
+          "__baseQuestions": [
+            {
+              "id": "xDv0JPWeucELUV",
+              "name": "",
+              "type": "information",
+              "hints": {},
+              "question": "<p>The assessment has been rejected, awaiting an update from the contractor.</p>\n",
+              "_selectId": "IDSmxblaKTYM_l",
+              "condition": "",
+              "questionHeight": "",
+              "questionLeftPad": "",
+              "questionRightPad": "",
+              "questionSpaceBefore": ""
+            }
+          ]
         },
         {
           "id": "eqIHquWp9gmRLZ",
@@ -727,7 +1080,36 @@
           "_selectId": "-55GYwAqWts5E0",
           "condition": "",
           "description": "",
-          "duplicateNames": {}
+          "duplicateNames": {},
+          "__baseQuestions": [
+            {
+              "id": "t4QeDqY6W69glE",
+              "form": "allForms",
+              "name": "",
+              "type": "useForm",
+              "hints": {},
+              "question": "",
+              "_selectId": "VP_sg5LKVtPe3w",
+              "condition": "mode(userType,\"qc\")",
+              "questionHeight": "",
+              "questionLeftPad": "",
+              "questionRightPad": "",
+              "questionSpaceBefore": ""
+            },
+            {
+              "id": "j88x3dc2lYfVxm",
+              "name": "",
+              "type": "information",
+              "hints": {},
+              "question": "<p>The form must be reviewed by a Quality Controller</p>\n",
+              "_selectId": "9Bma6qQtiL7J0x",
+              "condition": "notMode(userType,\"qc\")",
+              "questionHeight": "",
+              "questionLeftPad": "",
+              "questionRightPad": "",
+              "questionSpaceBefore": ""
+            }
+          ]
         },
         {
           "id": "qgnlIeXvRk_GKY",
@@ -761,7 +1143,22 @@
           "_selectId": "VzJ3PHB1kRh_Rq",
           "condition": "",
           "description": "",
-          "duplicateNames": {}
+          "duplicateNames": {},
+          "__baseQuestions": [
+            {
+              "id": "HneCMhdN9g_rBD",
+              "name": "",
+              "type": "information",
+              "hints": {},
+              "question": "<p><span style=\"color: #006183;font-size: 24px;\"><strong>The questionnaire has been approved and added to the master list</strong></span></p>\n",
+              "_selectId": "H0cLzH42WWZ6NN",
+              "condition": "",
+              "questionHeight": "10em",
+              "questionLeftPad": "",
+              "questionRightPad": "",
+              "questionSpaceBefore": ""
+            }
+          ]
         },
         {
           "id": "w7GjXlxsQ53W2i",
@@ -866,7 +1263,93 @@
           "_selectId": "J1ptYPhD_pd8p2",
           "condition": "",
           "description": "",
-          "duplicateNames": {}
+          "duplicateNames": {},
+          "__baseQuestions": [
+            {
+              "id": "ErGjEVY7bBlLNu",
+              "name": "",
+              "type": "title",
+              "color": "",
+              "hints": {},
+              "title": "Rejection Email",
+              "question": "",
+              "_selectId": "VBmOi17wVpNG_x",
+              "condition": "",
+              "questionHeight": "",
+              "backgroundColor": "",
+              "questionLeftPad": "",
+              "questionRightPad": "",
+              "questionSpaceBefore": "10em"
+            },
+            {
+              "id": "f2k9AWyEQG8NL5",
+              "name": "",
+              "type": "information",
+              "hints": {},
+              "question": "<p></p>\n<p><span style=\"color: #006183;\">If you reject a questionnaire then an email will be sent to the contractor.  Below you can add custom header and footer text that will go along with the email.</span></p>\n",
+              "_selectId": "vyGLrxMREIiRLO",
+              "condition": "",
+              "questionHeight": "",
+              "questionLeftPad": "",
+              "questionRightPad": "",
+              "questionSpaceBefore": ""
+            },
+            {
+              "id": "fQ52G7805WMnUm",
+              "name": "emailHeader",
+              "type": "text",
+              "hints": {
+                "rich_text": true
+              },
+              "maxWidth": "",
+              "question": "",
+              "_selectId": "cUUVx3cCpq2kPE",
+              "condition": "",
+              "inputLabel": "",
+              "iconOffsetX": "",
+              "iconOffsetY": "",
+              "defaultValue": "",
+              "dialogHeader": "Help",
+              "questionHeight": "",
+              "questionLeftPad": "",
+              "questionRightPad": "",
+              "questionSpaceBefore": ""
+            },
+            {
+              "id": "SvVMsCKgHQM57C",
+              "name": "",
+              "type": "information",
+              "hints": {},
+              "question": "<p></p>\n<p><span style=\"color: #006183;\">The actions provided next to questions and the questions details will go here</span></p>\n<p></p>\n",
+              "_selectId": "gfjqEpJQBptUSn",
+              "condition": "",
+              "questionHeight": "",
+              "questionLeftPad": "",
+              "questionRightPad": "",
+              "questionSpaceBefore": ""
+            },
+            {
+              "id": "i8FmHiLPX9vbAs",
+              "name": "emailFooter",
+              "type": "text",
+              "hints": {
+                "rich_text": true
+              },
+              "maxWidth": "",
+              "question": "",
+              "_selectId": "zhs5n98vvzc9tP",
+              "condition": "",
+              "inputLabel": "",
+              "iconOffsetX": "",
+              "iconOffsetY": "",
+              "defaultValue": "",
+              "dialogHeader": "Help",
+              "questionHeight": "",
+              "questionLeftPad": "",
+              "questionRightPad": "",
+              "questionSpaceBefore": ""
+            }
+          ]
         },
         {
           "id": "wnfSuaf77SKHeI",
@@ -956,7 +1439,78 @@
           "_selectId": "j9dYQUCzWBLT-u",
           "condition": "",
           "description": "",
-          "duplicateNames": {}
+          "duplicateNames": {},
+          "__baseQuestions": [
+            {
+              "id": "KTO0_auRS3OOPh",
+              "name": "",
+              "type": "title",
+              "color": "",
+              "hints": {},
+              "title": "Your assessment has been rejected by Quality Control",
+              "question": "",
+              "_selectId": "H5tEC1aTQSI-F-",
+              "condition": "",
+              "questionHeight": "",
+              "backgroundColor": "",
+              "questionLeftPad": "",
+              "questionRightPad": "",
+              "questionSpaceBefore": ""
+            },
+            {
+              "id": "LMfFr0AgAdzOI8",
+              "name": "",
+              "type": "information",
+              "hints": {},
+              "question": "<p>Quality Control have indicated that there are actions you should take on your assessment, the action points will be detailed in the questionnaire next to the relevant questions.</p>\n",
+              "_selectId": "HE1yjBv9YQJKpX",
+              "condition": "",
+              "questionHeight": "",
+              "questionLeftPad": "",
+              "questionRightPad": "",
+              "questionSpaceBefore": ""
+            },
+            {
+              "id": "xYqs7Z1BftUGtb",
+              "name": "",
+              "side": "bottom",
+              "type": "navigation",
+              "color": "",
+              "hints": {},
+              "width": "",
+              "maxWidth": "",
+              "question": "",
+              "_selectId": "HN4Q3NcyewuObn",
+              "condition": "notMode(userType,\"qc\")",
+              "permanent": "",
+              "background": "",
+              "middleSlot": {
+                "id": "-BugS8sC0HOnLj",
+                "name": "",
+                "type": "embedAction",
+                "hints": {},
+                "action": "r-fxpbGVfYdoZn",
+                "variant": "outlined",
+                "question": "",
+                "_selectId": "7zuPLkp04oBPhe",
+                "condition": "",
+                "_actionName": "Acknowledge",
+                "questionHeight": "",
+                "questionLeftPad": "",
+                "questionRightPad": "",
+                "questionSpaceBefore": ""
+              }
+            },
+            {
+              "id": "c9FnTXVkhjkkt_",
+              "name": "",
+              "type": "disableActions",
+              "hints": {},
+              "question": "",
+              "_selectId": "z772AFyON28N8F",
+              "condition": ""
+            }
+          ]
         },
         {
           "id": "ZpKpfXvUfAMY6c",
@@ -985,7 +1539,18 @@
           ],
           "_selectId": "AAzBj8knMeIrqK",
           "condition": "",
-          "description": ""
+          "description": "",
+          "__baseQuestions": [
+            {
+              "id": "ZiS7vHd3pxGmtp",
+              "name": "",
+              "type": "disableActions",
+              "hints": {},
+              "question": "",
+              "_selectId": "nL7XxFER1_yP44",
+              "condition": ""
+            }
+          ]
         },
         {
           "id": "L7OmV1GvcKMtSt",
@@ -1019,7 +1584,22 @@
           "_selectId": "nmIJ5usiybKLP4",
           "condition": "",
           "description": "",
-          "duplicateNames": {}
+          "duplicateNames": {},
+          "__baseQuestions": [
+            {
+              "id": "O-lipVFrGYMuik",
+              "name": "",
+              "type": "disableAudit",
+              "hints": {},
+              "question": "",
+              "_selectId": "vwgludXqnRWZ5U",
+              "condition": "",
+              "questionHeight": "",
+              "questionLeftPad": "",
+              "questionRightPad": "",
+              "questionSpaceBefore": ""
+            }
+          ]
         }
       ],
       "indexer": [
@@ -1055,15 +1635,18 @@
         {
           "id": "cJIq9GgpRwgxF8",
           "name": "Update The Contractor When Rejected",
+          "onEnter": "",
           "inStates": [
             "Rejected"
           ],
-          "mergeAll": true,
+          "mergeAll": false,
           "_selectId": "Dg9dHac1egpE65",
           "properties": [],
           "specificId": "",
           "targetType": "fYmpCXoXNbRtVg:hestia/document-types",
           "updateState": "Rejected",
+          "updateClient": "",
+          "recordChanges": "",
           "targetTypeName": "Contractor Questionnaire",
           "createMergeRecord": "",
           "updateTargetDocumentState": true
@@ -2056,7 +2639,7 @@
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+  "_lastModifiedBy": "S8AaM7wD97Mh2V",
   "defaultActivity": null,
   "devices-allowed": "",
   "sideBarMinWidth": 150,
