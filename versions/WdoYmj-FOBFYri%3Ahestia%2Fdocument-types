@@ -1,6 +1,6 @@
 [
   {
-    "__": "tGQf_IxbRtuacC",
+    "__": "65OAqwHkPGbmml",
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -208,11 +208,11 @@
       }
     },
     "$invalid": false,
-    "_created": 1627286355000,
+    "_created": 1621461152000,
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1628595591537,
+    "_modified": 1628669560200,
     "components": "navigation,relationship",
     "isLockedBy": null,
     "navigation": [],
@@ -614,7 +614,7 @@
                 "id": "1622143260114-KWwh6Pe9Z8-ctC",
                 "_id": "1622143260114-KWwh6Pe9Z8-ctC:hestia/form-sections",
                 "name": "...",
-                "_expanded": false,
+                "_expanded": true,
                 "_selectId": "2187T3VgELg9BQ",
                 "condition": "",
                 "questions": [
@@ -758,7 +758,7 @@
                 "id": "1622143342634-kvQqHZSmhsd-oD",
                 "_id": "1622143342634-kvQqHZSmhsd-oD:hestia/form-sections",
                 "name": "...",
-                "_expanded": false,
+                "_expanded": true,
                 "_selectId": "AiiqN2e49u1A2H",
                 "condition": "doYouContract=yes",
                 "questions": [
@@ -1163,7 +1163,7 @@
                 "id": "1622143327962-G2JHlv1eMNx7vA",
                 "_id": "1622143327962-G2JHlv1eMNx7vA:hestia/form-sections",
                 "name": "...",
-                "_expanded": false,
+                "_expanded": true,
                 "_selectId": "MuQp7FGvpdu1xy",
                 "condition": "",
                 "questions": [
@@ -1656,7 +1656,7 @@
                 "id": "1628075929602-lahTOphnRzQIyp",
                 "_id": "1628075929602-lahTOphnRzQIyp:hestia/form-sections",
                 "name": "Tags",
-                "_expanded": true,
+                "_expanded": false,
                 "_selectId": "zc9tXFoOSP5XCC",
                 "condition": "",
                 "questions": [
@@ -2057,8 +2057,8 @@
             "inStates": [
               "New",
               "Saved",
-              "Assessed",
-              "Approved"
+              "Approved",
+              "Assessed"
             ],
             "mergeAll": true,
             "_selectId": "EpcP3VL3bVD7zn",
@@ -2112,7 +2112,6 @@
             ],
             "specificId": true,
             "targetType": "WdoYmj-FOBFYri:hestia/document-types",
-            "forValuesOf": "",
             "updateState": "",
             "updateClient": "",
             "recordChanges": "",
@@ -2164,7 +2163,7 @@
             "updateRecordId": "{resolveId(_id)}-general:contractorcheck/contractorAnswers",
             "createMergeRecord": false,
             "uniqueMergeRecords": false,
-            "updateTargetDocumentState": false
+            "updateTargetDocumentState": true
           }
         ],
         "formAction": [
@@ -2431,7 +2430,7 @@
     },
     "tabsBackground": "#f4f4f4",
     "tabsForeground": "#555",
-    "_lastModifiedBy": "yRZ81Qp9q_eG14",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "defaultActivity": "x_5KNezQjHRN0v",
     "devices-allowed": "",
     "sideBarMinWidth": 150,
@@ -2455,7 +2454,7 @@
     "isLockedByCurrentUser": false
   },
   {
-    "__": "WlDFkp4Jo4EgWM",
+    "__": "XZlXJvVDZpRpbJ",
     "_id": "WdoYmj-FOBFYri-zk0gwNadHUfzTE:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -2622,7 +2621,7 @@
         }
       },
       "theme": "Standard",
-      "permanentTheme": ""
+      "permanentTheme": false
     },
     "$valid": true,
     "__warn": false,
@@ -2634,6 +2633,19 @@
       },
       "aV8boSk1D6q6YG": {
         "publishDocs": true,
+        "publishQuery": {
+          "$and": [
+            {
+              "_created": {
+                "$lt": "1622140361000"
+              }
+            }
+          ]
+        },
+        "gitHubPublish": true
+      },
+      "c5NB8L8axiOpyP": {
+        "publishDocs": false,
         "gitHubPublish": true
       }
     },
@@ -2650,12 +2662,12 @@
       }
     },
     "$invalid": false,
-    "_created": 1622205077000,
+    "_created": 1621461152000,
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-    "_modified": 1623327125000,
-    "components": "navigation",
+    "_modified": 1628924526000,
+    "components": "navigation,relationship",
     "isLockedBy": null,
     "navigation": [],
     "_behaviours": {
@@ -2668,10 +2680,23 @@
             "sections": [
               {
                 "name": "Main",
-                "_expanded": true,
+                "_expanded": false,
                 "_selectId": "JrhPnLvDn_mMKg",
                 "condition": "",
                 "questions": [
+                  {
+                    "id": "J6XsXRdw5Qw5OH",
+                    "name": "",
+                    "type": "information",
+                    "hints": {},
+                    "question": "<p>&nbsp;</p>\n",
+                    "_selectId": "ekF9yZbBjxBGs8",
+                    "condition": "",
+                    "questionHeight": "2em",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  },
                   {
                     "id": "NLJutYONENS7n5",
                     "lg": 6,
@@ -2685,35 +2710,79 @@
                     "condition": ""
                   },
                   {
-                    "id": "bO8QCmZeOBMtJ6",
+                    "id": "hP7ETSsOD2aKRU",
                     "name": "",
-                    "type": "title",
-                    "color": "#ffffff",
+                    "type": "card",
+                    "color": "",
                     "hints": {},
                     "title": "Details",
                     "question": "",
-                    "_selectId": "DCsbSy0L3VTLkz",
+                    "_selectId": "AZO7_AykVqTXKW",
                     "condition": "",
-                    "questionHeight": "",
-                    "backgroundColor": "#0081af",
-                    "questionLeftPad": "",
-                    "questionRightPad": "",
-                    "questionSpaceBefore": ""
+                    "elevation": 2,
+                    "topMargin": "",
+                    "background": "",
+                    "leftMargin": "",
+                    "collapsible": "",
+                    "rightMargin": "",
+                    "bottomMargin": ""
                   },
                   {
                     "id": "UVxygrF9sqVrgJ",
                     "name": "companyName",
                     "type": "text",
-                    "hints": {},
+                    "hints": {
+                      "not_editable": true
+                    },
                     "maxWidth": "",
                     "question": "",
                     "_selectId": "EwKg0PNptp3x9I",
+                    "condition": "valueNotEquals(\"$state\",New)",
+                    "inputLabel": "",
+                    "defaultValue": "",
+                    "questionHeight": "",
+                    "clearIfDisabled": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "editableCondition": "",
+                    "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "zfPXLXQ8S_uCZU",
+                    "name": "companyName",
+                    "type": "text",
+                    "hints": {},
+                    "maxWidth": "",
+                    "question": "",
+                    "_selectId": "Al0QiGcqs4rtKA",
+                    "condition": "$state=New",
+                    "inputLabel": "",
+                    "defaultValue": "",
+                    "questionHeight": "",
+                    "clearIfDisabled": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "editableCondition": "",
+                    "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "9k656naShPk0My",
+                    "name": "tradingNames",
+                    "type": "text",
+                    "hints": {
+                      "multi_line": true
+                    },
+                    "maxWidth": "5000",
+                    "question": "",
+                    "_selectId": "bSUv7mBFW_5aXC",
                     "condition": "",
                     "inputLabel": "",
                     "defaultValue": "",
                     "questionHeight": "",
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": ""
                   },
                   {
@@ -2721,17 +2790,19 @@
                     "name": "description",
                     "type": "text",
                     "hints": {
-                      "rich_text": true
+                      "multi_line": true
                     },
-                    "maxWidth": "",
+                    "maxWidth": "500",
                     "question": "<p>Enter a description of your business that will be shown on the master list profile.</p>\n",
                     "_selectId": "HJQerx3AeorCBr",
                     "condition": "",
                     "inputLabel": "",
                     "defaultValue": "",
                     "questionHeight": "",
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": ""
                   },
                   {
@@ -2742,11 +2813,11 @@
                     "choices": [
                       {
                         "label": "English",
-                        "value": "English"
+                        "value": "en"
                       },
                       {
                         "label": "French",
-                        "value": "French"
+                        "value": "fr"
                       }
                     ],
                     "question": "",
@@ -2754,19 +2825,37 @@
                     "condition": "",
                     "inputLabel": "",
                     "choiceOptions": {
+                      "en": {
+                        "icon": "",
+                        "colour": ""
+                      },
+                      "fr": {
+                        "icon": "",
+                        "colour": ""
+                      },
                       "French": {
+                        "icon": "",
+                        "colour": ""
+                      },
+                      "french": {
                         "icon": "",
                         "colour": ""
                       },
                       "English": {
                         "icon": "",
                         "colour": ""
+                      },
+                      "english": {
+                        "icon": "",
+                        "colour": ""
                       }
                     },
                     "defaultChoices": [],
                     "questionHeight": "",
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": ""
                   },
                   {
@@ -2783,8 +2872,10 @@
                     "inputLabel": "",
                     "defaultValue": "",
                     "questionHeight": "",
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": ""
                   },
                   {
@@ -2801,9 +2892,23 @@
                     "inputLabel": "",
                     "defaultValue": "",
                     "questionHeight": "",
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "VCl1ocPpCIPkB_",
+                    "name": "",
+                    "type": "stop",
+                    "hints": {},
+                    "question": "",
+                    "stopWhat": [
+                      "card"
+                    ],
+                    "_selectId": "TIMEw6rvaW_KuA",
+                    "condition": ""
                   },
                   {
                     "id": "A1LcMkPGvhb3IX",
@@ -2818,20 +2923,22 @@
                     "condition": ""
                   },
                   {
-                    "id": "9XTBPephjGt1Cb",
+                    "id": "b6Ok5YGYx-cgcm",
                     "name": "",
-                    "type": "title",
-                    "color": "#ffffff",
+                    "type": "card",
+                    "color": "",
                     "hints": {},
                     "title": "Location",
                     "question": "",
-                    "_selectId": "9TRlL8HF4HUwGZ",
+                    "_selectId": "2KBYzVTaYxH1dR",
                     "condition": "",
-                    "questionHeight": "",
-                    "backgroundColor": "#0081af",
-                    "questionLeftPad": "",
-                    "questionRightPad": "",
-                    "questionSpaceBefore": ""
+                    "elevation": 2,
+                    "topMargin": "",
+                    "background": "",
+                    "leftMargin": "",
+                    "collapsible": "",
+                    "rightMargin": "",
+                    "bottomMargin": ""
                   },
                   {
                     "id": "w-bdfrSO3fwaaU",
@@ -2840,15 +2947,17 @@
                     "hints": {
                       "multi_line": true
                     },
-                    "maxWidth": "",
+                    "maxWidth": "500",
                     "question": "",
                     "_selectId": "p0MZEvk-kIZ5wf",
                     "condition": "",
                     "inputLabel": "",
                     "defaultValue": "",
                     "questionHeight": "",
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": ""
                   },
                   {
@@ -2856,9 +2965,27 @@
                     "name": "City",
                     "type": "text",
                     "hints": {},
-                    "maxWidth": "",
+                    "maxWidth": "500",
                     "question": "",
                     "_selectId": "otZLg2XxIit8n9",
+                    "condition": "",
+                    "inputLabel": "",
+                    "defaultValue": "",
+                    "questionHeight": "",
+                    "clearIfDisabled": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "editableCondition": "",
+                    "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "pdbvGkuRipGo6c",
+                    "name": "state",
+                    "type": "text",
+                    "hints": {},
+                    "maxWidth": "",
+                    "question": "",
+                    "_selectId": "7B9pzFLoVgdRCS",
                     "condition": "",
                     "inputLabel": "",
                     "defaultValue": "",
@@ -2872,32 +2999,67 @@
                     "name": "ZIP",
                     "type": "text",
                     "hints": {},
-                    "maxWidth": "",
+                    "maxWidth": "50",
                     "question": "",
                     "_selectId": "8k17MkxY3d6eFA",
                     "condition": "",
                     "inputLabel": "",
                     "defaultValue": "",
                     "questionHeight": "",
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": ""
                   },
                   {
-                    "id": "apOQJF6oBr9XLR",
+                    "id": "nTSPVi2Fw205nP",
                     "name": "headOfficeCountry",
-                    "type": "text",
+                    "type": "choice",
                     "hints": {},
-                    "maxWidth": "",
+                    "choices": [
+                      {
+                        "label": "Canada",
+                        "value": "Canada"
+                      },
+                      {
+                        "label": "US",
+                        "value": "US"
+                      }
+                    ],
                     "question": "",
-                    "_selectId": "jW5RIYpctgpA-A",
+                    "_selectId": "GlIWd38iVqGjxy",
                     "condition": "",
                     "inputLabel": "Country",
-                    "defaultValue": "",
+                    "choiceOptions": {
+                      "US": {
+                        "icon": "",
+                        "colour": ""
+                      },
+                      "Canada": {
+                        "icon": "",
+                        "colour": ""
+                      }
+                    },
+                    "defaultChoices": [],
                     "questionHeight": "",
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "W-486m212hklpO",
+                    "name": "",
+                    "type": "stop",
+                    "hints": {},
+                    "question": "",
+                    "stopWhat": [
+                      "card"
+                    ],
+                    "_selectId": "8oLvAJTWThtWmW",
+                    "condition": ""
                   }
                 ],
                 "description": ""
@@ -2921,20 +3083,22 @@
                     "condition": ""
                   },
                   {
-                    "id": "pQt6Vd4QWL9s9A",
+                    "id": "3bqmB2qhm7LZeD",
                     "name": "",
-                    "type": "title",
-                    "color": "#ffffff",
+                    "type": "card",
+                    "color": "",
                     "hints": {},
                     "title": "Your Business",
                     "question": "",
-                    "_selectId": "ajxMd_ndyiShEP",
+                    "_selectId": "5RZMm_fSnSuxTZ",
                     "condition": "",
-                    "questionHeight": "",
-                    "backgroundColor": "#294a76",
-                    "questionLeftPad": "",
-                    "questionRightPad": "",
-                    "questionSpaceBefore": ""
+                    "elevation": 1,
+                    "topMargin": "",
+                    "background": "",
+                    "leftMargin": "",
+                    "collapsible": "",
+                    "rightMargin": "",
+                    "bottomMargin": ""
                   },
                   {
                     "id": "SxLdcrQqH-PQ46",
@@ -2967,16 +3131,19 @@
                     "condition": "",
                     "inputLabel": "",
                     "questionHeight": "",
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": ""
                   },
                   {
                     "id": "IUex3afvqm3XeP",
                     "name": "doYouContract",
                     "type": "choice",
+                    "color": "#1da7e0",
                     "hints": {
-                      "round_button": true
+                      "radio": true
                     },
                     "choices": [
                       {
@@ -3001,7 +3168,15 @@
                         "icon": "",
                         "colour": ""
                       },
+                      "no": {
+                        "icon": "",
+                        "colour": ""
+                      },
                       "Yes": {
+                        "icon": "",
+                        "colour": ""
+                      },
+                      "yes": {
                         "icon": "",
                         "colour": ""
                       }
@@ -3009,9 +3184,11 @@
                     "defaultChoices": [],
                     "preventNullify": "",
                     "questionHeight": "",
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
                     "buttonWidthSuffix": "px",
+                    "editableCondition": "",
                     "selectedTextColor": "#fff",
                     "borderRadiusSuffix": "%",
                     "buttonHeightSuffix": "px",
@@ -3073,8 +3250,10 @@
                     },
                     "defaultChoices": [],
                     "questionHeight": "",
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": ""
                   },
                   {
@@ -3204,7 +3383,7 @@
                     },
                     "lines": 1,
                     "groups": [],
-                    "question": "",
+                    "question": "<p>What work activities do are you involved in?</p>\n",
                     "_selectId": "QfQbuYf1ojTPt3",
                     "condition": "",
                     "popupView": "tS4DUkUYSJz3cx",
@@ -3227,43 +3406,11 @@
                     "requiredFields": [
                       "workActivity"
                     ],
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "displayView_name": "List of Work Activities",
                     "questionRightPad": "",
-                    "questionSpaceBefore": ""
-                  },
-                  {
-                    "id": "XXxbtBKiMa8V-j",
-                    "name": "workActivity",
-                    "type": "relatedField",
-                    "field": "workActivity",
-                    "hints": {
-                      "hidden": true
-                    },
-                    "related": "workActivities",
-                    "question": "",
-                    "_selectId": "JzdthN2u4t8wRu",
-                    "condition": "",
-                    "relatedType": "rH6EL6EJjx3vGG:hestia/document-types",
-                    "questionHeight": "",
-                    "questionLeftPad": "",
-                    "relatedQuestion": {
-                      "id": "-tDFZcnZ5AwAkZ",
-                      "name": "workActivity",
-                      "type": "text",
-                      "hints": {},
-                      "maxWidth": "",
-                      "question": "",
-                      "_selectId": "GdLj0nswP871bK",
-                      "condition": "",
-                      "inputLabel": "",
-                      "defaultValue": "",
-                      "questionHeight": "",
-                      "questionLeftPad": "",
-                      "questionRightPad": "",
-                      "questionSpaceBefore": ""
-                    },
-                    "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": ""
                   },
                   {
@@ -3271,6 +3418,7 @@
                     "name": "clientsLookup",
                     "type": "lookup",
                     "hints": {
+                      "hidden": true,
                       "choose_multiple": true
                     },
                     "lines": 1,
@@ -3286,16 +3434,16 @@
                       ]
                     },
                     "groups": [],
-                    "question": "",
+                    "question": "<p>Which clients do you work with?</p>\n",
                     "_selectId": "5qu5TL1ekVAv49",
                     "condition": "",
-                    "popupView": "tO-6DxodJdqI_0",
+                    "popupView": "TwE9lX50LCjAz3",
                     "inputLabel": "Anchored Clients",
-                    "lookupType": "WdoYmj-FOBFYri:hestia/document-types",
+                    "lookupType": "UJns4BZ0dhGyw5:hestia/document-types",
                     "sortFields": [
                       "companyName"
                     ],
-                    "displayView": "tO-6DxodJdqI_0",
+                    "displayView": "TwE9lX50LCjAz3",
                     "linesMobile": 1,
                     "defaultValue": "",
                     "searchFields": [
@@ -3303,15 +3451,163 @@
                     ],
                     "popupQuestion": "What clients do you want to work with?",
                     "addButtonLabel": "",
-                    "lookupTypeName": "Company Profile",
-                    "popupView_name": "Name",
+                    "lookupTypeName": "Master List Company Profile",
+                    "popupView_name": "Master List Name",
                     "questionHeight": "",
                     "requiredFields": [
                       "companyName"
                     ],
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
-                    "displayView_name": "Name",
+                    "displayView_name": "Master List Name",
                     "questionRightPad": "",
+                    "editableCondition": "",
+                    "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "6JhxopQpPV-hdm",
+                    "name": "",
+                    "type": "information",
+                    "hints": {},
+                    "question": "<p>The relationships you have with clients</p>\n",
+                    "_selectId": "JEgPdusNybfQla",
+                    "condition": "",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "YoXe-9R5grjehV",
+                    "name": "",
+                    "type": "relationship",
+                    "hints": {},
+                    "manyType": "zSq4uYg_gBBWqY:hestia/document-types",
+                    "question": "",
+                    "_selectId": "a0nyiKf6ZypXnU",
+                    "condition": "",
+                    "linkField": "contractor",
+                    "remoteView": "tO-6DxodJdqI_0",
+                    "description": "",
+                    "pendingText": "Pending",
+                    "relatedType": "UJns4BZ0dhGyw5:hestia/document-types",
+                    "remoteField": "client",
+                    "remoteQuery": {
+                      "$and": [
+                        {
+                          "doYouUseContractors": {
+                            "$in": [
+                              "yes"
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    "confirmField": "contractorConfirms",
+                    "manyTypeName": "Anchor Request",
+                    "pendingColor": "#444444",
+                    "rejectedText": "Rejected",
+                    "remoteRecord": "masterListClient",
+                    "buttonCaption": "+ Add",
+                    "confirmedText": "Confirmed",
+                    "rejectedColor": "#ffffff",
+                    "requestedText": "Requested",
+                    "confirmedColor": "#ffffff",
+                    "popupSortField": "companyName",
+                    "requestedColor": "#ffffff",
+                    "queryMatchField": "contractorProfile",
+                    "relatedTypeName": "Master List Company Profile",
+                    "remoteNameField": "companyName",
+                    "remoteSortField": "clientName",
+                    "remoteView_name": "Name",
+                    "youRejectedText": "You Rejected",
+                    "bothRejectedText": "Both Rejected",
+                    "youRejectedColor": "#444444",
+                    "bothRejectedColor": "#444444",
+                    "cancelConfirmation": "Are you sure you want to remove the link?",
+                    "remoteConfirmField": "clientConfirms",
+                    "remoteSearchFields": "",
+                    "pendingBackgroundColor": "#fbd6a3",
+                    "rejectedBackgroundColor": "#f50057",
+                    "confirmedBackgroundColor": "#679861",
+                    "requestedBackgroundColor": "#00b5f5",
+                    "youRejectedBackgroundColor": "#ffeda8",
+                    "bothRejectedBackgroundColor": "#ffeda8"
+                  },
+                  {
+                    "id": "XXxbtBKiMa8V-j",
+                    "name": "workActivity",
+                    "type": "relatedField",
+                    "field": "workActivity",
+                    "hints": {
+                      "hidden": true
+                    },
+                    "related": "workActivities",
+                    "question": "",
+                    "_selectId": "JzdthN2u4t8wRu",
+                    "condition": "",
+                    "relatedType": "rH6EL6EJjx3vGG:hestia/document-types",
+                    "questionHeight": "",
+                    "clearIfDisabled": "",
+                    "questionLeftPad": "",
+                    "relatedQuestion": {
+                      "id": "-tDFZcnZ5AwAkZ",
+                      "name": "workActivity",
+                      "type": "text",
+                      "hints": {},
+                      "maxWidth": "",
+                      "question": "",
+                      "_selectId": "GdLj0nswP871bK",
+                      "condition": "",
+                      "inputLabel": "",
+                      "defaultValue": "",
+                      "questionHeight": "",
+                      "clearIfDisabled": "",
+                      "questionLeftPad": "",
+                      "questionRightPad": "",
+                      "editableCondition": "",
+                      "questionSpaceBefore": ""
+                    },
+                    "questionRightPad": "",
+                    "editableCondition": "",
+                    "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "fqJ2FCdE5XCKed",
+                    "name": "workActivityFrench",
+                    "type": "relatedField",
+                    "field": "workActivityFrench",
+                    "hints": {
+                      "hidden": true
+                    },
+                    "related": "workActivities",
+                    "question": "",
+                    "_selectId": "Z4Ygwvx_GVHxEF",
+                    "condition": "",
+                    "relatedType": "rH6EL6EJjx3vGG:hestia/document-types",
+                    "questionHeight": "",
+                    "clearIfDisabled": "",
+                    "questionLeftPad": "",
+                    "relatedQuestion": {
+                      "id": "-tDFZcnZ5AwAkZ",
+                      "name": "workActivity",
+                      "type": "text",
+                      "hints": {},
+                      "maxWidth": "",
+                      "question": "",
+                      "_selectId": "GdLj0nswP871bK",
+                      "condition": "",
+                      "inputLabel": "",
+                      "defaultValue": "",
+                      "questionHeight": "",
+                      "clearIfDisabled": "",
+                      "questionLeftPad": "",
+                      "questionRightPad": "",
+                      "editableCondition": "",
+                      "questionSpaceBefore": ""
+                    },
+                    "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": ""
                   }
                 ],
@@ -3329,8 +3625,9 @@
                     "id": "JHi3haTWV_GctK",
                     "name": "doYouUseContractors",
                     "type": "choice",
+                    "color": "#009fda",
                     "hints": {
-                      "round_button": true
+                      "radio": true
                     },
                     "choices": [
                       {
@@ -3355,7 +3652,15 @@
                         "icon": "",
                         "colour": ""
                       },
+                      "no": {
+                        "icon": "",
+                        "colour": ""
+                      },
                       "Yes": {
+                        "icon": "",
+                        "colour": ""
+                      },
+                      "yes": {
                         "icon": "",
                         "colour": ""
                       }
@@ -3363,9 +3668,11 @@
                     "defaultChoices": [],
                     "preventNullify": "",
                     "questionHeight": "",
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
                     "buttonWidthSuffix": "px",
+                    "editableCondition": "",
                     "selectedTextColor": "#fff",
                     "borderRadiusSuffix": "%",
                     "buttonHeightSuffix": "px",
@@ -3381,6 +3688,76 @@
                     "deselectedHoverBorderColor": "#0082AF",
                     "selectedHoverBackgroundColor": "#1C9DD4",
                     "deselectedHoverBackgroundColor": "#1C9DD41F"
+                  },
+                  {
+                    "id": "UskCz8NWGyyoVe",
+                    "name": "",
+                    "type": "information",
+                    "hints": {},
+                    "question": "<p>The relationships you have with contractors</p>\n",
+                    "_selectId": "lNU_5IBqK2_wYv",
+                    "condition": "doYouUseContractors=yes",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "OIv2x-gR5QL1Eh",
+                    "name": "",
+                    "type": "relationship",
+                    "hints": {},
+                    "manyType": "zSq4uYg_gBBWqY:hestia/document-types",
+                    "question": "",
+                    "_selectId": "EOCNHNR2UacIWC",
+                    "condition": "doYouUseContractors=yes",
+                    "linkField": "client",
+                    "remoteView": "tO-6DxodJdqI_0",
+                    "description": "",
+                    "pendingText": "Pending",
+                    "relatedType": "WdoYmj-FOBFYri:hestia/document-types",
+                    "remoteField": "contractor",
+                    "remoteQuery": {
+                      "$and": [
+                        {
+                          "doYouContract": {
+                            "$in": [
+                              "yes"
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    "confirmField": "clientConfirms",
+                    "manyTypeName": "Anchor Request",
+                    "pendingColor": "#444444",
+                    "rejectedText": "Rejected",
+                    "remoteRecord": "masterListContractor",
+                    "buttonCaption": "+ Add",
+                    "confirmedText": "Confirmed",
+                    "rejectedColor": "#ffffff",
+                    "requestedText": "Requested",
+                    "confirmedColor": "#ffffff",
+                    "popupSortField": "companyName",
+                    "requestedColor": "#ffffff",
+                    "queryMatchField": "clientProfile",
+                    "relatedTypeName": "Company Profile",
+                    "remoteNameField": "companyName",
+                    "remoteSortField": "contractorName",
+                    "remoteView_name": "Name",
+                    "youRejectedText": "You Rejected",
+                    "bothRejectedText": "Both Rejected",
+                    "youRejectedColor": "#444444",
+                    "bothRejectedColor": "#444444",
+                    "cancelConfirmation": "Are you sure you want to remove the link?",
+                    "remoteConfirmField": "contractorConfirms",
+                    "remoteSearchFields": "",
+                    "pendingBackgroundColor": "#fbd6a3",
+                    "rejectedBackgroundColor": "#f50057",
+                    "confirmedBackgroundColor": "#679861",
+                    "requestedBackgroundColor": "#00b5f5",
+                    "youRejectedBackgroundColor": "#ffeda8",
+                    "bothRejectedBackgroundColor": "#ffeda8"
                   },
                   {
                     "id": "iI93pS9Uml0Vnu",
@@ -3439,8 +3816,10 @@
                     },
                     "defaultChoices": [],
                     "questionHeight": "",
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": ""
                   },
                   {
@@ -3500,28 +3879,32 @@
                     "question": "",
                     "_selectId": "8NPQKzQa_x_8m9",
                     "condition": "",
-                    "relatedType": "WdoYmj-FOBFYri:hestia/document-types",
+                    "relatedType": "UJns4BZ0dhGyw5:hestia/document-types",
                     "questionHeight": "",
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
-                    "questionRightPad": "",
-                    "questionSpaceBefore": ""
-                  },
-                  {
-                    "id": "uMr2SEckmsm-vS",
-                    "name": "contractorId",
-                    "type": "text",
-                    "hints": {
-                      "hidden": true
+                    "relatedQuestion": {
+                      "id": "UVxygrF9sqVrgJ",
+                      "name": "companyName",
+                      "type": "text",
+                      "hints": {
+                        "not_editable": true
+                      },
+                      "maxWidth": "",
+                      "question": "",
+                      "_selectId": "EwKg0PNptp3x9I",
+                      "condition": "valueNotEquals(\"$state\",New)",
+                      "inputLabel": "",
+                      "defaultValue": "",
+                      "questionHeight": "",
+                      "clearIfDisabled": "",
+                      "questionLeftPad": "",
+                      "questionRightPad": "",
+                      "editableCondition": "",
+                      "questionSpaceBefore": ""
                     },
-                    "maxWidth": "",
-                    "question": "",
-                    "_selectId": "GI73Vnj5tPxccj",
-                    "condition": "",
-                    "inputLabel": "",
-                    "defaultValue": "",
-                    "questionHeight": "",
-                    "questionLeftPad": "",
                     "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": ""
                   },
                   {
@@ -3570,10 +3953,22 @@
                     "requiredFields": [
                       "companyName"
                     ],
+                    "clearIfDisabled": "",
                     "questionLeftPad": "",
                     "displayView_name": "Name",
                     "questionRightPad": "",
+                    "editableCondition": "",
                     "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "p6bgatjFLtqYJW",
+                    "name": "",
+                    "type": "stop",
+                    "hints": {},
+                    "question": "",
+                    "stopWhat": [],
+                    "_selectId": "NWxOR48maMtsdL",
+                    "condition": ""
                   },
                   {
                     "id": "X0stRxDnbxpZAj",
@@ -3597,6 +3992,22 @@
                     "_selectId": "lLhffib9g6GWw_",
                     "condition": "",
                     "permanent": "",
+                    "rightSlot": {
+                      "id": "gdD0dLHODQrJ6s",
+                      "name": "",
+                      "type": "embedAction",
+                      "hints": {},
+                      "action": "bl4vej3CtWXo4X",
+                      "variant": "outlined",
+                      "question": "",
+                      "_selectId": "wT0HGvmxjKNfPC",
+                      "condition": "",
+                      "_actionName": "Update",
+                      "questionHeight": "",
+                      "questionLeftPad": "",
+                      "questionRightPad": "",
+                      "questionSpaceBefore": ""
+                    },
                     "background": "",
                     "middleSlot": {
                       "id": "jde7yLfz6j0moc",
@@ -3614,6 +4025,198 @@
                       "questionRightPad": "",
                       "questionSpaceBefore": ""
                     }
+                  },
+                  {
+                    "id": "ho2ChCJm3XGU1l",
+                    "name": "complete",
+                    "type": "progressbar",
+                    "forms": [
+                      {
+                        "id": "yhJls05_OvS0lE",
+                        "form": "QBK3L2kW3hNl0_"
+                      }
+                    ],
+                    "hints": {
+                      "hidden": true
+                    },
+                    "hideBar": "",
+                    "barWidth": "50%",
+                    "diameter": "40px",
+                    "endLabel": "",
+                    "question": "",
+                    "textSize": "22px",
+                    "_selectId": "KfPZq4wmC5-bJl",
+                    "condition": "",
+                    "lineColor": "#1da7e0",
+                    "textColor": "#ededed",
+                    "startLabel": "",
+                    "trailColor": "#d6d6d6",
+                    "endTextSize": "14px",
+                    "strokeWidth": 10,
+                    "countTextSize": "18px",
+                    "endLabelColor": "#1da7e0",
+                    "showBackground": false,
+                    "showPercentage": true,
+                    "showSeparators": false,
+                    "backgroundColor": "#ededed",
+                    "clearIfDisabled": "",
+                    "startLabelColor": "#000",
+                    "editableCondition": ""
+                  },
+                  {
+                    "id": "cXwGXtVDWDeGzt",
+                    "name": "latitude",
+                    "type": "text",
+                    "hints": {
+                      "hidden": true
+                    },
+                    "maxWidth": "",
+                    "question": "",
+                    "_selectId": "jyVOMnR2V2Ig-W",
+                    "condition": "",
+                    "inputLabel": "",
+                    "defaultValue": "",
+                    "questionHeight": "",
+                    "clearIfDisabled": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "editableCondition": "",
+                    "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "jznJM0vfeSdUSr",
+                    "name": "longitude",
+                    "type": "text",
+                    "hints": {
+                      "hidden": true
+                    },
+                    "maxWidth": "",
+                    "question": "",
+                    "_selectId": "f0mUCVU0YFGRqd",
+                    "condition": "",
+                    "inputLabel": "",
+                    "defaultValue": "",
+                    "questionHeight": "",
+                    "clearIfDisabled": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "editableCondition": "",
+                    "questionSpaceBefore": ""
+                  }
+                ],
+                "description": ""
+              },
+              {
+                "id": "1628075929602-lahTOphnRzQIyp",
+                "_id": "1628075929602-lahTOphnRzQIyp:hestia/form-sections",
+                "name": "Tags",
+                "_expanded": false,
+                "_selectId": "zc9tXFoOSP5XCC",
+                "condition": "",
+                "questions": [
+                  {
+                    "id": "4s0AU2OfELr79G",
+                    "name": "",
+                    "type": "card",
+                    "color": "",
+                    "hints": {},
+                    "title": "Tags",
+                    "question": "",
+                    "_selectId": "85-nxAQRCm2MfQ",
+                    "condition": "",
+                    "elevation": 3,
+                    "topMargin": "",
+                    "background": "",
+                    "leftMargin": "",
+                    "collapsible": true,
+                    "rightMargin": "",
+                    "bottomMargin": "",
+                    "defaultExpanded": false
+                  },
+                  {
+                    "id": "9qQr8VbhSB0my6",
+                    "name": "availableTags",
+                    "type": "text",
+                    "hints": {
+                      "multi_line": true,
+                      "splitLinesIntoArray": true
+                    },
+                    "maxWidth": "",
+                    "question": "",
+                    "_selectId": "aEtTu9nm0lVrq1",
+                    "condition": "",
+                    "inputLabel": "",
+                    "defaultValue": "",
+                    "questionHeight": "",
+                    "clearIfDisabled": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "editableCondition": "",
+                    "questionSpaceBefore": ""
+                  },
+                  {
+                    "id": "nd7odWlGFPHCqK",
+                    "name": "",
+                    "type": "stop",
+                    "hints": {},
+                    "question": "",
+                    "stopWhat": [],
+                    "_selectId": "B-4LGAyskompBE",
+                    "condition": ""
+                  }
+                ],
+                "description": ""
+              },
+              {
+                "id": "1627401106635-cKn6Fx4UpkAM9z",
+                "_id": "1627401106635-cKn6Fx4UpkAM9z:hestia/form-sections",
+                "name": "Topics",
+                "_expanded": true,
+                "_selectId": "aMOMwJJY-sh2HE",
+                "condition": "",
+                "questions": [
+                  {
+                    "id": "kZ4Cc1eiZ4VpRX",
+                    "name": "",
+                    "type": "card",
+                    "color": "",
+                    "hints": {},
+                    "title": "",
+                    "question": "",
+                    "_selectId": "6CFTMdJbW_mg7f",
+                    "condition": "",
+                    "elevation": "",
+                    "topMargin": "",
+                    "background": "",
+                    "leftMargin": "",
+                    "collapsible": "",
+                    "rightMargin": "",
+                    "bottomMargin": ""
+                  },
+                  {
+                    "id": "fnzT4MYYWer7Q0",
+                    "mode": "specific",
+                    "name": "parentCompany",
+                    "type": "topic",
+                    "hints": {},
+                    "topic": "eVCo024qTtDPew:hestia/topics",
+                    "groups": [],
+                    "concern": [
+                      "Company"
+                    ],
+                    "question": "",
+                    "_selectId": "WA-iGsdUvBhq5d",
+                    "condition": "",
+                    "topicName": "Corporate Structure",
+                    "inputLabel": "",
+                    "linkedField": "",
+                    "popupQuestion": "What is your parent company?",
+                    "questionHeight": "",
+                    "clearIfDisabled": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "editableCondition": "",
+                    "questionSpaceBefore": ""
                   }
                 ],
                 "description": ""
@@ -3623,6 +4226,7 @@
             "condition": "",
             "description": "",
             "duplicateNames": {
+              "country": true,
               "companySize": true
             }
           },
@@ -3661,11 +4265,359 @@
             "duplicateNames": {}
           }
         ],
+        "chase": [
+          {
+            "id": "Dee2r-Lb5_9MQZ",
+            "name": "Manage Assessment",
+            "events": [],
+            "tracks": [
+              {
+                "id": "msTTT8c9WnoZjr",
+                "name": "Main",
+                "items": [
+                  {
+                    "id": "oNPf9wmBHl9ORG",
+                    "from": "previous",
+                    "type": "delay",
+                    "units": "minutes",
+                    "amount": 0.1,
+                    "_selectId": "E32sIGQthqxbaK"
+                  },
+                  {
+                    "id": "mLzIXxuvUsmIyT",
+                    "type": "switchState",
+                    "toState": "Assessed",
+                    "_selectId": "SWjtxxQUOuoBSL"
+                  }
+                ],
+                "states": [
+                  "Approved"
+                ]
+              }
+            ],
+            "_selectId": "Pk7hnMy4kDPHUy",
+            "masterQuery": {}
+          }
+        ],
         "styled": [
           {
-            "css": ".title {\n    border-radius: 8px;\n    margin: 4px;\n    \n}\n\n.title [class*=h1-] {\n    font-size: 20px !important;\n}",
+            "id": "ybr6QklcIcPhKp",
+            "css": ".title {\n    border-radius: 205px;\n    margin: 4px;\n    \n}\n\n.title [class*=h1-] {\n    font-size: 20px !important;\n}",
             "_init": true,
             "_selectId": "8bxlAvIOfisovH"
+          }
+        ],
+        "geocode": [
+          {
+            "id": "Gy195qKK_utUgI",
+            "name": "",
+            "__init": true,
+            "region": "eu-west-1",
+            "address": [
+              {
+                "id": "Pm_JdjcKlYb2Nv",
+                "field": "companyName",
+                "defaultValue": ""
+              },
+              {
+                "id": "Zu5QtPdWACXuPZ",
+                "field": "address",
+                "defaultValue": ""
+              },
+              {
+                "id": "ZX5TyxQilcJ1Z_",
+                "field": "City",
+                "defaultValue": ""
+              },
+              {
+                "id": "nVgcEPeR-jcKSC",
+                "field": "state",
+                "defaultValue": ""
+              },
+              {
+                "id": "79eWoFfxnSl-YI",
+                "field": "ZIP",
+                "defaultValue": ""
+              },
+              {
+                "id": "lGK4pQAX4BOa-U",
+                "field": "headOfficeCountry",
+                "defaultValue": ""
+              }
+            ],
+            "latitude": "latitude",
+            "_selectId": "juRD65XMIkRZbr",
+            "indexName": "ContractorCheck",
+            "longitude": "longitude",
+            "countryCodes": ""
+          }
+        ],
+        "indexer": [
+          {
+            "id": "UcgJ00vF12E8Av",
+            "__init": true,
+            "address": [
+              {
+                "id": "K04OteGYSfp6dZ",
+                "type": "fulltext",
+                "field": "companyName",
+                "defaultValue": ""
+              },
+              {
+                "id": "x0o-PfLTjUDcpf",
+                "type": "fulltext",
+                "field": "address",
+                "defaultValue": ""
+              },
+              {
+                "id": "Uk5Qa6NTJihauU",
+                "type": "fulltext",
+                "field": "country",
+                "defaultValue": ""
+              },
+              {
+                "id": "HpnK8hiCST0EKy",
+                "type": "fulltext",
+                "field": "City",
+                "defaultValue": ""
+              },
+              {
+                "id": "3HG5xW8Hlixo1K",
+                "type": "fulltext",
+                "field": "ZIP",
+                "defaultValue": ""
+              },
+              {
+                "id": "-n3er-9YdRcZs6",
+                "type": "fulltext",
+                "field": "headOfficeCountry",
+                "defaultValue": ""
+              },
+              {
+                "id": "-B-LJoW48jYp2N",
+                "type": "normal",
+                "field": "doYouContract",
+                "defaultValue": ""
+              },
+              {
+                "id": "sK7D_uV0IZVCc0",
+                "type": "normal",
+                "field": "doYouUseContractors",
+                "defaultValue": ""
+              },
+              {
+                "id": "-9V0m6TxA7dMW8",
+                "type": "fulltext",
+                "field": "tradingNames",
+                "defaultValue": ""
+              },
+              {
+                "id": "tFFgrjlU_UTl0m",
+                "type": "normal",
+                "field": "classification",
+                "defaultValue": ""
+              },
+              {
+                "id": "KxmO_nTSF5iJp9",
+                "type": "normal",
+                "field": "numberOfEmployees",
+                "defaultValue": ""
+              },
+              {
+                "id": "crs6__I-zDZ_hp",
+                "type": "array",
+                "field": "workActivity",
+                "defaultValue": ""
+              },
+              {
+                "id": "9ZgM69RzEcRlp8",
+                "type": "array",
+                "field": "workActivityFrench",
+                "defaultValue": ""
+              }
+            ],
+            "_selectId": "Zci_RZbvl8E1u3"
+          }
+        ],
+        "updater": [
+          {
+            "id": "Qi6ubuhBLjlkcx",
+            "name": "Create Contact",
+            "query": {
+              "$and": [
+                {
+                  "email": {
+                    "$ne": "NULL"
+                  }
+                }
+              ]
+            },
+            "onEnter": "",
+            "inStates": [
+              "New",
+              "Saved",
+              "Assessed",
+              "Approved"
+            ],
+            "mergeAll": "",
+            "_selectId": "N9hFwo43VxJlL9",
+            "properties": [
+              {
+                "id": "Ypw1vAvdvNI_FL",
+                "field": "email",
+                "value": "{email}",
+                "defaultValue": ""
+              },
+              {
+                "id": "KAqaa2Q4nxK4u9",
+                "field": "primary",
+                "value": "yes",
+                "defaultValue": ""
+              },
+              {
+                "id": "E8aMKooLPe3cqi",
+                "field": "_client",
+                "value": "{resolveId(_id)}",
+                "defaultValue": ""
+              },
+              {
+                "id": "BBFKO-uHKHxqwt",
+                "field": "company",
+                "value": "{_id}",
+                "defaultValue": ""
+              },
+              {
+                "id": "VlVNFYPl4-A-74",
+                "field": "fundamental",
+                "value": "awe-runner",
+                "defaultValue": ""
+              }
+            ],
+            "specificId": true,
+            "targetType": "0pBBN3JGvJXvK6:hestia/document-types",
+            "updateClient": false,
+            "recordChanges": "",
+            "targetTypeName": "Contact",
+            "updateRecordId": "{resolveId(_id)}:contractorcheck/contact",
+            "updateToClient": "rsihYJKKDVyaYN",
+            "createMergeRecord": false,
+            "uniqueMergeRecords": false,
+            "updateTargetDocumentState": ""
+          },
+          {
+            "id": "-kkm4OhThVfEB2",
+            "name": "Update Master List",
+            "onEnter": "",
+            "inStates": [
+              "New",
+              "Saved",
+              "Approved",
+              "Assessed"
+            ],
+            "mergeAll": true,
+            "_selectId": "EpcP3VL3bVD7zn",
+            "properties": [
+              {
+                "id": "J5DFydmcQAwDqS",
+                "field": "profile",
+                "value": "{_id}",
+                "defaultValue": ""
+              },
+              {
+                "id": "2CngW-Sh0hcrWw",
+                "field": "",
+                "value": ""
+              }
+            ],
+            "specificId": true,
+            "targetType": "UJns4BZ0dhGyw5:hestia/document-types",
+            "forValuesOf": "",
+            "updateState": "Stored",
+            "updateClient": true,
+            "recordChanges": "",
+            "targetTypeName": "Master List Company Profile",
+            "updateRecordId": "{resolveId(_id)}:contractorcheck/masterCompanyProfile",
+            "updateToClient": "rsihYJKKDVyaYN",
+            "createMergeRecord": false,
+            "uniqueMergeRecords": false,
+            "updateTargetDocumentState": false
+          },
+          {
+            "id": "okFTMSwCgI9C4a",
+            "name": "Make My Client My Id",
+            "onEnter": "",
+            "inStates": [
+              "New",
+              "Saved",
+              "Assessed",
+              "Approved"
+            ],
+            "mergeAll": "",
+            "_selectId": "Lu3YphSV1lI0sS",
+            "properties": [
+              {
+                "id": "q4qoNIYBel9dYW",
+                "field": "_client",
+                "value": [
+                  "{resolveId(_id)}"
+                ],
+                "defaultValue": ""
+              }
+            ],
+            "specificId": true,
+            "targetType": "WdoYmj-FOBFYri:hestia/document-types",
+            "updateState": "",
+            "updateClient": "",
+            "recordChanges": "",
+            "targetTypeName": "Company Profile",
+            "updateRecordId": "{_id}",
+            "createMergeRecord": false,
+            "uniqueMergeRecords": false,
+            "updateTargetDocumentState": false
+          },
+          {
+            "id": "5W2iA7W1ma2gWO",
+            "name": "Create H&S questionnaire on New",
+            "onEnter": "",
+            "inStates": [
+              "Saved",
+              "New"
+            ],
+            "mergeAll": "",
+            "_selectId": "lT6i9FqOTpK7uw",
+            "properties": [
+              {
+                "id": "RZ6GM_2spJAAjA",
+                "field": "profile",
+                "value": "{resolveId(_id)}:companyP/companyP",
+                "defaultValue": ""
+              },
+              {
+                "id": "8TqFDdaMLcG7WG",
+                "field": "linkedProfile",
+                "value": "{resolveId(_id)}:companyP/companyP",
+                "defaultValue": ""
+              },
+              {
+                "id": "8Ou05hf40YVaWK",
+                "field": "assessmentType",
+                "value": [
+                  "general"
+                ],
+                "defaultValue": ""
+              }
+            ],
+            "specificId": true,
+            "targetType": "fYmpCXoXNbRtVg:hestia/document-types",
+            "forValuesOf": "",
+            "updateState": "New",
+            "updateClient": false,
+            "recordChanges": "",
+            "targetTypeName": "Contractor Questionnaire",
+            "updateRecordId": "{resolveId(_id)}-general:contractorcheck/contractorAnswers",
+            "createMergeRecord": false,
+            "uniqueMergeRecords": false,
+            "updateTargetDocumentState": true
           }
         ],
         "formAction": [
@@ -3696,12 +4648,64 @@
                 "modal": {
                   "enabled": false
                 },
-                "goBack": "",
-                "caption": "Save",
+                "goBack": true,
+                "caption": "Submit",
                 "command": "setData",
                 "toState": "Saved",
                 "variant": "text",
                 "_selectId": "A0UY8AJuZOZUX9",
+                "condition": "",
+                "endOfLine": "",
+                "navigateTo": "",
+                "properties": [],
+                "changeState": true,
+                "backgroundColor": "#0a599a",
+                "visibleCondition": "",
+                "notificationToast": ""
+              }
+            ],
+            "storeIn": "",
+            "_selectId": "l9wTn7Plxm_jew",
+            "editDemands": [],
+            "inputStates": [
+              "New",
+              "Saved"
+            ],
+            "visibleDemands": []
+          },
+          {
+            "id": "FPrVUGkb9dKHqZ",
+            "name": "Assessed",
+            "forms": [
+              {
+                "id": "uc2TDSSSoyIaaY",
+                "form": "QBK3L2kW3hNl0_",
+                "readOnly": false,
+                "_selectId": "MdrFeR_iKzRAyT"
+              },
+              {
+                "id": "-hiJu5HIpOhSpv",
+                "form": "YcQ_phx_ZRx4_Q",
+                "readOnly": false,
+                "_selectId": "r24DFxgESlbZpH"
+              }
+            ],
+            "inline": true,
+            "actions": [
+              {
+                "id": "bl4vej3CtWXo4X",
+                "blur": "",
+                "icon": "",
+                "color": "#fff",
+                "modal": {
+                  "enabled": false
+                },
+                "goBack": "",
+                "caption": "Update",
+                "command": "setData",
+                "toState": "Assessed",
+                "variant": "text",
+                "_selectId": "zEl9co8VyovenH",
                 "condition": "",
                 "endOfLine": "",
                 "navigateTo": "",
@@ -3713,11 +4717,38 @@
               }
             ],
             "storeIn": "",
-            "_selectId": "l9wTn7Plxm_jew",
+            "_selectId": "Otv9eVDy6A7vnP",
             "editDemands": [],
             "inputStates": [
-              "New",
-              "Saved"
+              "Assessed"
+            ],
+            "visibleDemands": []
+          },
+          {
+            "id": "VrbTPiTVbB6Vej",
+            "name": "Approved",
+            "forms": [],
+            "inline": true,
+            "actions": [],
+            "storeIn": "",
+            "_selectId": "NrNu48LSHHVP1r",
+            "editDemands": [],
+            "inputStates": [
+              "Approved"
+            ],
+            "visibleDemands": []
+          },
+          {
+            "id": "7v1mLaSCgryHRN",
+            "name": "Stored",
+            "forms": [],
+            "inline": true,
+            "actions": [],
+            "storeIn": "",
+            "_selectId": "HpFQoC1-KBuJI9",
+            "editDemands": [],
+            "inputStates": [
+              "Stored"
             ],
             "visibleDemands": []
           }
@@ -3788,34 +4819,91 @@
             "_selectId": "GkwqrXDc_mjz9M",
             "availableActions": []
           }
+        ],
+        "localization": [
+          {
+            "id": "yJjD15cTLaK2sk",
+            "__init": true,
+            "locale": "french,fr",
+            "_selectId": "W3yhSVrI7L-n4c",
+            "textOverride": {
+              "No": "Non",
+              "Yes": "Oui",
+              "City": "Ville",
+              "Phone": "Numéro de téléphone",
+              "Yukon": "À propos de votre entreprise",
+              "French": "Francais",
+              "Submit": "Soumettre",
+              "Update": "Mettre à jour",
+              "Address": "Adresse",
+              "Country": "Pays",
+              "Details": "Détails",
+              "English": "Anglais",
+              "Location": "Emplacement",
+              "Company Name": "Nom de enterprise",
+              "Trading Name": "Nom commercial",
+              "Trading Names": "Noms commerciaux",
+              "Your Business": "À propos de votre entreprise",
+              "Do You Contract": "Contractez-vous",
+              "Work Activities": "Activités de travail",
+              "Anchored Clients": "Clients ancrés",
+              "Preferred Language": "Langue préférée",
+              "Number of Employees": "Nombre d'employés",
+              "Operating Countries": "Pays d'exploitation",
+              "Operating Provinces": "Provinces d'exploitation",
+              "Do You Use Contractors": "Utilisez-vous des entrepreneurs",
+              "<p>Which clients do you work with?</p>": "<p>Avec quels clients travaillez-vous ?</p>",
+              "<p>What work activities do are you involved in?</p>": "<p>À quelles activités professionnelles participez-vous ?</p>",
+              "<p>Do you provide contracting services to others?</p>": "<p>Fournissez-vous des services contractuels à d'autres ?</p>",
+              "<p>Do you use contractors or provide subcontractors?</p>": "<p>Utilisez-vous des entrepreneurs ou fournissez-vous des sous-traitants ?</p>",
+              "<p>Indicate the countries that your business operates in</p>": "<p>Indiquez les pays dans lesquels votre entreprise opère</p>",
+              "<p>Indicate the provinces that your business operates in</p>": "<p>Indiquez les provinces dans lesquelles votre entreprise exerce ses activités</p>",
+              "<p>Enter a description of your business that will be shown on the master list profile.</p>": "<p>Entrez une description de votre entreprise qui sera affichée sur le profil de la liste principale.</p>"
+            }
+          }
         ]
       }
     },
+    "_components": true,
     "createOnNew": false,
-    "description": "",
+    "description": "<p></p>\n",
     "displayName": "companyProfile",
     "__originalId": "WdoYmj-FOBFYri:hestia/document-types",
     "defaultState": "New",
     "sidebarColor": "#333",
     "tabsSelected": "#009fda",
+    "__hideRecords": true,
     "__warnReasons": [],
     "documentColor": "#333",
-    "_activeVersion": "GsyccdpcWiNOwb",
+    "_activeVersion": "gUT4lBYCbpuJYM",
     "_parentVersion": "GmG8PN_c_6Ta_E",
     "currentVersion": {
-      "live": "Preferred Language",
-      "testing": "Preferred Language",
-      "development": "Preferred Language"
+      "live": "Updated linked profile",
+      "testing": "Updated linked profile",
+      "development": "Updated linked profile"
     },
     "tabsBackground": "#f4f4f4",
     "tabsForeground": "#555",
-    "_lastModifiedBy": "3e424bc3-fb9a-47a1-93a1-056351146687",
+    "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "defaultActivity": "x_5KNezQjHRN0v",
     "devices-allowed": "",
     "sideBarMinWidth": 150,
+    "__hideBehaviours": true,
+    "__hidePublishing": true,
     "documentBackdrop": "#f4f4f4",
+    "_updatersExpanded": false,
     "sidebarBackground": "#fff",
     "documentBackground": "#f4f4f4",
+    "__behaviourCollapse": {
+      "chase": false,
+      "forms": false,
+      "views": true,
+      "styled": false,
+      "geocode": false,
+      "updater": false,
+      "formAction": false,
+      "localization": false
+    },
     "devices-allowed-html": "",
     "isLockedByCurrentUser": false
   },

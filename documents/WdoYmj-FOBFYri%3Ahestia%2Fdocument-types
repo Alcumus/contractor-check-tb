@@ -1,5 +1,5 @@
 {
-  "__": "gv2S0NOwF1sJFA",
+  "__": "uMIkQK4HGRC2BX",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -212,22 +212,22 @@
   "maxWidth": 1000,
   "versions": [
     {
-      "id": "2FhqrIfj2Pj8uA",
-      "name": "Company Profile",
-      "time": 1621274081464,
-      "user": "15b779b1-e135-4313-b0b7-6dac1755adb8",
-      "locked": true,
-      "_selectId": "2u5ga1giWzOhp1",
-      "parentVersion": ""
+      "id": "zk0gwNadHUfzTE",
+      "name": "Updated linked profile",
+      "time": 1629133976780,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": false,
+      "_selectId": "ZoiHEupjeRqPJg",
+      "parentVersion": "GmG8PN_c_6Ta_E"
     },
     {
-      "id": "hnM71IN2jmwpM1",
-      "name": "CCPOC",
-      "time": 1621333682906,
-      "user": "15b779b1-e135-4313-b0b7-6dac1755adb8",
+      "id": "GmG8PN_c_6Ta_E",
+      "name": "Preferred Language",
+      "time": 1628767947050,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": true,
-      "_selectId": "4-YxrwbdTi6SBU",
-      "parentVersion": "2FhqrIfj2Pj8uA"
+      "_selectId": "3ZDCmHSDLCDJZx",
+      "parentVersion": "Bx_OD0XlxHBKQx"
     },
     {
       "id": "Bx_OD0XlxHBKQx",
@@ -239,15 +239,25 @@
       "parentVersion": "hnM71IN2jmwpM1"
     },
     {
-      "id": "GmG8PN_c_6Ta_E",
-      "name": "Preferred Language",
-      "time": 1628767947050,
-      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-      "locked": false,
-      "parentVersion": "Bx_OD0XlxHBKQx"
+      "id": "hnM71IN2jmwpM1",
+      "name": "CCPOC",
+      "time": 1621333682906,
+      "user": "15b779b1-e135-4313-b0b7-6dac1755adb8",
+      "locked": true,
+      "_selectId": "4-YxrwbdTi6SBU",
+      "parentVersion": "2FhqrIfj2Pj8uA"
+    },
+    {
+      "id": "2FhqrIfj2Pj8uA",
+      "name": "Company Profile",
+      "time": 1621274081464,
+      "user": "15b779b1-e135-4313-b0b7-6dac1755adb8",
+      "locked": true,
+      "_selectId": "2u5ga1giWzOhp1",
+      "parentVersion": ""
     }
   ],
-  "_modified": 1628764347000,
+  "_modified": 1629130377000,
   "components": "navigation,relationship",
   "isLockedBy": null,
   "navigation": [],
@@ -2170,13 +2180,13 @@
             {
               "id": "RZ6GM_2spJAAjA",
               "field": "profile",
-              "value": "{_id}",
+              "value": "{resolveId(_id)}:companyP/companyP",
               "defaultValue": ""
             },
             {
               "id": "8TqFDdaMLcG7WG",
               "field": "linkedProfile",
-              "value": "{_id}",
+              "value": "{resolveId(_id)}:companyP/companyP",
               "defaultValue": ""
             },
             {
@@ -2456,12 +2466,12 @@
   "__hideRecords": true,
   "__warnReasons": [],
   "documentColor": "#333",
-  "_activeVersion": "zk0gwNadHUfzTE",
-  "_parentVersion": "GmG8PN_c_6Ta_E",
+  "_activeVersion": "gUT4lBYCbpuJYM",
+  "_parentVersion": "zk0gwNadHUfzTE",
   "currentVersion": {
-    "live": "Preferred Language",
-    "testing": "Preferred Language",
-    "development": "Preferred Language"
+    "live": "Updated linked profile",
+    "testing": "Updated linked profile",
+    "development": "Updated linked profile"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
@@ -2470,7 +2480,7 @@
   "devices-allowed": "",
   "sideBarMinWidth": 150,
   "__hideBehaviours": true,
-  "__hidePublishing": false,
+  "__hidePublishing": true,
   "documentBackdrop": "#f4f4f4",
   "_updatersExpanded": false,
   "sidebarBackground": "#fff",
