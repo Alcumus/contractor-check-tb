@@ -1,5 +1,5 @@
 {
-  "__": "botx_9qGMmFCxu",
+  "__": "uGpTzHnqLsw3Fp",
   "_id": "PMW2x8gydP1Gq7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -222,7 +222,7 @@
       "exposeWebhooks": ""
     }
   },
-  "_modified": 1627286353000,
+  "_modified": 1629131791000,
   "components": "verification,localisation,hint-text",
   "isLockedBy": null,
   "navigation": [],
@@ -321,11 +321,13 @@
                   "buttonCaption": "",
                   "referenceType": "WdoYmj-FOBFYri:hestia/document-types",
                   "createTypeName": "Company Profile",
-                  "documentToLink": "{profile}",
+                  "documentToLink": "{resolveId(profile)}:companyP/companyP",
                   "questionHeight": "",
+                  "clearIfDisabled": "",
                   "createIfMissing": "",
                   "questionLeftPad": "",
                   "questionRightPad": "",
+                  "editableCondition": "",
                   "questionSpaceBefore": ""
                 },
                 {
@@ -347,9 +349,11 @@
                   "createTypeName": "Master List Company Profile",
                   "documentToLink": "{resolveId(profile)}:contractorcheck/masterCompanyProfile",
                   "questionHeight": "",
+                  "clearIfDisabled": "",
                   "createIfMissing": false,
                   "questionLeftPad": "",
                   "questionRightPad": "",
+                  "editableCondition": "",
                   "questionSpaceBefore": ""
                 }
               ],
@@ -31741,11 +31745,37 @@
               "_dispatchInstances": null,
               "_dispatchListeners": null
             },
+            "4uT4GNfa4rSLQD": {
+              "helpText": "",
+              "viewTypes": "",
+              "helpTextTso": "",
+              "isAuditable": false,
+              "actionsTypes": "",
+              "isYesNowDisplay": true,
+              "isNoScoreAssessed": "",
+              "questionScoreSteps": "1",
+              "questionScoreOffset": "0",
+              "questionValidScores": "",
+              "questionMaximumScore": null
+            },
             "clJso5hIqohqqr": {
               "helpText": "",
               "viewTypes": "",
               "helpTextTso": "",
               "isAuditable": true,
+              "actionsTypes": "",
+              "isYesNowDisplay": true,
+              "isNoScoreAssessed": "",
+              "questionScoreSteps": "1",
+              "questionScoreOffset": "0",
+              "questionValidScores": "",
+              "questionMaximumScore": null
+            },
+            "eWbehUxX7qnfU0": {
+              "helpText": "",
+              "viewTypes": "",
+              "helpTextTso": "",
+              "isAuditable": false,
               "actionsTypes": "",
               "isYesNowDisplay": true,
               "isNoScoreAssessed": "",
@@ -31765,7 +31795,7 @@
               "questionScoreSteps": "1",
               "questionScoreOffset": "0",
               "questionValidScores": "",
-              "questionMaximumScore": null
+              "questionMaximumScore": ""
             },
             "a1S1N000005WjLxFile": {
               "viewTypes": "",
@@ -39913,6 +39943,7 @@
       ]
     }
   },
+  "_components": true,
   "createOnNew": false,
   "description": "",
   "displayName": "test",
@@ -39932,7 +39963,7 @@
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
-  "_lastModifiedBy": "64467393-61e5-45fe-a026-45aed6419337",
+  "_lastModifiedBy": "S8AaM7wD97Mh2V",
   "defaultActivity": "xSkC0pR6hZ1H2U",
   "devices-allowed": "",
   "sideBarMinWidth": 150,
@@ -39942,5 +39973,5 @@
   "documentBackground": "#f4f4f4",
   "devices-allowed-html": "",
   "isLockedByCurrentUser": false,
-  "linkedMasterListProfile": ":contractorcheck/masterCompanyProfile"
+  "linkedMasterListProfile": "undefined:contractorcheck/masterCompanyProfile"
 }
