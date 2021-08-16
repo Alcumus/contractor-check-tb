@@ -1,10 +1,6 @@
 [
   {
-<<<<<<< HEAD
-    "__": "65OAqwHkPGbmml",
-=======
     "__": "tGQf_IxbRtuacC",
->>>>>>> server
     "_id": "WdoYmj-FOBFYri-GmG8PN_c_6Ta_E:hestia/versions",
     "__id": "WdoYmj-FOBFYri:hestia/document-types",
     "__ok": true,
@@ -216,11 +212,7 @@
     "_deleted": 0,
     "database": "companyP",
     "maxWidth": 1000,
-<<<<<<< HEAD
-    "_modified": 1628669560200,
-=======
     "_modified": 1628595591537,
->>>>>>> server
     "components": "navigation,relationship",
     "isLockedBy": null,
     "navigation": [],
@@ -1664,11 +1656,7 @@
                 "id": "1628075929602-lahTOphnRzQIyp",
                 "_id": "1628075929602-lahTOphnRzQIyp:hestia/form-sections",
                 "name": "Tags",
-<<<<<<< HEAD
-                "_expanded": false,
-=======
                 "_expanded": true,
->>>>>>> server
                 "_selectId": "zc9tXFoOSP5XCC",
                 "condition": "",
                 "questions": [
