@@ -1,5 +1,5 @@
 {
-  "__": "C67tnh-R1uXwv3",
+  "__": "Z0Rj9UC2dWgJlG",
   "_id": "0pBBN3JGvJXvK6:hestia/document-types",
   "icon": "",
   "name": "Contact",
@@ -201,13 +201,13 @@
     {
       "id": "UXlXJ3hYoZG3bS",
       "name": "1.0",
-      "time": 1628594716075,
+      "time": 1629271140087,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
       "parentVersion": ""
     }
   ],
-  "_modified": 1628591116000,
+  "_modified": 1629267540000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -577,6 +577,22 @@
           "relatedType": "WdoYmj-FOBFYri:hestia/document-types",
           "relatedTypeName": "Company Profile",
           "parentDesignator": "parentCompany"
+        }
+      ],
+      "dataDownloader": [
+        {
+          "id": "_RnKDwQlZiRDmU",
+          "name": "emailAddress",
+          "__init": true,
+          "_selectId": "2UbnmWSBfVfUi3",
+          "downloadQuery": {},
+          "fieldsToDownload": [
+            {
+              "id": "udhtf_cuuqtRff",
+              "field": "email",
+              "defaultValue": ""
+            }
+          ]
         }
       ]
     }
