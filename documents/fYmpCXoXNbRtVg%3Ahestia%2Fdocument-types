@@ -1,5 +1,5 @@
 {
-  "__": "iWulbhtsxz09bi",
+  "__": "RqUjKzDo9mgD1h",
   "_id": "fYmpCXoXNbRtVg:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -209,14 +209,13 @@
     {
       "id": "D57acZ-uIHF-Tx",
       "name": "1.0",
-      "time": 1627579823958,
+      "time": 1629287811369,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "VorxBdHmtuZg5L",
       "parentVersion": ""
     }
   ],
-  "_modified": 1627576224000,
+  "_modified": 1629284211000,
   "components": "verification,helptext,navigation,formprogress,localisation",
   "isLockedBy": null,
   "navigation": [],
@@ -421,7 +420,187 @@
           "_selectId": "YonB-1t7xryfcU",
           "condition": "",
           "description": "",
-          "duplicateNames": {}
+          "duplicateNames": {},
+          "__baseQuestions": [
+            {
+              "id": "2K_JiTXJb1EpKs",
+              "name": "",
+              "type": "disableActions",
+              "hints": {},
+              "question": "",
+              "_selectId": "_ViNNEPfBCetye",
+              "condition": ""
+            },
+            {
+              "id": "rfLLsiAB-IMb9t",
+              "name": "",
+              "side": "bottom",
+              "type": "navigation",
+              "color": "",
+              "hints": {},
+              "width": "",
+              "leftSlot": {
+                "id": "qJdNCDrR1YNph3",
+                "name": "",
+                "type": "embedAction",
+                "hints": {},
+                "action": "0gqxuu5--yYGAl",
+                "variant": "outlined",
+                "question": "",
+                "_selectId": "cnCCCuymtyuDcE",
+                "condition": "",
+                "_actionName": "Save",
+                "questionHeight": "",
+                "questionLeftPad": "",
+                "questionRightPad": "",
+                "questionSpaceBefore": ""
+              },
+              "maxWidth": "",
+              "question": "",
+              "_selectId": "pMD2Tb3DrMPDnO",
+              "condition": "valueNotEquals(\"$state\", \"Rejected\", \"Expired\")",
+              "permanent": "",
+              "rightSlot": {
+                "id": "ZQkZPxBzlWb1Hi",
+                "name": "",
+                "type": "embedAction",
+                "hints": {},
+                "action": "4rGdwjaa96EPBg",
+                "variant": "contained",
+                "question": "",
+                "_selectId": "CnsIJ_DB8VniUB",
+                "condition": "",
+                "_actionName": "Submit",
+                "questionHeight": "",
+                "questionLeftPad": "",
+                "questionRightPad": "",
+                "questionSpaceBefore": ""
+              },
+              "background": "",
+              "middleSlot": {
+                "id": "NXvlAR2NWULBk7",
+                "name": "progress",
+                "type": "progressbar",
+                "forms": [
+                  {
+                    "id": "qY4czISum4uqYu",
+                    "form": "allForms"
+                  }
+                ],
+                "hints": {},
+                "hideBar": false,
+                "barWidth": "50%",
+                "diameter": "40px",
+                "endLabel": "",
+                "question": "",
+                "textSize": "20px",
+                "_selectId": "tpigao7orxUdmj",
+                "condition": "value(\"$state\" eq \"New\")",
+                "lineColor": "#1da7e0",
+                "textColor": "#ededed",
+                "startLabel": "",
+                "trailColor": "#d6d6d6",
+                "endTextSize": "14px",
+                "iconOffsetX": "",
+                "iconOffsetY": "",
+                "strokeWidth": 10,
+                "dialogHeader": "Help",
+                "countTextSize": "13px",
+                "endLabelColor": "#1da7e0",
+                "showBackground": false,
+                "showPercentage": false,
+                "showSeparators": false,
+                "backgroundColor": "#ededed",
+                "clearIfDisabled": "",
+                "startLabelColor": "#000",
+                "editableCondition": ""
+              },
+              "rightMiddleSlot": null
+            },
+            {
+              "id": "S0B4iUegW7F705",
+              "name": "",
+              "side": "bottom",
+              "type": "navigation",
+              "color": "",
+              "hints": {},
+              "width": "",
+              "leftSlot": null,
+              "maxWidth": "",
+              "question": "",
+              "_selectId": "Oa60d6IMKeT4VY",
+              "condition": "valueEquals(\"$state\", \"Expired\")",
+              "permanent": "",
+              "rightSlot": null,
+              "background": "",
+              "middleSlot": {
+                "id": "rDVRIA2qv_X-tt",
+                "name": "",
+                "type": "embedAction",
+                "hints": {},
+                "action": "BJ6XoI4tXvH_5y",
+                "variant": "outlined",
+                "question": "",
+                "_selectId": "khCBEIPuEVT_0W",
+                "condition": "",
+                "_actionName": "Acknowledge",
+                "questionHeight": "",
+                "questionLeftPad": "",
+                "questionRightPad": "",
+                "questionSpaceBefore": ""
+              },
+              "rightMiddleSlot": null
+            },
+            {
+              "id": "UuXvjdIgB3dqVW",
+              "name": "",
+              "side": "bottom",
+              "type": "navigation",
+              "color": "",
+              "hints": {},
+              "width": "",
+              "maxWidth": "",
+              "question": "",
+              "_selectId": "2tUGmIW--1hFpr",
+              "condition": "value(\"$state\" eq \"Rejected\")",
+              "permanent": "",
+              "background": "",
+              "middleSlot": {
+                "id": "1OI5Kc1eFbF97g",
+                "name": "",
+                "type": "embedAction",
+                "hints": {},
+                "action": "vi0Cx1yG2CfIHz",
+                "variant": "outlined",
+                "question": "",
+                "_selectId": "HzwsT0N12kvoWT",
+                "condition": "",
+                "_actionName": "Acknowledge Rejection",
+                "questionHeight": "",
+                "questionLeftPad": "",
+                "questionRightPad": "",
+                "questionSpaceBefore": ""
+              }
+            },
+            {
+              "id": "dRq_s1sO2nEwUz",
+              "name": "progress",
+              "type": "text",
+              "hints": {
+                "hidden": true
+              },
+              "maxWidth": "",
+              "question": "",
+              "_selectId": "yCyzDGjygC2jU9",
+              "condition": "",
+              "inputLabel": "",
+              "defaultValue": "",
+              "questionHeight": "",
+              "questionLeftPad": "",
+              "questionRightPad": "",
+              "questionSpaceBefore": ""
+            }
+          ]
         },
         {
           "id": "9VVB1LDyiRGI-p",
@@ -455,7 +634,22 @@
           "_selectId": "AAIDePlOu7CrZd",
           "condition": "",
           "description": "",
-          "duplicateNames": {}
+          "duplicateNames": {},
+          "__baseQuestions": [
+            {
+              "id": "XSRjk-WZlSspfb",
+              "name": "",
+              "type": "information",
+              "hints": {},
+              "question": "<p></p>\n<p></p>\n<p></p>\n<p></p>\n<p></p>\n",
+              "_selectId": "Oh67X-HOGtS5TM",
+              "condition": "",
+              "questionHeight": "8em",
+              "questionLeftPad": "",
+              "questionRightPad": "",
+              "questionSpaceBefore": ""
+            }
+          ]
         },
         {
           "id": "SALNyestGOgtoD",
@@ -529,7 +723,62 @@
           "_selectId": "Y3POSH37mSkbEg",
           "condition": "",
           "description": "",
-          "duplicateNames": {}
+          "duplicateNames": {},
+          "__baseQuestions": [
+            {
+              "id": "RafKrj90cILrkT",
+              "name": "",
+              "type": "information",
+              "hints": {},
+              "question": "<p>Your submission requires additional information before it can be accepted.  The Contractor Check assessor has added notes to the questions that require your attention.</p>\n<p></p>\n<p>Please acknowledge this message and then make the suggested amendments.</p>\n",
+              "_selectId": "HH3AX9mieu60Zk",
+              "condition": "",
+              "questionHeight": "",
+              "questionLeftPad": "",
+              "questionRightPad": "",
+              "questionSpaceBefore": ""
+            },
+            {
+              "id": "5L-rBPKt3R8izN",
+              "name": "",
+              "type": "disableActions",
+              "hints": {},
+              "question": "",
+              "_selectId": "_T3xgd4nkQsjQE",
+              "condition": ""
+            },
+            {
+              "id": "i-vGWWxcJjgCpJ",
+              "name": "",
+              "side": "bottom",
+              "type": "navigation",
+              "color": "",
+              "hints": {},
+              "width": "",
+              "maxWidth": "",
+              "question": "",
+              "_selectId": "cUBbxc4Xjr-USh",
+              "condition": "",
+              "permanent": "",
+              "background": "",
+              "middleSlot": {
+                "id": "rnX_ep3R2IIcx6",
+                "name": "",
+                "type": "embedAction",
+                "hints": {},
+                "action": "vi0Cx1yG2CfIHz",
+                "variant": "outlined",
+                "question": "",
+                "_selectId": "AGBwn4Oh50H1li",
+                "condition": "",
+                "_actionName": "Acknowledge Rejection",
+                "questionHeight": "",
+                "questionLeftPad": "",
+                "questionRightPad": "",
+                "questionSpaceBefore": ""
+              }
+            }
+          ]
         },
         {
           "id": "TCuIy8nVNL4htr",
@@ -563,7 +812,22 @@
           "_selectId": "Titwg1_sIqS7PB",
           "condition": "",
           "description": "",
-          "duplicateNames": {}
+          "duplicateNames": {},
+          "__baseQuestions": [
+            {
+              "id": "KtGZN2e_WLCcNY",
+              "name": "",
+              "type": "information",
+              "hints": {},
+              "question": "<p>You have submitted your form to Contractor Check and your answers are now locked.  When your review is complete this screen will be updated.</p>\n<p></p>\n<p></p>\n<p><span style=\"color: rgb(0,97,131);font-size: 24px;\"><strong>YOUR ANSWERS ARE READ ONLY</strong></span></p>\n<p></p>\n<p>&nbsp;</p>\n",
+              "_selectId": "iGi1wBD1MDnnfe",
+              "condition": "",
+              "questionHeight": "10em",
+              "questionLeftPad": "",
+              "questionRightPad": "",
+              "questionSpaceBefore": ""
+            }
+          ]
         },
         {
           "id": "UgxexFOaXlQgnE",
@@ -597,7 +861,22 @@
           "_selectId": "QQlpiwigbT8yWH",
           "condition": "",
           "description": "",
-          "duplicateNames": {}
+          "duplicateNames": {},
+          "__baseQuestions": [
+            {
+              "id": "8Jk0Gxgr2L2WnI",
+              "name": "",
+              "type": "information",
+              "hints": {},
+              "question": "<p><span style=\"color: rgb(0,97,131);font-size: 24px;\"><strong>Health and Safety Accreditation Completion on {qcAcceptedDate:date=medium} - Read Only</strong></span></p>\n<p></p>\n",
+              "_selectId": "3ScKVhFYDIxio6",
+              "condition": "",
+              "questionHeight": "10em",
+              "questionLeftPad": "",
+              "questionRightPad": "",
+              "questionSpaceBefore": ""
+            }
+          ]
         },
         {
           "id": "n4DwjSOd_bZOe3",
@@ -631,7 +910,22 @@
           "_selectId": "q7gnf2P_sFtw63",
           "condition": "",
           "description": "",
-          "duplicateNames": {}
+          "duplicateNames": {},
+          "__baseQuestions": [
+            {
+              "id": "8GPWJ4MRwNPecT",
+              "name": "",
+              "type": "information",
+              "hints": {},
+              "question": "<p>&nbsp;</p>\n",
+              "_selectId": "Zf4h9CDFqmvtiw",
+              "condition": "",
+              "questionHeight": "2em",
+              "questionLeftPad": "",
+              "questionRightPad": "",
+              "questionSpaceBefore": ""
+            }
+          ]
         },
         {
           "id": "IKy6kbhCQZEKQu",
@@ -668,7 +962,25 @@
           "_selectId": "3bRxxYs1fj90RZ",
           "condition": "",
           "description": "",
-          "duplicateNames": {}
+          "duplicateNames": {},
+          "__baseQuestions": [
+            {
+              "id": "NyAuYboZAzm-Wg",
+              "name": "",
+              "type": "title",
+              "color": "#ffffff",
+              "hints": {},
+              "title": "Document Expiry",
+              "question": "<p>One or more of the documents uploaded have expired.  You should upload the updated documents to reinstate your approved status</p>\n",
+              "_selectId": "jNfTBlxaXJ-JaB",
+              "condition": "",
+              "questionHeight": "",
+              "backgroundColor": "#d26a37",
+              "questionLeftPad": "",
+              "questionRightPad": "",
+              "questionSpaceBefore": ""
+            }
+          ]
         },
         {
           "id": "mupnc0cVXhPFY7",
@@ -697,7 +1009,18 @@
           ],
           "_selectId": "WIn7Egp28MH7Zd",
           "condition": "",
-          "description": ""
+          "description": "",
+          "__baseQuestions": [
+            {
+              "id": "JaJIzl5KzlRA0W",
+              "name": "",
+              "type": "disableActions",
+              "hints": {},
+              "question": "",
+              "_selectId": "7jqswhpCrpcJAT",
+              "condition": ""
+            }
+          ]
         }
       ],
       "styled": [
@@ -729,6 +1052,12 @@
               "id": "-v_8k15xRs8iZ5",
               "type": "normal",
               "field": "linkedProfile",
+              "defaultValue": ""
+            },
+            {
+              "id": "jy2R1-LY7-Ogme",
+              "type": "normal",
+              "field": "profile",
               "defaultValue": ""
             }
           ],
@@ -2602,10 +2931,13 @@
   "__hideBehaviours": true,
   "__hidePublishing": true,
   "documentBackdrop": "#f4f4f4",
-  "_updatersExpanded": true,
+  "_updatersExpanded": false,
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
-  "__behaviourCollapse": {},
+  "__behaviourCollapse": {
+    "forms": true,
+    "updater": true
+  },
   "devices-allowed-html": "",
   "isLockedByCurrentUser": false
 }
