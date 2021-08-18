@@ -1,6 +1,6 @@
 [
   {
-    "__": "R1XO965FDMKtsL",
+    "__": "rSk_sISPCrZaVJ",
     "_id": "0pBBN3JGvJXvK6-UXlXJ3hYoZG3bS:hestia/versions",
     "__id": "0pBBN3JGvJXvK6:hestia/document-types",
     "icon": "",
@@ -199,7 +199,7 @@
     "_deleted": 0,
     "database": "contractorcheck",
     "maxWidth": 1000,
-    "_modified": 1629208383000,
+    "_modified": 1629267540000,
     "components": "",
     "navigation": [],
     "_behaviours": {
@@ -446,6 +446,33 @@
             "condition": "",
             "description": "",
             "duplicateNames": {}
+          }
+        ],
+        "indexer": [
+          {
+            "id": "rBlqpa80Aj3EMU",
+            "__init": true,
+            "address": [
+              {
+                "id": "eqFrHxGbhMI6iF",
+                "type": "normal",
+                "field": "email",
+                "defaultValue": ""
+              },
+              {
+                "id": "9LTc7kDgOdWA9p",
+                "type": "normal",
+                "field": "company",
+                "defaultValue": ""
+              },
+              {
+                "id": "UFKR5XzuNb_DWD",
+                "type": "normal",
+                "field": "primary",
+                "defaultValue": ""
+              }
+            ],
+            "_selectId": "bpZHkhjS6FQsUE"
           }
         ],
         "userMaker": [
