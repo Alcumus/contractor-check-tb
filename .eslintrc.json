@@ -1,0 +1,33 @@
+{
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "plugins": ["@typescript-eslint", "react", "react-hooks", "react-native", "detox", "prettier"],
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:react/recommended",
+        "plugin:react-hooks/recommended"
+    ],
+    "env": {
+        "browser": true,
+        "react-native/react-native": true
+    },
+    "globals": {
+        "element": true,
+        "by": true,
+        "device": true
+    },
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    },
+    "rules": {
+        "react-native/no-color-literals": 0,
+        "react-native/no-inline-styles": 0,
+        "react/prop-types": 0,
+        "react-native/no-unused-styles": 2,
+        "no-unused-vars": "off",
+        "@typescript-eslint/no-unused-vars": ["warn"]
+    }
+}
