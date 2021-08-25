@@ -1,6 +1,6 @@
 [
   {
-    "__": "BnaHuSLbfFI5YS",
+    "__": "KNyZz4j45ZHajb",
     "_id": "ml1yfsXXMoUlIB-wus62saS3YkL0O:hestia/versions",
     "__id": "ml1yfsXXMoUlIB:hestia/document-types",
     "icon": "FaAccusoft",
@@ -194,7 +194,7 @@
     "_deleted": 0,
     "database": "zuci",
     "maxWidth": 1000,
-    "_modified": 1629895607000,
+    "_modified": 1629899248648,
     "navigation": [],
     "_behaviours": {
       "_state": "",
@@ -247,7 +247,41 @@
             "_selectId": "-fhp3-DBYgvUuB",
             "condition": "",
             "description": "",
-            "duplicateNames": {}
+            "duplicateNames": {},
+            "__baseQuestions": [
+              {
+                "id": "NTj8Hr6pYvWB89",
+                "name": "",
+                "type": "title",
+                "color": "",
+                "hints": {},
+                "title": "Todo",
+                "question": "",
+                "_selectId": "_5wqoGAqFNdDBc",
+                "condition": "",
+                "questionHeight": "",
+                "backgroundColor": "",
+                "questionLeftPad": "",
+                "questionRightPad": "",
+                "questionSpaceBefore": ""
+              },
+              {
+                "id": "b8kaLL8Rjlie9a",
+                "name": "todo",
+                "type": "text",
+                "hints": {},
+                "maxWidth": "",
+                "question": "",
+                "_selectId": "kil7rNNLJu_R1C",
+                "condition": "",
+                "inputLabel": "What do you want to do?",
+                "defaultValue": "",
+                "questionHeight": "",
+                "questionLeftPad": "",
+                "questionRightPad": "",
+                "questionSpaceBefore": ""
+              }
+            ]
           },
           {
             "id": "GWHNaqJxIp5lNx",
@@ -284,7 +318,25 @@
             "_selectId": "YK4H7Joj5P_w4L",
             "condition": "",
             "description": "",
-            "duplicateNames": {}
+            "duplicateNames": {},
+            "__baseQuestions": [
+              {
+                "id": "Qn6vR_C4JGNeY9",
+                "name": "",
+                "type": "title",
+                "color": "#ffffff",
+                "hints": {},
+                "title": "THIS TASK IS ACTIVE",
+                "question": "",
+                "_selectId": "U-Yce9slfrErP_",
+                "condition": "",
+                "questionHeight": "",
+                "backgroundColor": "#f50057",
+                "questionLeftPad": "",
+                "questionRightPad": "",
+                "questionSpaceBefore": ""
+              }
+            ]
           },
           {
             "id": "GFXFrclU7mXglW",
@@ -339,7 +391,43 @@
             "_selectId": "Sw_CPMn6HoaWEp",
             "condition": "",
             "description": "",
-            "duplicateNames": {}
+            "duplicateNames": {},
+            "__baseQuestions": [
+              {
+                "id": "qzcf_yAVeHPrIu",
+                "name": "",
+                "type": "title",
+                "color": "#f50057",
+                "hints": {},
+                "title": "This was cancelled",
+                "question": "",
+                "_selectId": "ahwRfxB3b-VsaB",
+                "condition": "",
+                "questionHeight": "",
+                "backgroundColor": "#a56308",
+                "questionLeftPad": "",
+                "questionRightPad": "",
+                "questionSpaceBefore": ""
+              },
+              {
+                "id": "55AUOL4rduPyxG",
+                "name": "cancellationReason",
+                "type": "text",
+                "hints": {
+                  "multi_line": true
+                },
+                "maxWidth": "",
+                "question": "",
+                "_selectId": "Uvm5UwgFv3DbKG",
+                "condition": "",
+                "inputLabel": "",
+                "defaultValue": "",
+                "questionHeight": "",
+                "questionLeftPad": "",
+                "questionRightPad": "",
+                "questionSpaceBefore": ""
+              }
+            ]
           }
         ],
         "formAction": [
@@ -533,6 +621,27 @@
             ],
             "visibleDemands": []
           }
+        ],
+        "viewAsText": [
+          {
+            "id": "0YfvA-BUtmpynR",
+            "name": "Default text view",
+            "fields": [
+              {
+                "id": "K9zYZgl-tMt7oQ",
+                "field": "todo",
+                "locale": "",
+                "separator": " ",
+                "transform": "none",
+                "defaultValue": ""
+              }
+            ],
+            "_selectId": "V0Ivue2KulXpqo",
+            "availableActions": [
+              "b-M_RPyJpQe4_6",
+              "EX5XFn1QnlD-Zy"
+            ]
+          }
         ]
       }
     },
@@ -543,8 +652,10 @@
     "defaultState": "New",
     "sidebarColor": "#333",
     "tabsSelected": "#009fda",
+    "__hideRecords": true,
     "documentColor": "#333",
-    "_activeVersion": "VeNHdOPtlNINun",
+    "_activeVersion": "wus62saS3YkL0O",
+    "_parentVersion": "",
     "currentVersion": {
       "live": "v 1.0",
       "testing": "v 1.0",
@@ -556,6 +667,7 @@
     "defaultActivity": null,
     "sideBarMinWidth": 150,
     "__hideBehaviours": true,
+    "__hidePublishing": true,
     "documentBackdrop": "#f4f4f4",
     "sidebarBackground": "#fff",
     "documentBackground": "#f4f4f4",
