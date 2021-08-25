@@ -1,5 +1,5 @@
 {
-  "__": "IBk2l2Q2mSjDKl",
+  "__": "KcZJ-NBCsqkbGN",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -212,11 +212,20 @@
   "maxWidth": 1000,
   "versions": [
     {
+      "id": "Ha0jv1IH2rydK6",
+      "name": "v With Logger and fields",
+      "time": 1629897118978,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": false,
+      "_selectId": "YdrdJFskcXU1DI",
+      "parentVersion": "gUT4lBYCbpuJYM"
+    },
+    {
       "id": "gUT4lBYCbpuJYM",
       "name": "With Logger",
       "time": 1629896266360,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-      "locked": false,
+      "locked": true,
       "_selectId": "19mlo5JVZfnH-j",
       "parentVersion": "zk0gwNadHUfzTE"
     },
@@ -225,7 +234,7 @@
       "name": "Updated linked profile",
       "time": 1629133976780,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-      "locked": false,
+      "locked": true,
       "_selectId": "ZoiHEupjeRqPJg",
       "parentVersion": "GmG8PN_c_6Ta_E"
     },
@@ -266,15 +275,15 @@
       "parentVersion": ""
     },
     {
-      "id": "Ha0jv1IH2rydK6",
-      "name": "v With Logger and fields",
-      "time": 1629897118978,
+      "id": "dzw_SzyRM7ccRU",
+      "name": "With Extract String",
+      "time": 1629897769793,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "parentVersion": "gUT4lBYCbpuJYM"
+      "parentVersion": "Ha0jv1IH2rydK6"
     }
   ],
-  "_modified": 1629893519000,
+  "_modified": 1629894170000,
   "components": "navigation,relationship",
   "isLockedBy": null,
   "navigation": [],
@@ -2234,6 +2243,7 @@
           "name": "This is my logger",
           "__init": true,
           "enabled": true,
+          "extract": "Company name is {companyName} it trades as {tradingNames} the unique ID of this company is {resolveId(_id)}",
           "_selectId": "SkkvBUt1M5LChs",
           "fieldsToLog": [
             {
@@ -2509,12 +2519,12 @@
   "__hideRecords": true,
   "__warnReasons": [],
   "documentColor": "#333",
-  "_activeVersion": "dzw_SzyRM7ccRU",
-  "_parentVersion": "Ha0jv1IH2rydK6",
+  "_activeVersion": "3F59MF8QOX9dDs",
+  "_parentVersion": "dzw_SzyRM7ccRU",
   "currentVersion": {
-    "live": "v With Logger and fields",
-    "testing": "v With Logger and fields",
-    "development": "v With Logger and fields"
+    "live": "With Extract String",
+    "testing": "With Extract String",
+    "development": "With Extract String"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
