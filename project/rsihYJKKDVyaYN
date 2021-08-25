@@ -1,585 +1,14 @@
 {
-  "__": "mwLYE6I7UWPD7D",
+  "__": "E-ROEJ7h_MoyxO",
   "_id": "rsihYJKKDVyaYN:hestia/project",
   "name": "Project",
   "$valid": true,
   "client": "rsihYJKKDVyaYN",
   "_client": "rsihYJKKDVyaYN",
   "$invalid": false,
-  "_created": 1621327545000,
+  "_created": 1629879204000,
   "_deleted": 0,
-  "_modified": 1627305897000,
-  "components": "graph-ql",
-  "_behaviours": {
-    "instances": {
-      "gitSync": [
-        {
-          "id": "aV8boSk1D6q6YG",
-          "name": "Contractor Check",
-          "__init": true,
-          "branch": "mike",
-          "publish": true,
-          "_selectId": "kXt05PM8SXjVtT",
-          "Repository": "Alcumus/contractor-check-tb",
-          "publishThemes": true,
-          "publishTopics": true,
-          "publishProject": true
-        },
-        {
-          "id": "1J8739KZBOtzVQ",
-          "name": "Main Branch",
-          "__init": true,
-          "branch": "main",
-          "publish": "",
-          "_selectId": "ljaT4Mdk06ow3_",
-          "Repository": "Alcumus/contractor-check-tb",
-          "publishThemes": "",
-          "publishTopics": "",
-          "publishProject": ""
-        },
-        {
-          "id": "c5NB8L8axiOpyP",
-          "name": "feature",
-          "__init": true,
-          "branch": "feature",
-          "publish": false,
-          "_selectId": "ZZAzqgwfqX_0vA",
-          "Repository": "Alcumus/contractor-check-tb",
-          "publishThemes": false,
-          "publishTopics": false,
-          "publishProject": false
-        }
-      ],
-      "dataMaker": [
-        {
-          "id": "2EybyS4D-ROgcB",
-          "types": [
-            {
-              "id": "FXWoimlmGc-QqO",
-              "type": "WdoYmj-FOBFYri:hestia/document-types",
-              "fields": [
-                {
-                  "id": "wBJuifNj01sA-X",
-                  "type": "list",
-                  "faked": "{name.jobType} {name.gender} {address.cardinalDirection}",
-                  "field": "$state",
-                  "choices": "New\nSaved",
-                  "maxText": 1,
-                  "minText": 1,
-                  "multiple": false,
-                  "textType": "word",
-                  "_expanded": false,
-                  "fieldType": "State name",
-                  "maxNumber": 100,
-                  "minNumber": 1,
-                  "randomType": "text",
-                  "generateType": "j0P98w9sl6QXZo:hestia/document-types",
-                  "generateTypeName": "Audit Trail"
-                },
-                {
-                  "id": "Q-YMPo0jIVe4Zh",
-                  "type": "random",
-                  "faked": "{fake.company.companyName} {fake.company.companySuffix}",
-                  "field": "companyName",
-                  "choices": "",
-                  "maxText": 1,
-                  "minText": 1,
-                  "textType": "word",
-                  "_expanded": false,
-                  "maxNumber": 100,
-                  "minNumber": 1,
-                  "randomType": "text",
-                  "generateType": "WdoYmj-FOBFYri:hestia/document-types",
-                  "generateTypeName": "Company Profile"
-                },
-                {
-                  "id": "AUkWTeQ1S3RAj2",
-                  "type": "random",
-                  "faked": "",
-                  "field": "description",
-                  "maxText": "2",
-                  "minText": 1,
-                  "textType": "paragraph",
-                  "_expanded": false,
-                  "randomType": "words"
-                },
-                {
-                  "id": "qe2-rl73OV3Pdc",
-                  "type": "random",
-                  "faked": "{fake.address.streetAddress}",
-                  "field": "address",
-                  "choices": "",
-                  "multiple": false,
-                  "_expanded": false,
-                  "fieldType": "text",
-                  "randomType": "text"
-                },
-                {
-                  "id": "aefWI_5Yr38zLw",
-                  "type": "random",
-                  "faked": "{fake.address.cityName}",
-                  "field": "City",
-                  "choices": "",
-                  "maxText": 1,
-                  "minText": 1,
-                  "multiple": false,
-                  "textType": "word",
-                  "_expanded": false,
-                  "fieldType": "text",
-                  "randomType": "text"
-                },
-                {
-                  "id": "cEDhAo9xWTvbBx",
-                  "type": "random",
-                  "faked": "{fake.address.stateAbbr}",
-                  "field": "state",
-                  "_expanded": false,
-                  "randomType": "text"
-                },
-                {
-                  "id": "j7jUn_DT3RsVWU",
-                  "type": "random",
-                  "faked": "{fake.address.zipCode}",
-                  "field": "ZIP",
-                  "_expanded": false,
-                  "randomType": "text"
-                },
-                {
-                  "id": "T-FpcL2EgNmECc",
-                  "type": "random",
-                  "faked": "Canada",
-                  "field": "headOfficeCountry",
-                  "choice": true,
-                  "choices": "",
-                  "multiple": false,
-                  "_expanded": false,
-                  "fieldType": "choice",
-                  "randomType": "text",
-                  "fieldChoices": [
-                    {
-                      "label": "Canada",
-                      "value": "Canada"
-                    },
-                    {
-                      "label": "US",
-                      "value": "US"
-                    }
-                  ]
-                },
-                {
-                  "id": "G4-InzdC-wujZI",
-                  "type": "random",
-                  "faked": "{fake.internet.email}",
-                  "field": "email",
-                  "choices": "",
-                  "multiple": false,
-                  "_expanded": false,
-                  "fieldType": "text",
-                  "randomType": "text"
-                },
-                {
-                  "id": "fC7GsaTef843dv",
-                  "type": "list",
-                  "field": "country",
-                  "choice": true,
-                  "choices": "",
-                  "maximum": "2",
-                  "minimum": 1,
-                  "multiple": true,
-                  "_expanded": false,
-                  "fieldType": "choice",
-                  "fieldChoices": [
-                    {
-                      "label": "Canada",
-                      "value": "Canada"
-                    },
-                    {
-                      "label": "US",
-                      "value": "US"
-                    }
-                  ]
-                },
-                {
-                  "id": "o33w1gYoWIP8qv",
-                  "type": "random",
-                  "faked": "",
-                  "field": "numberOfEmployees",
-                  "choice": true,
-                  "choices": "",
-                  "maximum": 1,
-                  "minimum": 1,
-                  "multiple": false,
-                  "_expanded": false,
-                  "fieldType": "number",
-                  "maxNumber": "500",
-                  "minNumber": 1,
-                  "randomType": "number",
-                  "generateType": "rH6EL6EJjx3vGG:hestia/document-types"
-                },
-                {
-                  "id": "eFdeiYk0sQ_CWp",
-                  "type": "list",
-                  "field": "workActivities",
-                  "choice": true,
-                  "choices": "",
-                  "maximum": "4",
-                  "minimum": "2",
-                  "multiple": true,
-                  "_expanded": false,
-                  "fieldType": "lookup",
-                  "generateType": "rH6EL6EJjx3vGG:hestia/document-types"
-                },
-                {
-                  "id": "tKdZL4aq7rFT0S",
-                  "type": "random",
-                  "faked": "yes",
-                  "field": "doYouContract",
-                  "choice": true,
-                  "multiple": false,
-                  "_expanded": false,
-                  "fieldType": "choice",
-                  "randomType": "text",
-                  "fieldChoices": [
-                    {
-                      "label": "Yes",
-                      "value": "yes"
-                    },
-                    {
-                      "label": "No",
-                      "value": "no"
-                    }
-                  ]
-                },
-                {
-                  "id": "MvBAfNonZ-qCli",
-                  "type": "random",
-                  "faked": "no",
-                  "field": "doYouUseContractors",
-                  "choice": true,
-                  "multiple": false,
-                  "_expanded": false,
-                  "fieldType": "choice",
-                  "randomType": "text",
-                  "fieldChoices": [
-                    {
-                      "label": "Yes",
-                      "value": "yes"
-                    },
-                    {
-                      "label": "No",
-                      "value": "no"
-                    }
-                  ]
-                }
-              ],
-              "children": [
-                {
-                  "id": "HRCYMPQxzFlNeL",
-                  "type": "zSq4uYg_gBBWqY:hestia/document-types",
-                  "fields": [
-                    {
-                      "id": "WDd0cAFckXa7NV",
-                      "type": "random",
-                      "faked": "",
-                      "field": "client",
-                      "_expanded": false,
-                      "randomType": "record",
-                      "generateType": "WdoYmj-FOBFYri:hestia/document-types",
-                      "generateFilter": {
-                        "$and": [
-                          {
-                            "doYouUseContractors": {
-                              "$in": [
-                                "yes"
-                              ]
-                            }
-                          }
-                        ]
-                      },
-                      "generateTypeName": "Company Profile"
-                    },
-                    {
-                      "id": "8g6sGfXrwinhCv",
-                      "type": "random",
-                      "faked": "{$companyProfile}",
-                      "field": "contractor",
-                      "_expanded": false,
-                      "randomType": "text"
-                    },
-                    {
-                      "id": "LmDz2jZUllPsLc",
-                      "type": "list",
-                      "faked": "",
-                      "field": "contractorConfirms",
-                      "choice": false,
-                      "choices": "yes\nyes\nyes\nyes\nyes\nno\nrequested\nrequested",
-                      "multiple": false,
-                      "_expanded": false,
-                      "fieldType": "choice",
-                      "randomType": "text",
-                      "fieldChoices": [
-                        {
-                          "label": "requested",
-                          "value": "requested"
-                        },
-                        {
-                          "label": "yes",
-                          "value": "yes"
-                        },
-                        {
-                          "label": "no",
-                          "value": "no"
-                        }
-                      ]
-                    },
-                    {
-                      "id": "Azuwrp_C0JHppU",
-                      "type": "list",
-                      "faked": "",
-                      "field": "clientConfirms",
-                      "choice": "",
-                      "choices": "yes\nyes\nyes\nyes\nyes\nno\nrequested\nrequested",
-                      "multiple": false,
-                      "_expanded": false,
-                      "fieldType": "choice",
-                      "randomType": "text",
-                      "fieldChoices": [
-                        {
-                          "label": "requested",
-                          "value": "requested"
-                        },
-                        {
-                          "label": "yes",
-                          "value": "yes"
-                        },
-                        {
-                          "label": "no",
-                          "value": "no"
-                        }
-                      ]
-                    },
-                    {
-                      "id": "bYpKdqLJ4rWG0f",
-                      "type": "random",
-                      "faked": "{if(and(compare(contractorConfirms eq \"requested\"), compare(clientConfirms eq \"requested\")) yes:raw clientConfirms)}",
-                      "field": "clientConfirms",
-                      "_expanded": false,
-                      "randomType": "text"
-                    },
-                    {
-                      "id": "kG0381ylSqof6Y",
-                      "type": "random",
-                      "faked": "{resolveId(client)}",
-                      "field": "__temp1",
-                      "_expanded": false,
-                      "randomType": "text"
-                    },
-                    {
-                      "id": "-myiKw3907Z2Fk",
-                      "type": "random",
-                      "faked": "{resolveId(contractor)}",
-                      "field": "__temp2",
-                      "_expanded": false,
-                      "randomType": "text"
-                    },
-                    {
-                      "id": "npP1aeSXTsqxq8",
-                      "type": "random",
-                      "faked": "{if(compare(__temp1 lt __temp2), __temp1, __temp2)}",
-                      "field": "__temp3",
-                      "_expanded": false,
-                      "randomType": "text"
-                    },
-                    {
-                      "id": "VM5vG_J_4jjr0W",
-                      "type": "random",
-                      "faked": "{if(compare(__temp1 ge __temp2), __temp1, __temp2)}",
-                      "field": "__temp4",
-                      "_expanded": false,
-                      "randomType": "text"
-                    },
-                    {
-                      "id": "E2t9dssxo70ZQK",
-                      "type": "random",
-                      "faked": "{__temp3}-{__temp4}:{$target}",
-                      "field": "_id",
-                      "_expanded": false,
-                      "randomType": "text"
-                    }
-                  ],
-                  "children": [],
-                  "recordId": "{$generatedId}:{$target}",
-                  "typeName": "Anchor Request",
-                  "_expanded": true,
-                  "fakerLocale": "en_CA",
-                  "consequences": [
-                    {
-                      "id": "GsMOmOw4EZ6nAy",
-                      "type": "fYmpCXoXNbRtVg:hestia/document-types",
-                      "fields": [
-                        {
-                          "id": "Y2DqFYCveAd1pI",
-                          "type": "list",
-                          "faked": "",
-                          "field": "$state",
-                          "choices": "New\nNew\nSubmitted\nSubmitted\nSubmitted\nSubmitted\nSubmitted",
-                          "multiple": false,
-                          "_expanded": true,
-                          "fieldType": "State name",
-                          "randomType": "text"
-                        }
-                      ],
-                      "matchId": "",
-                      "children": [],
-                      "typeName": "Contractor Questionnaire",
-                      "_expanded": false,
-                      "matchQuery": {
-                        "$and": [
-                          {
-                            "assessmentType": {
-                              "$ne": "general"
-                            }
-                          }
-                        ]
-                      },
-                      "consequences": [
-                        {
-                          "id": "yKIaOoMcHc7NEQ",
-                          "type": "R720NeuU8vOWuo:hestia/document-types",
-                          "fields": [
-                            {
-                              "id": "RT27-YIVMynhOB",
-                              "type": "list",
-                              "faked": "",
-                              "field": "$state",
-                              "choices": "New\nMaster List\nMaster List\nMaster List",
-                              "multiple": false,
-                              "_expanded": true,
-                              "fieldType": "State name",
-                              "randomType": "text"
-                            }
-                          ],
-                          "matchId": "",
-                          "children": [],
-                          "typeName": "Assessor Questionnaire",
-                          "_expanded": true,
-                          "matchQuery": {
-                            "$and": [
-                              {
-                                "assessmentType": {
-                                  "$ne": "general"
-                                }
-                              }
-                            ]
-                          },
-                          "consequences": [],
-                          "_fieldsCollapsed": true
-                        }
-                      ]
-                    }
-                  ],
-                  "_fieldsCollapsed": true,
-                  "createMaxDocuments": "4",
-                  "createMinDocuments": "1"
-                }
-              ],
-              "recordId": "{$generatedId}:{$target}",
-              "typeName": "Company Profile",
-              "_expanded": true,
-              "fakerLocale": "en_CA",
-              "consequences": [
-                {
-                  "id": "lSZYukQErvjNNd",
-                  "type": "fYmpCXoXNbRtVg:hestia/document-types",
-                  "fields": [
-                    {
-                      "id": "drjTzfUS9AAAtW",
-                      "type": "list",
-                      "faked": "",
-                      "field": "$state",
-                      "choices": "New\nSubmitted\nSubmitted\nSubmitted\nSubmitted\nSubmitted\nSubmitted",
-                      "multiple": false,
-                      "_expanded": false,
-                      "fieldType": "State name",
-                      "randomType": "text"
-                    }
-                  ],
-                  "matchId": "",
-                  "children": [],
-                  "typeName": "Contractor Questionnaire",
-                  "_expanded": true,
-                  "matchQuery": {
-                    "$and": [
-                      {
-                        "assessmentType": {
-                          "$eq": "general"
-                        }
-                      }
-                    ]
-                  },
-                  "consequences": [
-                    {
-                      "id": "1oxVkOikjsgkut",
-                      "type": "R720NeuU8vOWuo:hestia/document-types",
-                      "fields": [
-                        {
-                          "id": "I-AgctMrorbGd_",
-                          "type": "list",
-                          "faked": "",
-                          "field": "$state",
-                          "choices": "New\nMaster List\nMaster List\nMaster List\nMaster List\nMaster List",
-                          "multiple": false,
-                          "_expanded": false,
-                          "fieldType": "State name",
-                          "randomType": "text"
-                        }
-                      ],
-                      "matchId": "",
-                      "children": [],
-                      "typeName": "Assessor Questionnaire",
-                      "_expanded": true,
-                      "matchQuery": {
-                        "$and": [
-                          {
-                            "assessmentType": {
-                              "$eq": "general"
-                            }
-                          }
-                        ]
-                      },
-                      "consequences": []
-                    }
-                  ]
-                }
-              ],
-              "_fieldsCollapsed": true,
-              "createMaxDocuments": "200",
-              "createMinDocuments": "200"
-            }
-          ],
-          "__init": true,
-          "caption": "Make up data",
-          "_selectId": "d6p3jwU6WSgmL2"
-        }
-      ],
-      "graphQLApi": [
-        {
-          "id": "6g4mciY7jkfOUo",
-          "name": "ccgraphql",
-          "__init": true,
-          "basePath": "/ccgraphql",
-          "_selectId": "yci2Re31GMIyfu",
-          "subscriptionPort": 4001
-        }
-      ]
-    },
-    "_state": ""
-  },
-  "_components": true,
-  "_activeVersion": "xCxBokc4Bk9k68",
-  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-  "__hideBehaviours": true,
-  "__behaviourCollapse": {},
+  "_modified": 1629881265000,
   "_original": {
     "__": "mwLYE6I7UWPD7D",
     "_id": "rsihYJKKDVyaYN:hestia/project",
@@ -1162,5 +591,552 @@
     "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "__hideBehaviours": true,
     "__behaviourCollapse": {}
-  }
+  },
+  "components": "graph-ql",
+  "_behaviours": {
+    "_state": "",
+    "instances": {
+      "gitSync": [
+        {
+          "id": "aV8boSk1D6q6YG",
+          "name": "Contractor Check Staging",
+          "__init": true,
+          "branch": "staging",
+          "publish": true,
+          "_selectId": "kXt05PM8SXjVtT",
+          "Repository": "Alcumus/contractor-check-tb",
+          "publishThemes": true,
+          "publishTopics": true,
+          "publishProject": true
+        }
+      ],
+      "dataMaker": [
+        {
+          "id": "2EybyS4D-ROgcB",
+          "types": [
+            {
+              "id": "FXWoimlmGc-QqO",
+              "type": "WdoYmj-FOBFYri:hestia/document-types",
+              "fields": [
+                {
+                  "id": "wBJuifNj01sA-X",
+                  "type": "list",
+                  "faked": "{name.jobType} {name.gender} {address.cardinalDirection}",
+                  "field": "$state",
+                  "choices": "New\nSaved",
+                  "maxText": 1,
+                  "minText": 1,
+                  "multiple": false,
+                  "textType": "word",
+                  "_expanded": false,
+                  "fieldType": "State name",
+                  "maxNumber": 100,
+                  "minNumber": 1,
+                  "randomType": "text",
+                  "generateType": "j0P98w9sl6QXZo:hestia/document-types",
+                  "generateTypeName": "Audit Trail"
+                },
+                {
+                  "id": "Q-YMPo0jIVe4Zh",
+                  "type": "random",
+                  "faked": "{fake.company.companyName} {fake.company.companySuffix}",
+                  "field": "companyName",
+                  "choices": "",
+                  "maxText": 1,
+                  "minText": 1,
+                  "textType": "word",
+                  "_expanded": false,
+                  "maxNumber": 100,
+                  "minNumber": 1,
+                  "randomType": "text",
+                  "generateType": "WdoYmj-FOBFYri:hestia/document-types",
+                  "generateTypeName": "Company Profile"
+                },
+                {
+                  "id": "AUkWTeQ1S3RAj2",
+                  "type": "random",
+                  "faked": "",
+                  "field": "description",
+                  "maxText": "2",
+                  "minText": 1,
+                  "textType": "paragraph",
+                  "_expanded": false,
+                  "randomType": "words"
+                },
+                {
+                  "id": "qe2-rl73OV3Pdc",
+                  "type": "random",
+                  "faked": "{fake.address.streetAddress}",
+                  "field": "address",
+                  "choices": "",
+                  "multiple": false,
+                  "_expanded": false,
+                  "fieldType": "text",
+                  "randomType": "text"
+                },
+                {
+                  "id": "aefWI_5Yr38zLw",
+                  "type": "random",
+                  "faked": "{fake.address.cityName}",
+                  "field": "City",
+                  "choices": "",
+                  "maxText": 1,
+                  "minText": 1,
+                  "multiple": false,
+                  "textType": "word",
+                  "_expanded": false,
+                  "fieldType": "text",
+                  "randomType": "text"
+                },
+                {
+                  "id": "cEDhAo9xWTvbBx",
+                  "type": "random",
+                  "faked": "{fake.address.stateAbbr}",
+                  "field": "state",
+                  "_expanded": false,
+                  "randomType": "text"
+                },
+                {
+                  "id": "j7jUn_DT3RsVWU",
+                  "type": "random",
+                  "faked": "{fake.address.zipCode}",
+                  "field": "ZIP",
+                  "_expanded": false,
+                  "randomType": "text"
+                },
+                {
+                  "id": "T-FpcL2EgNmECc",
+                  "type": "random",
+                  "faked": "Canada",
+                  "field": "headOfficeCountry",
+                  "choice": true,
+                  "choices": "",
+                  "multiple": false,
+                  "_expanded": false,
+                  "fieldType": "choice",
+                  "randomType": "text",
+                  "fieldChoices": [
+                    {
+                      "label": "Canada",
+                      "value": "Canada"
+                    },
+                    {
+                      "label": "US",
+                      "value": "US"
+                    }
+                  ]
+                },
+                {
+                  "id": "G4-InzdC-wujZI",
+                  "type": "random",
+                  "faked": "{fake.internet.email}",
+                  "field": "email",
+                  "choices": "",
+                  "multiple": false,
+                  "_expanded": false,
+                  "fieldType": "text",
+                  "randomType": "text"
+                },
+                {
+                  "id": "fC7GsaTef843dv",
+                  "type": "list",
+                  "field": "country",
+                  "choice": true,
+                  "choices": "",
+                  "maximum": "2",
+                  "minimum": 1,
+                  "multiple": true,
+                  "_expanded": false,
+                  "fieldType": "choice",
+                  "fieldChoices": [
+                    {
+                      "label": "Canada",
+                      "value": "Canada"
+                    },
+                    {
+                      "label": "US",
+                      "value": "US"
+                    }
+                  ]
+                },
+                {
+                  "id": "o33w1gYoWIP8qv",
+                  "type": "random",
+                  "faked": "",
+                  "field": "numberOfEmployees",
+                  "choice": true,
+                  "choices": "",
+                  "maximum": 1,
+                  "minimum": 1,
+                  "multiple": false,
+                  "_expanded": false,
+                  "fieldType": "number",
+                  "maxNumber": "500",
+                  "minNumber": 1,
+                  "randomType": "number",
+                  "generateType": "rH6EL6EJjx3vGG:hestia/document-types"
+                },
+                {
+                  "id": "eFdeiYk0sQ_CWp",
+                  "type": "list",
+                  "field": "workActivities",
+                  "choice": true,
+                  "choices": "",
+                  "maximum": "4",
+                  "minimum": "2",
+                  "multiple": true,
+                  "_expanded": false,
+                  "fieldType": "lookup",
+                  "generateType": "rH6EL6EJjx3vGG:hestia/document-types"
+                },
+                {
+                  "id": "tKdZL4aq7rFT0S",
+                  "type": "random",
+                  "faked": "yes",
+                  "field": "doYouContract",
+                  "choice": true,
+                  "multiple": false,
+                  "_expanded": false,
+                  "fieldType": "choice",
+                  "randomType": "text",
+                  "fieldChoices": [
+                    {
+                      "label": "Yes",
+                      "value": "yes"
+                    },
+                    {
+                      "label": "No",
+                      "value": "no"
+                    }
+                  ]
+                },
+                {
+                  "id": "MvBAfNonZ-qCli",
+                  "type": "random",
+                  "faked": "no",
+                  "field": "doYouUseContractors",
+                  "choice": true,
+                  "multiple": false,
+                  "_expanded": false,
+                  "fieldType": "choice",
+                  "randomType": "text",
+                  "fieldChoices": [
+                    {
+                      "label": "Yes",
+                      "value": "yes"
+                    },
+                    {
+                      "label": "No",
+                      "value": "no"
+                    }
+                  ]
+                }
+              ],
+              "children": [
+                {
+                  "id": "HRCYMPQxzFlNeL",
+                  "type": "zSq4uYg_gBBWqY:hestia/document-types",
+                  "fields": [
+                    {
+                      "id": "WDd0cAFckXa7NV",
+                      "type": "random",
+                      "faked": "",
+                      "field": "client",
+                      "_expanded": false,
+                      "randomType": "record",
+                      "generateType": "WdoYmj-FOBFYri:hestia/document-types",
+                      "generateFilter": {
+                        "$and": [
+                          {
+                            "doYouUseContractors": {
+                              "$in": [
+                                "yes"
+                              ]
+                            }
+                          }
+                        ]
+                      },
+                      "generateTypeName": "Company Profile"
+                    },
+                    {
+                      "id": "8g6sGfXrwinhCv",
+                      "type": "random",
+                      "faked": "{$companyProfile}",
+                      "field": "contractor",
+                      "_expanded": false,
+                      "randomType": "text"
+                    },
+                    {
+                      "id": "LmDz2jZUllPsLc",
+                      "type": "list",
+                      "faked": "",
+                      "field": "contractorConfirms",
+                      "choice": false,
+                      "choices": "yes\nyes\nyes\nyes\nyes\nno\nrequested\nrequested",
+                      "multiple": false,
+                      "_expanded": false,
+                      "fieldType": "choice",
+                      "randomType": "text",
+                      "fieldChoices": [
+                        {
+                          "label": "requested",
+                          "value": "requested"
+                        },
+                        {
+                          "label": "yes",
+                          "value": "yes"
+                        },
+                        {
+                          "label": "no",
+                          "value": "no"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Azuwrp_C0JHppU",
+                      "type": "list",
+                      "faked": "",
+                      "field": "clientConfirms",
+                      "choice": "",
+                      "choices": "yes\nyes\nyes\nyes\nyes\nno\nrequested\nrequested",
+                      "multiple": false,
+                      "_expanded": false,
+                      "fieldType": "choice",
+                      "randomType": "text",
+                      "fieldChoices": [
+                        {
+                          "label": "requested",
+                          "value": "requested"
+                        },
+                        {
+                          "label": "yes",
+                          "value": "yes"
+                        },
+                        {
+                          "label": "no",
+                          "value": "no"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "bYpKdqLJ4rWG0f",
+                      "type": "random",
+                      "faked": "{if(and(compare(contractorConfirms eq \"requested\"), compare(clientConfirms eq \"requested\")) yes:raw clientConfirms)}",
+                      "field": "clientConfirms",
+                      "_expanded": false,
+                      "randomType": "text"
+                    },
+                    {
+                      "id": "kG0381ylSqof6Y",
+                      "type": "random",
+                      "faked": "{resolveId(client)}",
+                      "field": "__temp1",
+                      "_expanded": false,
+                      "randomType": "text"
+                    },
+                    {
+                      "id": "-myiKw3907Z2Fk",
+                      "type": "random",
+                      "faked": "{resolveId(contractor)}",
+                      "field": "__temp2",
+                      "_expanded": false,
+                      "randomType": "text"
+                    },
+                    {
+                      "id": "npP1aeSXTsqxq8",
+                      "type": "random",
+                      "faked": "{if(compare(__temp1 lt __temp2), __temp1, __temp2)}",
+                      "field": "__temp3",
+                      "_expanded": false,
+                      "randomType": "text"
+                    },
+                    {
+                      "id": "VM5vG_J_4jjr0W",
+                      "type": "random",
+                      "faked": "{if(compare(__temp1 ge __temp2), __temp1, __temp2)}",
+                      "field": "__temp4",
+                      "_expanded": false,
+                      "randomType": "text"
+                    },
+                    {
+                      "id": "E2t9dssxo70ZQK",
+                      "type": "random",
+                      "faked": "{__temp3}-{__temp4}:{$target}",
+                      "field": "_id",
+                      "_expanded": false,
+                      "randomType": "text"
+                    }
+                  ],
+                  "children": [],
+                  "recordId": "{$generatedId}:{$target}",
+                  "typeName": "Anchor Request",
+                  "_expanded": true,
+                  "fakerLocale": "en_CA",
+                  "consequences": [
+                    {
+                      "id": "GsMOmOw4EZ6nAy",
+                      "type": "fYmpCXoXNbRtVg:hestia/document-types",
+                      "fields": [
+                        {
+                          "id": "Y2DqFYCveAd1pI",
+                          "type": "list",
+                          "faked": "",
+                          "field": "$state",
+                          "choices": "New\nNew\nSubmitted\nSubmitted\nSubmitted\nSubmitted\nSubmitted",
+                          "multiple": false,
+                          "_expanded": true,
+                          "fieldType": "State name",
+                          "randomType": "text"
+                        }
+                      ],
+                      "matchId": "",
+                      "children": [],
+                      "typeName": "Contractor Questionnaire",
+                      "_expanded": false,
+                      "matchQuery": {
+                        "$and": [
+                          {
+                            "assessmentType": {
+                              "$ne": "general"
+                            }
+                          }
+                        ]
+                      },
+                      "consequences": [
+                        {
+                          "id": "yKIaOoMcHc7NEQ",
+                          "type": "R720NeuU8vOWuo:hestia/document-types",
+                          "fields": [
+                            {
+                              "id": "RT27-YIVMynhOB",
+                              "type": "list",
+                              "faked": "",
+                              "field": "$state",
+                              "choices": "New\nMaster List\nMaster List\nMaster List",
+                              "multiple": false,
+                              "_expanded": true,
+                              "fieldType": "State name",
+                              "randomType": "text"
+                            }
+                          ],
+                          "matchId": "",
+                          "children": [],
+                          "typeName": "Assessor Questionnaire",
+                          "_expanded": true,
+                          "matchQuery": {
+                            "$and": [
+                              {
+                                "assessmentType": {
+                                  "$ne": "general"
+                                }
+                              }
+                            ]
+                          },
+                          "consequences": [],
+                          "_fieldsCollapsed": true
+                        }
+                      ]
+                    }
+                  ],
+                  "_fieldsCollapsed": true,
+                  "createMaxDocuments": "4",
+                  "createMinDocuments": "1"
+                }
+              ],
+              "recordId": "{$generatedId}:{$target}",
+              "typeName": "Company Profile",
+              "_expanded": true,
+              "fakerLocale": "en_CA",
+              "consequences": [
+                {
+                  "id": "lSZYukQErvjNNd",
+                  "type": "fYmpCXoXNbRtVg:hestia/document-types",
+                  "fields": [
+                    {
+                      "id": "drjTzfUS9AAAtW",
+                      "type": "list",
+                      "faked": "",
+                      "field": "$state",
+                      "choices": "New\nSubmitted\nSubmitted\nSubmitted\nSubmitted\nSubmitted\nSubmitted",
+                      "multiple": false,
+                      "_expanded": false,
+                      "fieldType": "State name",
+                      "randomType": "text"
+                    }
+                  ],
+                  "matchId": "",
+                  "children": [],
+                  "typeName": "Contractor Questionnaire",
+                  "_expanded": true,
+                  "matchQuery": {
+                    "$and": [
+                      {
+                        "assessmentType": {
+                          "$eq": "general"
+                        }
+                      }
+                    ]
+                  },
+                  "consequences": [
+                    {
+                      "id": "1oxVkOikjsgkut",
+                      "type": "R720NeuU8vOWuo:hestia/document-types",
+                      "fields": [
+                        {
+                          "id": "I-AgctMrorbGd_",
+                          "type": "list",
+                          "faked": "",
+                          "field": "$state",
+                          "choices": "New\nMaster List\nMaster List\nMaster List\nMaster List\nMaster List",
+                          "multiple": false,
+                          "_expanded": false,
+                          "fieldType": "State name",
+                          "randomType": "text"
+                        }
+                      ],
+                      "matchId": "",
+                      "children": [],
+                      "typeName": "Assessor Questionnaire",
+                      "_expanded": true,
+                      "matchQuery": {
+                        "$and": [
+                          {
+                            "assessmentType": {
+                              "$eq": "general"
+                            }
+                          }
+                        ]
+                      },
+                      "consequences": []
+                    }
+                  ]
+                }
+              ],
+              "_fieldsCollapsed": true,
+              "createMaxDocuments": "200",
+              "createMinDocuments": "200"
+            }
+          ],
+          "__init": true,
+          "caption": "Make up data",
+          "_selectId": "d6p3jwU6WSgmL2"
+        }
+      ],
+      "graphQLApi": [
+        {
+          "id": "6g4mciY7jkfOUo",
+          "name": "ccgraphql",
+          "__init": true,
+          "basePath": "/ccgraphql",
+          "_selectId": "yci2Re31GMIyfu",
+          "subscriptionPort": 4001
+        }
+      ]
+    }
+  },
+  "_components": true,
+  "_activeVersion": "xCxBokc4Bk9k68",
+  "_lastModifiedBy": "yRZ81Qp9q_eG14",
+  "__hideBehaviours": true,
+  "__behaviourCollapse": {}
 }
