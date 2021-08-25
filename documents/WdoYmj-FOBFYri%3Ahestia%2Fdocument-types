@@ -1,5 +1,5 @@
 {
-  "__": "S607tjAUCrY-lJ",
+  "__": "IBk2l2Q2mSjDKl",
   "_id": "WdoYmj-FOBFYri:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -264,9 +264,17 @@
       "locked": true,
       "_selectId": "2u5ga1giWzOhp1",
       "parentVersion": ""
+    },
+    {
+      "id": "Ha0jv1IH2rydK6",
+      "name": "v With Logger and fields",
+      "time": 1629897118978,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": false,
+      "parentVersion": "gUT4lBYCbpuJYM"
     }
   ],
-  "_modified": 1629892666000,
+  "_modified": 1629893519000,
   "components": "navigation,relationship",
   "isLockedBy": null,
   "navigation": [],
@@ -2226,7 +2234,24 @@
           "name": "This is my logger",
           "__init": true,
           "enabled": true,
-          "_selectId": "SkkvBUt1M5LChs"
+          "_selectId": "SkkvBUt1M5LChs",
+          "fieldsToLog": [
+            {
+              "id": "HNLb-ADGrygadU",
+              "field": "companyName",
+              "defaultValue": ""
+            },
+            {
+              "id": "ofCQn7-imLDHtY",
+              "field": "tradingNames",
+              "defaultValue": ""
+            },
+            {
+              "id": "NZVVPhOtofRLKF",
+              "field": "ZIP",
+              "defaultValue": ""
+            }
+          ]
         }
       ],
       "formAction": [
@@ -2484,12 +2509,12 @@
   "__hideRecords": true,
   "__warnReasons": [],
   "documentColor": "#333",
-  "_activeVersion": "Ha0jv1IH2rydK6",
-  "_parentVersion": "gUT4lBYCbpuJYM",
+  "_activeVersion": "dzw_SzyRM7ccRU",
+  "_parentVersion": "Ha0jv1IH2rydK6",
   "currentVersion": {
-    "live": "With Logger",
-    "testing": "With Logger",
-    "development": "With Logger"
+    "live": "v With Logger and fields",
+    "testing": "v With Logger and fields",
+    "development": "v With Logger and fields"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
