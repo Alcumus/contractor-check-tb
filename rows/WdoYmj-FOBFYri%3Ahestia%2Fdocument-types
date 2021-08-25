@@ -1,6 +1,6 @@
 [
   {
-    "__": "UCKLY3fq7YSxOz",
+    "__": "2g5vDozqDOUIff",
     "ZIP": "M5C 1S2",
     "_id": "1621266694681:companyP/companyP",
     "City": "Toronto",
@@ -46,6 +46,7 @@
           }
         ]
       },
+      "fnzT4MYYWer7Q0": {},
       "workActivities": {
         "rows": [
           {
@@ -94,7 +95,8 @@
       }
     },
     "email": "bill@smithereen.com",
-    "phone": "07979333322",
+    "phone": "123",
+    "state": "",
     "$valid": true,
     "SHARED": {},
     "client": "rsihYJKKDVyaYN",
@@ -152,7 +154,7 @@
     "_created": 1621461167000,
     "_deleted": 0,
     "_version": "Preferred Language",
-    "complete": 86,
+    "complete": 83,
     "latitude": 43.65323,
     "province": [
       "New Brunswick",
@@ -160,7 +162,7 @@
       "Alberta",
       "British Columbia"
     ],
-    "_modified": 1627566523000,
+    "_modified": 1629891055000,
     "_settings": {
       "$id": "WdoYmj-FOBFYri:hestia/document-types",
       "$state": "Assessed"
@@ -179,6 +181,7 @@
       "Gy195qKK_utUgI": {
         "ZIP": "M5C 1S2",
         "City": "Toronto",
+        "state": "",
         "address": "111 Queen Street E",
         "companyName": "Bill Smithereen Contracting",
         "headOfficeCountry": "Canada"
@@ -237,7 +240,7 @@
     ],
     "doYouContract": "yes",
     "classification": "Maintenance",
-    "complete_count": 16,
+    "complete_count": 30,
     "workActivities": [
       "hZ_qK7iOHgS-FA:workA/workA",
       "1zgco_vwvH6Uat:workA/workA",
@@ -249,8 +252,8 @@
     ],
     "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
     "_stateChangedAt": 1627381463043,
-    "complete_remain": 0,
-    "complete_complete": 16,
+    "complete_remain": 5,
+    "complete_complete": 25,
     "headOfficeCountry": "Canada",
     "numberOfEmployees": "0",
     "preferredLanguage": "en",
